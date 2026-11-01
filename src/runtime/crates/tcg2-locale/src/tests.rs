@@ -1,6 +1,9 @@
 use super::*;
-use crate::text::TX_HALFWIDTH;
+use crate::text::{TX_HALFWIDTH, Width};
+use std::collections::HashSet;
 use std::path::PathBuf;
+
+mod layout;
 
 /// A text of the decomp's `src/text/text*.asm`: its label, file and lines
 /// (as written in the source, tokens included).
@@ -94,7 +97,7 @@ fn translations_fit_their_boxes() {
                 .max()
                 .unwrap_or(0);
             let limit = 36.max(2 * japanese);
-            for (n, width) in text::line_widths(&entry.text)
+            for (n, width) in text::line_widths(&entry.text, entry.width)
                 .unwrap()
                 .into_iter()
                 .enumerate()
@@ -112,6 +115,170 @@ fn translations_fit_their_boxes() {
         }
     }
     assert!(problems.is_empty(), "{}", problems.join("\n"));
+}
+
+/// Full-width wherever it fits (`tests/layout.rs`): each full-width text
+/// fits where the game prints it, each half-width text the game prints
+/// where it would fit full-width is full-width, and so is each name the game
+/// copies into the save. With `TCG2_BLESS=1`, the
+/// translation files are rewritten to that layout instead.
+#[test]
+fn full_width_wherever_it_fits() {
+    let originals = decomp_texts();
+    let by_label: HashMap<&str, &Original> =
+        originals.iter().map(|o| (o.label.as_str(), o)).collect();
+    let texts: HashSet<String> = originals.iter().map(|o| o.label.clone()).collect();
+    let places = layout::places(&texts);
+    let bless = std::env::var_os("TCG2_BLESS").is_some();
+    let mut problems = Vec::new();
+    for language in Language::ALL {
+        let entries = language.entries().unwrap();
+        let all: Vec<&text::Entry> = entries.iter().collect();
+        let menus = layout::menus_that_fit(&all, &places);
+        let mut rewrites: HashMap<&str, HashMap<&str, Vec<String>>> = HashMap::new();
+        let by_entry: HashMap<&str, &text::Entry> =
+            entries.iter().map(|e| (e.label.as_str(), e)).collect();
+        // What a text puts in, if known and all full-width: its widest, in
+        // tiles. A run of that many blocks stands for it while laying out.
+        let put_in = |label: &str| -> Option<usize> {
+            let (_, texts) = layout::PUT_INTO.iter().find(|(h, _)| *h == label)?;
+            texts
+                .iter()
+                .map(|t| {
+                    let e = by_entry.get(t)?;
+                    let widths = text::line_widths(&e.text, Width::Full).unwrap();
+                    (e.width == Width::Full).then(|| widths.into_iter().max().unwrap() / 2)
+                })
+                .collect::<Option<Vec<_>>>()?
+                .into_iter()
+                .max()
+        };
+        for entry in &entries {
+            let at = format!("{}:{}: [{}]", entry.file, entry.line, entry.label);
+            let found = places.get(&entry.label).map(Vec::as_slice).unwrap_or(&[]);
+            let stand_in = put_in(&entry.label).map(|w| "\u{2588}".repeat(w));
+            let laid_out = match &stand_in {
+                Some(s) => entry.text.replace(layout::RAMTEXT, s),
+                None => entry.text.clone(),
+            };
+            let menu_fits = found.iter().all(|p| match p {
+                layout::Place::Item { menu, .. } => menus.contains(menu),
+                _ => true,
+            });
+            let lines: Vec<&str> = laid_out.split('\n').collect();
+            if entry.width == Width::Full && laid_out.contains(layout::RAMTEXT) {
+                problems.push(format!(
+                    "{at}: full-width, but what it puts in (<RAMTEXT>) is half-width"
+                ));
+            }
+            match entry.width {
+                Width::Full if found.is_empty() || found.contains(&layout::Place::Unknown) => {
+                    // Placed by hand: within the Japanese text's lines.
+                    let japanese = by_label.get(entry.label.as_str()).map(|o| &o.lines);
+                    let most = japanese.map_or(0, |l| l.len());
+                    let room = japanese
+                        .and_then(|l| l.iter().map(|l| japanese_width(l)).max())
+                        .unwrap_or(0);
+                    let widths = text::line_widths(&entry.text, Width::Full).unwrap();
+                    if lines.len() > most || widths.iter().any(|&w| w > 2 * room) {
+                        problems.push(format!(
+                            "{at}: full-width, but wider or longer than the Japanese \
+                             ({room} tiles, {most} lines)"
+                        ));
+                    }
+                }
+                Width::Full => {
+                    if !layout::fits(&lines, found) {
+                        problems.push(format!("{at}: does not fit full-width ({found:?})"));
+                    } else if !menu_fits {
+                        problems.push(format!(
+                            "{at}: full-width, but other items of its menu do not fit"
+                        ));
+                    }
+                }
+                Width::Half => {
+                    let wanted = layout::full_width_lines(&laid_out, found)
+                        .filter(|_| menu_fits)
+                        .map(|lines| match &stand_in {
+                            Some(s) => lines
+                                .iter()
+                                .map(|l| l.replace(s, layout::RAMTEXT))
+                                .collect(),
+                            None => lines,
+                        });
+                    if let Some(wanted) = wanted {
+                        problems.push(format!("{at}: fits full-width ({found:?}): {wanted:?}"));
+                        rewrites
+                            .entry(entry.file)
+                            .or_default()
+                            .insert(entry.label.as_str(), wanted);
+                    } else if found
+                        .iter()
+                        .any(|p| matches!(p, layout::Place::Saved { .. }))
+                    {
+                        problems.push(format!(
+                            "{at}: copied into the save, which keeps only full-width letters, \
+                             but too long for full-width ({found:?})"
+                        ));
+                    }
+                }
+            }
+        }
+        if bless {
+            for (file, entries) in rewrites {
+                let path = PathBuf::from(env!("CARGO_MANIFEST_DIR"))
+                    .join("locales")
+                    .join(file);
+                let source = std::fs::read_to_string(&path).unwrap();
+                std::fs::write(&path, rewrite(&source, &entries)).unwrap();
+            }
+        }
+    }
+    if bless {
+        return;
+    }
+    assert!(
+        problems.is_empty(),
+        "{} texts (TCG2_BLESS=1 rewrites the ones that fit full-width):\n{}",
+        problems.len(),
+        problems.join("\n")
+    );
+}
+
+/// A translation file with `entries` (label: lines) made full-width.
+fn rewrite(source: &str, entries: &HashMap<&str, Vec<String>>) -> String {
+    let lines: Vec<&str> = source.lines().collect();
+    let mut out = String::new();
+    let mut i = 0;
+    while i < lines.len() {
+        let Some((label, _)) = text::header(lines[i]).filter(|(l, _)| entries.contains_key(l))
+        else {
+            out.push_str(lines[i]);
+            out.push('\n');
+            i += 1;
+            continue;
+        };
+        out.push_str(&format!("[{label}] {}\n", text::FULL_WIDTH));
+        for line in &entries[label] {
+            if line.starts_with(' ') || line.ends_with(' ') {
+                out.push_str(&format!("`{line}`\n"));
+            } else {
+                out.push_str(line);
+                out.push('\n');
+            }
+        }
+        // Skip the old text: up to its last line that is neither blank nor a
+        // comment before the next header.
+        let next = (i + 1..lines.len())
+            .find(|&j| text::header(lines[j]).is_some())
+            .unwrap_or(lines.len());
+        let end = (i + 1..next)
+            .rev()
+            .find(|&j| !lines[j].is_empty() && !lines[j].starts_with('#'))
+            .map_or(i + 1, |j| j + 1);
+        i = end;
+    }
+    out
 }
 
 /// Texts every language keeps as the ROM has them: the naming screen's
@@ -135,7 +302,7 @@ fn every_translation_encodes() {
     for language in Language::ALL {
         let entries = language.entries().unwrap();
         for entry in &entries {
-            let bytes = text::encode(&entry.text).unwrap_or_else(|e| {
+            let bytes = text::encode(&entry.text, entry.width).unwrap_or_else(|e| {
                 panic!("{}:{}: [{}]: {e}", entry.file, entry.line, entry.label)
             });
             assert!(bytes.len() <= 0x4000);
@@ -340,14 +507,37 @@ fn pictures() {
 
 #[test]
 fn encoding() {
-    assert_eq!(text::encode("Hi").unwrap(), [TX_HALFWIDTH, b'H', b'i', 0]);
+    let half = |t| text::encode(t, Width::Half);
+    let full = |t| text::encode(t, Width::Full);
+    assert_eq!(half("Hi").unwrap(), [TX_HALFWIDTH, b'H', b'i', 0]);
     assert_eq!(
-        text::encode("<RAMNAME> é\n<FIRE>“p”").unwrap(),
+        half("<RAMNAME> é\n<FIRE>“p”").unwrap(),
         [6, 0x09, b' ', 0x60, 0x0a, 0x05, 0x01, 0x22, 0x3c, 0x22, 0]
     );
-    assert!(text::encode("100%").is_err());
-    assert!(text::encode("<Nope>").is_err());
-    assert_eq!(text::line_widths("abc<FIRE>d\nxy<RAMNUM>").unwrap(), [7, 5]);
+    assert!(half("100%").is_err());
+    assert!(half("<Nope>").is_err());
+    // Full-width: no TX_HALFWIDTH; letters and signs as TX_FULLWIDTH4 and a
+    // code, digits, space and the ROM's own signs as one byte.
+    assert_eq!(
+        full("Hi, 10!\n<RAMTEXT>é").unwrap(),
+        [
+            4, 0x17, 4, 0x32, 4, 0x91, 0x70, 0x61, 0x60, 0x6e, 0x0a, 0x0b, 4, 0x6a, 0
+        ]
+    );
+    assert!(full("a|b").is_err());
+    assert_eq!(
+        text::line_widths("abc<FIRE>d\nxy<RAMNUM>", Width::Half).unwrap(),
+        [7, 5]
+    );
+    assert_eq!(
+        text::line_widths("abc<FIRE>d\nxy<RAMNUM>", Width::Full).unwrap(),
+        [10, 10]
+    );
+    // The keyboard's letters, so a typed name matches the text.
+    let a = font::full_width_offset('a').unwrap();
+    assert_eq!(a, 0x280 + (0x400 + 0x2a) * 8);
+    assert_eq!(font::full_width_offset('枚'), Some(0x280 + 0x84 * 8));
+    assert_eq!(font::full_width_offset('|'), None);
 }
 
 #[test]
@@ -362,6 +552,10 @@ fn parsing() {
         .map(|e| (e.label.as_str(), e.text.as_str()))
         .collect();
     assert_eq!(got, [("A", "One\nTwo"), ("B", " padded "), ("C", "")]);
+    let entries = text::parse("t.txt", "[A]\nOne\n[B] full-width\nTwo\n").unwrap();
+    let widths: Vec<Width> = entries.iter().map(|e| e.width).collect();
+    assert_eq!(widths, [Width::Half, Width::Full]);
+    assert_eq!(entries[1].text, "Two");
     let entries = text::parse("t.txt", "[A]\n[Basic Energy Card]\nText\n").unwrap();
     assert_eq!(entries.len(), 1);
     assert_eq!(entries[0].text, "[Basic Energy Card]\nText");
@@ -406,7 +600,7 @@ fn localize_points_the_table_at_the_translation() {
         at: rom.len(),
         placed: HashMap::new(),
     };
-    let bytes = text::encode("Check").unwrap();
+    let bytes = text::encode("Check", Width::Half).unwrap();
     let at = layout.place(&mut image, &bytes).unwrap();
     assert_eq!(at, 0x80 * 0x4000);
     for &id in table.ids("CheckText", &labels).unwrap() {

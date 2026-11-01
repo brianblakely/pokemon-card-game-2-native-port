@@ -1,1155 +1,1588 @@
 # Pokémon Card GB2 in American English: the texts of
 # src/decomp/src/text/text12.asm, by label (format: src/text.rs).
 
-[Text10d3]
-Rock Club Master Gene!!
-I'll back off for today.
+[Text10d3] full-width
+Rock Club Master
+Gene!! I'll back
+off for today.
 But mark my words!
-I'll take you down for sure!
+I'll take you down
+for sure!
 
-[Text10d4]
-Ah, <RAMNAME>! I take it you've
-heard the news from Dr. Mason.
-It's just as you see, <RAMNAME>!
-Team GR suddenly raided every club!
-I, Gene, stood firm as a rock
-and protected the Rock Club...
-...but it seems the other clubs
-have fallen under their control.
-It looks like it's your turn now,
-you who beat the Grand Masters!
-Defeat those Team GR thugs
-and save everyone!
+[Text10d4] full-width
+Ah, <RAMNAME>!
+I take it you've
+heard the news
+from Dr. Mason.
+It's just as
+you see, <RAMNAME>!
+Team GR suddenly
+raided every club!
+I, Gene, stood
+firm as a rock
+and protected
+the Rock Club...
+...but it seems
+the other clubs
+have fallen under
+their control.
+It looks like it's
+your turn now,
+you who beat the
+Grand Masters!
+Defeat those Team
+GR thugs and save
+everyone!
 
-[Text10d5]
-Team GR stole your cards too,
-<RAMNAME>. It must be rough!
-Duel the members of the Rock Club
-and win yourself some cards!!
-And if you can beat me--
-Gene, solid as a rock--
-I'll give you a deck that exploits
-the weakness of GR-1's deck!
-Now, will you duel the Rock Club
-Master, Gene the Rock?
+[Text10d5] full-width
+Team GR stole your
+cards too, <RAMNAME>.
+It must be rough!
+Duel the members
+of the Rock Club
+and win yourself
+some cards!!
+And if you can
+beat me-- Gene,
+solid as a rock--
+I'll give you a
+deck that exploits
+the weakness of
+GR-1's deck! Now,
+will you duel the
+Rock Club Master,
+Gene the Rock?
 
-[Text10d6]
-You even beat the King of Team GR!
-I'd expect no less, <RAMNAME>!
-Now, let's enjoy Pokémon cards
-to our hearts' content!!
+[Text10d6] full-width
+You even beat the
+King of Team GR!
+I'd expect no
+less, <RAMNAME>!
+Now, let's enjoy
+Pokémon cards
+to our hearts'
+content!!
 
-[Text10d7]
-Well done driving those Team GR
+[Text10d7] full-width
+Well done driving
+those Team GR
 thugs out of here!
-You'll still need cards, though.
-Win duels and grow your collection!
+You'll still need
+cards, though.
+Win duels and grow
+your collection!
 
-[Text10d8]
+[Text10d8] full-width
 Welcome, <RAMNAME>!
-You've come to duel Gene the Rock!
+You've come to
+duel Gene the
+Rock!
 
-[Text10d9]
-<RAMNAME>! Hurry and defeat me,
+[Text10d9] full-width
+<RAMNAME>! Hurry
+and defeat me,
 Gene the Rock!
-Then get the deck that exploits
-the weakness of GR-1's deck!
-Now, duel the Rock Club Master,
-Gene the Rock!
+Then get the deck
+that exploits
+the weakness of
+GR-1's deck! Now,
+duel the Rock Club
+Master, Gene the
+Rock!
 
-[Text10da]
-If you win our duel,
-I'll give you 2 booster packs!
+[Text10da] full-width
+If you win our
+duel, I'll give
+you 2 booster
+packs!
 
 [Text10db]
 Do you want to duel Gene?
 
-[Text10dc]
+[Text10dc] full-width
 Here I come!
-We'll play with 6 Prizes.
+We'll play with 6
+Prizes.
 
-[Text10dd]
-Then we'll play with 6 Prizes!
-One match! Here I come!
+[Text10dd] full-width
+Then we'll play
+with 6 Prizes!
+One match! Here I
+come!
 
-[Text10de]
-You'll never beat Team GR
-by running away like that!
-Show me the strength that beat
+[Text10de] full-width
+You'll never beat
+Team GR by running
+away like that!
+Show me the
+strength that beat
 the Grand Masters!
 
-[Text10df]
-I see...
-That's too bad.
-I, Gene the Rock, will wait right
-here, as still as a rock!
+[Text10df] full-width
+I see... That's
+too bad. I, Gene
+the Rock, will
+wait right here,
+as still as a
+rock!
 
-[Text10e0]
+[Text10e0] full-width
 Hmm! Splendid!
-Just as I'd expect, <RAMNAME>!!
+Just as I'd
+expect, <RAMNAME>!!
 
-[Text10e1]
-Dueling truly is a fine thing.
-Don't you agree, <RAMNAME>?
-Let's enjoy Pokémon cards
+[Text10e1] full-width
+Dueling truly is a
+fine thing. Don't
+you agree, <RAMNAME>?
+Let's enjoy
+Pokémon cards
 together again!!
 
-[Text10e2]
-You still have a long way to go.
-I can't hand over the deck yet.
-If you can't beat me,
-you'll never beat GR-1!
+[Text10e2] full-width
+You still have a
+long way to go.
+I can't hand over
+the deck yet. If
+you can't beat me,
+you'll never beat
+GR-1!
 
-[Text10e3]
-Hmm, that was close.
-But it was a good match!
+[Text10e3] full-width
+Hmm, that was
+close. But it
+was a good match!
 Let's have another
-good duel next time!
+good duel next
+time!
 
-[Text10e4]
-I'm Matthew, a member of
-the Rock Club.
-Team GR or whoever--they're
-no match for the Rock Club!
-Though I did lose to that
+[Text10e4] full-width
+I'm Matthew, a
+member of the Rock
+Club. Team GR or
+whoever--they're
+no match for the
+Rock Club! Though
+I did lose to that
 GR-1 guy myself...
-Let's duel for practice so you
-don't lose to Team GR either!
+Let's duel for
+practice so you
+don't lose to Team
+GR either!
 
-[Text10e5]
-Hey, <RAMNAME>!
-How's it going?
-Let's duel for practice so you
-don't lose to Team GR!
+[Text10e5] full-width
+Hey, <RAMNAME>! How's
+it going? Let's
+duel for practice
+so you don't lose
+to Team GR!
 
 [Text10e6]
 Do you want to duel Matthew?
 
-[Text10e7]
+[Text10e7] full-width
 Then let's duel!
-We'll play with 4 Prizes!
-If you beat me,
-I'll give you a booster pack.
+We'll play with
+4 Prizes! If you
+beat me, I'll
+give you a booster
+pack.
 
-[Text10e8]
-Oh, that's too bad.
-But...
-if you don't practice dueling,
-you'll lose to Team GR!
+[Text10e8] full-width
+Oh, that's too
+bad. But... if
+you don't practice
+dueling, you'll
+lose to Team GR!
 
-[Text10e9]
-You really are strong!
-Here's the booster pack I promised.
+[Text10e9] full-width
+You really are
+strong! Here's
+the booster pack I
+promised.
 
-[Text10ea]
-Let's practice again sometime.
-I won't lose next time!
+[Text10ea] full-width
+Let's practice
+again sometime.
+I won't lose next
+time!
 
-[Text10eb]
-I win!
-You can't beat Team GR like that.
-Come practice with me again.
-I'll be looking forward to it!
+[Text10eb] full-width
+I win! You can't
+beat Team GR
+like that. Come
+practice with me
+again. I'll be
+looking forward to
+it!
 
-[Text10ec]
-I'm Ryan, the Rock Club's
-very own sculptor!
-Team Great Rocket...
-"Team GR" for short, huh?
-Seems ya gotta be as tough as
-a Club Master to beat 'em.
-You're gonna fight Team GR, right?
-I'll lend ya a hand!
+[Text10ec] full-width
+I'm Ryan, the Rock
+Club's very own
+sculptor! Team
+Great Rocket...
+"Team GR" for
+short, huh?
+Seems ya gotta be
+as tough as a Club
+Master to beat
+'em. You're gonna
+fight Team GR,
+right? I'll lend
+ya a hand!
 
-[Text10ed]
-I'm Ryan, the Rock Club's
-very own sculptor.
-Oh, it's you, <RAMNAME>!
-Then I'm up for a duel!
+[Text10ed] full-width
+I'm Ryan, the Rock
+Club's very own
+sculptor. Oh, it's
+you, <RAMNAME>! Then
+I'm up for a duel!
 
 [Text10ee]
 Do you want to duel Ryan?
 
-[Text10ef]
+[Text10ef] full-width
 How 'bout we play
-with 4 Prizes?
-If ya beat me,
-I'll give ya a booster pack!
+with 4 Prizes? If
+ya beat me, I'll
+give ya a booster
+pack!
 
-[Text10f0]
-Don't wanna duel? That's fine.
-I'll get back to my sculptin'.
-See ya.
+[Text10f0] full-width
+Don't wanna duel?
+That's fine. I'll
+get back to my
+sculptin'. See ya.
 Come back anytime!
 
-[Text10f1]
-Aw, man! I went and lost!
-Here's the booster pack I promised!
+[Text10f1] full-width
+Aw, man! I went
+and lost! Here's
+the booster pack I
+promised!
 
-[Text10f2]
-I'll be right here,
-workin' on my sculptures.
-Whenever ya feel like a duel,
-come on by!
+[Text10f2] full-width
+I'll be right
+here, workin' on
+my sculptures.
+Whenever ya feel
+like a duel, come
+on by!
 
-[Text10f3]
-All right!!
-I win!
-Now, while I'm in a good mood,
-back to sculptin'!
+[Text10f3] full-width
+All right!! I win!
+Now, while I'm in
+a good mood, back
+to sculptin'!
 
-[Text10f4]
-That's Gene for you...
-Cool. Way too cool.
-Taking down GR-1 so easily...
+[Text10f4] full-width
+That's Gene for
+you... Cool.
+Way too cool.
+Taking down GR-1
+so easily...
 Now that's cool.
-Me? I'm Andrew, and that man
-is my hero.
-How 'bout it? Let's you and me
-have a cool duel of our own.
+Me? I'm Andrew,
+and that man is
+my hero. How 'bout
+it? Let's you and
+me have a cool
+duel of our own.
 
-[Text10f5]
-A cool man keeps it short.
-A duel, right?
+[Text10f5] full-width
+A cool man keeps
+it short. A duel,
+right?
 
 [Text10f6]
 Do you want to duel Andrew?
 
-[Text10f7]
-4 Prizes.
-Let's have a cool match!
+[Text10f7] full-width
+4 Prizes. Let's
+have a cool match!
 
-[Text10f8]
-Is that so? Even turned down,
-I'll still play it cool!
+[Text10f8] full-width
+Is that so?
+Even turned down,
+I'll still play it
+cool!
 
-[Text10f9]
+[Text10f9] full-width
 Hmm, I lose.
-Here's a booster pack.
-Even in defeat, a cool man
-takes it gracefully!
+Here's a booster
+pack. Even in
+defeat, a cool
+man takes it
+gracefully!
 
-[Text10fa]
-Come duel me again!
-Let's have another cool battle.
+[Text10fa] full-width
+Come duel me
+again! Let's
+have another cool
+battle.
 
-[Text10fb]
+[Text10fb] full-width
 Victory looks good
-on a cool man, right?
-So? Don't you think I'm a step
-closer to being a cool man?
+on a cool man,
+right? So? Don't
+you think I'm a
+step closer to
+being a cool man?
 
-[Text10fc]
-That's <RAMNAME> for you--the one
-who beat the Grand Masters!
-Now, here's the deck I promised:
-the "Defeat GR-1!" deck!
-It's sure to come in handy
-in your duel against GR-1!
+[Text10fc] full-width
+That's <RAMNAME>
+for you--the one
+who beat the Grand
+Masters! Now,
+here's the deck
+I promised: the
+"Beat GR-1!" deck!
+It's sure to come
+in handy in your
+duel against GR-1!
 
-[Text10fd]
+[Text10fd] full-width
 <RAMNAME> got the
-"Defeat GR-1!" deck!
+"Beat GR-1!" deck!
 
-[Text10fe]
-What's this? It seems you can't
-carry any more decks.
-Then I'll give you the deck's
-60 cards instead!
+[Text10fe] full-width
+What's this?
+It seems you can't
+carry any more
+decks. Then I'll
+give you the
+deck's 60 cards
+instead!
 
-[Text10ff]
-<RAMNAME> got 60 cards
-for building the deck!
+[Text10ff] full-width
+<RAMNAME> got 60
+cards for building
+the deck!
 
-[Text1100]
-I'll send the recipe for this deck
-to the Auto Deck Machine.
-Build it with the Auto Deck
-Machine at Mason Laboratory.
+[Text1100] full-width
+I'll send the
+recipe for this
+deck to the Auto
+Deck Machine.
+Build it with
+the Auto Deck
+Machine at Mason
+Laboratory.
 
-[Text1101]
-And also...
-Take this with you.
+[Text1101] full-width
+And also... Take
+this with you.
 
-[Text1102]
-Change the coin you use, and
-your luck might change too...
-By all means, use it
-in your duel against GR-1!
-It seems GR-1 is at
+[Text1102] full-width
+Change the coin
+you use, and
+your luck might
+change too...
+By all means, use
+it in your duel
+against GR-1! It
+seems GR-1 is at
 the Fighting Club!
-You're our only hope.
-I'm counting on you, <RAMNAME>!
+You're our only
+hope. I'm counting
+on you, <RAMNAME>!
 
-[Text1103]
-Snor, Snor, Snorlaaax!
+[Text1103] full-width
+Snor, Snor,
+Snorlaaax!
 I looove Snorlax!!
-If you give me "Snorlax<Lv>20,"
-I'll give you a rare card:
+If you give me
+"Snorlax<Lv>20,"
+I'll give you
+a rare card:
 "Jigglypuff<Lv>12"!
-C'mon, let's trade!
+C'mon, let's
+trade!
 
-[Text1104]
+[Text1104] full-width
 Hi there!
 
-Hey, hey, let's trade cards!
-I want "Snorlax<Lv>20"!
-Then I'll give you "Jigglypuff<Lv>12"!
+Hey, hey, let's
+trade cards! I
+want "Snorlax<Lv>20"!
+Then I'll give you
+"Jigglypuff<Lv>12"!
 It's a rare card!
 
-[Text1105]
-Aww, you won't trade with me?
-Oh well, never mind.
-Trade with me when you don't
-need it anymore, OK?
+[Text1105] full-width
+Aww, you won't
+trade with me? Oh
+well, never mind.
+Trade with me when
+you don't need it
+anymore, OK?
 
-[Text1106]
-Aww...
-You don't have "Snorlax<Lv>20."
-Then we can't trade.
-Too baaad.
+[Text1106] full-width
+Aww... You don't
+have "Snorlax<Lv>20."
+Then we can't
+trade. Too baaad.
 
-[Text1107]
+[Text1107] full-width
 OK, let's trade...
-Huh? It's in one of your decks.
-Then trade with me when
-you don't need it anymore!
+Huh? It's in one
+of your decks.
+Then trade with
+me when you don't
+need it anymore!
 
-[Text1108]
-OK! Then I'll trade you
-"Jigglypuff<Lv>12" for it!
+[Text1108] full-width
+OK! Then I'll
+trade you
+"Jigglypuff<Lv>12"
+for it!
 
-[Text1109]
+[Text1109] full-width
 Thanks a lot!
 
-[Text110a]
+[Text110a] full-width
 Hi there!
 
-Thanks for "Snorlax<Lv>20"!
-I'll take good care of it!
+Thanks for
+"Snorlax<Lv>20"! I'll
+take good care of
+it!
 
-[Text110b]
+[Text110b] full-width
 I say, you there!
-Have you heard of "Imakuni?", dear?
-He's a strange man who wears
-black tights from head to toe!
-I hear he's been popping up
-at clubs all over, darling.
-You'd best be careful, my dear.
-He might attack you, you know!
+Have you heard of
+"Imakuni?", dear?
+He's a strange man
+who wears black
+tights from head
+to toe! I hear
+he's been popping
+up at clubs all
+over, darling.
+You'd best be
+careful, my dear.
+He might attack
+you, you know!
 
-[Text110c]
-Oh my, have you heard yet, dear?
-About "Imakuni?"...
-They say "Imakuni?" plays
-Pokémon cards too, darling.
-His duels must be simply
-dreadful, my dear!!
+[Text110c] full-width
+Oh my, have
+you heard yet,
+dear? About
+"Imakuni?"...
+They say
+"Imakuni?" plays
+Pokémon cards
+too, darling.
+His duels must be
+simply dreadful,
+my dear!!
 
-[Text110d]
-Shh!! "Imakuni?" is here
-right now, darling!
-You'd best be careful, my dear.
-He might attack you, you know!
+[Text110d] full-width
+Shh!! "Imakuni?"
+is here right now,
+darling! You'd
+best be careful,
+my dear. He might
+attack you, you
+know!
 
-[Text110e]
-This is terrible. A group called
-Team GR took away our cards.
-And I hear they're over at Gene's
+[Text110e] full-width
+This is terrible.
+A group called
+Team GR took
+away our cards.
+And I hear they're
+over at Gene's
 right now, too.
-Sigh... This is terrible...
+Sigh... This is
+terrible...
 
-[Text110f]
-I heard GR-1 lost to Gene
-and ran away.
+[Text110f] full-width
+I heard GR-1 lost
+to Gene and ran
+away.
 
-[Text1110]
-Little by little, our cards
-are coming back.
+[Text1110] full-width
+Little by little,
+our cards are
+coming back.
 
-[Text1111]
-It seems all the stolen cards
-have come back.
-Thank you. We owe it all to you,
-<RAMNAME>.
+[Text1111] full-width
+It seems all the
+stolen cards have
+come back. Thank
+you. We owe it all
+to you, <RAMNAME>.
 
-[Text1112]
-Because of Team GR, I have no
-cards to play with! So boring!
+[Text1112] full-width
+Because of Team
+GR, I have no
+cards to play
+with! So boring!
 
-[Text1113]
-The cards that get recovered
-are being copied by Dr. Mason.
-That's how cards get handed out
-to everybody!
+[Text1113] full-width
+The cards that
+get recovered
+are being copied
+by Dr. Mason.
+That's how cards
+get handed out to
+everybody!
 
-[Text1114]
-I'm not just gonna collect cards.
-I'm gonna try building a deck, too!
+[Text1114] full-width
+I'm not just gonna
+collect cards. I'm
+gonna try building
+a deck, too!
 
-[Text1115]
-Welcome.
-This is the GR Psychic Stronghold.
+[Text1115] full-width
+Welcome. This is
+the GR Psychic
+Stronghold.
 
-[Text1116]
-Welcome.
-This is the GR Psychic Stronghold.
-The last fort standing guard
-over the GR Castle...
-The leader of GR Psychic
-is called Lady Mami.
-To challenge Lady Mami, you must
-duel our four GR Psychic members
-and win against three
-of those four members.
-Some members will duel you
-only under certain conditions.
-Now, please go on ahead
-and enjoy your duels.
+[Text1116] full-width
+Welcome. This is
+the GR Psychic
+Stronghold. The
+last fort standing
+guard over the
+GR Castle...
+The leader of
+GR Psychic is
+called Lady Mami.
+To challenge Lady
+Mami, you must
+duel our four GR
+Psychic members
+and win against
+three of those
+four members.
+Some members will
+duel you only
+under certain
+conditions. Now,
+please go on ahead
+and enjoy your
+duels.
 
-[Text1117]
-Well, you did defeat me.
-I shall grant that you are worthy.
+[Text1117] full-width
+Well, you did
+defeat me. I shall
+grant that you are
+worthy.
 
-[Text1118]
-To enter the GR Castle, you will
-need the "GR Colorless Coin."
-Go to the Colorless Altar
+[Text1118] full-width
+To enter the
+GR Castle, you
+will need the
+"GR Colorless
+Coin." Go to the
+Colorless Altar
 and obtain it.
 
-[Text1119]
-I see you have the coin needed
-to enter the GR Castle.
-Go to the Castle, and meet
-our King, Lord Biruritchi.
+[Text1119] full-width
+I see you have
+the coin needed
+to enter the GR
+Castle. Go to the
+Castle, and meet
+our King, Lord
+Biruritchi.
 
-[Text111a]
-It seems you were right.
-Those who enjoy duels are strong...
-Now I understand why you waited
-here for <RAMNAME>.
-
-[Text111b]
-Then you will set me free now.
-
-[Text111c]
-Hmph! You stayed here of
-your own free will, did you not?
-
-[Text111d]
+[Text111a] full-width
+It seems you were
+right. Those who
+enjoy duels are
+strong... Now I
+understand why you
+waited here for
 <RAMNAME>.
 
-[Text111e]
-I was waiting for you, the one
-who defeated me, Grand Master Rod.
-I believed that no one but you
-could defeat Team GR.
-Team GR's wish to use the cards
-is not wrong in itself.
-But that does not mean it's right
-to steal cards.
-By dueling you, they will
-surely come to realize that.
-Go and face Biruritchi, the King
-of Team GR! And defeat him!
-This is something only you can do.
-I'm counting on you, <RAMNAME>.
-Let me give you this.
-It should be of some help.
+[Text111b] full-width
+Then you will set
+me free now.
 
-[Text111f]
+[Text111c] full-width
+Hmph! You stayed
+here of your own
+free will, did you
+not?
+
+[Text111d] full-width
+<RAMNAME>.
+
+[Text111e] full-width
+I was waiting
+for you, the one
+who defeated me,
+Grand Master Rod.
+I believed that
+no one but you
+could defeat
+Team GR. Team
+GR's wish to use
+the cards is not
+wrong in itself.
+But that does not
+mean it's right
+to steal cards.
+By dueling you,
+they will surely
+come to realize
+that. Go and face
+Biruritchi, the
+King of Team GR!
+And defeat him!
+This is something
+only you can do.
+I'm counting on
+you, <RAMNAME>. Let
+me give you this.
+It should be of
+some help.
+
+[Text111f] full-width
 I shall return to
 the Pokémon Dome.
-I'll prepare the "Final Cup"
-for you there.
-Win it, and I will give you
-the "Legendary Pokémon Cards."
-When you have need of them,
-come to me.
-I leave the rest to you--
-you who surpass the Grand Masters!
+I'll prepare the
+"Final Cup" for
+you there. Win it,
+and I will give
+you the "Legendary
+Pokémon Cards."
+When you have need
+of them, come to
+me. I leave the
+rest to you-- you
+who surpass the
+Grand Masters!
 
-[Text1120]
-Come here, and I shall duel you
-as many times as you like.
+[Text1120] full-width
+Come here, and I
+shall duel you as
+many times as you
+like.
 
-[Text1121]
+[Text1121] full-width
 For now, duel Mami
 and defeat her.
 
-[Text1122]
-I watched you fight on
-the monitor behind me.
-Do not think you can beat me
-with skills of that level.
-A match with me is not like
-the others. Listen well.
-When a Pokémon in play is
-"discarded," the basic Energy
-attached to it returns
-to its owner's hand.
-Do you see? That is the rule
-of matches here. Understood?
+[Text1122] full-width
+I watched you
+fight on the
+monitor behind me.
+Do not think you
+can beat me with
+skills of that
+level. A match
+with me is not
+like the others.
+Listen well. When
+a Pokémon in play
+is "discarded,"
+the basic Energy
+attached to it
+returns to its
+owner's hand.
+Do you see?
+That is the rule
+of matches here.
+Understood?
 
 [Text1123]
 Would you hear the rules again?
 
-[Text1124]
+[Text1124] full-width
 You have nerve.
-Then shall we begin our match?
+Then shall we
+begin our match?
 
-[Text1125]
-I trust you have come prepared
+[Text1125] full-width
+I trust you have
+come prepared
 for our match?
-Do you remember the rules?
+Do you remember
+the rules?
 
-[Text1126]
-If you need no explanation of
-the rules, shall we begin?
+[Text1126] full-width
+If you need no
+explanation of the
+rules, shall we
+begin?
 
-[Text1127]
-When a Pokémon in play is
-"discarded," the basic Energy
-attached to it returns
-to its owner's hand.
-That is the rule of this match.
+[Text1127] full-width
+When a Pokémon
+in play is
+"discarded,"
+the basic Energy
+attached to it
+returns to its
+owner's hand.
+That is the rule
+of this match.
 Understood?
 
 [Text1128]
 Do you want to duel Mami?
 
-[Text1129]
-We shall play with 6 Prizes.
+[Text1129] full-width
+We shall play with
+6 Prizes.
 
-[Text112a]
-If you cannot face me,
-there is nothing to discuss.
-It seems you are not worthy
-of going to the GR Castle.
+[Text112a] full-width
+If you cannot
+face me, there
+is nothing to
+discuss. It seems
+you are not worthy
+of going to the GR
+Castle.
 
-[Text112b]
-I, too, intend to enjoy
-our match.
-But I will not change
-the rules here.
-When a Pokémon in play
+[Text112b] full-width
+I, too, intend to
+enjoy our match.
+But I will not
+change the rules
+here. When a
+Pokémon in play
 is "discarded"...
-the basic Energy cards attached
-to it return to its owner's hand.
-You understand, I trust?
-If so, let our match begin!
+the basic Energy
+cards attached
+to it return to
+its owner's hand.
+You understand, I
+trust? If so, let
+our match begin!
 
-[Text112c]
-There are times one would rather
-not duel. Until next time, then.
+[Text112c] full-width
+There are times
+one would rather
+not duel. Until
+next time, then.
 
-[Text112d]
-You adapted to the rules and
-fought skillfully.
+[Text112d] full-width
+You adapted to the
+rules and fought
+skillfully.
 
-[Text112e]
-Such skills are not even worth
-talking about. Come back stronger!
+[Text112e] full-width
+Such skills are
+not even worth
+talking about.
+Come back
+stronger!
 
-[Text112f]
-Well, well. So I have lost.
+[Text112f] full-width
+Well, well. So I
+have lost.
 
-[Text1130]
-Enjoying a match is harder
-than it sounds.
+[Text1130] full-width
+Enjoying a match
+is harder than it
+sounds.
 
-[Text1131]
-Did you enjoy it, <RAMNAME>?
+[Text1131] full-width
+Did you enjoy it,
+<RAMNAME>?
 
-[Text1132]
-So you have come up.
+[Text1132] full-width
+So you have come
+up.
 
-[Text1133]
-Before our match, let me summon
-a guest from another room.
-I'll transport him here by machine,
-as I did the members. Meet him.
+[Text1133] full-width
+Before our match,
+let me summon
+a guest from
+another room. I'll
+transport him here
+by machine, as I
+did the members.
+Meet him.
 
-[Text1134]
-Well? Isn't it just as I said?
-<RAMNAME> would surely...
+[Text1134] full-width
+Well? Isn't it
+just as I said?
+<RAMNAME> would
+surely...
 
-[Text1135]
-That remains to be seen!
+[Text1135] full-width
+That remains to be
+seen!
+That is what I am
+about to find out!
 
-That is what I am about
-to find out!
+[Text1136] full-width
+Now, face me in a
+match, <RAMNAME>!
 
-[Text1136]
-Now, face me in a match,
-<RAMNAME>!
+[Text1137] full-width
+Wait... <RAMNAME>!
 
-[Text1137]
-Wait...
-<RAMNAME>!
+[Text1138] full-width
+I am Mami, the
+leader who guards
+the GR Psychic
+Stronghold.
 
-[Text1138]
-I am Mami, the leader who
-guards the GR Psychic Stronghold.
-
-[Text1139]
-You took back the Pokémon cards
-that we of Team GR stole,
-and made it this far. For that,
-I might even praise you.
-But are you worthy of going
-to the GR Castle? I wonder...
+[Text1139] full-width
+You took back
+the Pokémon cards
+that we of Team
+GR stole, and
+made it this far.
+For that, I might
+even praise you.
+But are you
+worthy of going
+to the GR Castle?
+I wonder...
 Fight my comrades.
-Win, and I will fight you too.
-And if you can defeat me,
-I shall acknowledge you as worthy.
-Now then, let me introduce
+Win, and I will
+fight you too.
+And if you can
+defeat me, I shall
+acknowledge you as
+worthy. Now then,
+let me introduce
 my comrades.
 
-[Text113a]
+[Text113a] full-width
 First is Yosuke.
 Come forth!
 
-[Text113b]
-Oh, hello.
-I'm Yosuke...
+[Text113b] full-width
+Oh, hello. I'm
+Yosuke...
 
-[Text113c]
+[Text113c] full-width
 Next is Miwa.
 Come out!
 
-[Text113d]
+[Text113d] full-width
 Heeey, <RAMNAME>!
-I've been waiting for youuu!
+I've been waiting
+for youuu!
 
-[Text113e]
-What are you doing, Miwa!
-How long will you wear that getup?!
+[Text113e] full-width
+What are you
+doing, Miwa! How
+long will you wear
+that getup?!
 
-[Text113f]
-Ugh, you're so naggy!
-Who cares what I'm wearing?!
+[Text113f] full-width
+Ugh, you're so
+naggy! Who cares
+what I'm wearing?!
 
-[Text1140]
-Enough!
-Do as you're told!
+[Text1140] full-width
+Enough! Do as
+you're told!
 
-[Text1141]
+[Text1141] full-width
 OK, OK, quit it!
 Owww, that hurts!
 
-[Text1142]
-Bet you're surprised GR-4 is
+[Text1142] full-width
+Bet you're
+surprised GR-4 is
 sooo cute, huh?
-I'm Miwaaa, the girl
-who was inside GR-4!
+I'm Miwaaa,
+the girl who was
+inside GR-4!
 
-[Text1143]
-Kevin, you come here too!
+[Text1143] full-width
+Kevin, you come
+here too!
 
-[Text1144]
-Hiya! The name's Kevin!
-Nice to meet ya, <RAMNAME>!
+[Text1144] full-width
+Hiya! The name's
+Kevin! Nice to
+meet ya, <RAMNAME>!
 
-[Text1145]
-And last is
-my daughter, Ryoko.
+[Text1145] full-width
+And last is my
+daughter, Ryoko.
 
-[Text1146]
-Duel three of them. If you win,
+[Text1146] full-width
+Duel three of
+them. If you win,
 that will suffice.
-Then I shall face you myself.
+Then I shall face
+you myself.
 
-For now, I will await you
-in another room.
+For now, I will
+await you in
+another room.
 
-[Text1147]
-It seems you have beaten three.
-Come on up.
-A certain guest is
-waiting for you, too.
+[Text1147] full-width
+It seems you have
+beaten three. Come
+on up. A certain
+guest is waiting
+for you, too.
 
-[Text1148]
-You chose me as your
-opponent?
-Okaaay! Super-strong me will
-fight you for real!
-This time I've got my own deck,
-so I won't lose!
-But there's a condition!
-A limited-Energy duel!
-"Psychic"! Super-psychic!
-Psychic Energy only!!
-The only Energy you can put
-in your deck is Psychic Energy!
+[Text1148] full-width
+You chose me as
+your opponent?
+Okaaay!
+Super-strong me
+will fight you for
+real! This time
+I've got my own
+deck, so I won't
+lose! But there's
+a condition!
+A limited-Energy
+duel! "Psychic"!
+Super-psychic!
+Psychic Energy
+only!! The only
+Energy you can put
+in your deck is
+Psychic Energy!
 Now let's fight!!
-Super-strong me is your opponent!
+Super-strong me is
+your opponent!
 
-[Text1149]
-My condition for dueling me is
-"Psychic"! Super-psychic!
-If your Energy is only "Psychic,"
-super-strong me will take you on!
+[Text1149] full-width
+My condition
+for dueling me
+is "Psychic"!
+Super-psychic!
+If your Energy is
+only "Psychic,"
+super-strong me
+will take you on!
 
 [Text114a]
 Do you want to duel Miwa?
 
-[Text114b]
-Hey! Hey, hey, heyyy!
-What do you think you're doing?!
-There's Energy that isn't "Psychic"
+[Text114b] full-width
+Hey! Hey, hey,
+heyyy! What do
+you think you're
+doing?! There's
+Energy that
+isn't "Psychic"
 in your deck!
-You wanna fight super-strong me,
-don't you?
-Then go take out all the Energy
-that isn't "Psychic," OK?
+You wanna fight
+super-strong me,
+don't you? Then go
+take out all the
+Energy that isn't
+"Psychic," OK?
 
-[Text114c]
-Hmm, so you built a deck with
-only "Psychic" Energy!
-Then super-strong me will take
-you on with 4 Prizes!
+[Text114c] full-width
+Hmm, so you built
+a deck with only
+"Psychic" Energy!
+Then super-strong
+me will take you
+on with 4 Prizes!
 
-[Text114d]
-What? What?! Whaaat?!
-You'd rather duel someone else?
-Then hurry up and go
-somewhere else alreadyyy!
+[Text114d] full-width
+What? What?!
+Whaaat?! You'd
+rather duel
+someone else?
+Then hurry up and
+go somewhere else
+alreadyyy!
 
-[Text114e]
-Whaaat? You wanna fight
-super-strong me again?
-I only lost last time because
-I went easy on you, y'know!
-Fine! I'll take you on!
-But there's still a condition!
-You have to fight with a deck
-that has only "Psychic" Energy!
+[Text114e] full-width
+Whaaat? You wanna
+fight super-strong
+me again? I only
+lost last time
+because I went
+easy on you,
+y'know! Fine!
+I'll take you on!
+But there's still
+a condition!
+You have to fight
+with a deck that
+has only "Psychic"
+Energy!
 
-[Text114f]
-You did make your Energy
-all "Psychic," right?
-If there's any other Energy in it,
-I won't fight you, y'know!
+[Text114f] full-width
+You did make
+your Energy all
+"Psychic," right?
+If there's any
+other Energy in
+it, I won't fight
+you, y'know!
 
-[Text1150]
-Ugh, no good! You have Energy
-that isn't "Psychic" in there!
-Honestly! Listen properly
-when people talk to you!
+[Text1150] full-width
+Ugh, no good! You
+have Energy that
+isn't "Psychic" in
+there! Honestly!
+Listen properly
+when people talk
+to you!
 
-[Text1151]
-We'll play with 4 Prizes!
+[Text1151] full-width
+We'll play with 4
+Prizes!
+This time, there's
+no way I'm gonna
+lose!!
 
-This time, there's no way
-I'm gonna lose!!
-
-[Text1152]
-Hmmm, so you won't fight me.
-Well, I can't blame you.
+[Text1152] full-width
+Hmmm, so you won't
+fight me. Well,
+I can't blame you.
 I mean, after all,
 I'm super strong!
 
-[Text1153]
-Whaaat?! I can't believe it!
-Super-strong me, losing?!
+[Text1153] full-width
+Whaaat?! I can't
+believe it!
+Super-strong me,
+losing?!
 
-[Text1154]
-I only went easy on you because
-I felt sorry you'd be stuck here!
+[Text1154] full-width
+I only went easy
+on you because
+I felt sorry you'd
+be stuck here!
 
-[Text1155]
-See? That's what happens when
-super-strong me gets serious!
-You're a zillion years too early
-to beat super-strong me!
+[Text1155] full-width
+See? That's what
+happens when
+super-strong me
+gets serious!
+You're a zillion
+years too early to
+beat super-strong
+me!
 
-[Text1156]
-Whyyy? Why?
-How could super-strong me lose?
+[Text1156] full-width
+Whyyy? Why? How
+could super-strong
+me lose?
 
-[Text1157]
-You beat super-strong me,
-so go ahead and brag!
+[Text1157] full-width
+You beat
+super-strong me,
+so go ahead and
+brag!
 
-[Text1158]
-I'm just super strong,
-so I can't hide my true power!
+[Text1158] full-width
+I'm just super
+strong, so I
+can't hide my true
+power!
 
-[Text1159]
-Here, I'll flip the switch for you!
-You'd better be grateful!
+[Text1159] full-width
+Here, I'll flip
+the switch for
+you! You'd better
+be grateful!
 
-[Text115a]
-When 3 lights come on,
-the elevator will start moving.
-But more importantly,
-you get it, don't you?!
-You're the one who beat
+[Text115a] full-width
+When 3 lights
+come on, the
+elevator will
+start moving. But
+more importantly,
+you get it, don't
+you?! You're
+the one who beat
 super-strong me!!
-If you lose to the other members,
-I'll never forgive you!!
+If you lose to
+the other members,
+I'll never forgive
+you!!
 
-[Text115b]
-Wait, I'm the last one?!
-Ugh, how embarrassing!!
+[Text115b] full-width
+Wait, I'm the last
+one?! Ugh, how
+embarrassing!!
 
-[Text115c]
-Hurry up and take the elevator
-to Mami's place already!
+[Text115c] full-width
+Hurry up and
+take the elevator
+to Mami's place
+already!
 
-[Text115d]
-The elevator's already running!
-You should've come before that!
+[Text115d] full-width
+The elevator's
+already running!
+You should've come
+before that!
 
-[Text115e]
-Getting picked dead last...
-Super uncool!!
+[Text115e] full-width
+Getting picked
+dead last... Super
+uncool!!
 
-[Text115f]
-Hey there, I'm Kevin.
-I'm a GR Psychic member, dude.
-Dueling me is rough, man.
-Get this: Resistance changes!
-Resistance is usually -30, but
-the psychic power here makes it -10!
-If you're cool with Resistance
-at -10, let's duel, man!
+[Text115f] full-width
+Hey there, I'm
+Kevin. I'm a GR
+Psychic member,
+dude. Dueling me
+is rough, man. Get
+this: Resistance
+changes!
+Resistance is
+usually -30, but
+the psychic power
+here makes it -10!
+If you're cool
+with Resistance at
+-10, let's duel,
+man!
 
-[Text1160]
+[Text1160] full-width
 'Sup, <RAMNAME>!
 Wanna duel?
-The Stronghold's machines
-change Resistance, dude.
-Resistance goes from -30 to -10.
+The Stronghold's
+machines change
+Resistance, dude.
+Resistance goes
+from -30 to -10.
 Remember that?
 So, wanna duel?
 
 [Text1161]
 Do you want to duel Kevin?
 
-[Text1162]
-We'll play with 4 Prizes, dude.
+[Text1162] full-width
+We'll play with 4
+Prizes, dude.
 
-[Text1163]
-It's cool if you duel the other
-members instead of me.
+[Text1163] full-width
+It's cool if you
+duel the other
+members instead of
+me.
 
-[Text1164]
+[Text1164] full-width
 Hey. Wanna duel?
-Same rules as before, OK?
-The Stronghold's psychic power
-turns Resistance -30 into -10.
-If you're cool with Resistance
-at -10, let's duel, man!
+Same rules as
+before, OK?
+The Stronghold's
+psychic power
+turns Resistance
+-30 into -10. If
+you're cool with
+Resistance at -10,
+let's duel, man!
 
-[Text1165]
-You already beat me once,
-so you don't have to duel me.
+[Text1165] full-width
+You already beat
+me once, so you
+don't have to duel
+me.
 
-[Text1166]
-You got me!
-You're strong, <RAMNAME>!
+[Text1166] full-width
+You got me! You're
+strong, <RAMNAME>!
 
-[Text1167]
-<RAMNAME>, you're the first to
-beat the Stronghold's psychic power!
+[Text1167] full-width
+<RAMNAME>, you're
+the first to beat
+the Stronghold's
+psychic power!
 
-[Text1168]
-Woo-hooooo!!
-I'm the winner, dude!
+[Text1168] full-width
+Woo-hooooo!! I'm
+the winner, dude!
 
-[Text1169]
-Oh nooo!!
-I'm the loser, dude!
+[Text1169] full-width
+Oh nooo!! I'm the
+loser, dude!
 
-[Text116a]
-<RAMNAME>,
-you're strong! You're the best!!
+[Text116a] full-width
+<RAMNAME>, you're
+strong! You're the
+best!!
 
-[Text116b]
+[Text116b] full-width
 Yes! Yes! Yesss!
-I'm the winner, dude!
+I'm the winner,
+dude!
 
-[Text116c]
+[Text116c] full-width
 OK, I'll turn on
-the elevator's power.
+the elevator's
+power.
 
-[Text116d]
-When 3 lights are on,
-you can ride the elevator.
+[Text116d] full-width
+When 3 lights are
+on, you can ride
+the elevator.
 Go upstairs and
-you'll get to meet Mami.
+you'll get to meet
+Mami.
 
-[Text116e]
-Oh, I'm the last one, huh?
-
+[Text116e] full-width
+Oh, I'm the last
+one, huh?
 OK, I'll turn on
-the elevator's power.
+the elevator's
+power.
 
-[Text116f]
-The elevator's running, so you
-can go see Mami now, dude.
-When you get up there,
-say hi to Mami for me!
+[Text116f] full-width
+The elevator's
+running, so you
+can go see Mami
+now, dude. When
+you get up there,
+say hi to Mami for
+me!
 
-[Text1170]
+[Text1170] full-width
 I'll turn on
-my share of the power.
+my share of the
+power.
 
-[Text1171]
-The elevator's already running,
-so it doesn't matter anymore.
+[Text1171] full-width
+The elevator's
+already running,
+so it doesn't
+matter anymore.
 
-[Text1172]
-Oh, um... we're dueling, right?
-But there's a condition.
-Put a total of 6 "Gastly" and
-"Haunter" cards in your deck.
-As long as it's 6 in all, it's OK
-to have 4 "Gastly," or 3.
-And of course, it's fine to
-have 4 "Haunter" instead.
-Anyway, all you need is 6
-"Gastly" and "Haunter" in total.
-If your deck is ready,
-we can duel now. Is that OK?
+[Text1172] full-width
+Oh, um... we're
+dueling, right?
+But there's
+a condition.
+Put a total of
+6 "Gastly" and
+"Haunter" cards in
+your deck. As long
+as it's 6 in all,
+it's OK to have
+4 "Gastly," or 3.
+And of course,
+it's fine to
+have 4 "Haunter"
+instead. Anyway,
+all you need is
+6 "Gastly" and
+"Haunter" in
+total. If your
+deck is ready,
+we can duel now.
+Is that OK?
 
-[Text1173]
-Is your deck ready?
-
-Does it have 6 "Gastly" and
-"Haunter" cards in total?
-If it's 6 in total, it doesn't
-matter which one you have more of.
+[Text1173] full-width
+Is your deck
+ready?
+Does it have
+6 "Gastly" and
+"Haunter" cards
+in total? If
+it's 6 in total,
+it doesn't matter
+which one you have
+more of.
 
 [Text1174]
 Do you want to duel Yosuke?
 
-[Text1175]
-Your "Gastly" and "Haunter"
-don't add up to 6 cards.
-So I won't duel you.
+[Text1175] full-width
+Your "Gastly" and
+"Haunter" don't
+add up to 6 cards.
+So I won't duel
+you.
 
-[Text1176]
-Yep, that's 6 in total.
-OK, let's duel!
-Let's see... We'll play
-with 4 Prizes.
-OK, let's begin.
+[Text1176] full-width
+Yep, that's 6 in
+total. OK, let's
+duel! Let's see...
+We'll play with 4
+Prizes. OK, let's
+begin.
 
-[Text1177]
-Hmm, I see.
-So you won't duel...
+[Text1177] full-width
+Hmm, I see. So you
+won't duel...
 
-[Text1178]
-Hi. You want to duel again?
-My condition is the same.
-Does your deck have 6 "Gastly"
-and "Haunter" cards in total?
-If it does, let's duel.
+[Text1178] full-width
+Hi. You want
+to duel again?
+My condition is
+the same. Does
+your deck have
+6 "Gastly" and
+"Haunter" cards in
+total? If it does,
+let's duel.
 
-[Text1179]
-Yep, that's 6 in total.
+[Text1179] full-width
+Yep, that's 6 in
+total.
+We'll play with 4
+Prizes. OK, let's
+duel.
 
-We'll play with 4 Prizes.
-OK, let's duel.
-
-[Text117a]
+[Text117a] full-width
 Hmm...
 
-[Text117b]
+[Text117b] full-width
 Hmm, so I lost.
-Here, booster packs.
+Here, booster
+packs.
 
-[Text117c]
+[Text117c] full-width
 Why did I lose...?
-Mutter, mutter, mutter...
+Mutter, mutter,
+mutter...
 
-[Text117d]
-Well, it was my own condition,
-so I guess I should win...
+[Text117d] full-width
+Well, it was my
+own condition, so
+I guess I should
+win...
 
-[Text117e]
-I lost, so I've gotta
-hand over some booster packs.
+[Text117e] full-width
+I lost, so I've
+gotta hand over
+some booster
+packs.
 
-[Text117f]
-Looks like duels with conditions
-are a breeze for you now.
+[Text117f] full-width
+Looks like duels
+with conditions
+are a breeze for
+you now.
 
-[Text1180]
-Oh, sorry. I'll flip my
-switch for the elevator.
+[Text1180] full-width
+Oh, sorry. I'll
+flip my switch for
+the elevator.
 
-[Text1181]
-The elevator won't move until
-all 3 lights are on.
-Just beat the other members.
+[Text1181] full-width
+The elevator won't
+move until all
+3 lights are on.
+Just beat the
+other members.
 Good luck!
 
-[Text1182]
-Oh well. I'm the last one, huh?
-I'll flip the switch.
+[Text1182] full-width
+Oh well. I'm the
+last one, huh?
+I'll flip the
+switch.
 
-[Text1183]
-Now the elevator will work,
-so you can go upstairs.
-You'll duel Mami up there, right?
+[Text1183] full-width
+Now the elevator
+will work, so you
+can go upstairs.
+You'll duel Mami
+up there, right?
 See you.
 
-[Text1184]
-Everyone else's switch is on,
-so I guess I'll flip mine too.
+[Text1184] full-width
+Everyone else's
+switch is on, so
+I guess I'll flip
+mine too.
 
-[Text1185]
-The elevator's running even if
-I don't flip my switch, though.
+[Text1185] full-width
+The elevator's
+running even if
+I don't flip my
+switch, though.
 
-[Text1186]
-I am Ryoko, daughter of Mami,
-the leader of GR Psychic.
-So you have chosen me
-as your opponent.
-In that case, allow me to explain
-the conditions of our duel.
-Please do not use any
-"Trainer cards" in our duel.
-You may not include cards such as
-"Potion" or "Clefairy Doll."
-If your deck contains even one,
-I shall not duel you.
+[Text1186] full-width
+I am Ryoko,
+daughter of Mami,
+the leader of GR
+Psychic. So you
+have chosen me as
+your opponent. In
+that case, allow
+me to explain
+the conditions of
+our duel. Please
+do not use any
+"Trainer cards" in
+our duel. You may
+not include cards
+such as "Potion"
+or "Clefairy
+Doll." If your
+deck contains even
+one, I shall not
+duel you.
 
-[Text1187]
-My duels come with
-a condition.
-Please remove all "Trainer cards"
+[Text1187] full-width
+My duels come
+with a condition.
+Please remove all
+"Trainer cards"
 from your deck.
-If you remove the "Trainer cards,"
-I shall gladly duel you.
+If you remove the
+"Trainer cards," I
+shall gladly duel
+you.
 
 [Text1188]
 Do you want to duel Ryoko?
 
-[Text1189]
-There are "Trainer cards"
-in your deck.
-Mother has strictly told me
-to uphold the conditions.
-So I cannot duel you.
+[Text1189] full-width
+There are "Trainer
+cards" in your
+deck. Mother has
+strictly told me
+to uphold the
+conditions. So I
+cannot duel you.
 Please forgive me.
 
-[Text118a]
-Then I shall have the honor
-of being your opponent.
-We shall play with 4 Prizes,
-if you please.
+[Text118a] full-width
+Then I shall have
+the honor of being
+your opponent.
+We shall play with
+4 Prizes, if you
+please.
 
-[Text118b]
+[Text118b] full-width
 I simply follow
-Mother's teachings.
-If you will not duel,
-please take your leave.
+Mother's
+teachings. If you
+will not duel,
+please take your
+leave.
 
-[Text118c]
-Having lost to you, <RAMNAME>,
-I cannot face Mother.
-If you wish to duel, I accept...
-But...
-Please let us duel by
-the same rules as before.
-If your deck has no "Trainer cards,"
+[Text118c] full-width
+Having lost to
+you, <RAMNAME>,
+I cannot face
+Mother. If you
+wish to duel, I
+accept... But...
+Please let us duel
+by the same rules
+as before. If
+your deck has no
+"Trainer cards,"
 I shall duel you.
 
-[Text118d]
-There are "Trainer cards"
-in your deck.
-Once I have set a rule,
-I wish to keep it.
-Please remove the "Trainer cards"
-from your deck, then come back.
+[Text118d] full-width
+There are "Trainer
+cards" in your
+deck. Once I have
+set a rule, I
+wish to keep it.
+Please remove the
+"Trainer cards"
+from your deck,
+then come back.
 
-[Text118e]
-Let us duel
-with 4 Prizes.
+[Text118e] full-width
+Let us duel with 4
+Prizes.
 
-[Text118f]
-I see. You will not
-duel me, then.
-Then I shall look forward
-to our next duel.
+[Text118f] full-width
+I see. You will
+not duel me, then.
+Then I shall look
+forward to our
+next duel.
 
-[Text1190]
-Mother has forgiven me
-for losing.
-She said I should be proud I faced
-<RAMNAME>, rather than ashamed.
-So, won't you duel me again?
-The conditions are the same, but...
-Will you remove your Trainer cards
+[Text1190] full-width
+Mother has
+forgiven me for
+losing. She said
+I should be proud
+I faced <RAMNAME>,
+rather than
+ashamed. So, won't
+you duel me again?
+The conditions are
+the same, but...
+Will you remove
+your Trainer cards
 and duel me?
 
-[Text1191]
-Mother has given me permission
-to duel as I please.
-But I do not like using
-"Trainer cards."
-So please, let us duel
-without "Trainer cards."
+[Text1191] full-width
+Mother has given
+me permission to
+duel as I please.
+But I do not like
+using "Trainer
+cards." So please,
+let us duel
+without "Trainer
+cards."
 
-[Text1192]
+[Text1192] full-width
 As I feared, I was
 no match for you.
 
-[Text1193]
-Mother, please forgive me...
+[Text1193] full-width
+Mother, please
+forgive me...
 Ryoko has lost...
 
-[Text1194]
+[Text1194] full-width
 I have won.
 
-Even if you cannot beat me, you
-need only duel the others and win.
+Even if you cannot
+beat me, you need
+only duel the
+others and win.
 
-[Text1195]
-Oh my, I have lost again.
-Whatever am I doing wrong?
+[Text1195] full-width
+Oh my, I have lost
+again. Whatever am
+I doing wrong?
 
-[Text1196]
-Dueling the way one likes
-is fun, isn't it?
-Please, by all means,
-duel me again.
+[Text1196] full-width
+Dueling the way
+one likes is fun,
+isn't it? Please,
+by all means, duel
+me again.
 
-[Text1197]
-Mother! Ryoko has won
-against <RAMNAME>!!
-Oh, to win against <RAMNAME>...
-It is like a dream.
+[Text1197] full-width
+Mother! Ryoko
+has won against
+<RAMNAME>!! Oh,
+to win against
+<RAMNAME>... It is
+like a dream.
 
-[Text1198]
-As I have lost, I shall turn on
-the elevator switch.
-Only my share of it,
-of course.
+[Text1198] full-width
+As I have lost, I
+shall turn on the
+elevator switch.
+Only my share of
+it, of course.
 
-[Text1199]
-Once you defeat three of us,
-the elevator will start working.
+[Text1199] full-width
+Once you defeat
+three of us,
+the elevator will
+start working.
 
-[Text119a]
-When I turn on my power,
-the elevator will start working.
+[Text119a] full-width
+When I turn on
+my power, the
+elevator will
+start working.
 
-[Text119b]
-Please, go on
-to Mother.
+[Text119b] full-width
+Please, go on to
+Mother.
 
-[Text119c]
+[Text119c] full-width
 I shall turn on
 my power as well.
-Not that it is needed anymore,
-as the elevator is already running.
+Not that it is
+needed anymore,
+as the elevator is
+already running.
 
 [Text119d]
 young master
@@ -1167,12 +1600,16 @@ I don't mind giving you
 What do you say,
 <RAMTEXT>?
 
-[Text11a0]
-Oh-ho-ho-ho! So you want
-the "Mewtwo<Lv>60" I have!
-Bu-ut! Hand over "Dark Hypno<Lv>26"!
-Then I shall give it to you.
-Is that agreeable?
+[Text11a0] full-width
+Oh-ho-ho-ho!
+So you want
+the "Mewtwo<Lv>60"
+I have! Bu-ut!
+Hand over "Dark
+Hypno<Lv>26"! Then
+I shall give it
+to you. Is that
+agreeable?
 
 [Text11a1]
 You won't give me the card
@@ -1190,484 +1627,637 @@ You don't even know your own cards?
 It's naughty to give such
 careless answers, you know.
 
-[Text11a3]
-Oh, honestly! How hopeless!
-
+[Text11a3] full-width
+Oh, honestly!
+How hopeless!
 They're all in
-your decks!
-Do keep proper track of
-the cards you own, at least!
+your decks! Do
+keep proper track
+of the cards you
+own, at least!
 
-[Text11a4]
-Well then,
-we have a trade.
-I shall hand over my
-"Mewtwo<Lv>60" to you.
+[Text11a4] full-width
+Well then, we
+have a trade.
+I shall hand over
+my "Mewtwo<Lv>60" to
+you.
 
 [Text11a5]
 I'm absolutely delighted!
 Oh-ho-ho-ho-ho-ho-ho!!
 
-[Text11a6]
-Oh-ho-ho-ho-ho! Do you remember
-the card you gave me?
-I'm using "Dark Hypno<Lv>26"
-with the utmost care.
+[Text11a6] full-width
+Oh-ho-ho-ho-ho! Do
+you remember the
+card you gave me?
+I'm using "Dark
+Hypno<Lv>26" with the
+utmost care.
 
-[Text11a7]
-I'm no good at building decks,
-so I can't become a GR member.
-I'll build a good deck and
-become a GR member!
-And then... and then I'll duel
-Ryoko of GR Psychic!
+[Text11a7] full-width
+I'm no good at
+building decks,
+so I can't become
+a GR member.
+I'll build a good
+deck and become
+a GR member! And
+then... and then
+I'll duel Ryoko of
+GR Psychic!
 
-[Text11a8]
-Grrr... I heard Ryoko has
-someone she admires.
-It's <RAMNAME>, the one who's
-been defying Team GR!
-Argh, it's not fair!!
+[Text11a8] full-width
+Grrr... I heard
+Ryoko has someone
+she admires. It's
+<RAMNAME>, the one
+who's been defying
+Team GR! Argh,
+it's not fair!!
 
-[Text11a9]
-Hmm, so you're <RAMNAME>.
-You've made it this far already.
-Impressive, but you can't beat
-Lord Biruritchi or his Executives.
-Well, you'll see why
-once you duel them.
+[Text11a9] full-width
+Hmm, so you're
+<RAMNAME>. You've
+made it this
+far already.
+Impressive, but
+you can't beat
+Lord Biruritchi
+or his Executives.
+Well, you'll see
+why once you duel
+them.
 
-[Text11aa]
-I'm amazed! You beat the Executives
-and Lord Biruritchi himself!
-I guess those who enjoy dueling
-really are stronger.
-I'll change how I think, too,
-and start enjoying my duels!
+[Text11aa] full-width
+I'm amazed!
+You beat the
+Executives and
+Lord Biruritchi
+himself! I guess
+those who enjoy
+dueling really
+are stronger.
+I'll change how
+I think, too, and
+start enjoying my
+duels!
 
-[Text11ab]
-Welcome.
-This is the GR Lightning Fort.
-I'm afraid I cannot
-let you in at this time.
-If you have the "GR Grass Coin,"
-I will let you through.
-Please obtain the coin at
+[Text11ab] full-width
+Welcome. This is
+the GR Lightning
+Fort. I'm afraid
+I cannot let you
+in at this time.
+If you have the
+"GR Grass Coin,"
+I will let you
+through. Please
+obtain the coin at
 the GR Grass Fort.
 
-[Text11ac]
-Welcome.
-This is the GR Lightning Fort.
+[Text11ac] full-width
+Welcome. This is
+the GR Lightning
+Fort.
 
-[Text11ad]
-There's a hollow that looks like
-it fits a coin with a Golbat mark.
+[Text11ad] full-width
+There's a hollow
+that looks like it
+fits a coin with a
+Golbat mark.
 
 [Text11ae]
 Insert the "GR Grass Coin"?
 
-[Text11af]
-Welcome.
-This is the GR Lightning Fort.
-Allow me to explain
-GR Lightning's duels.
-The leader of GR Lightning
-is called Lady Catherine.
-To meet her, you must defeat
-two GR Lightning members.
-Some members will duel you
-only under certain conditions.
-Now, please go on ahead
-and enjoy your duels.
+[Text11af] full-width
+Welcome. This is
+the GR Lightning
+Fort. Allow me
+to explain GR
+Lightning's duels.
+The leader of
+GR Lightning
+is called Lady
+Catherine.
+To meet her, you
+must defeat two GR
+Lightning members.
+Some members will
+duel you only
+under certain
+conditions. Now,
+please go on ahead
+and enjoy your
+duels.
 
-[Text11b0]
-I am Ichikawa, of Team GR.
-Surely you remember me?
+[Text11b0] full-width
+I am Ichikawa,
+of Team GR. Surely
+you remember me?
 
-[Text11b1]
-The true face of GR-3...!
-...is none other than me!
-You bested me back on the island,
-but I won't lose here!
+[Text11b1] full-width
+The true face of
+GR-3...! ...is
+none other than
+me! You bested
+me back on the
+island, but I
+won't lose here!
 
-[Text11b2]
+[Text11b2] full-width
 Here, we'll duel
-my way.
-The only Energy you may put
-in your deck is Lightning Energy!
-I won't duel a deck that has
-any other Energy in it!
-Win, and you get a booster pack,
-and I'll return the Grand Master.
-Steve, I think his name was...?
-Bah, whoever he is!
+my way. The only
+Energy you may put
+in your deck is
+Lightning Energy!
+I won't duel
+a deck that
+has any other
+Energy in it!
+Win, and you get
+a booster pack,
+and I'll return
+the Grand Master.
+Steve, I think his
+name was...? Bah,
+whoever he is!
 
-[Text11b3]
-As I said, you may only put
-Lightning Energy in your deck.
-I won't face a deck that has
-any other Energy in it.
-Is your deck ready?
+[Text11b3] full-width
+As I said, you may
+only put Lightning
+Energy in your
+deck. I won't face
+a deck that has
+any other Energy
+in it. Is your
+deck ready?
 
 [Text11b4]
 Do you want to duel Ichikawa?
 
-[Text11b5]
+[Text11b5] full-width
 You numbskuuull!!
-There's other Energy in there!
-Rebuild your deck with only
-Lightning Energy and come back!
-Until then, I will never
-face you!!
+There's other
+Energy in there!
+Rebuild your
+deck with only
+Lightning Energy
+and come back!
+Until then, I will
+never face you!!
 
-[Text11b6]
-Hmm, looks like you built
-a deck with only Lightning Energy.
+[Text11b6] full-width
+Hmm, looks like
+you built a
+deck with only
+Lightning Energy.
 Then let's duel!
-We'll play with 4 Prizes!!
+We'll play with 4
+Prizes!!
 
-[Text11b7]
-If you run from a duel,
-I won't say a thing.
+[Text11b7] full-width
+If you run from a
+duel, I won't say
+a thing.
 
-[Text11b8]
-Oh, <RAMNAME>.
-What brings you here?
-If you want to duel me, it's
-the same condition as before.
-You can't put any Energy but
-Lightning Energy in your deck.
+[Text11b8] full-width
+Oh, <RAMNAME>. What
+brings you here?
+If you want to
+duel me, it's the
+same condition as
+before. You can't
+put any Energy but
+Lightning Energy
+in your deck.
 If you're ready,
-shall we start our duel?
+shall we start our
+duel?
 
-[Text11b9]
-Did you forget our last duel?
-I'll say it once more.
-The only Energy allowed is
+[Text11b9] full-width
+Did you forget
+our last duel?
+I'll say it once
+more. The only
+Energy allowed is
 Lightning, got it?
-Now, if you want to duel,
-go rebuild your deck!
+Now, if you
+want to duel, go
+rebuild your deck!
 
-[Text11ba]
+[Text11ba] full-width
 Now, let's duel!
-We'll play with 4 Prizes!
+We'll play with 4
+Prizes!
 
-[Text11bb]
+[Text11bb] full-width
 Dueling you is
-a real treat.
-I'll be looking forward to it,
-so be sure to come back!
+a real treat. I'll
+be looking forward
+to it, so be sure
+to come back!
 
-[Text11bc]
+[Text11bc] full-width
 Grrrrrrr....
 
-[Text11bd]
-So I really did lose last time
-because you're the better player.
+[Text11bd] full-width
+So I really did
+lose last time
+because you're
+the better player.
 Well done, <RAMNAME>!
 Now I'm convinced!
 
-[Text11be]
-This is what happens
-when I get serious!
+[Text11be] full-width
+This is what
+happens when I get
+serious!
 
-[Text11bf]
+[Text11bf] full-width
 Well, you got me!
-I've been utterly beaten.
+I've been utterly
+beaten.
 
-[Text11c0]
-Every time you duel, you get
-stronger and stronger.
-Fight many Team GR members,
-and learn what decks are all about.
+[Text11c0] full-width
+Every time you
+duel, you get
+stronger and
+stronger. Fight
+many Team GR
+members, and learn
+what decks are all
+about.
 
-[Text11c1]
+[Text11c1] full-width
 Even I won't lose
 that easily!
 
-[Text11c2]
+[Text11c2] full-width
 Oh, that's right.
-I have to give him back.
-Well then,
-let's go to the pod.
+I have to give him
+back. Well then,
+let's go to the
+pod.
 
-[Text11c3]
+[Text11c3] full-width
 Hyaaaaaaaaah!!!
 
-[Text11c4]
+[Text11c4] full-width
 Thank you, <RAMNAME>!
-You are great!
-You beat Team GR, and we
-couldn't even do that!
-So here's a present for you!
+You are great! You
+beat Team GR, and
+we couldn't even
+do that! So here's
+a present for you!
 
-[Text11c5]
+[Text11c5] full-width
 Me, I go back now
-to the Pokémon Dome!
+to the Pokémon
+Dome!
 
-[Text11c6]
+[Text11c6] full-width
 Wait, Steve!
 
-[Text11c7]
+[Text11c7] full-width
 Whyyy?
 
-[Text11c8]
-I'm giving back the booster packs.
-Hand them out over there.
+[Text11c8] full-width
+I'm giving back
+the booster packs.
+Hand them out over
+there.
 
-[Text11c9]
+[Text11c9] full-width
 Oh, thank you!
-You are a good old man!
+You are a good old
+man!
 
-[Text11ca]
+[Text11ca] full-width
 I want to duel you
-at the Pokémon Dome!
-I'll be waiting!
+at the Pokémon
+Dome! I'll be
+waiting!
 
-[Text11cb]
-That's GR Lightning's law.
+[Text11cb] full-width
+That's GR
+Lightning's law.
+I'll open the door
+to Catherine's
+room, too!
 
-I'll open the door to
-Catherine's room, too!
-
-[Text11cc]
+[Text11cc] full-width
 Hyaaaaaaaaaah!!!
 
-[Text11cd]
-The rest is up to you.
-Do your best!
+[Text11cd] full-width
+The rest is up to
+you. Do your best!
 
-[Text11ce]
-Grand Master Steve is
-being held captive.
-He's saying something,
-but you can't hear him.
+[Text11ce] full-width
+Grand Master Steve
+is being held
+captive. He's
+saying something,
+but you can't hear
+him.
 
-[Text11cf]
-Thunderrr... bzzt... bzzzt...
+[Text11cf] full-width
+Thunderrr...
+bzzt... bzzzt...
 Huh?
 
-[Text11d0]
-Oh! You are <RAMNAME>, yes!
-You have come so far alreadyyy!
-You want my "GR Lightning Coin"?
-Then we must fight, yes!
-But it will not be
-a normal fight, no!
-When you fight here, Lightning
-Pokémon do 10 more damage, yes!
-So! Is your deck all ready?
-Okaaay?
+[Text11d0] full-width
+Oh! You are
+<RAMNAME>, yes!
+You have come so
+far alreadyyy!
+You want my "GR
+Lightning Coin"?
+Then we must
+fight, yes! But
+it will not be a
+normal fight, no!
+When you fight
+here, Lightning
+Pokémon do 10 more
+damage, yes! So!
+Is your deck all
+ready? Okaaay?
 
-[Text11d1]
-Oh! <RAMNAME>!
-You came back again, yes?
-A fight is okay any time!
+[Text11d1] full-width
+Oh! <RAMNAME>! You
+came back again,
+yes? A fight is
+okay any time!
 Let us fight!
-On this stage, Lightning Pokémon
-do 10 more damage, yesss!
-Are you ready to fight? Okay?
-Alriiight?
+On this stage,
+Lightning Pokémon
+do 10 more damage,
+yesss! Are you
+ready to fight?
+Okay? Alriiight?
 
 [Text11d2]
 Do you want to duel Catherine?
 
-[Text11d3]
-We fight with 6 Prizes!
-Fight! Fight, yes!
-A Thunder Fight!
-I will zap you good!
+[Text11d3] full-width
+We fight with 6
+Prizes! Fight!
+Fight, yes!
+A Thunder Fight! I
+will zap you good!
 
-[Text11d4]
-Oh! You are not ready yet,
-I see!
-When your deck is ready,
-we fight! Fiiight, yes!
+[Text11d4] full-width
+Oh! You are not
+ready yet, I see!
+When your deck is
+ready, we fight!
+Fiiight, yes!
 
-[Text11d5]
-Oh! <RAMNAME>!
-You came back again, yes?
-A fight is okay any time!
+[Text11d5] full-width
+Oh! <RAMNAME>! You
+came back again,
+yes? A fight is
+okay any time!
 Let us fight!
-On this stage, Lightning Pokémon
-do 10 more damage, yesss!
-Are you ready to fight? Okay?
-Alriiight?
+On this stage,
+Lightning Pokémon
+do 10 more damage,
+yesss! Are you
+ready to fight?
+Okay? Alriiight?
 
-[Text11d6]
-Oh nooo!
-I have looost!
+[Text11d6] full-width
+Oh nooo! I have
+looost!
 
-[Text11d7]
+[Text11d7] full-width
 Hey, hey, heyyy!
-Bzzt, bzzt! That was shocking, yes?
-<RAMNAME>, you are weak!
-Come back more powered up, yes!
+Bzzt, bzzt! That
+was shocking, yes?
+<RAMNAME>, you are
+weak! Come back
+more powered up,
+yes!
 
-[Text11d8]
+[Text11d8] full-width
 It is ME who got
-all zapped and shocked!
+all zapped and
+shocked!
 
-[Text11d9]
-You are the winner! You win!
-I give you the "GR Lightning Coin."
+[Text11d9] full-width
+You are the
+winner! You win!
+I give you the "GR
+Lightning Coin."
 
-[Text11da]
-With that coin, you can enter
-the GR Fire and GR Water Forts!
-Now it is go, go, go,
-<RAMNAME>!
+[Text11da] full-width
+With that coin,
+you can enter
+the GR Fire and
+GR Water Forts!
+Now it is go, go,
+go, <RAMNAME>!
 
-[Text11db]
+[Text11db] full-width
 Um, um... hello...
 My name is Renna.
-You have to duel me and win,
-or you can't go to the next room.
-But there's a condition
-for our duel... I'm sorry!
-Please put 4 "Pikachu"
+You have to duel
+me and win, or
+you can't go to
+the next room.
+But there's
+a condition
+for our duel...
+I'm sorry! Please
+put 4 "Pikachu"
 in your deck.
-Flying Pikachu and Surfing Pikachu
-don't count. Just regular ones.
-Will you put in 4 "Pikachu"
-and duel me?
+Flying Pikachu and
+Surfing Pikachu
+don't count.
+Just regular ones.
+Will you put in 4
+"Pikachu" and duel
+me?
 
 [Text11dc]
 Do you want to duel Renna?
 
-[Text11dd]
-Um, um... "Pikachu"...
-Your deck doesn't have "Pikachu"...
-Without 4 "Pikachu" in your deck,
-I... I can't duel you.
-Please, put "Pikachu"
-in your deck and come back...
+[Text11dd] full-width
+Um, um...
+"Pikachu"...
+Your deck doesn't
+have "Pikachu"...
+Without 4
+"Pikachu" in your
+deck, I... I can't
+duel you. Please,
+put "Pikachu" in
+your deck and come
+back...
 
-[Text11de]
-"Pikachu"... 4 of them...
-Yes... Thank you very much.
-Let's play with... 4 Prizes,
+[Text11de] full-width
+"Pikachu"... 4
+of them... Yes...
+Thank you very
+much. Let's play
+with... 4 Prizes,
 please.
 
-[Text11df]
-You have to put 4 "Pikachu"
-in your deck.
-It's GR Lightning's rule...
-Please put in "Pikachu"...
+[Text11df] full-width
+You have to put
+4 "Pikachu" in
+your deck. It's
+GR Lightning's
+rule... Please put
+in "Pikachu"...
 
-[Text11e0]
+[Text11e0] full-width
 Hello, <RAMNAME>.
 I'm doing my best.
-Will you duel me with a deck
-that has 4 "Pikachu"?
+Will you duel me
+with a deck that
+has 4 "Pikachu"?
 
-[Text11e1]
-I'm sorry, your deck doesn't
-have 4 "Pikachu."
-If your deck doesn't have
-4 "Pikachu," I can't duel you.
-Please put 4 "Pikachu"
-in your deck and come back.
+[Text11e1] full-width
+I'm sorry, your
+deck doesn't have
+4 "Pikachu." If
+your deck doesn't
+have 4 "Pikachu,"
+I can't duel you.
+Please put 4
+"Pikachu" in your
+deck and come
+back.
 
-[Text11e2]
-Your deck has the "Pikachu,"
+[Text11e2] full-width
+Your deck has
+the "Pikachu,"
 so we can duel.
-Let's play with 4 Prizes,
-please.
+Let's play with 4
+Prizes, please.
 
-[Text11e3]
+[Text11e3] full-width
 Then, next time...
-I'll be looking forward to it.
+I'll be looking
+forward to it.
 
-[Text11e4]
-I didn't think I could win, but...
-I lost, just like I thought...
+[Text11e4] full-width
+I didn't think I
+could win, but...
+I lost, just like
+I thought...
 
-[Text11e5]
-You're really strong, <RAMNAME>.
+[Text11e5] full-width
+You're really
+strong, <RAMNAME>.
 I look up to you.
-And you came to GR Island all
-alone to fight, didn't you?
-You're brave, too... I wish
-I could be like that...
-I'll find my courage
-and do my best, too!
+And you came to GR
+Island all alone
+to fight, didn't
+you? You're brave,
+too... I wish
+I could be like
+that... I'll find
+my courage and do
+my best, too!
 
-[Text11e6]
+[Text11e6] full-width
 Um, um... I won.
 ...I'm sorry...
 
-[Text11e7]
-I lost, just like I thought.
-Um, here's a booster pack.
+[Text11e7] full-width
+I lost, just like
+I thought. Um,
+here's a booster
+pack.
 
-[Text11e8]
-I'm learning lots of things
-from dueling.
-I'll try hard next time too,
-so please duel me again!
+[Text11e8] full-width
+I'm learning lots
+of things from
+dueling. I'll try
+hard next time
+too, so please
+duel me again!
 
-[Text11e9]
-Um, um... that won't open.
-Not unless you beat me...
+[Text11e9] full-width
+Um, um... that
+won't open. Not
+unless you beat
+me...
 
-[Text11ea]
-I'll open the door now.
-Um, the password is....
+[Text11ea] full-width
+I'll open the
+door now. Um, the
+password is....
 
-[Text11eb]
-Ichikawa's room is up ahead.
-A Grand Master is held there, too.
-I think... it's Steve.
+[Text11eb] full-width
+Ichikawa's room
+is up ahead.
+A Grand Master is
+held there, too.
+I think... it's
+Steve.
+Ichikawa is
+strong, so please
+do your best.
 
-Ichikawa is strong,
-so please do your best.
-
-[Text11ec]
+[Text11ec] full-width
 Hey, hey, listen!
-That big boy over there is mean!
-I asked him to trade cards,
-and he got mad at me!
-And he can't even build a deck
-to get into Team GR...
-Hey, do you have a
-"Dark Raichu<Lv>31"? If you do,
-trade it for this card of mine,
-"Pikachu<Lv>16"!
-It's a rare Pikachu!
+That big boy over
+there is mean! I
+asked him to trade
+cards, and he got
+mad at me! And he
+can't even build
+a deck to get into
+Team GR... Hey, do
+you have a "Dark
+Raichu<Lv>31"? If you
+do, trade it for
+this card of mine,
+"Pikachu<Lv>16"! It's
+a rare Pikachu!
 C'mon, pleeease?
 
-[Text11ed]
-Don't you want my rare
-"Pikachu<Lv>16"?
-I wanna trade it for
-your "Dark Raichu<Lv>31"!
+[Text11ed] full-width
+Don't you want my
+rare "Pikachu<Lv>16"?
+I wanna trade it
+for your "Dark
+Raichu<Lv>31"!
 
-[Text11ee]
+[Text11ee] full-width
 Hmph! You're mean,
-just like that big boy!
+just like that big
+boy!
 
-[Text11ef]
-Huh? Looks like you don't have
+[Text11ef] full-width
+Huh? Looks like
+you don't have
 "Dark Raichu<Lv>31"!
 Quit being mean!
 
-[Text11f0]
+[Text11f0] full-width
 Ummm, they're all
-in your decks.
-To Team GR, decks are
+in your decks. To
+Team GR, decks are
 really important.
-So if it's in a deck,
-I won't trade for it.
-When you stop using it in a deck,
-trade with me, OK?
+So if it's in
+a deck, I won't
+trade for it. When
+you stop using it
+in a deck, trade
+with me, OK?
 
-[Text11f1]
+[Text11f1] full-width
 OK, let's trade!
 Here!
 
-[Text11f2]
+[Text11f2] full-width
 "Dark Raichu<Lv>31"
 is all mine!
-A real GR member has to
-have Dark Pokémon!
+A real GR member
+has to have Dark
+Pokémon!

@@ -16,25 +16,25 @@ Book
 [DebugReturnToMainText]
 Back to Main
 
-[PauseMenuStatusText]
-Status
+[PauseMenuStatusText] full-width
+Stats
 
-[PauseMenuDiaryText]
+[PauseMenuDiaryText] full-width
 Diary
 
-[PauseMenuDeckText]
+[PauseMenuDeckText] full-width
 Deck
 
-[PauseMenuMinicomText]
+[PauseMenuMinicomText] full-width
 PC
 
-[PauseMenuCoinText]
+[PauseMenuCoinText] full-width
 Coins
 
-[PauseMenuConfigText]
-Settings
+[PauseMenuConfigText] full-width
+Setup
 
-[PauseMenuExitText]
+[PauseMenuExitText] full-width
 Exit
 
 [ConfigTitleText]
@@ -49,8 +49,8 @@ Change Settings
 [ConfigCoinAnimationText]
 ` Coin Flip Animation `
 
-[ConfigExitText]
-Exit Settings
+[ConfigExitText] full-width
+Exit Setup
 
 [ConfigMessageSpeedSlowLabelText]
 Slow
@@ -58,23 +58,23 @@ Slow
 [ConfigMessageSpeedFastLabelText]
 Fast
 
-[ConfigAnimationShowAllText]
-Show All
+[ConfigAnimationShowAllText] full-width
+All
 
-[ConfigAnimationSkipSomeText]
-Skip Some
+[ConfigAnimationSkipSomeText] full-width
+Some
 
-[ConfigAnimationNoneText]
-None
+[ConfigAnimationNoneText] full-width
+Off
 
-[PlayerDiaryTitleText]
+[PlayerDiaryTitleText] full-width
 <RAMNAME>'s Diary
 
 [PlayerDiaryNameText]
 Name
 
-[PlayerStatusEventCoinTitleText]
-` Event Coins      `
+[PlayerStatusEventCoinTitleText] full-width
+` Event Coins `
 
 [PlayerDiaryEventCoinText]
 Event Coins
@@ -88,16 +88,16 @@ Play Time
 [PlayerDiaryPromptText]
 Write in your diary?
 
-[PlayerDiaryPromptYesText]
+[PlayerDiaryPromptYesText] full-width
 Yes
 
-[PlayerDiaryPromptNoText]
+[PlayerDiaryPromptNoText] full-width
 No
 
-[PlayerStatusCurrentCoinText]
+[PlayerStatusCurrentCoinText] full-width
 Current Coin
 
-[PlayerStatusGRCoinText]
+[PlayerStatusGRCoinText] full-width
 Team GR's Coin
 
 [PCMenuCardAlbumText]
@@ -112,11 +112,11 @@ Glossary
 [PCMenuPrintText]
 Print
 
-[TurnedOnPCText]
+[TurnedOnPCText] full-width
 <RAMNAME> turned on
 the computer!
 
-[TurnedOffPCText]
+[TurnedOffPCText] full-width
 <RAMNAME> turned off
 the computer!
 
@@ -132,7 +132,7 @@ Got the cards!
 [DebugBackgroundFontStateText]
 BG Font State
 
-[DebugForceDuelWinPromptText]
+[DebugForceDuelWinPromptText] full-width
 Win the duel?
 
 [DebugVCounterLabelText]
@@ -156,10 +156,10 @@ Current Map No.:
 [DebugCurrentMapChipsetCountLabelText]
 Map Chips in Use:
 
-[CardsAndChipsUnitText]
-`  `
+[CardsAndChipsUnitText] full-width
+` `
 
-[ChipsText]
+[ChipsText] full-width
 Chips
 
 [PCMenuDeckDiagnosisText]
@@ -168,20 +168,22 @@ Deck Diagnosis
 [TCG2TitleText]
 Pokémon Card GB2
 
-[MainMenuNewGameText]
+[MainMenuNewGameText] full-width
 New Game
 
-[MainMenuContinueFromDiaryText]
+[MainMenuContinueFromDiaryText] full-width
 Continue
 
-[MainMenuCardPopText]
+[MainMenuCardPopText] full-width
 Card Pop!
 
-[MainMenuContinueDuelText]
-Continue Duel
+[MainMenuContinueDuelText] full-width
+Resume
 
-[MainMenuNewGameDialogText]
-Start a new game from the beginning.
+[MainMenuNewGameDialogText] full-width
+Start a new
+game from the
+beginning.
 
 [MainMenuCardPopDialogText]
 "Card Pop!" with a friend and
@@ -193,21 +195,21 @@ The power was cut during a duel.
 You can pick up the game from
 where the power went out.
 
-[PlayerGenderMaleText]
+[PlayerGenderMaleText] full-width
 Boy
 
-[PlayerGenderFemaleText]
+[PlayerGenderFemaleText] full-width
 Girl
 
-[ChoosePlayerGenderText]
-Are you a boy
-or a girl?
+[ChoosePlayerGenderText] full-width
+Are you a boy or a
+girl?
 
-[ConfirmPlayerGenderMaleText]
-You chose "Boy." Is that OK?
+[ConfirmPlayerGenderMaleText] full-width
+Boy? Is that OK?
 
-[ConfirmPlayerGenderFemaleText]
-You chose "Girl." Is that OK?
+[ConfirmPlayerGenderFemaleText] full-width
+Girl? Is that OK?
 
 [DebugTournamentTableText]
 Tournament Bracket
@@ -218,7 +220,7 @@ Laboratory
 [DebugObjectCharacterDisplayText]
 OBJ NPC Display
 
-[IsThisOKText_2]
+[IsThisOKText_2] full-width
 Is this OK?
 
 [PlayerGenderText]
@@ -227,20 +229,21 @@ Gender
 [CardsUnitHiraganaText]
 `    `
 
-[ReceptionistText]
+[ReceptionistText] full-width
 Receptionist
 
-[GameCenterPrizeExchangeWelcomeText]
-Hello!
-Welcome to the Prize Counter!
+[GameCenterPrizeExchangeWelcomeText] full-width
+Hello! Welcome to
+the Prize Counter!
 
 [GameCenterPrizeExchangePromptText]
 Exchange your chips for a prize?
 
-[GameCenterPrizeExchangeChoosePrizeText]
-Please choose a prize.
+[GameCenterPrizeExchangeChoosePrizeText] full-width
+Please choose a
+prize.
 
-[GameCenterNotEnoughChipsText]
+[GameCenterNotEnoughChipsText] full-width
 Not enough chips!
 
 [GameCenterPrizeExchangeConfirmText]
@@ -249,14 +252,14 @@ Do you want this prize?
 [GameCenterPrizeExchangeQuitConfirmText]
 Are you finished exchanging?
 
-[GameCenterPrizeExchangeComeAgainText]
+[GameCenterPrizeExchangeComeAgainText] full-width
 We look forward to
 your next visit!
 
-[GameCenterPrizeVenusaurText]
+[GameCenterPrizeVenusaurText] full-width
 Venusaur<Lv>64
 
-[GameCenterPrizeMewText]
+[GameCenterPrizeMewText] full-width
 Mew<Lv>15
 
 [GameCenterPrizeBillsComputerText]
@@ -282,44 +285,49 @@ Start a duel with your friend?
 Thank you for using
 the Battle Center!
 
-[GiftCenterWelcomeText]
-Hello!
-Welcome to the Gift Center!
+[GiftCenterWelcomeText] full-width
+Hello! Welcome to
+the Gift Center!
 
-[GiftCenterServicePromptText]
-How may I
-help you today?
+[GiftCenterServicePromptText] full-width
+How may I help you
+today?
 
-[GiftCenterServiceAcknowledgementText]
+[GiftCenterServiceAcknowledgementText] full-width
 Certainly.
-"<RAMTEXT>" it is.
+"<RAMTEXT>"
+it is.
 
-[GiftCenterServiceSaveRequestText]
-Before you use our service,
-please write in your "Diary."
+[GiftCenterServiceSaveRequestText] full-width
+Before you use our
+service, please
+write in your
+"Diary."
 
-[GiftCenterServiceUnavailableSaveRequiredText]
-Unless you write in your "Diary,"
-you can't use our service.
+[GiftCenterServiceUnavailableSaveRequiredText] full-width
+Unless you write
+in your "Diary,"
+you can't use our
+service.
 
-[GiftCenterComeAgainText]
+[GiftCenterComeAgainText] full-width
 We look forward to
 your next visit!
 
-[GiftCenterSendCardsText]
+[GiftCenterSendCardsText] full-width
 Send Cards
 
-[GiftCenterReceiveCardsText]
-Receive Cards
+[GiftCenterReceiveCardsText] full-width
+Get Cards
 
-[GiftCenterSendDeckConfigurationText]
-Send Deck Configuration
+[GiftCenterSendDeckConfigurationText] full-width
+Send Decklist
 
-[GiftCenterReceiveDeckConfigurationText]
-Receive Deck Configuration
+[GiftCenterReceiveDeckConfigurationText] full-width
+Get Decklist
 
-[GiftCenterQuitText]
-Quit
+[GiftCenterQuitText] full-width
+End
 
 [GiftCenterPressStartWhenReadyText]
 When you're both ready, one of you
@@ -332,80 +340,80 @@ Please start over from the top.
 [DebugBackgroundCoinDisplayText]
 BG Coin Display
 
-[PlayerCoinSelectText]
-Please choose a coin to use.
+[PlayerCoinSelectText] full-width
+Choose your coin.
 
-[ChanseyCoinText]
-Chansey Coin
+[ChanseyCoinText] full-width
+Chansey
 
-[GrassCoinText]
-Grass Coin
+[GrassCoinText] full-width
+Grass
 
-[FireCoinText]
-Fire Coin
+[FireCoinText] full-width
+Fire
 
-[WaterCoinText]
-Water Coin
+[WaterCoinText] full-width
+Water
 
-[LightningCoinText]
-Lightning Coin
+[LightningCoinText] full-width
+Lightning
 
-[PsychicCoinText]
-Psychic Coin
+[PsychicCoinText] full-width
+Psychic
 
-[RockCoinText]
-Rock Coin
+[RockCoinText] full-width
+Rock
 
-[GRCoinText]
-GR Coin
+[GRCoinText] full-width
+GR
 
-[GRGrassCoinText]
-GR Grass Coin
+[GRGrassCoinText] full-width
+GR Grass
 
-[GRLightningCoinText]
-GR Lightning Coin
+[GRLightningCoinText] full-width
+GR Lightning
 
-[GRFireCoinText]
-GR Fire Coin
+[GRFireCoinText] full-width
+GR Fire
 
-[GRWaterCoinText]
-GR Water Coin
+[GRWaterCoinText] full-width
+GR Water
 
-[GRFightingCoinText]
-GR Fighting Coin
+[GRFightingCoinText] full-width
+GR Fighting
 
-[GRPsychicCoinText]
-GR Psychic Coin
+[GRPsychicCoinText] full-width
+GR Psychic
 
-[GRColorlessCoinText]
-GR Colorless Coin
+[GRColorlessCoinText] full-width
+GR Colorless
 
-[GRKingCoinText]
-GR King Coin
+[GRKingCoinText] full-width
+GR King
 
-[PonytaCoinText]
-Ponyta Coin
+[PonytaCoinText] full-width
+Ponyta
 
-[HorseaCoinText]
-Horsea Coin
+[HorseaCoinText] full-width
+Horsea
 
-[ArbokCoinText]
-Arbok Coin
+[ArbokCoinText] full-width
+Arbok
 
-[JigglypuffCoinText]
-Jigglypuff Coin
+[JigglypuffCoinText] full-width
+Jigglypuff
 
-[DugtrioCoinText]
-Dugtrio Coin
+[DugtrioCoinText] full-width
+Dugtrio
 
-[GengarCoinText]
-Gengar Coin
+[GengarCoinText] full-width
+Gengar
 
-[RaichuCoinText]
-Raichu Coin
+[RaichuCoinText] full-width
+Raichu
 
-[LugiaCoinText]
-Lugia Coin
+[LugiaCoinText] full-width
+Lugia
 
 [GRCoinPiece1Text]
 GR Coin Piece 1
@@ -419,13 +427,13 @@ GR Coin Piece 3
 [GRCoinPiece4Text]
 GR Coin Piece 4
 
-[EventCoinPage1Text]
+[EventCoinPage1Text] full-width
 Event Coins 1
 
-[EventCoinPage2Text]
+[EventCoinPage2Text] full-width
 Event Coins 2
 
-[EventCoinPage3Text]
+[EventCoinPage3Text] full-width
 Event Coins 3
 
 [DebugEffectViewerText]
@@ -458,12 +466,12 @@ B:Stop
 [DebugPowerOnText]
 Power On
 
-[ObtainedCoinText]
-The "<RAMTEXT>"
-is now yours!
+[ObtainedCoinText] full-width
+The <RAMTEXT>
+Coin is now yours!
 
-[ObtainedCoinTotalNumberText]
-Total coins collected: <RAMNUM>!
+[ObtainedCoinTotalNumberText] full-width
+Total coins: <RAMNUM>!
 
 [DebugSlotMachineText]
 Slot Machine
@@ -480,13 +488,14 @@ up matching marks to win chips!
 Line up Rainbow Energy marks to
 go to the Bonus Game!
 
-[PlayerDiarySavedText]
-<RAMNAME>
-wrote in the diary.
+[PlayerDiarySavedText] full-width
+<RAMNAME> wrote in
+the diary.
 
-[PlayerDiaryCancelledText]
-<RAMNAME> decided not to
-write in the diary.
+[PlayerDiaryCancelledText] full-width
+<RAMNAME> decided not
+to write in the
+diary.
 
 [GameCenterCoinFlipTitleText]
 ` Coin Flip Streak `
@@ -497,15 +506,15 @@ flip? Try the coin flip challenge!
 Get 10 in a row and you'll win
 a fabulous prize!
 
-[GameCenterCoinFlipCheersText]
-Aim for 10 in a row.
-Good luck!
+[GameCenterCoinFlipCheersText] full-width
+Aim for 10 in a
+row. Good luck!
 
 [GameCenterCoinFlipDialogText]
 Get 10 in a row to win
 a fabulous prize!
 
-[GameCenterCoinFlipPlayAgainPromptText]
+[GameCenterCoinFlipPlayAgainPromptText] full-width
 Play again?
 
 [GameCenterPrizeExchangeText]
@@ -514,8 +523,8 @@ Prize Counter
 [DebugDuelText]
 Duel
 
-[SpecialRuleChlorophyllTitleText]
-`        Chlorophyll         `
+[SpecialRuleChlorophyllTitleText] full-width
+`    Chlorophyll`
 
 [SpecialRuleChlorophyllDescriptionText]
 In this duel, Grass Pokémon can't be
@@ -550,24 +559,30 @@ size becomes 3.
 [SpecialRuleRunningWaterTitleText]
 `       Running Water        `
 
-[SpecialRuleRunningWaterDescriptionText]
-In this duel, Water Pokémon's
-Retreat Cost is reduced by 1.
+[SpecialRuleRunningWaterDescriptionText] full-width
+In this duel,
+Water Pokémon's
+Retreat Cost is
+reduced by 1.
 
 [SpecialRuleEarthPowerTitleText]
 `        Earth Power         `
 
-[SpecialRuleEarthPowerDescriptionText]
-In this duel, damage done by
-Fighting Pokémon isn't affected by
+[SpecialRuleEarthPowerDescriptionText] full-width
+In this duel,
+damage done by
+Fighting Pokémon
+isn't affected by
 Resistance.
 
 [SpecialRuleLowResistanceTitleText]
 `       Low Resistance       `
 
-[SpecialRuleLowResistanceDescriptionText]
-In this duel, Resistance is changed
-from -30 to -10.
+[SpecialRuleLowResistanceDescriptionText] full-width
+In this duel,
+Resistance is
+changed from -30
+to -10.
 
 [SpecialRuleEnergyReturnTitleText]
 `       Energy Return        `
@@ -770,8 +785,9 @@ Check Mailbox
 [MinicomCardAlbumText]
 View Card List
 
-[MinicomDialogText]
-Please choose from the menu.
+[MinicomDialogText] full-width
+Please choose from
+the menu.
 
 [PlayersChipsText]
 ` <RAMNAME>'s Chips `
@@ -853,8 +869,9 @@ You can try up to 10 times!
 Bonus Chip marks lined up!
 You got <RAMNUM> chips!
 
-[GameCenterSlotMachineBonusPlayLegendaryHitText]
-Edition marks lined up!
+[GameCenterSlotMachineBonusPlayLegendaryHitText] full-width
+Edition marks
+lined up!
 
 [GameCenterSlotMachineMissedText]
 Too bad!
@@ -879,10 +896,10 @@ Champion
 <RAMNAME>
 checked the cards!!
 
-[MailBlackBoxOutputSenderText]
+[MailBlackBoxOutputSenderText] full-width
 Game Center
 
-[MailBlackBoxOutputSubjectText]
+[MailBlackBoxOutputSubjectText] full-width
 Black Box
 
 [MailBlackBoxOutputBody1Text]
@@ -900,7 +917,7 @@ We hope to see you at the
 
 `    Team GR Game Center (^-^)/`
 
-[MailBillsPCOutputSenderText]
+[MailBillsPCOutputSenderText] full-width
 Game Center
 
 [MailBillsPCOutputSubjectText]
@@ -921,10 +938,10 @@ We hope to see you at
 
 `    Team GR Game Center (^-^)/`
 
-[MailMailboxIntroSenderText]
+[MailMailboxIntroSenderText] full-width
 Dr. Mason
 
-[MailMailboxIntroSubjectText]
+[MailMailboxIntroSubjectText] full-width
 PC and Mail
 
 [MailMailboxIntroBody1Text]
@@ -955,7 +972,7 @@ P.S.
 This is a parting gift from me.
 Make good use of it in your duels.
 
-[MailDeckDiagnosis1SenderText]
+[MailDeckDiagnosis1SenderText] full-width
 Dr. Mason
 
 [MailDeckDiagnosis1SubjectText]
@@ -984,12 +1001,13 @@ advice and a Deck Check...
 Mason Laboratory
 `      Dr. Mason, Director (^o^)`
 
-[MailDeckDiagnosis1Body4Text]
-P.S.
-I'll contact you again when
-"Step 2" is complete...
+[MailDeckDiagnosis1Body4Text] full-width
+P.S. I'll contact
+you again when
+"Step 2" is
+complete...
 
-[MailDeckDiagnosis2SenderText]
+[MailDeckDiagnosis2SenderText] full-width
 Dr. Mason
 
 [MailDeckDiagnosis2SubjectText]
@@ -1017,12 +1035,13 @@ Try it out and see what you think!
 Mason Laboratory
 `      Dr. Mason, Director (^o^)`
 
-[MailDeckDiagnosis2Body4Text]
-P.S.
-I'll contact you again when
-"Step 3" is complete...
+[MailDeckDiagnosis2Body4Text] full-width
+P.S. I'll contact
+you again when
+"Step 3" is
+complete...
 
-[MailDeckDiagnosis3SenderText]
+[MailDeckDiagnosis3SenderText] full-width
 Dr. Mason
 
 [MailDeckDiagnosis3SubjectText]
@@ -1043,12 +1062,13 @@ on building decks, I suppose...
 Mason Laboratory
 `      Dr. Mason, Director (^o^)`
 
-[MailDeckDiagnosis3Body3Text]
-P.S.
-I'll contact you again when
-"Step 4" is complete...
+[MailDeckDiagnosis3Body3Text] full-width
+P.S. I'll contact
+you again when
+"Step 4" is
+complete...
 
-[MailDeckDiagnosis4SenderText]
+[MailDeckDiagnosis4SenderText] full-width
 Dr. Mason
 
 [MailDeckDiagnosis4SubjectText]
@@ -1069,7 +1089,7 @@ to take a good, hard look at it!
 Mason Laboratory
 `      Dr. Mason, Director (^o^)`
 
-[MailAutoDeckMachine1SenderText]
+[MailAutoDeckMachine1SenderText] full-width
 Dr. Mason
 
 [MailAutoDeckMachine1SubjectText]
@@ -1089,13 +1109,14 @@ Put it to good use in your duels!
 Mason Laboratory
 `      Dr. Mason, Director (^o^)`
 
-[MailAutoDeckMachine1Body3Text]
-P.S.
-I doubt this will let you build
-many more decks, but here's a
+[MailAutoDeckMachine1Body3Text] full-width
+P.S. I doubt this
+will let you build
+many more decks,
+but here's a
 present anyway!
 
-[MailAutoDeckMachine2SenderText]
+[MailAutoDeckMachine2SenderText] full-width
 Dr. Mason
 
 [MailAutoDeckMachine2SubjectText]
@@ -1121,7 +1142,7 @@ P.S.
 Here's a present for now!
 Please accept it.
 
-[MailAutoDeckMachine3SenderText]
+[MailAutoDeckMachine3SenderText] full-width
 Dr. Mason
 
 [MailAutoDeckMachine3SubjectText]
@@ -1142,12 +1163,13 @@ then to study your opponents!
 Mason Laboratory
 `      Director Dr. Mason (^o^)`
 
-[MailAutoDeckMachine3Body3Text]
-P.S.
-Another present!
-This time, the 3rd set!!
+[MailAutoDeckMachine3Body3Text] full-width
+P.S. Another
+present! This
+time, the 3rd
+set!!
 
-[MailAutoDeckMachine4SenderText]
+[MailAutoDeckMachine4SenderText] full-width
 Dr. Mason
 
 [MailAutoDeckMachine4SubjectText]
@@ -1169,12 +1191,13 @@ for a change?
 Mason Laboratory
 `      Director Dr. Mason (^o^)`
 
-[MailAutoDeckMachine4Body3Text]
-P.S.
-Here's the newest booster pack,
-the one you won back!
+[MailAutoDeckMachine4Body3Text] full-width
+P.S. Here's the
+newest booster
+pack, the one you
+won back!
 
-[MailAutoDeckMachine5SenderText]
+[MailAutoDeckMachine5SenderText] full-width
 Dr. Mason
 
 [MailAutoDeckMachine5SubjectText]
@@ -1203,7 +1226,7 @@ keep getting more decks!
 Mason Laboratory
 `      Director Dr. Mason (^o^)`
 
-[MailChallengeMachineSenderText]
+[MailChallengeMachineSenderText] full-width
 Dr. Mason
 
 [MailChallengeMachineSubjectText]
@@ -1225,7 +1248,7 @@ Now then, let's take the challenge!
 Mason Laboratory
 `      Director Dr. Mason (^O^)`
 
-[MailGRChallengeMachineSenderText]
+[MailGRChallengeMachineSenderText] full-width
 Biruritchi
 
 [MailGRChallengeMachineSubjectText]
@@ -1253,7 +1276,7 @@ Do your best and win it!
 King of Team GR
 `                    Biruritchi (-^-)`
 
-[MailGrandMasterCupSenderText]
+[MailGrandMasterCupSenderText] full-width
 Rod
 
 [MailGrandMasterCupSubjectText]
@@ -1275,10 +1298,10 @@ the Pokémon Dome now and then.
 Grand Master Leader
 `                           Rod (^o^)`
 
-[MailRonaldsScoutGR1SenderText]
+[MailRonaldsScoutGR1SenderText] full-width
 Ronald
 
-[MailRonaldsScoutGR1SubjectText]
+[MailRonaldsScoutGR1SubjectText] full-width
 GR-1's Deck
 
 [MailRonaldsScoutGR1Body1Text]
@@ -1297,10 +1320,10 @@ Watch out for Magnemite's
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutGR2SenderText]
+[MailRonaldsScoutGR2SenderText] full-width
 Ronald
 
-[MailRonaldsScoutGR2SubjectText]
+[MailRonaldsScoutGR2SubjectText] full-width
 GR-2's Deck
 
 [MailRonaldsScoutGR2Body1Text]
@@ -1319,10 +1342,10 @@ Dark Arbok! Later!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutGR3SenderText]
+[MailRonaldsScoutGR3SenderText] full-width
 Ronald
 
-[MailRonaldsScoutGR3SubjectText]
+[MailRonaldsScoutGR3SubjectText] full-width
 GR-3's Deck
 
 [MailRonaldsScoutGR3Body1Text]
@@ -1340,10 +1363,10 @@ Exeggutor, or you'll get hit with
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutGR4SenderText]
+[MailRonaldsScoutGR4SenderText] full-width
 Ronald
 
-[MailRonaldsScoutGR4SubjectText]
+[MailRonaldsScoutGR4SubjectText] full-width
 GR-4's Deck
 
 [MailRonaldsScoutGR4Body1Text]
@@ -1361,7 +1384,7 @@ it and get his advice. Got it?
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutMorinoSenderText]
+[MailRonaldsScoutMorinoSenderText] full-width
 Ronald
 
 [MailRonaldsScoutMorinoSubjectText]
@@ -1397,7 +1420,7 @@ or Vileplume! Later!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutCatherineSenderText]
+[MailRonaldsScoutCatherineSenderText] full-width
 Ronald
 
 [MailRonaldsScoutCatherineSubjectText]
@@ -1427,7 +1450,7 @@ That's up to you!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutHideroSenderText]
+[MailRonaldsScoutHideroSenderText] full-width
 Ronald
 
 [MailRonaldsScoutHideroSubjectText]
@@ -1457,7 +1480,7 @@ yourself, <RAMNAME>!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutKanokoSenderText]
+[MailRonaldsScoutKanokoSenderText] full-width
 Ronald
 
 [MailRonaldsScoutKanokoSubjectText]
@@ -1487,7 +1510,7 @@ Well, think it over. Later!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutKamiyaSenderText]
+[MailRonaldsScoutKamiyaSenderText] full-width
 Ronald
 
 [MailRonaldsScoutKamiyaSubjectText]
@@ -1516,10 +1539,10 @@ Probably... Well, good luck!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutMamiSenderText]
+[MailRonaldsScoutMamiSenderText] full-width
 Ronald
 
-[MailRonaldsScoutMamiSubjectText]
+[MailRonaldsScoutMamiSubjectText] full-width
 Mami's Deck
 
 [MailRonaldsScoutMamiBody1Text]
@@ -1560,7 +1583,7 @@ to counter Psychic decks, I guess...
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutColorlessAltarSenderText]
+[MailRonaldsScoutColorlessAltarSenderText] full-width
 Ronald
 
 [MailRonaldsScoutColorlessAltarSubjectText]
@@ -1598,7 +1621,7 @@ far, no use rushing it now...
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutBiruritchiSenderText]
+[MailRonaldsScoutBiruritchiSenderText] full-width
 Ronald
 
 [MailRonaldsScoutBiruritchiSubjectText]
@@ -1663,98 +1686,102 @@ We look forward to your visit!
 
 `                Battle Center m(__)m`
 
-[MailboxTitleText]
-`  Mailbox  `
+[MailboxTitleText] full-width
+` Mailbox `
 
-[MailboxFullWarningText]
-Your Mailbox is full, so new Mail
-can't be received. To read new
-Mail, please delete any Mail you
-no longer need.
+[MailboxFullWarningText] full-width
+Your Mailbox is
+full, so new Mail
+can't be received.
+To read new Mail,
+please delete any
+Mail you no longer
+need.
 
-[MailboxNoNewMailText]
-No new Mail
-has arrived.
+[MailboxNoNewMailText] full-width
+No new Mail has
+arrived.
 
-[MailboxNewMailText]
-New Mail has arrived!
+[MailboxNewMailText] full-width
+New Mail has
+arrived!
 
-[MailboxChooseMailText]
-Please select Mail.
+[MailboxChooseMailText] full-width
+Select Mail.
 
-[MailboxSenderText]
+[MailboxSenderText] full-width
 From:
 
-[MailboxSubjectText]
-Subject:
+[MailboxSubjectText] full-width
+Subj:
 
-[MailboxActionPromptText]
+[MailboxActionPromptText] full-width
 What to do?
 
-[MailboxActionReadText]
+[MailboxActionReadText] full-width
 Read
 
-[MailboxActionDeleteText]
+[MailboxActionDeleteText] full-width
 Delete
 
-[MailboxActionDeleteConfirmText]
-Really delete this Mail?
+[MailboxActionDeleteConfirmText] full-width
+Delete this Mail?
 
 [MailboxActionDeleteUnreadConfirmText]
 It's unread. Delete it anyway?
 
-[MailboxDeletedText]
+[MailboxDeletedText] full-width
 Mail deleted.
 
 [DebugSendMailText]
 Send Mail
 
-[MailboxEmptyText]
+[MailboxEmptyText] full-width
 You have no Mail.
 
-[SamRulesEnergyText]
-About Energy
+[SamRulesEnergyText] full-width
+Energy
 
-[SamRulesAttackText]
-Using Attacks
+[SamRulesAttackText] full-width
+Attacks
 
-[SamRulesSwitchText]
-Switching Pokémon
+[SamRulesSwitchText] full-width
+Switching
 
-[SamRulesEvolutionText]
-Evolving Pokémon
+[SamRulesEvolutionText] full-width
+Evolving
 
-[SamRulesPokemonPowerText]
-Using Pokémon Powers
+[SamRulesPokemonPowerText] full-width
+PKMN Powers
 
-[SamRulesEndOfTurnText]
-Ending Your Turn
+[SamRulesEndOfTurnText] full-width
+Ending Turn
 
-[SamRulesDecisionText]
-Winning and Losing
+[SamRulesDecisionText] full-width
+Win or Lose
 
-[SamRulesQuitText]
-Nothing to Ask
-
-[MasonLabPracticeDuelText]
-Practice Duel
-
-[MasonLabRegularDuelText]
-Normal Duel
-
-[SamRulesText]
-Explain Rules
-
-[SamQuitText]
+[SamRulesQuitText] full-width
 Never Mind
 
-[AaronStep1Text]
+[MasonLabPracticeDuelText] full-width
+Lesson
+
+[MasonLabRegularDuelText] full-width
+Duel
+
+[SamRulesText] full-width
+Rules
+
+[SamQuitText] full-width
+Cancel
+
+[AaronStep1Text] full-width
 Step 1
 
-[AaronStep2Text]
+[AaronStep2Text] full-width
 Step 2
 
-[AaronStep3Text]
+[AaronStep3Text] full-width
 Step 3
 
 [AaronStep4Text]
@@ -1792,25 +1819,33 @@ with all sorts of cards!
 [GameCenterBlackBoxStartPromptText]
 Want to play the Black Box?
 
-[GameCenterBlackBoxSaveRequestText]
-Before you play, please
-write in your "Diary."
+[GameCenterBlackBoxSaveRequestText] full-width
+Before you play,
+please write in
+your "Diary."
 
-[GameCenterBlackBoxUnableNotEnoughChipsText]
-The Black Box costs 5 chips a play.
-You don't have enough chips!
+[GameCenterBlackBoxUnableNotEnoughChipsText] full-width
+The Black Box
+costs 5 chips a
+play. You don't
+have enough chips!
 
-[GameCenterBlackBoxUnableLastOutputRemainingText]
-Mail from the Black Box is still
-waiting in your Mailbox.
+[GameCenterBlackBoxUnableLastOutputRemainingText] full-width
+Mail from the
+Black Box is still
+waiting in your
+Mailbox.
 
-[GameCenterBlackBoxUnableLastOutputRemainingTextCont]
-Please read it and get your cards
-first, then come back.
+[GameCenterBlackBoxUnableLastOutputRemainingTextCont] full-width
+Please read it
+and get your cards
+first, then come
+back.
 
-[GameCenterBlackBoxUnableSaveRequiredText]
-You can't play unless you
-write in your "Diary."
+[GameCenterBlackBoxUnableSaveRequiredText] full-width
+You can't play
+unless you write
+in your "Diary."
 
 [GameCenterBlackBoxProcedureText]
 `      Choosing Cards to Send`
@@ -1824,80 +1859,103 @@ write in your "Diary."
 3. Select "Send" and your cards
 `   are all set to be sent.`
 
-[GameCenterBlackBoxProcedureDialogText]
-Here's how to choose the cards
-to send to the Black Box.
+[GameCenterBlackBoxProcedureDialogText] full-width
+Here's how to
+choose the cards
+to send to the
+Black Box.
 
-[GameCenterBlackBoxDoneText]
+[GameCenterBlackBoxDoneText] full-width
 You've sent cards
 to the Black Box!
 
-[GameCenterToBeMailedText]
-The result will arrive in your
-Mailbox. Look forward to it!
+[GameCenterToBeMailedText] full-width
+The result will
+arrive in your
+Mailbox. Look
+forward to it!
 
-[MainMenuNewGameInsteadOfContinueWarning1Text]
-Save data already exists.
+[MainMenuNewGameInsteadOfContinueWarning1Text] full-width
+Save data already
+exists.
 
-[MainMenuNewGameInsteadOfContinueWarning2Text]
-If you start over now,
-you will lose all of your cards.
+[MainMenuNewGameInsteadOfContinueWarning2Text] full-width
+If you start over
+now, you will lose
+all of your cards.
 
-[MainMenuNewGameInsteadOfContinueConfirmPromptText]
+[MainMenuNewGameInsteadOfContinueConfirmPromptText] full-width
 Is that still OK?
 
-[MainMenuNewGameInsteadOfContinueDeletedText]
-All data has been deleted.
+[MainMenuNewGameInsteadOfContinueDeletedText] full-width
+All data has been
+deleted.
 
-[ProloguePlayerRecapLine1Text]
-<RAMNAME> loves collecting
-Pokémon cards.
+[ProloguePlayerRecapLine1Text] full-width
+<RAMNAME> loves
+collecting Pokémon
+cards.
 
-[ProloguePlayerRecapLine2Text]
-To win the Legendary Pokémon Cards
-of this island, <RAMNAME>
+[ProloguePlayerRecapLine2Text] full-width
+To win the
+Legendary Pokémon
+Cards of this
+island, <RAMNAME>
 
-[ProloguePlayerRecapLine3Text]
-took on the 8 Club Masters and
-the guardians of those cards,
+[ProloguePlayerRecapLine3Text] full-width
+took on the 8 Club
+Masters and the
+guardians of those
+cards,
 
-[ProloguePlayerRecapLine4Text]
-the 4 Grand Masters...
+[ProloguePlayerRecapLine4Text] full-width
+the 4 Grand
+Masters...
 
-[ProloguePlayerRecapLine5Text]
-And finally!
-The Grand Masters were defeated,
+[ProloguePlayerRecapLine5Text] full-width
+And finally! The
+Grand Masters were
+defeated,
 
-[ProloguePlayerRecapLine6Text]
-and the 4 Legendary Pokémon Cards
-were won!
+[ProloguePlayerRecapLine6Text] full-width
+and the 4
+Legendary Pokémon
+Cards were won!
 
-[ProloguePlayerRecapLine7Text]
+[ProloguePlayerRecapLine7Text] full-width
 Then, one day...
 trouble struck!
 
-[PrologueGRInvasionLine1Text]
-Suddenly,
-a mysterious gang attacked!
+[PrologueGRInvasionLine1Text] full-width
+Suddenly, a
+mysterious gang
+attacked!
 
-[PrologueGRInvasionLine2Text]
-Their name was "Team GR"!
-Short for "Team Great Rocket"!
+[PrologueGRInvasionLine2Text] full-width
+Their name was
+"Team GR"! Short
+for "Team Great
+Rocket"!
 
-[PrologueGRInvasionLine3Text]
-Team GR attacked the clubs
-and stole their cards!
+[PrologueGRInvasionLine3Text] full-width
+Team GR attacked
+the clubs and
+stole their cards!
 
-[ProloguePlayerToLabLine1Text]
-Robbed of the cards by Team GR,
+[ProloguePlayerToLabLine1Text] full-width
+Robbed of the
+cards by Team GR,
 <RAMNAME> headed for
 
-[ProloguePlayerToLabLine2Text]
-the laboratory of Dr. Mason,
-the Pokémon card researcher,
+[ProloguePlayerToLabLine2Text] full-width
+the laboratory
+of Dr. Mason,
+the Pokémon card
+researcher,
 
-[ProloguePlayerToLabLine3Text]
-to tell him what had happened...
+[ProloguePlayerToLabLine3Text] full-width
+to tell him what
+had happened...
 
 [IntroductionText]
 Introduction
@@ -1920,18 +1978,19 @@ Green
 [ConfigFrameColorBlackText]
 Dark
 
-[GameCenterBlackBoxSendingHeaderText]
+[GameCenterBlackBoxSendingHeaderText] full-width
 Sending
 
-[GameCenterBlackBoxConfirmPromptText]
+[GameCenterBlackBoxConfirmPromptText] full-width
 Send these cards?
 
 [GameCenterBlackBoxCancelPromptText]
 Quit the Black Box?
 
-[GameCenterBlackBoxChipsPaidText]
-Now then, we'll take 5 chips
-as the fee.
+[GameCenterBlackBoxChipsPaidText] full-width
+Now then, we'll
+take 5 chips as
+the fee.
 
 [GameCenterCardDungeonBet10Text]
 Bet 10
@@ -1967,40 +2026,51 @@ Win, and the chips you bet double!
 Lose, and your chips are taken,
 and it's game over!
 
-[GameCenterCardDungeonUnableNotEnoughChipsText]
-You need at least 10 chips.
-Please collect more chips.
+[GameCenterCardDungeonUnableNotEnoughChipsText] full-width
+You need at least
+10 chips. Please
+collect more
+chips.
 
-[GameCenterCardDungeonDialogText]
-Keep on dueling and
-collect lots of chips!
+[GameCenterCardDungeonDialogText] full-width
+Keep on dueling
+and collect lots
+of chips!
 
-[MainMenuContinueFromDiaryInsteadOfDuelWarning1Text]
-There's save data from a duel
-interrupted by a power loss.
+[MainMenuContinueFromDiaryInsteadOfDuelWarning1Text] full-width
+There's save
+data from a duel
+interrupted by a
+power loss.
 
-[MainMenuContinueFromDiaryInsteadOfDuelWarning2Text]
-Choose "Continue Duel" to resume
-the duel that was interrupted.
+[MainMenuContinueFromDiaryInsteadOfDuelWarning2Text] full-width
+Choose "Resume"
+to pick up the
+duel that was
+interrupted.
 
-[MainMenuContinueFromDiaryInsteadOfDuelWarning3Text]
-If you start now, "Continue Duel"
-will disappear from the menu,
+[MainMenuContinueFromDiaryInsteadOfDuelWarning3Text] full-width
+If you start now,
+"Resume" will
+disappear from the
+menu,
 
-[MainMenuContinueFromDiaryInsteadOfDuelWarning4Text]
-and the game will start from where
-you last wrote in your "Diary."
+[MainMenuContinueFromDiaryInsteadOfDuelWarning4Text] full-width
+and the game will
+start from where
+you last wrote in
+your "Diary."
 
 [MainMenuContinueFromDiaryInsteadOfDuelConfirmText]
 Continue from your Diary?
 
-[TCGChallengeMachineText]
+[TCGChallengeMachineText] full-width
 Challenge Mach.
 
-[GRChallengeMachineText]
-GR Challenge Machine
+[GRChallengeMachineText] full-width
+GR Challenge Mach.
 
-[ChallengeMachineScoreTitleText]
+[ChallengeMachineScoreTitleText] full-width
 <RAMNAME>'s Score
 
 [ChallengeMachineSetsWonRecordText]
@@ -2009,7 +2079,7 @@ Sets of 5 Cleared
 [ChallengeMachineCurrentWinStreakText]
 Current Win Streak
 
-[ChallengeMachineWinStreakRecordText]
+[ChallengeMachineWinStreakRecordText] full-width
 Best Win Streak
 
 [AttemptsUnitText]
@@ -2037,14 +2107,16 @@ Club Member <LIGHTNING>
 [OpponentRockFightingClubMemberSimpleText]
 Club Member <FIGHTING>
 
-[ChallengeMachineOpponentListDialogText]
-Here are your opponents this time.
+[ChallengeMachineOpponentListDialogText] full-width
+Here are your
+opponents this
+time.
 
 [ChallengeMachineOpponent1DialogText]
 <RAMNAME> is on a <RAMNUM>-win streak!
 First up is <RAMTEXT>.
 
-[ChallengeMachineDuelPromptText]
+[ChallengeMachineDuelPromptText] full-width
 Start the duel?
 
 [ChallengeMachineOpponentGrandMasterText]
@@ -2071,9 +2143,10 @@ You beat <RAMTEXT>!
 Opponent <RAMNUM>:
 You lost to <RAMTEXT>!
 
-[ChallengeMachineLossDialogWinStreakText]
-<RAMNAME>'s win streak
-ended at <RAMNUM>.
+[ChallengeMachineLossDialogWinStreakText] full-width
+<RAMNAME>'s win
+streak ended at
+<RAMNUM>.
 
 [DebugCreditsText]
 Credits
@@ -2089,7 +2162,7 @@ Takahiro Harada
 [CreditsDirectorText]
 Director
 
-[CreditsDirectorListText]
+[CreditsDirectorListText] full-width
 Koji Arai
 
 [CreditsStoryText]
@@ -2143,7 +2216,7 @@ Sound Direction
 [CreditsSoundDirectorListText]
 Toshiaki Takimoto
 
-[CreditsMusicText]
+[CreditsMusicText] full-width
 Music
 
 [CreditsMusicListText]
@@ -2294,7 +2367,7 @@ Rich Wilson
 [CreditsAssistanceList5ContText]
 `          Kunihiko`
 
-[CreditsAssistanceList6Text]
+[CreditsAssistanceList6Text] full-width
 Creatures
 
 [CreditsAssistanceList7Text]
@@ -2336,18 +2409,20 @@ Name Entry
 [PleasePressAText]
 Press the A Button.
 
-[AttendantText]
+[AttendantText] full-width
 Attendant
 
 [DebugClearMailText]
 Clear Mail
 
-[ObtainedGRCoinPieceTotalNumberText]
-That makes <RAMNUM> GR Coin pieces!
+[ObtainedGRCoinPieceTotalNumberText] full-width
+GR Coin piece <RAMNUM>!
 
-[ChallengeMachineQuitWinStreakWarningText]
-If you quit the duel, your win
-streak will come to an end.
+[ChallengeMachineQuitWinStreakWarningText] full-width
+If you quit the
+duel, your win
+streak will come
+to an end.
 
 [ChallengeMachineQuitPromptText]
 Do you still want to quit?
@@ -2356,25 +2431,31 @@ Do you still want to quit?
 Congratulations!
 You beat all 5 opponents!
 
-[ChallengeMachineSetsWonText]
-<RAMNAME> has beaten 5 in a row
-a total of <RAMNUM> times!!
+[ChallengeMachineSetsWonText] full-width
+<RAMNAME> has beaten
+5 in a row a total
+of <RAMNUM> times!!
 
-[ChallengeMachineComeAgainText]
-We look forward to
-your next challenge!
+[ChallengeMachineComeAgainText] full-width
+We look forward
+to your next
+challenge!
 
-[OpenedBoosterPackText]
-<RAMNAME> looked inside
-the booster pack!!
+[OpenedBoosterPackText] full-width
+<RAMNAME> looked
+inside the booster
+pack!!
 
-[NoCardsSelectedTryAgainText]
-No cards have been chosen.
-Please choose again.
+[NoCardsSelectedTryAgainText] full-width
+No cards have been
+chosen. Please
+choose again.
 
-[GameCenterToBeMailedText_2]
-The result will arrive in your
-Mailbox. Look forward to it!
+[GameCenterToBeMailedText_2] full-width
+The result will
+arrive in your
+Mailbox. Look
+forward to it!
 
 [DebugDummyLinesText]
 Dummy line!

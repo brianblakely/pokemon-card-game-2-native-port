@@ -215,14 +215,50 @@ switches language, `tcg2_locale::localize` builds the ROM image:
    the game's own bank switch reaches them: it writes only the MBC5's low
    bank register. Every image holds every language's text and differs only
    in steps 3 to 7.
-2. **Text.** Each translation is encoded as the engine's half-width text:
-   `TX_HALFWIDTH`, Latin letters two to a tile, `TX_END`. `<RAMNAME>`,
-   `<RAMTEXT>`, `<RAMNUM>` and symbols such as `<Lv>` become their control
-   codes. Texts follow one another from bank $80, never across a bank's end,
-   and identical texts share their bytes.
+2. **Text.** The engine draws Latin letters two ways, and each translation
+   names its own (`src/text.rs`):
+   - **Full-width**, a letter to a tile, as the Japanese is: letters and most
+     signs as `TX_FULLWIDTH4` and a code in the ROM's font of Latin letters
+     (`gfx/fonts/full_width/4.png`, the codes the name keyboard types, so a
+     typed name matches), digits and a few signs as single codes of the
+     digit font, `$70` a blank. No prefix: every print starts full-width.
+   - **Half-width**, `TX_HALFWIDTH` and Latin letters two to a tile.
+
+   A full-width text needs twice the room, so a text is full-width only
+   where the decomp shows that it fits: the crate's tests
+   (`src/tests/layout.rs`) read from the decomp how each text is printed
+   (`PrintScrollableText` pages of two 18-tile lines, also from the lists
+   `PrintScrollableTextFromList` prints; the wide box at the bottom, two
+   lines of 18, one under a yes/no menu; the narrow box, lines of 10; a menu
+   box's items, each up to the border or the next item's cursor, and a menu
+   only if all its items fit; the duel's coin toss, card lists and the
+   reason a check hands back, which the duel prints in the wide box; tables
+   of data: a card's text on its page, seven lines of 18, its Pokédex
+   entry, three, letters, the glossary, the practice duel's steps and the
+   special rules; and the places the scan can't follow, measured by hand
+   from the code that prints each text: `src/tests/measured.txt`, with a
+   group for texts that share a size) and check that every text that fits
+   is full-width, flowed into lines of its box (a card's type in brackets
+   keeps a line of its own), and that the rest are not. A name the game
+   copies into the save (a deck it gives the player or the Auto Deck
+   Machine builds, a Card Pop! partner) keeps two bytes a letter and only
+   full-width letters survive the copy, so it must be full-width and short
+   enough: 10 letters for a deck, 6 for a partner. A text printed
+   nowhere the tests know (a name the code puts into another text) stays
+   half-width; one can be made full-width by hand within the Japanese
+   text's own lines. So does a text that puts another into itself
+   (`<RAMTEXT>`): what it puts in is half-width, and a line reads in one
+   size, unless the texts it puts in are known and all full-width
+   (`PUT_INTO`). Debug menus and routines, which no player sees, do not count.
+   `TCG2_BLESS=1` rewrites the files to that layout.
+
+   `<RAMNAME>`, `<RAMTEXT>`, `<RAMNUM>` and symbols such as `<Lv>` become
+   their control codes. Texts follow one another from bank $80, never across
+   a bank's end, and identical texts share their bytes.
 3. **The table.** The chosen language's entries point at its texts. A text it
    leaves out (a symbol, a number) prints as the ROM has it.
-4. **Font.** English is drawn with the port's own 4×8 font (`font.txt`) in
+4. **Fonts.** Full-width English uses the ROM's full-width font.
+   Half-width English is drawn with the port's own 4×8 font (`font.txt`) in
    place of `HalfWidthFont`. The game pads names and list rows with $70, its
    full-width blank, also after half-width text, where $70 is 'p'
    (`CopyCardNameAndLevel`). So the font draws $70 blank, and the encoder
@@ -230,10 +266,14 @@ switches language, `tcg2_locale::localize` builds the ROM image:
 5. **Text outside the table.** A few texts sit in code banks: a deck name's
    suffix, default names, a title. `data.txt` replaces them in place
    (`TEXT_DATA` gives where), each within its original bytes.
-6. **Characters the code writes.** The game's code itself writes "枚" (a
-   counter word English lacks) after card counts; `fullwidth.txt` draws it
-   blank. ("の", which the code puts between the player's name and an unnamed
-   deck's number, stays: the name entry keyboard types it too.)
+6. **Full-width characters.** `fullwidth.txt` redraws a few of the
+   full-width font's characters. The game's code itself writes "枚" (a
+   counter word English lacks) after card counts: it is blank. ("の", which
+   the code puts between the player's name and an unnamed deck's number,
+   stays: the name entry keyboard types it too.) The font has no "é", drawn
+   over its unused second copy of "e", and its period and comma float a row
+   above the letters' baseline, where a period reads as a dash: they are
+   redrawn on it.
 7. **Pictures.** `graphics.txt` redraws pictures with lettering (the duel's
    banners, the play area's location labels, the result stamps, the slot
    machine's signs, the booster packs' names, the Card Pop! screens) in the

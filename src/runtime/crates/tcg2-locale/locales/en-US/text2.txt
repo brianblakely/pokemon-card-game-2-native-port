@@ -45,23 +45,24 @@ the Deck and put it on the Bench.
 If heads, put a Mysterious Fossil
 from the Discard Pile into the Hand.
 
-[AttackUnsuccessfulText]
-Attack unsuccessful.
+[AttackUnsuccessfulText] full-width
+Attack
+unsuccessful.
 
-[UnableToRetreatDueToAcidText]
-Can't Retreat due to
+[UnableToRetreatDueToAcidText] full-width
+Can't flee due to
 Acid.
 
-[UnableToRetreatDueToRockSealText]
-Can't Retreat due to
+[UnableToRetreatDueToRockSealText] full-width
+Can't flee due to
 Rock Seal.
 
-[UnableToRetreatDueToDrillDiveText]
-Can't Retreat due to
+[UnableToRetreatDueToDrillDiveText] full-width
+Can't flee due to
 Drill Dive.
 
-[UnableToRetreatDueToGuardText]
-Can't Retreat due to
+[UnableToRetreatDueToGuardText] full-width
+Can't flee due to
 Guard.
 
 [UnableToUseTrainerDueToHeadacheText]
@@ -72,21 +73,21 @@ the effects of Headache.
 Unable to use Trainer cards due to
 the effects of Spookify.
 
-[UnableToAttackDueToTailWagText]
-Can't attack due to
-Tail Whip.
+[UnableToAttackDueToTailWagText] full-width
+Can't attack due
+to Tail Whip.
 
-[UnableToAttackDueToLeerText]
-Can't attack due to
-Leer.
+[UnableToAttackDueToLeerText] full-width
+Can't attack due
+to Leer.
 
-[UnableToAttackDueToBoneAttackText]
-Can't attack due to
-Bone Attack.
+[UnableToAttackDueToBoneAttackText] full-width
+Can't attack due
+to Bone Attack.
 
-[UnableToAttackDueToDrillDiveText]
-Can't attack due to
-Drill Dive.
+[UnableToAttackDueToDrillDiveText] full-width
+Can't attack due
+to Drill Dive.
 
 [UnableToUseAttackDueToAmnesiaText]
 Can't use this
@@ -140,8 +141,9 @@ the attack, including damage.
 Unable to use Trainer cards due to
 the effects of Hay Fever.
 
-[PoisonFluidActivatedText]
-Poison Fluid takes effect!
+[PoisonFluidActivatedText] full-width
+Poison Fluid takes
+effect!
 
 [UnableToDrawCardDueToPerplexText]
 Unable to draw a card due to
@@ -187,22 +189,23 @@ resists <RAMTEXT>
 <RAMTEXT> is
 now <RAMTEXT>.
 
-[Draw1CardFromTheDeckText]
-Draw 1 card
-from the Deck.
+[Draw1CardFromTheDeckText] full-width
+Draw 1 card from
+the Deck.
 
-[DrawCardsFromTheDeckText]
+[DrawCardsFromTheDeckText] full-width
 Draw <RAMNUM> card(s)
 from the Deck.
 
-[DrawNoCardsFromTheDeckText]
-No cards drawn from the Deck.
+[DrawNoCardsFromTheDeckText] full-width
+No cards drawn
+from the Deck.
 
-[ChooseBenchedPokemonToGiveDamageText]
-Choose a Benched Pokémon
-to damage.
+[ChooseBenchedPokemonToGiveDamageText] full-width
+Choose a Benched
+Pokémon to damage.
 
-[ChoosePokemonToGiveDamageText]
+[ChoosePokemonToGiveDamageText] full-width
 Choose a Pokémon
 to damage.
 
@@ -230,12 +233,13 @@ to discard.
 Discard 1 card from the opponent's
 Deck per Fire Energy you discard.
 
-[ChooseAndDiscard2EnergyCardsText]
-Choose 2 Energy cards
-to discard.
+[ChooseAndDiscard2EnergyCardsText] full-width
+Choose 2 Energy
+cards to discard.
 
-[ChooseAKrabbyFromDeckText]
-Find a Krabby in the Deck.
+[ChooseAKrabbyFromDeckText] full-width
+Find a Krabby in
+the Deck.
 
 [ChooseEnergyCardFromOppActiveToDiscardText]
 Choose an Energy card to discard
@@ -249,14 +253,15 @@ the opponent's next turn.
 Choose a Basic Fighting Pokémon
 from the Deck.
 
-[ChooseAnOddishFromDeckText]
-Choose an Oddish from the Deck.
+[ChooseAnOddishFromDeckText] full-width
+Choose an Oddish
+from the Deck.
 
-[ChooseAnOddishText]
+[ChooseAnOddishText] full-width
 Choose an
 Oddish.
 
-[ChooseAKrabbyText]
+[ChooseAKrabbyText] full-width
 Choose a
 Krabby.
 
@@ -423,8 +428,9 @@ Basic Energy
 Peek was used to look at
 <RAMTEXT> in your Hand.
 
-[CardPeekWasUsedOnText]
-Peek was used here.
+[CardPeekWasUsedOnText] full-width
+Peek was used
+here.
 
 [PokemonAndAllAttachedCardsReturnedToHandText]
 <RAMTEXT> and all attached
@@ -484,11 +490,11 @@ evolves from Magikarp.
 [EffectTargetGyaradosText]
 Gyarados
 
-[ChooseAGyaradosText]
+[ChooseAGyaradosText] full-width
 Choose a
 Gyarados.
 
-[ReceivedDamageDueToFinalBeamText]
+[ReceivedDamageDueToFinalBeamText] full-width
 Final Beam dealt
 <RAMNUM> damage!
 
@@ -506,7 +512,7 @@ Psychic Energy
 Choose a Psychic
 Energy card.
 
-[CardTrickeryWasUsedOnText]
+[CardTrickeryWasUsedOnText] full-width
 Trickery swapped
 this card.
 
@@ -521,14 +527,14 @@ Evolution
 Choose an
 Evolution card.
 
-[ChooseAParasFromDeckText]
+[ChooseAParasFromDeckText] full-width
 Choose a Paras
 from the Deck.
 
 [EffectTargetParasText]
 Paras
 
-[ChooseAParasText]
+[ChooseAParasText] full-width
 Choose a
 Paras.
 
@@ -562,14 +568,14 @@ Lightning Energy
 Choose a Lightning
 Energy card.
 
-[ChooseAMagnemiteFromDeckText]
+[ChooseAMagnemiteFromDeckText] full-width
 Choose a Magnemite
 from the Deck.
 
 [EffectTargetMagnemiteText]
 Magnemite
 
-[ChooseAMagnemiteText]
+[ChooseAMagnemiteText] full-width
 Choose a
 Magnemite.
 
@@ -604,16 +610,18 @@ How many will you draw?
 
 [EffectTargetGeneralUnitText]
 
-[DuelistDrawCardsText]
-<RAMNAME> draws
-<RAMNUM> card(s).
+[DuelistDrawCardsText] full-width
+<RAMNAME> draws <RAMNUM>
+card(s).
 
 [ClefairyDollMindShockName]
 Mind Shock
 
-[ClefairyDollMindShockDescription]
-Don't apply Weakness and Resistance
-for this attack.
+[ClefairyDollMindShockDescription] full-width
+Don't apply
+Weakness and
+Resistance for
+this attack.
 
 [DiscardingXCardsPromptText]
 OK to discard <RAMNUM> card(s)?
@@ -738,11 +746,11 @@ to the Deck.
 Choose a Pokémon to
 put into play.
 
-[ChooseBasicPokemonToEvolveText]
-Choose a Basic Pokémon
-to evolve.
+[ChooseBasicPokemonToEvolveText] full-width
+Choose a Basic
+Pokémon to evolve.
 
-[ChoosePokemonToScoopUpText]
+[ChoosePokemonToScoopUpText] full-width
 Choose a Pokémon
 to scoop up.
 
@@ -766,7 +774,7 @@ Pokémon card.
 Rearrange the top 5 cards of
 the Deck in any order.
 
-[PleaseCheckTheOpponentsHandText]
+[PleaseCheckTheOpponentsHandText] full-width
 Look at the
 opponent's Hand.
 
@@ -817,12 +825,12 @@ put in the Deck.
 <RAMTEXT>
 added to Hand.
 
-[TheCardYouReceivedText]
+[TheCardYouReceivedText] full-width
 Cards you received
 
-[YouReceivedTheseCardsText]
-You received
-these cards.
+[YouReceivedTheseCardsText] full-width
+You received these
+cards.
 
 [ChooseTheCardToPutBackText]
 Choose a card
@@ -832,24 +840,24 @@ to put back.
 Choose a card
 to discard.
 
-[DiscardedCardsFromDeckText]
-<RAMNAME> discarded <RAMNUM>
-from the Deck.
+[DiscardedCardsFromDeckText] full-width
+<RAMNAME> discarded
+<RAMNUM> from the Deck.
 
 [DiscardedCardFromHandText]
 <RAMTEXT>
 discarded from Hand.
 
-[NoneCameText]
+[NoneCameText] full-width
 No one came out.
 
 [CameToTheBenchText]
 <RAMTEXT>
 is on the Bench!
 
-[DuelistHasNoCardsInHandText]
-<RAMNAME> has
-no cards in hand.
+[DuelistHasNoCardsInHandText] full-width
+<RAMNAME> has no
+cards in hand.
 
 [PokemonHealedDamageText]
 <RAMTEXT>
@@ -859,29 +867,35 @@ healed <RAMNUM> damage!
 <RAMTEXT> devolved
 into <RAMTEXT>.
 
-[ThereWasNoFireEnergyText]
-There was no Fire Energy.
+[ThereWasNoFireEnergyText] full-width
+There was no Fire
+Energy.
 
 [MaySelectMoreCardsButQuitPromptText]
 You can choose <RAMNUM> more. Quit?
 
-[ThereWasNoEffectText]
+[ThereWasNoEffectText] full-width
 No effect.
 
-[ThereWasNoEffectFromToxicText]
-Toxic had no effect.
+[ThereWasNoEffectFromToxicText] full-width
+Toxic had no
+effect.
 
-[ThereWasNoEffectFromPoisonText]
-Poison had no effect.
+[ThereWasNoEffectFromPoisonText] full-width
+Poison had no
+effect.
 
-[ThereWasNoEffectFromSleepText]
-Sleep had no effect.
+[ThereWasNoEffectFromSleepText] full-width
+Sleep had no
+effect.
 
-[ThereWasNoEffectFromParalysisText]
-Paralysis had no effect.
+[ThereWasNoEffectFromParalysisText] full-width
+Paralysis had no
+effect.
 
-[ThereWasNoEffectFromConfusionText]
-Confusion had no effect.
+[ThereWasNoEffectFromConfusionText] full-width
+Confusion had no
+effect.
 
 [ThereWasNoEffectFromPoisonConfusionText]
 Poison and Confusion had no effect.
@@ -889,11 +903,13 @@ Poison and Confusion had no effect.
 [ThereWasNoEffectFromPoisonParalysisText]
 Poison and Paralysis had no effect.
 
-[ThereWasNoEffectFromPoisonSleepText]
-Poison and Sleep had no effect.
+[ThereWasNoEffectFromPoisonSleepText] full-width
+Poison and Sleep
+had no effect.
 
-[RearrangedDuelistsDeckText]
-Rearranged the Deck of <RAMNAME>
+[RearrangedDuelistsDeckText] full-width
+Rearranged the
+Deck of <RAMNAME>
 
 [ChooseADarkEvolutionCardText]
 Choose a Dark Pokémon
@@ -906,11 +922,13 @@ Dark Pokémon
 Choose a
 Dark Pokémon.
 
-[NoWaterEnergyText]
-There is no Water Energy.
+[NoWaterEnergyText] full-width
+There is no Water
+Energy.
 
-[NoFightingEnergyText]
-There is no Fighting Energy.
+[NoFightingEnergyText] full-width
+There is no
+Fighting Energy.
 
 [ReturningTheseCardsToDeckText]
 Returning these cards to the Deck.
@@ -963,8 +981,9 @@ from the Deck.
 Choose a
 Myst. Fossil.
 
-[ReturnedXCardsToDeckText]
-<RAMNUM> card(s) to the Deck.
+[ReturnedXCardsToDeckText] full-width
+<RAMNUM> card(s) to the
+Deck.
 
 [ChooseBasicOrEvolutionCardText]
 Choose a Basic
@@ -981,10 +1000,11 @@ put in the Deck.
 [BattleCenterText]
 Battle Center
 
-[PrizesNumberText]
-Prize cards
+[PrizesNumberText] full-width
+Prize
+cards
 
-[ChooseTheNumberOfPrizesText]
+[ChooseTheNumberOfPrizesText] full-width
 Choose the number
 of Prizes.
 
@@ -992,9 +1012,9 @@ of Prizes.
 Deciding the number of Prizes.
 Please wait a moment.
 
-[BeginDuelOfXPrizesWithOpponentText]
-Begin a <RAMNUM>-Prize duel
-with <RAMNAME>!
+[BeginDuelOfXPrizesWithOpponentText] full-width
+Begin a <RAMNUM>-Prize
+duel with <RAMNAME>!
 
 [ReceivedCardText]
 <RAMNAME> received
@@ -1024,10 +1044,10 @@ Pretend you saw the card list.
 Now printing.
 Please wait a moment.
 
-[BoosterPackCardsText]
+[BoosterPackCardsText] full-width
 Booster pack cards
 
-[TryAgainPromptText]
+[TryAgainPromptText] full-width
 Try again?
 
 [TransmittedToText]
@@ -1052,11 +1072,13 @@ Bring the Game Boys close. Press A!
 Receiving a deck configuration.
 Bring the Game Boys close together.
 
-[TransmittingCardUnsuccessfulSenderText]
-Failed to send the cards.
+[TransmittingCardUnsuccessfulSenderText] full-width
+Failed to send the
+cards.
 
-[TransmittingCardUnsuccessfulReceiverText]
-Failed to receive the cards.
+[TransmittingCardUnsuccessfulReceiverText] full-width
+Failed to receive
+the cards.
 
 [TransmittingDeckConfigurationUnsuccessfulSenderText]
 Failed to send the deck
@@ -1099,18 +1121,21 @@ the Active Pokémon.
 [ChallengePromptText]
 Accept the challenge?
 
-[ChallengeAcceptedText]
-<RAMNAME> accepted the challenge!
+[ChallengeAcceptedText] full-width
+<RAMNAME> accepted
+the challenge!
 
-[ChallengeDeclinedText]
-<RAMNAME> declined the challenge.
+[ChallengeDeclinedText] full-width
+<RAMNAME> declined
+the challenge.
 
 [DuelistSelectsPokemonTotalNumberText]
 <RAMNAME> chose <RAMNUM> Pokémon
 for a total of <RAMNUM>.
 
-[SelectingPokemonFromDeckText]
-Choosing Pokémon from the Deck...
+[SelectingPokemonFromDeckText] full-width
+Choosing Pokémon
+from the Deck...
 
 [CardPopMenuText]
 Card Pop!
@@ -1135,20 +1160,23 @@ both beaten the game.
 Look at the records of every
 Card Pop! you've done so far.
 
-[CardPopExitText]
+[CardPopExitText] full-width
 Exit Card Pop!
 
-[AreYouBothReadyToCardPopText]
+[AreYouBothReadyToCardPopText] full-width
 Are you both ready
 for Card Pop!?
 
-[CardPopUnsuccessfulTryAgainText]
-The Card Pop! didn't work.
+[CardPopUnsuccessfulTryAgainText] full-width
+The Card Pop!
+didn't work.
 Please try again.
 
-[CannotCardPopWithFriendPreviouslyPoppedWithText]
-You can't Card Pop! with a friend
-you've popped with before.
+[CannotCardPopWithFriendPreviouslyPoppedWithText] full-width
+You can't Card
+Pop! with a friend
+you've popped with
+before.
 
 [PositionGameBoyColorsAndPressAButtonText]
 Bring the Game Boys close together
@@ -1158,19 +1186,23 @@ and one of you press the A Button.
 Received <RAMTEXT>
 through Card Pop!
 
-[AreYouBothReadyToRareCardPopText]
+[AreYouBothReadyToRareCardPopText] full-width
 Are you both ready
-for Rare Card Pop!?
+for Rare Card
+Pop!?
 
 [ReceivedThroughRareCardPopText]
 Received <RAMTEXT>
 through Rare Card Pop!
 
-[CannotRareCardPopWithFriendPreviouslyPoppedWithText]
-You can't Rare Card Pop! with a
-friend you've popped with before.
+[CannotRareCardPopWithFriendPreviouslyPoppedWithText] full-width
+You can't Rare
+Card Pop! with a
+friend you've
+popped with
+before.
 
-[CardPopModeMismatchedText]
+[CardPopModeMismatchedText] full-width
 Card Pop! types
 don't match.
 
@@ -1198,22 +1230,23 @@ Card Pop! Records
 [CardPopRecordCardsText]
 `  Cards   `
 
-[CardPopRecordYourResultText]
+[CardPopRecordYourResultText] full-width
 - Card you got
 
 [CardPopRecordFriendResultText]
 - Card your friend got
 
-[NoCardPopRecordsText]
-There are no Card Pop! records.
+[NoCardPopRecordsText] full-width
+There are no Card
+Pop! records.
 
 [CardPopFriendDeckNameText]
 <RAMTEXT> Deck
 
-[CardPopImakuniText]
-Imakuni?
+[CardPopImakuniText] full-width
+Imakun
 
-[CardPopRonaldText]
+[CardPopRonaldText] full-width
 Ronald
 
 [GameCenterBillsPCTitleText]
@@ -1236,26 +1269,30 @@ to get a super-rare card!
 [GameCenterBillsPCStartPromptText]
 Play Bill's Computer?
 
-[GameCenterBillsPCUnableNoBillsComputerText]
-You can't play without a
-Bill's Computer card.
-Get a Bill's Computer card first,
-then come back to play.
+[GameCenterBillsPCUnableNoBillsComputerText] full-width
+You can't play
+without a Bill's
+Computer card. Get
+a Bill's Computer
+card first, then
+come back to play.
 
 [GameCenterBillsPCYourCompatibleCardsText]
 Cards for Bill's Computer
 
-[GameCenterBillsPCUnableNoCompatibleCardsText]
-You have no cards that work with
+[GameCenterBillsPCUnableNoCompatibleCardsText] full-width
+You have no cards
+that work with
 Bill's Computer.
-Get the cards you need
-and then come back.
+Get the cards you
+need and then come
+back.
 
 [GameCenterBillsPCChooseACardToInsertText]
 Choose a card to put in together
 with Bill's Computer.
 
-[GameCenterBillsPCConfirmPromptText]
+[GameCenterBillsPCConfirmPromptText] full-width
 Is this card OK?
 
 [GameCenterBillsPCCancelPromptText]
@@ -1273,17 +1310,22 @@ into Bill's Computer!
 <RAMNAME> received
 <RAMTEXT>!
 
-[GameCenterBillsPCUnableLastOutputRemainingText]
-Mail from Bill's Computer is still
-waiting in your Mailbox.
-Read the Mail and get the card,
-then come back.
+[GameCenterBillsPCUnableLastOutputRemainingText] full-width
+Mail from Bill's
+Computer is still
+waiting in your
+Mailbox. Read the
+Mail and get the
+card, then come
+back.
 
-[GameCenterBillsPCUnableNotEnoughChipsText]
-Bill's Computer is 20 chips a play.
-You don't have enough chips!
+[GameCenterBillsPCUnableNotEnoughChipsText] full-width
+Bill's Computer is
+20 chips a play.
+You don't have
+enough chips!
 
-[DeckText]
+[DeckText] full-width
 Deck
 
 [HiraganaOptionText]
@@ -1301,14 +1343,15 @@ abc
 [EndText]
 End
 
-[WhatIsYourNameText]
-What's your name?
+[WhatIsYourNameText] full-width
+Your name?
 
 [NewDeckText]
 Build a new deck
 
-[PleaseSelectDeckText]
-Please select a deck.
+[PleaseSelectDeckText] full-width
+Please select a
+deck.
 
 [ModifyDeckText]
 Modify Deck
@@ -1329,23 +1372,24 @@ as
 <RAMTEXT> was
 chosen as the dueling deck!
 
-[Deck1Text]
+[Deck1Text] full-width
 1.
 
-[Deck2Text]
+[Deck2Text] full-width
 2.
 
-[Deck3Text]
+[Deck3Text] full-width
 3.
 
-[Deck4Text]
+[Deck4Text] full-width
 4.
 
 [Deck5Text]
 5.
 
-[ThereIsNoDeckHereText]
-There is no deck here!
+[ThereIsNoDeckHereText] full-width
+There is no deck
+here!
 
 [DeckBuildingConfirmText]
 Confirm
@@ -1374,16 +1418,18 @@ Basic Pokémon in the deck!
 You must include a Basic Pokémon
 in the deck!
 
-[DeckBuildingWarningNot60CardsText]
-This isn't a 60-card deck!
+[DeckBuildingWarningNot60CardsText] full-width
+This isn't a
+60-card deck!
 
-[DeckBuildingWarningMustInclude60CardsText]
-The deck must include 60 cards!
+[DeckBuildingWarningMustInclude60CardsText] full-width
+The deck must
+include 60 cards!
 
 [DeckBuildingRevertPromptText]
 Return to original configuration?
 
-[DeckBuildingSavePromptText]
+[DeckBuildingSavePromptText] full-width
 Save this deck?
 
 [DeckBuildingQuitPromptText]
@@ -1432,7 +1478,7 @@ Opp. Prizes
 [ToOpponentsPlayAreaHiraganaText]
 To Opp. Area
 
-[DuelistsPlayAreaSuffixText]
+[DuelistsPlayAreaSuffixText] full-width
 's
 
 [YourPlayAreaHiraganaText]
@@ -1447,22 +1493,24 @@ In Play Area
 [GlossaryText]
 Glossary
 
-[WhichCardWouldYouLikeToSeeText]
-Which cards will you view?
+[WhichCardWouldYouLikeToSeeText] full-width
+Which cards will
+you view?
 
-[PleaseChooseAPrizeText]
-Please choose a Prize.
+[PleaseChooseAPrizeText] full-width
+Please choose a
+Prize.
 
 [HandText_2]
 Hand
 
-[DuelistHandText_2]
+[DuelistHandText_2] full-width
 Hand: <RAMNAME>
 
-[DuelistDiscardPileText_2]
+[DuelistDiscardPileText_2] full-width
 Discards: <RAMNAME>
 
-[BoosterPackTitleText]
+[BoosterPackTitleText] full-width
 Expansions
 
 [Item1BeginningPokemonText]
@@ -1507,13 +1555,14 @@ Expansions
 [Item8PromotionalCardLockedText]
 `8.--------------------  `
 
-[ViewWhichCardFileText]
-View which Card File?
+[ViewWhichCardFileText] full-width
+View which Card
+File?
 
 [OnesCardsText]
 's Cards
 
-[DeckSaveMachineText]
+[DeckSaveMachineText] full-width
 Deck Save Machine
 
 [SaveDeckToMachineText]
@@ -1525,8 +1574,9 @@ Delete Deck
 [BuildDeckText]
 Build Deck
 
-[ChooseDeckToSaveToMachineText]
-Choose a deck to save.
+[ChooseDeckToSaveToMachineText] full-width
+Choose a deck to
+save.
 
 [CannotSaveDeckToMachine60FullText]
 You may only save 60 decks.
@@ -1539,8 +1589,9 @@ of
 Saved the configuration for
 <RAMTEXT>!
 
-[NoDecksSavedToMachineText]
-No decks have been saved.
+[NoDecksSavedToMachineText] full-width
+No decks have been
+saved.
 
 [ChooseDeckToDeleteFromMachineText]
 Choose a deck
@@ -1553,11 +1604,13 @@ Do you really wish to delete?
 <RAMTEXT>'s
 configuration deleted.
 
-[YouMayOnlyCarry4DecksText]
-You may only carry 4 decks!
+[YouMayOnlyCarry4DecksText] full-width
+You may only carry
+4 decks!
 
-[ChooseDeckToDismantleText]
-Choose a deck to dismantle.
+[ChooseDeckToDismantleText] full-width
+Choose a deck to
+dismantle.
 
 [DismantledThisDeckText]
 <RAMTEXT>
@@ -1597,8 +1650,9 @@ in other decks.
 [DismantleTheseDecksPromptText]
 Dismantle these decks?
 
-[DismantledTheseDecksText]
-Dismantled the decks.
+[DismantledTheseDecksText] full-width
+Dismantled the
+decks.
 
 [DeleteSavedDeckPromptText]
 OK if this file is deleted?
@@ -1632,7 +1686,7 @@ using these cards.
 [SubInEnergyCardsPromptText]
 Use other Energy cards instead?
 
-[ChooseDeckCategoryText]
+[ChooseDeckCategoryText] full-width
 Please choose a
 deck category.
 
@@ -1644,7 +1698,7 @@ Print this card?
 Please choose a deck configuration
 to print.
 
-[PrintThisDeckPromptText]
+[PrintThisDeckPromptText] full-width
 Print this deck?
 
 [PrintCardListPromptText]
@@ -1658,8 +1712,9 @@ Card List
 Print Quality
 Quit Print
 
-[WhatToPrintPromptText]
-What would you like to print?
+[WhatToPrintPromptText] full-width
+What would you
+like to print?
 
 [PrinterContrastSettingsPromptText]
 Please set the contrast:
@@ -1689,13 +1744,13 @@ for sending cards.
 [SendText]
 Send
 
-[CardsReceivedText]
+[CardsReceivedText] full-width
 Card received
 
-[CardsToSendToPlayerText]
+[CardsToSendToPlayerText] full-width
 Card to send
 
-[SendTheseCardsToPlayerPromptText]
+[SendTheseCardsToPlayerPromptText] full-width
 Send these cards?
 
 [ReceivedTheseCardsFromText]
@@ -1706,8 +1761,9 @@ from <RAMTEXT>!
 Please choose a deck
 configuration to send.
 
-[ChooseWhereToSaveText]
-Please choose a save slot.
+[ChooseWhereToSaveText] full-width
+Please choose a
+save slot.
 
 [ReceiveRecordsText]
 Receive Record
@@ -1800,125 +1856,125 @@ Mystery Card Decks
 [AutoDeckMachine2MysteriousCardDecksTextPadded]
 `Mystery Card Decks    `
 
-[MachineStarterDeckName]
+[MachineStarterDeckName] full-width
 Starter
 
-[MachineElectricFireDeckName]
-Electric Fire
+[MachineElectricFireDeckName] full-width
+Volt Fire
 
-[MachineBattleWaterDeckName]
-Battle Water
+[MachineBattleWaterDeckName] full-width
+Aqua Brawl
 
-[MachineEsperGreenDeckName]
-Psychic Green
+[MachineEsperGreenDeckName] full-width
+Psy Green
 
-[MachineSweatAntiGR1DeckName]
-Defeat GR-1!
+[MachineSweatAntiGR1DeckName] full-width
+Beat GR-1!
 
-[MachineGiveInAntiGR2DeckName]
-Give Up, GR-2!
+[MachineGiveInAntiGR2DeckName] full-width
+Quit, GR-2
 
-[MachineVengefulAntiGR3DeckName]
-Revenge on GR-3
+[MachineVengefulAntiGR3DeckName] full-width
+Repay GR-3
 
-[MachineUnforgivingAntiGR4DeckName]
-No Mercy for GR-4
+[MachineUnforgivingAntiGR4DeckName] full-width
+Crush GR-4
 
-[MachineAwesomeFossilsDeckName]
-Cool Fossils
+[MachineAwesomeFossilsDeckName] full-width
+Cool Bones
 
-[MachineNewMachokeDeckName]
-New Machoke
+[MachineNewMachokeDeckName] full-width
+Machoke II
 
-[MachineRockFestivalDeckName]
-Rock Festival
+[MachineRockFestivalDeckName] full-width
+Rock Fest
 
-[MachineJabHookDeckName]
+[MachineJabHookDeckName] full-width
 Jab! Hook!
 
-[MachineSteadyIncreaseDeckName]
-Keep Multiplying
+[MachineSteadyIncreaseDeckName] full-width
+Multiply!
 
-[MachineGatheringNidoranDeckName]
-Gather, Nidoran!
+[MachineGatheringNidoranDeckName] full-width
+Nido Party
 
-[MachineNationalParkDeckName]
-Forest Park
+[MachineNationalParkDeckName] full-width
+Woodland
 
-[MachineSelectiveBreedingDeckName]
-Selective Breeding
+[MachineSelectiveBreedingDeckName] full-width
+Pedigree
 
-[MachineSplashingAboutDeckName]
+[MachineSplashingAboutDeckName] full-width
 Water Play
 
-[MachineBeachDeckName]
-Water's Edge
+[MachineBeachDeckName] full-width
+Shoreline
 
-[MachineInsulationDeckName]
+[MachineInsulationDeckName] full-width
 Insulator
 
-[MachineAntarcticDeckName]
+[MachineAntarcticDeckName] full-width
 Antarctic
 
-[MachineFlameFestivalDeckName]
-Flame Festival
+[MachineFlameFestivalDeckName] full-width
+Fire Fest
 
-[MachineElectricCurrentShockDeckName]
-Electric Sparks
+[MachineElectricCurrentShockDeckName] full-width
+Live Wire
 
-[MachineRiskyBlazeDeckName]
-Reckless Flame
+[MachineRiskyBlazeDeckName] full-width
+Wild Flame
 
-[MachineRagingCharizardDeckName]
-Charizard Rampage
+[MachineRagingCharizardDeckName] full-width
+Rampage
 
-[MachineZapdosPowerPlantDeckName]
-Zapdos Power Plant
+[MachineZapdosPowerPlantDeckName] full-width
+Generator
 
-[MachineElectricShockDeckName]
-Electric Shock
+[MachineElectricShockDeckName] full-width
+Shocker
 
-[MachineOverflowDeckName]
+[MachineOverflowDeckName] full-width
 Overflow
 
-[MachineTripleZapdosDeckName]
-Triple Zapdos
+[MachineTripleZapdosDeckName] full-width
+Zapdos x3
 
-[MachineSpecialBarrierDeckName]
-Special Barrier
+[MachineSpecialBarrierDeckName] full-width
+Barrier
 
-[MachineEvolutionProhibitedDeckName]
-No Evolution
+[MachineEvolutionProhibitedDeckName] full-width
+No Evolve
 
-[MachineGhostDeckName]
+[MachineGhostDeckName] full-width
 Ghosts
 
-[MachinePuppetMasterDeckName]
-Puppet Master
+[MachinePuppetMasterDeckName] full-width
+Puppeteer
 
-[MachineMewLv15DeckName]
+[MachineMewLv15DeckName] full-width
 Mew<Lv>15
 
-[MachineVenusaurLv64DeckName]
-Venusaur<Lv>64
+[MachineVenusaurLv64DeckName] full-width
+Venusaur
 
-[MachineMutualDestructionDeckName]
+[MachineMutualDestructionDeckName] full-width
 Double KO
 
-[MachineEverybodySurfDeckName]
-Everybody Surf
+[MachineEverybodySurfDeckName] full-width
+Surf Party
 
-[MachineGrandFireDeckName]
+[MachineGrandFireDeckName] full-width
 Grand Fire
 
-[MachineLegendaryFossilDeckName]
-Legendary Fossil
+[MachineLegendaryFossilDeckName] full-width
+Old Legend
 
-[MachineWaterLegendDeckName]
-Water Legend
+[MachineWaterLegendDeckName] full-width
+Sea Legend
 
-[MachineGreatDragonDeckName]
-Legend Dragon
+[MachineGreatDragonDeckName] full-width
+Dragonlore
 
 [MachineStarterDeckDescriptionText]
 The deck you got from Dr. Mason,
@@ -2080,125 +2136,125 @@ to "Paralyze" foes again and again!
 Evolve with Dark Dragonair's power,
 then finish with strong Pokémon!
 
-[MachineInsectCollectionDeckName]
-Insect Collection
+[MachineInsectCollectionDeckName] full-width
+Bug Hunt
 
-[MachineCaveExplorationDeckName]
-Cave Exploration
+[MachineCaveExplorationDeckName] full-width
+Cave Quest
 
-[MachineOminousMeadowDeckName]
-Eerie Flower Field
+[MachineOminousMeadowDeckName] full-width
+Odd Garden
 
-[MachineAtrociousWeezingDeckName]
-Vicious Weezing
+[MachineAtrociousWeezingDeckName] full-width
+Vile Smog
 
-[MachineTheBenchIsAlsoASurpriseDeckName]
-Bench Surprise
+[MachineTheBenchIsAlsoASurpriseDeckName] full-width
+Surprise!
 
-[MachineEnergyConservationDeckName]
-Energy Saver
+[MachineEnergyConservationDeckName] full-width
+Eco Energy
 
-[MachineSonicboomDeckName]
+[MachineSonicboomDeckName] full-width
 Sonicboom
 
-[MachineRageOfTheHeavensDeckName]
-Rage of the Sky
+[MachineRageOfTheHeavensDeckName] full-width
+Sky Rage
 
-[MachineDarkWaterDeckName]
+[MachineDarkWaterDeckName] full-width
 Dark Water
 
-[MachineQuickFreezeDeckName]
-Flash Freeze
+[MachineQuickFreezeDeckName] full-width
+Flash Ice
 
-[MachineWhirlpoolShowerDeckName]
-Whirlpool Shower
+[MachineWhirlpoolShowerDeckName] full-width
+Whirlpool
 
-[MachineWaterGangDeckName]
+[MachineWaterGangDeckName] full-width
 Water Gang
 
-[MachineFireballDeckName]
+[MachineFireballDeckName] full-width
 Fireball
 
-[MachineCompleteCombustionDeckName]
-Total Combustion
+[MachineCompleteCombustionDeckName] full-width
+Total Burn
 
-[MachineOminousSpiritFlamesDeckName]
-Eerie Wisps
+[MachineOminousSpiritFlamesDeckName] full-width
+Odd Wisps
 
-[MachineEternalFireDeckName]
-Eternal Fire
+[MachineEternalFireDeckName] full-width
+Ever Flame
 
-[MachineBewareTheTrapDeckName]
-Beware of Traps!
+[MachineBewareTheTrapDeckName] full-width
+Booby Trap
 
-[MachineOgresKickDeckName]
+[MachineOgresKickDeckName] full-width
 Kick Fiend
 
-[MachineRockBlastDeckName]
-Rock Blast!
+[MachineRockBlastDeckName] full-width
+Rock Blast
 
-[MachineHeavyWorkDeckName]
+[MachineHeavyWorkDeckName] full-width
 Strongarm
 
-[MachineSlowbrosFishingDeckName]
-Slowbro Fishing
+[MachineSlowbrosFishingDeckName] full-width
+Fishing
 
-[MachineDirectHitDeckName]
+[MachineDirectHitDeckName] full-width
 Direct Hit
 
-[MachineBadDreamDeckName]
+[MachineBadDreamDeckName] full-width
 Bad Dream
 
-[MachineBenchPanicDeckName]
-Bench Panic!
+[MachineBenchPanicDeckName] full-width
+Bench Riot
 
-[MachineSnorlaxGuardDeckName]
-Snorlax Blockade
+[MachineSnorlaxGuardDeckName] full-width
+Roadblock
 
-[MachineEyeOfTheStormDeckName]
-Typhoon Eye
+[MachineEyeOfTheStormDeckName] full-width
+Storm Eye
 
-[MachineSuddenGrowthDeckName]
-Growth Spurt
+[MachineSuddenGrowthDeckName] full-width
+Growing Up
 
-[MachineKingDragoniteDeckName]
-King Dragonite
+[MachineKingDragoniteDeckName] full-width
+Dragonite
 
-[MachineDarkCharizardDeckName]
-Dark Charizard!
+[MachineDarkCharizardDeckName] full-width
+Dark Blaze
 
-[MachineDarkBlastoiseDeckName]
-Dark Blastoise!
+[MachineDarkBlastoiseDeckName] full-width
+Dark Shell
 
-[MachineDarkVenusaurDeckName]
-Dark Venusaur!
+[MachineDarkVenusaurDeckName] full-width
+Dark Bloom
 
-[MachineDarkDragoniteDeckName]
-Dark Dragonite!
+[MachineDarkDragoniteDeckName] full-width
+Dark Wings
 
-[MachinePerfectHealthDeckName]
-Perfect Health
+[MachinePerfectHealthDeckName] full-width
+Healthy!
 
-[MachineSuperSoakerDeckName]
-Super Water Gun
+[MachineSuperSoakerDeckName] full-width
+Water Gun!
 
-[MachineHellsDemonDeckName]
-Demon Below
+[MachineHellsDemonDeckName] full-width
+Underworld
 
-[MachinePremiumThunderDeckName]
-Premium Thunder
+[MachinePremiumThunderDeckName] full-width
+Prime Bolt
 
-[MachineMysteriousMewtwoDeckName]
-Mystery Mewtwo
+[MachineMysteriousMewtwoDeckName] full-width
+Mewtwo?
 
-[MachineHeavenlyLugiaDeckName]
-Lugia of the Sky
+[MachineHeavenlyLugiaDeckName] full-width
+Sky Lugia
 
-[MachineBrutalTrainersDeckName]
-Vicious Trainers
+[MachineBrutalTrainersDeckName] full-width
+Foul Play
 
-[MachineDreadfulParalysisDeckName]
-Dreadful Paralysis
+[MachineDreadfulParalysisDeckName] full-width
+Paralysis
 
 [MachineInsectCollectionDeckDescriptionText]
 Lots and lots of Insect Pokémon!
@@ -2375,7 +2431,7 @@ Special Conditions, Win/Loss
 [GlossarySpecialRulesText]
 Special Rule Duels
 
-[GlossaryExitText]
+[GlossaryExitText] full-width
 Exit Glossary
 
 [GlossaryGameBasicsMenuText]
@@ -2421,7 +2477,7 @@ Special Conditions, Win/Loss
 [GlossarySpecialRulesTitleText]
 Special Rule Duels
 
-[GlossaryDeckTitleText]
+[GlossaryDeckTitleText] full-width
 About the Deck
 
 [GlossaryDeckPileTitleText]
@@ -2430,13 +2486,13 @@ About Deck Piles
 [GlossaryDiscardPileTitleText]
 About the Discard Pile
 
-[GlossaryHandTitleText]
+[GlossaryHandTitleText] full-width
 About the Hand
 
-[GlossaryArenaTitleText]
+[GlossaryArenaTitleText] full-width
 About the Arena
 
-[GlossaryBenchTitleText]
+[GlossaryBenchTitleText] full-width
 About the Bench
 
 [GlossaryActivePokemonTitleText]

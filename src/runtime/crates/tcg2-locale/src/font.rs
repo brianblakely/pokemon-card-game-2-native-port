@@ -6,6 +6,11 @@
 //! pixels (`#` ink, `.` paper). The game draws two characters per tile from
 //! the left four pixels of each 1bpp row (`CreateHalfWidthFontTile`), so a
 //! character keeps to columns 0-2 and leaves column 3 as the gap.
+//!
+//! Full-width text uses the ROM's own full-width font; a language redraws
+//! only the characters it lacks (`fullwidth.txt`).
+
+use crate::text::{self, FullWidth};
 
 /// Characters in the font: $20-$7F.
 pub const CHARS: usize = 96;
@@ -60,13 +65,19 @@ pub fn parse(source: &str) -> Result<[u8; SIZE], String> {
     Ok(font)
 }
 
-/// Where the full-width font (`FullWidthFonts`) keeps the characters the
-/// game's code writes itself (`GetFullWidthFontTileOffset`): hiragana and
-/// `TX_FULLWIDTH0` codes are 8 bytes each after the 80 katakana tiles.
+/// Where the full-width font (`FullWidthFonts`) keeps a character a
+/// language may redraw: one the game's code writes itself (`枚`), or one of
+/// full-width Latin text ([`text::full_width`]). Codes count as
+/// `GetFullWidthFontTileOffset` does: 8 bytes each after the 80 katakana
+/// tiles, hiragana and one-byte codes first, then `TX_FULLWIDTH`n's 256
+/// codes from n × 256.
 pub fn full_width_offset(c: char) -> Option<usize> {
     let code = match c {
         '枚' => 0x84,
-        _ => return None,
+        _ => match text::full_width(c)? {
+            FullWidth::Byte(b) => b as usize,
+            FullWidth::Font4(b) => usize::from(text::TX_FULLWIDTH4) << 8 | b as usize,
+        },
     };
     Some(0x280 + code * 8)
 }
@@ -86,7 +97,7 @@ pub fn parse_full_width(source: &str) -> Result<Vec<(char, [u8; 8])>, String> {
         };
         if full_width_offset(c).is_none() {
             return Err(format!(
-                "line {}: the game's code never writes {c:?}",
+                "line {}: {c:?} is no full-width character a language draws",
                 number + 1
             ));
         }

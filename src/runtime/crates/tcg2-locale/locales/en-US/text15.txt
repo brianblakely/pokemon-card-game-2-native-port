@@ -63,9 +63,11 @@ Asleep, Confused, or Paralyzed.
 [FireSpinName]
 Fire Spin
 
-[FireSpinDescription]
-Discard 2 Energy cards attached to
-Charizard. If you can't, this attack
+[FireSpinDescription] full-width
+Discard 2 Energy
+cards attached to
+Charizard. If you
+can't, this attack
 does no damage.
 
 [CharizardDescription]
@@ -157,9 +159,11 @@ at random and shuffles the deck.
 [DancingEmbersName]
 Dancing Embers
 
-[DancingEmbersDescription]
-Flip 8 coins. This attack does 10
-damage times the number of heads.
+[DancingEmbersDescription] full-width
+Flip 8 coins. This
+attack does 10
+damage times the
+number of heads.
 
 [NinetalesLv35Description]
 Very smart and very vengeful.
@@ -172,18 +176,23 @@ Dark Ninetales
 [PerplexName]
 Perplex
 
-[PerplexDescription]
-Your opponent flips a coin. If
-tails, he or she can't draw a card
-at the start of his or her next
+[PerplexDescription] full-width
+Your opponent
+flips a coin. If
+tails, he or she
+can't draw a card
+at the start of
+his or her next
 turn.
 
 [NineTailsName]
 Nine Tails
 
-[NineTailsDescription]
-Flip 9 coins. This attack does 10
-damage times the number of heads.
+[NineTailsDescription] full-width
+Flip 9 coins. This
+attack does 10
+damage times the
+number of heads.
 
 [DarkNinetalesDescription]
 It sometimes uses its mysterious,
@@ -212,10 +221,13 @@ deck for a Trainer card, show it to
 your opponent, and put it into your
 hand. Shuffle your deck afterward.
 
-[DiscardOneFireEnergyAltDescription]
-Discard 1 Fire Energy card attached
-to Growlithe. If you can't, this
-attack does no damage.
+[DiscardOneFireEnergyAltDescription] full-width
+Discard 1 Fire
+Energy card
+attached to
+Growlithe. If you
+can't, this attack
+does no damage.
 
 [GrowlitheLv16Description]
 It is very territorial. Approach it
@@ -236,9 +248,11 @@ Arcanine
 [QuickAttackName]
 Quick Attack
 
-[QuickAttackDescription]
-Flip a coin. If heads, this attack
-does 20 more damage.
+[QuickAttackDescription] full-width
+Flip a coin. If
+heads, this attack
+does 20 more
+damage.
 
 [FlamesOfRageName]
 Flames of Rage
@@ -261,8 +275,9 @@ as if on wings.
 [TakeDownName]
 Take Down
 
-[Do20DamageToSelfDescription]
-This Pokémon does 20 damage to
+[Do20DamageToSelfDescription] full-width
+This Pokémon
+does 20 damage to
 itself.
 
 [ArcanineLv35Description]
@@ -270,8 +285,9 @@ A legendary Pokémon in China. Many
 people are charmed by the grace of
 its running.
 
-[Do30DamageToSelfDescription]
-Arcanine does 30 damage to itself.
+[Do30DamageToSelfDescription] full-width
+Arcanine does 30
+damage to itself.
 
 [ArcanineLv45Description]
 A legendary Pokémon of Chinese
@@ -287,9 +303,12 @@ Smash Kick
 [FireworksName]
 Fireworks
 
-[FireworksDescription]
-Flip a coin. If tails, discard 1
-Energy card attached to Ponyta.
+[FireworksDescription] full-width
+Flip a coin.
+If tails, discard
+1 Energy card
+attached to
+Ponyta.
 
 [FireHorseName]
 Fire Horse
@@ -339,9 +358,11 @@ the hopes of racing it.
 [StompName]
 Stomp
 
-[StompDescription]
-Flip a coin. If heads, this attack
-does 10 more damage.
+[StompDescription] full-width
+Flip a coin. If
+heads, this attack
+does 10 more
+damage.
 
 [AgilityName]
 Agility
@@ -439,9 +460,12 @@ Eevee
 [RageName]
 Rage
 
-[RageDescription]
-This attack does 10 more damage for
-each damage counter on this Pokémon.
+[RageDescription] full-width
+This attack does
+10 more damage
+for each damage
+counter on this
+Pokémon.
 
 [FlareonLv22Description]
 When it stores flames in its body,
@@ -519,8 +543,9 @@ from 1 to 4 (chosen at random) Fire
 Energy cards from your deck into
 your hand.
 
-[FiregiverDescriptionCont]
-Shuffle your deck afterward.
+[FiregiverDescriptionCont] full-width
+Shuffle your deck
+afterward.
 
 [SquirtleName]
 Squirtle
@@ -550,9 +575,11 @@ pulls its limbs into its shell.
 [WaterPowerName]
 Water Power
 
-[WaterPowerDescription]
-During your next turn, Squirtle's
-Pound attack's base damage is
+[WaterPowerDescription] full-width
+During your next
+turn, Squirtle's
+Pound attack's
+base damage is
 tripled.
 
 [PoundName]
@@ -595,9 +622,11 @@ Dark Wartortle
 [DoubleSlapName]
 Doubleslap
 
-[Do10DamageNumberOfHeadsDescription]
-Flip 2 coins. This attack does 10
-damage times the number of heads.
+[Do10DamageNumberOfHeadsDescription] full-width
+Flip 2 coins. This
+attack does 10
+damage times the
+number of heads.
 
 [MirrorShellName]
 Mirror Shell
@@ -687,9 +716,11 @@ Psyduck
 [HeadacheName]
 Headache
 
-[HeadacheDescription]
-Your opponent can't play Trainer
-cards during his or her next turn.
+[HeadacheDescription] full-width
+Your opponent
+can't play Trainer
+cards during his
+or her next turn.
 
 [DuckName]
 Duck
@@ -702,7 +733,7 @@ begins to use mysterious powers.
 [DizzinessName]
 Dizziness
 
-[DizzinessDescription]
+[DizzinessDescription] full-width
 Draw a card.
 
 [WaterGunName]
@@ -722,10 +753,13 @@ Psi
 [HyperBeamName]
 Hyper Beam
 
-[HyperBeamDescription]
-If the Defending Pokémon has any
-Energy cards attached to it, choose
-1 of them and discard it.
+[HyperBeamDescription] full-width
+If the Defending
+Pokémon has any
+Energy cards
+attached to it,
+choose 1 of them
+and discard it.
 
 [GolduckLv27Description]
 Its webbed hands make it an
@@ -735,10 +769,12 @@ swimming gracefully in lakes.
 [PsychicName]
 Psychic
 
-[PsychicDescription]
-Does 10 more damage for each Energy
-card attached to the Defending
-Pokémon.
+[PsychicDescription] full-width
+Does 10 more
+damage for each
+Energy card
+attached to the
+Defending Pokémon.
 
 [WaveSplashName]
 Wave Splash
@@ -754,9 +790,11 @@ Dark Golduck
 [ThirdEyeName]
 Third Eye
 
-[ThirdEyeDescription]
-Discard 1 Energy card attached to
-Dark Golduck. Then draw 3 cards.
+[ThirdEyeDescription] full-width
+Discard 1 Energy
+card attached to
+Dark Golduck.
+Then draw 3 cards.
 
 [SuperPsyName]
 Super Psy
@@ -809,10 +847,13 @@ reason, it prefers water.
 [TwiddleName]
 Twiddle
 
-[TwiddleDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Confused. If tails,
-it is now Asleep.
+[TwiddleDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Confused.
+If tails, it is
+now Asleep.
 
 [BodySlamName]
 Body Slam
@@ -1010,9 +1051,11 @@ Kingler
 [FlailName]
 Flail
 
-[FlailDescription]
-Does 10 damage times the number of
-damage counters on this Pokémon.
+[FlailDescription] full-width
+Does 10 damage
+times the number
+of damage counters
+on this Pokémon.
 
 [CrabhammerName]
 Crabhammer
@@ -1037,9 +1080,11 @@ deck afterward.
 [DoubleEdgedPincersName]
 Double-Edged Pincers
 
-[DoubleEdgedPincersDescription]
-During your opponent's next turn,
-any damage done to Kingler is
+[DoubleEdgedPincersDescription] full-width
+During your
+opponent's next
+turn, any damage
+done to Kingler is
 doubled.
 
 [KinglerLv33Description]
@@ -1090,10 +1135,14 @@ attack's Energy cost, do 10 damage
 to your opponent's Benched Pokémon,
 divided any way you like.
 
-[WaterBombDescriptionCont]
-(Extra Water Energy after the 2nd
-doesn't count. Don't apply Weakness
-and Resistance for Benched Pokémon.)
+[WaterBombDescriptionCont] full-width
+(Extra Water
+Energy after the
+2nd doesn't count.
+Don't apply
+Weakness and
+Resistance for
+Benched Pokémon.)
 
 [SeadraLv26Description]
 By rapidly moving its fins and tail,
@@ -1142,10 +1191,12 @@ red.
 [StrangeBeamName]
 Strange Beam
 
-[StrangeBeamDescription]
-During your opponent's next turn,
-don't apply Weakness to your Water
-Pokémon.
+[StrangeBeamDescription] full-width
+During your
+opponent's next
+turn, don't apply
+Weakness to your
+Water Pokémon.
 
 [SpinningAttackName]
 Spinning Attack
@@ -1247,16 +1298,20 @@ pathetic Pokémon in the world.
 [TrickleName]
 Trickle
 
-[Plus10DamagePerHeadsDescription]
-Flip 2 coins. This attack does 10
-damage times the number of heads.
+[Plus10DamagePerHeadsDescription] full-width
+Flip 2 coins. This
+attack does 10
+damage times the
+number of heads.
 
 [DragonRageName]
 Dragon Rage
 
-[IfEitherTailsDoNothingDescription]
-Flip 2 coins. If either of them is
-tails, this attack does nothing.
+[IfEitherTailsDoNothingDescription] full-width
+Flip 2 coins. If
+either of them is
+tails, this attack
+does nothing.
 
 [MagikarpLv10Description]
 According to the latest research,
@@ -1291,10 +1346,13 @@ for each Water Energy attached to
 Dark Gyarados to the Pokémon that
 Knocked it Out.
 
-[FinalBeamDescriptionCont]
-This power can't be used if
-Dark Gyarados is Asleep, Confused,
-or Paralyzed when it is Knocked Out.
+[FinalBeamDescriptionCont] full-width
+This power can't
+be used if Dark
+Gyarados is
+Asleep, Confused,
+or Paralyzed when
+it is Knocked Out.
 
 [DarkGyaradosDescription]
 It lives deep in the sea and was
@@ -1307,9 +1365,11 @@ Lapras
 [SingName]
 Sing
 
-[MayInflictSleepDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Asleep.
+[MayInflictSleepDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Asleep.
 
 [TransportName]
 Transport
@@ -1327,10 +1387,11 @@ to ferry people across the sea.
 [VaporeonName]
 Vaporeon
 
-[FocusEnergyBiteDescription]
-During your next turn, Vaporeon's
-Bite attack's base damage is
-doubled.
+[FocusEnergyBiteDescription] full-width
+During your next
+turn, Vaporeon's
+Bite attack's base
+damage is doubled.
 
 [BubbleJetName]
 Bubble Jet
@@ -1348,10 +1409,13 @@ and become invisible in water.
 [DarkVaporeonName]
 Dark Vaporeon
 
-[WhirlpoolDescription]
-If the Defending Pokémon has any
-Energy cards attached to it, choose
-1 of them and discard it.
+[WhirlpoolDescription] full-width
+If the Defending
+Pokémon has any
+Energy cards
+attached to it,
+choose 1 of them
+and discard it.
 
 [DarkVaporeonDescription]
 It can control water at will. It is
@@ -1393,9 +1457,11 @@ Mysterious Fossil do 10 more damage
 to the Defending Pokémon. (Damage to
 Benched Pokémon isn't affected.)
 
-[PowerCantBeUsedIfStatusDescription]
-This power can't be used if this
-Pokémon is Asleep, Confused, or
+[PowerCantBeUsedIfStatusDescription] full-width
+This power can't
+be used if this
+Pokémon is Asleep,
+Confused, or
 Paralyzed.
 
 [RollingTackleName]
@@ -1428,10 +1494,13 @@ on to prey, it bites.
 [TentacleGripName]
 Tentacle Grip
 
-[TentacleGripDescription]
-Flip a coin for each Water Energy
-attached to Omastar. Draw 2 cards
-for each heads.
+[TentacleGripDescription] full-width
+Flip a coin for
+each Water Energy
+attached to
+Omastar. Draw 2
+cards for each
+heads.
 
 [CorrosiveAcidName]
 Corrosive Acid
@@ -1542,9 +1611,11 @@ Gnaw
 [ThunderJoltName]
 Electric
 
-[ThunderJoltDescription]
-Flip a coin. If tails, Pikachu does
-10 damage to itself.
+[ThunderJoltDescription] full-width
+Flip a coin.
+If tails, Pikachu
+does 10 damage to
+itself.
 
 [PikachuSharedDescription]
 It has small electric sacs on both
@@ -1554,17 +1625,21 @@ electric charges from the sacs.
 [RechargeName]
 Recharge
 
-[RechargeDescription]
-Search your deck for a Lightning
-Energy card and attach it to
-Pikachu. Shuffle your deck
+[RechargeDescription] full-width
+Search your deck
+for a Lightning
+Energy card
+and attach it
+to Pikachu.
+Shuffle your deck
 afterward.
 
 [ThunderboltName]
 Thunderbolt
 
-[ThunderboltDescription]
-Discard all Energy cards attached to
+[ThunderboltDescription] full-width
+Discard all Energy
+cards attached to
 Pikachu.
 
 [PikachuLv13Description]
@@ -1633,12 +1708,15 @@ Its long tail serves as a ground to
 protect it, so even high voltage
 doesn't numb it.
 
-[QuickAttackAltDescription1]
-Flip a coin. If heads, this attack
-does 20 more damage.
+[QuickAttackAltDescription1] full-width
+Flip a coin. If
+heads, this attack
+does 20 more
+damage.
 
-[ThunderboltAltDescription1]
-Discard all Energy cards attached to
+[ThunderboltAltDescription1] full-width
+Discard all Energy
+cards attached to
 Raichu.
 
 [RaichuLv33Description]
@@ -1649,9 +1727,11 @@ also glows in the dark.
 [ThunderName]
 Thunder
 
-[ThunderDescription]
-Flip a coin. If tails, this Pokémon
-does 30 damage to itself.
+[ThunderDescription] full-width
+Flip a coin.
+If tails, this
+Pokémon does 30
+damage to itself.
 
 [RaichuSharedDescription]
 Its electric charges can reach
@@ -1692,10 +1772,13 @@ Magnemite
 [MagnetismName]
 Magnetism
 
-[MagnetismDescription]
-Does 10 more damage for each
-Magnemite, Magneton, and
-Dark Magneton on your Bench.
+[MagnetismDescription] full-width
+Does 10 more
+damage for each
+Magnemite,
+Magneton, and Dark
+Magneton on your
+Bench.
 
 [MagnetCategoryName]
 Magnet
@@ -1793,9 +1876,11 @@ when sunspots flare up.
 [SonicboomName]
 Sonicboom
 
-[SonicboomDescription]
-Don't apply Weakness and Resistance
-for this attack.
+[SonicboomDescription] full-width
+Don't apply
+Weakness and
+Resistance for
+this attack.
 
 [Selfdestruct100DamageDescription]
 This Pokémon does 100 damage to
@@ -1807,9 +1892,11 @@ for Benched Pokémon.)
 [DarkMagnetonName]
 Dark Magneton
 
-[SonicboomAltDescription]
-Don't apply Weakness and Resistance
-for this attack.
+[SonicboomAltDescription] full-width
+Don't apply
+Weakness and
+Resistance for
+this attack.
 
 [MagneticLinesName]
 Magnetic Lines
@@ -1833,10 +1920,12 @@ Voltorb
 [GroupSparkName]
 Group Spark
 
-[GroupSparkDescription]
-Does 10 more damage for each Voltorb
-in play (both yours and your
-opponent's).
+[GroupSparkDescription] full-width
+Does 10 more
+damage for each
+Voltorb in play
+(both yours and
+your opponent's).
 
 [BallName]
 Ball
@@ -1865,10 +1954,13 @@ Electrode
 [EnergySpikeName]
 Energy Spike
 
-[EnergySpikeDescription]
-Search your deck for a basic Energy
-card and attach it to 1 of your
-Pokémon. Shuffle your deck
+[EnergySpikeDescription] full-width
+Search your
+deck for a basic
+Energy card and
+attach it to 1
+of your Pokémon.
+Shuffle your deck
 afterward.
 
 [ElectrodeLv35Description]
@@ -1936,10 +2028,13 @@ power plant's electricity.
 [ThunderpunchName]
 Thunderpunch
 
-[ThunderpunchDescription]
-Flip a coin. If heads, this attack
-does 10 more damage. If tails,
-Electabuzz does 10 damage to itself.
+[ThunderpunchDescription] full-width
+Flip a coin. If
+heads, this attack
+does 10 more
+damage. If tails,
+Electabuzz does 10
+damage to itself.
 
 [ElectabuzzLv35Description]
 It loves strong electricity and
@@ -1949,9 +2044,11 @@ and such.
 [JolteonName]
 Jolteon
 
-[Do20DamageNumberOfHeadsDescription]
-Flip 2 coins. This attack does 20
-damage times the number of heads.
+[Do20DamageNumberOfHeadsDescription] full-width
+Flip 2 coins. This
+attack does 20
+damage times the
+number of heads.
 
 [StunNeedleName]
 Stun Needle
@@ -1961,16 +2058,20 @@ When it gets angry or startled, the
 fur all over its body bristles like
 needles that pierce its foe.
 
-[QuickAttackAltDescription2]
-Flip a coin. If heads, this attack
-does 20 more damage.
+[QuickAttackAltDescription2] full-width
+Flip a coin. If
+heads, this attack
+does 20 more
+damage.
 
 [PinMissileName]
 Pin Missile
 
-[PinMissileDescription]
-Flip 4 coins. This attack does 20
-damage times the number of heads.
+[PinMissileDescription] full-width
+Flip 4 coins. This
+attack does 20
+damage times the
+number of heads.
 
 [JolteonLv29Description]
 If it is angered or startled, the
@@ -1992,11 +2093,14 @@ tails, that attack does nothing.
 [ThunderAttackName]
 Thunder Attack
 
-[ThunderAttackDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Paralyzed. If tails,
-Dark Jolteon does 10 damage to
-itself.
+[ThunderAttackDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Paralyzed.
+If tails, Dark
+Jolteon does 10
+damage to itself.
 
 [DarkJolteonDescription]
 It sometimes uses the electricity
@@ -2019,10 +2123,13 @@ Resistance.)
 [ThunderCrashName]
 Thunder Crash
 
-[ThunderCrashDescription]
-Flip a coin. If heads, this attack
-does 20 more damage. If tails,
-Zapdos does 20 damage to itself.
+[ThunderCrashDescription] full-width
+Flip a coin. If
+heads, this attack
+does 20 more
+damage. If tails,
+Zapdos does 20
+damage to itself.
 
 [ZapdosLv28Description]
 A legendary bird Pokémon that is
@@ -2045,8 +2152,9 @@ A divine bird that rules the sky, it
 has lived above the clouds for
 millennia. Is thunder its rage?!
 
-[ThunderboltAltDescription2]
-Discard all Energy cards attached to
+[ThunderboltAltDescription2] full-width
+Discard all Energy
+cards attached to
 Zapdos.
 
 [ZapdosLv64Description]
@@ -2106,9 +2214,11 @@ emerges to hunt for food.
 [SandslashName]
 Sandslash
 
-[FurySwipes20DamageDescription]
-Flip 3 coins. This attack does 20
-damage times the number of heads.
+[FurySwipes20DamageDescription] full-width
+Flip 3 coins. This
+attack does 20
+damage times the
+number of heads.
 
 [SandslashLv33Description]
 It darts around nimbly and is good
@@ -2121,10 +2231,13 @@ Sand Veil
 [RollingNeedleName]
 Rolling Needle
 
-[RollingNeedleDescription]
-Flip 3 coins. This attack does 10
-more damage for each heads. Then
-Sandslash does 10 damage to itself
+[RollingNeedleDescription] full-width
+Flip 3 coins.
+This attack does
+10 more damage for
+each heads. Then
+Sandslash does 10
+damage to itself
 for each heads.
 
 [SandslashLv35Description]

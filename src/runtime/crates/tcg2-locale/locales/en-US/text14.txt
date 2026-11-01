@@ -1,103 +1,164 @@
 # Pokémon Card GB2 in American English: the texts of
 # src/decomp/src/text/text14.asm, by label (format: src/text.rs).
 
-[UsefulButtonsBookText]
-Handy buttons for the duel screen:
-hold B and press the Control Pad!
-You can easily check both players'
-Play Areas and Discard Piles!
-B+Down: Your Play Area
-B+Left: Your Discard Pile
-B+Up: Opponent's Play Area
-B+Right: Opponent's Discard Pile
-If you remember these,
-they'll come in really handy!
+[UsefulButtonsBookText] full-width
+Handy buttons for
+the duel screen:
+hold B and press
+the Control Pad!
+You can easily see
+the Play Areas and
+Discard Piles of
+both players!
+B+Down:
+Your Play Area
+B+Left:
+Your Discard Pile
+B+Up:
+Opp. Play Area
+B+Right:
+Opp. Discard Pile
+If you remember
+these, they'll
+come in really
+handy!
 
-[ColorlessPokemonBookText]
-Colorless Pokémon are
-very easy to use.
-They can use their attacks with
-Energy cards of any color!
-That means you can put them
-in a deck of any color.
-There are lots of different ones,
-so study the cards and learn them!
+[ColorlessPokemonBookText] full-width
+Colorless Pokémon
+are very easy
+to use. They can
+use their attacks
+with Energy cards
+of any color!
+That means you
+can put them in a
+deck of any color.
+There are lots of
+different ones,
+so study the cards
+and learn them!
 
-[CardPopBookText]
-When you defeat an opponent,
-you get booster packs.
-But you can also get cards by
-linking with friends via "Card Pop!"
-However, from the same person,
-you can only get the same card.
-Link with lots of different people
-and collect lots of cards!
+[CardPopBookText] full-width
+When you defeat an
+opponent, you get
+booster packs. But
+you can also get
+cards by linking
+with friends
+via "Card Pop!"
+However, from
+the same person,
+you can only get
+the same card.
+Link with lots of
+different people
+and collect lots
+of cards!
 
-[EnergyCardColorsBookText]
-The 6 Energy colors are Grass, Fire,
-Water, Lightning, Fighting, Psychic!
-Besides these 6 basic Energy types,
-there are Special Energy cards.
-You can put as many basic Energy
-cards in your deck as you like.
-But Special Energy cards are limited
-to 4 of each per deck.
+[EnergyCardColorsBookText] full-width
+The 6 Energy
+colors are Grass,
+Fire, Water,
+Lightning,
+Fighting, Psychic!
+Besides these
+6 basic Energy
+types, there are
+Special Energy
+cards. You can
+put as many basic
+Energy cards in
+your deck as you
+like. But Special
+Energy cards are
+limited to 4 of
+each per deck.
 
-[LegendaryPokemonCardsVol1BookText]
-Legendary Pokémon Cards:
-The first is "Moltres<Lv>40"!
-With "Firegiver," Fire Energy
-goes into your hand!
-"Dive Bomb" is also
-a powerful attack!
-It's the card of the Fire Queen,
-Grand Master Courtney!
+[LegendaryPokemonCardsVol1BookText] full-width
+Legendary Pokémon
+Cards: The first
+is "Moltres<Lv>40"!
+With "Firegiver,"
+Fire Energy goes
+into your hand!
+"Dive Bomb" is
+also a powerful
+attack! It's the
+card of the Fire
+Queen, Grand
+Master Courtney!
 
-[LegendaryPokemonCardsVol2BookText]
-Legendary Pokémon Cards:
-The second is "Zapdos<Lv>68"!
-"Peal of Thunder" does damage
-just by putting it into play!
-"Big Thunder" does 70 damage to
-one of the Pokémon in play!
-It's the card of the Grand Master
-of Lightning, Steve!
+[LegendaryPokemonCardsVol2BookText] full-width
+Legendary Pokémon
+Cards: The second
+is "Zapdos<Lv>68"!
+"Peal of Thunder"
+does damage
+just by putting
+it into play!
+"Big Thunder"
+does 70 damage to
+one of the Pokémon
+in play! It's
+the card of the
+Grand Master of
+Lightning, Steve!
 
-[LegendaryPokemonCardsVol3BookText]
-Legendary Pokémon Cards:
-The third is "Articuno<Lv>37"!
-"Quickfreeze" Paralyzes your foe
-just by putting it into play!
-"Ice Breath" is also
-a pretty strong attack!
-It's the card of the Grand Master
-of Ice, Jack!
+[LegendaryPokemonCardsVol3BookText] full-width
+Legendary Pokémon
+Cards: The third
+is "Articuno<Lv>37"!
+"Quickfreeze"
+Paralyzes your foe
+just by putting
+it into play! "Ice
+Breath" is also
+a pretty strong
+attack! It's the
+card of the Grand
+Master of Ice,
+Jack!
 
-[LegendaryPokemonCardsVol4BookText]
-Legendary Pokémon Cards:
-The fourth is "Dragonite<Lv>41"!
-"Healing Wind" heals your Pokémon's
-damage just by putting it into play!
-It attacks with "Slam"!
-It's seriously strong!
-It's the card of Rod, the leader
-of the Grand Masters!
+[LegendaryPokemonCardsVol4BookText] full-width
+Legendary Pokémon
+Cards: The fourth
+is "Dragonite<Lv>41"!
+"Healing Wind"
+heals your
+Pokémon's damage
+just by putting
+it into play!
+It attacks with
+"Slam"! It's
+seriously strong!
+It's the card of
+Rod, the leader of
+the Grand Masters!
 
-[GrandMastersBookText]
-The 4 Grand Masters who guard
-the Legendary Pokémon Cards:
+[GrandMastersBookText] full-width
+The 4 Grand
+Masters who guard
+the Legendary
+Pokémon Cards:
 Courtney, Steve,
 Jack and Rod.
-Each of them is a highly skilled
-Pokémon card player!
+Each of them is
+a highly skilled
+Pokémon card
+player!
 
-[CoinsBookText]
-There are coins you flip to decide
-the results of attacks.
-They say there are 24 coins
-in all in this world.
-You can get them in all sorts of
-ways. Try your best to get them all!
+[CoinsBookText] full-width
+There are coins
+you flip to decide
+the results of
+attacks. They say
+there are 24 coins
+in all in this
+world. You can get
+them in all sorts
+of ways. Try your
+best to get them
+all!
 
 [PhantomCardsBookText]
 It seems there are phantom cards
@@ -111,75 +172,112 @@ they are. What could they be?
 I'll get those phantom cards!
 `                    Mr. Ishihara`
 
-[DarkPokemonBookText]
-Team GR is skilled at using
-Dark Pokémon cards.
-Dark cards have strong attacks
-and Pokémon Powers.
-But they're known for having less
-HP than regular evolved Pokémon.
+[DarkPokemonBookText] full-width
+Team GR is skilled
+at using Dark
+Pokémon cards.
+Dark cards have
+strong attacks and
+Pokémon Powers.
+But they're known
+for having less
+HP than regular
+evolved Pokémon.
 
-[AugmentBasicPokemonBookText]
-Want Vaporeon, Jolteon and Flareon
-in your deck? 4 Eevee aren't enough?
-In that case, you need
-"Ditto<Lv>19"!
-Ditto's "Morph" turns it
-into a Basic Pokémon.
-Have it turn into Eevee,
-and duel with more Eevee!
+[AugmentBasicPokemonBookText] full-width
+Want Vaporeon,
+Jolteon and
+Flareon in your
+deck? 4 Eevee
+aren't enough?
+In that case, you
+need "Ditto<Lv>19"!
+Ditto's "Morph"
+turns it into a
+Basic Pokémon.
+Have it turn into
+Eevee, and duel
+with more Eevee!
 
-[GRKingCardsBookText]
-Biruritchi, the King of Team GR,
-has a special card.
-That card, which only the King has,
-is "GR's Mewtwo"!
-It has the Pokémon Power "Dark Wave"
-and the attack "Dark Amplification."
-Nobody knows what they do, but
-it must be an amazing card!
+[GRKingCardsBookText] full-width
+Biruritchi, the
+King of Team GR,
+has a special
+card. That card,
+which only the
+King has, is "GR's
+Mewtwo"! It has
+the Pokémon Power
+"Dark Wave" and
+the attack "Dark
+Amplification."
+Nobody knows what
+they do, but it
+must be an amazing
+card!
 
-[SpecialEnergyBookText]
-Besides the 6 basic Energy types,
-there are 5 Special Energy cards.
-"Double Colorless Energy" and
-"Rainbow Energy" are two of them.
-There's also Energy mixed with
-"Potion" or "Full Heal."
-You can only put 4 of the same
-Special Energy card in a deck.
-Think about the balance with your
-basic Energy when adding them!
+[SpecialEnergyBookText] full-width
+Besides the 6
+basic Energy
+types, there are
+5 Special Energy
+cards. "Double
+Colorless Energy"
+and "Rainbow
+Energy" are two
+of them. There's
+also Energy mixed
+with "Potion" or
+"Full Heal." You
+can only put 4 of
+the same Special
+Energy card in a
+deck. Think about
+the balance with
+your basic Energy
+when adding them!
 
-[GetCoinsBookText]
+[GetCoinsBookText] full-width
 There are 24 coins
-you can get in all.
-You can get them from the leaders
-of clubs and Forts in many ways.
-You can also win them at the
-Challenge Cup and the Game Center!
-Some coins can only be obtained
-after defeating Team GR's King!
-Try all kinds of things and
-complete your coin collection!
+you can get in
+all. You can get
+them from the
+leaders of clubs
+and Forts in many
+ways. You can also
+win them at the
+Challenge Cup and
+the Game Center!
+Some coins can
+only be obtained
+after defeating
+Team GR's King!
+Try all kinds
+of things and
+complete your coin
+collection!
 
-[ImakuniBlackCardlessFirstCardPopText]
-Hm?
-Who are you?
-Huh? Who am I, you ask?
-You don't know me?
-I'm a super musical star,
-Imakuni?!
-But right now, I'm sad...
-Got no, no, no, no Pokémon cards!
-Hey, you!
-Do Card Pop! with me!!
-Even if you don't want to, I will!
-Get ready for Card Pop!
+[ImakuniBlackCardlessFirstCardPopText] full-width
+Hm? Who are you?
+Huh? Who am I,
+you ask? You don't
+know me? I'm a
+super musical
+star, Imakuni?!
+But right now,
+I'm sad... Got no,
+no, no, no Pokémon
+cards! Hey, you!
+Do Card Pop!
+with me!! Even if
+you don't want to,
+I will! Get ready
+for Card Pop!
 
-[ImakuniBlackCardlessAfterFirstCardPopSaveText]
-Got a card!
-I'll save your data for ya!!
+[ImakuniBlackCardlessAfterFirstCardPopSaveText] full-width
+Got a card! I'll
+save your data for
+ya!!
 
 [ImakuniBlackCardlessAfterFirstCardPopResultText]
 The card I got was
@@ -189,236 +287,316 @@ Lucky you! Be happy!
 Well, we did Card Pop!, so
 I've got no more use for you!
 
-[ImakuniBlackCardlessAfterFirstCardPopRepeatText]
-I'm a super musical star,
-Imakuni?!
-Hm? What is it?
-You again?!
-We already did Card Pop! once,
-so I've got no more use for you!
-Just hurry and get the cards back!
+[ImakuniBlackCardlessAfterFirstCardPopRepeatText] full-width
+I'm a super
+musical star,
+Imakuni?! Hm? What
+is it? You again?!
+We already did
+Card Pop! once,
+so I've got no
+more use for you!
+Just hurry and get
+the cards back!
 See ya!
 
-[ImakuniBlackWantsToDuelFirstEncounterText]
-Hm?
-Who are you?
-Huh? Who am I, you ask?
-You don't know me?
-I'm a super musical star,
-Imakuni?!
+[ImakuniBlackWantsToDuelFirstEncounterText] full-width
+Hm? Who are you?
+Huh? Who am I,
+you ask? You don't
+know me? I'm a
+super musical
+star, Imakuni?!
 Hm? Cards?
-You want a card showdown with me?
+You want a card
+showdown with me?
 
-[ImakuniBlackWantsToDuelRepeatText]
-I'm a super musical star,
-Imakuni?!
-Hm? What is it?
-You again?! You don't give up!
-What is it this time? Cards?
-You want to duel with cards?
-Challenging me to a match?
-You've got some nerve, huh?
-Shall I show you a thing or two?
-Come on, then!
+[ImakuniBlackWantsToDuelRepeatText] full-width
+I'm a super
+musical star,
+Imakuni?! Hm? What
+is it? You again?!
+You don't give up!
+What is it this
+time? Cards? You
+want to duel with
+cards? Challenging
+me to a match?
+You've got some
+nerve, huh? Shall
+I show you a thing
+or two? Come on,
+then!
 
 [ImakuniBlackDuelPromptText]
 Do you want to duel Imakuni??
 
-[ImakuniBlackDuelStartText]
+[ImakuniBlackDuelStartText] full-width
 6 Prize cards!
-Let's duel for real!!
+Let's duel for
+real!!
 
-[ImakuniBlackDeclinedDuelText]
-What? Aw, now I'm lonely...
-Weren't we gonna have a card duel?
-You're a real drag,
-you know that?!
+[ImakuniBlackDeclinedDuelText] full-width
+What? Aw, now I'm
+lonely... Weren't
+we gonna have a
+card duel? You're
+a real drag, you
+know that?!
 
-[ImakuniBlackPlayerLostText]
-Oopsie...
-I went and won!
-That's me for ya!
-But you were strong too!
+[ImakuniBlackPlayerLostText] full-width
+Oopsie... I went
+and won! That's
+me for ya! But you
+were strong too!
 
-[ImakuniBlackByeText]
-Well, I'm off on my wandering
-journey again. See ya!
+[ImakuniBlackByeText] full-width
+Well, I'm off
+on my wandering
+journey again.
+See ya!
 
-[ImakuniBlackPlayerWonNormalText]
+[ImakuniBlackPlayerWonNormalText] full-width
 Whoa, you're
-pretty strong, huh?
-I'll give you booster packs, so
-don't tell anyone I lost!
+pretty strong,
+huh? I'll give you
+booster packs, so
+don't tell anyone
+I lost!
 
-[ImakuniBlackPlayerWon3Text]
-You've beaten me 3 times now!
-Happy? Huh? Are you happy?
+[ImakuniBlackPlayerWon3Text] full-width
+You've beaten me 3
+times now! Happy?
+Huh? Are you
+happy?
 
-[ImakuniBlackPlayerWon6Text]
-I can't believe I lost 6 times...
-That's so frustrating... Seriously!
-I'm so frustrated
-that I'm giving you this!
+[ImakuniBlackPlayerWon6Text] full-width
+I can't believe
+I lost 6 times...
+That's so
+frustrating...
+Seriously! I'm so
+frustrated that
+I'm giving you
+this!
 
-[ImakuniBlackPlayerWon9Text]
-Why?! How could I lose to you
-9 times?!
-I'm so disappointed in myself!
-Dang it!
+[ImakuniBlackPlayerWon9Text] full-width
+Why?! How could
+I lose to you
+9 times?! I'm so
+disappointed in
+myself! Dang it!
 
-[ImakuniBlackPlayerWonManyText]
-What, you won again...
-You've got some real skill, huh?
-I'm starting to feel like
-I'll never beat you.
-Take this, and lose to me
-once in a while, OK?
+[ImakuniBlackPlayerWonManyText] full-width
+What, you
+won again...
+You've got some
+real skill, huh?
+I'm starting to
+feel like I'll
+never beat you.
+Take this, and
+lose to me once in
+a while, OK?
 
-[Text12d3]
-I'm the kinda-sorta red
+[Text12d3] full-width
+I'm the
+kinda-sorta red
 Imakuni? Red!
-That guy on your island in black
-who calls himself "Imakuni?"!
-He's a fake,
-so watch out, you!
-Today, you!
-Do Card Pop! with me!!
-Even if you don't want to, I will!
-Get ready for Card Pop!
+That guy on your
+island in black
+who calls himself
+"Imakuni?"! He's
+a fake, so watch
+out, you! Today,
+you! Do Card Pop!
+with me!! Even if
+you don't want to,
+I will! Get ready
+for Card Pop!
 
-[Text12d4]
+[Text12d4] full-width
 I got a rare card!
-I'll save your data too!
+I'll save your
+data too!
 
-[Text12d5]
-Hey, let me say thank you.
-I really wanted this card.
-I'm forever grateful to you,
+[Text12d5] full-width
+Hey, let me say
+thank you. I
+really wanted this
+card. I'm forever
+grateful to you,
 my dear friend!
 
-[Text12d6]
-Hm?
-Who are you?
-Huh? "Who am I?" you ask?
+[Text12d6] full-width
+Hm? Who are you?
+Huh? "Who am
+I?" you ask?
 You don't know me?
-I'm a super musical star!
-I'm Imakuni?!
-What? Imakuni? is black, you say?
-You don't know anything, do you!
-I'm the hopelessly red
-Imakuni? Red!
-I'm so red that the black guy
-doesn't even compare!
-Looks like you can't hide
-your surprise!
-What?
-You want a card duel with me?
-That's just what I wanted!
-I'll smash you to smithereens!
+I'm a super
+musical star! I'm
+Imakuni?! What?
+Imakuni? is black,
+you say? You don't
+know anything,
+do you! I'm the
+hopelessly red
+Imakuni? Red! I'm
+so red that the
+black guy doesn't
+even compare!
+Looks like you
+can't hide your
+surprise! What?
+You want a card
+duel with me?
+That's just
+what I wanted!
+I'll smash you to
+smithereens!
 
-[Text12d7]
-I'm the maddeningly red
+[Text12d7] full-width
+I'm the
+maddeningly red
 Imakuni? Red!
-What? Oh!
-Did you come to see me again?
-Wanna make a summer memory?
-Huh? No?
-You want a card duel with me?
-Then I'll smash you to smithereens!
+What? Oh! Did
+you come to see
+me again? Wanna
+make a summer
+memory? Huh? No?
+You want a card
+duel with me? Then
+I'll smash you to
+smithereens!
 
 [Text12d8]
 Do you want to duel Imakuni? Red?
 
-[Text12d9]
+[Text12d9] full-width
 6 Prize cards!
-A "6-Pri" match, for short!
+A "6-Pri" match,
+for short!
 
-[Text12da]
-What, you won't duel me?
-Why not?!
-And I was gonna smash you
-to smithereens...
-After I went to all the trouble
-of getting red, this is no fun...
+[Text12da] full-width
+What, you won't
+duel me? Why not?!
+And I was gonna
+smash you to
+smithereens...
+After I went to
+all the trouble
+of getting red,
+this is no fun...
 
-[Text12db]
+[Text12db] full-width
 Ta-daaa! I won!
-I-It's not like I'm that happy.
-I win pretty often, after all.
-I-I'm not happy or anything...
-Well, see ya.
-You should get red like me, too!
+I-It's not like
+I'm that happy.
+I win pretty
+often, after all.
+I-I'm not happy or
+anything... Well,
+see ya. You should
+get red like me,
+too!
 
-[Text12dc]
-Whew, that was close.
-I thought I might lose this time.
-Huh? What?
-I lost? That's the 3rd time?
-What? I didn't even know!
-Oh well, here, take this.
+[Text12dc] full-width
+Whew, that was
+close. I thought
+I might lose this
+time. Huh? What?
+I lost? That's the
+3rd time? What? I
+didn't even know!
+Oh well, here,
+take this.
 
-[Text12dd]
-Well, I'm off on another journey
+[Text12dd] full-width
+Well, I'm off on
+another journey
 to dye myself red!
 
-[Text12de]
-Oh, so that's your move...
-Then what should I do...
+[Text12de] full-width
+Oh, so that's your
+move... Then what
+should I do...
 Huh? What? I lost?
-Again? That's the 6th time?
-How did I lose? I don't get it!
-Well, that's that. Here, take this!
+Again? That's
+the 6th time?
+How did I lose?
+I don't get it!
+Well, that's that.
+Here, take this!
 
-[Text12df]
-Well, I'm off on another journey
-to dye myself even redder!
+[Text12df] full-width
+Well, I'm off on
+another journey
+to dye myself even
+redder!
 
-[Text12e0]
-Hey, doesn't it kinda seem like
+[Text12e0] full-width
+Hey, doesn't it
+kinda seem like
 I won this time?
-Huh? I lost again? How come?!
-I've lost 9 times already?
-I'd better learn what it takes
-to lose first.
+Huh? I lost again?
+How come?!
+I've lost 9 times
+already? I'd
+better learn what
+it takes to lose
+first.
 
-[Text12e1]
-Well, I'm off on another journey
-to dye myself super red!
+[Text12e1] full-width
+Well, I'm off on
+another journey to
+dye myself super
+red!
 
-[Text12e2]
-You really had me cornered.
-I almost lost there.
-Huh? I lost?
-Aw, man... Fine, take this.
+[Text12e2] full-width
+You really had me
+cornered. I almost
+lost there. Huh?
+I lost? Aw, man...
+Fine, take this.
 
-[Text12e3]
-Next time we meet,
-I'll be even redder.
-That'll be a day you'll remember!
-See ya! I'm off on a journey!
+[Text12e3] full-width
+Next time we
+meet, I'll be
+even redder.
+That'll be a day
+you'll remember!
+See ya! I'm off on
+a journey!
 
-[BattleCenterWelcomeText]
-Hello, and welcome
-to the Battle Center!!
-Get booster packs from link duels!
-Winners get 3 packs, losers get 1.
+[BattleCenterWelcomeText] full-width
+Hello, and
+welcome to the
+Battle Center!!
+Get booster packs
+from link duels!
+Winners get 3
+packs, losers get
+1.
 
 [BattleCenterBeginPromptText]
 Start a duel with your friend?
 
-[BattleCenterThankYouText]
-Thank you for using
-the Battle Center.
+[BattleCenterThankYouText] full-width
+Thank you for
+using the Battle
+Center.
 
-[BattleCenterComeAgainText]
+[BattleCenterComeAgainText] full-width
 We look forward to
 your next visit.
 
-[BattleCenterWinRewardsText]
+[BattleCenterWinRewardsText] full-width
 Congratulations!
-That was a splendid win!
-<RAMNAME>, as the winner,
-here are 3 booster packs!
+That was a
+splendid win!
+<RAMNAME>, as the
+winner, here are 3
+booster packs!
 
 [BattleCenterLoseRewardsText]
 Too bad...
@@ -426,21 +604,29 @@ Too bad...
 <RAMNAME>, here's
 1 booster pack for you!
 
-[BattleCenter50WinsRewardsText]
+[BattleCenter50WinsRewardsText] full-width
 Congratulations!
-That's your 50th link duel win!
-<RAMNAME>, please accept
-this commemorative coin!
+That's your 50th
+link duel win!
+<RAMNAME>, please
+accept this
+commemorative
+coin!
 
-[BattleCenterAppreciateContinuedSupportText]
-We appreciate your continued
-support of the Battle Center!
+[BattleCenterAppreciateContinuedSupportText] full-width
+We appreciate your
+continued support
+of the Battle
+Center!
 
-[BattleCenter100WinsRewardsText]
+[BattleCenter100WinsRewardsText] full-width
 Congratulations!
-Amazing! Your 100th link duel win!
-<RAMNAME>, please accept
-this commemorative coin!
+Amazing! Your
+100th link duel
+win! <RAMNAME>,
+please accept
+this commemorative
+coin!
 
 [GrassEnergyName]
 Grass Energy
@@ -563,10 +749,13 @@ lots of nutrients, so it's fine.
 [LeechSeedName]
 Leech Seed
 
-[LeechSeedDescription]
-If this attack damages the Defending
-Pokémon, remove 1 damage counter
-from this Pokémon.
+[LeechSeedDescription] full-width
+If this attack
+damages the
+Defending Pokémon,
+remove 1 damage
+counter from this
+Pokémon.
 
 [BulbasaurLv13Description]
 It has had a plant seed on its back
@@ -576,15 +765,17 @@ little by little.
 [FirstAidName]
 First Aid
 
-[FirstAidDescription]
-Remove 1 damage counter from
-this Pokémon.
+[FirstAidDescription] full-width
+Remove 1 damage
+counter from this
+Pokémon.
 
 [PoisonSeedName]
 Poison Seed
 
-[InflictPoisonDescription]
-The Defending Pokémon is now
+[InflictPoisonDescription] full-width
+The Defending
+Pokémon is now
 Poisoned.
 
 [BulbasaurLv15Description]
@@ -609,10 +800,13 @@ it blooms into a large flower.
 [LeechSeedAltName]
 Leech Seed
 
-[IvysaursLeechSeedDescription]
-If this attack damages the Defending
-Pokémon, remove 1 damage counter
-from this Pokémon.
+[IvysaursLeechSeedDescription] full-width
+If this attack
+damages the
+Defending Pokémon,
+remove 1 damage
+counter from this
+Pokémon.
 
 [VineWhipAltName]
 Vine Whip
@@ -703,10 +897,14 @@ Dark Venusaur
 [HorridPollenName]
 Horrid Pollen
 
-[HorridPollenDescription]
-The Defending Pokémon is now
-Poisoned, plus Confused, Asleep, or
-Paralyzed (chosen at random).
+[HorridPollenDescription] full-width
+The Defending
+Pokémon is now
+Poisoned, plus
+Confused, Asleep,
+or Paralyzed
+(chosen at
+random).
 
 [DarkVenusaurDescription]
 When its big flower opens, there's a
@@ -719,9 +917,11 @@ Caterpie
 [StringShotName]
 String Shot
 
-[MayInflictParalysisDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Paralyzed.
+[MayInflictParalysisDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Paralyzed.
 
 [WormName]
 Worm
@@ -747,9 +947,11 @@ Asleep, Confused, or Paralyzed.
 [MysteriousPowerName]
 Mysterious Powder
 
-[MayInflictConfusionDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Confused.
+[MayInflictConfusionDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Confused.
 
 [CocoonName]
 Cocoon
@@ -783,10 +985,13 @@ Butterfree
 [WhirlwindName]
 Whirlwind
 
-[WhirlwindDescription]
-If your opponent has any Benched
-Pokémon, he or she chooses 1 of them
-and switches it with the Defending
+[WhirlwindDescription] full-width
+If your opponent
+has any Benched
+Pokémon, he or she
+chooses 1 of them
+and switches it
+with the Defending
 Pokémon.
 
 [ButterflyName]
@@ -803,9 +1008,11 @@ Weedle
 [PoisonStingName]
 Poison Sting
 
-[MayInflictPoisonDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Poisoned.
+[MayInflictPoisonDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Poisoned.
 
 [HairyBugName]
 Hairy Bug
@@ -859,9 +1066,11 @@ Beedrill
 [TwineedleName]
 Twineedle
 
-[Do30DamageNumberOfHeadsDescription]
-Flip 2 coins. This attack does 30
-damage times the number of heads.
+[Do30DamageNumberOfHeadsDescription] full-width
+Flip 2 coins. This
+attack does 30
+damage times the
+number of heads.
 
 [PoisonBeeName]
 Poison Bee
@@ -891,9 +1100,11 @@ around it.
 [BiteName]
 Bite
 
-[MayInflictPoisonAltDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Poisoned.
+[MayInflictPoisonAltDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Poisoned.
 
 [EkansLv15Description]
 A carnivore, it swallows anything
@@ -924,9 +1135,11 @@ The pattern on its belly looks like
 a scary face. Weak foes flee at the
 mere sight of it.
 
-[MayInflictParalysisAltDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Paralyzed.
+[MayInflictParalysisAltDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Paralyzed.
 
 [DeadlyPoisonName]
 Deadly Poison
@@ -991,9 +1204,11 @@ female has smaller horns.
 [FurySwipesName]
 Fury Swipes
 
-[FurySwipes10DamageDescription]
-Flip 3 coins. This attack does 10
-damage times the number of heads.
+[FurySwipes10DamageDescription] full-width
+Flip 3 coins. This
+attack does 10
+damage times the
+number of heads.
 
 [CallForFamilyName]
 Call for Family
@@ -1022,9 +1237,11 @@ Nidoran♂, Nidoran♀, Nidorino,
 Nidorina, Nidoking, and Nidoqueen on
 your Bench.
 
-[FurySwipes30DamageDescription]
-Flip 3 coins. This attack does 30
-damage times the number of heads.
+[FurySwipes30DamageDescription] full-width
+Flip 3 coins. This
+attack does 30
+damage times the
+number of heads.
 
 [NidorinaLv22Description]
 The female's horn develops slowly.
@@ -1034,9 +1251,11 @@ clawing and biting.
 [SupersonicName]
 Supersonic
 
-[MayInflictConfusionAltDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Confused.
+[MayInflictConfusionAltDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Confused.
 
 [DoubleKickName]
 Double Kick
@@ -1052,9 +1271,11 @@ Nidoqueen
 [BoyfriendsName]
 Boyfriends
 
-[BoyfriendsDescription]
-Does 20 more damage for each
-Nidoking you have in play.
+[BoyfriendsDescription] full-width
+Does 20 more
+damage for each
+Nidoking you have
+in play.
 
 [MegaPunchName]
 Mega Punch
@@ -1073,8 +1294,9 @@ Nidoran♂
 [HornHazardName]
 Horn Hazard
 
-[IfTailsDoNothingDescription]
-Flip a coin. If tails, this attack
+[IfTailsDoNothingDescription] full-width
+Flip a coin. If
+tails, this attack
 does nothing.
 
 [NidoranMLv20Description]
@@ -1085,16 +1307,19 @@ angered, it releases poison barbs.
 [FocusEnergyName]
 Focus Energy
 
-[FocusEnergyHornRushDescription]
-During your next turn, the damage of
-this Pokémon's Horn Rush attack is
-doubled.
+[FocusEnergyHornRushDescription] full-width
+During your next
+turn, the damage
+of this Pokémon's
+Horn Rush attack
+is doubled.
 
 [HornRushName]
 Horn Rush
 
-[IfTailsDoNothingAltDescription]
-Flip a coin. If tails, this attack
+[IfTailsDoNothingAltDescription] full-width
+Flip a coin. If
+tails, this attack
 does nothing.
 
 [NidoranMLv22Description]
@@ -1108,10 +1333,13 @@ Nidorino
 [SwiftLungeName]
 Swift Lunge
 
-[SwiftLungeDescription]
-Flip a coin. If tails, this attack
-does no damage to the Defending
-Pokémon, and this Pokémon does 20
+[SwiftLungeDescription] full-width
+Flip a coin. If
+tails, this attack
+does no damage
+to the Defending
+Pokémon, and this
+Pokémon does 20
 damage to itself.
 
 [NidorinoLv23Description]
@@ -1133,18 +1361,25 @@ Nidoking
 [ThrashName]
 Thrash
 
-[ThrashDescription]
-Flip a coin. If heads, this attack
-does 10 more damage. If tails, this
-Pokémon does 10 damage to itself.
+[ThrashDescription] full-width
+Flip a coin. If
+heads, this attack
+does 10 more
+damage. If tails,
+this Pokémon
+does 10 damage to
+itself.
 
 [ToxicName]
 Toxic
 
-[ToxicDescription]
-The Defending Pokémon is now
-Poisoned. It now takes 20 Poison
-damage instead of 10 after each
+[ToxicDescription] full-width
+The Defending
+Pokémon is now
+Poisoned. It now
+takes 20 Poison
+damage instead
+of 10 after each
 player's turn.
 
 [NidokingDescription]
@@ -1199,9 +1434,11 @@ the damage done.
 [NosediveName]
 Nosedive
 
-[NosediveDescription]
-Flip a coin. If tails, this Pokémon
-does 40 damage to itself.
+[NosediveDescription] full-width
+Flip a coin.
+If tails, this
+Pokémon does 40
+damage to itself.
 
 [GolbatLv25Description]
 Once it strikes, it won't stop
@@ -1265,8 +1502,10 @@ as 300 m on its two roots.
 [SleepPowderName]
 Sleep Powder
 
-[InflictSleepDescription]
-The Defending Pokémon is now Asleep.
+[InflictSleepDescription] full-width
+The Defending
+Pokémon is now
+Asleep.
 
 [OddishLv21Description]
 To preserve its species, it is said
@@ -1279,9 +1518,11 @@ Gloom
 [FoulOdorName]
 Foul Odor
 
-[FoulOdorDescription]
-Both the Defending Pokémon and this
-Pokémon are now Confused (after
+[FoulOdorDescription] full-width
+Both the Defending
+Pokémon and this
+Pokémon are now
+Confused (after
 doing damage).
 
 [GloomDescription]
@@ -1462,10 +1703,13 @@ with this Pokémon.
 [RainbowPowderName]
 Rainbow Powder
 
-[RainbowPowderDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Paralyzed; if tails,
-it is now Poisoned.
+[RainbowPowderDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Paralyzed;
+if tails, it is
+now Poisoned.
 
 [PoisonMothName]
 Poison Moth
@@ -1494,9 +1738,12 @@ its original color (type).
 [VenomPowderName]
 Venom Powder
 
-[VenomPowderDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now both Poisoned and
+[VenomPowderDescription] full-width
+Flip a coin.
+If heads,
+the Defending
+Pokémon is now
+both Poisoned and
 Confused.
 
 [VenomothLv28Description]
@@ -1543,9 +1790,11 @@ Pokémon.
 [DissolveName]
 Dissolve
 
-[DissolveDescription]
-Flip a coin. If heads, discard 1
-Energy card attached to the
+[DissolveDescription] full-width
+Flip a coin.
+If heads, discard
+1 Energy card
+attached to the
 Defending Pokémon.
 
 [FlycatcherName]
@@ -1577,10 +1826,14 @@ Benched Pokémon.)
 [AcidName]
 Acid
 
-[AcidDescription]
-Flip a coin. If heads, the Defending
-Pokémon can't retreat during your
-opponent's next turn.
+[AcidDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+can't retreat
+during your
+opponent's next
+turn.
 
 [VictreebelDescription]
 Prey lured into its mouth by its
@@ -1596,10 +1849,13 @@ Poison Gas
 [StickyHandsName]
 Sticky Hands
 
-[StickyHandsDescription]
-Flip a coin. If heads, this attack
-does 20 more damage and the
-Defending Pokémon is now Paralyzed.
+[StickyHandsDescription] full-width
+Flip a coin. If
+heads, this attack
+does 20 more
+damage and the
+Defending Pokémon
+is now Paralyzed.
 
 [SludgeCategoryName]
 Sludge
@@ -1690,17 +1946,23 @@ Exeggutor
 [TeleportName]
 Teleport
 
-[TeleportDescription]
-Switch this Pokémon with 1 of your
-Benched Pokémon.
+[TeleportDescription] full-width
+Switch this
+Pokémon with 1
+of your Benched
+Pokémon.
 
 [BigEggsplosionName]
 Big Eggsplosion
 
-[BigEggsplosionDescription]
-Flip a coin for each Energy attached
-to this Pokémon. This attack does 20
-damage times the number of heads.
+[BigEggsplosionDescription] full-width
+Flip a coin
+for each Energy
+attached to this
+Pokémon. This
+attack does 20
+damage times the
+number of heads.
 
 [CoconutName]
 Coconut
@@ -1721,10 +1983,13 @@ have spread in recent years.
 [FoulGasName]
 Foul Gas
 
-[FoulGasDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Poisoned; if tails,
-it is now Confused.
+[FoulGasDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Poisoned;
+if tails, it is
+now Confused.
 
 [KoffingLv13Description]
 Its thin, balloonlike body is full
@@ -1752,10 +2017,13 @@ your next turn, Poisoned Pokémon
 take 20 Poison damage instead of 10
 after each player's turn.
 
-[PoisonMistDescriptionCont]
-If this Pokémon is Asleep, Confused,
-or Paralyzed, this power can't be
-used and its effect ends.
+[PoisonMistDescriptionCont] full-width
+If this Pokémon is
+Asleep, Confused,
+or Paralyzed,
+this power can't
+be used and its
+effect ends.
 
 [GasExplosionName]
 Gas Explosion
@@ -1807,10 +2075,13 @@ and Dark Weezing in play.
 [StunGasName]
 Stun Gas
 
-[StunGasDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Poisoned; if tails,
-it is now Paralyzed.
+[StunGasDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Poisoned;
+if tails, it is
+now Paralyzed.
 
 [DarkWeezingDescription]
 It has been seen multiplying at
@@ -1844,9 +2115,11 @@ Scyther
 [SlashingStrikeName]
 Slashing Strike
 
-[SlashingStrikeDescription]
-This Pokémon can't use Slashing
-Strike during your next turn.
+[SlashingStrikeDescription] full-width
+This Pokémon
+can't use Slashing
+Strike during your
+next turn.
 
 [MantisName]
 Mantis
@@ -1859,9 +2132,11 @@ more than one.
 [SwordsDanceName]
 Swords Dance
 
-[SwordsDanceDescription]
-During your next turn, the damage of
-this Pokémon's Slash attack is
+[SwordsDanceDescription] full-width
+During your next
+turn, the damage
+of this Pokémon's
+Slash attack is
 doubled.
 
 [ScytherLv25Description]
@@ -1875,9 +2150,11 @@ Pinsir
 [SlicingThrowName]
 Slicing Throw
 
-[IfHeadsDo10DamageDescription]
-Flip a coin. If heads, this attack
-does 10 more damage.
+[IfHeadsDo10DamageDescription] full-width
+Flip a coin. If
+heads, this attack
+does 10 more
+damage.
 
 [StagbeetleName]
 Stag Beetle
@@ -1926,10 +2203,13 @@ burned.
 [EmberName]
 Ember
 
-[DiscardOneFireEnergyDescription]
-Discard 1 Fire Energy card attached
-to this Pokémon. If you can't, this
-attack does no damage.
+[DiscardOneFireEnergyDescription] full-width
+Discard 1 Fire
+Energy card
+attached to this
+Pokémon. If you
+can't, this attack
+does no damage.
 
 [CharmanderLv10Description]
 From the time it is born, a flame

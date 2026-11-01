@@ -144,30 +144,43 @@ A language lives in `src/runtime/crates/tcg2-locale/locales/<tag>/`
 | `text1.txt` … `text17.txt` | One entry per text of `src/decomp/src/text/textN.asm`, by label |
 | `data.txt` | Texts the game keeps in its code banks, by label (`Owner.local` for local labels) |
 | `font.txt` | The half-width font, 4×8 pixels per character |
-| `fullwidth.txt` | Full-width characters the game's code writes itself, redrawn |
+| `fullwidth.txt` | Full-width characters redrawn: one the game's code writes itself, and ones full-width English needs that the ROM's font lacks or misplaces |
 | `graphics.txt` | Pictures with lettering, redrawn (`[Label] WxH`, then rows of `.`, `:`, `x`, `#`, and `?` to keep the ROM's pixel; `tiles` lines place a picture the game assembles from scattered tiles) |
 
 An entry is a `[Label]` line followed by the text's lines, as they appear on
-screen. A line between backticks keeps its spaces. `<RAMNAME>`, `<RAMTEXT>`,
-`<RAMNUM>` and the symbols (`<Lv>`, `<FIRE>`, …) are the game's control
-codes. `src/text.rs` has the details.
+screen. `[Label] full-width` draws the text a letter to a tile, as the
+Japanese is; otherwise it is half-width, two letters to a tile. A line
+between backticks keeps its spaces. `<RAMNAME>`, `<RAMTEXT>`, `<RAMNUM>` and
+the symbols (`<Lv>`, `<FIRE>`, …) are the game's control codes.
+`src/text.rs` has the details.
 
 ```sh
 cd src/runtime
-cargo test --release -p tcg2-locale    # every text translated, drawable, within its box; pictures within their originals
+cargo test --release -p tcg2-locale    # every text translated, drawable, within its box, full-width where it fits; pictures within their originals
+TCG2_BLESS=1 cargo test --release -p tcg2-locale full_width    # rewrite the texts that fit full-width as full-width
 ```
 
-The test reads the Japanese from `src/decomp`, so it needs no ROM. To see a
+The tests read the Japanese, and how the game prints each text, from
+`src/decomp`, so they need no ROM. A text is full-width wherever the decomp
+shows it fits (`src/tests/layout.rs`, and `src/tests/measured.txt` for the
+places measured by hand): blessing flows its words into lines
+of its box (fewest lines, then even ones, breaking at sentence ends), and
+keeps each word of a spaced line (a cursor's column) on its tile. To see a
 change, run the game (`tcg2-headless … --screenshot`, or the app). The fixed
 limits that matter most:
-- **Dialog** scrolls two lines at a time, at most 36 characters per line.
+- **Dialog** scrolls two lines at a time, at most 18 full-width or 36
+  half-width characters per line. A blank line starts a new page.
 - **A question** with a Yes/No menu has one line.
-- **A card's rules** take at most 6 lines.
+- **A card's text** takes at most 7 lines (its page moves it up a line
+  when it has 7): 18 letters a line full-width.
 - **A Pokédex entry** takes at most 3 lines.
 - **Labels and menu items** are no wider than the room the Japanese had, at
-  two English letters per Japanese character.
+  two English letters per Japanese character, or one in full-width text.
 - **Card names** stay within 20 characters (24 for Trainers and Energy): lists
   pad the rest of a row after the name.
+- **Deck names** the game copies into the save (the decks it gives you, the
+  Auto Deck Machine's) are full-width and at most 10 letters, and Card Pop!'s
+  partners at most 6: the copy keeps only full-width letters, two bytes each.
 
 The game draws whatever the engine encodes, so a new language needs only
 its files and a `Language` variant. One that is not written in Latin
