@@ -152,11 +152,11 @@ Press F9 while playing to switch, or set `language` in `settings.ini` (or
   again, and the next text it prints is in the new language. Names the game
   has already stored, such as your decks' names and the Challenge Machine's
   records, keep the language they were made in.
-- **Pictures with lettering** in duels are redrawn in English: the turn and
-  setup banners, and the play area's location labels. A few others keep their
-  Japanese lettering: the title logo, the booster pack art, the win/lose
-  animation at a duel's end, the special-rules banner, the slot machine's
-  signs and the Card Pop! scene.
+- **Pictures with lettering** are redrawn in English: a duel's turn and setup
+  banners, the play area's location labels, the win, lose and draw stamps at
+  a duel's end, and the slot machine's signs. A few others keep their Japanese
+  lettering: the title logo, the booster pack art, the special-rules banner
+  and the Card Pop! scene.
 
 ## Building
 

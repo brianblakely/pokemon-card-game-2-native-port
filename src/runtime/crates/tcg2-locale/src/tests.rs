@@ -219,10 +219,10 @@ fn every_font_parses() {
     assert!(font::parse_full_width("あ\n").is_err());
 }
 
-/// Each drawing replaces a picture of its exact size: the decomp's PNG of
-/// what its label INCBINs.
+/// Each drawing is drawn over a picture the decomp INCBINs at its label: one
+/// of the same size, or, laid out tile by tile, within it.
 #[test]
-fn every_picture_matches_its_original() {
+fn every_picture_fits_its_original() {
     let decomp = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../../decomp/src");
     let gfx = std::fs::read_to_string(decomp.join("gfx.asm")).unwrap();
     for language in Language::ALL {
@@ -234,7 +234,8 @@ fn every_picture_matches_its_original() {
                 Some((name, n)) => (name, n.parse::<usize>().unwrap()),
                 None => (picture.label.as_str(), 0),
             };
-            // The label's INCBINs in order, up to the one at the offset.
+            // The label's data in order (INCBINs, and words such as a
+            // length before one), up to the INCBIN at the offset.
             let mut lines = gfx
                 .lines()
                 .skip_while(|l| !l.starts_with(&format!("{name}:")));
@@ -244,8 +245,12 @@ fn every_picture_matches_its_original() {
             let mut at = 0;
             let mut found = None;
             for line in lines.take_while(|l| !l.contains("::")) {
-                let Some(file) = line
-                    .trim()
+                let code = line.split(';').next().unwrap().trim();
+                if let Some(words) = code.strip_prefix("dw ") {
+                    at += 2 * words.split(',').count();
+                    continue;
+                }
+                let Some(file) = code
                     .strip_prefix("INCBIN \"")
                     .and_then(|l| l.strip_suffix(".2bpp\""))
                 else {
@@ -263,15 +268,69 @@ fn every_picture_matches_its_original() {
             }
             let (file, width, height) =
                 found.unwrap_or_else(|| panic!("{language}: no picture at [{}]", picture.label));
-            assert_eq!(
-                (picture.width, picture.height),
-                (width, height),
-                "{language}: [{}] is {file}.png's size",
-                picture.label
-            );
-            assert_eq!(picture.tiles.len(), picture.width * picture.height / 4);
+            if picture.tiles.iter().enumerate().all(|(i, &t)| t == Some(i)) {
+                assert_eq!(
+                    (picture.width, picture.height),
+                    (width, height),
+                    "{language}: [{}] is {file}.png's size",
+                    picture.label
+                );
+            }
+            for &tile in picture.tiles.iter().flatten() {
+                assert!(
+                    tile < width * height / 64,
+                    "{language}: [{}] draws tile {tile:02x}, past {file}.png",
+                    picture.label
+                );
+            }
         }
     }
+}
+
+#[test]
+fn pictures() {
+    // Two blocks drawn into tiles 1 and 0, keeping one pixel.
+    let source = String::from("[Pic] 16x8\ntiles 01 00\n?:::::::########\n")
+        + &"::::::::########\n".repeat(6)
+        + "::::::::.......x\n";
+    let mut rom = [0xaa; 48];
+    graphics::parse(&source).unwrap()[0].draw(&mut rom).unwrap();
+    let mut expected = [0xaa; 48]; // tile 2 untouched
+    expected[..14].fill(0xff); // tile 0: black
+    expected[14..16].copy_from_slice(&[0x00, 0x01]); // then white and a 2
+    expected[16..18].copy_from_slice(&[0xff, 0x80]); // tile 1: the kept 3, then 1s
+    for row in expected[18..32].chunks_exact_mut(2) {
+        row.copy_from_slice(&[0xff, 0x00]);
+    }
+    assert_eq!(rom, expected);
+
+    let rows = |row: &str| format!("{row}\n").repeat(8);
+    let parses = |source: String| graphics::parse(&source).is_ok();
+    assert!(!parses(format!(
+        "[Pic] 8x8\ntiles 00 01\n{}",
+        rows("........")
+    )));
+    assert!(!parses(format!(
+        "[Pic] 8x8\ntiles --\n{}",
+        rows("#???????")
+    )));
+    assert!(!parses(format!(
+        "[Pic] 16x8\ntiles 00 00\n{}",
+        rows("#.......?.......")
+    )));
+    assert!(!parses(format!(
+        "[Pic] 8x8\n{}[Pic] 8x8\n{}",
+        rows("#......."),
+        rows("........")
+    )));
+    assert!(parses(format!(
+        "[Pic] 16x8\ntiles 00 00\n{}",
+        rows("#.......#.......")
+    )));
+    assert!(parses(format!(
+        "[Pic] 16x8\ntiles 00 --\n{}",
+        rows("#.......????????")
+    )));
 }
 
 #[test]

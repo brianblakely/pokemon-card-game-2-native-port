@@ -276,7 +276,9 @@ pub fn localize(rom: &[u8], language: Language, symbols: &Symbols) -> Result<Vec
             };
             let (bank, addr) = labels(name).ok_or_else(bad)?;
             let at = rom_offset(bank, addr) + offset;
-            image[at..at + picture.tiles.len()].copy_from_slice(&picture.tiles);
+            picture
+                .draw(&mut image[at..])
+                .map_err(|e| Error(format!("{language}/graphics.txt: [{}]: {e}", picture.label)))?;
         }
     }
     // Texts outside the table: each replaces the bytes of its label, which

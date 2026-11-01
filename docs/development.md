@@ -128,7 +128,7 @@ A language lives in `src/runtime/crates/tcg2-locale/locales/<tag>/`
 | `data.txt` | Texts the game keeps in its code banks, by label (`Owner.local` for local labels) |
 | `font.txt` | The half-width font, 4×8 pixels per character |
 | `fullwidth.txt` | Full-width characters the game's code writes itself, redrawn |
-| `graphics.txt` | Pictures with lettering, redrawn (`[Label] WxH`, then rows of `.`, `:`, `x`, `#`) |
+| `graphics.txt` | Pictures with lettering, redrawn (`[Label] WxH`, then rows of `.`, `:`, `x`, `#`, and `?` to keep the ROM's pixel; `tiles` lines place a picture the game assembles from scattered tiles) |
 
 An entry is a `[Label]` line followed by the text's lines, as they appear on
 screen. A line between backticks keeps its spaces. `<RAMNAME>`, `<RAMTEXT>`,
@@ -137,7 +137,7 @@ codes. `src/text.rs` has the details.
 
 ```sh
 cd src/runtime
-cargo test --release -p tcg2-locale    # every text translated, drawable, within its box; pictures their original's size
+cargo test --release -p tcg2-locale    # every text translated, drawable, within its box; pictures within their originals
 ```
 
 The test reads the Japanese from `src/decomp`, so it needs no ROM. To see a

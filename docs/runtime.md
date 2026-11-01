@@ -235,8 +235,11 @@ switches language, `tcg2_locale::localize` builds the ROM image:
    blank. ("の", which the code puts between the player's name and an unnamed
    deck's number, stays: the name entry keyboard types it too.)
 7. **Pictures.** `graphics.txt` redraws pictures with lettering (the duel's
-   banners, the play area's location labels) in the original's size, tile
-   layout and four colors, over the original's bytes.
+   banners, the play area's location labels, the result stamps, the slot
+   machine's signs) in the original's four colors, over the original's
+   tiles. A picture the game assembles from scattered tiles (sprites, a
+   sign's tilemap) is drawn as it appears and mapped back to its tiles. Only
+   the lettering is drawn: pixels it does not change stay the ROM's.
 
 No code is changed: the kernel was translated from the same program and runs
 on the new image as it is. `Kernel::set_language` swaps the cartridge's
