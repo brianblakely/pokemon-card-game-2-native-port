@@ -8,9 +8,17 @@ emulation does. The picture scales to any window size, and presentation
 follows any display's refresh rate. The game plays in **American English**,
 the port's own translation, or in its original Japanese.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/brianblakely/pokemon-card-game-2-native-port/readme-assets/story.png" alt="The title screen, then the story in English: To win the Legendary Pokémon; Their name was Team GR!; Dr. Mason on everyone's cards and kidnapping" width="100%">
+  <img src="https://raw.githubusercontent.com/brianblakely/pokemon-card-game-2-native-port/readme-assets/duel.png" alt="A duel: Dratini against Hitmonchan with the Pound attack; Hitmonchan's card; Bulbasaur's Pokédex page; the island map at Mason Laboratory" width="100%">
+</p>
+
+<p align="center"><b><a href="https://github.com/brianblakely/pokemon-card-game-2-native-port/releases/latest">Download the latest release</a></b>: Windows, macOS, Linux and Android</p>
+
 The port contains no game data. It reads the graphics, text, cards and music
 from **your own ROM** at run time. The English translation and its font are
-the port's own work, laid over the game's text when the ROM is loaded.
+the port's own work, laid over the game's text when the ROM is loaded. The
+pictures above are the game running in the port.
 
 ## How it works
 
@@ -100,6 +108,8 @@ or in your user data folder if that folder isn't writable. On macOS they sit
 beside the `.app` only if you create a `rom/` folder there; otherwise they go in
 `~/Library/Application Support/pokemon-card-game-2-native-port/pokemon-tcg2/`.
 
+<img align="right" width="180" src="https://raw.githubusercontent.com/brianblakely/pokemon-card-game-2-native-port/readme-assets/android.png" alt="The game on an Android phone in portrait: the picture at the top, the D-pad, A, B, Select and Start drawn below">
+
 **On Android** (8 or newer), install the APK and start Pokémon Card GB2. The
 first time, it asks for your ROM and opens the system's document picker, and
 it keeps a copy. Its files are in the app's folder,
@@ -109,6 +119,8 @@ below the picture in portrait, as on a Game Boy, and on both sides of it in
 landscape. They give way to a gamepad while one is connected. A keyboard works
 as on the desktop, F-keys included; without one, the settings are changed in
 `settings.ini` in the app's folder.
+
+<br clear="right">
 
 | Action | Keys | Gamepad |
 | --- | --- | --- |
