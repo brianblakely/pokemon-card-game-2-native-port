@@ -111,8 +111,9 @@ fn routine_place(name: &str) -> Option<Place> {
 /// Tables of texts the code places at fixed positions (`PlaceTextItems`),
 /// with the column each row's room ends at, read from the code: (table,
 /// column). An item runs from its position to that column, or to the next
-/// item's cursor; a table's texts are full-width only all together.
-const TABLES: [(&str, usize); 7] = [
+/// item's cursor; a table's texts, and those of the other tables its
+/// routine draws on the same screen, are full-width only all together.
+const TABLES: [(&str, usize); 23] = [
     // The duel's menu, in the wide box at the bottom (border at x = 19).
     ("DuelMenuData", 19),
     // A Pokémon card's page: retreat cost, weakness and resistance symbols
@@ -128,7 +129,27 @@ const TABLES: [(&str, usize); 7] = [
     // The naming screen's question, before the name at x = 12.
     ("WhatIsYourNameData", 12),
     // A letter's "From:" and "Subject:", before their values at x = 6.
-    ("DrawReadMailScreenHeader", 6),
+    ("DrawReadMailScreenHeader", 6), // The duel's Check menu and the play areas' menus, in the wide box at
+    // the bottom (border at x = 19).
+    ("CheckMenuData", 19),
+    ("_HandlePeekSelection", 19),
+    ("YourPlayAreaMenuData", 19),
+    ("YourPlayAreaMenuData_WithPrizes", 19),
+    ("OppPlayAreaMenuData", 19),
+    ("OppPlayAreaMenuData_WithHand", 19),
+    ("OppPlayAreaMenuData_WithPrizes", 19),
+    ("OppPlayAreaMenuData_WithHandAndPrizes", 19),
+    // The deck screens' menus: the deck list's and the Deck Save Machine's
+    // in the wide box, the deck builder's in the box at the top.
+    ("DeckSelectScreenTextItems", 19),
+    ("DeckBuildMenuTextItems", 19),
+    ("SendCards_MenuData", 19),
+    ("_HandleDeckSaveMachineMenu", 19),
+    ("_HandleAutoDeckSelectionMenu", 19),
+    ("Menu_3bf55", 19),
+    // The keyboard's pages, under the keys.
+    ("UpdateNamingScreenUI", 19),
+    ("UpdateMultilineInputScreenUI", 19),
 ];
 
 /// Texts the code puts into exactly one other text, as its `<RAMTEXT>`:
@@ -400,6 +421,7 @@ pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
     let returners = returners(&sources);
     let mut places: HashMap<String, Vec<Place>> = HashMap::new();
     let mut menus = 0;
+    let mut table_menus: HashMap<&str, usize> = HashMap::new();
     for (file, lines) in &sources {
         let paged = paged_lists(lines);
         let mut tables = DataTables::default();
@@ -501,8 +523,10 @@ pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
             if op == "textitem"
                 && let Some(&(_, edge)) = TABLES.iter().find(|(t, _)| *t == routine)
             {
-                let menu = menus;
-                menus += 1;
+                let menu = *table_menus.entry(routine).or_insert_with(|| {
+                    menus += 1;
+                    menus - 1
+                });
                 let mut items = Vec::new();
                 while i < lines.len() {
                     let w = words(&lines[i]);
