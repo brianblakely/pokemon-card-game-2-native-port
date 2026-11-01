@@ -1,12 +1,12 @@
 # Pokémon Card GB2: native port
 
-A native PC port of **Pokémon Card GB2 - GR Dan Sanjou!** (Game Boy Color,
-1999) for Linux, macOS and Windows. The game's own program runs as native code,
-translated to Rust from the [pret disassembly](src/decomp/README.md). No Game
-Boy emulator is involved, and the port uses a fraction of the power emulation
-does. The picture scales to any window size, and presentation follows any
-display's refresh rate. The game plays in **American English**, the port's
-own translation, or in its original Japanese.
+A native port of **Pokémon Card GB2 - GR Dan Sanjou!** (Game Boy Color,
+1999) for Linux, macOS, Windows and Android. The game's own program runs as
+native code, translated to Rust from the [pret disassembly](src/decomp/README.md).
+No Game Boy emulator is involved, and the port uses a fraction of the power
+emulation does. The picture scales to any window size, and presentation
+follows any display's refresh rate. The game plays in **American English**,
+the port's own translation, or in its original Japanese.
 
 The port contains no game data. It reads the graphics, text, cards and music
 from **your own ROM** at run time. The English translation and its font are
@@ -29,7 +29,9 @@ tcg2-core     the Game Boy Color as host services: memory map, MBC5 cartridge
               something changed), sound synthesis, timer, joypad, link ports
      │  hosted by
      ▼
-tcg2-desktop  SDL3 window, 2D renderer, input and sound
+tcg2-desktop  SDL3 window, 2D renderer, input and sound; on Android the
+              same app as a library under SDL's Java activity, with the
+              console's buttons drawn for touch
 ```
 
 This is the architecture of
@@ -83,8 +85,8 @@ drawing changed lines and synthesizing sound.
 
 ## Playing
 
-1. Download a [release](docs/releases.md) (Windows, macOS, Linux), or
-   [build](#building) it.
+1. Download a [release](docs/releases.md) (Windows, macOS, Linux, Android),
+   or [build](#building) it.
 2. Put your ROM of *Pokémon Card GB2 - GR Dan Sanjou! (J)* in `rom/` beside the
    app. It must be 2 MiB with SHA-1 `a7e12bcc5f514e3aad8de570fd511aab0a308822`;
    the file name doesn't matter. The `rom/` folder is in `.gitignore`.
@@ -97,6 +99,16 @@ emulators use, so existing saves can be copied in. Screenshots go to
 or in your user data folder if that folder isn't writable. On macOS they sit
 beside the `.app` only if you create a `rom/` folder there; otherwise they go in
 `~/Library/Application Support/pokemon-card-game-2-native-port/pokemon-tcg2/`.
+
+**On Android** (8 or newer), install the APK and start Pokémon Card GB2. The
+first time, it asks for your ROM and opens the system's document picker, and
+it keeps a copy. Its files are in the app's folder,
+`Android/data/io.github.pokemon_card_game_2_native_port/files/`, which a
+computer reaches over USB. The console's buttons are drawn on the screen:
+below the picture in portrait, as on a Game Boy, and on both sides of it in
+landscape. They give way to a gamepad while one is connected. A keyboard works
+as on the desktop, F-keys included; without one, the settings are changed in
+`settings.ini` in the app's folder.
 
 | Action | Keys | Gamepad |
 | --- | --- | --- |
@@ -190,6 +202,12 @@ plus about 35 s to compile the generated Rust.
   `nix develop path:./nix/runtime#linux -c bash -c 'cd src/runtime && cargo zigbuild --release -p tcg2-desktop --features static-sdl --target x86_64-unknown-linux-gnu.2.31'`.
 - **Windows:** cross-build with
   `nix develop path:./nix/runtime#windows --command cargo build --release --target x86_64-pc-windows-gnu -p tcg2-desktop`.
+- **Android:** the APK (arm64-v8a and x86_64) with
+  `tools/release/shell.sh android python3 tools/release/package.py android --version v0.1`,
+  after translating the kernel to `build/kernel` and making the notices
+  ([packaging](packaging/README.md)). The `#android` shell holds the SDK, the
+  NDK, a JDK and an emulator; the APK is made with the SDK's own tools, with
+  no Gradle and no downloads.
 - **Releases:** `.github/workflows/release.yml` builds and publishes every
   platform from the pinned Nix shells. See [docs/releases.md](docs/releases.md).
 
@@ -239,11 +257,12 @@ The decomp builds on its own too (`nix develop path:./nix`, then
 | `src/runtime/crates/tcg2-core` | The machine: memory map, cartridge, LCD, sound, timer |
 | `src/runtime/crates/tcg2-locale` | The game in other languages: the American English translation and font (`locales/en-US/`), laid into the ROM image at load |
 | `src/runtime/crates/tcg2-render` | The picture's look: fit, LCD colours, frame blending (CPU, per new picture) |
-| `src/runtime/crates/tcg2-desktop` | The desktop app (`pokemon-tcg2`) |
+| `src/runtime/crates/tcg2-desktop` | The app: `pokemon-tcg2` on the desktop, `libmain.so` on Android (its touch buttons in `touch.rs`, the rest in `android.rs`) |
+| `src/runtime/android/` | The Android app's manifest and its activity (SDL's, passing the app its arguments) |
 | `src/runtime/crates/tcg2-headless` | The game without a window: scripted input, screenshots, measurement |
 | `src/runtime/crates/tcg2-reference` | Test tooling: the reference interpreter, lockstep, libretro comparison |
 | `nix/` | Pinned toolchains: `nix/` for the decomp, `nix/runtime/` for the port |
-| `packaging/` | Release packaging (Linux, Windows, macOS, Arch) |
+| `packaging/` | Release packaging (Linux, Windows, macOS, Android, Arch) |
 | `docs/` | [Runtime](docs/runtime.md) and [development](docs/development.md) guides |
 | `plan.md` | [Phases, status and possible next steps](plan.md) |
 
