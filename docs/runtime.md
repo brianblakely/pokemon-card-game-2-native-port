@@ -238,7 +238,8 @@ switches language, `tcg2_locale::localize` builds the ROM image:
    half-width; one can be made full-width by hand within the Japanese
    text's own lines. So does a text that puts another into itself
    (`<RAMTEXT>`): what it puts in is half-width, and a line reads in one
-   size. Debug menus and routines, which no player sees, do not count.
+   size, unless the texts it puts in are known and all full-width
+   (`PUT_INTO`). Debug menus and routines, which no player sees, do not count.
    `TCG2_BLESS=1` rewrites the files to that layout.
 
    `<RAMNAME>`, `<RAMTEXT>`, `<RAMNUM>` and symbols such as `<Lv>` become
