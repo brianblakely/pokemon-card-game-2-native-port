@@ -11,7 +11,7 @@ build must still match `rom.sha1`.
 | Decision | Choice |
 | --- | --- |
 | Rust workspace | `src/runtime/` (`Cargo.toml`, crates in `src/runtime/crates/*`, committed `Cargo.lock`) |
-| Toolchain | `nix develop path:./nix/runtime`: Rust 1.97.1 (rust-overlay), RGBDS 1.0.4, SDL3 3.4.14; `#windows` adds the MinGW cross toolchain and SDL3; `#linux` builds the release with zig against glibc 2.31 |
+| Toolchain | `nix develop path:./nix/runtime`: Rust 1.97.1 (rust-overlay), RGBDS 1.0.4, SDL3 3.4.14; `#windows` adds the MinGW cross toolchain and SDL3; `#linux` builds the release with zig against glibc 2.31; `#android` (x86-64 Linux hosts) adds the Android SDK (platform 36, build tools 36.1.0), the NDK (r29), JDK 17 and an emulator |
 | Decomp toolchain | `nix develop path:./nix`: RGBDS 1.0.4, GCC, make, Python |
 | Versions | sdl3-sys =0.6.8 (SDL 3.4.14, the sibling project's pin). The only graphics library is SDL's own 2D renderer |
 | Game data | Read from the player's ROM at run time. SHA-1 `a7e12bcc5f514e3aad8de570fd511aab0a308822` is checked before boot. Builds contain code, plus the port's own translation and font |
@@ -197,6 +197,44 @@ per-user folder when that isn't writable: `rom/`, `saves/poketcg2.sav`,
 `screenshots/` and `settings.ini`. `TCG2_HOME` overrides the location.
 Battery RAM is written atomically, 0.75 s after the game last changed it, and on
 exit.
+
+## Android (`tcg2-desktop` as a library)
+
+The same app runs on Android. `tools/release/package.py android` builds it
+for arm64-v8a and x86_64 with the NDK, as a shared library (`cargo rustc
+--crate-type cdylib`) that the APK carries as `libmain.so`, beside
+`libSDL3.so`. Both come from the source of the Linux release's SDL (the
+`sdl3-src` crate). SDL's Java activity (`GameActivity` in
+`src/runtime/android` passes it the intent's `args` extra as the command line)
+loads them and calls the library's `SDL_main` on a thread of its own. SDL
+draws with OpenGL ES, plays sound through AAudio, and reads touch, gamepads
+and keyboards. What differs from the desktop (`android.rs`, `touch.rs`):
+
+- **Files.** The app's folder in shared storage,
+  `Android/data/<package>/files/`, which a computer reaches over USB (the
+  private folder when shared storage cannot be written).
+- **The ROM.** Without one there, the app asks for it and opens the system's
+  document picker (`SDL_ShowOpenFileDialog`). It reads at most 2 MiB and a
+  byte from what was picked (a `content://` document), checks it, and keeps
+  a copy in `rom/`. While the picker is open, the app's thread sleeps in SDL's
+  event wait.
+- **Touch.** The console's buttons are drawn over the window with SDL's 2D
+  renderer (rectangles, discs and SDL's 8×8 font), in the part clear of
+  cutouts and the system's bars. In portrait the picture goes across the top
+  and the buttons below, in landscape the buttons go beside the picture. Each
+  finger holds what is under it (on the D-pad, each direction holds 60° to
+  either side of its axis, so a diagonal holds two), and sliding moves to
+  another button. The buttons are drawn only with a picture, or when a touch
+  changes the buttons held, and they give way to a gamepad while one is
+  connected.
+- **Lifecycle.** In the background SDL blocks the app's thread in its event
+  wait and pauses the sound device, until the app is back. Android may end
+  the app without notice by then, so battery RAM is written as soon as the
+  game changes it (in 51 to 59 frames of 100,000 of random play).
+- **The window.** Full screen, with the system's bars hidden; it rotates with
+  the device, and a rotation resizes it.
+- **Messages.** The system log (`adb logcat`, tag `SDL/APP`), with `--stats`
+  and Rust panics.
 
 ## Languages (`tcg2-locale`)
 

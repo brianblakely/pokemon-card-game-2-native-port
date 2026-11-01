@@ -27,6 +27,7 @@ def native_changed(base, commit):
             "src/runtime/crates/",
             "src/runtime/Cargo.toml",
             "src/runtime/Cargo.lock",
+            "src/runtime/android/",
             "nix/runtime/",
             "packaging/install.txt",
             "tools/release/package.py",

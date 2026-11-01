@@ -134,6 +134,31 @@ load a non-NixOS host's drivers. On an NVIDIA desktop, Xvfb (which has no GLX
 here) needs `__GLX_VENDOR_LIBRARY_NAME=mesa
 __EGL_VENDOR_LIBRARY_FILENAMES=/usr/share/glvnd/egl_vendor.d/50_mesa.json`.
 
+**Android.** The `#android` shell (x86-64 Linux, with KVM for the emulator)
+builds the APK as the release does, signed with a development key made in
+`build/android/`, and tests it on a fresh emulator. Its logs, screenshots and
+the app's pictures land in `build/android/smoke/`:
+
+```sh
+tools/release/shell.sh android python3 tools/release/package.py android --version v0.1   # dist/pokemon-tcg2-v0.1-android.apk
+tools/release/shell.sh android python3 tools/release/smoke.py android --version v0.1 --rom rom/poketcg2.gbc
+```
+
+Without `--rom`, the test checks what a player meets first (the app asks for
+a ROM and shows the document picker). With it, it picks the ROM in the picker
+and plays. On a device or a running emulator, the app takes the desktop's
+command line from the intent's `args` extra, and logs to `adb logcat -s
+SDL/APP`:
+
+```sh
+adb shell am start -n io.github.pokemon_card_game_2_native_port/.GameActivity \
+  --esa args --exit-after-frames,1800,--stats
+```
+
+`cargo clippy --target aarch64-linux-android -p tcg2-desktop --features
+sdl3-sys/no-link` lints the Android code in the default shell; the public CI
+does this.
+
 ## Translations
 
 A language lives in `src/runtime/crates/tcg2-locale/locales/<tag>/`

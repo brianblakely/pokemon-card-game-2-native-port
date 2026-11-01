@@ -178,9 +178,67 @@ jobs:
           TAG: ${{ needs.prepare.outputs.tag }}
         run: python tools/release/smoke.py windows --version $env:TAG
 
+  android:
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      CARGO_BUILD_JOBS: 3
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Make room for the pinned toolchains
+        run: sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL /usr/share/swift
+      - uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: release-inputs
+          path: build
+      - name: Build and sign the APK
+        env:
+          TAG: ${{ needs.prepare.outputs.tag }}
+          PUBLISH: ${{ github.ref == 'refs/heads/master' }}
+          KEYSTORE: ${{ secrets.TCG2_ANDROID_KEYSTORE_BASE64 }}
+          TCG2_ANDROID_KEYSTORE_PASSWORD: ${{ secrets.TCG2_ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          # Players' updates install only over an APK signed with the same
+          # key: a published APK always carries the release key.
+          if [ -n "$KEYSTORE" ]; then
+            umask 077
+            export TCG2_ANDROID_KEYSTORE="$RUNNER_TEMP/release.keystore"
+            trap 'rm -f "$TCG2_ANDROID_KEYSTORE"' EXIT
+            printf '%s' "$KEYSTORE" | base64 --decode > "$TCG2_ANDROID_KEYSTORE"
+          elif [ "$PUBLISH" = true ]; then
+            echo '::error::Publishing needs the Android release key: the TCG2_ANDROID_KEYSTORE_BASE64 and TCG2_ANDROID_KEYSTORE_PASSWORD secrets (docs/releases.md)'
+            exit 1
+          fi
+          tools/release/shell.sh android python3 tools/release/package.py android --version "$TAG"
+      - name: Test the APK on an emulator
+        env:
+          TAG: ${{ needs.prepare.outputs.tag }}
+        run: |
+          sudo chmod a+rw /dev/kvm
+          tools/release/shell.sh android python3 tools/release/smoke.py android --version "$TAG"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: release-android
+          path: dist/*
+          if-no-files-found: error
+      - name: Keep the emulator's logs and screenshots
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: android-smoke
+          path: build/android/smoke/
+          if-no-files-found: warn
+
   publish:
     if: github.ref == 'refs/heads/master'
-    needs: [prepare, checks, desktop, windows-test]
+    needs: [prepare, checks, desktop, windows-test, android]
     runs-on: ubuntu-24.04
     permissions:
       contents: write

@@ -1,5 +1,6 @@
 //! SDL3: initialisation, the window, and its 2D renderer.
 
+use crate::touch::Rect;
 use sdl3_sys::everything::*;
 use std::ffi::{CStr, CString};
 use std::ptr::{null, null_mut};
@@ -115,6 +116,33 @@ impl Window {
         // SAFETY: live window; SDL copies the title.
         unsafe { SDL_SetWindowTitle(self.raw, title.as_ptr()) };
     }
+
+    /// The part of the window clear of display cutouts and the system's
+    /// bars, in the pixels of a drawable `pixels` big.
+    pub fn safe_area(&self, pixels: (u32, u32)) -> Rect {
+        let mut safe = SDL_Rect::default();
+        let (mut w, mut h) = (0, 0);
+        // SAFETY: a live window, valid out pointers.
+        let known = unsafe {
+            SDL_GetWindowSize(self.raw, &mut w, &mut h)
+                && SDL_GetWindowSafeArea(self.raw, &mut safe)
+        };
+        if !known || w <= 0 || h <= 0 || safe.w <= 0 || safe.h <= 0 {
+            return Rect {
+                x: 0.0,
+                y: 0.0,
+                w: pixels.0 as f32,
+                h: pixels.1 as f32,
+            };
+        }
+        let (sx, sy) = (pixels.0 as f32 / w as f32, pixels.1 as f32 / h as f32);
+        Rect {
+            x: safe.x as f32 * sx,
+            y: safe.y as f32 * sy,
+            w: safe.w as f32 * sx,
+            h: safe.h as f32 * sy,
+        }
+    }
 }
 
 impl Drop for Window {
@@ -176,8 +204,8 @@ impl Renderer {
         (width.max(0) as u32, height.max(0) as u32)
     }
 
-    /// Clears to black, draws the picture into `rect` and presents.
-    pub fn present(&mut self, rect: (f32, f32, f32, f32)) -> bool {
+    /// Clears to black and draws the picture into `rect`.
+    pub fn picture(&mut self, rect: (f32, f32, f32, f32)) {
         let dst = SDL_FRect {
             x: rect.0,
             y: rect.1,
@@ -191,7 +219,85 @@ impl Renderer {
             if dst.w >= 1.0 && dst.h >= 1.0 {
                 SDL_RenderTexture(self.raw, self.texture, null(), &dst);
             }
-            SDL_RenderPresent(self.raw)
+        }
+    }
+
+    /// Shows what was drawn; false if the renderer could not take a frame.
+    pub fn present(&mut self) -> bool {
+        // SAFETY: a live renderer.
+        unsafe { SDL_RenderPresent(self.raw) }
+    }
+
+    /// Fills `rect` with white at `alpha` (0 to 1) over what is drawn.
+    pub fn fill(&mut self, rect: Rect, alpha: f32) {
+        let dst = SDL_FRect {
+            x: rect.x,
+            y: rect.y,
+            w: rect.w,
+            h: rect.h,
+        };
+        // SAFETY: a live renderer.
+        unsafe {
+            SDL_SetRenderDrawBlendMode(self.raw, SDL_BLENDMODE_BLEND);
+            SDL_SetRenderDrawColorFloat(self.raw, 1.0, 1.0, 1.0, alpha);
+            SDL_RenderFillRect(self.raw, &dst);
+        }
+    }
+
+    /// Fills a disc of radius `r` around (x, y) with white at `alpha`.
+    pub fn disc(&mut self, x: f32, y: f32, r: f32, alpha: f32) {
+        const SEGMENTS: usize = 40;
+        let color = SDL_FColor {
+            r: 1.0,
+            g: 1.0,
+            b: 1.0,
+            a: alpha,
+        };
+        let vertex = |x, y| SDL_Vertex {
+            position: SDL_FPoint { x, y },
+            color,
+            tex_coord: SDL_FPoint { x: 0.0, y: 0.0 },
+        };
+        let mut vertices = [vertex(x, y); SEGMENTS + 1];
+        let mut indices = [0; SEGMENTS * 3];
+        for i in 0..SEGMENTS {
+            let angle = i as f32 * std::f32::consts::TAU / SEGMENTS as f32;
+            vertices[i + 1] = vertex(x + r * angle.cos(), y + r * angle.sin());
+            indices[i * 3 + 1] = i as i32 + 1;
+            indices[i * 3 + 2] = ((i + 1) % SEGMENTS) as i32 + 1;
+        }
+        // SAFETY: a live renderer; the arrays outlive the call.
+        unsafe {
+            SDL_SetRenderDrawBlendMode(self.raw, SDL_BLENDMODE_BLEND);
+            SDL_RenderGeometry(
+                self.raw,
+                null_mut(),
+                vertices.as_ptr(),
+                vertices.len() as i32,
+                indices.as_ptr(),
+                indices.len() as i32,
+            );
+        }
+    }
+
+    /// Writes `text` centred on (x, y) in SDL's built-in 8x8 font, scaled
+    /// to `height` pixels, in white at `alpha`.
+    pub fn label(&mut self, x: f32, y: f32, text: &str, height: f32, alpha: f32) {
+        let scale = (height / 8.0).max(1.0);
+        let width = 8.0 * text.chars().count() as f32;
+        let text = CString::new(text).unwrap_or_default();
+        // SAFETY: a live renderer; the text outlives the call.
+        unsafe {
+            SDL_SetRenderScale(self.raw, scale, scale);
+            SDL_SetRenderDrawBlendMode(self.raw, SDL_BLENDMODE_BLEND);
+            SDL_SetRenderDrawColorFloat(self.raw, 1.0, 1.0, 1.0, alpha);
+            SDL_RenderDebugText(
+                self.raw,
+                x / scale - width / 2.0,
+                y / scale - 4.0,
+                text.as_ptr(),
+            );
+            SDL_SetRenderScale(self.raw, 1.0, 1.0);
         }
     }
 }
