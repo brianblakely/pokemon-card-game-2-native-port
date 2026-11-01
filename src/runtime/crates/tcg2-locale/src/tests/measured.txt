@@ -3,10 +3,12 @@
 #
 #   routine  text  width  lines  [group]  # where
 #
-# width and lines are the room in tiles, or "pages -" for dialogue
-# (`PrintScrollableText`: pages of two lines of 18). Texts with the same
-# group share a size: they are full-width only all together (one line each).
-# A room of 0 0 marks a reference no player sees printed.
+# width and lines are the room in tiles, "pages -" for dialogue
+# (`PrintScrollableText`: pages of two lines of 18), or "saved N" for a name
+# the game copies into the save, which keeps only full-width letters: it
+# must be full-width, at most N letters. Texts with the same group share a
+# size: they are full-width only all together (one line each). A room of
+# 0 0 marks a reference no player sees printed.
 
 # The hero's gender, at (5, 8) in the 20×12 box, under the portrait (from
 # x = 12 on).
@@ -766,3 +768,19 @@ Credits	CreditsExecutiveProducerText	14	1
 Credits	CreditsExecutiveProducerListText	9	1
 Credits	CreditsGameProductionText	7	1
 Credits	CreditsGameProductionListText	8	1
+
+# Names the game copies into the save two bytes a letter, where only
+# full-width letters survive (InitSaveData.PrintName; the Auto Deck Machine's
+# names are in layout.rs). The decks the game gives the player (give_deck,
+# and at a new game three old decks it then erases), into the deck's name
+# field, 20 bytes before "Deck": 10 letters. Card Pop!'s partners
+# (IngameCardPop), into the name buffer's 12 bytes before its end mark:
+# 6 letters, as a player's name.
+DeckIDData	StarterDeckName	saved	10
+DeckIDData	SweatAntiGR1DeckName	saved	10
+DeckIDData	GiveInAntiGR2DeckName	saved	10
+DeckIDData	VengefulAntiGR3DeckName	saved	10
+DeckIDData	UnforgivingAntiGR4DeckName	saved	10
+DeckIDData	PracticeDeckName	saved	10
+IngameCardPop	CardPopRonaldText	saved	6
+IngameCardPop	CardPopImakuniText	saved	6

@@ -1243,10 +1243,10 @@ Pop! records.
 [CardPopFriendDeckNameText]
 <RAMTEXT> Deck
 
-[CardPopImakuniText]
-Imakuni?
+[CardPopImakuniText] full-width
+Imakun
 
-[CardPopRonaldText]
+[CardPopRonaldText] full-width
 Ronald
 
 [GameCenterBillsPCTitleText]
@@ -1856,125 +1856,125 @@ Mystery Card Decks
 [AutoDeckMachine2MysteriousCardDecksTextPadded]
 `Mystery Card Decks    `
 
-[MachineStarterDeckName]
+[MachineStarterDeckName] full-width
 Starter
 
-[MachineElectricFireDeckName]
-Electric Fire
+[MachineElectricFireDeckName] full-width
+Volt Fire
 
-[MachineBattleWaterDeckName]
-Battle Water
+[MachineBattleWaterDeckName] full-width
+Aqua Brawl
 
-[MachineEsperGreenDeckName]
-Psychic Green
+[MachineEsperGreenDeckName] full-width
+Psy Green
 
-[MachineSweatAntiGR1DeckName]
-Defeat GR-1!
+[MachineSweatAntiGR1DeckName] full-width
+Beat GR-1!
 
-[MachineGiveInAntiGR2DeckName]
-Give Up, GR-2!
+[MachineGiveInAntiGR2DeckName] full-width
+Quit, GR-2
 
-[MachineVengefulAntiGR3DeckName]
-Revenge on GR-3
+[MachineVengefulAntiGR3DeckName] full-width
+Repay GR-3
 
-[MachineUnforgivingAntiGR4DeckName]
-No Mercy for GR-4
+[MachineUnforgivingAntiGR4DeckName] full-width
+Crush GR-4
 
-[MachineAwesomeFossilsDeckName]
-Cool Fossils
+[MachineAwesomeFossilsDeckName] full-width
+Cool Bones
 
-[MachineNewMachokeDeckName]
-New Machoke
+[MachineNewMachokeDeckName] full-width
+Machoke II
 
-[MachineRockFestivalDeckName]
-Rock Festival
+[MachineRockFestivalDeckName] full-width
+Rock Fest
 
-[MachineJabHookDeckName]
+[MachineJabHookDeckName] full-width
 Jab! Hook!
 
-[MachineSteadyIncreaseDeckName]
-Keep Multiplying
+[MachineSteadyIncreaseDeckName] full-width
+Multiply!
 
-[MachineGatheringNidoranDeckName]
-Gather, Nidoran!
+[MachineGatheringNidoranDeckName] full-width
+Nido Party
 
-[MachineNationalParkDeckName]
-Forest Park
+[MachineNationalParkDeckName] full-width
+Woodland
 
-[MachineSelectiveBreedingDeckName]
-Selective Breeding
+[MachineSelectiveBreedingDeckName] full-width
+Pedigree
 
-[MachineSplashingAboutDeckName]
+[MachineSplashingAboutDeckName] full-width
 Water Play
 
-[MachineBeachDeckName]
-Water's Edge
+[MachineBeachDeckName] full-width
+Shoreline
 
-[MachineInsulationDeckName]
+[MachineInsulationDeckName] full-width
 Insulator
 
-[MachineAntarcticDeckName]
+[MachineAntarcticDeckName] full-width
 Antarctic
 
-[MachineFlameFestivalDeckName]
-Flame Festival
+[MachineFlameFestivalDeckName] full-width
+Fire Fest
 
-[MachineElectricCurrentShockDeckName]
-Electric Sparks
+[MachineElectricCurrentShockDeckName] full-width
+Live Wire
 
-[MachineRiskyBlazeDeckName]
-Reckless Flame
+[MachineRiskyBlazeDeckName] full-width
+Wild Flame
 
-[MachineRagingCharizardDeckName]
-Charizard Rampage
+[MachineRagingCharizardDeckName] full-width
+Rampage
 
-[MachineZapdosPowerPlantDeckName]
-Zapdos Power Plant
+[MachineZapdosPowerPlantDeckName] full-width
+Generator
 
-[MachineElectricShockDeckName]
-Electric Shock
+[MachineElectricShockDeckName] full-width
+Shocker
 
-[MachineOverflowDeckName]
+[MachineOverflowDeckName] full-width
 Overflow
 
-[MachineTripleZapdosDeckName]
-Triple Zapdos
+[MachineTripleZapdosDeckName] full-width
+Zapdos x3
 
-[MachineSpecialBarrierDeckName]
-Special Barrier
+[MachineSpecialBarrierDeckName] full-width
+Barrier
 
-[MachineEvolutionProhibitedDeckName]
-No Evolution
+[MachineEvolutionProhibitedDeckName] full-width
+No Evolve
 
-[MachineGhostDeckName]
+[MachineGhostDeckName] full-width
 Ghosts
 
-[MachinePuppetMasterDeckName]
-Puppet Master
+[MachinePuppetMasterDeckName] full-width
+Puppeteer
 
-[MachineMewLv15DeckName]
+[MachineMewLv15DeckName] full-width
 Mew<Lv>15
 
-[MachineVenusaurLv64DeckName]
-Venusaur<Lv>64
+[MachineVenusaurLv64DeckName] full-width
+Venusaur
 
-[MachineMutualDestructionDeckName]
+[MachineMutualDestructionDeckName] full-width
 Double KO
 
-[MachineEverybodySurfDeckName]
-Everybody Surf
+[MachineEverybodySurfDeckName] full-width
+Surf Party
 
-[MachineGrandFireDeckName]
+[MachineGrandFireDeckName] full-width
 Grand Fire
 
-[MachineLegendaryFossilDeckName]
-Legendary Fossil
+[MachineLegendaryFossilDeckName] full-width
+Old Legend
 
-[MachineWaterLegendDeckName]
-Water Legend
+[MachineWaterLegendDeckName] full-width
+Sea Legend
 
-[MachineGreatDragonDeckName]
-Legend Dragon
+[MachineGreatDragonDeckName] full-width
+Dragonlore
 
 [MachineStarterDeckDescriptionText]
 The deck you got from Dr. Mason,
@@ -2136,125 +2136,125 @@ to "Paralyze" foes again and again!
 Evolve with Dark Dragonair's power,
 then finish with strong Pokémon!
 
-[MachineInsectCollectionDeckName]
-Insect Collection
+[MachineInsectCollectionDeckName] full-width
+Bug Hunt
 
-[MachineCaveExplorationDeckName]
-Cave Exploration
+[MachineCaveExplorationDeckName] full-width
+Cave Quest
 
-[MachineOminousMeadowDeckName]
-Eerie Flower Field
+[MachineOminousMeadowDeckName] full-width
+Odd Garden
 
-[MachineAtrociousWeezingDeckName]
-Vicious Weezing
+[MachineAtrociousWeezingDeckName] full-width
+Vile Smog
 
-[MachineTheBenchIsAlsoASurpriseDeckName]
-Bench Surprise
+[MachineTheBenchIsAlsoASurpriseDeckName] full-width
+Surprise!
 
-[MachineEnergyConservationDeckName]
-Energy Saver
+[MachineEnergyConservationDeckName] full-width
+Eco Energy
 
-[MachineSonicboomDeckName]
+[MachineSonicboomDeckName] full-width
 Sonicboom
 
-[MachineRageOfTheHeavensDeckName]
-Rage of the Sky
+[MachineRageOfTheHeavensDeckName] full-width
+Sky Rage
 
-[MachineDarkWaterDeckName]
+[MachineDarkWaterDeckName] full-width
 Dark Water
 
-[MachineQuickFreezeDeckName]
-Flash Freeze
+[MachineQuickFreezeDeckName] full-width
+Flash Ice
 
-[MachineWhirlpoolShowerDeckName]
-Whirlpool Shower
+[MachineWhirlpoolShowerDeckName] full-width
+Whirlpool
 
-[MachineWaterGangDeckName]
+[MachineWaterGangDeckName] full-width
 Water Gang
 
-[MachineFireballDeckName]
+[MachineFireballDeckName] full-width
 Fireball
 
-[MachineCompleteCombustionDeckName]
-Total Combustion
+[MachineCompleteCombustionDeckName] full-width
+Total Burn
 
-[MachineOminousSpiritFlamesDeckName]
-Eerie Wisps
+[MachineOminousSpiritFlamesDeckName] full-width
+Odd Wisps
 
-[MachineEternalFireDeckName]
-Eternal Fire
+[MachineEternalFireDeckName] full-width
+Ever Flame
 
-[MachineBewareTheTrapDeckName]
-Beware of Traps!
+[MachineBewareTheTrapDeckName] full-width
+Booby Trap
 
-[MachineOgresKickDeckName]
+[MachineOgresKickDeckName] full-width
 Kick Fiend
 
-[MachineRockBlastDeckName]
-Rock Blast!
+[MachineRockBlastDeckName] full-width
+Rock Blast
 
-[MachineHeavyWorkDeckName]
+[MachineHeavyWorkDeckName] full-width
 Strongarm
 
-[MachineSlowbrosFishingDeckName]
-Slowbro Fishing
+[MachineSlowbrosFishingDeckName] full-width
+Fishing
 
-[MachineDirectHitDeckName]
+[MachineDirectHitDeckName] full-width
 Direct Hit
 
-[MachineBadDreamDeckName]
+[MachineBadDreamDeckName] full-width
 Bad Dream
 
-[MachineBenchPanicDeckName]
-Bench Panic!
+[MachineBenchPanicDeckName] full-width
+Bench Riot
 
-[MachineSnorlaxGuardDeckName]
-Snorlax Blockade
+[MachineSnorlaxGuardDeckName] full-width
+Roadblock
 
-[MachineEyeOfTheStormDeckName]
-Typhoon Eye
+[MachineEyeOfTheStormDeckName] full-width
+Storm Eye
 
-[MachineSuddenGrowthDeckName]
-Growth Spurt
+[MachineSuddenGrowthDeckName] full-width
+Growing Up
 
-[MachineKingDragoniteDeckName]
-King Dragonite
+[MachineKingDragoniteDeckName] full-width
+Dragonite
 
-[MachineDarkCharizardDeckName]
-Dark Charizard!
+[MachineDarkCharizardDeckName] full-width
+Dark Blaze
 
-[MachineDarkBlastoiseDeckName]
-Dark Blastoise!
+[MachineDarkBlastoiseDeckName] full-width
+Dark Shell
 
-[MachineDarkVenusaurDeckName]
-Dark Venusaur!
+[MachineDarkVenusaurDeckName] full-width
+Dark Bloom
 
-[MachineDarkDragoniteDeckName]
-Dark Dragonite!
+[MachineDarkDragoniteDeckName] full-width
+Dark Wings
 
-[MachinePerfectHealthDeckName]
-Perfect Health
+[MachinePerfectHealthDeckName] full-width
+Healthy!
 
-[MachineSuperSoakerDeckName]
-Super Water Gun
+[MachineSuperSoakerDeckName] full-width
+Water Gun!
 
-[MachineHellsDemonDeckName]
-Demon Below
+[MachineHellsDemonDeckName] full-width
+Underworld
 
-[MachinePremiumThunderDeckName]
-Premium Thunder
+[MachinePremiumThunderDeckName] full-width
+Prime Bolt
 
-[MachineMysteriousMewtwoDeckName]
-Mystery Mewtwo
+[MachineMysteriousMewtwoDeckName] full-width
+Mewtwo?
 
-[MachineHeavenlyLugiaDeckName]
-Lugia of the Sky
+[MachineHeavenlyLugiaDeckName] full-width
+Sky Lugia
 
-[MachineBrutalTrainersDeckName]
-Vicious Trainers
+[MachineBrutalTrainersDeckName] full-width
+Foul Play
 
-[MachineDreadfulParalysisDeckName]
-Dreadful Paralysis
+[MachineDreadfulParalysisDeckName] full-width
+Paralysis
 
 [MachineInsectCollectionDeckDescriptionText]
 Lots and lots of Insect Pokémon!

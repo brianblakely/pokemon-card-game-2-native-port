@@ -332,20 +332,18 @@ being a cool man?
 [Text10fc] full-width
 That's <RAMNAME>
 for you--the one
-who beat the
-Grand Masters!
-Now, here's the
-deck I promised:
-the "Defeat GR-1!"
-deck! It's sure to
-come in handy in
-your duel against
-GR-1!
+who beat the Grand
+Masters! Now,
+here's the deck
+I promised: the
+"Beat GR-1!" deck!
+It's sure to come
+in handy in your
+duel against GR-1!
 
 [Text10fd] full-width
 <RAMNAME> got the
-"Defeat GR-1!"
-deck!
+"Beat GR-1!" deck!
 
 [Text10fe] full-width
 What's this?

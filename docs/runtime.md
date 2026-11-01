@@ -239,7 +239,11 @@ switches language, `tcg2_locale::localize` builds the ROM image:
    from the code that prints each text: `src/tests/measured.txt`, with a
    group for texts that share a size) and check that every text that fits
    is full-width, flowed into lines of its box (a card's type in brackets
-   keeps a line of its own), and that the rest are not. A text printed
+   keeps a line of its own), and that the rest are not. A name the game
+   copies into the save (a deck it gives the player or the Auto Deck
+   Machine builds, a Card Pop! partner) keeps two bytes a letter and only
+   full-width letters survive the copy, so it must be full-width and short
+   enough: 10 letters for a deck, 6 for a partner. A text printed
    nowhere the tests know (a name the code puts into another text) stays
    half-width; one can be made full-width by hand within the Japanese
    text's own lines. So does a text that puts another into itself

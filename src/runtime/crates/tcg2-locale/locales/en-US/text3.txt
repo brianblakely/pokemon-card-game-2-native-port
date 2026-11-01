@@ -594,7 +594,7 @@ Finish Them Off!
 3 Years on a Rock
 
 [WhirlpoolShowerDeckName]
-Whirlpool Shower
+Whirlpool
 
 [TestYourLuckDeckName]
 Luck Test
@@ -612,7 +612,7 @@ Vanished
 Riverside Walk
 
 [CompleteCombustionDeckName]
-Total Combustion
+Total Burn
 
 [YouCanDoItMachopDeckName]
 Go for It, Machop!
@@ -638,11 +638,11 @@ Prehistoric
 [InsectCollectionDeckName]
 Bug Collecting
 
-[StarterDeckName]
+[StarterDeckName] full-width
 Starter
 
-[VengefulAntiGR3DeckName]
-Revenge on GR-3
+[VengefulAntiGR3DeckName] full-width
+Repay GR-3
 
 [NaturalScienceDeckName]
 Nat. Science
@@ -653,8 +653,8 @@ Bench of Doom
 [EyeOfTheStormDeckName]
 Storm's Eye
 
-[SweatAntiGR1DeckName]
-Defeat GR-1!
+[SweatAntiGR1DeckName] full-width
+Beat GR-1!
 
 [SmashDeckName]
 Smash Them!
@@ -687,10 +687,10 @@ Electric Power!
 Quick Attack
 
 [LegendaryFossilDeckName]
-Legendary Fossil
+Old Legend
 
 [ElectricCurrentShockDeckName]
-Electric Sparks
+Live Wire
 
 [VeryRareCardDeckName]
 Very Rare Cards
@@ -705,10 +705,10 @@ Poison Goop Gas
 Hornets
 
 [BeachDeckName]
-Water's Edge
+Shoreline
 
 [PuppetMasterDeckName]
-Puppet Master
+Puppeteer
 
 [SurvivingWaterDeckName]
 Remaining Water
@@ -726,10 +726,10 @@ Eternal Flame
 Weird
 
 [FlameFestivalDeckName]
-Flame Festival
+Fire Fest
 
-[GiveInAntiGR2DeckName]
-Give Up, GR-2!
+[GiveInAntiGR2DeckName] full-width
+Quit, GR-2
 
 [SplashingAboutDeckName]
 Water Play
@@ -758,8 +758,8 @@ Ghost
 [GoArcanineDeckName]
 Go, Arcanine!
 
-[UnforgivingAntiGR4DeckName]
-No Mercy for GR-4
+[UnforgivingAntiGR4DeckName] full-width
+Crush GR-4
 
 [HandedOverGRDeckName]
 GR's Gift
@@ -795,7 +795,7 @@ Imakuni?
 Water Stream
 
 [WaterLegendDeckName]
-Water Legend
+Sea Legend
 
 [DuelistAmyName]
 Amy
@@ -819,7 +819,7 @@ Jack
 Kanoko
 
 [SnorlaxGuardDeckName]
-Snorlax Blockade
+Roadblock
 
 [DuelistKamiyaName]
 Kamiya
@@ -879,7 +879,7 @@ Psychokinesis
 Samejima
 
 [AwesomeFossilDeckName]
-Cool Fossils
+Cool Bones
 
 [DuelistShokoName]
 Shoko
@@ -942,7 +942,7 @@ Toshiron
 Tobichan
 
 [TripleZapdosDeckName]
-Triple Zapdos
+Zapdos x3
 
 [TrainerImprisonDeckName]
 Trainer Lockdown
@@ -960,7 +960,7 @@ Training 3
 Raging Iron Fist
 
 [SteadyIncreaseDeckName]
-Keep Multiplying
+Multiply!
 
 [DuelistKnightName]
 Knight
@@ -972,7 +972,7 @@ Jessica
 Nishijima
 
 [NewMachokeDeckName]
-New Machoke
+Machoke II
 
 [DuelistRyanName]
 Ryan
@@ -1145,7 +1145,7 @@ Rook
 [DuelistRuiName]
 Rui
 
-[PracticeDeckName]
+[PracticeDeckName] full-width
 Practice
 
 [DuelistRennaName]
@@ -1155,7 +1155,7 @@ Renna
 Rolling Stone
 
 [RockBlastDeckName]
-Rock Blast!
+Rock Blast
 
 [DuelistAdamName]
 Adam

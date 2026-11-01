@@ -255,18 +255,17 @@ you against GR-3!
 
 [Text0837] full-width
 <RAMNAME> received
-the "Revenge on
-GR-3" deck!
+the "Repay GR-3"
+deck!
 
 [Text0838] full-width
 Oh, I'd give you
 the deck, but you
 can't seem to
-carry any more.
-So I'll give you
-the 60 cards of
-the "Revenge on
-GR-3" deck!
+carry any more. So
+I'll give you the
+60 cards of the
+"Repay GR-3" deck!
 
 [Text0839] full-width
 <RAMNAME> received 60

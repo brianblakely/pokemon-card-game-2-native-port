@@ -118,8 +118,9 @@ fn translations_fit_their_boxes() {
 }
 
 /// Full-width wherever it fits (`tests/layout.rs`): each full-width text
-/// fits where the game prints it, and each half-width text the game prints
-/// where it would fit full-width is full-width. With `TCG2_BLESS=1`, the
+/// fits where the game prints it, each half-width text the game prints
+/// where it would fit full-width is full-width, and so is each name the game
+/// copies into the save. With `TCG2_BLESS=1`, the
 /// translation files are rewritten to that layout instead.
 #[test]
 fn full_width_wherever_it_fits() {
@@ -211,6 +212,14 @@ fn full_width_wherever_it_fits() {
                             .entry(entry.file)
                             .or_default()
                             .insert(entry.label.as_str(), wanted);
+                    } else if found
+                        .iter()
+                        .any(|p| matches!(p, layout::Place::Saved { .. }))
+                    {
+                        problems.push(format!(
+                            "{at}: copied into the save, which keeps only full-width letters, \
+                             but too long for full-width ({found:?})"
+                        ));
                     }
                 }
             }

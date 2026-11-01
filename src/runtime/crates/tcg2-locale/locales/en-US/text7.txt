@@ -568,18 +568,16 @@ GR-4.
 
 [Text0bc1] full-width
 <RAMNAME> got the
-deck "No Mercy for
-GR-4"!
+deck "Crush GR-4"!
 
 [Text0bc2] full-width
 Hm? Your deck
 slots are full.
 So you can't carry
 it, huh? Yeah,
-I'll give you
-just the 60 cards
-from "No Mercy for
-GR-4".
+I'll give you just
+the 60 cards from
+"Crush GR-4".
 
 [Text0bc3] full-width
 <RAMNAME> got 60

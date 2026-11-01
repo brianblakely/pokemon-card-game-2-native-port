@@ -178,6 +178,9 @@ limits that matter most:
   two English letters per Japanese character, or one in full-width text.
 - **Card names** stay within 20 characters (24 for Trainers and Energy): lists
   pad the rest of a row after the name.
+- **Deck names** the game copies into the save (the decks it gives you, the
+  Auto Deck Machine's) are full-width and at most 10 letters, and Card Pop!'s
+  partners at most 6: the copy keeps only full-width letters, two bytes each.
 
 The game draws whatever the engine encodes, so a new language needs only
 its files and a `Language` variant. One that is not written in Latin

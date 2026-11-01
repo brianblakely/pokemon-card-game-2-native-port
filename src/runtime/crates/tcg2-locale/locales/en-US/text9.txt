@@ -1901,16 +1901,16 @@ against GR-2.
 
 [ReceivedGiveInAntiGR2DeckText] full-width
 <RAMNAME> received
-the "Give Up,
-GR-2!" deck!
+the "Quit, GR-2"
+deck!
 
 [NikkiDecksFullGivesCardsInsteadText] full-width
-...It seems you
-can't carry any
-more decks. I'll
-give you the 60
-cards of the "Give
-Up, GR-2!" deck.
+...It seems
+you can't carry
+any more decks.
+I'll give you the
+60 cards of the
+"Quit, GR-2" deck.
 
 [ReceivedCardsForGiveInAntiGR2DeckText] full-width
 <RAMNAME> received 60

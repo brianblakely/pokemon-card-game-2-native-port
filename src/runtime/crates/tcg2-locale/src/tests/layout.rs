@@ -61,6 +61,10 @@ pub enum Place {
     /// An item (or the label) of the menu box numbered `menu`: one line of
     /// `width` tiles.
     Item { width: usize, menu: usize },
+    /// A name the game copies into the save two bytes a letter, which keeps
+    /// only full-width letters (`InitSaveData.PrintName`,
+    /// `ReadCurAutoDeckName`): one full-width line of at most `letters`.
+    Saved { letters: usize },
     /// Anywhere else.
     Unknown,
 }
@@ -243,6 +247,12 @@ fn measured() -> &'static [(String, String, Option<Place>)] {
                 let w: Vec<&str> = l.split_whitespace().collect();
                 if w[2] == "pages" {
                     let place = Place::Pages { then_yes_no: false };
+                    return (w[0].to_string(), w[1].to_string(), Some(place));
+                }
+                if w[2] == "saved" {
+                    let place = Place::Saved {
+                        letters: w[3].parse().unwrap(),
+                    };
                     return (w[0].to_string(), w[1].to_string(), Some(place));
                 }
                 let n = |i: usize| w[i].parse::<usize>().unwrap();
@@ -561,10 +571,11 @@ enum CardField {
 /// - A special rule (`ShowSpecialRuleDescription`): its title at (3, 4) in
 ///   the 20×6 box (16 tiles), its description double-spaced from (1, 8) in
 ///   the 20×12 box (five lines of 18).
-/// - An Auto Deck Machine's deck (`auto_deck`): its description in the
-///   wide box (`wCardConfirmationText`, printed by
-///   `DrawWideTextBox_PrintText` or at (1, 14)). Its name is put into
-///   other texts.
+/// - An Auto Deck Machine's deck (`auto_deck`): its name, which
+///   `ReadCurAutoDeckName` copies into the deck's name field, 20 bytes
+///   before "Deck" at two a letter (10 letters, full-width only); its
+///   description in the wide box (`wCardConfirmationText`, printed by
+///   `DrawWideTextBox_PrintText` or at (1, 14)).
 #[derive(Default)]
 struct DataTables {
     card: Option<(CardField, usize)>,
@@ -628,9 +639,10 @@ impl DataTables {
                 (w[2], Place::Pages { then_yes_no: false }),
                 (w[3], lines(WIDE, 2)),
             ]),
-            "data/auto_deck_machine.asm" if op == "auto_deck" => {
-                Some(vec![(w[2], Place::Unknown), (w[3], lines(WIDE, 2))])
-            }
+            "data/auto_deck_machine.asm" if op == "auto_deck" => Some(vec![
+                (w[2], Place::Saved { letters: 10 }),
+                (w[3], lines(WIDE, 2)),
+            ]),
             _ if routine == "ShowSpecialRuleDescription" && op == "tx" => {
                 Some(vec![(w[1], lines(16, 1)), (w[2], lines(WIDE, 5))])
             }
@@ -1132,12 +1144,16 @@ pub fn full_width_lines(text: &str, places: &[Place]) -> Option<Vec<String>> {
         return fits(&borrowed, places).then_some(lines);
     }
     let width = |s: &str| text::line_widths(s, Width::Full).unwrap()[0] / 2;
-    // A menu's item or label: the line as it is.
-    if places.iter().any(|p| matches!(p, Place::Item { .. })) {
+    // A menu's item or label, or a saved name: the line as it is.
+    if places
+        .iter()
+        .any(|p| matches!(p, Place::Item { .. } | Place::Saved { .. }))
+    {
         let room = places
             .iter()
             .map(|p| match p {
                 Place::Item { width, .. } | Place::Box { width, .. } => *width,
+                Place::Saved { letters } => *letters,
                 Place::Pages { .. } => WIDE,
                 Place::Unknown => 0,
             })
@@ -1301,6 +1317,7 @@ pub fn fits(lines: &[&str], places: &[Place]) -> bool {
             lines: most,
         } => lines.len() <= *most && lines.iter().all(|l| width(l) <= *room),
         Place::Item { width: room, .. } => lines.len() == 1 && width(lines[0]) <= *room,
+        Place::Saved { letters } => lines.len() == 1 && width(lines[0]) <= *letters,
         Place::Unknown => false,
     })
 }
