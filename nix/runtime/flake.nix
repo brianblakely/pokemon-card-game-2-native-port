@@ -1,5 +1,5 @@
 {
-  description = "Pinned runtime tools: Rust, SDL3, RGBDS for the decomp the kernel is translated from, and the release shells";
+  description = "Pinned runtime tools: Rust, SDL3, RGBDS for the decomp the kernel is translated from, the Android SDK, and the release shells";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   # 26.11 removed Intel macOS. Its release host uses the supported 26.05
@@ -39,15 +39,44 @@
               "rustfmt"
               "rust-src"
             ];
-            # Windows is cross-built here; the Apple targets are for
-            # `cargo check` of the macOS code paths (releases build macOS on
-            # macOS).
+            # Windows and Android are cross-built here; the Apple targets are
+            # for `cargo check` of the macOS code paths (releases build macOS
+            # on macOS).
             targets = [
               "x86_64-pc-windows-gnu"
               "aarch64-apple-darwin"
               "x86_64-apple-darwin"
+              "aarch64-linux-android"
+              "x86_64-linux-android"
             ];
           };
+          # The Android SDK is unfree: only the android shell accepts its
+          # license.
+          android = {
+            platform = "36";
+            buildTools = "36.1.0";
+            ndk = "29.0.14206865";
+          };
+          androidSdk =
+            (import packageSet {
+              inherit system;
+              config.allowUnfree = true;
+              config.android_sdk.accept_license = true;
+            }).androidenv.composeAndroidPackages
+              {
+                platformVersions = [ android.platform ];
+                buildToolsVersions = [ android.buildTools ];
+                includeNDK = true;
+                ndkVersions = [ android.ndk ];
+                includeCmake = false;
+                # The release's test device: a headless x86_64 emulator,
+                # which also runs the arm64-v8a library through its ARM
+                # translation.
+                includeEmulator = true;
+                includeSystemImages = true;
+                systemImageTypes = [ "google_apis" ];
+                abiVersions = [ "x86_64" ];
+              };
           rgbds = import ./rgbds.nix { inherit pkgs; };
           # The decomp's own build (src/decomp): the kernel is translated from
           # its matched ROM and symbol file.
@@ -218,6 +247,34 @@
               export TCG2_NIXPKGS_SOURCE=${nixpkgs.outPath}
               export SDL3_LIB_DIR=${windowsSdl}/lib
               export CARGO_TARGET_X86_64_PC_WINDOWS_GNU_RUSTFLAGS="-L native=${pkgs.pkgsCross.mingwW64.windows.pthreads}/lib -L native=${pkgs.pkgsCross.mingwW64.windows.mcfgthreads}/lib -C link-arg=-lmcfgthread"
+            '';
+          };
+        }
+        # Builds the Android APK (tools/release/package.py android): the app
+        # as a library with the NDK (SDL3 compiled from the same source as
+        # the Linux release's), SDL's Java side with the JDK, the package
+        # with the SDK's build tools; and the emulator its test runs it on
+        # (tools/release/smoke.py android). The NDK runs on x86-64 Linux.
+        // pkgs.lib.optionalAttrs (system == "x86_64-linux") {
+          android = pkgs.mkShell {
+            packages =
+              (with pkgs; [
+                rust
+                androidSdk.androidsdk
+                jdk17_headless
+                cmake
+                git
+              ])
+              ++ decompTools;
+            shellHook = ''
+              export PYTHONDONTWRITEBYTECODE=1
+              export SOURCE_DATE_EPOCH=0
+              export ANDROID_HOME=${androidSdk.androidsdk}/libexec/android-sdk
+              export ANDROID_SDK_ROOT=$ANDROID_HOME
+              export ANDROID_NDK_HOME=$ANDROID_HOME/ndk/${android.ndk}
+              export JAVA_HOME=${pkgs.jdk17_headless.home}
+              export TCG2_ANDROID_PLATFORM=${android.platform}
+              export TCG2_ANDROID_BUILD_TOOLS=$ANDROID_HOME/build-tools/${android.buildTools}
             '';
           };
         }

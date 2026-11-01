@@ -136,6 +136,7 @@ def expected(tag):
             "windows-x86_64.zip",
             "macos-x86_64.zip",
             "macos-aarch64.zip",
+            "android.apk",
             "source.tar.gz",
         ]
     } | {"THIRD_PARTY_NOTICES.txt"}

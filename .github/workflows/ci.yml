@@ -28,3 +28,5 @@ jobs:
           nix develop path:./nix/runtime -c ruff check tools
       - name: macOS code paths type-check
         run: nix develop path:./nix/runtime -c bash -c 'cd src/runtime && cargo check --release --locked --target aarch64-apple-darwin -p tcg2-desktop --features sdl3-sys/no-link'
+      - name: Android code paths lint
+        run: nix develop path:./nix/runtime -c bash -c 'cd src/runtime && cargo clippy --release --locked --target aarch64-linux-android -p tcg2-desktop --features sdl3-sys/no-link -- -D warnings'
