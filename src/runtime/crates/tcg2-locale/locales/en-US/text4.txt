@@ -2162,7 +2162,7 @@ Takahiro Harada
 [CreditsDirectorText]
 Director
 
-[CreditsDirectorListText]
+[CreditsDirectorListText] full-width
 Koji Arai
 
 [CreditsStoryText]
@@ -2216,7 +2216,7 @@ Sound Direction
 [CreditsSoundDirectorListText]
 Toshiaki Takimoto
 
-[CreditsMusicText]
+[CreditsMusicText] full-width
 Music
 
 [CreditsMusicListText]
@@ -2367,7 +2367,7 @@ Rich Wilson
 [CreditsAssistanceList5ContText]
 `          Kunihiko`
 
-[CreditsAssistanceList6Text]
+[CreditsAssistanceList6Text] full-width
 Creatures
 
 [CreditsAssistanceList7Text]
