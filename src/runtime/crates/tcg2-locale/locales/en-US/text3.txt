@@ -1206,8 +1206,9 @@ exactly as you're told.
 Let's start over and try that
 again.
 
-[PracticeDuelMasonExplainAgainPromptText]
-Shall I explain it again?
+[PracticeDuelMasonExplainAgainPromptText] full-width
+Shall I explain it
+again?
 
 [PracticeDuelTurn2Instr1Text]
 1. Attach Fighting
@@ -1303,8 +1304,9 @@ check all kinds of information.
 It's important to check your Hand
 and the state of play.
 
-[PracticeDuelKnockedOutMasonIncorrectText]
-Here, you must choose Nidoran♂.
+[PracticeDuelKnockedOutMasonIncorrectText] full-width
+Here, you must
+choose Nidoran♂.
 
 [PracticeDuelTurn5Instr1Text]
 1. Choose Machop from your Hand
@@ -1561,8 +1563,9 @@ Energy cards of mismatched colors
 In "<RAMTEXT>":
 Pokémon Power cards
 
-[DeckDiagnosisCheckAnotherDeckPromptText]
-Shall I check another deck too?
+[DeckDiagnosisCheckAnotherDeckPromptText] full-width
+Shall I check
+another deck too?
 
 [DeckDiagnosisStep1Advice1Description1Text]
 Basic Pokémon cards are the

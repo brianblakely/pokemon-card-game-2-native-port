@@ -4,18 +4,20 @@
 //! gives each text number a 24-bit offset from the table's own bank, and
 //! the game switches to the bank that offset falls in and prints from there
 //! (`GetTextOffsetFromTextID`). The ROM's text is Japanese, drawn one
-//! character per tile. The same text engine also draws half-width text,
-//! two Latin letters per tile from the ROM's own half-width font, as the
+//! character per tile. The same text engine draws Latin letters either way:
+//! full-width, a letter per tile from the ROM's full-width font (as the
+//! name keyboard types them), or half-width, two letters per tile, as the
 //! first game's English release did.
 //!
 //! A language here is a set of translations keyed by the decomp's text
 //! labels (`locales/<tag>/text*.txt`, one file per `src/text/text*.asm`;
-//! the format is described in [`text`]). [`localize`] encodes them as
-//! half-width text into banks $80-$FF of the ROM image, past the player's
-//! 2 MiB but within reach of the game's 8-bit bank switch, and points the
-//! table's entries at them. Code, data and the original text keep every
-//! byte: the kernel, translated from the same program, runs unchanged, and
-//! a text a language leaves out prints as the ROM has it.
+//! the format is described in [`text`]). Each text is full-width where it
+//! fits the space the game prints it in, and half-width elsewhere.
+//! [`localize`] encodes them into banks $80-$FF of the ROM image, past the
+//! player's 2 MiB but within reach of the game's 8-bit bank switch, and
+//! points the table's entries at them. Code, data and the original text
+//! keep every byte: the kernel, translated from the same program, runs
+//! unchanged, and a text a language leaves out prints as the ROM has it.
 //!
 //! Every image holds every language's text and differs only in the table,
 //! so switching language while the game runs is safe: a text being printed
@@ -114,8 +116,9 @@ impl Language {
         }
     }
 
-    /// Full-width characters the game's code writes itself, redrawn for
-    /// the language (`fullwidth.txt`).
+    /// Full-width characters redrawn for the language (`fullwidth.txt`):
+    /// ones the game's code writes itself, and ones its full-width text
+    /// needs that the ROM's font lacks.
     pub fn full_width(self) -> Option<&'static str> {
         match self {
             Language::EnglishUs => Some(include_str!("../locales/en-US/fullwidth.txt")),
@@ -236,8 +239,8 @@ pub fn localize(rom: &[u8], language: Language, symbols: &Symbols) -> Result<Vec
             let ids = table
                 .ids(&entry.label, labels)
                 .map_err(|e| Error(format!("{}: {e}", where_())))?;
-            let bytes =
-                text::encode(&entry.text).map_err(|e| Error(format!("{}: {e}", where_())))?;
+            let bytes = text::encode(&entry.text, entry.width)
+                .map_err(|e| Error(format!("{}: {e}", where_())))?;
             let target = layout.place(&mut image, &bytes)?;
             pointers.extend(ids.iter().map(|&id| (id, target)));
         }
@@ -296,7 +299,8 @@ pub fn localize(rom: &[u8], language: Language, symbols: &Symbols) -> Result<Vec
         };
         let (bank, addr, size) = (symbols.text_data)(name)
             .ok_or_else(|| Error(format!("{where_}: no such text outside the text table")))?;
-        let bytes = text::encode(&entry.text).map_err(|e| Error(format!("{where_}: {e}")))?;
+        let bytes =
+            text::encode(&entry.text, entry.width).map_err(|e| Error(format!("{where_}: {e}")))?;
         let size = size as usize;
         if offset + bytes.len() > size {
             return Err(Error(format!(

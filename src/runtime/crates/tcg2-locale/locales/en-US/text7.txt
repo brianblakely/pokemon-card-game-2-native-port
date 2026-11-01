@@ -1,678 +1,911 @@
 # Pokémon Card GB2 in American English: the texts of
 # src/decomp/src/text/text7.asm, by label (format: src/text.rs).
 
-[Text0b76]
-I see... That's too bad.
+[Text0b76] full-width
+I see... That's
+too bad.
+Later on, I'm
+planning to swap
+out this deck, you
+know. When I do,
+I'd like you to
+duel me.
 
-Later on, I'm planning to
-swap out this deck, you know.
-When I do, I'd like you to duel me.
-
-[Text0b77]
-Thanks to you, I'm completely
-free of the hypnosis.
+[Text0b77] full-width
+Thanks to you, I'm
+completely free
+of the hypnosis.
 Thank you, <RAMNAME>.
-You saved me. Yeah.
-Next time, let's have a fun duel
-with Team GR out of the picture.
+You saved me.
+Yeah. Next time,
+let's have a fun
+duel with Team
+GR out of the
+picture.
 
-[Text0b78]
-Want to duel, <RAMNAME>?
-I'm not the same as before.
-I've switched to a new deck
-that I came up with myself.
-It's an awesome deck, packed
-with my psychic power.
-So, what do you say?
-Will you be my opponent?
+[Text0b78] full-width
+Want to duel,
+<RAMNAME>? I'm
+not the same
+as before. I've
+switched to a new
+deck that I came
+up with myself.
+It's an awesome
+deck, packed with
+my psychic power.
+So, what do you
+say? Will you be
+my opponent?
 
-[Text0b79]
-Will you duel my deck,
-packed with psychic power?
+[Text0b79] full-width
+Will you duel my
+deck, packed with
+psychic power?
 
-[Text0b7a]
-Word that you beat the GR King
-has reached me, too.
-Your skills really are
-something else. Yeah.
-Let's see... How about a duel to
-celebrate your win over Team GR?
+[Text0b7a] full-width
+Word that you beat
+the GR King has
+reached me, too.
+Your skills really
+are something
+else. Yeah. Let's
+see... How about a
+duel to celebrate
+your win over Team
+GR?
 
-[Text0b7b]
-Duels with me are always
-for 6 Prizes.
-Now, it's your psychic power
+[Text0b7b] full-width
+Duels with me
+are always for 6
+Prizes. Now, it's
+your psychic power
 against mine!
 
-[Text0b7c]
+[Text0b7c] full-width
 You won't duel?
 
-Then I'll store up psychic power
-until the day we duel.
+Then I'll store
+up psychic power
+until the day we
+duel.
 
-[Text0b7d]
-Whew... So I lost...
-The hypnosis has worn off.
-I'm counting on you, <RAMNAME>.
-This time, beat GR-4 for sure!
+[Text0b7d] full-width
+Whew... So I
+lost... The
+hypnosis has worn
+off. I'm counting
+on you, <RAMNAME>.
+This time, beat
+GR-4 for sure!
 
-[Text0b7e]
-You... have lost...
+[Text0b7e] full-width
+You... have
+lost...
+Now you will
+stop... defying
+Team GR...
 
-Now you will stop...
-defying Team GR...
+[Text0b7f] full-width
+You beat GR-4,
+who defeated us.
+Your skill is the
+real deal.
 
-[Text0b7f]
-You beat GR-4, who defeated us.
-Your skill is the real deal.
+[Text0b80] full-width
+Yeah, with this
+deck, I'm just
+no match for
+you, <RAMNAME>.
+Could you come
+back sometime?
+I'll have changed
+my deck by then.
+Once I've changed
+my deck, let's
+duel again and
+test our skills.
 
-[Text0b80]
-Yeah, with this deck, I'm just
-no match for you, <RAMNAME>.
-Could you come back sometime?
-I'll have changed my deck by then.
-Once I've changed my deck, let's
-duel again and test our skills.
-
-[Text0b81]
+[Text0b81] full-width
 This time, I win.
-Let's duel again, <RAMNAME>.
+Let's duel again,
+<RAMNAME>.
 
-[Text0b82]
+[Text0b82] full-width
 I lost, huh...
-Yeah, well, I'm satisfied.
+Yeah, well, I'm
+satisfied.
 
-[Text0b83]
-The psychic power hidden in you
-seems stronger than mine.
-I'll power up, too, so I won't
-lose our next duel!
+[Text0b83] full-width
+The psychic power
+hidden in you
+seems stronger
+than mine. I'll
+power up, too, so
+I won't lose our
+next duel!
 
-[Text0b84]
-Looks like my psychic power
+[Text0b84] full-width
+Looks like my
+psychic power
 was stronger.
-I think you should train
-your psychic power, too.
+I think you should
+train your psychic
+power, too.
 
-[Text0b85]
+[Text0b85] full-width
 I am... Robert...
-Formerly... a Psychic Club member.
-Now...
-I belong to Master GR-4...
+Formerly...
+a Psychic Club
+member. Now...
+I belong to Master
+GR-4...
 
-[Text0b86]
-I don't have any cards right now,
+[Text0b86] full-width
+I don't have any
+cards right now,
 so I can't duel.
-When my cards come back,
-you've got to duel me!
+When my cards come
+back, you've got
+to duel me!
 
-[Text0b87]
-Oh! What was I doing?
-
+[Text0b87] full-width
+Oh! What was I
+doing?
 Huh? Is that so?
 Thank you, <RAMNAME>.
 I'm Robert.
-I'm a member of the Psychic Club.
-Thank you so much for
-saving the Psychic Club!
+I'm a member of
+the Psychic Club.
+Thank you so much
+for saving the
+Psychic Club!
 
-[Text0b88]
+[Text0b88] full-width
 Thanks for coming.
-I've got my cards together, too.
-If it's okay, I'd like to
-duel you...?
+I've got my cards
+together, too.
+If it's okay,
+I'd like to duel
+you...?
 
-[Text0b89]
-If you'd like, I'd love
-to have a duel with you.
+[Text0b89] full-width
+If you'd like,
+I'd love to have a
+duel with you.
 
 [Text0b8a]
 Do you want to duel Robert?
 
-[Text0b8b]
-Let's play with 4 Prizes, please.
+[Text0b8b] full-width
+Let's play with 4
+Prizes, please.
 
-[Text0b8c]
-That's too bad, but I'll give up.
-But... please duel me someday.
+[Text0b8c] full-width
+That's too bad,
+but I'll give up.
+But... please duel
+me someday.
 
-[Text0b8d]
-Given your skill, I guess
-it's only natural that I lost.
+[Text0b8d] full-width
+Given your skill,
+I guess it's only
+natural that I
+lost.
 
-[Text0b8e]
-I may not be able to win, but
-please duel me again...
+[Text0b8e] full-width
+I may not be able
+to win, but please
+duel me again...
 
-[Text0b8f]
+[Text0b8f] full-width
 I can't believe
 I beat you...
 
-[Text0b90]
+[Text0b90] full-width
 I am... Daniel...
 
-My heart... and my cards...
-All belong to Master GR-4...
+My heart... and
+my cards... All
+belong to Master
+GR-4...
 
-[Text0b91]
+[Text0b91] full-width
 I'm Daniel!
-A member of the Psychic Club.
-Thanks for breaking Team GR's
-hypnosis, man.
-But to think I forgot Murray,
-the guy I look up to...
-I'm not gonna duel for a while.
-I need to think about what I did...
+A member of the
+Psychic Club.
+Thanks for
+breaking Team GR's
+hypnosis, man. But
+to think I forgot
+Murray, the guy I
+look up to... I'm
+not gonna duel for
+a while. I need to
+think about what I
+did...
 
-[Text0b92]
-Listen to this, <RAMNAME>!
-He forgave me!
-Forgave what? For forgetting
-Murray, the guy I look up to!
-He said it was probably
-Team GR's hypnosis...
-Murray's got such a big heart.
-I really look up to him...
-So anyway, that's the story.
+[Text0b92] full-width
+Listen to this,
+<RAMNAME>! He forgave
+me! Forgave what?
+For forgetting
+Murray, the guy
+I look up to!
+He said it was
+probably Team
+GR's hypnosis...
+Murray's got such
+a big heart. I
+really look up to
+him... So anyway,
+that's the story.
 Let's duel!
 
-[Text0b93]
-I'm gonna build a psychic power
-deck like Murray's.
-To do that, I've gotta duel and
-try out all sorts of stuff.
-I wanna see how my deck runs.
-You'll duel me, right?
+[Text0b93] full-width
+I'm gonna build a
+psychic power deck
+like Murray's.
+To do that, I've
+gotta duel and try
+out all sorts of
+stuff. I wanna see
+how my deck runs.
+You'll duel me,
+right?
 
 [Text0b94]
 Do you want to duel Daniel?
 
-[Text0b95]
-4 Prizes!
-I'm gonna test all kinds of stuff!
+[Text0b95] full-width
+4 Prizes! I'm
+gonna test all
+kinds of stuff!
 
-[Text0b96]
-Well, I don't mind.
+[Text0b96] full-width
+Well, I don't
+mind.
 
-[Text0b97]
-Hmm, so that's how you play it.
+[Text0b97] full-width
+Hmm, so that's how
+you play it.
 
-[Text0b98]
-Thanks.
-I learned a lot.
-Let's duel again sometime!
+[Text0b98] full-width
+Thanks. I learned
+a lot. Let's duel
+again sometime!
 
-[Text0b99]
-If I beat you, maybe I've gotten
-a little closer to Murray.
-Let's duel again sometime!
+[Text0b99] full-width
+If I beat you,
+maybe I've gotten
+a little closer to
+Murray. Let's duel
+again sometime!
 
-[Text0b9a]
+[Text0b9a] full-width
 For Master GR-4...
 I shall fight...
 
 [Text0b9b]
 Do you want to duel Stephanie?
 
-[Text0b9c]
-We play... with 4 Prizes...
+[Text0b9c] full-width
+We play... with 4
+Prizes...
 
-[Text0b9d]
-I wished to fight...
-for Master GR-4...
+[Text0b9d] full-width
+I wished to
+fight... for
+Master GR-4...
 
-[Text0b9e]
+[Text0b9e] full-width
 I am...
-Stephanie of the Psychic Club...
-I am grateful that you broke
+Stephanie of the
+Psychic Club...
+I am grateful
+that you broke
 the hypnosis...
 But if we duel,
-I will not go easy on you...
-For I can see it... You, losing...
-and seething with frustration...
+I will not go
+easy on you... For
+I can see it...
+You, losing...
+and seething with
+frustration...
 
-[Text0b9f]
-As many times as you like...
+[Text0b9f] full-width
+As many times
+as you like...
 I will duel you.
-For I can see it...
-You, losing and crying...
+For I can see
+it... You, losing
+and crying...
 
-[Text0ba0]
-4 Prizes.
-Are you... ready?
+[Text0ba0] full-width
+4 Prizes. Are
+you... ready?
 
-[Text0ba1]
+[Text0ba1] full-width
 Hehehehe...
-You don't want to lose, do you?
-It's all right. Say nothing.
+You don't want
+to lose, do you?
+It's all right.
+Say nothing.
 I already know...
 
-[Text0ba2]
-I am...
-Stephanie of the Psychic Club...
-GR-4... This grudge...
-I will never forget it...
+[Text0ba2] full-width
+I am... Stephanie
+of the Psychic
+Club... GR-4...
+This grudge... I
+will never forget
+it...
 
-[Text0ba3]
-Hehehehe... So you've come.
-It's just as I said, isn't it...
-That you would duel me, once I
-had changed my booster packs...
+[Text0ba3] full-width
+Hehehehe...
+So you've come.
+It's just as I
+said, isn't it...
+That you would
+duel me, once I
+had changed my
+booster packs...
 
-[Text0ba4]
-You need not say it. I know...
-You want to duel me...
+[Text0ba4] full-width
+You need not say
+it. I know... You
+want to duel me...
 
-[Text0ba5]
-4 Prizes...
-Here I come...
+[Text0ba5] full-width
+4 Prizes... Here I
+come...
 
-[Text0ba6]
-Dodging my prophecy is no use.
-You will duel me, without fail...
+[Text0ba6] full-width
+Dodging my
+prophecy is no
+use. You will
+duel me, without
+fail...
 
-[Text0ba7]
+[Text0ba7] full-width
 Master GR-4...
 I have... lost...
 
-[Text0ba8]
+[Text0ba8] full-width
 You are weak...
-You are no match for me...
+You are no match
+for me...
 
-[Text0ba9]
+[Text0ba9] full-width
 I... lost...
-My prophecy was wrong...
+My prophecy was
+wrong...
 
-[Text0baa]
-I misjudged the duel's outcome...
-
-But I can see it...
-You will duel me again...
-When I have new booster packs...
-
-[Text0bab]
-But I can see it...
-You will duel me again...
-Someday...
-When I have new booster packs...
-
-[Text0bac]
-I hadn't predicted
-who would win or lose...
-
-[Text0bad]
-Hehehehe... You will
-come back again...
-For I can see it...
-You, dueling me...
-
-[Text0bae]
-Hehehehe... You will
+[Text0baa] full-width
+I misjudged the
+duel's outcome...
+But I can see
+it... You will
 duel me again...
-So that you can lose...
+When I have new
+booster packs...
+
+[Text0bab] full-width
+But I can see
+it... You will
+duel me again...
+Someday... When I
+have new booster
+packs...
+
+[Text0bac] full-width
+I hadn't predicted
+who would win or
+lose...
+
+[Text0bad] full-width
+Hehehehe...
+You will come back
+again... For I
+can see it... You,
+dueling me...
+
+[Text0bae] full-width
+Hehehehe...
+You will duel me
+again... So that
+you can lose...
 to me once more...
 
-[Text0baf]
-Hey, what's the big idea,
+[Text0baf] full-width
+Hey, what's
+the big idea,
 talking to me?!
-You didn't listen to a word I said.
-Fine, I'll say it one more time!
-If you wanna duel super-strong me,
+You didn't listen
+to a word I said.
+Fine, I'll say
+it one more time!
+If you wanna duel
+super-strong me,
 go fight Murray.
-That's what I said!
-So remember it, 'kay?!
+That's what I
+said! So remember
+it, 'kay?!
 
-[Text0bb0]
-I told you!
-Go duel Murray!
+[Text0bb0] full-width
+I told you! Go
+duel Murray!
 
-[Text0bb1]
-You lost to super-strong me,
-didn't you?
-Unless you beat Murray again,
-I don't wanna duel you.
+[Text0bb1] full-width
+You lost to
+super-strong me,
+didn't you? Unless
+you beat Murray
+again, I don't
+wanna duel you.
 
-[Text0bb2]
-Hmm, so you beat Murray, huh?
-Ugh, fine.
-Super-strong me will
+[Text0bb2] full-width
+Hmm, so you beat
+Murray, huh? Ugh,
+fine. Super-strong
+me will take you
+on.
+
+[Text0bb3] full-width
+What? You still
+don't get it?
+You can't beat me!
+You wanna duel me,
+right?
+
+Ugh, fine. I'll
 take you on.
 
-[Text0bb3]
-What? You still don't get it?
-You can't beat me!
-You wanna duel me, right?
-
-Ugh, fine.
-I'll take you on.
-
-[Text0bb4]
-Hmm, so you can beat Murray.
-
-Fine, I'll take you on.
-A promise is a promise.
+[Text0bb4] full-width
+Hmm, so you can
+beat Murray.
+Fine, I'll take
+you on. A promise
+is a promise.
 
 [Text0bb5]
 Do you want to duel GR-4?
 
-[Text0bb6]
-6 Prizes.
-Hmph, think you can beat me?
+[Text0bb6] full-width
+6 Prizes. Hmph,
+think you can beat
+me?
 
-[Text0bb7]
-6 Prizes.
-Hmph, I'm gonna win again!
+[Text0bb7] full-width
+6 Prizes. Hmph,
+I'm gonna win
+again!
 
-[Text0bb8]
-Hmph, you know you can't beat
-super-strong me, so you're running.
-Fine, then. Big-hearted
-Mi... uh, GR-4 forgives you.
-Go on, run along now!
+[Text0bb8] full-width
+Hmph, you know
+you can't beat
+super-strong me,
+so you're running.
+Fine, then.
+Big-hearted Mi...
+uh, GR-4 forgives
+you. Go on, run
+along now!
 
-[Text0bb9]
-Oh my, you won't duel?
-Well, of course not.
-There's no way you could beat
+[Text0bb9] full-width
+Oh my, you won't
+duel? Well,
+of course not.
+There's no way
+you could beat
 super-strong me.
-Fine, run along now!
+Fine, run along
+now!
 
-[Text0bba]
-Fine, you don't have to fight.
-But then... the club stays as is.
+[Text0bba] full-width
+Fine, you don't
+have to fight.
+But then... the
+club stays as is.
 
-[Text0bbb]
-No way! I lost?!
-I can't believe it!
+[Text0bbb] full-width
+No way! I lost?! I
+can't believe it!
 
-[Text0bbc]
+[Text0bbc] full-width
 Aww... I finally
 ended up losing...
 
-[Text0bbd]
+[Text0bbd] full-width
 See? I told you.
-There's no way you could win.
+There's no way
+you could win.
 'Cause I'm, like,
-super strong!
-Go soak your head in miso soup
-and try agaaain!
-You lost to super-strong me,
-so go fight Murray again.
-Super-strong me won't take you on
+super strong! Go
+soak your head in
+miso soup and try
+agaaain! You lost
+to super-strong
+me, so go fight
+Murray again.
+Super-strong me
+won't take you on
 unless you do!
 
-[Text0bbe]
-With skills like that, you've got
-some nerve defying Team GR.
-Listen! You lost to
-super-strong me again!
-If you want me to take you on,
-go fight Murray and win!
+[Text0bbe] full-width
+With skills like
+that, you've got
+some nerve defying
+Team GR. Listen!
+You lost to
+super-strong me
+again! If you want
+me to take you on,
+go fight Murray
+and win!
 
-[Text0bbf]
-I lost... I...
-...lost to <RAMNAME>...
+[Text0bbf] full-width
+I lost...
+I... ...lost
+to <RAMNAME>...
 Waaaaaaaaaaaaaah!!
 
-[Text0bc0]
-You don't need to say anything.
-It's okay. The hypnosis is gone.
-That's thanks to you beating me.
+[Text0bc0] full-width
+You don't need
+to say anything.
+It's okay. The
+hypnosis is gone.
+That's thanks to
+you beating me.
 Thank you, <RAMNAME>.
-You're going to fight GR-4, right?
-I'll give you a present.
-This deck should come in handy
-for beating GR-4.
+You're going to
+fight GR-4, right?
+I'll give you a
+present. This deck
+should come in
+handy for beating
+GR-4.
 
-[Text0bc1]
-<RAMNAME> got the deck
-"No Mercy for GR-4"!
+[Text0bc1] full-width
+<RAMNAME> got the
+deck "No Mercy for
+GR-4"!
 
-[Text0bc2]
-Hm? Your deck slots are full.
-So you can't carry it, huh?
-Yeah, I'll give you just the 60
-cards from "No Mercy for GR-4".
+[Text0bc2] full-width
+Hm? Your deck
+slots are full.
+So you can't carry
+it, huh? Yeah,
+I'll give you
+just the 60 cards
+from "No Mercy for
+GR-4".
 
-[Text0bc3]
-<RAMNAME> got 60 cards
-for building a deck!
+[Text0bc3] full-width
+<RAMNAME> got 60
+cards for building
+a deck!
 
-[Text0bc4]
-I'll send the "deck configuration"
-to the Auto Deck Machine.
-There's an Auto Deck Machine
-at Mason Laboratory.
-Why not use the Auto Deck
-Machine to build it?
+[Text0bc4] full-width
+I'll send
+the "deck
+configuration"
+to the Auto
+Deck Machine.
+There's an Auto
+Deck Machine at
+Mason Laboratory.
+Why not use the
+Auto Deck Machine
+to build it?
 
-[Text0bc5]
-Please take this coin, too.
+[Text0bc5] full-width
+Please take this
+coin, too.
 
-[Text0bc6]
-Switching coins every duel is
-one way to have fun with them.
-It's a nice change of pace, too.
-
-The hypnosis has worn off for now,
-so I can talk normally...
-But it won't be fully broken
-until GR-4 is defeated.
+[Text0bc6] full-width
+Switching coins
+every duel is
+one way to have
+fun with them.
+It's a nice change
+of pace, too.
+The hypnosis
+has worn off for
+now, so I can
+talk normally...
+But it won't be
+fully broken until
+GR-4 is defeated.
 So hang in there,
 <RAMNAME>!
 
-[Text0bc7]
-I guess flukes happen, huh?
+[Text0bc7] full-width
+I guess flukes
+happen, huh?
+Still, you beat
+super-strong me,
+so here. You can
+have this.
 
-Still, you beat super-strong me,
-so here. You can have this.
+[Text0bc8] full-width
+Huh? The one I'm
+giving you is the
+last piece?
 
-[Text0bc8]
-Huh? The one I'm giving you
-is the last piece?
+[Text0bc9] full-width
+Hey, hey, didja
+know?
+Collect 4 pieces
+of the GR Coin,
+and you're invited
+to GR Island! Once
+you have all 4,
+take the airship
+at the Airport.
+If you make it,
+super-strong me
+will take you on
+for real. Buh-bye!
 
-[Text0bc9]
-Hey, hey, didja know?
+[Text0bca] full-width
+I bet you've heard
+it from the other
+Team GR members...
+Go to the Airport,
+and you can
+take the airship
+to GR Island.
+I'm heading
+home now, too.
+Besides, I wanna
+get this mask off.
+Next time we meet,
+I'll duel you
+with my own deck.
+So be ready!
 
-Collect 4 pieces of the GR Coin,
-and you're invited to GR Island!
-Once you have all 4, take
-the airship at the Airport.
-If you make it, super-strong me
-will take you on for real.
-Buh-bye!
-
-[Text0bca]
-I bet you've heard it from
-the other Team GR members...
-Go to the Airport, and you can
-take the airship to GR Island.
-I'm heading home now, too.
-Besides, I wanna get this mask off.
-Next time we meet, I'll duel you
-with my own deck. So be ready!
-
-[StephanieBeatGR4AtLightningClubFirstText]
-Hehehe... I cannot let you pass.
-Not until you meet Master GR-4.
+[StephanieBeatGR4AtLightningClubFirstText] full-width
+Hehehe... I cannot
+let you pass.
+Not until you
+meet Master GR-4.
 I see it... You...
-heading for the Lightning Club...
+heading for the
+Lightning Club...
 
-[Text0bcc]
-Hmm, what am I gonna do?
-Nobody has any cards!
+[Text0bcc] full-width
+Hmm, what am I
+gonna do? Nobody
+has any cards!
 Hey, do you have
 "Alakazam<Lv>42"?
-If you do, wanna trade?
-I've got a super-rare card.
+If you do, wanna
+trade? I've got a
+super-rare card.
 
-[Text0bcd]
-Wait, are you gonna trade me
+[Text0bcd] full-width
+Wait, are you
+gonna trade me
 "Alakazam<Lv>42"?
-Then I'll trade you my
+Then I'll
+trade you my
 "Kangaskhan<Lv>38"!
 
-[Text0bce]
-You don't wanna trade?
-Oh well, I guess that's that.
-The card I'd trade you is...
-"Kangaskhan<Lv>38", though.
-But if you don't want to, oh well.
+[Text0bce] full-width
+You don't wanna
+trade? Oh well, I
+guess that's that.
+The card I'd
+trade you is...
+"Kangaskhan<Lv>38",
+though. But if you
+don't want to, oh
+well.
 
-If you ever feel like trading,
-talk to me anytime.
+If you ever feel
+like trading, talk
+to me anytime.
 
-[Text0bcf]
+[Text0bcf] full-width
 Nuh-uh! I want
 "Alakazam<Lv>42"!
-I won't trade my "Kangaskhan<Lv>38"
+I won't trade my
+"Kangaskhan<Lv>38"
 for anything else!
 
-[Text0bd0]
-Huh? All your "Alakazam<Lv>42"
+[Text0bd0] full-width
+Huh? All your
+"Alakazam<Lv>42"
 are in your decks.
-If they're in your decks,
-I can't trade for them.
-I mean, they're in your decks
-because you use them, right?
-So let's trade when you
+If they're in your
+decks, I can't
+trade for them.
+I mean, they're in
+your decks because
+you use them,
+right? So let's
+trade when you
 have one to spare.
 
-[Text0bd1]
-Yay! Yay! Yaaay!
-I got "Alakazam<Lv>42"!
+[Text0bd1] full-width
+Yay! Yay! Yaaay! I
+got "Alakazam<Lv>42"!
 
-[Text0bd2]
+[Text0bd2] full-width
 Oh, sorry.
-I'm just so super happy.
-Here's your "Kangaskhan<Lv>38".
+I'm just so super
+happy. Here's your
+"Kangaskhan<Lv>38".
 
-[Text0bd3]
-Thanks a lot
-for trading with me!
+[Text0bd3] full-width
+Thanks a lot for
+trading with me!
 
-[Text0bd4]
+[Text0bd4] full-width
 Damage Swap!
 Confuse Ray!
 "Alakazam<Lv>42" is
-so cool!
-Thanks a lot
-for trading with me.
+so cool! Thanks
+a lot for trading
+with me.
 
-[Text0bd5]
-<RAMNAME>, ever heard of a
-guy called Imakuni?
-He shows up here!
-He's been around for a while...
-But now he's powered up!
-He got bigger... sideways!
-Ugh, he's just the creepiest!
-If you see him, don't talk to him.
-Who knows what he'd do to you!
+[Text0bd5] full-width
+<RAMNAME>, ever heard
+of a guy called
+Imakuni? He shows
+up here! He's
+been around for a
+while... But now
+he's powered up!
+He got bigger...
+sideways! Ugh,
+he's just the
+creepiest! If you
+see him, don't
+talk to him. Who
+knows what he'd do
+to you!
 
-[Text0bd6]
+[Text0bd6] full-width
 Listen to this!!
-See that black thing over there?
-It's that Imakuni? thing...
-And I went and touched it!
-It was all squishy and warm...
-Aaaah! So gross!!
+See that black
+thing over there?
+It's that Imakuni?
+thing... And I
+went and touched
+it! It was all
+squishy and
+warm... Aaaah!
+So gross!!
 
-[Text0bd7]
-What's that kid doing?
-That red cap is so cute.
-I wanna be friends with her.
+[Text0bd7] full-width
+What's that kid
+doing? That red
+cap is so cute.
+I wanna be friends
+with her.
 
-[Text0bd8]
-A Team GR spy was hiding
-in this lounge.
-It must've been that kid.
-The one in the red cap.
-...I've decided!
-I'm going to GR Island!!
-...Once I get better at
-Pokémon cards, that is...
+[Text0bd8] full-width
+A Team GR spy was
+hiding in this
+lounge. It must've
+been that kid.
+The one in the
+red cap. ...I've
+decided! I'm going
+to GR Island!!
+...Once I get
+better at Pokémon
+cards, that is...
 
-[Text0bd9]
-The Team GR spy kid
-is here again...
-What's that kid doing?
-That red cap is so cute.
-I wanna be friends with her.
+[Text0bd9] full-width
+The Team GR
+spy kid is here
+again... What's
+that kid doing?
+That red cap is so
+cute. I wanna be
+friends with her.
 
-[Text0bda]
+[Text0bda] full-width
 Don't talk to me!
 
 I'm a Team GR spy,
 you know!
 
-[Text0bdb]
+[Text0bdb] full-width
 Don't talk to me!
-You're distracting me!
-I'm done being a Team GR spy.
-I came here to make friends.
-Right now, I'm trying to befriend
-the kid by the Psychic symbol!
+You're distracting
+me! I'm done being
+a Team GR spy.
+I came here to
+make friends.
+Right now, I'm
+trying to befriend
+the kid by the
+Psychic symbol!
 
-[Text0bdc]
-Welcome.
-This is the GR Fighting Fort.
-At this time, I'm afraid we cannot
-let you inside the Fort.
-You will need the "GR Water Coin"
-and the "GR Fire Coin".
-If you have both coins,
-we shall gladly let you in.
-The coins are in the GR Water Fort
-and the GR Fire Fort.
-Please obtain the coins
-at those two Forts.
+[Text0bdc] full-width
+Welcome. This is
+the GR Fighting
+Fort. At this
+time, I'm afraid
+we cannot let you
+inside the Fort.
+You will need the
+"GR Water Coin"
+and the "GR Fire
+Coin". If you
+have both coins,
+we shall gladly
+let you in. The
+coins are in the
+GR Water Fort and
+the GR Fire Fort.
+Please obtain the
+coins at those two
+Forts.
 
-[Text0bdd]
-Welcome.
-This is the GR Fighting Fort.
+[Text0bdd] full-width
+Welcome. This is
+the GR Fighting
+Fort.
 
-[Text0bde]
-There's a hollow that would fit
-a coin with a Magmar mark.
+[Text0bde] full-width
+There's a hollow
+that would fit a
+coin with a Magmar
+mark.
 
 [Text0bdf]
 Insert the "GR Fire Coin"?
 
-[Text0be0]
+[Text0be0] full-width
 <RAMNAME> inserted
-the "GR Fire Coin".
+the "GR Fire
+Coin".
 
-[Text0be1]
-The "GR Fire Coin" is set
-into the door.
+[Text0be1] full-width
+The "GR Fire Coin"
+is set into the
+door.
 
-[Text0be2]
-There's a hollow that would fit
-a coin with a Psyduck mark.
+[Text0be2] full-width
+There's a hollow
+that would fit
+a coin with a
+Psyduck mark.
 
 [Text0be3]
 Insert the "GR Water Coin"?
 
-[Text0be4]
+[Text0be4] full-width
 <RAMNAME> inserted
-the "GR Water Coin".
+the "GR Water
+Coin".
 
-[Text0be5]
-The "GR Water Coin" is set
-into the door.
+[Text0be5] full-width
+The "GR Water
+Coin" is set into
+the door.
 
-[Text0be6]
-Welcome.
-This is the GR Fighting Fort.
-The leader of the GR Fighting Fort
-is Master Kamiya.
-Please, go on ahead.
-Master Kamiya awaits you.
+[Text0be6] full-width
+Welcome. This is
+the GR Fighting
+Fort. The leader
+of the GR Fighting
+Fort is Master
+Kamiya. Please, go
+on ahead. Master
+Kamiya awaits you.
 
-[Text0be7]
-Me, the Fighting Club Master,
-caught like this... Pathetic...
+[Text0be7] full-width
+Me, the
+Fighting Club
+Master, caught
+like this...
+Pathetic...
 
 [Text0be8]
 Gwahahahahahahaha!!!
@@ -696,991 +929,1323 @@ the Club Master back there!!
 We fight fair and square,
 <RAMNAME>!!!!
 
-[Text0be9]
-If you would face me,
-take those cards ouuut!!
-"Super Energy Removal" and
-"Energy Removal" are forbidden!
-Come on, come on, come ooon!!
-Come at meeeee!!
+[Text0be9] full-width
+If you would face
+me, take those
+cards ouuut!!
+"Super Energy
+Removal" and
+"Energy Removal"
+are forbidden!
+Come on, come on,
+come ooon!! Come
+at meeeee!!
 
 [Text0bea]
 Do you want to duel Goda?
 
-[Text0beb]
+[Text0beb] full-width
 You know full well
-what I'm about to say!!
-Take out "Super Energy Removal"
-and "Energy Removal"!
-Otherwise,
-there shall be no maaatch!!!
+what I'm about
+to say!! Take
+out "Super Energy
+Removal" and
+"Energy Removal"!
+Otherwise, there
+shall be no
+maaatch!!!
 
-[Text0bec]
-We play for 4 Prizeees!
-Let's go! Let's go! Let's gooo!!!
+[Text0bec] full-width
+We play for 4
+Prizeees! Let's
+go! Let's go!
+Let's gooo!!!
 
-[Text0bed]
-Nnnnnnngh!
-Suit yourseeelf!!
+[Text0bed] full-width
+Nnnnnnngh! Suit
+yourseeelf!!
 
-[Text0bee]
+[Text0bee] full-width
 Gooood, goood!
-You've come agaaain!!!
-Let us fight, <RAMNAME>!!
-
-But first, let me say this.
-Have you taken those cards out?
-I mean "Super Energy Removal"
-and "Energy Removal", of course!
-If you've taken them out,
+You've come
+agaaain!!! Let us
+fight, <RAMNAME>!!
+But first, let me
+say this. Have you
+taken those cards
+out? I mean "Super
+Energy Removal"
+and "Energy
+Removal", of
+course! If you've
+taken them out,
 then we fiiight!!!
 
-[Text0bef]
-Take out "Super Energy Removal"
-and "Energy Removal"!
-They're in your deeeck!!
-Take out both of those cards!!
-Unless you take them out,
-I shall not fiiight!!
+[Text0bef] full-width
+Take out "Super
+Energy Removal"
+and "Energy
+Removal"! They're
+in your deeeck!!
+Take out both
+of those cards!!
+Unless you take
+them out, I shall
+not fiiight!!
 
-[Text0bf0]
-Let's go! Let's go! Let's gooo!
-We play for 4 Prizeees!!!
+[Text0bf0] full-width
+Let's go! Let's
+go! Let's gooo!
+We play for 4
+Prizeees!!!
 
-[Text0bf1]
-Nnnngh!!!
-You won't fight meee?
-Graaaaah!
-I'm so boooored!!!
+[Text0bf1] full-width
+Nnnngh!!! You
+won't fight meee?
+Graaaaah! I'm so
+boooored!!!
 
-[Text0bf2]
+[Text0bf2] full-width
 Gwooooaaah!!
 I loooost!!!
 
-[Text0bf3]
+[Text0bf3] full-width
 Gwahahahahaha!!
-I lost! I lost! I lost indeed!
+I lost! I lost!
+I lost indeed!
 
-[Text0bf4]
+[Text0bf4] full-width
 Victory is always
 at my siiide!!!
 
-[Text0bf5]
-Whoooaaah!!
-I lost agaaain!!
+[Text0bf5] full-width
+Whoooaaah!! I lost
+agaaain!!
 
-[Text0bf6]
+[Text0bf6] full-width
 Gwahahahahaha!!
-That was a fine maaatch!!
+That was a
+fine maaatch!!
 <RAMNAME> is strong!!
 Gwahahahahaha!!!
 
-[Text0bf7]
-Nwoooooaaah!!
-I am victoriooous!!
-Huff, huff, huff, huff...
-...So tired...
+[Text0bf7] full-width
+Nwoooooaaah!! I
+am victoriooous!!
+Huff, huff, huff,
+huff... ...So
+tired...
 
-[Text0bf8]
-I shall now let Club Master Mitch
-out of his caaage!!!
+[Text0bf8] full-width
+I shall now
+let Club Master
+Mitch out of his
+caaage!!!
 
-[Text0bf9]
+[Text0bf9] full-width
 Thank you, <RAMNAME>.
 You saved me.
-To get caught by guys like these...
-I still need more training.
+To get caught by
+guys like these...
+I still need
+more training.
 This is my thanks.
 Take it!
 
-[Text0bfa]
+[Text0bfa] full-width
 I'm going back to
 the Fighting Club.
-I'd like to go with you, but
-I'd only slow you down.
+I'd like to go
+with you, but
+I'd only slow you
+down.
 
-[Text0bfb]
-You're sure about this, Goda?
-Me taking the booster packs?
+[Text0bfb] full-width
+You're sure about
+this, Goda? Me
+taking the booster
+packs?
 
-[Text0bfc]
+[Text0bfc] full-width
 Gwahahahahaha!
 Fine, fine!
-That was the deal, should
-anyone defeat me.
-Take it! Booster pack number 5,
-"Flying Pokémon"!!!
+That was the deal,
+should anyone
+defeat me. Take
+it! Booster pack
+number 5, "Flying
+Pokémon"!!!
 
-[Text0bfd]
-Got it!
-Farewell then, Goda!
+[Text0bfd] full-width
+Got it! Farewell
+then, Goda!
 
-[Text0bfe]
-Mitch is a strong man, too.
-But <RAMNAME> is even stronger.
-<RAMNAME>! Have confidence and
-keep on fightiiing!!
+[Text0bfe] full-width
+Mitch is a strong
+man, too. But
+<RAMNAME> is even
+stronger. <RAMNAME>!
+Have confidence
+and keep on
+fightiiing!!
 
-[Text0bff]
-Heh, I've been waiting for you.
-Hope you're a real challenge.
-Guess I'll introduce myself.
-I'm Grace.
-If you wanna duel me,
-there's a condition.
-We battle with "Fighting"!
-Your Energy: "Fighting" only!
-Got it? Only Fighting Energy.
-That's the deck we battle with.
+[Text0bff] full-width
+Heh, I've been
+waiting for you.
+Hope you're a real
+challenge. Guess
+I'll introduce
+myself. I'm Grace.
+If you wanna
+duel me, there's
+a condition.
+We battle with
+"Fighting"! Your
+Energy: "Fighting"
+only! Got it? Only
+Fighting Energy.
+That's the deck we
+battle with.
 
-[Text0c00]
-We battle with decks whose only
-Energy is Fighting Energy!
-You know I won't battle
-any other way, right?
-So don't you dare tell me
-you're not ready! Let's battle!!
+[Text0c00] full-width
+We battle with
+decks whose only
+Energy is Fighting
+Energy! You know
+I won't battle
+any other way,
+right? So don't
+you dare tell me
+you're not ready!
+Let's battle!!
 
 [Text0c01]
 Do you want to duel Grace?
 
-[Text0c02]
-Hey, what're you doing?!
+[Text0c02] full-width
+Hey, what're you
+doing?!
+You've got
+Energy that isn't
+"Fighting" in
+there! Take out
+all non-Fighting
+Energy and then
+come back!!
 
-You've got Energy that
-isn't "Fighting" in there!
-Take out all non-Fighting Energy
-and then come back!!
+[Text0c03] full-width
+4 Prizes! I'm
+gonna take you
+down!!
 
-[Text0c03]
-4 Prizes!
-I'm gonna take you down!!
+[Text0c04] full-width
+Tch! Scared to
+battle? What a
+pathetic wimp!
+If you don't wanna
+battle, get outta
+here!!
 
-[Text0c04]
-Tch! Scared to battle?
-What a pathetic wimp!
-If you don't wanna battle,
-get outta here!!
+[Text0c05] full-width
+Next time I won't
+lose! We'll battle
+again!!
 
-[Text0c05]
-Next time I won't lose!
-We'll battle again!!
-
-[Text0c06]
-You came all the way here again?!
-You're really something!
-Is your Energy all
+[Text0c06] full-width
+You came all the
+way here again?!
+You're really
+something! Is
+your Energy all
 Fighting Energy?
-If it is, let's battle!
+If it is, let's
+battle!
 
-[Text0c07]
-You! You've got non-Fighting
+[Text0c07] full-width
+You! You've got
+non-Fighting
 Energy in there!
-Go rebuild your deck,
-then get back here!!
+Go rebuild your
+deck, then get
+back here!!
 
-[Text0c08]
-4 Prizes!
-I'll win! I'll win! I'll wiiin!!
+[Text0c08] full-width
+4 Prizes! I'll
+win! I'll win!
+I'll wiiin!!
 
-[Text0c09]
-You came all this way,
-and you won't battle?
-Eh, whatever.
+[Text0c09] full-width
+You came all
+this way, and you
+won't battle? Eh,
+whatever.
 
-[Text0c0a]
-Huh, you're strong, punk!
+[Text0c0a] full-width
+Huh, you're
+strong, punk!
 
-[Text0c0b]
-Strong as I am, winning
-is a given! Ahahahahaha!!
+[Text0c0b] full-width
+Strong as I
+am, winning
+is a given!
+Ahahahahaha!!
 
-[Text0c0c]
+[Text0c0c] full-width
 Ngh... D-dang it!
 I lost!!
 
-[Text0c0d]
-We fought fair and square,
-so I'm not even sore about losing!
+[Text0c0d] full-width
+We fought fair and
+square, so I'm not
+even sore about
+losing!
 
-[Text0c0e]
-The win... is miiine!!!
+[Text0c0e] full-width
+The win... is
+miiine!!!
 
-[Text0c0f]
+[Text0c0f] full-width
 You beat me, so
 here, take this.
 
-[Text0c10]
-There's a card in the treasure box.
+[Text0c10] full-width
+There's a card in
+the treasure box.
 Take it, <RAMNAME>.
-I hate to say it, but
-you're the one who deserves it.
+I hate to say it,
+but you're the one
+who deserves it.
 
-[Text0c11]
-So you've come, <RAMNAME>!
-I've been waiting for you.
-I am Kamiya, leader of
-the GR Fighting Fort!
-I'd like to fight you right away,
-but first, I'll test your skills!!
+[Text0c11] full-width
+So you've come,
+<RAMNAME>! I've been
+waiting for you.
+I am Kamiya,
+leader of the GR
+Fighting Fort!
+I'd like to fight
+you right away,
+but first, I'll
+test your skills!!
 My disciple, Goda!
 
-[Text0c12]
+[Text0c12] full-width
 I am Godaaa!!
 
-[Text0c13]
+[Text0c13] full-width
 Grace.
 
-[Text0c14]
+[Text0c14] full-width
 I'm Grace!
 
-[Text0c15]
-Fight these two and win!
+[Text0c15] full-width
+Fight these
+two and win!
 However...
 
-[Text0c16]
-You can't fight them unless you
-go deep into the dungeon.
-If you can beat them both,
-I'll take you on.
-And if you beat me, I'll give
-you the "GR Fighting Coin".
-With the "GR Fighting Coin",
-you can open the door behind me.
-Then you'll be one step closer
-to the GR Castle.
-Now, enter the dungeon
-and go fight those two!
+[Text0c16] full-width
+You can't fight
+them unless you
+go deep into the
+dungeon. If you
+can beat them
+both, I'll take
+you on. And if
+you beat me, I'll
+give you the "GR
+Fighting Coin".
+With the "GR
+Fighting Coin",
+you can open the
+door behind me.
+Then you'll be one
+step closer to the
+GR Castle. Now,
+enter the dungeon
+and go fight those
+two!
 
-[Text0c17]
-I told you at the start.
-I won't fight until you beat both.
-Now hurry up, go fight them
-and win!
+[Text0c17] full-width
+I told you at the
+start. I won't
+fight until you
+beat both. Now
+hurry up, go fight
+them and win!
 
-[Text0c18]
-Defeating both Goda and Grace...
-Impressive, <RAMNAME>.
-As promised, I will duel you!
-But let me tell you one thing.
-This place is overflowing
-with my very own Fighting power!
-So it won't matter if you have
-Resistance to Fighting Pokémon!
-Fighting Pokémon's attacks won't
-get the -30 from Resistance!
-Resistance means nothing at all!
+[Text0c18] full-width
+Defeating both
+Goda and Grace...
+Impressive,
+<RAMNAME>. As
+promised, I will
+duel you! But let
+me tell you one
+thing. This place
+is overflowing
+with my very own
+Fighting power!
+So it won't
+matter if you have
+Resistance to
+Fighting Pokémon!
+Fighting Pokémon's
+attacks won't
+get the -30
+from Resistance!
+Resistance means
+nothing at all!
 
-Well?
-Will you still fight me?
+Well? Will you
+still fight me?
 
-[Text0c19]
-You'll fight me here, in this place
-filled with my Fighting power?
-Resistance to Fighting Pokémon
-means nothing here!
-If you still challenge me,
-I'll take you on!
+[Text0c19] full-width
+You'll fight me
+here, in this
+place filled with
+my Fighting power?
+Resistance to
+Fighting Pokémon
+means nothing
+here! If you still
+challenge me, I'll
+take you on!
 
 [Text0c1a]
 Do you want to duel Kamiya?
 
-[Text0c1b]
+[Text0c1b] full-width
 It's 6 Prizes.
-I'll show you my Fighting power!
+I'll show you my
+Fighting power!
 
-[Text0c1c]
-Have you been cowed by
-my Fighting power?!
-Those who lack courage, begone!
+[Text0c1c] full-width
+Have you been
+cowed by my
+Fighting power?!
+Those who lack
+courage, begone!
 
-[Text0c1d]
-After losing to you, I powered up
+[Text0c1d] full-width
+After losing to
+you, I powered up
 my Fighting power!
-Will you fight here, where my
-Fighting power fills the air?
-Resistance to Fighting Pokémon
-means nothing here!
-Will you still fight me,
+Will you fight
+here, where my
+Fighting power
+fills the air?
+Resistance to
+Fighting Pokémon
+means nothing
+here! Will you
+still fight me,
 <RAMNAME>?
 
-[Text0c1e]
+[Text0c1e] full-width
 6 Prizes!
 
-I'll show you my powered-up
+I'll show you
+my powered-up
 Fighting power!!
 
-[Text0c1f]
-I knew it... You can sense it.
-The might of my Fighting power.
-You should power up, too, and
-come back to duel me.
-I'll power up even more
-and be waiting!
+[Text0c1f] full-width
+I knew it...
+You can sense it.
+The might of my
+Fighting power.
+You should power
+up, too, and come
+back to duel me.
+I'll power up
+even more and be
+waiting!
 
-[Text0c20]
-So my Fighting power has lost...
+[Text0c20] full-width
+So my Fighting
+power has lost...
 
-[Text0c21]
-How's that? My Fighting power!
-I won't let you win so easily!!
+[Text0c21] full-width
+How's that?
+My Fighting power!
+I won't let you
+win so easily!!
 
-[Text0c22]
+[Text0c22] full-width
 My Fighting power,
-defeated yet again!
+defeated yet
+again!
 
-[Text0c23]
-However many times it takes, I'll
-power up my Fighting power!
+[Text0c23] full-width
+However many
+times it takes,
+I'll power up my
+Fighting power!
 
-[Text0c24]
-As expected, I won...
+[Text0c24] full-width
+As expected, I
+won...
+My Fighting power
+will grow stronger
+still. <RAMNAME>,
+you too must duel
+again and again
+and grow strong!!
 
-My Fighting power will
-grow stronger still.
-<RAMNAME>, you too must duel
-again and again and grow strong!!
+[Text0c25] full-width
+You broke my
+Fighting power.
+You have power
+worthy of holding
+the "GR Fighting
+Coin". Now,
+<RAMNAME>, take
+the "GR Fighting
+Coin".
 
-[Text0c25]
-You broke my Fighting power.
-
-You have power worthy of holding
-the "GR Fighting Coin".
-Now, <RAMNAME>,
-take the "GR Fighting Coin".
-
-[Text0c26]
+[Text0c26] full-width
 I will step aside.
-Open the door and go on ahead.
-Team GR's Psychic and Colorless
-members are waiting for you!
+Open the door and
+go on ahead. Team
+GR's Psychic and
+Colorless members
+are waiting for
+you!
 
-[Text0c27]
-There's a hollow that would fit
-a coin with a Machamp mark.
+[Text0c27] full-width
+There's a hollow
+that would fit
+a coin with a
+Machamp mark.
 
 [Text0c28]
 Insert the "GR Fighting Coin"?
 
-[Text0c29]
-<RAMNAME>, I want to thank you.
-Come over here.
+[Text0c29] full-width
+<RAMNAME>, I want to
+thank you. Come
+over here.
 
-[Text0c2a]
-You saved us! The Fire Club!
-Thank you so much!!
-It's not much, but please
-accept this "Fire Coin".
+[Text0c2a] full-width
+You saved us! The
+Fire Club! Thank
+you so much!!
+It's not much, but
+please accept this
+"Fire Coin".
 
-[Text0c2b]
-Now go, use the "Fire Coin",
-and duel with burning passion!
+[Text0c2b] full-width
+Now go, use the
+"Fire Coin", and
+duel with burning
+passion!
 
-[Text0c2c]
-I'm Ken,
-the Fire Club Master.
-I let my guard down, lost to
-Team GR, and got locked up.
-The only one who can open this
-is GR-3.
-Please beat GR-3
-and rescue us.
-And the only one who can
-do that is you.
+[Text0c2c] full-width
+I'm Ken, the Fire
+Club Master. I
+let my guard down,
+lost to Team GR,
+and got locked up.
+The only one who
+can open this is
+GR-3. Please beat
+GR-3 and rescue
+us. And the only
+one who can do
+that is you.
 
-[Text0c2d]
+[Text0c2d] full-width
 So, you beat GR-3
 at the Water Club.
-GR-3 was fuming about it.
-He's waiting for you in the back.
-You can win!
-I'm counting on you, <RAMNAME>!!
+GR-3 was fuming
+about it. He's
+waiting for you in
+the back. You can
+win! I'm counting
+on you, <RAMNAME>!!
 
-[Text0c2e]
+[Text0c2e] full-width
 GR-3 has gone to
 the Water Club.
-If you can, please help
-the Water Club, too.
+If you can, please
+help the Water
+Club, too.
 
-[Text0c2f]
+[Text0c2f] full-width
 I know you'll win!
 Good luck!
 
-[Text0c30]
-Looks like Team GR is still around.
-Be careful, and hurry on ahead!
+[Text0c30] full-width
+Looks like Team GR
+is still around.
+Be careful, and
+hurry on ahead!
 
-[Text0c31]
-I have no cards, so I can't
-do anything right now.
-But I'm rooting for you.
-Give it your all, <RAMNAME>!!
+[Text0c31] full-width
+I have no cards,
+so I can't do
+anything right
+now. But I'm
+rooting for you.
+Give it your all,
+<RAMNAME>!!
 
-[Text0c32]
-I've gathered my cards.
-I've built a new deck, too.
-At last, our fiery match
-is about to begin!
+[Text0c32] full-width
+I've gathered my
+cards. I've built
+a new deck, too.
+At last, our fiery
+match is about to
+begin!
 
-[Text0c33]
+[Text0c33] full-width
 Welcome, <RAMNAME>.
 
-Let's begin a fiery match,
-you and me!
+Let's begin a
+fiery match, you
+and me!
 
 [Text0c34]
 Do you want to duel Ken?
 
-[Text0c35]
+[Text0c35] full-width
 It's 6 Prizes.
-Now, let the fiery match begin!
+Now, let the fiery
+match begin!
 
-[Text0c36]
-If you're not in the mood,
-it won't be a fiery match.
-When you want a fiery match,
-come and see me.
+[Text0c36] full-width
+If you're not in
+the mood, it won't
+be a fiery match.
+When you want a
+fiery match, come
+and see me.
 
-[Text0c37]
-I've been waiting for you to come.
-I wanted to help, even a little,
-so I changed my booster packs.
-Win our match, and they're yours!
-<RAMNAME>, win them from me
-in a fiery match!
+[Text0c37] full-width
+I've been waiting
+for you to come.
+I wanted to help,
+even a little,
+so I changed my
+booster packs.
+Win our match,
+and they're yours!
+<RAMNAME>, win them
+from me in a fiery
+match!
 
-[Text0c38]
+[Text0c38] full-width
 Welcome, <RAMNAME>.
 
-Let's begin
-a fiery match!
+Let's begin a
+fiery match!
 
-[Text0c39]
-Too bad, when I'm all fired up.
-What should I do with this passion?
-Yeah! I'll keep it burning
-for our next match.
+[Text0c39] full-width
+Too bad, when
+I'm all fired up.
+What should I do
+with this passion?
+Yeah! I'll keep
+it burning for our
+next match.
 
-[Text0c3a]
-Your blazing heart seems to have
-set even Team GR on fire.
-Now, let's have a match!
-Let's burn together, <RAMNAME>!
+[Text0c3a] full-width
+Your blazing
+heart seems to
+have set even
+Team GR on fire.
+Now, let's have a
+match! Let's burn
+together, <RAMNAME>!
 
-[Text0c3b]
-Yeah, that was a fiery match.
+[Text0c3b] full-width
+Yeah, that was a
+fiery match.
 
-[Text0c3c]
-Pass that fire of yours on
-to Team GR, too.
-Then I think they'll
-realize their mistake...
-That Pokémon cards are
-meant to be enjoyed.
+[Text0c3c] full-width
+Pass that fire
+of yours on to
+Team GR, too.
+Then I think
+they'll realize
+their mistake...
+That Pokémon cards
+are meant to be
+enjoyed.
 
-[Text0c3d]
-You won't beat Team GR
-with that little heat.
-Burn hotter and hotter,
+[Text0c3d] full-width
+You won't beat
+Team GR with that
+little heat. Burn
+hotter and hotter,
 and fight!!
 
-[Text0c3e]
-That was a fiery match.
-That's <RAMNAME> for you!
+[Text0c3e] full-width
+That was a fiery
+match. That's
+<RAMNAME> for you!
 
-[Text0c3f]
-Matches with you are always fiery!
+[Text0c3f] full-width
+Matches with you
+are always fiery!
 I'm satisfied.
 
-[Text0c40]
-Just burning isn't enough.
-You have to set your soul on fire!
+[Text0c40] full-width
+Just burning isn't
+enough. You have
+to set your soul
+on fire!
 
-[Text0c41]
-The red-hot man of the Fire Club!
+[Text0c41] full-width
+The red-hot man
+of the Fire Club!
 That's me, John!
-...But I've been caught, so
-I'm not burning right now...
+...But I've been
+caught, so I'm
+not burning right
+now...
 
-[Text0c42]
-The red-hot man of the Fire Club!
+[Text0c42] full-width
+The red-hot man
+of the Fire Club!
 That's me, John!
 Get fired up and
 take down GR-3!
 
-[Text0c43]
-Watching you battle
-got me all fired up!
-I wanna duel already!
+[Text0c43] full-width
+Watching you
+battle got me all
+fired up! I wanna
+duel already!
 
-[Text0c44]
-Team GR! What're you gonna do
-about this burning feeling?!
-Argh! I wanna duel!!
-Give back my cards!!
+[Text0c44] full-width
+Team GR! What're
+you gonna do
+about this burning
+feeling?! Argh! I
+wanna duel!! Give
+back my cards!!
 
-[Text0c45]
-My cards are back, so I built
+[Text0c45] full-width
+My cards are
+back, so I built
 a red-hot deck!
-Now, let's have a red-hot duel!!
+Now, let's have a
+red-hot duel!!
 
-[Text0c46]
-Let's have a red-hot duel!
+[Text0c46] full-width
+Let's have a
+red-hot duel!
 
 [Text0c47]
 Do you want to duel John?
 
-[Text0c48]
-It's a red-hot duel
-with 4 Prizes!!
+[Text0c48] full-width
+It's a red-hot
+duel with 4
+Prizes!!
 
-[Text0c49]
-If you're a man, you gotta duel
-and get all fired up!
+[Text0c49] full-width
+If you're a man,
+you gotta duel and
+get all fired up!
 
-[Text0c4a]
-That was hot! Sooo hot!
-A blazing duel!!
+[Text0c4a] full-width
+That was hot! Sooo
+hot! A blazing
+duel!!
 
-[Text0c4b]
-Use the booster packs I gave you
-to build a red-hot deck!
+[Text0c4b] full-width
+Use the booster
+packs I gave you
+to build a red-hot
+deck!
 
-[Text0c4c]
-Looks like I was more
-fired up than you!
+[Text0c4c] full-width
+Looks like I was
+more fired up than
+you!
 
-[Text0c4d]
-We lost to GR-3, so
-nobody's fired up anymore...
-They took our cards, too,
-so there's nothing we can do.
-Oh, I think GR-3 said he was
-going to the Water Club...
+[Text0c4d] full-width
+We lost to GR-3,
+so nobody's fired
+up anymore... They
+took our cards,
+too, so there's
+nothing we can do.
+Oh, I think GR-3
+said he was going
+to the Water
+Club...
 
-[Text0c4e]
-I heard you got our
-cards back!
-Get fired up for us and
-take down GR-3!
+[Text0c4e] full-width
+I heard you got
+our cards back!
+Get fired up for
+us and take down
+GR-3!
 
-[Text0c4f]
+[Text0c4f] full-width
 GR-3 should be at
-the Water Club by now...
+the Water Club by
+now...
 
-[Text0c50]
-If you beat GR-3, I'm sure
-everyone will burn again.
+[Text0c50] full-width
+If you beat GR-3,
+I'm sure everyone
+will burn again.
 So please, <RAMNAME>,
-you're our only hope!
+you're our only
+hope!
 
-[Text0c51]
-I'm getting fired up! Fired up!
-Sooo totally fired up!
-If only I could duel,
-I'd be even more fired up!
+[Text0c51] full-width
+I'm getting fired
+up! Fired up! Sooo
+totally fired up!
+If only I could
+duel, I'd be even
+more fired up!
 
-[Text0c52]
-<RAMNAME>, are you fired up?
-I'm fired up!
-I mean, Ken gave me
-the cards he had.
-Even though it means he can't duel!
-How could a guy not be fired up?
-Come on,
-let's get fired up in a duel!
+[Text0c52] full-width
+<RAMNAME>, are you
+fired up? I'm
+fired up! I mean,
+Ken gave me the
+cards he had. Even
+though it means
+he can't duel! How
+could a guy not be
+fired up? Come on,
+let's get fired up
+in a duel!
 
-[Text0c53]
-With you, I get fired up!
-Let's get fired up in a duel!
+[Text0c53] full-width
+With you, I get
+fired up! Let's
+get fired up in a
+duel!
 
 [Text0c54]
 Do you want to duel Adam?
 
-[Text0c55]
+[Text0c55] full-width
 4 Prizes, and our
 fiery duel begins!
 
-[Text0c56]
-What, you're not fired up?
-And we can finally duel, too...
+[Text0c56] full-width
+What, you're not
+fired up? And we
+can finally duel,
+too...
 
-[Text0c57]
-With more cards, Ken could
-build a deck, too.
-He'd been worried about it,
-so I'm really happy!
-All right! I'm even more fired up!
-Let's duel, <RAMNAME>!
+[Text0c57] full-width
+With more cards,
+Ken could build
+a deck, too. He'd
+been worried about
+it, so I'm really
+happy! All right!
+I'm even more
+fired up! Let's
+duel, <RAMNAME>!
 
-[Text0c58]
-I burned! I'm all burned out!
+[Text0c58] full-width
+I burned! I'm all
+burned out!
 
-[Text0c59]
-With you, I can always
-have a fiery duel!
+[Text0c59] full-width
+With you, I can
+always have a
+fiery duel!
 
-[Text0c5a]
-Whaaat? <RAMNAME>, I bet
-you're not fired up!
-You've gotta be fired up
+[Text0c5a] full-width
+Whaaat? <RAMNAME>,
+I bet you're not
+fired up! You've
+gotta be fired up
 all the time!
 
-[Text0c5b]
-Caught, but still FIRE!
-I won't give up! FIRE!
-...Not very convincing, huh?
-fire...
+[Text0c5b] full-width
+Caught, but still
+FIRE! I won't give
+up! FIRE! ...Not
+very convincing,
+huh? fire...
 
-[Text0c5c]
-FIRE! I heard you beat GR-3
-at the Water Club!
-Take down GR-3 in the back
-one more time! FIRE!!
+[Text0c5c] full-width
+FIRE! I heard
+you beat GR-3 at
+the Water Club!
+Take down GR-3 in
+the back one more
+time! FIRE!!
 
-[Text0c5d]
+[Text0c5d] full-width
 Take down GR-3!
 <RAMNAME>! FIRE!!
 
-[Text0c5e]
+[Text0c5e] full-width
 Thank you, <RAMNAME>!
 You're truly FIRE!
-Flames really suit you.
-Let's duel someday! FIRE!!
+Flames really suit
+you. Let's duel
+someday! FIRE!!
 
-[Text0c5f]
+[Text0c5f] full-width
 FIRE, FIRE,
 FIIIIIIRE!!
-Let's duel with my hidden deck!
-FIRE!
+Let's duel with my
+hidden deck! FIRE!
 
-[Text0c60]
-You're FIRE!
-I'm FIRE!
-A blazing duel for the two of us!
-FIRE!!
+[Text0c60] full-width
+You're FIRE! I'm
+FIRE! A blazing
+duel for the two
+of us! FIRE!!
 
 [Text0c61]
 Do you want to duel Jonathan?
 
-[Text0c62]
+[Text0c62] full-width
 4 Prizes, and...
 FIRE!!
 
-[Text0c63]
+[Text0c63] full-width
 No FIRE today?
-Then let's FIRE next time!
+Then let's FIRE
+next time!
 
-[Text0c64]
-That was a FIRE duel!
+[Text0c64] full-width
+That was a FIRE
+duel!
 
-[Text0c65]
+[Text0c65] full-width
 Let's duel again.
-The password is FIRE!
+The password is
+FIRE!
 
-[Text0c66]
-That duel wasn't very
-FIRE, was it...
-Let's make our next duel
-FIRE for sure!!
+[Text0c66] full-width
+That duel wasn't
+very FIRE, was
+it... Let's make
+our next duel FIRE
+for sure!!
 
-[Text0c67]
-So you've come, <RAMNAME>!
-I'm plumb tired of waiting!
-At the Water Club, I got careless
+[Text0c67] full-width
+So you've come,
+<RAMNAME>! I'm plumb
+tired of waiting!
+At the Water Club,
+I got careless
 and lost to you.
-And what's worse, I lost the cards
-I'd gone to such trouble to steal!
-To keep from piling up failures,
-I won't lose at the Fire Club!
+And what's worse,
+I lost the cards
+I'd gone to
+such trouble to
+steal! To keep
+from piling up
+failures, I won't
+lose at the Fire
+Club!
 
-[Text0c68]
-I'll neither run nor hide!
-I'll take you on anytime!
+[Text0c68] full-width
+I'll neither
+run nor hide!
+I'll take you on
+anytime!
 
 [Text0c69]
 Do you want to duel GR-3?
 
-[Text0c6a]
-Same as before, we duel
-with 6 Prizes!
-Beat me, and I'll give
-the Fire Club back!
+[Text0c6a] full-width
+Same as before,
+we duel with 6
+Prizes! Beat me,
+and I'll give the
+Fire Club back!
 
-[Text0c6b]
-Unless you beat me, the Fire Club
-stays this way. Fine with you, eh?
+[Text0c6b] full-width
+Unless you beat
+me, the Fire Club
+stays this way.
+Fine with you, eh?
 
-[Text0c6c]
-Nngh, to think I'd lose again...
-You're good, I'll give you that!
-Go on, take the booster packs.
+[Text0c6c] full-width
+Nngh, to think
+I'd lose again...
+You're good, I'll
+give you that!
+Go on, take the
+booster packs.
 
-[Text0c6d]
-Mind you, I didn't change my deck.
-So your Water Club win was a fluke.
-Build up your strength
-and come back again.
+[Text0c6d] full-width
+Mind you, I didn't
+change my deck.
+So your Water Club
+win was a fluke.
+Build up your
+strength and come
+back again.
 
-[Text0c6e]
-You've beaten me twice now.
-I'll give you this.
+[Text0c6e] full-width
+You've beaten me
+twice now. I'll
+give you this.
 
-[Text0c6f]
-Four, I say! Collect
-four "Pieces"!
-Collect four, and you can board
-the airship at the Airport.
-Ride the airship and
-come to GR Island.
+[Text0c6f] full-width
+Four, I say!
+Collect four
+"Pieces"! Collect
+four, and you can
+board the airship
+at the Airport.
+Ride the airship
+and come to GR
+Island.
 
-[Text0c70]
-Ho ho, so you've gathered
-all four pieces.
-Head to the Airport.
-You can board the airship now.
-I'm going back to GR Island.
-You should come, too.
+[Text0c70] full-width
+Ho ho, so you've
+gathered all
+four pieces. Head
+to the Airport.
+You can board the
+airship now. I'm
+going back to GR
+Island. You should
+come, too.
 
-[Text0c71]
-A promise is a promise.
-I'll give back the Fire Club.
+[Text0c71] full-width
+A promise is a
+promise. I'll
+give back the Fire
+Club.
 
-[Text0c72]
+[Text0c72] full-width
 Kaaaaaaaah!!!!
 
-[Text0c73]
-I'll be waiting for you
-on GR Island!
+[Text0c73] full-width
+I'll be waiting
+for you on GR
+Island!
 
-[Text0c74]
+[Text0c74] full-width
 Hey, hey, heeey!
-I'm in a real jam, baby.
-I wanna trade cards, but
-nobody's got any cards.
-It's all Team GR's fault.
+I'm in a real jam,
+baby. I wanna
+trade cards, but
+nobody's got any
+cards. It's all
+Team GR's fault.
 
-What I want is "Flareon<Lv>28",
+What I want is
+"Flareon<Lv>28",
+baby. And for it,
+I'll give you
+a super-rare
+"Meowth<Lv>14", baby.
+
+[Text0c75] full-width
+Hey, hey, heeey!
+Let's trade,
+baby. Gimme
+"Flareon<Lv>28", and
+you get this one
+Team GR couldn't
+find, a super-rare
+"Meowth<Lv>14"! It's
+all yours, baby.
+
+[Text0c76] full-width
+Oh, no! That's
+harsh, baby.
+But it can't be
+helped, baby.
+If you change your
+mind, come trade,
+pretty please,
 baby.
-And for it, I'll give you a
-super-rare "Meowth<Lv>14", baby.
 
-[Text0c75]
+[Text0c77] full-width
 Hey, hey, heeey!
-Let's trade, baby.
-Gimme "Flareon<Lv>28", and you get
-this one Team GR couldn't find,
-a super-rare "Meowth<Lv>14"!
-It's all yours, baby.
+You got no
+"Flareon<Lv>28",
+baby. If you ain't
+got it, we can't
+trade, baby!
 
-[Text0c76]
-Oh, no! That's harsh, baby.
-But it can't be helped, baby.
-If you change your mind,
-come trade, pretty please, baby.
-
-[Text0c77]
+[Text0c78] full-width
 Hey, hey, heeey!
-You got no "Flareon<Lv>28", baby.
-If you ain't got it,
-we can't trade, baby!
-
-[Text0c78]
-Hey, hey, heeey!
-It's in your deck, baby.
-So we can't trade, yeahhh.
+It's in your deck,
+baby. So we can't
+trade, yeahhh.
 Okay? Baby.
 
-[Text0c79]
+[Text0c79] full-width
 Hey, hey, heeey!
-Then it's a trade, baby.
-"Meowth<Lv>14" goes
-to you, baby.
+Then it's a trade,
+baby. "Meowth<Lv>14"
+goes to you, baby.
 
-[Text0c7a]
+[Text0c7a] full-width
 Thank you, baby!
 
-[Text0c7b]
+[Text0c7b] full-width
 Hey, hey, heeey!
-Thanks for "Flareon<Lv>28"!
+Thanks for
+"Flareon<Lv>28"!
 
-[Text0c7c]
-While Team GR's around,
-I can't play with my cards.
+[Text0c7c] full-width
+While Team GR's
+around, I can't
+play with my
+cards.
 
-[Text0c7d]
-Team GR's gone, so I'll play
-with the cards I hid!
+[Text0c7d] full-width
+Team GR's gone, so
+I'll play with the
+cards I hid!
 
-[Text0c7e]
+[Text0c7e] full-width
 I kinda get where
-Team GR is coming from.
-Bu-ut! Taking people's cards
-is going way too far!
+Team GR is coming
+from. Bu-ut!
+Taking people's
+cards is going way
+too far!
 
-[Text0c7f]
-Did you hear? Team GR said they're
-sorry for everything they did.
-If you can't forgive them now,
-that's pretty petty, right?
+[Text0c7f] full-width
+Did you hear?
+Team GR said
+they're sorry for
+everything they
+did. If you can't
+forgive them now,
+that's pretty
+petty, right?
 
-[Text0c80]
-Welcome.
-This is the GR Fire Fort.
-At this time, I'm afraid we cannot
-let you inside the Fort.
-If you have the "GR Lightning Coin",
-we shall gladly let you in.
-Please obtain the coin
-at the GR Lightning Fort.
+[Text0c80] full-width
+Welcome. This is
+the GR Fire Fort.
+At this time, I'm
+afraid we cannot
+let you inside the
+Fort. If you have
+the "GR Lightning
+Coin", we shall
+gladly let you in.
+Please obtain the
+coin at the GR
+Lightning Fort.
 
-[Text0c81]
-Welcome.
-This is the GR Fire Fort.
+[Text0c81] full-width
+Welcome. This is
+the GR Fire Fort.
 
-[Text0c82]
-There's a hollow that would fit
-a coin with a Magnemite mark.
+[Text0c82] full-width
+There's a hollow
+that would fit
+a coin with a
+Magnemite mark.
 
 [Text0c83]
 Insert the "GR Lightning Coin"?
 
-[Text0c84]
-Welcome.
-This is the GR Fire Fort.
-Allow me to explain how
-duels work at the GR Fire Fort.
-The leader of the GR Fire Fort
+[Text0c84] full-width
+Welcome. This
+is the GR Fire
+Fort. Allow me
+to explain how
+duels work at
+the GR Fire Fort.
+The leader of
+the GR Fire Fort
 is Master Hidero.
-To meet him, you must defeat
-three GR Fire Fort members.
-Some of them will only duel
-under certain conditions.
-Now, please proceed ahead
-and enjoy your duels.
+To meet him,
+you must defeat
+three GR Fire Fort
+members. Some of
+them will only
+duel under certain
+conditions. Now,
+please proceed
+ahead and enjoy
+your duels.
 
-[Text0c85]
+[Text0c85] full-width
 I am Hidero,
-leader of the GR Fire Fort.
-I am also a chef.
-I shall cook you... so to speak.
+leader of the GR
+Fire Fort. I am
+also a chef. I
+shall cook you...
+so to speak.
 But before that,
-I'd like you to hear me out.
-We are putting cards into decks
-so that they can be used.
-Merely owning cards is no good.
-It's cruel to leave them unused.
-Only when cards are used in duels
-do they have their true value!
-That is what we believe,
-we of Team Great Rocket.
-And it is the wish of the GR King,
+I'd like you to
+hear me out. We
+are putting cards
+into decks so that
+they can be used.
+Merely owning
+cards is no good.
+It's cruel to
+leave them unused.
+Only when cards
+are used in duels
+do they have
+their true value!
+That is what we
+believe, we of
+Team Great Rocket.
+And it is the wish
+of the GR King,
 Lord Biruritchi.
-I want you to keep this
-firmly in mind.
-That is all I have to say.
-From here on, let our cards talk.
-Now, let me explain the rules
+I want you to
+keep this firmly
+in mind. That is
+all I have to say.
+From here on, let
+our cards talk.
+Now, let me
+explain the rules
 for duels here.
-This place is full of lava.
-It makes Fire Pokémon stronger.
-So "Weakness" won't apply
-to Water Pokémon's attacks!
-You'd best remember that.
-Now, let me cook you up!
+This place is
+full of lava.
+It makes Fire
+Pokémon stronger.
+So "Weakness"
+won't apply to
+Water Pokémon's
+attacks! You'd
+best remember
+that. Now, let me
+cook you up!
 
-[Text0c86]
-Let's talk it out in card duels,
-as many times as it takes!
-If you win, I shall give you
-the "GR Fire Coin" you seek.
-Once more, let me explain
-the rules for duels here.
-This place is full of lava.
-It makes Fire Pokémon stronger.
-So "Weakness" won't apply
-to Water Pokémon's attacks!
-Is your deck ready?
-Now, let me cook you up!
+[Text0c86] full-width
+Let's talk it out
+in card duels,
+as many times as
+it takes! If you
+win, I shall give
+you the "GR Fire
+Coin" you seek.
+Once more, let me
+explain the rules
+for duels here.
+This place is
+full of lava. It
+makes Fire Pokémon
+stronger. So
+"Weakness" won't
+apply to Water
+Pokémon's attacks!
+Is your deck
+ready? Now, let me
+cook you up!
 
 [Text0c87]
 Do you want to duel Hidero?
 
-[Text0c88]
+[Text0c88] full-width
 It's 6 Prizes.
 
-Think about how you'd
-like to be cooked!
+Think about how
+you'd like to be
+cooked!
 
-[Text0c89]
-Did you bring Water Pokémon
-because this is the GR Fire Fort?
-Here, Fire Pokémon's "Weakness"
-won't apply to Water attacks!
-If you're rebuilding your deck,
-you'd better hurry!
+[Text0c89] full-width
+Did you bring
+Water Pokémon
+because this
+is the GR Fire
+Fort? Here,
+Fire Pokémon's
+"Weakness" won't
+apply to Water
+attacks! If you're
+rebuilding your
+deck, you'd better
+hurry!
 
-[Text0c8a]
-When we duel, I can feel your...
+[Text0c8a] full-width
+When we duel, I
+can feel your...
 burning passion.
-Let's talk it out! With our cards!!
+Let's talk it out!
+With our cards!!
 
-This place is full of lava.
-It makes Fire Pokémon stronger.
-So "Weakness" won't apply
-to Water Pokémon's attacks!
-You haven't forgotten, have you?
-If you're ready, let's duel!
+This place is
+full of lava. It
+makes Fire Pokémon
+stronger. So
+"Weakness" won't
+apply to Water
+Pokémon's attacks!
+You haven't
+forgotten, have
+you? If you're
+ready, let's duel!
 
-[Text0c8b]
-6 Prizes!
-Let's enjoy a good duel!
+[Text0c8b] full-width
+6 Prizes! Let's
+enjoy a good duel!
 
-[Text0c8c]
-Then I'll wait for a time
-when we can enjoy a duel.
+[Text0c8c] full-width
+Then I'll wait for
+a time when we can
+enjoy a duel.
 
-[Text0c8d]
-Heh... You were right.
-Using cards is important.
-But what matters most
+[Text0c8d] full-width
+Heh... You were
+right. Using cards
+is important. But
+what matters most
 is having fun.
-Lord Biruritchi said so, too.
-You've opened my eyes as well.
-Now, let's duel!
-For fun, of course!!
+Lord Biruritchi
+said so, too.
+You've opened my
+eyes as well. Now,
+let's duel! For
+fun, of course!!
 
-[Text0c8e]
-Heh... That was fun.
-
-In our duel, your burning passion
+[Text0c8e] full-width
+Heh... That was
+fun.
+In our duel, your
+burning passion
 reached me.
 
-[Text0c8f]
-Not yet! Our cards haven't
-finished talking!
-Come back for another duel!
+[Text0c8f] full-width
+Not yet! Our cards
+haven't finished
+talking! Come back
+for another duel!
 That's a promise!
 
-[Text0c90]
+[Text0c90] full-width
 Well done, <RAMNAME>!
 
-[Text0c91]
-I'm happy we could have such a
-heated talk through our cards.
+[Text0c91] full-width
+I'm happy we could
+have such a heated
+talk through our
+cards.
 
-[Text0c92]
-I'm happier that we got to duel
-than that I beat you.
+[Text0c92] full-width
+I'm happier that
+we got to duel
+than that I beat
+you.
 
-[Text0c93]
-I'd like to see if your passion
-can reach Lord Biruritchi.
-I shall give you
-the "GR Fire Coin".
+[Text0c93] full-width
+I'd like to see
+if your passion
+can reach Lord
+Biruritchi. I
+shall give you the
+"GR Fire Coin".
 
-[Text0c94]
-I'll stay here and watch
-how far you can go...
-Come back now and then,
-and let's enjoy a duel.
+[Text0c94] full-width
+I'll stay here
+and watch how far
+you can go... Come
+back now and then,
+and let's enjoy a
+duel.

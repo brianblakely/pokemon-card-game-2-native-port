@@ -117,7 +117,7 @@ woke up.
 <RAMTEXT>
 can act again.
 
-[BetweenTurnsText]
+[BetweenTurnsText] full-width
 Between Turns.
 
 [UnableToUseItText]
@@ -129,13 +129,13 @@ There are no Energy cards.
 [IsThisOKText]
 Is this OK?
 
-[YesOrNoText]
-`Yes     No`
+[YesOrNoText] full-width
+`Yes No`
 
 [DiscardActionName]
 Discard
 
-[IncompleteText]
+[IncompleteText] full-width
 WIP
 
 [DamageText]
@@ -176,8 +176,9 @@ took <RAMNUM> damage.
 <RAMTEXT>
 took no damage!
 
-[NoSelectableAttacksText]
-There are no attacks to choose.
+[NoSelectableAttacksText] full-width
+There are no
+attacks to choose.
 
 [UnableToRetreatText]
 Unable to retreat!
@@ -199,13 +200,13 @@ this card. It does not count as a
 Knocked Out Pokémon. ("Discard" is
 not a Pokémon Power.)
 
-[WillDrawXPrizesText]
+[WillDrawXPrizesText] full-width
 <RAMNAME> will take
 <RAMNUM> Prize(s).
 
-[DrewXPrizesText]
-<RAMNAME> took
-<RAMNUM> Prize(s).
+[DrewXPrizesText] full-width
+<RAMNAME> took <RAMNUM>
+Prize(s).
 
 [DuelistPlacedACardInArenaText]
 <RAMNAME> sent out
@@ -228,8 +229,9 @@ Bench
 [KnockOutText]
 `Knocked Out             `
 
-[DamageToSelfDueToConfusionText]
-It hurt itself in its confusion!!
+[DamageToSelfDueToConfusionText] full-width
+It hurt itself in
+its confusion!!
 
 [ChooseEnergyCardToRemoveText]
 Choose an Energy card
@@ -261,12 +263,12 @@ Please try again from the start.
 Choose a card
 to check.
 
-[TransmittingDataText]
+[TransmittingDataText] full-width
 Linking...
 
-[OpponentsTurnWaitingMenuHandCheckText]
+[OpponentsTurnWaitingMenuHandCheckText] full-width
 Waiting...
-`    Hand        Check`
+`  Hand  Check`
 
 [SelectingBenchPokemonSubmenuHandCheckBackText]
 Choosing a Benched Pokémon...
@@ -284,11 +286,11 @@ failed to Retreat.
 <RAMTEXT> uses the
 Pokémon Power <RAMTEXT>.
 
-[FinishedTurnWithoutAttackingText]
+[FinishedTurnWithoutAttackingText] full-width
 Finished the turn
 without attacking.
 
-[DuelistsTurnText]
+[DuelistsTurnText] full-width
 Your move, <RAMNAME>
 
 [AttachedEnergyToPokemonText]
@@ -323,8 +325,9 @@ Each player draws 7 cards.
 <RAMNAME>
 draws 7 cards.
 
-[DeckPileCardCountText]
-<RAMNAME> has <RAMNUM> cards in Deck.
+[DeckPileCardCountText] full-width
+<RAMNAME> has <RAMNUM>
+cards in Deck.
 
 [ChooseBasicPokemonToPlaceInArenaText]
 Choose a Basic Pokémon
@@ -342,9 +345,11 @@ Pokémon in their Hand.
 Return cards to
 the Deck and redraw.
 
-[ChooseUpToXBasicPokemonToPlaceOnBenchText]
-You may choose up to <RAMNUM> Basic
-Pokémon to place on the Bench.
+[ChooseUpToXBasicPokemonToPlaceOnBenchText] full-width
+You may choose
+up to <RAMNUM> Basic
+Pokémon to place
+on the Bench.
 
 [ChooseActivePokemonText]
 Choose your Active
@@ -357,13 +362,15 @@ for your Bench.
 [YouDrewText]
 You drew <RAMTEXT>.
 
-[YouCannotSelectThisCardText]
-This card can't be chosen.
+[YouCannotSelectThisCardText] full-width
+This card can't be
+chosen.
 
-[PlacingThePrizesText]
-Placing the Prize cards.
+[PlacingThePrizesText] full-width
+Placing the Prize
+cards.
 
-[EachPlayerPlacePrizesText]
+[EachPlayerPlacePrizesText] full-width
 Each player places
 <RAMNUM> Prize cards.
 
@@ -375,8 +382,9 @@ If heads,
 A coin flip will decide
 who plays first.
 
-[DecisionText]
-Deciding the result...
+[DecisionText] full-width
+Deciding the
+result...
 
 [DuelWasADrawText]
 You tied the duel with <RAMNAME>.
@@ -410,7 +418,7 @@ Yes
 <RAMNAME> took <RAMTEXT>
 from the Prizes.
 
-[TookAllThePrizesText]
+[TookAllThePrizesText] full-width
 <RAMNAME> has taken
 all of the Prizes!
 
@@ -437,20 +445,21 @@ its Pokémon Power can't be used.
 But because of "Stare,"
 its Pokémon Power can't be used.
 
-[MenuUseCheckText]
-`  Use`
-`  Check`
+[MenuUseCheckText] full-width
+` Use`
+` Check`
 
-[MenuPutOutCheckText]
-`  Play`
-`  Check`
+[MenuPutOutCheckText] full-width
+` Play`
+` Check`
 
-[MenuSelectCheckText]
-`  Select`
-`  Check`
+[MenuSelectCheckText] full-width
+` Select`
+` Check`
 
-[DuelistIsThinkingText]
-<RAMNAME> is thinking.
+[DuelistIsThinkingText] full-width
+<RAMNAME> is
+thinking.
 
 [DebugComputerOpponentSelectionText]
 Select CPU opponent
@@ -602,8 +611,9 @@ Please submit the cartridge.
 [NoCardsInHandText]
 No cards in Hand.
 
-[TheDiscardPileHasNoCardsText]
-The Discard Pile has no cards.
+[TheDiscardPileHasNoCardsText] full-width
+The Discard Pile
+has no cards.
 
 [DuelistDiscardPileText]
 Discards: <RAMNAME>
@@ -656,8 +666,9 @@ No cards left in the Deck.
 [NoSpaceOnTheBenchText]
 The Bench is full.
 
-[NoPokemonCapableOfEvolvingText]
-There are no Pokémon to evolve.
+[NoPokemonCapableOfEvolvingText] full-width
+There are no
+Pokémon to evolve.
 
 [CantEvolvePokemonInSameTurnItsPlacedText]
 Can't evolve the turn it's played.
@@ -835,8 +846,9 @@ Can't use this attack.
 [TransmissionErrorSimpleText]
 A transmission error occurred.
 
-[BackUpIsBrokenText]
-The backup data is corrupted.
+[BackUpIsBrokenText] full-width
+The backup data is
+corrupted.
 
 [PrinterNotConnectedErrorText]
 Error <No>0<RAMNUM>
@@ -858,8 +870,9 @@ Printer error.
 Error <No>0<RAMNUM>
 Printer packet error.
 
-[PrintingWasInterruptedText]
-Printing was interrupted.
+[PrintingWasInterruptedText] full-width
+Printing was
+interrupted.
 
 [CardPopUnavailableOnSGBText]
 "Card Pop!" can't be played on

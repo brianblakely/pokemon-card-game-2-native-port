@@ -140,14 +140,19 @@ Press F9 while playing to switch, or set `language` in `settings.ini` (or
   Pokédex entry. Card text follows the English cards of the time, and names
   follow the first game's English release where it had them (Dr. Mason,
   Ronald, Imakuni?).
-- **Two letters to a tile.** The game's text engine draws English in
-  half-width letters, as the first Pokémon Trading Card Game's English
-  release did. The port draws its own, easier-to-read font for them. The
-  engine pads what it fills into a sentence (a card's name, a number) to a
-  whole tile, so after an odd number of letters a narrow extra space can
-  appear.
+- **A letter to a tile where it fits.** Where a text has the room, it is
+  drawn as the Japanese is: a letter to an 8×8 tile, in the ROM's own
+  full-width font. That is all the dialogue, the duel's messages and
+  questions that fit their box, and the menus whose items all fit. English
+  needs about twice the room of Japanese, so card names and rules, lists and
+  most labels are drawn two letters to a tile (half-width), as the first
+  Pokémon Trading Card Game's English release did, in the port's own,
+  easier-to-read font. The engine pads what it fills into a half-width
+  sentence (a card's name, a number) to a whole tile, so after an odd number
+  of letters a narrow extra space can appear.
 - **Your name** is typed on the game's own keyboard: its ABC and abc pages
-  type Latin letters, its other pages kana.
+  type Latin letters, its other pages kana. A typed name is full-width, so it
+  matches the dialogue around it, and so are the default names.
 - **Switching mid-game.** What is on screen stays until the game draws it
   again, and the next text it prints is in the new language. Names the game
   has already stored, such as your decks' names and the Challenge Machine's
@@ -216,8 +221,9 @@ The decomp builds on its own too (`nix develop path:./nix`, then
   new process ends the same as an uninterrupted run.
 - **The translation.** `cargo test -p tcg2-locale` checks that every Japanese
   text of the decomp has an English translation, that the game's font can
-  draw it, and that no line outgrows its text box. The lockstep checks run on
-  the English image.
+  draw it, that no line outgrows its text box, and that each text is
+  full-width exactly where it fits the box the decomp prints it in. The
+  lockstep checks run on the English image.
 
 [docs/development.md](docs/development.md) has the commands.
 

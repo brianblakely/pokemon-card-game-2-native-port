@@ -45,8 +45,9 @@ the Deck and put it on the Bench.
 If heads, put a Mysterious Fossil
 from the Discard Pile into the Hand.
 
-[AttackUnsuccessfulText]
-Attack unsuccessful.
+[AttackUnsuccessfulText] full-width
+Attack
+unsuccessful.
 
 [UnableToRetreatDueToAcidText]
 Can't Retreat due to
@@ -140,8 +141,9 @@ the attack, including damage.
 Unable to use Trainer cards due to
 the effects of Hay Fever.
 
-[PoisonFluidActivatedText]
-Poison Fluid takes effect!
+[PoisonFluidActivatedText] full-width
+Poison Fluid takes
+effect!
 
 [UnableToDrawCardDueToPerplexText]
 Unable to draw a card due to
@@ -187,22 +189,23 @@ resists <RAMTEXT>
 <RAMTEXT> is
 now <RAMTEXT>.
 
-[Draw1CardFromTheDeckText]
-Draw 1 card
-from the Deck.
+[Draw1CardFromTheDeckText] full-width
+Draw 1 card from
+the Deck.
 
-[DrawCardsFromTheDeckText]
+[DrawCardsFromTheDeckText] full-width
 Draw <RAMNUM> card(s)
 from the Deck.
 
-[DrawNoCardsFromTheDeckText]
-No cards drawn from the Deck.
+[DrawNoCardsFromTheDeckText] full-width
+No cards drawn
+from the Deck.
 
-[ChooseBenchedPokemonToGiveDamageText]
-Choose a Benched Pokémon
-to damage.
+[ChooseBenchedPokemonToGiveDamageText] full-width
+Choose a Benched
+Pokémon to damage.
 
-[ChoosePokemonToGiveDamageText]
+[ChoosePokemonToGiveDamageText] full-width
 Choose a Pokémon
 to damage.
 
@@ -230,9 +233,9 @@ to discard.
 Discard 1 card from the opponent's
 Deck per Fire Energy you discard.
 
-[ChooseAndDiscard2EnergyCardsText]
-Choose 2 Energy cards
-to discard.
+[ChooseAndDiscard2EnergyCardsText] full-width
+Choose 2 Energy
+cards to discard.
 
 [ChooseAKrabbyFromDeckText]
 Find a Krabby in the Deck.
@@ -423,8 +426,9 @@ Basic Energy
 Peek was used to look at
 <RAMTEXT> in your Hand.
 
-[CardPeekWasUsedOnText]
-Peek was used here.
+[CardPeekWasUsedOnText] full-width
+Peek was used
+here.
 
 [PokemonAndAllAttachedCardsReturnedToHandText]
 <RAMTEXT> and all attached
@@ -506,7 +510,7 @@ Psychic Energy
 Choose a Psychic
 Energy card.
 
-[CardTrickeryWasUsedOnText]
+[CardTrickeryWasUsedOnText] full-width
 Trickery swapped
 this card.
 
@@ -604,9 +608,9 @@ How many will you draw?
 
 [EffectTargetGeneralUnitText]
 
-[DuelistDrawCardsText]
-<RAMNAME> draws
-<RAMNUM> card(s).
+[DuelistDrawCardsText] full-width
+<RAMNAME> draws <RAMNUM>
+card(s).
 
 [ClefairyDollMindShockName]
 Mind Shock
@@ -738,11 +742,11 @@ to the Deck.
 Choose a Pokémon to
 put into play.
 
-[ChooseBasicPokemonToEvolveText]
-Choose a Basic Pokémon
-to evolve.
+[ChooseBasicPokemonToEvolveText] full-width
+Choose a Basic
+Pokémon to evolve.
 
-[ChoosePokemonToScoopUpText]
+[ChoosePokemonToScoopUpText] full-width
 Choose a Pokémon
 to scoop up.
 
@@ -766,7 +770,7 @@ Pokémon card.
 Rearrange the top 5 cards of
 the Deck in any order.
 
-[PleaseCheckTheOpponentsHandText]
+[PleaseCheckTheOpponentsHandText] full-width
 Look at the
 opponent's Hand.
 
@@ -820,9 +824,9 @@ added to Hand.
 [TheCardYouReceivedText]
 Cards you received
 
-[YouReceivedTheseCardsText]
-You received
-these cards.
+[YouReceivedTheseCardsText] full-width
+You received these
+cards.
 
 [ChooseTheCardToPutBackText]
 Choose a card
@@ -832,24 +836,24 @@ to put back.
 Choose a card
 to discard.
 
-[DiscardedCardsFromDeckText]
-<RAMNAME> discarded <RAMNUM>
-from the Deck.
+[DiscardedCardsFromDeckText] full-width
+<RAMNAME> discarded
+<RAMNUM> from the Deck.
 
 [DiscardedCardFromHandText]
 <RAMTEXT>
 discarded from Hand.
 
-[NoneCameText]
+[NoneCameText] full-width
 No one came out.
 
 [CameToTheBenchText]
 <RAMTEXT>
 is on the Bench!
 
-[DuelistHasNoCardsInHandText]
-<RAMNAME> has
-no cards in hand.
+[DuelistHasNoCardsInHandText] full-width
+<RAMNAME> has no
+cards in hand.
 
 [PokemonHealedDamageText]
 <RAMTEXT>
@@ -859,13 +863,14 @@ healed <RAMNUM> damage!
 <RAMTEXT> devolved
 into <RAMTEXT>.
 
-[ThereWasNoFireEnergyText]
-There was no Fire Energy.
+[ThereWasNoFireEnergyText] full-width
+There was no Fire
+Energy.
 
 [MaySelectMoreCardsButQuitPromptText]
 You can choose <RAMNUM> more. Quit?
 
-[ThereWasNoEffectText]
+[ThereWasNoEffectText] full-width
 No effect.
 
 [ThereWasNoEffectFromToxicText]
@@ -892,8 +897,9 @@ Poison and Paralysis had no effect.
 [ThereWasNoEffectFromPoisonSleepText]
 Poison and Sleep had no effect.
 
-[RearrangedDuelistsDeckText]
-Rearranged the Deck of <RAMNAME>
+[RearrangedDuelistsDeckText] full-width
+Rearranged the
+Deck of <RAMNAME>
 
 [ChooseADarkEvolutionCardText]
 Choose a Dark Pokémon
@@ -963,8 +969,9 @@ from the Deck.
 Choose a
 Myst. Fossil.
 
-[ReturnedXCardsToDeckText]
-<RAMNUM> card(s) to the Deck.
+[ReturnedXCardsToDeckText] full-width
+<RAMNUM> card(s) to the
+Deck.
 
 [ChooseBasicOrEvolutionCardText]
 Choose a Basic
@@ -984,7 +991,7 @@ Battle Center
 [PrizesNumberText]
 Prize cards
 
-[ChooseTheNumberOfPrizesText]
+[ChooseTheNumberOfPrizesText] full-width
 Choose the number
 of Prizes.
 
@@ -992,9 +999,9 @@ of Prizes.
 Deciding the number of Prizes.
 Please wait a moment.
 
-[BeginDuelOfXPrizesWithOpponentText]
-Begin a <RAMNUM>-Prize duel
-with <RAMNAME>!
+[BeginDuelOfXPrizesWithOpponentText] full-width
+Begin a <RAMNUM>-Prize
+duel with <RAMNAME>!
 
 [ReceivedCardText]
 <RAMNAME> received
@@ -1027,7 +1034,7 @@ Please wait a moment.
 [BoosterPackCardsText]
 Booster pack cards
 
-[TryAgainPromptText]
+[TryAgainPromptText] full-width
 Try again?
 
 [TransmittedToText]
@@ -1109,8 +1116,9 @@ Accept the challenge?
 <RAMNAME> chose <RAMNUM> Pokémon
 for a total of <RAMNUM>.
 
-[SelectingPokemonFromDeckText]
-Choosing Pokémon from the Deck...
+[SelectingPokemonFromDeckText] full-width
+Choosing Pokémon
+from the Deck...
 
 [CardPopMenuText]
 Card Pop!
@@ -1138,7 +1146,7 @@ Card Pop! you've done so far.
 [CardPopExitText]
 Exit Card Pop!
 
-[AreYouBothReadyToCardPopText]
+[AreYouBothReadyToCardPopText] full-width
 Are you both ready
 for Card Pop!?
 
@@ -1158,9 +1166,10 @@ and one of you press the A Button.
 Received <RAMTEXT>
 through Card Pop!
 
-[AreYouBothReadyToRareCardPopText]
+[AreYouBothReadyToRareCardPopText] full-width
 Are you both ready
-for Rare Card Pop!?
+for Rare Card
+Pop!?
 
 [ReceivedThroughRareCardPopText]
 Received <RAMTEXT>
@@ -1204,8 +1213,9 @@ Card Pop! Records
 [CardPopRecordFriendResultText]
 - Card your friend got
 
-[NoCardPopRecordsText]
-There are no Card Pop! records.
+[NoCardPopRecordsText] full-width
+There are no Card
+Pop! records.
 
 [CardPopFriendDeckNameText]
 <RAMTEXT> Deck
@@ -1255,7 +1265,7 @@ and then come back.
 Choose a card to put in together
 with Bill's Computer.
 
-[GameCenterBillsPCConfirmPromptText]
+[GameCenterBillsPCConfirmPromptText] full-width
 Is this card OK?
 
 [GameCenterBillsPCCancelPromptText]
@@ -1344,8 +1354,9 @@ chosen as the dueling deck!
 [Deck5Text]
 5.
 
-[ThereIsNoDeckHereText]
-There is no deck here!
+[ThereIsNoDeckHereText] full-width
+There is no deck
+here!
 
 [DeckBuildingConfirmText]
 Confirm
@@ -1374,16 +1385,18 @@ Basic Pokémon in the deck!
 You must include a Basic Pokémon
 in the deck!
 
-[DeckBuildingWarningNot60CardsText]
-This isn't a 60-card deck!
+[DeckBuildingWarningNot60CardsText] full-width
+This isn't a
+60-card deck!
 
-[DeckBuildingWarningMustInclude60CardsText]
-The deck must include 60 cards!
+[DeckBuildingWarningMustInclude60CardsText] full-width
+The deck must
+include 60 cards!
 
 [DeckBuildingRevertPromptText]
 Return to original configuration?
 
-[DeckBuildingSavePromptText]
+[DeckBuildingSavePromptText] full-width
 Save this deck?
 
 [DeckBuildingQuitPromptText]
@@ -1507,8 +1520,9 @@ Expansions
 [Item8PromotionalCardLockedText]
 `8.--------------------  `
 
-[ViewWhichCardFileText]
-View which Card File?
+[ViewWhichCardFileText] full-width
+View which Card
+File?
 
 [OnesCardsText]
 's Cards
@@ -1525,8 +1539,9 @@ Delete Deck
 [BuildDeckText]
 Build Deck
 
-[ChooseDeckToSaveToMachineText]
-Choose a deck to save.
+[ChooseDeckToSaveToMachineText] full-width
+Choose a deck to
+save.
 
 [CannotSaveDeckToMachine60FullText]
 You may only save 60 decks.
@@ -1539,8 +1554,9 @@ of
 Saved the configuration for
 <RAMTEXT>!
 
-[NoDecksSavedToMachineText]
-No decks have been saved.
+[NoDecksSavedToMachineText] full-width
+No decks have been
+saved.
 
 [ChooseDeckToDeleteFromMachineText]
 Choose a deck
@@ -1553,11 +1569,13 @@ Do you really wish to delete?
 <RAMTEXT>'s
 configuration deleted.
 
-[YouMayOnlyCarry4DecksText]
-You may only carry 4 decks!
+[YouMayOnlyCarry4DecksText] full-width
+You may only carry
+4 decks!
 
-[ChooseDeckToDismantleText]
-Choose a deck to dismantle.
+[ChooseDeckToDismantleText] full-width
+Choose a deck to
+dismantle.
 
 [DismantledThisDeckText]
 <RAMTEXT>
@@ -1597,8 +1615,9 @@ in other decks.
 [DismantleTheseDecksPromptText]
 Dismantle these decks?
 
-[DismantledTheseDecksText]
-Dismantled the decks.
+[DismantledTheseDecksText] full-width
+Dismantled the
+decks.
 
 [DeleteSavedDeckPromptText]
 OK if this file is deleted?
@@ -1632,7 +1651,7 @@ using these cards.
 [SubInEnergyCardsPromptText]
 Use other Energy cards instead?
 
-[ChooseDeckCategoryText]
+[ChooseDeckCategoryText] full-width
 Please choose a
 deck category.
 
@@ -1644,7 +1663,7 @@ Print this card?
 Please choose a deck configuration
 to print.
 
-[PrintThisDeckPromptText]
+[PrintThisDeckPromptText] full-width
 Print this deck?
 
 [PrintCardListPromptText]
@@ -1658,8 +1677,9 @@ Card List
 Print Quality
 Quit Print
 
-[WhatToPrintPromptText]
-What would you like to print?
+[WhatToPrintPromptText] full-width
+What would you
+like to print?
 
 [PrinterContrastSettingsPromptText]
 Please set the contrast:
@@ -1695,7 +1715,7 @@ Card received
 [CardsToSendToPlayerText]
 Card to send
 
-[SendTheseCardsToPlayerPromptText]
+[SendTheseCardsToPlayerPromptText] full-width
 Send these cards?
 
 [ReceivedTheseCardsFromText]

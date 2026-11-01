@@ -19,11 +19,12 @@
 [HandleGiftCenterSendCardsScreen.title_text]
 Cards to Give
 
-# The player's name when they enter none.
-[PlayerNameSelection.default_male_name]
+# The player's name when they enter none: full-width, as the names the
+# keyboard types are.
+[PlayerNameSelection.default_male_name] full-width
 Mark
 
-[PlayerNameSelection.default_female_name]
+[PlayerNameSelection.default_female_name] full-width
 Mint
 
 # The Challenge Machine's first record holders: two 16-byte name records.

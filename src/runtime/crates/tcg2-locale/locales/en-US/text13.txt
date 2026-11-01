@@ -1,460 +1,641 @@
 # Pokémon Card GB2 in American English: the texts of
 # src/decomp/src/text/text13.asm, by label (format: src/text.rs).
 
-[Text11f3]
-Tee-hee... I'm so happy!
-Thanks for trading with me!
+[Text11f3] full-width
+Tee-hee... I'm so
+happy! Thanks for
+trading with me!
 
-[Text11f4]
-Do you know of Imakuni??
-He's bright red and all puffy.
-He was never around before, but
-then he suddenly showed up.
-By the way, have you heard
-about a kid named <RAMNAME>?
-Someone called <RAMNAME> or other
-has come to this island, they say.
-Apparently, that kid came to
-take back the cards!
-A mere card collector, daring to
-defy Team GR...
-Don't you find that dreadfully
-impertinent?
-Oh my, do forgive me.
-I've been rambling on.
-I do so adore chatting, you see.
-Oh ho ho ho ho ho...
+[Text11f4] full-width
+Do you know
+of Imakuni??
+He's bright red
+and all puffy. He
+was never around
+before, but then
+he suddenly showed
+up. By the way,
+have you heard
+about a kid named
+<RAMNAME>? Someone
+called <RAMNAME> or
+other has come to
+this island, they
+say. Apparently,
+that kid came to
+take back the
+cards! A mere card
+collector, daring
+to defy Team GR...
+Don't you find
+that dreadfully
+impertinent? Oh
+my, do forgive me.
+I've been rambling
+on. I do so adore
+chatting, you see.
+Oh ho ho ho ho
+ho...
 
-[Text11f5]
-Have you ever used that
-"computer" contraption over there?
-Those "computers" are so handy.
-By the way, have you heard?
-About that kid named <RAMNAME>.
-The one who's come to this island!
-Apparently, that kid has been
-winning duel after duel here!
-A mere card collector, beating
-Team GR again and again...
-Don't you find that dreadfully
-impertinent?
-Oh my, do forgive me.
-I've been rambling on.
-I do so adore chatting, you see.
-Oh ho ho ho ho ho...
+[Text11f5] full-width
+Have you ever used
+that "computer"
+contraption over
+there? Those
+"computers" are so
+handy. By the way,
+have you heard?
+About that kid
+named <RAMNAME>.
+The one who's come
+to this island!
+Apparently, that
+kid has been
+winning duel after
+duel here! A mere
+card collector,
+beating Team GR
+again and again...
+Don't you find
+that dreadfully
+impertinent? Oh
+my, do forgive me.
+I've been rambling
+on. I do so adore
+chatting, you see.
+Oh ho ho ho ho
+ho...
 
-[Text11f6]
-I hear every single card
-has been taken back!
-And those so-called Grand Masters
-have all gone home, too.
-By the way, have you heard
-about that kid named <RAMNAME>?
-Apparently, that kid now plans
-to go after Lord Biruritchi!
-Challenging Lord Biruritchi, who
-founded Team GR? How foolish!
-Surely that kid will lose and
-go home in tears.
-Oh my, do forgive me.
-I've been rambling on.
-I do so adore chatting, you see.
-Oh ho ho ho ho ho...
+[Text11f6] full-width
+I hear every
+single card
+has been taken
+back! And those
+so-called Grand
+Masters have all
+gone home, too. By
+the way, have you
+heard about that
+kid named <RAMNAME>?
+Apparently, that
+kid now plans
+to go after
+Lord Biruritchi!
+Challenging Lord
+Biruritchi, who
+founded Team GR?
+How foolish!
+Surely that kid
+will lose and go
+home in tears. Oh
+my, do forgive me.
+I've been rambling
+on. I do so adore
+chatting, you see.
+Oh ho ho ho ho
+ho...
 
-[Text11f7]
-I hear Team GR now regrets
-having stolen those cards.
-Stealing cards may well have
-been going a bit too far.
-By the way, have you heard
-about the "Sealed Fort"?
-Long ago, there was a horrid deck,
-and it was sealed away there.
-Quite a while ago, a few people
-went inside.
-Every one of them came out either
-"crying" or "screaming"!
-If you intend to go as well,
-you'd best prepare yourself.
-Oh my, do forgive me.
-I've been rambling on.
-I do so adore chatting, you see.
-Oh ho ho ho ho ho...
+[Text11f7] full-width
+I hear Team GR
+now regrets having
+stolen those
+cards. Stealing
+cards may well
+have been going
+a bit too far.
+By the way, have
+you heard about
+the "Sealed Fort"?
+Long ago, there
+was a horrid
+deck, and it was
+sealed away there.
+Quite a while ago,
+a few people went
+inside. Every one
+of them came out
+either "crying"
+or "screaming"!
+If you intend
+to go as well,
+you'd best prepare
+yourself. Oh my,
+do forgive me.
+I've been rambling
+on. I do so adore
+chatting, you see.
+Oh ho ho ho ho
+ho...
 
-[Text11f8]
-There's this kid who keeps bugging
-me for "Dark Raichu<Lv>31."
-I'm building a deck to join
-Team GR, so no way I'm giving it!
+[Text11f8] full-width
+There's this kid
+who keeps bugging
+me for "Dark
+Raichu<Lv>31." I'm
+building a deck to
+join Team GR, so
+no way I'm giving
+it!
 
-[Text11f9]
-Darn! If I'd known he'd give me a
-rare card, I would've traded!
-I guess you really need a kind
-heart after all...
-Yeah! I've made up my mind!
-From now on, I'm gonna be nice!
+[Text11f9] full-width
+Darn! If I'd
+known he'd give
+me a rare card,
+I would've traded!
+I guess you really
+need a kind heart
+after all... Yeah!
+I've made up my
+mind! From now on,
+I'm gonna be nice!
 
-[Text11fa]
-Huh? You're <RAMNAME>, the one
-who beat the Grand Masters!
-I'd heard the rumors, but
-what brings you here?
-...I see. You're working hard.
-Me? I'm Tap.
-It looked fun, so I posed as Team GR
-and came over to this island.
-I've dueled Team GR and
-tried out all sorts of things.
-I've built a deck of my own.
-Would you like to duel?
-If you win, <RAMNAME>,
-I'll give you a booster pack.
+[Text11fa] full-width
+Huh? You're
+<RAMNAME>, the one
+who beat the Grand
+Masters! I'd heard
+the rumors, but
+what brings you
+here? ...I see.
+You're working
+hard. Me? I'm Tap.
+It looked fun, so
+I posed as Team GR
+and came over to
+this island. I've
+dueled Team GR and
+tried out all
+sorts of things.
+I've built a
+deck of my own.
+Would you like to
+duel? If you win,
+<RAMNAME>, I'll give
+you a booster
+pack.
 
-[Text11fb]
-Ah, welcome, <RAMNAME>.
-Have you come to duel me?
-I'm always ready to duel.
-Are you prepared?
+[Text11fb] full-width
+Ah, welcome,
+<RAMNAME>. Have you
+come to duel me?
+I'm always ready
+to duel. Are you
+prepared?
 
-[Text11fc]
+[Text11fc] full-width
 Duel Tap?
 
-[Text11fd]
+[Text11fd] full-width
 Let me see...
-Let's play with 4 Prize cards.
+Let's play with 4
+Prize cards.
 
-[Text11fe]
+[Text11fe] full-width
 That's a shame.
 
-But if you'd like to duel,
-just say the word anytime.
+But if you'd like
+to duel, just say
+the word anytime.
 I'll be waiting,
 <RAMNAME>.
 
-[Text11ff]
-Waaah!!
-...Ah, pardon me.
-Here's the booster pack
+[Text11ff] full-width
+Waaah!! ...Ah,
+pardon me. Here's
+the booster pack
 I promised you.
 
-[Text1200]
+[Text1200] full-width
 If you like,
-let's duel again sometime.
+let's duel again
+sometime.
 
-[Text1201]
-I'm terribly sorry, but
-it seems I've won.
-Things like this happen, and that's
-what makes dueling so fun.
+[Text1201] full-width
+I'm terribly
+sorry, but it
+seems I've won.
+Things like this
+happen, and that's
+what makes dueling
+so fun.
 
-[Text1202]
-...Kshhh... Gooo...
+[Text1202] full-width
+...Kshhh...
+Gooo...
 Waterrrrrr!!
 Water! Me, Aira!
-GR Water member. Kshhh... Gooo...
-Kshhh... Gooo... Go further in...
-You must fight... Water!!
-Kshhh... Only here... Gooo...
-Special rule... Kshhh...
-Kshhh... Room too small...
-Only 3 Benched Pokémon allowed.
-
-[Text1203]
+GR Water member.
 Kshhh... Gooo...
-Waterrrr!!
-Only 3 Benched Pokémon...
-Duel that way... Kshhh... Gooo...
+Kshhh... Gooo...
+Go further in...
+You must fight...
+Water!! Kshhh...
+Only here...
+Gooo... Special
+rule... Kshhh...
+Kshhh... Room too
+small... Only 3
+Benched Pokémon
+allowed.
 
-[Text1204]
+[Text1203] full-width
+Kshhh... Gooo...
+Waterrrr!! Only 3
+Benched Pokémon...
+Duel that way...
+Kshhh... Gooo...
+
+[Text1204] full-width
 Duel Aira?
 
-[Text1205]
+[Text1205] full-width
 4 Prize cards.
-Begin duel! Waterrrrrr!!
+Begin duel!
+Waterrrrrr!!
 
-[Text1206]
+[Text1206] full-width
 Kshhh... Gooo...
 Waterrrrrrr!!!!
 
-[Text1207]
+[Text1207] full-width
 Kshhh... Gooo...
-No losing this time... Water!!
+No losing this
+time... Water!!
 
-[Text1208]
+[Text1208] full-width
 4 Prize cards.
 Kshhh... Gooo...
 
-[Text1209]
+[Text1209] full-width
 Waterrrrr!!!!
 
-[Text120a]
+[Text120a] full-width
 Waaa... terrr...
 
-[Text120b]
+[Text120b] full-width
 Kshhh... Gooo...
-No losing next time... Water!!
+No losing next
+time... Water!!
 
-[Text120c]
+[Text120c] full-width
 Waterrrrr!!!!
 
-[Text120d]
+[Text120d] full-width
 Kshhh... Gooo...
-...Kshhh... Gooo...
-
-[Text120e]
-Waaa... terrr...
-...kshhh... gooo...
-
-[Text120f]
-Kshhh... Open door...
+...Kshhh...
 Gooo...
 
-[Text1210]
+[Text120e] full-width
+Waaa... terrr...
+...kshhh...
+gooo...
+
+[Text120f] full-width
+Kshhh... Open
+door... Gooo...
+
+[Text1210] full-width
 Waterrrrr!!!
 
-[Text1211]
-Kshhh... Door opened...
-Kshhh... Go ahead... Gooo...
+[Text1211] full-width
+Kshhh... Door
+opened... Kshhh...
+Go ahead...
+Gooo...
 
-[Text1212]
-Welcome!
-This is the GR Water Fort.
-I'm afraid I can't let you
-into the Fort at this time.
-If you have the "GR Lightning Coin,"
-I shall gladly let you in.
-Please obtain the coin
-at the GR Lightning Fort.
+[Text1212] full-width
+Welcome! This is
+the GR Water Fort.
+I'm afraid I can't
+let you into the
+Fort at this time.
+If you have the
+"GR Lightning
+Coin," I shall
+gladly let you in.
+Please obtain the
+coin at the GR
+Lightning Fort.
 
-[Text1213]
-Welcome!
-This is the GR Water Fort.
+[Text1213] full-width
+Welcome! This is
+the GR Water Fort.
 
-[Text1214]
-There's a hollow shaped to fit
-a coin with a Magnemite mark.
+[Text1214] full-width
+There's a hollow
+shaped to fit
+a coin with a
+Magnemite mark.
 
 [Text1215]
 Insert the "GR Lightning Coin"?
 
-[Text1216]
-Welcome!
-This is the GR Water Fort.
-Allow me to explain how
-GR Water duels work.
-The leader of GR Water
-is Miss Kanoko.
-To see her, you must defeat
-3 GR Water members.
-Some members will only duel
-under certain conditions.
-Now, please proceed inside
-and enjoy your duels.
+[Text1216] full-width
+Welcome! This is
+the GR Water Fort.
+Allow me to
+explain how GR
+Water duels work.
+The leader of
+GR Water is Miss
+Kanoko. To see
+her, you must
+defeat 3 GR Water
+members. Some
+members will only
+duel under certain
+conditions. Now,
+please proceed
+inside and enjoy
+your duels.
 
-[Text1217]
+[Text1217] full-width
 Hiii! I'm Kanoko!
-I'm the leader of GR Water!
-You're <RAMNAME>, right? You've
-been going up against Team GR!
-And you want my
-"GR Water Coin," don't you?
-I'll tell you the same thing
-as the other GR leaders.
-Duel me, and if you win,
-the "GR Water Coin" is all yours!
-For my cute Water Pokémon,
-this place is full of water.
-So when Water Pokémon "Retreat,"
-they need 1 less Energy!
-If they need 3, it's 2.
-If they need 2, it becomes 1.
-Got it?
+I'm the leader
+of GR Water!
+You're <RAMNAME>,
+right? You've been
+going up against
+Team GR! And you
+want my "GR Water
+Coin," don't you?
+I'll tell you the
+same thing as the
+other GR leaders.
+Duel me, and if
+you win, the "GR
+Water Coin" is all
+yours! For my cute
+Water Pokémon,
+this place is
+full of water.
+So when Water
+Pokémon "Retreat,"
+they need 1 less
+Energy! If they
+need 3, it's 2.
+If they need 2, it
+becomes 1. Got it?
 Then let's duuuel!
 
-[Text1218]
+[Text1218] full-width
 Hiii, <RAMNAME>!
 
-Back again because you want the
-"GR Water Coin"?
-Then let's duuuel!
+Back again because
+you want the "GR
+Water Coin"? Then
+let's duuuel!
+For my cute
+Water Pokémon,
+this place is
+full of water.
+So when Water
+Pokémon "Retreat,"
+they need 1
+less Energy! You
+remember, right?
+Now, shall we
+duuuel?
 
-For my cute Water Pokémon,
-this place is full of water.
-So when Water Pokémon "Retreat,"
-they need 1 less Energy!
-You remember, right?
-Now, shall we duuuel?
-
-[Text1219]
+[Text1219] full-width
 Duel Kanoko?
 
-[Text121a]
-We'll play with 6 Prize cards,
-same as the other leaders!
+[Text121a] full-width
+We'll play with
+6 Prize cards,
+same as the other
+leaders!
 
-[Text121b]
-Maybe your deck wasn't
-ready yet?
-I'll be waiting, so go get ready!
+[Text121b] full-width
+Maybe your deck
+wasn't ready yet?
+I'll be waiting,
+so go get ready!
 
-[Text121c]
+[Text121c] full-width
 Hiii, <RAMNAME>!
 Let's duuuel!
-Dueling with all sorts of rules
-is pretty fun now, isn't it?
-For my cute Water Pokémon,
-this place is full of water.
-So when Water Pokémon "Retreat,"
-they need 1 less Energy!
-You remember, right?
-Now, shall we duuuel?
+Dueling with all
+sorts of rules
+is pretty fun
+now, isn't it?
+For my cute
+Water Pokémon,
+this place is
+full of water.
+So when Water
+Pokémon "Retreat,"
+they need 1
+less Energy! You
+remember, right?
+Now, shall we
+duuuel?
 
-[Text121d]
+[Text121d] full-width
 6 Prize cards!
-Okay, let's get started!
+Okay, let's get
+started!
 
-[Text121e]
+[Text121e] full-width
 Aww, too baaad.
-I really wanted to duel...
-I'll be waiting, so come play again!
+I really wanted
+to duel... I'll be
+waiting, so come
+play again!
 
-[Text121f]
-Wowww! You live up to the rumors!
-You're super strong!
+[Text121f] full-width
+Wowww! You live
+up to the rumors!
+You're super
+strong!
 
-[Text1220]
-After that, I'm happy to give
-you the "GR Water Coin"!
+[Text1220] full-width
+After that, I'm
+happy to give
+you the "GR Water
+Coin"!
 
-[Text1221]
+[Text1221] full-width
 Tee-hee, I wo-on!
-<RAMNAME>, you were strong, too!
-Maybe I won't win next time.
-Good luck!
+<RAMNAME>, you were
+strong, too! Maybe
+I won't win next
+time. Good luck!
 
-[Text1222]
+[Text1222] full-width
 Oh dear, too bad!
-Guess I couldn't get away!
-Here you gooo! A booster pack!
+Guess I couldn't
+get away! Here you
+gooo! A booster
+pack!
 
-[Text1223]
+[Text1223] full-width
 Aah, that was fun!
-Come duel and play with me again!
+Come duel and play
+with me again!
 
-[Text1224]
+[Text1224] full-width
 Tee-hee, I wo-on!
 I'm so happy!
 Win or lose,
-it's always fun, though!
-Come duel and play with me again!
+it's always fun,
+though! Come duel
+and play with me
+again!
 
-[Text1225]
-Ta-daaa!
-Here it iiis!
+[Text1225] full-width
+Ta-daaa! Here it
+iiis!
 
-[Text1226]
-Looks like you still don't have
-the "GR Fire Coin."
-To get into the GR Fighting Fort,
-you need the "GR Fire Coin."
-So-o, I think you should head
-to the GR Fire Fort!
+[Text1226] full-width
+Looks like you
+still don't have
+the "GR Fire
+Coin." To get into
+the GR Fighting
+Fort, you need the
+"GR Fire Coin."
+So-o, I think you
+should head to the
+GR Fire Fort!
 
-[Text1227]
-Oh! You already have the
-"GR Fire Coin"? That's amazing!
-So you can already get into
-the GR Fighting Fort!
-You're going there now, right?
-Good luck! Off you gooo!
+[Text1227] full-width
+Oh! You already
+have the "GR
+Fire Coin"?
+That's amazing!
+So you can already
+get into the GR
+Fighting Fort!
+You're going
+there now, right?
+Good luck! Off you
+gooo!
 
-[Text1228]
-My, my! You're not a GR member,
-so what could you want here?
-Me? I'm Miyajima.
-I'm a GR Water member!
-The power of water keeps my skin
-silky smooth... Just kiddiiing!
-Oh, I know all about you.
-You're <RAMNAME>, aren't you?
-I won't let you near our GR Water
-leader, dear Kanoko, so easily!
-Duel me!
-If you win, I'll open the door.
-But there's a condition!
-Otherwise, I won't duel you!
-The only Energy allowed in your
-deck is Water Energy!
-Got that?!
-If you do, then let's duel!
+[Text1228] full-width
+My, my! You're
+not a GR member,
+so what could you
+want here? Me?
+I'm Miyajima. I'm
+a GR Water member!
+The power of water
+keeps my skin
+silky smooth...
+Just kiddiiing!
+Oh, I know all
+about you. You're
+<RAMNAME>, aren't
+you? I won't let
+you near our GR
+Water leader, dear
+Kanoko, so easily!
+Duel me! If you
+win, I'll open the
+door. But there's
+a condition!
+Otherwise, I won't
+duel you! The only
+Energy allowed in
+your deck is Water
+Energy! Got that?!
+If you do, then
+let's duel!
 
-[Text1229]
-If you want to see dear Kanoko,
-you'll have to duel me!
-But the only Energy allowed
+[Text1229] full-width
+If you want to
+see dear Kanoko,
+you'll have
+to duel me!
+But the only
+Energy allowed
 is Water Energy!
-You do remember, don't you?!
-Even if you don't, we're dueling!
+You do remember,
+don't you?!
+Even if you don't,
+we're dueling!
 
-[Text122a]
+[Text122a] full-width
 Duel Miyajima?
 
-[Text122b]
-Hold it! Your deck isn't
+[Text122b] full-width
+Hold it!
+Your deck isn't
 ready, is it?!
-There's Energy other than Water
-Energy in your deck!
-Understand?
-Now come back when you're ready!
+There's Energy
+other than Water
+Energy in your
+deck! Understand?
+Now come back when
+you're ready!
 
-[Text122c]
-I just love the number 4.
-So we'll play with 4 Prize cards!
+[Text122c] full-width
+I just love the
+number 4. So we'll
+play with 4 Prize
+cards!
 
-[Text122d]
-Oh, really!
-Well, that's fine by me.
-It doesn't bother me one bit.
+[Text122d] full-width
+Oh, really! Well,
+that's fine by me.
+It doesn't bother
+me one bit.
 
-[Text122e]
-You're persistent! Back again?
-Yes, yes, I'll duel you!
-The only Energy allowed in
-your deck is Water Energy.
-I'll duel you, since I have to.
-You're ready, I trust!
+[Text122e] full-width
+You're persistent!
+Back again? Yes,
+yes, I'll duel
+you! The only
+Energy allowed in
+your deck is Water
+Energy. I'll duel
+you, since I have
+to. You're ready,
+I trust!
 
-[Text122f]
-Don't come here without
-getting your deck ready!
-There's Energy other than Water
-Energy in your deck!
+[Text122f] full-width
+Don't come here
+without getting
+your deck ready!
+There's Energy
+other than Water
+Energy in your
+deck!
 
-[Text1230]
-We play with 4 Prize cards.
-That's the only way I'll duel!
+[Text1230] full-width
+We play with
+4 Prize cards.
+That's the only
+way I'll duel!
 
-[Text1231]
-If you don't want to duel, then
-don't talk to me so casually!
-I belong to dear Kanoko,
-so there!
+[Text1231] full-width
+If you don't want
+to duel, then
+don't talk to
+me so casually!
+I belong to dear
+Kanoko, so there!
 
-[Text1232]
-Eeeek!! I can't believe it!
+[Text1232] full-width
+Eeeek!! I can't
+believe it!
 How could I lose?!
-Hmph!
-I'll give you a booster pack!
-But listen here!
-It's not like I WANT to give it!
-I'm only giving it because
-dear Kanoko told me to!!
+Hmph! I'll give
+you a booster
+pack! But listen
+here! It's not
+like I WANT to
+give it! I'm only
+giving it because
+dear Kanoko told
+me to!!
 
-[Text1233]
-Ugh... I hate this, but
-it can't be helped.
-They're dear Kanoko's orders.
+[Text1233] full-width
+Ugh... I hate
+this, but it can't
+be helped. They're
+dear Kanoko's
+orders.
 
 [Text1234]
 sonny boy
@@ -470,313 +651,413 @@ talent to rub off on you?
 You might get a bit better,
 <RAMTEXT>!
 
-[Text1237]
+[Text1237] full-width
 Why? Whyyy?!
-How can I lose?! Nooooo!!!
+How can I lose?!
+Nooooo!!!
 
-[Text1238]
-No matter what you do, I'll
-NEVER acknowledge you!!
+[Text1238] full-width
+No matter what
+you do, I'll NEVER
+acknowledge you!!
 
-[Text1239]
-Hmph! The likes of you could
+[Text1239] full-width
+Hmph! The likes
+of you could
 never beat me!!
-I'm sooo strong, after all!!
+I'm sooo strong,
+after all!!
 
-[Text123a]
-I'll let you through to
-Senta's room!!
+[Text123a] full-width
+I'll let you
+through to Senta's
+room!!
 
-[Text123b]
+[Text123b] full-width
 There, it's open!
 
-I don't even want to see your face,
-so hurry up and go!!
+I don't even want
+to see your face,
+so hurry up and
+go!!
 
-[Text123c]
+[Text123c] full-width
 Heeey! I'm Senta!
-I'm a GR Water member!
-I've captured Jack,
-the Grand Master!
-If you beat me, I'll let Jack go,
-and let you into the next room!
-Oh, and of course,
-I'll give you a booster pack too!
-Please build a deck with
+I'm a GR Water
+member! I've
+captured Jack, the
+Grand Master! If
+you beat me, I'll
+let Jack go, and
+let you into the
+next room! Oh, and
+of course, I'll
+give you a booster
+pack too! Please
+build a deck with
 4 Magikarp in it.
-Then we'll have a match!
-Wanna go right now?
+Then we'll have
+a match! Wanna go
+right now?
 
-[Text123d]
-Did you put 4 Magikarp
-in your deck?
-If you did, let's have a match!
+[Text123d] full-width
+Did you put 4
+Magikarp in your
+deck? If you did,
+let's have a
+match!
 
-[Text123e]
+[Text123e] full-width
 Duel Senta?
 
-[Text123f]
+[Text123f] full-width
 No good! No good!
-You don't have 4 Magikarp in there!
-If you don't put in 4 Magikarp,
-I won't play with you!
+You don't have 4
+Magikarp in there!
+If you don't put
+in 4 Magikarp,
+I won't play with
+you!
 
-[Text1240]
-Magikarp... All 4 are here!
-We'll play with 4 Prize cards.
-Okaaay! Let's go!
+[Text1240] full-width
+Magikarp... All
+4 are here! We'll
+play with 4 Prize
+cards. Okaaay!
+Let's go!
 
-[Text1241]
-Huh? You don't wanna play?
+[Text1241] full-width
+Huh? You don't
+wanna play?
 Okay, I get it.
 I'll be waiting,
-so come play again sometime!
+so come play again
+sometime!
 
-[Text1242]
+[Text1242] full-width
 Heeey! It's Senta!
-Let's play! Let's play!!
-Did you put in Magikarp?
+Let's play! Let's
+play!! Did you
+put in Magikarp?
 Four! Four of 'em!
-If they're in your deck,
-let's go!
+If they're in your
+deck, let's go!
 
-[Text1243]
-You can't forget that!
-4 Magikarp!
-If you don't put them in your deck,
+[Text1243] full-width
+You can't forget
+that! 4 Magikarp!
+If you don't put
+them in your deck,
 we can't play!
-So once you put 4 Magikarp
-in your deck, come talk to me!
+So once you put 4
+Magikarp in your
+deck, come talk to
+me!
 
-[Text1244]
-4 Prize cards, okay?
-Heeere we go!
+[Text1244] full-width
+4 Prize cards,
+okay? Heeere we
+go!
 
-[Text1245]
-Whaaat? You don't wanna play?
-Well, that's fine, I guess...
+[Text1245] full-width
+Whaaat? You don't
+wanna play? Well,
+that's fine, I
+guess...
 
-[Text1246]
+[Text1246] full-width
 Ahahahahaha!
 I lost!
 
-[Text1247]
-I forced a condition on you, and
-you were still really strong!
+[Text1247] full-width
+I forced a
+condition on you,
+and you were still
+really strong!
 
-[Text1248]
-Senta is sooo strong!!
-Senta is sooo cool!!
-Hehe... Nobody's ever praised me,
-so I tried praising myself.
+[Text1248] full-width
+Senta is sooo
+strong!! Senta
+is sooo cool!!
+Hehe... Nobody's
+ever praised
+me, so I tried
+praising myself.
 
-[Text1249]
-You're so strong, I'm flabbergasted!
+[Text1249] full-width
+You're so strong,
+I'm flabbergasted!
 
-[Text124a]
-You're amaaazing! So strooong!
-The beeest! Totally thrilling!
+[Text124a] full-width
+You're amaaazing!
+So strooong! The
+beeest! Totally
+thrilling!
 
-[Text124b]
-Senta wiiins!
-So strong! So great!
-I praised myself again.
-Ehehehe...
+[Text124b] full-width
+Senta wiiins! So
+strong! So great!
+I praised myself
+again. Ehehehe...
 
-[Text124c]
-Umm, I'd better let
-Jack out now.
+[Text124c] full-width
+Umm, I'd better
+let Jack out now.
 
-[Text124d]
-Jaaack!
-You can come out now!
+[Text124d] full-width
+Jaaack! You can
+come out now!
 
-[Text124e]
-It's been a long time,
-<RAMNAME>.
-It's me,
-Jack, the Grand Master.
-Thank you very much
-for rescuing me.
-As a token of my gratitude,
-allow me to give you a card.
-Please use this card to build
-a gorgeous deck.
+[Text124e] full-width
+It's been a long
+time, <RAMNAME>.
+It's me, Jack,
+the Grand Master.
+Thank you very
+much for rescuing
+me. As a token
+of my gratitude,
+allow me to give
+you a card. Please
+use this card to
+build a gorgeous
+deck.
 
-[Text124f]
-The remaining Grand Masters
-are Courtney and Rod.
+[Text124f] full-width
+The remaining
+Grand Masters are
+Courtney and Rod.
 
-[Text1250]
-The only Grand Master left
-is Rod.
+[Text1250] full-width
+The only Grand
+Master left is
+Rod.
 
-[Text1251]
-I'm counting on you, <RAMNAME>.
-Please be sure to rescue them.
-As for me, I shall return
-to the Pokémon Dome.
-Do come visit me at the
-Pokémon Dome now and then.
-Then we shall duel with
+[Text1251] full-width
+I'm counting
+on you, <RAMNAME>.
+Please be sure
+to rescue them.
+As for me, I shall
+return to the
+Pokémon Dome. Do
+come visit me at
+the Pokémon Dome
+now and then. Then
+we shall duel with
 my gorgeous deck.
 
-[Text1252]
-And I'll put down the bridge
-to Aira's room.
+[Text1252] full-width
+And I'll put down
+the bridge to
+Aira's room.
 
-[Text1253]
-Putting down the bridge...
+[Text1253] full-width
+Putting down
+the bridge...
 Heave-ho!
 
-[Text1254]
-There you go!
-You can go to Aira's room now.
-Aira's really funny, you know.
-You'll love meeting her!
+[Text1254] full-width
+There you go! You
+can go to Aira's
+room now. Aira's
+really funny, you
+know. You'll love
+meeting her!
 
-[Text1255]
-Huh? You have a deck, but...
-you're not with Team GR either?
-I want to join Team GR, but I just
-don't have enough cards...
-Hey, do you happen to have a
-"Dark Blastoise<Lv>28"?
-If you do, would you trade it
-for my "Blastoise<Lv>52"?
+[Text1255] full-width
+Huh? You have
+a deck, but...
+you're not with
+Team GR either?
+I want to join
+Team GR, but I
+just don't have
+enough cards...
+Hey, do you happen
+to have a "Dark
+Blastoise<Lv>28"?
+If you do, would
+you trade it for
+my "Blastoise<Lv>52"?
 
-[Text1256]
-Once I finish this deck, I bet
-I can become a GR member.
-So if you have "Dark Blastoise<Lv>28,"
-won't you trade with me?
-I'll give you "Blastoise<Lv>52"
+[Text1256] full-width
+Once I finish
+this deck, I bet
+I can become a
+GR member. So if
+you have "Dark
+Blastoise<Lv>28,"
+won't you trade
+with me? I'll give
+you "Blastoise<Lv>52"
 in return!
 
-[Text1257]
-I wanna be a GR member, but
-I don't have "Dark Blastoise<Lv>28."
-So trade with me anytime,
-please...
+[Text1257] full-width
+I wanna be a GR
+member, but I
+don't have "Dark
+Blastoise<Lv>28."
+So trade with me
+anytime, please...
 
-[Text1258]
-I'm serious about wanting
-to become a GR member!
-If you don't have it,
+[Text1258] full-width
+I'm serious about
+wanting to become
+a GR member! If
+you don't have it,
 don't say "Yes"!
-I'm being serious here,
-so don't mess with me!!
+I'm being serious
+here, so don't
+mess with me!!
 
-[Text1259]
-Hmm... Even for the sake of my
-deck, I can't do that.
-I can't make you break up
-your own deck for it.
-Trade with me once you stop
-using "Dark Blastoise<Lv>28"!
+[Text1259] full-width
+Hmm... Even for
+the sake of my
+deck, I can't do
+that. I can't make
+you break up your
+own deck for it.
+Trade with me
+once you stop
+using "Dark
+Blastoise<Lv>28"!
 
-[Text125a]
-Thanks!
-So you'll trade with me!!
+[Text125a] full-width
+Thanks! So you'll
+trade with me!!
 
-[Text125b]
-Yeah! I'm gonna join Team GR!!
+[Text125b] full-width
+Yeah! I'm gonna
+join Team GR!!
 
-[Text125c]
+[Text125c] full-width
 Hey, it's you!
-I think I'll make it into Team GR!
-Thanks so much
-for trading cards with me.
+I think I'll make
+it into Team GR!
+Thanks so much for
+trading cards with
+me.
 
-[Text125d]
-Hey! It's you! Look!
-I became a GR member!
-It's all thanks to the
-"Dark Blastoise<Lv>28" you gave me!
+[Text125d] full-width
+Hey! It's you!
+Look! I became
+a GR member!
+It's all thanks
+to the "Dark
+Blastoise<Lv>28"
+you gave me!
 Huh? My glasses?
-I switched to contacts.
+I switched to
+contacts.
 
-[Text125e]
-Thanks to you, I got to
-become a GR member!
-Thank you, really!
+[Text125e] full-width
+Thanks to you, I
+got to become a GR
+member! Thank you,
+really!
 
-[Text125f]
-Ah, so you're <RAMNAME>, eh?
-Workin' hard, I see.
-Now listen here. To enter the
-GR Fighting Fort, you need 2 coins.
-You can't get in unless you get
-the GR Water and GR Fire Coins.
-Mind you remember that!
+[Text125f] full-width
+Ah, so you're
+<RAMNAME>, eh?
+Workin' hard,
+I see. Now listen
+here. To enter the
+GR Fighting Fort,
+you need 2 coins.
+You can't get in
+unless you get the
+GR Water and GR
+Fire Coins. Mind
+you remember that!
 
-[Text1260]
-Ah, it's <RAMNAME>, is it?
-Workin' hard, I see.
-Me? Doesn't matter to me either way,
-so long as I can play Pokémon cards.
+[Text1260] full-width
+Ah, it's <RAMNAME>,
+is it? Workin'
+hard, I see. Me?
+Doesn't matter to
+me either way, so
+long as I can play
+Pokémon cards.
 
-[Text1261]
+[Text1261] full-width
 I have a dream!
-Amy of the Water Club!
-As a fellow Water user,
-I want to duel her!
-But only Team GR's chosen few
-can go to the other island...
-Sigh... It's heartbreaking...
+Amy of the Water
+Club! As a fellow
+Water user, I
+want to duel her!
+But only Team
+GR's chosen few
+can go to the
+other island...
+Sigh... It's
+heartbreaking...
 
-[Text1262]
-Thanks to that kid <RAMNAME>,
-I can go to the other island!
-I'll go over there soon
+[Text1262] full-width
+Thanks to that
+kid <RAMNAME>, I can
+go to the other
+island! I'll go
+over there soon
 and duel Amy!
-Now my dream will come true!
+Now my dream will
+come true!
 
-[Text1263]
-Whoa!
-If it isn't <RAMNAME>!
-It's me!
-Ronald, your archrival!
-<RAMNAME>, did they take
-your Pokémon cards too?
-Seems it's the work of a gang
-called Team Great Rocket (GR)!
-I'm gonna go on ahead and
-check out what they're up to!
+[Text1263] full-width
+Whoa! If it isn't
+<RAMNAME>! It's me!
+Ronald, your
+archrival! <RAMNAME>,
+did they take your
+Pokémon cards too?
+Seems it's the
+work of a gang
+called Team Great
+Rocket (GR)! I'm
+gonna go on ahead
+and check out what
+they're up to!
 Ask Dr. Mason for
-the details!
-See ya, <RAMNAME>!
+the details! See
+ya, <RAMNAME>!
 
-[Text1264]
-Hey!
-If it isn't <RAMNAME>!
+[Text1264] full-width
+Hey! If it isn't
+<RAMNAME>!
 
-[Text1265]
-This is bad, <RAMNAME>!
-Every club's been taken down!
-Looks like none of Team GR
-is at this club right now.
-Seems they're attacking
-the Rock Club!
-Not that I can fight anyway,
-since I don't have any cards!
-I know! Let's use "Card Pop!"
-to get each other more cards!
-Come on, get ready for
-"Card Pop!"
+[Text1265] full-width
+This is bad,
+<RAMNAME>! Every
+club's been taken
+down! Looks like
+none of Team GR is
+at this club right
+now. Seems they're
+attacking the Rock
+Club! Not that I
+can fight anyway,
+since I don't have
+any cards! I know!
+Let's use "Card
+Pop!" to get each
+other more cards!
+Come on, get ready
+for "Card Pop!"
 
-[Text1266]
-All right, I'll save your game,
+[Text1266] full-width
+All right, I'll
+save your game,
 just in case!
 
-[Text1267]
-Either way,
-Team GR isn't here.
+[Text1267] full-width
+Either way, Team
+GR isn't here.
 <RAMNAME>! You go on
 to the Rock Club!
-I'll look around some more and
-gather info on Team GR!
-See ya,
+I'll look around
+some more and
+gather info on
+Team GR! See ya,
 <RAMNAME>!
 
 [Text1268]
@@ -793,198 +1074,272 @@ to get each other more cards!
 Come on, get ready for
 "Card Pop!"
 
-[Text1269]
-Either way, it won't be easy
-to beat them here!
+[Text1269] full-width
+Either way, it
+won't be easy to
+beat them here!
 <RAMNAME>! You go on
 to the Rock Club!
-I'll look around some more and
-gather info on Team GR!
-See ya,
+I'll look around
+some more and
+gather info on
+Team GR! See ya,
 <RAMNAME>!
 
-[Text126a]
-This is bad, <RAMNAME>!
-Team GR is here right now!
-A guy called GR-1 came, and he's
-dueling here at the Rock Club!
-The club members all lost!
-Only Club Master Gene is left!
-I'd fight them too, but I can't,
-since I don't have any cards!
-I know! Let's use "Card Pop!"
-to get each other more cards!
-Come on, get ready for
-"Card Pop!"
+[Text126a] full-width
+This is bad,
+<RAMNAME>! Team GR
+is here right now!
+A guy called GR-1
+came, and he's
+dueling here at
+the Rock Club!
+The club members
+all lost!
+Only Club Master
+Gene is left!
+I'd fight them
+too, but I can't,
+since I don't have
+any cards! I know!
+Let's use "Card
+Pop!" to get each
+other more cards!
+Come on, get ready
+for "Card Pop!"
 
-[Text126b]
-But one more card won't
-make much difference for me...
-<RAMNAME>! I'm leaving
-this place to you!!
-I'll look around some more and
-gather info on Team GR!
-See ya,
+[Text126b] full-width
+But one more card
+won't make much
+difference for
+me... <RAMNAME>! I'm
+leaving this place
+to you!! I'll look
+around some more
+and gather info on
+Team GR! See ya,
 <RAMNAME>!
 
-[Text126c]
-Hey!
-If it isn't <RAMNAME>!
+[Text126c] full-width
+Hey! If it isn't
+<RAMNAME>!
 
-[RonaldGCPieces2WantsToDuelText]
-Looks like you took down
-two of those Team GR guys.
-Just what I'd expect from my
+[RonaldGCPieces2WantsToDuelText] full-width
+Looks like you
+took down two
+of those Team GR
+guys. Just what
+I'd expect from my
 archrival, <RAMNAME>!
-Thanks to you, I've collected
-a good number of cards too.
-I threw a deck together for now!
-Let's duel, <RAMNAME>!
+Thanks to you,
+I've collected
+a good number of
+cards too. I threw
+a deck together
+for now! Let's
+duel, <RAMNAME>!
 6 Prize cards!
-Win, and I'll give you a rare card!
+Win, and I'll give
+you a rare card!
 
-[RonaldGCPieces2PlayerWon1Text]
-Tch. Guess this is all you get
-from scraped-together cards...
-Can't be helped, I lost!
-Here, take this card!
+[RonaldGCPieces2PlayerWon1Text] full-width
+Tch. Guess this is
+all you get from
+scraped-together
+cards... Can't be
+helped, I lost!
+Here, take this
+card!
 
-[RonaldGCPieces2PlayerWon2Text]
-Guess I need to collect
-more cards...
-If I get more info on Team GR,
-I'll let you know!
+[RonaldGCPieces2PlayerWon2Text] full-width
+Guess I need
+to collect more
+cards... If I get
+more info on Team
+GR, I'll let you
+know!
 
-[RonaldGCPieces2PlayerLostText]
-Tch. If you're losing to me,
-you'll never stand up to Team GR.
-Was beating those two GR guys
-just a fluke?
-See ya, <RAMNAME>.
-I'm outta here!
+[RonaldGCPieces2PlayerLostText] full-width
+Tch. If you're
+losing to me,
+you'll never stand
+up to Team GR.
+Was beating those
+two GR guys just
+a fluke? See ya,
+<RAMNAME>. I'm outta
+here!
 
-[Text1271]
-Yo, <RAMNAME>!
-I did it!!
+[Text1271] full-width
+Yo, <RAMNAME>! I did
+it!!
 
-[Text1272]
-While you were busy fighting
-those Team GR goons, I...
-...snuck onto their airship
-and got the cards back!
-I gave the cards I got back
-to all the club members!
-Now there'll be one more kind of
-booster pack on this island!
-Here's the new booster pack,
-3rd expansion, "Fossil Island"!!
+[Text1272] full-width
+While you were
+busy fighting
+those Team GR
+goons, I...
+...snuck onto
+their airship
+and got the
+cards back!
+I gave the cards
+I got back to all
+the club members!
+Now there'll be
+one more kind of
+booster pack
+on this island!
+Here's the new
+booster pack, 3rd
+expansion, "Fossil
+Island"!!
 
-[Text1273]
-Finally, it's time to
-storm GR Island!
-Be careful! It's their island!
+[Text1273] full-width
+Finally, it's
+time to storm
+GR Island!
+Be careful!
+It's their island!
 It won't be easy!
-Duel a lot on this island
-and collect cards!
-That way, you'll be able to
-build all kinds of decks!
-Well, see ya later,
-<RAMNAME>.
+Duel a lot on this
+island and collect
+cards! That way,
+you'll be able to
+build all kinds of
+decks! Well, see
+ya later, <RAMNAME>.
 
-[Text1274]
-Well, if it isn't <RAMNAME>!
-What're you doing here?
+[Text1274] full-width
+Well, if it isn't
+<RAMNAME>! What're
+you doing here?
 
-[Text1275]
-Seems this place is
-Team GR's Game Center!
-In the back, there are tons of
-slot machines and game machines!
-If you collect chips playing games,
-you can get cards and coins, I hear!
-I got a card like this, too.
-Here, <RAMNAME>, it's yours!
+[Text1275] full-width
+Seems this place
+is Team GR's
+Game Center!
+In the back,
+there are tons of
+slot machines and
+game machines! If
+you collect chips
+playing games,
+you can get cards
+and coins, I hear!
+I got a card
+like this, too.
+Here, <RAMNAME>, it's
+yours!
 
-[Text1276]
-But you can't put that card
-in your deck!
-Well, I hear you can get
-all kinds of other stuff, too!
-But our goal is to get back
-the cards they stole from us,
-and to rescue our friends
-Team GR has captured!
-So don't get so wrapped up in games
-that you forget that!
-See ya, <RAMNAME>!
+[Text1276] full-width
+But you can't
+put that card in
+your deck! Well,
+I hear you can
+get all kinds of
+other stuff, too!
+But our goal is to
+get back the cards
+they stole from
+us, and to rescue
+our friends Team
+GR has captured!
+So don't get so
+wrapped up in
+games that you
+forget that! See
+ya, <RAMNAME>!
 
-[Text1277]
-Hm? Hey! You there!
-Come over here a sec!
+[Text1277] full-width
+Hm? Hey! You
+there! Come over
+here a sec!
 
-[Text1278]
-You...
-You're no Team GR member!
-Looks like you've got
-Pokémon cards too, huh...
-Fine, then.
-Let's see what you've got!
-Think you can beat our
-"Dark Pokémon"?
-Here I come, <RAMNAME>!
-We'll duel with 6 Prize cards!
+[Text1278] full-width
+You... You're no
+Team GR member!
+Looks like you've
+got Pokémon cards
+too, huh... Fine,
+then. Let's see
+what you've got!
+Think you can
+beat our "Dark
+Pokémon"? Here
+I come, <RAMNAME>!
+We'll duel with 6
+Prize cards!
 
-[Text1279]
-Tch, you're pretty good,
-<RAMNAME>!!
+[Text1279] full-width
+Tch, you're pretty
+good, <RAMNAME>!!
 
-[Text127a]
+[Text127a] full-width
 It's me, Ronald!
 Surprised, <RAMNAME>?
-I can't do any spying looking like
-myself, so I'm in disguise!
+I can't do any
+spying looking
+like myself, so
+I'm in disguise!
 Anyway, I lost!
-So here's a Team GR booster pack!
+So here's a Team
+GR booster pack!
 
-[Text127b]
+[Text127b] full-width
 Now listen up.
-Here's some info on Team GR's duels!
-Team GR builds its decks out of
-Dark Pokémon cards.
-And they set conditions, like making
-you put certain cards in your deck,
-or challenge you to duels with
-special rules just for that match!
-Listen closely to your opponent
-and check what kind of duel it is.
-Otherwise,
-you'll be in big trouble!
-Later!
+Here's some
+info on Team
+GR's duels!
+Team GR builds
+its decks out of
+Dark Pokémon
+cards. And they
+set conditions,
+like making you
+put certain cards
+in your deck, or
+challenge you to
+duels with special
+rules just for
+that match! Listen
+closely to your
+opponent and check
+what kind of duel
+it is. Otherwise,
+you'll be in big
+trouble! Later!
 I'm outta here!
 
-[Text127c]
-Back to spying in this getup!
-Good luck, <RAMNAME>.
+[Text127c] full-width
+Back to spying in
+this getup! Good
+luck, <RAMNAME>.
 
-[Text127d]
-Heh, you're not so tough,
-<RAMNAME>!!
+[Text127d] full-width
+Heh, you're not so
+tough, <RAMNAME>!!
 
-[Text127e]
+[Text127e] full-width
 It's me, Ronald!
 Surprised, <RAMNAME>?
-I can't do any spying looking like
-myself, so I'm in disguise!
-If you're losing to me,
-you'll never beat Team GR!!
+I can't do any
+spying looking
+like myself, so
+I'm in disguise!
+If you're losing
+to me, you'll
+never beat Team
+GR!!
 
-[Text127f]
+[Text127f] full-width
 Hey, <RAMNAME>!!
 Over here!!
 
-[Text1280]
-Relax, I'm not Team GR.
-It's me! Ronald!!
+[Text1280] full-width
+Relax, I'm not
+Team GR. It's me!
+Ronald!!
 
 [Text1281]
 Looks like you got your hands
@@ -1002,440 +1357,691 @@ stronger you've gotten!
 We'll duel with 6 Prize cards!
 Win, and I'll give you a good card!
 
-[Text1282]
-Looks like Team GR's duels
-have toughened you up.
+[Text1282] full-width
+Looks like Team
+GR's duels have
+toughened you up.
 So, as promised,
-here's a good card!
+here's a good
+card!
 
-[Text1283]
-Pretty good card, huh?
-How you use it is up to you.
-Well, I'm going on ahead.
-Hang in there, <RAMNAME>!
+[Text1283] full-width
+Pretty good card,
+huh? How you use
+it is up to you.
+Well, I'm going
+on ahead. Hang in
+there, <RAMNAME>!
 
-[Text1284]
-What?
-You're as weak as ever!
-You'll have it rough from here.
-Maybe your deck's the problem?
-You'd better head back to our
-island and collect more cards!
-Well, I'm going on ahead.
-Hang in there, <RAMNAME>!
+[Text1284] full-width
+What? You're as
+weak as ever!
+You'll have it
+rough from here.
+Maybe your deck's
+the problem?
+You'd better head
+back to our island
+and collect more
+cards! Well, I'm
+going on ahead.
+Hang in there,
+<RAMNAME>!
 
-[Text1285]
-About time, <RAMNAME>!
-Hurry up and get over here!!
+[Text1285] full-width
+About time,
+<RAMNAME>! Hurry
+up and get over
+here!!
 
-[Text1286]
+[Text1286] full-width
 It's me! Ronald!
-You figured that out by now!!
+You figured that
+out by now!!
 
-[Text1287]
-Were you lost in the dungeon at
-the GR Fighting Fort or something?
-I got sick of waiting!
-Here's info on Team GR. Listen up!
-In the GR Castle up ahead
-is the GR King himself!
-But to see him, as usual,
-you'll need 2 coins.
-The "GR Psychic Coin" and
-the "GR Colorless Coin"!
-Hurry up, get them, and
-storm the GR Castle!
-If you dawdle too much,
-I'll beat you to it!!
-See ya!
-I'm counting on you, <RAMNAME>!!
+[Text1287] full-width
+Were you lost in
+the dungeon at
+the GR Fighting
+Fort or something?
+I got sick of
+waiting! Here's
+info on Team GR.
+Listen up!
+In the GR Castle
+up ahead is the
+GR King himself!
+But to see him,
+as usual, you'll
+need 2 coins.
+The "GR Psychic
+Coin" and the "GR
+Colorless Coin"!
+Hurry up, get
+them, and storm
+the GR Castle!
+If you dawdle too
+much, I'll beat
+you to it!! See
+ya! I'm counting
+on you, <RAMNAME>!!
 
-[Text1288]
+[Text1288] full-width
 I... I lost...
-Totally and completely...
+Totally and
+completely...
 
-[Text1289]
+[Text1289] full-width
 Oh, <RAMNAME>...
-Those guys are crazy strong.
+Those guys are
+crazy strong.
 Someone like me
-doesn't stand a chance!
-<RAMNAME>, tell me...
-Is your deck ready?
-This is the last time
-I'll test your strength!
-If you can't beat me,
-you'll never beat the GR King!
-It's the usual 6 Prizes. Win, and
-you get "Super Energy Retrieval"!
+doesn't stand a
+chance! <RAMNAME>,
+tell me... Is
+your deck ready?
+This is the last
+time I'll test
+your strength!
+If you can't beat
+me, you'll never
+beat the GR King!
+It's the usual 6
+Prizes. Win, and
+you get "Super
+Energy Retrieval"!
 
-[Text128a]
+[Text128a] full-width
 I knew it, <RAMNAME>.
 You're strong.
-Here,
-take this "Super Energy Retrieval."
+Here, take this
+"Super Energy
+Retrieval."
 
-[Text128b]
-I know you can win!!
-I'm leaving the rest to you!
-See ya,
-and good luck, <RAMNAME>!!
+[Text128b] full-width
+I know you can
+win!! I'm leaving
+the rest to you!
+See ya, and good
+luck, <RAMNAME>!!
 
-[Text128c]
-Come on, I'm counting on you,
-<RAMNAME>! You're all we've got!
-If you're losing to me,
-you'll never beat them!
-Hang in there, <RAMNAME>!
+[Text128c] full-width
+Come on, I'm
+counting on you,
+<RAMNAME>! You're
+all we've got! If
+you're losing to
+me, you'll never
+beat them! Hang
+in there, <RAMNAME>!
 I believe in you!
-I know you can win!!
-I'm leaving the rest to you!
-See ya,
-and good luck, <RAMNAME>!!
+I know you can
+win!! I'm leaving
+the rest to you!
+See ya, and good
+luck, <RAMNAME>!!
 
-[Text128d]
-Yo, <RAMNAME>!
-You're doing great!
+[Text128d] full-width
+Yo, <RAMNAME>! You're
+doing great!
 
-[Text128e]
-GR-3 was in such a hurry,
-he dropped a bunch of cards!
-Now there'll be one more kind of
-booster pack on this island!
-Here's the new booster pack,
-2nd expansion, "Legendary Power"!!
+[Text128e] full-width
+GR-3 was in such a
+hurry, he dropped
+a bunch of cards!
+Now there'll be
+one more kind of
+booster pack
+on this island!
+Here's the new
+booster pack,
+2nd expansion,
+"Legendary
+Power"!!
 
-[Text128f]
-Keep up the good work!
-Beat those Team GR guys!
-Then we'll get even more
-booster packs!
-Well, see ya,
-<RAMNAME>.
+[Text128f] full-width
+Keep up the good
+work! Beat those
+Team GR guys!
+Then we'll get
+even more booster
+packs! Well, see
+ya, <RAMNAME>.
 
-[CombosBookText]
-Use two cards together, and you can
-make a powerful "combo"!
-Pokémon Powers and Trainer cards
-are great for combos!
-Try to find card pairings
-that create combos!
+[CombosBookText] full-width
+Use two cards
+together, and
+you can make a
+powerful "combo"!
+Pokémon Powers and
+Trainer cards are
+great for combos!
+Try to find card
+pairings that
+create combos!
 
-[EnergyTransBookText]
-Put Exeggutor in the Arena, but
-it has no Energy?
-At times like that, use Venusaur's
+[EnergyTransBookText] full-width
+Put Exeggutor in
+the Arena, but it
+has no Energy? At
+times like that,
+use Venusaur's
 Energy Trans!
-Move Grass Energy over and use
-"Big Eggsplosion"!
-For example, with 8 Energy attached,
-you can do up to 160 damage!
+Move Grass Energy
+over and use "Big
+Eggsplosion"!
+For example, with
+8 Energy attached,
+you can do up to
+160 damage!
 
-[ToxicGasBookText]
-Muk's "Toxic Gas" is
-super powerful!
-It can block every single
-Pokémon Power!
-But your own Pokémon can't use
-their Powers either, so be careful!
+[ToxicGasBookText] full-width
+Muk's "Toxic Gas"
+is super powerful!
+It can block every
+single Pokémon
+Power! But your
+own Pokémon can't
+use their Powers
+either, so be
+careful!
 
-[RainDanceBookText]
-Blastoise's "Rain Dance" is great
+[RainDanceBookText] full-width
+Blastoise's "Rain
+Dance" is great
 for Water Pokémon!
-On your turn, attach as many Water
-Energy as you like to Water Pokémon!
-Load up a Water Pokémon all at once
-and launch a surprise attack!
-No Water Energy in your hand?
-Try using Trainer cards!
-Draw cards from your deck with
-"Professor Oak" to get Water Energy!
+On your turn,
+attach as many
+Water Energy as
+you like to Water
+Pokémon! Load up a
+Water Pokémon all
+at once and launch
+a surprise attack!
+No Water Energy
+in your hand?
+Try using Trainer
+cards! Draw cards
+from your deck
+with "Professor
+Oak" to get Water
+Energy!
 
-[SelfdestructBookText]
-When you use "Selfdestruct,"
-it's smart to attach a Defender!
-That way, your Pokémon won't get
-Knocked Out by its "Selfdestruct"!
-Only the Defending Pokémon and
-Benched Pokémon take big damage!
+[SelfdestructBookText] full-width
+When you use
+"Selfdestruct,"
+it's smart to
+attach a Defender!
+That way, your
+Pokémon won't get
+Knocked Out by its
+"Selfdestruct"!
+Only the Defending
+Pokémon and
+Benched Pokémon
+take big damage!
 
-[DamageSwapBookText]
-Alakazam's Damage Swap lets you
-move damage counters around.
-Move the counters off a Pokémon
-that's about to be Knocked Out!
-There's also a combo with
-"Chansey" and "Scoop Up"!
-Keep moving your Pokémon's damage
-counters onto Chansey.
-Then return the damaged Chansey
-to your hand with "Scoop Up."
-Put Chansey into play again, and
-the damage counters are gone!
+[DamageSwapBookText] full-width
+Alakazam's Damage
+Swap lets you
+move damage
+counters around.
+Move the counters
+off a Pokémon
+that's about to
+be Knocked Out!
+There's also
+a combo with
+"Chansey" and
+"Scoop Up"!
+Keep moving your
+Pokémon's damage
+counters onto
+Chansey. Then
+return the damaged
+Chansey to your
+hand with "Scoop
+Up." Put Chansey
+into play again,
+and the damage
+counters are gone!
 
-[RemoveEnergiesBookText]
-Use "Super Energy Removal" or
-"Energy Removal" on your opponent!
-Strip the Energy right off
-their Pokémon!
-Without Energy, a Pokémon can't
-use its attacks...
-...and it can't Retreat from
-the Arena, either!
-The "Hyper Beam" attack can also
-strip your opponent's Energy!
+[RemoveEnergiesBookText] full-width
+Use "Super Energy
+Removal" or
+"Energy Removal"
+on your opponent!
+Strip the Energy
+right off their
+Pokémon! Without
+Energy, a Pokémon
+can't use its
+attacks... ...and
+it can't Retreat
+from the Arena,
+either! The "Hyper
+Beam" attack can
+also strip your
+opponent's Energy!
 
-[PrehistoricPowerBookText]
-Use Aerodactyl's "Prehistoric Power"
-to stop your opponent from evolving!
-Your Pokémon can't evolve either?
+[PrehistoricPowerBookText] full-width
+Use Aerodactyl's
+"Prehistoric
+Power" to stop
+your opponent
+from evolving!
+Your Pokémon can't
+evolve either?
 In that case...
-Use "Devolution Spray" to revert
-Aerodactyl to "Mysterious Fossil"!
-Then your own Pokémon can evolve
-as much as they like!
-Once your Pokémon are done evolving,
-evolve it back into Aerodactyl!
-Then "Prehistoric Power" once again
-stops your opponent from evolving!
+Use "Devolution
+Spray" to revert
+Aerodactyl to
+"Mysterious
+Fossil"! Then your
+own Pokémon can
+evolve as much
+as they like!
+Once your Pokémon
+are done evolving,
+evolve it back
+into Aerodactyl!
+Then "Prehistoric
+Power" once
+again stops your
+opponent from
+evolving!
 
-[WeaknessResistanceBookText]
-Attack with your opponent's Weakness
-type, and the damage is doubled!
-A Water Pokémon's attack does double
-damage to Fire Pokémon!
-Attack with the type a Pokémon
-resists, and the damage drops by 30.
-An attack that does 30 damage
-will do no damage at all!
-Watch out for "Weakness"
-and "Resistance"!
+[WeaknessResistanceBookText] full-width
+Attack with
+your opponent's
+Weakness type,
+and the damage is
+doubled! A Water
+Pokémon's attack
+does double damage
+to Fire Pokémon!
+Attack with the
+type a Pokémon
+resists, and the
+damage drops by
+30. An attack that
+does 30 damage
+will do no damage
+at all! Watch out
+for "Weakness" and
+"Resistance"!
 
-[TeamGRBookText]
-Team GR's real name is
-"Team Great Rocket"!
-Team GR believes that a card's
-value lies in being used.
-They say Team GR fights to save
-the cards no one uses.
-Team GR duels have special rules,
-and use all sorts of cards, I hear.
-They, too, love Pokémon cards
-just like everyone else.
+[TeamGRBookText] full-width
+Team GR's real
+name is "Team
+Great Rocket"!
+Team GR believes
+that a card's
+value lies in
+being used.
+They say Team GR
+fights to save the
+cards no one uses.
+Team GR duels have
+special rules,
+and use all sorts
+of cards, I hear.
+They, too, love
+Pokémon cards
+just like everyone
+else.
 
-[GameCenterBookText]
-On GR Island, there's a place
-called the Game Center.
-Collect chips at the Game Center
-to get cards and coins.
-Rumor has it some cards can only
-be gotten at the Game Center.
+[GameCenterBookText] full-width
+On GR Island,
+there's a place
+called the Game
+Center. Collect
+chips at the Game
+Center to get
+cards and coins.
+Rumor has it some
+cards can only be
+gotten at the Game
+Center.
 
-[SamePokemonBookText]
-The same Pokémon can have many
-cards with different levels.
-When the level is different, so are
-the HP and attacks.
-Pikachu comes in 5 levels: <Lv>5,
-<Lv>12, <Lv>13, <Lv>14 and <Lv>16!
-The rules say you can only put 4
-of the same Pokémon card in a deck.
-So when a Pokémon has lots of cards,
-think hard about which to put in!
+[SamePokemonBookText] full-width
+The same Pokémon
+can have many
+cards with
+different levels.
+When the level
+is different,
+so are the HP
+and attacks.
+Pikachu comes in
+5 levels: <Lv>5, <Lv>12,
+<Lv>13, <Lv>14 and <Lv>16!
+The rules say you
+can only put 4 of
+the same Pokémon
+card in a deck.
+So when a Pokémon
+has lots of cards,
+think hard about
+which to put in!
 
-[RockGroundPokemonBookText]
-Traits of
-Rock and Ground Pokémon cards
-Strong against Lightning Pokémon,
-weak against Grass Pokémon.
-They need Fighting Energy cards
-to use their attacks.
+[RockGroundPokemonBookText] full-width
+Traits of Rock
+and Ground
+Pokémon cards
+Strong against
+Lightning Pokémon,
+weak against Grass
+Pokémon. They need
+Fighting Energy
+cards to use their
+attacks.
 
-[FightingPokemonSurefireMethodBookText]
-Fighting Pokémon cards have trouble
-with Stage 2 Pokémon.
-Many Stage 2 Pokémon have
-"Resistance" to Fighting Pokémon.
-The trick to winning is to beat them
-early, before they can evolve!
+[FightingPokemonSurefireMethodBookText] full-width
+Fighting Pokémon
+cards have trouble
+with Stage 2
+Pokémon. Many
+Stage 2 Pokémon
+have "Resistance"
+to Fighting
+Pokémon. The trick
+to winning is to
+beat them early,
+before they can
+evolve!
 
-[FightingPokemonFormidableOpponentsBookText]
-Fighting Pokémon have a really hard
-time with Colorless bird Pokémon.
-That's because bird Pokémon have
-"Resistance" to Fighting Pokémon.
-Put some Lightning Pokémon in your
-deck to hit the birds' "Weakness"!
+[FightingPokemonFormidableOpponentsBookText] full-width
+Fighting Pokémon
+have a really
+hard time with
+Colorless bird
+Pokémon. That's
+because bird
+Pokémon have
+"Resistance" to
+Fighting Pokémon.
+Put some Lightning
+Pokémon in your
+deck to hit the
+birds' "Weakness"!
 
-[FightingPokemonBookText]
-Traits of
-Fighting Pokémon cards
-Strong against Lightning Pokémon,
-weak against Psychic Pokémon.
-They need Fighting Energy cards
-to use their attacks.
+[FightingPokemonBookText] full-width
+Traits of Fighting
+Pokémon cards
+Strong against
+Lightning Pokémon,
+weak against
+Psychic Pokémon.
+They need Fighting
+Energy cards to
+use their attacks.
 
-[FightingPokemonCombosBookText]
-Fighting Pokémon are hard to use
+[FightingPokemonCombosBookText] full-width
+Fighting Pokémon
+are hard to use
 in combos.
-That's because few Fighting Pokémon
-have Pokémon Powers.
-But many have strong attacks, so
-they do fine without combos!
+That's because few
+Fighting Pokémon
+have Pokémon
+Powers. But
+many have strong
+attacks, so they
+do fine without
+combos!
 
-[FightingPokemonDeckBuildingBookText]
-Fighting Pokémon have a "Weakness"
-to Psychic Pokémon.
-Put Pokémon with "Resistance" to
-Psychic Pokémon in your deck!
-Colorless Pokémon like "Kangaskhan,"
-"Tauros" and "Clefairy" are good!
+[FightingPokemonDeckBuildingBookText] full-width
+Fighting
+Pokémon have a
+"Weakness" to
+Psychic Pokémon.
+Put Pokémon with
+"Resistance" to
+Psychic Pokémon
+in your deck!
+Colorless Pokémon
+like "Kangaskhan,"
+"Tauros" and
+"Clefairy" are
+good!
 
-[PlantlikePokemonBookText]
-Traits of
-plant Pokémon cards
-Strong against Rock and Ground
-Pokémon, weak against Fire Pokémon.
-Sometimes they're also strong
-against Water Pokémon cards.
-They need Grass Energy cards
-to use their attacks.
+[PlantlikePokemonBookText] full-width
+Traits of plant
+Pokémon cards
+Strong against
+Rock and Ground
+Pokémon, weak
+against Fire
+Pokémon. Sometimes
+they're also
+strong against
+Water Pokémon
+cards. They need
+Grass Energy cards
+to use their
+attacks.
 
-[GrassPokemonBreederBookText]
-Many Grass Pokémon evolve
-to Stage 2.
+[GrassPokemonBreederBookText] full-width
+Many Grass Pokémon
+evolve to Stage 2.
 Make good use of
 "Pokémon Breeder"!
-Evolve to Stage 2 quickly, and you
-can use strong attacks sooner!
-Crush your opponent's Pokémon
-with "Venusaur" and "Vileplume"!
+Evolve to Stage 2
+quickly, and you
+can use strong
+attacks sooner!
+Crush your
+opponent's Pokémon
+with "Venusaur"
+and "Vileplume"!
 
-[GrassPokemonDeckBuildingBookText]
-Grass Pokémon have a "Weakness"
+[GrassPokemonDeckBuildingBookText] full-width
+Grass Pokémon
+have a "Weakness"
 to Fire Pokémon.
-Fire Pokémon have a "Weakness" to
-Water, so add some Water Pokémon!
-When your opponent plays a Fire
-Pokémon, hit it with Water!
+Fire Pokémon have
+a "Weakness" to
+Water, so add some
+Water Pokémon!
+When your opponent
+plays a Fire
+Pokémon, hit it
+with Water!
 
-[SciencePokemonBookText]
+[SciencePokemonBookText] full-width
+Traits of science
+Pokémon cards
+Strong against
+Rock and Ground
+Pokémon, weak
+against Psychic.
+Many make your
+opponent's Pokémon
+"Poisoned,"
+"Confused" or
+"Asleep." They
+need Grass Energy
+cards to use their
+attacks.
+
+[SciencePokemonSurefireMethodBookText] full-width
+Many science
+Pokémon attacks
+cause "Poison,"
+"Sleep" or
+"Confusion."
+So put in "Full
+Heal," which
+cures Special
+Conditions!
+Then you're safe
+even if you get
+"Poisoned" or
+"Confused"!
+
+[SciencePokemonDeckBuildingBookText] full-width
+Science Pokémon
+have a "Weakness"
+to Psychic
+Pokémon. Put
+Pokémon with
+"Resistance" to
+Psychic Pokémon
+in your deck!
+"Jigglypuff,"
+"Lickitung" and
+"Snorlax" are good
+choices too!
+
+[WaterPokemonBookText] full-width
+Traits of Water
+Pokémon cards
+Strong against
+Fire Pokémon,
+weak against
+Lightning Pokémon.
+Now and then,
+a card is also
+weak against Grass
+Pokémon cards.
+They need Water
+Energy cards to
+use their attacks.
+
+[WaterPokemonAttacksBookText] full-width
+"Water Gun" and
+"Hydro Pump" are
+attacks whose
+power can change.
+The more Water
+Energy cards you
+attach, the
+stronger they get!
+But the boost only
+goes up to 2 extra
+Water Energy.
+
+[PsyduckGolduckBookText] full-width
+Psyduck and
+Golduck have
+attacks that use
+Psychic Energy.
+When building
+a deck, they go
+well with Psychic
+Pokémon. Try
+putting "Psyduck"
+or "Golduck" in
+a Psychic Pokémon
+deck!
+
+[FirePokemonBookText] full-width
+Traits of Fire
+Pokémon cards
+Strong against
+Grass Pokémon,
+weak against Water
+Pokémon. But now
+and then, a Grass
+Pokémon card isn't
+weak to Fire!
+
+[FirePokemonAttacksBookText] full-width
+Many Fire Pokémon
+attacks make
+you discard
+Fire Energy.
+Put lots of Fire
+Energy in a deck
+built around Fire
+Pokémon cards.
+You could also
+add some "Energy
+Retrieval" cards!
+
+[FirePokemonDeckBuildingBookText] full-width
+Fire Pokémon have
+a "Weakness" to
+Water Pokémon.
+Water Pokémon have
+a "Weakness" to
+Lightning, so add
+Lightning Pokémon!
+When your opponent
+plays a Water
+Pokémon, hit it
+with Lightning!
+
+[LightningPokemonBookText] full-width
 Traits of
-science Pokémon cards
-Strong against Rock and Ground
-Pokémon, weak against Psychic.
-Many make your opponent's Pokémon
-"Poisoned," "Confused" or "Asleep."
-They need Grass Energy cards
-to use their attacks.
+Lightning Pokémon
+cards Strong
+against Water
+Pokémon, weak
+against Fighting
+Pokémon. They need
+Lightning Energy
+cards to use their
+attacks.
 
-[SciencePokemonSurefireMethodBookText]
-Many science Pokémon attacks cause
-"Poison," "Sleep" or "Confusion."
-So put in "Full Heal," which cures
-Special Conditions!
-Then you're safe even if you get
-"Poisoned" or "Confused"!
+[LightningPokemonDeckBuildingBookText] full-width
+Lightning Pokémon
+have a "Weakness"
+to Fighting
+Pokémon. Add
+bird Pokémon with
+"Resistance" to
+Fighting to your
+deck! And Flying
+Pikachu is a
+Lightning Pokémon
+that resists
+Fighting! When a
+Fighting Pokémon
+enters the Arena,
+counter with those
+Pokémon!
 
-[SciencePokemonDeckBuildingBookText]
-Science Pokémon have a "Weakness"
-to Psychic Pokémon.
-Put Pokémon with "Resistance" to
-Psychic Pokémon in your deck!
-"Jigglypuff," "Lickitung" and
-"Snorlax" are good choices too!
+[BirdPokemonBookText] full-width
+Colorless bird
+Pokémon cards They
+have "Resistance"
+to Fighting
+Pokémon, but are
+weak to Lightning.
+They can use
+their attacks with
+Energy cards of
+any type. They
+fly through the
+sky, so they can
+Retreat easily,
+too.
 
-[WaterPokemonBookText]
-Traits of
-Water Pokémon cards
-Strong against Fire Pokémon,
-weak against Lightning Pokémon.
-Now and then, a card is also
-weak against Grass Pokémon cards.
-They need Water Energy cards
-to use their attacks.
+[PsychicPokemonBookText] full-width
+Traits of Psychic
+Pokémon cards A
+Psychic Pokémon's
+"Weakness" is
+other Psychic
+Pokémon cards.
+But some Colorless
+Pokémon cards
+are strong against
+Psychic Pokémon.
+They need Psychic
+Energy cards to
+use their attacks.
 
-[WaterPokemonAttacksBookText]
-"Water Gun" and "Hydro Pump" are
-attacks whose power can change.
-The more Water Energy cards you
-attach, the stronger they get!
-But the boost only goes up to
-2 extra Water Energy.
-
-[PsyduckGolduckBookText]
-Psyduck and Golduck have attacks
-that use Psychic Energy.
-When building a deck, they go well
-with Psychic Pokémon.
-Try putting "Psyduck" or "Golduck"
-in a Psychic Pokémon deck!
-
-[FirePokemonBookText]
-Traits of
-Fire Pokémon cards
-Strong against Grass Pokémon,
-weak against Water Pokémon.
-But now and then, a Grass Pokémon
-card isn't weak to Fire!
-
-[FirePokemonAttacksBookText]
-Many Fire Pokémon attacks make
-you discard Fire Energy.
-Put lots of Fire Energy in a deck
-built around Fire Pokémon cards.
-You could also add some
-"Energy Retrieval" cards!
-
-[FirePokemonDeckBuildingBookText]
-Fire Pokémon have a "Weakness"
-to Water Pokémon.
-Water Pokémon have a "Weakness" to
-Lightning, so add Lightning Pokémon!
-When your opponent plays a Water
-Pokémon, hit it with Lightning!
-
-[LightningPokemonBookText]
-Traits of
-Lightning Pokémon cards
-Strong against Water Pokémon,
-weak against Fighting Pokémon.
-They need Lightning Energy cards
-to use their attacks.
-
-[LightningPokemonDeckBuildingBookText]
-Lightning Pokémon have a "Weakness"
-to Fighting Pokémon.
-Add bird Pokémon with "Resistance"
-to Fighting to your deck!
-And Flying Pikachu is a Lightning
-Pokémon that resists Fighting!
-When a Fighting Pokémon enters the
-Arena, counter with those Pokémon!
-
-[BirdPokemonBookText]
-Colorless
-bird Pokémon cards
-They have "Resistance" to Fighting
-Pokémon, but are weak to Lightning.
-They can use their attacks with
-Energy cards of any type.
-They fly through the sky, so
-they can Retreat easily, too.
-
-[PsychicPokemonBookText]
-Traits of
-Psychic Pokémon cards
-A Psychic Pokémon's "Weakness" is
-other Psychic Pokémon cards.
-But some Colorless Pokémon cards
-are strong against Psychic Pokémon.
-They need Psychic Energy cards
-to use their attacks.
-
-[PsychicPokemonPokemonPowerBookText]
-Many Psychic Pokémon cards
-have Pokémon Powers.
-"Damage Swap," "Invisible Wall,"
-"Strange Behavior" and "Curse"!
-Master these Pokémon Powers, and
-you'll master Psychic Pokémon!
+[PsychicPokemonPokemonPowerBookText] full-width
+Many Psychic
+Pokémon cards have
+Pokémon Powers.
+"Damage Swap,"
+"Invisible Wall,"
+"Strange Behavior"
+and "Curse"!
+Master these
+Pokémon Powers,
+and you'll master
+Psychic Pokémon!

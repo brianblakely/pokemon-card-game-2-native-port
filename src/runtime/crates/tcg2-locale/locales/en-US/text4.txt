@@ -16,25 +16,25 @@ Book
 [DebugReturnToMainText]
 Back to Main
 
-[PauseMenuStatusText]
-Status
+[PauseMenuStatusText] full-width
+Stats
 
-[PauseMenuDiaryText]
+[PauseMenuDiaryText] full-width
 Diary
 
-[PauseMenuDeckText]
+[PauseMenuDeckText] full-width
 Deck
 
-[PauseMenuMinicomText]
+[PauseMenuMinicomText] full-width
 PC
 
-[PauseMenuCoinText]
+[PauseMenuCoinText] full-width
 Coins
 
-[PauseMenuConfigText]
-Settings
+[PauseMenuConfigText] full-width
+Setup
 
-[PauseMenuExitText]
+[PauseMenuExitText] full-width
 Exit
 
 [ConfigTitleText]
@@ -88,10 +88,10 @@ Play Time
 [PlayerDiaryPromptText]
 Write in your diary?
 
-[PlayerDiaryPromptYesText]
+[PlayerDiaryPromptYesText] full-width
 Yes
 
-[PlayerDiaryPromptNoText]
+[PlayerDiaryPromptNoText] full-width
 No
 
 [PlayerStatusCurrentCoinText]
@@ -112,11 +112,11 @@ Glossary
 [PCMenuPrintText]
 Print
 
-[TurnedOnPCText]
+[TurnedOnPCText] full-width
 <RAMNAME> turned on
 the computer!
 
-[TurnedOffPCText]
+[TurnedOffPCText] full-width
 <RAMNAME> turned off
 the computer!
 
@@ -132,7 +132,7 @@ Got the cards!
 [DebugBackgroundFontStateText]
 BG Font State
 
-[DebugForceDuelWinPromptText]
+[DebugForceDuelWinPromptText] full-width
 Win the duel?
 
 [DebugVCounterLabelText]
@@ -168,17 +168,17 @@ Deck Diagnosis
 [TCG2TitleText]
 Pokémon Card GB2
 
-[MainMenuNewGameText]
+[MainMenuNewGameText] full-width
 New Game
 
-[MainMenuContinueFromDiaryText]
+[MainMenuContinueFromDiaryText] full-width
 Continue
 
-[MainMenuCardPopText]
+[MainMenuCardPopText] full-width
 Card Pop!
 
-[MainMenuContinueDuelText]
-Continue Duel
+[MainMenuContinueDuelText] full-width
+Resume
 
 [MainMenuNewGameDialogText]
 Start a new game from the beginning.
@@ -193,21 +193,21 @@ The power was cut during a duel.
 You can pick up the game from
 where the power went out.
 
-[PlayerGenderMaleText]
+[PlayerGenderMaleText] full-width
 Boy
 
-[PlayerGenderFemaleText]
+[PlayerGenderFemaleText] full-width
 Girl
 
-[ChoosePlayerGenderText]
-Are you a boy
-or a girl?
+[ChoosePlayerGenderText] full-width
+Are you a boy or a
+girl?
 
-[ConfirmPlayerGenderMaleText]
-You chose "Boy." Is that OK?
+[ConfirmPlayerGenderMaleText] full-width
+Boy? Is that OK?
 
-[ConfirmPlayerGenderFemaleText]
-You chose "Girl." Is that OK?
+[ConfirmPlayerGenderFemaleText] full-width
+Girl? Is that OK?
 
 [DebugTournamentTableText]
 Tournament Bracket
@@ -218,7 +218,7 @@ Laboratory
 [DebugObjectCharacterDisplayText]
 OBJ NPC Display
 
-[IsThisOKText_2]
+[IsThisOKText_2] full-width
 Is this OK?
 
 [PlayerGenderText]
@@ -230,17 +230,18 @@ Gender
 [ReceptionistText]
 Receptionist
 
-[GameCenterPrizeExchangeWelcomeText]
-Hello!
-Welcome to the Prize Counter!
+[GameCenterPrizeExchangeWelcomeText] full-width
+Hello! Welcome to
+the Prize Counter!
 
 [GameCenterPrizeExchangePromptText]
 Exchange your chips for a prize?
 
-[GameCenterPrizeExchangeChoosePrizeText]
-Please choose a prize.
+[GameCenterPrizeExchangeChoosePrizeText] full-width
+Please choose a
+prize.
 
-[GameCenterNotEnoughChipsText]
+[GameCenterNotEnoughChipsText] full-width
 Not enough chips!
 
 [GameCenterPrizeExchangeConfirmText]
@@ -249,7 +250,7 @@ Do you want this prize?
 [GameCenterPrizeExchangeQuitConfirmText]
 Are you finished exchanging?
 
-[GameCenterPrizeExchangeComeAgainText]
+[GameCenterPrizeExchangeComeAgainText] full-width
 We look forward to
 your next visit!
 
@@ -282,27 +283,31 @@ Start a duel with your friend?
 Thank you for using
 the Battle Center!
 
-[GiftCenterWelcomeText]
-Hello!
-Welcome to the Gift Center!
+[GiftCenterWelcomeText] full-width
+Hello! Welcome to
+the Gift Center!
 
-[GiftCenterServicePromptText]
-How may I
-help you today?
+[GiftCenterServicePromptText] full-width
+How may I help you
+today?
 
 [GiftCenterServiceAcknowledgementText]
 Certainly.
 "<RAMTEXT>" it is.
 
-[GiftCenterServiceSaveRequestText]
-Before you use our service,
-please write in your "Diary."
+[GiftCenterServiceSaveRequestText] full-width
+Before you use our
+service, please
+write in your
+"Diary."
 
-[GiftCenterServiceUnavailableSaveRequiredText]
-Unless you write in your "Diary,"
-you can't use our service.
+[GiftCenterServiceUnavailableSaveRequiredText] full-width
+Unless you write
+in your "Diary,"
+you can't use our
+service.
 
-[GiftCenterComeAgainText]
+[GiftCenterComeAgainText] full-width
 We look forward to
 your next visit!
 
@@ -480,13 +485,14 @@ up matching marks to win chips!
 Line up Rainbow Energy marks to
 go to the Bonus Game!
 
-[PlayerDiarySavedText]
-<RAMNAME>
-wrote in the diary.
+[PlayerDiarySavedText] full-width
+<RAMNAME> wrote in
+the diary.
 
-[PlayerDiaryCancelledText]
-<RAMNAME> decided not to
-write in the diary.
+[PlayerDiaryCancelledText] full-width
+<RAMNAME> decided not
+to write in the
+diary.
 
 [GameCenterCoinFlipTitleText]
 ` Coin Flip Streak `
@@ -497,15 +503,15 @@ flip? Try the coin flip challenge!
 Get 10 in a row and you'll win
 a fabulous prize!
 
-[GameCenterCoinFlipCheersText]
-Aim for 10 in a row.
-Good luck!
+[GameCenterCoinFlipCheersText] full-width
+Aim for 10 in a
+row. Good luck!
 
 [GameCenterCoinFlipDialogText]
 Get 10 in a row to win
 a fabulous prize!
 
-[GameCenterCoinFlipPlayAgainPromptText]
+[GameCenterCoinFlipPlayAgainPromptText] full-width
 Play again?
 
 [GameCenterPrizeExchangeText]
@@ -1792,25 +1798,33 @@ with all sorts of cards!
 [GameCenterBlackBoxStartPromptText]
 Want to play the Black Box?
 
-[GameCenterBlackBoxSaveRequestText]
-Before you play, please
-write in your "Diary."
+[GameCenterBlackBoxSaveRequestText] full-width
+Before you play,
+please write in
+your "Diary."
 
-[GameCenterBlackBoxUnableNotEnoughChipsText]
-The Black Box costs 5 chips a play.
-You don't have enough chips!
+[GameCenterBlackBoxUnableNotEnoughChipsText] full-width
+The Black Box
+costs 5 chips a
+play. You don't
+have enough chips!
 
-[GameCenterBlackBoxUnableLastOutputRemainingText]
-Mail from the Black Box is still
-waiting in your Mailbox.
+[GameCenterBlackBoxUnableLastOutputRemainingText] full-width
+Mail from the
+Black Box is still
+waiting in your
+Mailbox.
 
-[GameCenterBlackBoxUnableLastOutputRemainingTextCont]
-Please read it and get your cards
-first, then come back.
+[GameCenterBlackBoxUnableLastOutputRemainingTextCont] full-width
+Please read it
+and get your cards
+first, then come
+back.
 
-[GameCenterBlackBoxUnableSaveRequiredText]
-You can't play unless you
-write in your "Diary."
+[GameCenterBlackBoxUnableSaveRequiredText] full-width
+You can't play
+unless you write
+in your "Diary."
 
 [GameCenterBlackBoxProcedureText]
 `      Choosing Cards to Send`
@@ -1824,80 +1838,103 @@ write in your "Diary."
 3. Select "Send" and your cards
 `   are all set to be sent.`
 
-[GameCenterBlackBoxProcedureDialogText]
-Here's how to choose the cards
-to send to the Black Box.
+[GameCenterBlackBoxProcedureDialogText] full-width
+Here's how to
+choose the cards
+to send to the
+Black Box.
 
-[GameCenterBlackBoxDoneText]
+[GameCenterBlackBoxDoneText] full-width
 You've sent cards
 to the Black Box!
 
-[GameCenterToBeMailedText]
-The result will arrive in your
-Mailbox. Look forward to it!
+[GameCenterToBeMailedText] full-width
+The result will
+arrive in your
+Mailbox. Look
+forward to it!
 
-[MainMenuNewGameInsteadOfContinueWarning1Text]
-Save data already exists.
+[MainMenuNewGameInsteadOfContinueWarning1Text] full-width
+Save data already
+exists.
 
-[MainMenuNewGameInsteadOfContinueWarning2Text]
-If you start over now,
-you will lose all of your cards.
+[MainMenuNewGameInsteadOfContinueWarning2Text] full-width
+If you start over
+now, you will lose
+all of your cards.
 
-[MainMenuNewGameInsteadOfContinueConfirmPromptText]
+[MainMenuNewGameInsteadOfContinueConfirmPromptText] full-width
 Is that still OK?
 
-[MainMenuNewGameInsteadOfContinueDeletedText]
-All data has been deleted.
+[MainMenuNewGameInsteadOfContinueDeletedText] full-width
+All data has been
+deleted.
 
-[ProloguePlayerRecapLine1Text]
-<RAMNAME> loves collecting
-Pokémon cards.
+[ProloguePlayerRecapLine1Text] full-width
+<RAMNAME> loves
+collecting Pokémon
+cards.
 
-[ProloguePlayerRecapLine2Text]
-To win the Legendary Pokémon Cards
-of this island, <RAMNAME>
+[ProloguePlayerRecapLine2Text] full-width
+To win the
+Legendary Pokémon
+Cards of this
+island, <RAMNAME>
 
-[ProloguePlayerRecapLine3Text]
-took on the 8 Club Masters and
-the guardians of those cards,
+[ProloguePlayerRecapLine3Text] full-width
+took on the 8 Club
+Masters and the
+guardians of those
+cards,
 
-[ProloguePlayerRecapLine4Text]
-the 4 Grand Masters...
+[ProloguePlayerRecapLine4Text] full-width
+the 4 Grand
+Masters...
 
-[ProloguePlayerRecapLine5Text]
-And finally!
-The Grand Masters were defeated,
+[ProloguePlayerRecapLine5Text] full-width
+And finally! The
+Grand Masters were
+defeated,
 
-[ProloguePlayerRecapLine6Text]
-and the 4 Legendary Pokémon Cards
-were won!
+[ProloguePlayerRecapLine6Text] full-width
+and the 4
+Legendary Pokémon
+Cards were won!
 
-[ProloguePlayerRecapLine7Text]
+[ProloguePlayerRecapLine7Text] full-width
 Then, one day...
 trouble struck!
 
-[PrologueGRInvasionLine1Text]
-Suddenly,
-a mysterious gang attacked!
+[PrologueGRInvasionLine1Text] full-width
+Suddenly, a
+mysterious gang
+attacked!
 
-[PrologueGRInvasionLine2Text]
-Their name was "Team GR"!
-Short for "Team Great Rocket"!
+[PrologueGRInvasionLine2Text] full-width
+Their name was
+"Team GR"! Short
+for "Team Great
+Rocket"!
 
-[PrologueGRInvasionLine3Text]
-Team GR attacked the clubs
-and stole their cards!
+[PrologueGRInvasionLine3Text] full-width
+Team GR attacked
+the clubs and
+stole their cards!
 
-[ProloguePlayerToLabLine1Text]
-Robbed of the cards by Team GR,
+[ProloguePlayerToLabLine1Text] full-width
+Robbed of the
+cards by Team GR,
 <RAMNAME> headed for
 
-[ProloguePlayerToLabLine2Text]
-the laboratory of Dr. Mason,
-the Pokémon card researcher,
+[ProloguePlayerToLabLine2Text] full-width
+the laboratory
+of Dr. Mason,
+the Pokémon card
+researcher,
 
-[ProloguePlayerToLabLine3Text]
-to tell him what had happened...
+[ProloguePlayerToLabLine3Text] full-width
+to tell him what
+had happened...
 
 [IntroductionText]
 Introduction
@@ -1923,15 +1960,16 @@ Dark
 [GameCenterBlackBoxSendingHeaderText]
 Sending
 
-[GameCenterBlackBoxConfirmPromptText]
+[GameCenterBlackBoxConfirmPromptText] full-width
 Send these cards?
 
 [GameCenterBlackBoxCancelPromptText]
 Quit the Black Box?
 
-[GameCenterBlackBoxChipsPaidText]
-Now then, we'll take 5 chips
-as the fee.
+[GameCenterBlackBoxChipsPaidText] full-width
+Now then, we'll
+take 5 chips as
+the fee.
 
 [GameCenterCardDungeonBet10Text]
 Bet 10
@@ -1967,29 +2005,40 @@ Win, and the chips you bet double!
 Lose, and your chips are taken,
 and it's game over!
 
-[GameCenterCardDungeonUnableNotEnoughChipsText]
-You need at least 10 chips.
-Please collect more chips.
+[GameCenterCardDungeonUnableNotEnoughChipsText] full-width
+You need at least
+10 chips. Please
+collect more
+chips.
 
-[GameCenterCardDungeonDialogText]
-Keep on dueling and
-collect lots of chips!
+[GameCenterCardDungeonDialogText] full-width
+Keep on dueling
+and collect lots
+of chips!
 
-[MainMenuContinueFromDiaryInsteadOfDuelWarning1Text]
-There's save data from a duel
-interrupted by a power loss.
+[MainMenuContinueFromDiaryInsteadOfDuelWarning1Text] full-width
+There's save
+data from a duel
+interrupted by a
+power loss.
 
-[MainMenuContinueFromDiaryInsteadOfDuelWarning2Text]
-Choose "Continue Duel" to resume
-the duel that was interrupted.
+[MainMenuContinueFromDiaryInsteadOfDuelWarning2Text] full-width
+Choose "Continue
+Duel" to resume
+the duel that was
+interrupted.
 
-[MainMenuContinueFromDiaryInsteadOfDuelWarning3Text]
-If you start now, "Continue Duel"
-will disappear from the menu,
+[MainMenuContinueFromDiaryInsteadOfDuelWarning3Text] full-width
+If you start now,
+"Continue Duel"
+will disappear
+from the menu,
 
-[MainMenuContinueFromDiaryInsteadOfDuelWarning4Text]
-and the game will start from where
-you last wrote in your "Diary."
+[MainMenuContinueFromDiaryInsteadOfDuelWarning4Text] full-width
+and the game will
+start from where
+you last wrote in
+your "Diary."
 
 [MainMenuContinueFromDiaryInsteadOfDuelConfirmText]
 Continue from your Diary?
@@ -2037,14 +2086,16 @@ Club Member <LIGHTNING>
 [OpponentRockFightingClubMemberSimpleText]
 Club Member <FIGHTING>
 
-[ChallengeMachineOpponentListDialogText]
-Here are your opponents this time.
+[ChallengeMachineOpponentListDialogText] full-width
+Here are your
+opponents this
+time.
 
 [ChallengeMachineOpponent1DialogText]
 <RAMNAME> is on a <RAMNUM>-win streak!
 First up is <RAMTEXT>.
 
-[ChallengeMachineDuelPromptText]
+[ChallengeMachineDuelPromptText] full-width
 Start the duel?
 
 [ChallengeMachineOpponentGrandMasterText]
@@ -2071,9 +2122,10 @@ You beat <RAMTEXT>!
 Opponent <RAMNUM>:
 You lost to <RAMTEXT>!
 
-[ChallengeMachineLossDialogWinStreakText]
-<RAMNAME>'s win streak
-ended at <RAMNUM>.
+[ChallengeMachineLossDialogWinStreakText] full-width
+<RAMNAME>'s win
+streak ended at
+<RAMNUM>.
 
 [DebugCreditsText]
 Credits
@@ -2345,9 +2397,11 @@ Clear Mail
 [ObtainedGRCoinPieceTotalNumberText]
 That makes <RAMNUM> GR Coin pieces!
 
-[ChallengeMachineQuitWinStreakWarningText]
-If you quit the duel, your win
-streak will come to an end.
+[ChallengeMachineQuitWinStreakWarningText] full-width
+If you quit the
+duel, your win
+streak will come
+to an end.
 
 [ChallengeMachineQuitPromptText]
 Do you still want to quit?
@@ -2356,25 +2410,31 @@ Do you still want to quit?
 Congratulations!
 You beat all 5 opponents!
 
-[ChallengeMachineSetsWonText]
-<RAMNAME> has beaten 5 in a row
-a total of <RAMNUM> times!!
+[ChallengeMachineSetsWonText] full-width
+<RAMNAME> has beaten
+5 in a row a total
+of <RAMNUM> times!!
 
-[ChallengeMachineComeAgainText]
-We look forward to
-your next challenge!
+[ChallengeMachineComeAgainText] full-width
+We look forward
+to your next
+challenge!
 
-[OpenedBoosterPackText]
-<RAMNAME> looked inside
-the booster pack!!
+[OpenedBoosterPackText] full-width
+<RAMNAME> looked
+inside the booster
+pack!!
 
-[NoCardsSelectedTryAgainText]
-No cards have been chosen.
-Please choose again.
+[NoCardsSelectedTryAgainText] full-width
+No cards have been
+chosen. Please
+choose again.
 
-[GameCenterToBeMailedText_2]
-The result will arrive in your
-Mailbox. Look forward to it!
+[GameCenterToBeMailedText_2] full-width
+The result will
+arrive in your
+Mailbox. Look
+forward to it!
 
 [DebugDummyLinesText]
 Dummy line!
