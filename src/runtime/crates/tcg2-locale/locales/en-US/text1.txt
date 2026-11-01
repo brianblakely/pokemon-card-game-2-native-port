@@ -398,7 +398,7 @@ Pokémon left
 Deck
 
 [NoneText]
-None
+No
 
 [YesText]
 Yes

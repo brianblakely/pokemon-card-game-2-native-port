@@ -14,7 +14,8 @@
 //! frame, `--load-state PATH` starts from one. `--call FRAME:ROUTINE` calls one of the game's bank-0
 //! routines from its frame wait at that frame (`CallStartupDebugMenu` opens
 //! the game's own debug menu, whose sixth item starts a duel against a
-//! random opponent). `--language TAG` picks the game's language (`en-US`,
+//! random opponent); `ROUTINE,a=02,bc=0000` sets registers (hex) first, so
+//! `EmptyScreenAndLoadScene,a=02` shows scene 2. `--language TAG` picks the game's language (`en-US`,
 //! the default, or `ja`, the ROM's own text); `--switch-language FRAME:TAG`
 //! switches to another at that frame, as the app's F9 does. The run reports
 //! the host CPU time it took per second of game time.

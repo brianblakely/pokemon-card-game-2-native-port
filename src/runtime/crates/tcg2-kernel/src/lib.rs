@@ -153,14 +153,39 @@ pub fn label(name: &str) -> Option<(u16, u16)> {
 /// frame, as if that wait had called it: the routine runs as the next code
 /// and returns into the wait. Only bank 0 routines (which reach other banks
 /// through the game's own far calls, as `CallStartupDebugMenu` does).
+/// `Routine,a=02,bc=0601` sets registers (hex) first, for a routine that
+/// takes arguments: `EmptyScreenAndLoadScene,a=02` shows scene 2.
 /// For tests and tools: the game's debug menus, say.
-pub fn call_routine(m: &mut Machine, name: &str) -> Result<(), String> {
+pub fn call_routine(m: &mut Machine, call: &str) -> Result<(), String> {
+    let mut parts = call.split(',');
+    let name = parts.next().unwrap_or_default();
     let (_, addr) = label(name).ok_or(format!("no routine {name}"))?;
     if addr >= 0x4000 {
         return Err(format!("{name} is not in bank 0"));
     }
     if !m.cpu.halted || !m.cpu.ime {
         return Err("the game is not waiting for a frame".into());
+    }
+    for register in parts {
+        let bad = || format!("{register:?}: expected a register, '=', a hex value");
+        let (r, value) = register.split_once('=').ok_or_else(bad)?;
+        let value = u16::from_str_radix(value, 16).map_err(|_| bad())?;
+        let c = &mut m.cpu;
+        let (high, low) = ((value >> 8) as u8, value as u8);
+        match r {
+            "a" | "b" | "c" | "d" | "e" | "h" | "l" if value > 0xff => return Err(bad()),
+            "a" => c.a = low,
+            "b" => c.b = low,
+            "c" => c.c = low,
+            "d" => c.d = low,
+            "e" => c.e = low,
+            "h" => c.h = low,
+            "l" => c.l = low,
+            "bc" => (c.b, c.c) = (high, low),
+            "de" => (c.d, c.e) = (high, low),
+            "hl" => (c.h, c.l) = (high, low),
+            _ => return Err(bad()),
+        }
     }
     m.cpu.halted = false;
     let resume = m.cpu.pc;

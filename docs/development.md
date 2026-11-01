@@ -96,6 +96,23 @@ frame-function stack has been unbalanced by running a startup menu outside
 startup, so the game soon calls a stale frame function. The console would do
 the same, and the interpreter agrees.
 
+**Scenes.** `--call FRAME:ROUTINE,a=02,bc=0000` sets registers (hex) before
+the call. That shows any of the game's scenes (`SCENE_*` in
+`src/decomp/src/constants/scene_constants.asm`) as the game draws them, such
+as a booster pack's art that only the story reaches. Park the start menu in a
+text wait first, so its cursor stays off the picture, and turn on sprite
+animation:
+
+```sh
+$H --rom ../../rom/poketcg2.gbc --sram ../../build/save-7.sav --frames 1240 \
+   --press 700:start --press 1000:start --call 1150:WaitForPlayerToAdvanceText \
+   --call 1155:Func_3e4f --call 1160:EmptyScreenAndLoadScene,a=02 --screenshot ../../build/pack.png
+```
+
+`EmptyScreenAndLoadScene` puts a scene at the top left (its clearing
+overwrites `bc`), and the text wait's arrow blinks in the bottom right
+corner.
+
 **Windows.** The cross-built `tcg2-headless.exe` under Wine (`nixpkgs#wine64`,
 with `WINEDLLOVERRIDES="mscoree,mshtml="`) ends on the same clock and
 memory hash as the Linux build. `pokemon-tcg2.exe` with `SDL3.dll` beside it

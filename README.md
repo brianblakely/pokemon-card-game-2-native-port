@@ -155,8 +155,9 @@ Press F9 while playing to switch, or set `language` in `settings.ini` (or
 - **Pictures with lettering** are redrawn in English: a duel's turn and setup
   banners, the play area's location labels, the win, lose and draw stamps at
   a duel's end, and the slot machine's signs. A few others keep their Japanese
-  lettering: the title logo, the booster pack art, the special-rules banner
-  and the Card Pop! scene.
+  lettering: the title logo and the opening's booster packs, the booster pack
+  art, the special-rules banner, the Card Pop! and Rare Card Pop! screens and
+  the deck diagnosis title.
 
 ## Building
 

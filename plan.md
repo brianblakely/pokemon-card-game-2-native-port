@@ -31,7 +31,9 @@ built around it carries the game to new platforms without changing it.
 - **More languages:** each is a folder of translation files, a font and
   redrawn pictures (`src/runtime/crates/tcg2-locale/locales/`).
 - **The remaining pictures with Japanese lettering** in English: the title
-  logo, booster pack art, the special-rules banner and the Card Pop! scene.
+  logo and the opening's booster packs, booster pack art, the special-rules
+  banner, the Card Pop! and Rare Card Pop! screens and the deck diagnosis
+  title.
 - **Lower power still:** batch two or more frames per wake-up while the
   picture is static and no input arrives, at the cost of a little sound
   latency.
