@@ -223,7 +223,7 @@ OBJ NPC Display
 [IsThisOKText_2] full-width
 Is this OK?
 
-[PlayerGenderText] full-width
+[PlayerGenderText]
 Gender
 
 [CardsUnitHiraganaText]

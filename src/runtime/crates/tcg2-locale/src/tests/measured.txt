@@ -284,8 +284,9 @@ DrawConfigMenu	ConfigMessageSpeedFastLabelText	3	1
 # name (14), the labels before their values (3 to 9: up to a blank before
 # the value, as the Japanese leaves one; the name and a count of 100 cards
 # start in the value's first tile), the blank unit after the counts, the
-# hero's confirmation (Name and Gender), the chips' label (6), the start
-# menu's descriptions (three lines of 18), the PC's prompt (the bottom box).
+# hero's confirmation (Name and Gender, one size: Name can't be full-width),
+# the chips' label (6), the start menu's descriptions (three lines of 18),
+# the PC's prompt (the bottom box).
 DrawDiaryStatusBox	PlayerDiaryTitleText	14	1
 DrawDiaryStatusBox	PlayerDiaryNameText	3	1
 DrawStatusScreenTopBox	PlayerDiaryNameText	3	1
@@ -301,8 +302,8 @@ TurnOnCurChipsHUD	CardsAndChipsUnitText	1	1
 _StartMenuBoxUpdate	CardsAndChipsUnitText	4	1
 DrawDiaryStatusBox	CardsAndChipsUnitText	1	1
 DrawGameCenterPrizeExchangeMenu	CardsAndChipsUnitText	1	1
-ConfirmPlayerNameAndGender	PlayerDiaryNameText	17	1
-ConfirmPlayerNameAndGender	PlayerGenderText	10	1
+ConfirmPlayerNameAndGender	PlayerDiaryNameText	17	1	hero_labels
+ConfirmPlayerNameAndGender	PlayerGenderText	10	1	hero_labels
 TurnOnCurChipsHUD	ChipsText	6	1
 _StartMenuBoxUpdate	MainMenuNewGameDialogText	18	3
 _StartMenuBoxUpdate	MainMenuCardPopDialogText	18	3
