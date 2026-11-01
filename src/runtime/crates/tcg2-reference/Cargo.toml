@@ -1,0 +1,21 @@
+[package]
+name = "tcg2-reference"
+description = "Test tooling only: an independent SM83 interpreter on tcg2-core's machine, run in lockstep with the translated kernel to check the translation instruction for instruction"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "tcg2-lockstep"
+path = "src/main.rs"
+
+[[bin]]
+name = "tcg2-libretro"
+path = "src/libretro.rs"
+
+[dependencies]
+png.workspace = true
+tcg2-core = { path = "../tcg2-core" }
+tcg2-kernel = { path = "../tcg2-kernel" }

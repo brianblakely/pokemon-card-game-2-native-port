@@ -1,0 +1,33 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.97"
+license = "MIT"
+publish = false
+
+# SDL3 3.4.14 (with its pixel-art scaling): the same pin as the sibling
+# Xenogears: Ex Machina runtime.
+[workspace.dependencies]
+sdl3-sys = { version = "=0.6.8" }
+png = { version = "0.18.1" }
+sha1 = { version = "0.11" }
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 2
+
+# The generated kernel is large; optimize it even in debug builds so a debug
+# host still runs the game at full speed.
+[profile.dev.package.tcg2-kernel]
+opt-level = 2
+debug = 0
+
+[profile.release]
+lto = "thin"
+codegen-units = 16

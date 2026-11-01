@@ -1,0 +1,8 @@
+[package]
+name = "tcg2-render"
+description = "The look of the 160x144 picture: scaling filter, fit, GBC LCD colours and frame blending, prepared on the CPU only when the picture changes"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true

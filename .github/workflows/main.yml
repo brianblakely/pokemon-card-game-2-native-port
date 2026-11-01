@@ -1,9 +1,17 @@
-name: CI
+name: Decomp
+
+# The disassembly in src/decomp builds the original ROM byte for byte.
 
 on:
   push:
     branches: [ master ]
+    paths: [ 'src/decomp/**', '.github/workflows/main.yml', '.github/webhook.sh' ]
   pull_request:
+    paths: [ 'src/decomp/**', '.github/workflows/main.yml' ]
+
+defaults:
+  run:
+    working-directory: src/decomp
 
 jobs:
   build:
@@ -15,12 +23,12 @@ jobs:
       - name: Checkout rgbds
         uses: actions/checkout@v7
         with:
-          path: rgbds
+          path: src/decomp/rgbds
           ref: v1.0.4
           repository: gbdev/rgbds
 
       - name: Install rgbds
-        working-directory: rgbds
+        working-directory: src/decomp/rgbds
         run: |
           sudo apt-get update
           sudo apt-get install -yq libpng-dev
@@ -55,13 +63,13 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          .github/webhook.sh
+          ../../.github/webhook.sh
 
       - name: Checkout symbols
         if: ${{ github.event_name == 'push' && github.repository_owner == 'pret' }}
         uses: actions/checkout@v7
         with:
-          path: symbols
+          path: src/decomp/symbols
           ref: symbols
 
       - name: Move symbols
@@ -74,6 +82,6 @@ jobs:
         uses: EndBug/add-and-commit@v10
         with:
           branch: symbols
-          cwd: "./symbols"
+          cwd: "./src/decomp/symbols"
           add: "*.sym"
           message: ${{ github.event.commits[0].message }}

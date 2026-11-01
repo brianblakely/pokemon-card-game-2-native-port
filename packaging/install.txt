@@ -1,0 +1,53 @@
+Pokémon Card GB2 - native port
+==============================
+
+This is the game's own program, translated to native code, running without
+an emulator. It does not contain the game's graphics, text, music or cards:
+it reads them from your own copy of the game.
+
+1. Put your ROM of "Pokémon Card GB2 - GR Dan Sanjou! (J)" (2 MiB,
+   SHA-1 a7e12bcc5f514e3aad8de570fd511aab0a308822) in the rom/ folder
+   beside the program. The file name does not matter.
+2. Start pokemon-tcg2 (pokemon-tcg2.exe on Windows, the app on macOS).
+
+Your battery saves go to saves/ (poketcg2.sav, the same format emulators
+use, so an existing save can be copied in), screenshots to screenshots/ and
+settings to settings.ini, all in this folder. If the folder is not writable
+the app uses your user data folder instead. On macOS the folder beside the
+app is used only when it holds a rom/ folder; otherwise the files live in
+~/Library/Application Support/pokemon-card-game-2-native-port/pokemon-tcg2/.
+
+Controls
+  D-pad      arrow keys or W A S D
+  A          X or K
+  B          Z or J
+  Start      Enter
+  Select     Backspace or right Shift
+  Gamepads work as the console's pad (A on the right face button).
+
+  F11 or Alt+Enter   fullscreen          F1  scaling: sharp/nearest/smooth
+  F2                 LCD colours         F3  frame blending
+  F4                 fit: aspect/integer/stretch
+  F5 / F7            save / load a state  F12 screenshot     P   pause
+  hold Tab           fast-forward
+
+Settings (settings.ini, or --set key=value on the command line)
+  filter = sharp | nearest | smooth
+  fit = aspect | integer | stretch
+  lcd_colours, frame_blending, fullscreen, pause_hidden = true | false
+  volume = 0-100
+  speed = exact (the console's 59.73 Hz) | display (match a ~60 Hz display)
+  max_fps = the most pictures shown per second (0 = every new picture)
+  window = WIDTHxHEIGHT
+
+Linux: run pokemon-tcg2 from this folder. It needs glibc 2.31 or newer
+(any distribution since 2020) and uses the system's own graphics, sound
+and input libraries. tcg2-headless is the command-line runner.
+Windows: keep the included DLLs beside pokemon-tcg2.exe.
+macOS: the app is ad-hoc signed, not notarized: open it with right-click,
+Open the first time.
+
+tcg2-headless runs the game without a window (for tests and benchmarks),
+for example: tcg2-headless --rom rom/poketcg2.gbc --frames 600.
+
+No ROM, graphics, music or other game data is included.

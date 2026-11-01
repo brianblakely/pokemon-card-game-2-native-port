@@ -1,0 +1,33 @@
+# Pokémon TCG 2 [![Build Status][ci-badge]][ci]
+
+This is a disassembly of Pokémon TCG 2.
+
+> In this repository the disassembly lives in `src/decomp/` (run `make` here,
+> or `make -C src/decomp` from the root; `nix develop path:../../nix` gives the
+> pinned RGBDS). It is the native port's only implementation of the game: the
+> port translates it to Rust at build time without changing it. See the
+> [root README](../../README.md).
+
+It builds the following ROM:
+
+- Pokémon Card GB2 - GR Dan Sanjou! (J) [C][!].gbc `sha1: a7e12bcc5f514e3aad8de570fd511aab0a308822`
+
+To assemble, first install [RGBDS](https://github.com/gbdev/rgbds/releases) and put it in your path.  
+Then run `make` in your shell.
+
+This will output a file named "poketcg2.gbc".
+
+
+## See also
+
+- [**Symbols**][symbols]
+- [**Tools**][tools]
+
+You can find us on [Discord (pret, #poketcg)](https://discord.gg/d5dubZ3).
+
+For other pret projects, see [pret.github.io](https://pret.github.io/).
+
+[symbols]: https://github.com/pret/poketcg2/tree/symbols
+[tools]: https://github.com/pret/gb-asm-tools
+[ci]: https://github.com/pret/poketcg2/actions
+[ci-badge]: https://github.com/pret/poketcg2/actions/workflows/main.yml/badge.svg

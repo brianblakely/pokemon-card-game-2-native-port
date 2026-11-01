@@ -25,3 +25,12 @@
 
 # *disasm.py output file
 *disasm_output.asm
+
+# the original, legally-obtained game ROM (the native app loads its
+# proprietary assets from here at runtime; never commit it)
+rom/
+
+# native port build outputs
+/build/
+/src/runtime/target*/
+/dist/

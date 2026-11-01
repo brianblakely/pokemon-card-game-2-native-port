@@ -1,0 +1,14 @@
+Pokémon Card GB2 native port — dependency notices
+
+The app contains no game data; it reads the player's own ROM at run time.
+
+{{#each licenses}}
+{{name}}
+Used by:
+{{#each used_by}}
+  {{crate.name}} {{crate.version}} — {{crate.repository}}
+{{/each}}
+
+{{{text}}}
+
+{{/each}}

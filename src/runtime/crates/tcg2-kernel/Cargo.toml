@@ -1,0 +1,15 @@
+[package]
+name = "tcg2-kernel"
+description = "The game's program, translated to Rust from src/decomp at build time, with the dispatcher that runs it on tcg2-core's machine"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+build = "build.rs"
+
+[dependencies]
+tcg2-core = { path = "../tcg2-core" }
+
+[build-dependencies]
+tcg2-recomp = { path = "../tcg2-recomp" }

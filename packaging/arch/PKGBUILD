@@ -1,0 +1,36 @@
+# Builds the native port from source on Arch Linux, against the system's
+# SDL3 (so any GPU driver, NVIDIA's included, is used).
+# The package contains no game data: put your own ROM in
+# ~/.local/share/pokemon-card-game-2-native-port/pokemon-tcg2/rom/.
+#
+#   cd packaging/arch && makepkg -si
+pkgname=pokemon-tcg2-native
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Pokémon Card GB2 as a native program (translated from the pret disassembly); needs your own ROM"
+arch=('x86_64' 'aarch64')
+url="https://github.com/brianblakely/pokemon-card-game-2-native-port"
+license=('MIT')
+depends=('sdl3' 'gcc-libs' 'glibc')
+makedepends=('rust' 'rgbds' 'make' 'gcc' 'git')
+source=("$pkgname::git+file://$(realpath ../..)")
+sha256sums=('SKIP')
+
+build() {
+    cd "$srcdir/$pkgname/src/runtime"
+    export CARGO_TARGET_DIR=target
+    cargo build --release --locked -p tcg2-desktop -p tcg2-headless
+}
+
+check() {
+    cd "$srcdir/$pkgname/src/runtime"
+    cargo test --release --locked -p tcg2-core -p tcg2-recomp -p tcg2-render
+}
+
+package() {
+    cd "$srcdir/$pkgname"
+    install -Dm755 src/runtime/target/release/pokemon-tcg2 "$pkgdir/usr/bin/pokemon-tcg2"
+    install -Dm755 src/runtime/target/release/tcg2-headless "$pkgdir/usr/bin/tcg2-headless"
+    install -Dm644 packaging/install.txt "$pkgdir/usr/share/doc/$pkgname/README.txt"
+    install -Dm644 packaging/arch/pokemon-tcg2.desktop "$pkgdir/usr/share/applications/pokemon-tcg2.desktop"
+}

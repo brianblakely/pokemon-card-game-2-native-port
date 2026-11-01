@@ -1,0 +1,220 @@
+# Runtime
+
+How the port turns `src/decomp` into a native program, and how that program
+runs. The decomp is the only implementation of the game. It is never edited for
+the port: everything the port needs lives in `src/runtime` and the build
+tooling. A change to `src/decomp` is made only for the original game, and its
+build must still match `rom.sha1`.
+
+## Foundations
+
+| Decision | Choice |
+| --- | --- |
+| Rust workspace | `src/runtime/` (`Cargo.toml`, crates in `src/runtime/crates/*`, committed `Cargo.lock`) |
+| Toolchain | `nix develop path:./nix/runtime`: Rust 1.97.1 (rust-overlay), RGBDS 1.0.4, SDL3 3.4.14; `#windows` adds the MinGW cross toolchain and SDL3; `#linux` builds the release with zig against glibc 2.31 |
+| Decomp toolchain | `nix develop path:./nix`: RGBDS 1.0.4, GCC, make, Python |
+| Versions | sdl3-sys =0.6.8 (SDL 3.4.14, the sibling project's pin). The only graphics library is SDL's own 2D renderer |
+| Game data | Read from the player's ROM at run time. SHA-1 `a7e12bcc5f514e3aad8de570fd511aab0a308822` is checked before boot. Builds contain code only |
+
+## Translation (`tcg2-recomp`)
+
+The kernel crate's build script runs the translator. `tcg2-recomp --out DIR` does
+the same by hand.
+
+1. **Annotated build.** The decomp is mirrored into `OUT_DIR/decomp`, keeping
+   modification times so make sees what is current. Every source file is
+   scanned:
+   - Every statement is classified as code (an SM83 mnemonic, or a macro whose
+     body emits an instruction first, such as `farcall` or `start_script`),
+     data (`db`, `dw`, `ds`, `INCBIN`, or data macros) or neither.
+   - Each label is classified by the first statement after it.
+   - At every unlabelled change between code and data, a local label is injected
+     (`.tcg2_code_N` or `.tcg2_data_N`).
+   - Macros are classified from their own bodies, both `MACRO name` and
+     `MACRO? name` forms. Block comments are ignored.
+
+   Labels emit no bytes, so the annotated ROM must still match `rom.sha1`, and
+   the build checks it. Its symbol file gives the address of every label and
+   every injected boundary.
+2. **Discovery.** Recursive descent decodes every instruction reachable from
+   these seeds: the reset and interrupt vectors, `$0100`, every code label, and
+   every injected code boundary. It follows direct jumps and calls, and the far
+   calls' inline targets (`rst $28`: bank and address; `rst $18`: an address in
+   bank 1). Execution after a call or `rst` continues past their inline
+   operands. A call that is directly followed by data does not fall through,
+   because its callee consumes that data: `call StartScript` is followed by
+   script bytecode. Code resumes after the script's `quit_script` at an injected
+   `.tcg2_code_N`, reached only through the script engine's return. Code that
+   falls through into data is translated anyway, since the console runs it, and
+   reported. All 83 such reports are one original bug: `HandleCheckMenuInput_Bank06`
+   calls `PlaySFXConfirmOrCancel` while bank 06 is mapped, so the console runs
+   bank 06's attack-animation data at `$5328` as instructions.
+3. **Code generation.** Each bank becomes a module, and each global label
+   becomes a function: `fn label_BBAAAA(m: &mut Machine, pc: u16) -> u16`.
+   The function is a `loop { match pc { … } }` over its blocks, with one arm per
+   block start. Each instruction becomes the statements that do what it does,
+   with the original instruction, symbolised, as a comment:
+   - **Flags:** set by `tcg2_core::cpu`'s helpers, bit for bit, including H and N.
+   - **Cycles:** added to the clock. They are batched and flushed before any
+     access a device observes: I/O, VRAM, OAM and every computed address.
+   - **Static accesses:** reads and writes of work RAM, high RAM and ROM at
+     constant addresses index the arrays directly.
+   - **Transfers within the function:** `local!` sets `pc` and continues the
+     loop, unless the clock has reached the next event; then it returns to the
+     dispatcher.
+   - **Everything else** returns the next address: calls (after pushing the
+     return address), returns (popping it), `jp hl`, `rst`, other functions and
+     other banks.
+   - **ROM bank switches:** a store to the MBC's bank register in bank 1+ code
+     ends its block, so the next instruction comes from the new bank.
+
+   The generated code is about 615,000 lines and compiles in about 35 s.
+4. **Tables.** Every block start of every bank is listed with its function. The
+   output also includes the RAM routines (`hDMAFunction` is a copy of `DMA`)
+   and the global labels for diagnostics.
+
+## The dispatcher (`tcg2-kernel`)
+
+`Kernel::run_frame` loops until the frame ends:
+
+1. **Events.** If the clock has reached the next event, it runs device events
+   (LCD, timer, serial). If the frame ended, it returns to the host. Otherwise
+   it takes a requested, enabled interrupt by pushing the address it was going
+   to run and entering the vector.
+2. **Halt.** If the CPU is halted, it skips the clock to the next event. This
+   is where a frame's idle time goes: zero host time.
+3. **Dispatch.** Otherwise it looks up the function for `pc`. Banked addresses
+   use the current MBC bank's table. It runs the function and continues at the
+   address it returns.
+
+Code in RAM is handled two ways:
+
+- `jp nn` trampolines (the game's VBlank and LCD interrupt hooks in WRAM) jump
+  straight to their target.
+- The OAM DMA routine in HRAM runs its ROM translation while HRAM still holds
+  the same bytes.
+
+An address with no translation, or bytes that are no instruction, stops the
+game with a fault that names the nearest label.
+
+Interrupts are taken between blocks, a few cycles later than the console takes
+them. `ei` and `reti` make the dispatcher look again at its next boundary.
+
+## The machine (`tcg2-core`)
+
+One clock counts units of 1/8,388,608 s: a CPU cycle at double speed, half of
+one at normal speed. `stop` with KEY1 armed switches speed and resets DIV.
+
+**Memory.** Accesses to work RAM bank 0 (the stack and most variables) happen
+in place. Every other access is one call:
+
+- ROM bank 0 and the mapped bank;
+- VRAM (two banks), cartridge RAM (4 banks, battery-backed), WRAM banks 1-7;
+- OAM, I/O and HRAM.
+
+The `rom/` image is shared (`Arc`), so a machine clones cheaply. Tests rely on
+this.
+
+**LCD (`ppu.rs`).**
+- LY and STAT's mode are computed from the clock since the LCD was switched on:
+  154 lines of 912 units, with mode 2 for 80 dots and mode 3 for 172.
+- Vertical blank and the STAT sources (mode 0, mode 2, LY=LYC) are scheduled
+  events.
+- Lines are drawn on demand. Before any write that changes something visible
+  (VRAM, OAM, palettes, LCDC, scroll, window), every line the beam has begun is
+  drawn with the state it saw. A line is drawn with the state at the start of
+  its mode 3. This reproduces the duel's LY-timed wavy scroll (`DistortScreen`)
+  exactly.
+- A frame is only drawn when something visible changed since the framebuffer
+  was made. A change mid-frame redraws the next frame in full too, because the
+  lines above it kept the old state. Unchanged lines still advance the window's
+  line counter.
+- Rendering is CGB mode only (the cartridge is CGB-only): BG and window tile
+  attributes, ten sprites per line in OAM order, BG-over-OBJ priority, and LCDC
+  bit 0 master priority.
+- Tile rows decode eight pixels at once through a 256-entry bit-spreading table.
+  The LCD switched off shows white.
+
+**Sound (`apu.rs`).**
+- The four channels have duty, envelope, length and sweep, wave RAM with volume
+  shift, 7/15-bit noise, the 512 Hz frame sequencer, NR50/NR51 mixing, and the
+  output capacitor's high-pass filter.
+- Each register write first renders everything before its clock.
+- Each channel walks its own timer from one level change to the next. Only the
+  changes are recorded, as steps at their exact time. A step inside a sample
+  counts for the part of that sample after it (a box filter), and the output is
+  the running sum.
+- Cost: one step per audible waveform edge, plus an add and the filter per
+  48 kHz sample.
+- `silent` (every DAC off) lets the host pause its device.
+
+**Timer.** DIV and TIMA are computed from the clock. TIMA's overflow is an
+event. The game's timer interrupt (about 241 Hz) runs its link and sound
+engines.
+
+**Link ports.**
+- Serial: an internally clocked transfer completes after 8 bit times and
+  receives `$FF`, as with no cable. An externally clocked one never completes.
+- Infrared (`RP`) never sees light.
+
+## The desktop host (`tcg2-desktop`)
+
+The host runs one loop:
+
+1. **Sleep.** `SDL_WaitEventTimeout` sleeps until the next frame is due or an
+   event arrives. While paused, or while minimised with `pause_hidden`, it
+   blocks with no timeout at all.
+2. **Run.** It reads input from SDL's keyboard and gamepad state, then runs each
+   frame that is due. At most 5 frames run per wake-up, then the clock resyncs.
+3. **Sound.** Each frame's sound is queued to an SDL3 audio stream. A
+   resampling ratio within 0.5% holds the queue near 3 frames against drift
+   between the system clock and the sound card's. The device period is 1024
+   frames.
+4. **Present.** If the picture changed, or the window needs it, the picture is
+   presented with SDL's 2D renderer (Direct3D 11/12 on Windows, Metal on
+   macOS, OpenGL or Vulkan on Linux): one 160×144 streaming texture, scaled
+   into the window with vsync. `max_fps` caps how often this happens.
+
+The picture is scaled by SDL with *sharp* (`SDL_SCALEMODE_PIXELART`: square
+pixels at fractional scales), *nearest* or *smooth* (bilinear) sampling, and
+`tcg2-render` fits it by aspect, integer multiples or stretch. Options, applied
+by `tcg2-render` on the CPU to each new picture (23,040 pixels, a few
+microseconds) and not at all while it is still:
+
+- GBC LCD colour correction (linear-light mix, after Near's matrix; a table of
+  all 32,768 console colours, built on first use);
+- frame blending (half of the previous picture).
+
+Pacing is `speed = exact` (59.7275 Hz, the console's rate) by default.
+`speed = display` runs the game at a 60 Hz display's own rate when that rate is
+within 1.5%, so each frame is shown exactly once.
+
+Files sit beside the executable (beside the `.app` on macOS), or in SDL's
+per-user folder when that isn't writable: `rom/`, `saves/poketcg2.sav`,
+`screenshots/` and `settings.ini`. `TCG2_HOME` overrides the location.
+Battery RAM is written atomically, 0.75 s after the game last changed it, and on
+exit.
+
+## Save states
+
+`Machine::save_state` and `load_state` (`tcg2-core/src/state.rs`) serialise every
+field of the machine: registers, clock, memory, and each device's internal
+state. The format is a magic and version followed by fixed little-endian
+fields, about 175 KB. A state is complete because the dispatcher keeps none
+of the game's state outside the machine: it resumes at `cpu.pc` and keeps no
+native stack. Loading resets the sound output's sample origin to the state's
+time and refreshes the picture. Battery RAM in a state counts as changed, so
+the host writes it to the save file.
+
+## Known differences from the console
+
+- Interrupts are taken at block boundaries, a few cycles late. A palette
+  fade in the intro lands a few dozen cycles differently against the beam from
+  SameBoy, so one frame differs.
+- Frame boundaries restart when the LCD is switched on, so frame numbers drift
+  against other emulators around LCD-off loads. The content stays the same.
+- HDMA is done at once (the game never uses it). OAM DMA is instant (the
+  game's wait loop still takes its time).
+- Code that writes the MBC's bank register through a computed address, in bank
+  1+ code, keeps running its block from the old bank until the block ends. The
+  game never does this.

@@ -1,0 +1,7 @@
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+extend-exclude = ["rom", "build", "dist", "src/decomp"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

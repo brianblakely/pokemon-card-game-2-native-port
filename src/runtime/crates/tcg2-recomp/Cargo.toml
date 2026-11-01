@@ -1,0 +1,12 @@
+[package]
+name = "tcg2-recomp"
+description = "Translates the decomp's assembled SM83 program (src/decomp's matched ROM, symbols and sources) into the Rust kernel"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "tcg2-recomp"
+path = "src/main.rs"

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Pokémon Card GB2
+Comment=Native port of Pokémon Card GB2 (needs your own ROM)
+Exec=pokemon-tcg2
+Terminal=false
+Categories=Game;CardGame;

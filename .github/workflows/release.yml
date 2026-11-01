@@ -1,0 +1,200 @@
+name: Portable releases
+on:
+  push:
+    branches: [master, 'release/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Never cancel a release because another commit arrived. Version reservation
+# is atomic, and reruns of a commit reuse its tag.
+concurrency:
+  group: release-${{ github.sha }}
+  cancel-in-progress: false
+
+jobs:
+  changes:
+    runs-on: ubuntu-24.04
+    outputs:
+      native: ${{ steps.inputs.outputs.changed }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Check native app inputs before reserving a version
+        id: inputs
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = push ] && [ "$GITHUB_REF" = refs/heads/master ]; then
+            python3 tools/release/version.py --commit "$GITHUB_SHA" --check-native-since "$BEFORE"
+          else
+            # Explicit rebuilds and release branches still run qualification.
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+
+  prepare:
+    needs: changes
+    if: needs.changes.outputs.native == 'true'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    outputs:
+      tag: ${{ steps.version.outputs.tag }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Make room for the pinned toolchains
+        run: sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL /usr/share/swift
+      - uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+      - name: Reserve version (first release is v0.1)
+        id: version
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PUBLISH: ${{ github.ref == 'refs/heads/master' }}
+        run: |
+          flags=()
+          if [ "$PUBLISH" != true ]; then flags+=(--preview); fi
+          python3 tools/release/version.py --repository "$GITHUB_REPOSITORY" --commit "$GITHUB_SHA" "${flags[@]}"
+      - name: Translate the decomp, audit licenses and archive the source
+        env:
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          nix develop path:./nix/runtime#release -c bash -c 'cd src/runtime && cargo run --release --locked -p tcg2-recomp -- --decomp ../decomp --work ../../build/decomp --out ../../build/kernel'
+          nix develop path:./nix/runtime#release -c python3 tools/release/notices.py
+          python3 tools/release/source.py --commit "$GITHUB_SHA" --output "dist/pokemon-tcg2-$TAG-source.tar.gz"
+          cp build/THIRD_PARTY_NOTICES.txt dist/
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: release-inputs
+          path: |
+            build/kernel/
+            build/THIRD_PARTY_NOTICES.txt
+          if-no-files-found: error
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: release-source
+          path: dist/*
+          if-no-files-found: error
+
+  checks:
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Make room for the pinned toolchains
+        run: sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL /usr/share/swift
+      - uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: release-inputs
+          path: build
+      - name: Workspace tests, lints and formatting with the released kernel
+        run: |
+          nix develop path:./nix/runtime -c bash -c 'cd src/runtime && export TCG2_KERNEL_DIR=$PWD/../../build/kernel && cargo fmt --all --check && cargo clippy --release --locked --workspace -- -D warnings && cargo test --release --locked --workspace'
+          nix develop path:./nix/runtime -c ruff check tools
+      - name: The decomp still rebuilds the original ROM
+        run: nix develop path:./nix -c make -C src/decomp compare
+
+  desktop:
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { kind: linux, runner: ubuntu-24.04, shell: linux, arch: x86_64 }
+          - { kind: linux, runner: ubuntu-24.04-arm, shell: linux, arch: aarch64 }
+          - { kind: windows, runner: ubuntu-24.04, shell: windows, arch: x86_64 }
+          - { kind: macos, runner: macos-15, shell: release, arch: aarch64 }
+          - { kind: macos, runner: macos-15-intel, shell: release, arch: x86_64 }
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 90
+    env:
+      CARGO_BUILD_JOBS: 3
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Make room for the pinned toolchains
+        if: runner.os == 'Linux'
+        run: sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL /usr/share/swift
+      - uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: release-inputs
+          path: build
+      - name: Build and bundle native executables
+        env:
+          KIND: ${{ matrix.kind }}
+          SHELL_NAME: ${{ matrix.shell }}
+          TAG: ${{ needs.prepare.outputs.tag }}
+        run: tools/release/shell.sh "$SHELL_NAME" python3 tools/release/package.py "$KIND" --version "$TAG"
+      - name: Test packaged executables
+        if: matrix.kind != 'windows'
+        env:
+          KIND: ${{ matrix.kind }}
+          TAG: ${{ needs.prepare.outputs.tag }}
+        run: |
+          if [ "$KIND" = linux ]; then
+            # The packaged binaries run with the runner's own libraries.
+            nix develop path:./nix/runtime#linux -c python3 tools/release/smoke.py "$KIND" --version "$TAG" --graphical
+          else
+            tools/release/shell.sh release python3 tools/release/smoke.py "$KIND" --version "$TAG"
+          fi
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: release-${{ matrix.kind }}-${{ matrix.arch }}
+          path: dist/*
+          if-no-files-found: error
+
+  windows-test:
+    needs: [prepare, desktop]
+    runs-on: windows-2025
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: release-windows-x86_64
+          path: dist
+      - name: Run the packaged Windows application
+        env:
+          TAG: ${{ needs.prepare.outputs.tag }}
+        run: python tools/release/smoke.py windows --version $env:TAG
+
+  publish:
+    if: github.ref == 'refs/heads/master'
+    needs: [prepare, checks, desktop, windows-test]
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          pattern: release-*
+          path: artifacts
+      - name: Publish installation guide, changelog, artifacts and checksums
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ needs.prepare.outputs.tag }}
+        run: python3 -m tools.release.publish --tag "$TAG" --commit "$GITHUB_SHA" --repository "$GITHUB_REPOSITORY" --artifacts artifacts

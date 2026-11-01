@@ -1,0 +1,13 @@
+[package]
+name = "tcg2-headless"
+description = "Runs the kernel without a window: scripted input, screenshots, audio capture and CPU-cost measurement"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+tcg2-core = { path = "../tcg2-core" }
+tcg2-kernel = { path = "../tcg2-kernel" }
+png.workspace = true

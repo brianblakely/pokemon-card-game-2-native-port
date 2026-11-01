@@ -1,0 +1,11 @@
+[package]
+name = "tcg2-core"
+description = "The Game Boy Color the kernel runs on, as host services: memory map, MBC5 cartridge over the player's ROM, lazily timed LCD with a line renderer, sound, timer, joypad and link ports"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+sha1.workspace = true

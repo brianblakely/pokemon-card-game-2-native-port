@@ -1,0 +1,30 @@
+name: Public build and tests
+on:
+  pull_request:
+  push:
+    branches: [master]
+permissions:
+  contents: read
+concurrency:
+  group: public-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  public:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Make room for the pinned toolchains
+        run: sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL /usr/share/swift
+      - uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+      - name: Translate the decomp; Rust workspace tests, lints and formatting; tool lint
+        run: |
+          nix develop path:./nix/runtime -c bash -c 'cd src/runtime && cargo fmt --all --check && cargo clippy --release --locked --workspace -- -D warnings && cargo test --release --locked --workspace'
+          nix develop path:./nix/runtime -c ruff check tools
+      - name: macOS code paths type-check
+        run: nix develop path:./nix/runtime -c bash -c 'cd src/runtime && cargo check --release --locked --target aarch64-apple-darwin -p tcg2-desktop --features sdl3-sys/no-link'
