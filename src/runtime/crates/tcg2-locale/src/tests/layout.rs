@@ -14,8 +14,8 @@
 //!   items, and its label, are full-width only if all of them fit, so a
 //!   menu reads in one size.
 //!
-//! - A few texts printed at fixed places, measured by hand from the routine
-//!   that prints them ([`MEASURED`]).
+//! - A few texts and tables printed at fixed places, measured by hand from
+//!   the code that prints them ([`MEASURED`], [`TABLES`]).
 //!
 //! A text the decomp prints anywhere else (a card's name, a screen's
 //! title, a text the code computes or stores in a table) stays half-width:
@@ -88,6 +88,26 @@ fn routine_place(name: &str) -> Option<Place> {
         _ => return None,
     })
 }
+
+/// Tables of texts the code places at fixed positions (`PlaceTextItems`),
+/// with the column each row's room ends at, read from the code: (table,
+/// column). An item runs from its position to that column, or to the next
+/// item's cursor; a table's texts are full-width only all together.
+const TABLES: [(&str, usize); 4] = [
+    // The duel's menu, in the wide box at the bottom (border at x = 19).
+    ("DuelMenuData", 19),
+    // A Pokémon card's page: retreat cost, weakness and resistance symbols
+    // from x = 5 (`DisplayCardPage_PokemonOverview`).
+    ("CardPageRetreatWRTextData", 5),
+    // The same, printed (`RetreatWeakResistData`, rows 70-72).
+    ("RetreatWeakResistData", 5),
+    // The Shift screen: type, weakness and resistance symbols at x = 14.
+    ("ShiftMenuData", 14),
+];
+
+/// References to a text's number that print nothing: (routine, text).
+/// `ButterfreeMegaDrainEffect` adds 5 to round, written as `DoneText`.
+const NOT_PRINTED: [(&str, &str); 1] = [("ButterfreeMegaDrainEffect", "DoneText")];
 
 /// Texts printed where the scan cannot measure the room, measured by hand
 /// from the routine that prints them: (routine, text, place).
@@ -266,6 +286,40 @@ pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
                 }
                 continue;
             }
+            // A table of texts at fixed places whose room is known.
+            if op == "textitem"
+                && let Some(&(_, edge)) = TABLES.iter().find(|(t, _)| *t == routine)
+            {
+                let menu = menus;
+                menus += 1;
+                let mut items = Vec::new();
+                while i < lines.len() {
+                    let w = words(&lines[i]);
+                    if w.first() != Some(&"textitem") {
+                        break;
+                    }
+                    let (x, y) = (
+                        w[1].parse::<usize>().unwrap(),
+                        w[2].parse::<usize>().unwrap(),
+                    );
+                    items.push((x, y, w[3].to_string()));
+                    i += 1;
+                }
+                for (x, y, label) in &items {
+                    let end = items
+                        .iter()
+                        .filter(|(nx, ny, _)| ny == y && nx > x)
+                        .map(|(nx, _, _)| nx - 1)
+                        .chain([edge])
+                        .min()
+                        .unwrap();
+                    places.entry(label.clone()).or_default().push(Place::Item {
+                        width: end - x,
+                        menu,
+                    });
+                }
+                continue;
+            }
             // Script commands.
             if let Some(place) = script_place(op) {
                 for arg in &w[1..] {
@@ -283,6 +337,7 @@ pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
                 .iter()
                 .map(|a| a.strip_suffix('_').unwrap_or(a))
                 .filter(|a| texts.contains(*a))
+                .filter(|a| !NOT_PRINTED.contains(&(routine, *a)))
                 .collect();
             if refs.is_empty() {
                 i += 1;

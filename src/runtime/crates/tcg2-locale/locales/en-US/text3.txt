@@ -254,7 +254,7 @@ Bench.
 There are many kinds: some work just
 by having the Pokémon in play, some
 work when you choose them with the
-PKMN Power command, and some can be
+Power command, and some can be
 used only once, when the Pokémon is
 played from your Hand.
 Be sure to read each card's text!
@@ -1175,7 +1175,7 @@ play, press the B Button to finish.
 `   Diglett in the Arena.`
 
 [PracticeDuelTurn1Instr3Text]
-3. Choose "Attack" from the menu
+3. Choose "Fight" from the menu
 `   and select Dig.`
 
 [PracticeDuelTurn1Mason1Text]
@@ -1193,7 +1193,7 @@ Energy to Diglett.
 [PracticeDuelTurn1Mason3Text]
 And finally, it's time to use an
 attack!
-Choose "Attack" from the menu and
+Choose "Fight" from the menu and
 attack with Dig!
 
 [PracticeDuelMasonProceedAsTaughtText]

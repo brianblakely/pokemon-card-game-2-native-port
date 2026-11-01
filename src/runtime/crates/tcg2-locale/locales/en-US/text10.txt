@@ -1058,10 +1058,9 @@ anything. With no
 Energy attached,
 they can't use
 attacks, and they
-can't "Retreat"
-from the Arena,
-either. The 6
-Energy types
+can't "Flee" from
+the Arena, either.
+The 6 Energy types
 are Grass, Fire,
 Water, Lightning,
 Psychic, Fighting.
@@ -1094,18 +1093,18 @@ attack.
 To switch your
 Active Pokémon
 with one on your
-Bench, you use
-the "Retreat"
-command. When your
-Active Pokémon
-is in trouble,
-let it escape
-to the Bench.
-You need Energy to
-"Retreat," too.
-How much Energy
-you need depends
-on the Pokémon.
+Bench, you use the
+"Flee" command.
+When your Active
+Pokémon is in
+trouble, let it
+escape to the
+Bench. You need
+Energy to "Flee,"
+too. How much
+Energy you need
+depends on the
+Pokémon.
 
 [Text0f36] full-width
 There are 3 kinds
@@ -1148,11 +1147,11 @@ while others have
 no effect unless
 you use them.
 To use a Pokémon
-Power, choose
-the "PKMN Power"
-command. Pokémon
-Powers come in
-all kinds, so read
+Power, choose the
+"Power" command.
+Pokémon Powers
+come in all
+kinds, so read
 each card's text
 carefully!
 

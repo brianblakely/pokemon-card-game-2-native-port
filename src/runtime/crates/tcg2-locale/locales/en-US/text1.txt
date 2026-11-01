@@ -1,32 +1,32 @@
 # Pokémon Card GB2 in American English: the texts of
 # src/decomp/src/text/text1.asm, by label (format: src/text.rs).
 
-[HandText]
+[HandText] full-width
 Hand
 
-[CheckText]
+[CheckText] full-width
 Check
 
-[AttackText]
-Attack
+[AttackText] full-width
+Fight
 
-[PokemonPowerHiraganaText]
-PKMN Power
+[PokemonPowerHiraganaText] full-width
+Power
 
-[DoneText]
+[DoneText] full-width
 Done
 
-[TypeText]
+[TypeText] full-width
 Type
 
-[RetreatText]
-Retreat
+[RetreatText] full-width
+Flee
 
-[WeaknessText]
-Weakness
+[WeaknessText] full-width
+Weak
 
-[ResistanceText]
-Resist.
+[ResistanceText] full-width
+Res.
 
 [PokemonPowerKanjiText]
 PKMN PWR

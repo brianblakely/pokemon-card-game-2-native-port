@@ -2023,16 +2023,16 @@ interrupted by a
 power loss.
 
 [MainMenuContinueFromDiaryInsteadOfDuelWarning2Text] full-width
-Choose "Continue
-Duel" to resume
-the duel that was
+Choose "Resume"
+to pick up the
+duel that was
 interrupted.
 
 [MainMenuContinueFromDiaryInsteadOfDuelWarning3Text] full-width
 If you start now,
-"Continue Duel"
-will disappear
-from the menu,
+"Resume" will
+disappear from the
+menu,
 
 [MainMenuContinueFromDiaryInsteadOfDuelWarning4Text] full-width
 and the game will
