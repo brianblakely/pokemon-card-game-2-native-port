@@ -154,10 +154,10 @@ Press F9 while playing to switch, or set `language` in `settings.ini` (or
   records, keep the language they were made in.
 - **Pictures with lettering** are redrawn in English: a duel's turn and setup
   banners, the play area's location labels, the win, lose and draw stamps at
-  a duel's end, and the slot machine's signs. A few others keep their Japanese
-  lettering: the title logo and the opening's booster packs, the booster pack
-  art, the special-rules banner, the Card Pop! and Rare Card Pop! screens and
-  the deck diagnosis title.
+  a duel's end, the special-rules banner, the slot machine's signs, the
+  booster packs' names, the Card Pop! and Rare Card Pop! screens and the deck
+  diagnosis title. A few keep their Japanese lettering: the title logo, and
+  the Pokémon Card Game logo on the booster packs and in the opening.
 
 ## Building
 

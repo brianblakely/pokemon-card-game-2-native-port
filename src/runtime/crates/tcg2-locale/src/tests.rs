@@ -234,8 +234,9 @@ fn every_picture_fits_its_original() {
                 Some((name, n)) => (name, n.parse::<usize>().unwrap()),
                 None => (picture.label.as_str(), 0),
             };
-            // The label's data in order (INCBINs, and words such as a
-            // length before one), up to the INCBIN at the offset.
+            // The label's data in order (INCBINs, and what may come before
+            // one: a length word, a solid black tile), up to the INCBIN at
+            // the offset.
             let mut lines = gfx
                 .lines()
                 .skip_while(|l| !l.starts_with(&format!("{name}:")));
@@ -248,6 +249,10 @@ fn every_picture_fits_its_original() {
                 let code = line.split(';').next().unwrap().trim();
                 if let Some(words) = code.strip_prefix("dw ") {
                     at += 2 * words.split(',').count();
+                    continue;
+                }
+                if code == "solid_black_tile" {
+                    at += 16;
                     continue;
                 }
                 let Some(file) = code
