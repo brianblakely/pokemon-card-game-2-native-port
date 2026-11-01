@@ -1334,8 +1334,8 @@ If your Pokémon
 gets Poisoned,
 Paralyzed,
 Confused or
-Asleep, Retreat
-it from the Arena,
+Asleep, pull it
+out with "Flee,"
 or heal it with
 "Full Heal"!
 And since this

@@ -181,7 +181,7 @@ There are no
 attacks to choose.
 
 [UnableToRetreatText]
-Unable to retreat!
+Unable to flee!
 
 [Only1EnergyCardPerTurnText]
 You can only attach 1 Energy card
@@ -276,11 +276,11 @@ Choosing a Benched Pokémon...
 
 [RetreatedToTheBenchText]
 <RAMTEXT>
-retreated.
+fled to the Bench.
 
 [RetreatWasUnsuccessfulText]
 <RAMTEXT>
-failed to Retreat.
+failed to flee.
 
 [UsePokemonPowerText]
 <RAMTEXT> uses the
@@ -713,8 +713,8 @@ There are no Energy cards attached
 to your opponent's Pokémon.
 
 [EnergyRequiredToRetreatText]
-Retreating requires
-<RAMNUM> Energy.
+You need <RAMNUM> Energy
+to flee.
 
 [NotEnoughEnergyCardsText]
 Not enough Energy cards.
@@ -995,7 +995,7 @@ Damage check!
 
 [AcidCheckText]
 Acid check. If heads, the Defending
-Pokémon can't Retreat next turn.
+Pokémon can't flee next turn.
 
 [TransparencyCheckText]
 Transparency check
@@ -1007,7 +1007,7 @@ If tails, it damages itself.
 
 [ConfusionCheckRetreatText]
 Confusion check!
-If tails, can't Retreat.
+If tails, can't flee.
 
 [PokemonsSleepCheckText]
 <RAMTEXT>'s
@@ -1074,7 +1074,7 @@ If heads, discard 1 Energy card!
 
 [IfHeadsOpponentCannotRetreatText]
 If heads, the Defending Pokémon
-can't Retreat during the next turn!
+can't flee during the next turn!
 
 [IfHeads10DamageToBenchText]
 If heads,

@@ -50,19 +50,19 @@ Attack
 unsuccessful.
 
 [UnableToRetreatDueToAcidText]
-Can't Retreat due to
+Can't flee due to
 Acid.
 
 [UnableToRetreatDueToRockSealText]
-Can't Retreat due to
+Can't flee due to
 Rock Seal.
 
 [UnableToRetreatDueToDrillDiveText]
-Can't Retreat due to
+Can't flee due to
 Drill Dive.
 
 [UnableToRetreatDueToGuardText]
-Can't Retreat due to
+Can't flee due to
 Guard.
 
 [UnableToUseTrainerDueToHeadacheText]

@@ -272,10 +272,10 @@ less damage from Pokémon of its
 Resistance color (type).
 
 [GlossaryRetreatDescriptionText]
-By having your Active Pokémon
-"retreat" to the Bench, you can
-switch the Pokémon in the Arena with
-one on your Bench.
+Choosing "Flee" makes your Active
+Pokémon "retreat" to the Bench, so
+you can switch the Pokémon in the
+Arena with one on your Bench.
 Retreating also takes Energy. The
 amount needed differs from Pokémon
 to Pokémon, so discard as many

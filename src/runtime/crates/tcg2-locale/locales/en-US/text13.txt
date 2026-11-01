@@ -370,7 +370,7 @@ Water Pokémon,
 this place is
 full of water.
 So when Water
-Pokémon "Retreat,"
+Pokémon "Flee,"
 they need 1 less
 Energy! If they
 need 3, it's 2.
@@ -385,14 +385,13 @@ Back again because
 you want the "GR
 Water Coin"? Then
 let's duuuel!
-For my cute
-Water Pokémon,
-this place is
-full of water.
-So when Water
-Pokémon "Retreat,"
-they need 1
-less Energy! You
+For my cute Water
+Pokémon, this
+place is full of
+water. So when
+Water Pokémon
+"Flee," they need
+1 less Energy! You
 remember, right?
 Now, shall we
 duuuel?
@@ -419,14 +418,13 @@ Dueling with all
 sorts of rules
 is pretty fun
 now, isn't it?
-For my cute
-Water Pokémon,
-this place is
-full of water.
-So when Water
-Pokémon "Retreat,"
-they need 1
-less Energy! You
+For my cute Water
+Pokémon, this
+place is full of
+water. So when
+Water Pokémon
+"Flee," they need
+1 less Energy! You
 remember, right?
 Now, shall we
 duuuel?
@@ -1617,7 +1615,7 @@ Pokémon! Without
 Energy, a Pokémon
 can't use its
 attacks... ...and
-it can't Retreat
+it can't "Flee"
 from the Arena,
 either! The "Hyper
 Beam" attack can
@@ -2012,11 +2010,10 @@ weak to Lightning.
 They can use
 their attacks with
 Energy cards of
-any type. They
-fly through the
-sky, so they can
-Retreat easily,
-too.
+any type. They fly
+through the sky,
+so they can flee
+easily, too.
 
 [PsychicPokemonBookText] full-width
 Traits of Psychic
