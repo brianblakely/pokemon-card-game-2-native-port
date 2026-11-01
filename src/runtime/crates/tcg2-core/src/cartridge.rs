@@ -100,6 +100,17 @@ impl Cartridge {
         }
     }
 
+    /// Puts another image of the same program in the slot (the game in
+    /// another language): the mapped bank stays mapped.
+    pub fn replace_rom(&mut self, rom: Arc<[u8]>) {
+        assert!(
+            rom.len() >= 0x8000 && rom.len().is_power_of_two(),
+            "ROM size"
+        );
+        self.rom = rom;
+        self.set_rom_bank(self.rom_bank);
+    }
+
     fn set_rom_bank(&mut self, bank: u16) {
         if bank != self.rom_bank {
             self.bank_switches += 1;

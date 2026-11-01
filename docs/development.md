@@ -46,11 +46,16 @@ cargo test --release --workspace                   # unit tests: CPU flags, time
     randomised registers, after booting `--frames` frames, and compares each
     result.
   - `TCG2_TRACE=BB:AAAA:TRIAL` traces one trial instruction by instruction.
+- Every tool runs the game in American English unless given `--language ja`
+  (the ROM's own Japanese). Compare pictures with a reference emulator, which
+  runs the unchanged ROM, in Japanese.
 - `tcg2-headless --rom … --frames N [--press …] [--random SEED]` runs the game
   without a window.
   - `--screenshot PATH` and `--shots N:DIR` write PNGs; `--wav PATH` writes the
     sound.
   - `--sram` / `--save-sram` load and write battery RAM.
+  - `--switch-language FRAME:TAG` switches language at a frame, as F9 does
+    in the app.
   - It reports host time per game second.
 - `tcg2-libretro --core CORE.so --rom … --frames N [--press …] [--shots N:DIR] [--wav PATH]`
   runs the ROM in a reference emulator (the pinned nixpkgs has
@@ -71,8 +76,8 @@ an uninterrupted one. In the app, F5 saves `saves/quick.state` and F7 loads
 it.
 
 **Duels.** Random play rarely reaches a duel. The game's own startup debug
-menu (`CallStartupDebugMenu`, unused in the retail flow) has *たいせん*:
-a duel against a random opponent with the player's saved deck. Use `--call`
+menu (`CallStartupDebugMenu`, unused in the retail flow) has *Duel*
+(*たいせん*): a duel against a random opponent with the player's saved deck. Use `--call`
 to open the menu from the start menu's frame wait, after making a save
 with random play:
 
@@ -90,6 +95,23 @@ matches the interpreter. When the duel returns, the start menu's
 frame-function stack has been unbalanced by running a startup menu outside
 startup, so the game soon calls a stale frame function. The console would do
 the same, and the interpreter agrees.
+
+**Scenes.** `--call FRAME:ROUTINE,a=02,bc=0000` sets registers (hex) before
+the call. That shows any of the game's scenes (`SCENE_*` in
+`src/decomp/src/constants/scene_constants.asm`) as the game draws them, such
+as a booster pack's art that only the story reaches. Park the start menu in a
+text wait first, so its cursor stays off the picture, and turn on sprite
+animation:
+
+```sh
+$H --rom ../../rom/poketcg2.gbc --sram ../../build/save-7.sav --frames 1240 \
+   --press 700:start --press 1000:start --call 1150:WaitForPlayerToAdvanceText \
+   --call 1155:Func_3e4f --call 1160:EmptyScreenAndLoadScene,a=02 --screenshot ../../build/pack.png
+```
+
+`EmptyScreenAndLoadScene` puts a scene at the top left (its clearing
+overwrites `bc`), and the text wait's arrow blinks in the bottom right
+corner.
 
 **Windows.** The cross-built `tcg2-headless.exe` under Wine (`nixpkgs#wine64`,
 with `WINEDLLOVERRIDES="mscoree,mshtml="`) ends on the same clock and
@@ -111,6 +133,45 @@ whose binaries link only glibc: the development shell's Nix-built SDL cannot
 load a non-NixOS host's drivers. On an NVIDIA desktop, Xvfb (which has no GLX
 here) needs `__GLX_VENDOR_LIBRARY_NAME=mesa
 __EGL_VENDOR_LIBRARY_FILENAMES=/usr/share/glvnd/egl_vendor.d/50_mesa.json`.
+
+## Translations
+
+A language lives in `src/runtime/crates/tcg2-locale/locales/<tag>/`
+([runtime](runtime.md#languages-tcg2-locale)):
+
+| File | What |
+| --- | --- |
+| `text1.txt` … `text17.txt` | One entry per text of `src/decomp/src/text/textN.asm`, by label |
+| `data.txt` | Texts the game keeps in its code banks, by label (`Owner.local` for local labels) |
+| `font.txt` | The half-width font, 4×8 pixels per character |
+| `fullwidth.txt` | Full-width characters the game's code writes itself, redrawn |
+| `graphics.txt` | Pictures with lettering, redrawn (`[Label] WxH`, then rows of `.`, `:`, `x`, `#`, and `?` to keep the ROM's pixel; `tiles` lines place a picture the game assembles from scattered tiles) |
+
+An entry is a `[Label]` line followed by the text's lines, as they appear on
+screen. A line between backticks keeps its spaces. `<RAMNAME>`, `<RAMTEXT>`,
+`<RAMNUM>` and the symbols (`<Lv>`, `<FIRE>`, …) are the game's control
+codes. `src/text.rs` has the details.
+
+```sh
+cd src/runtime
+cargo test --release -p tcg2-locale    # every text translated, drawable, within its box; pictures within their originals
+```
+
+The test reads the Japanese from `src/decomp`, so it needs no ROM. To see a
+change, run the game (`tcg2-headless … --screenshot`, or the app). The fixed
+limits that matter most:
+- **Dialog** scrolls two lines at a time, at most 36 characters per line.
+- **A question** with a Yes/No menu has one line.
+- **A card's rules** take at most 6 lines.
+- **A Pokédex entry** takes at most 3 lines.
+- **Labels and menu items** are no wider than the room the Japanese had, at
+  two English letters per Japanese character.
+- **Card names** stay within 20 characters (24 for Trainers and Energy): lists
+  pad the rest of a row after the name.
+
+The game draws whatever the engine encodes, so a new language needs only
+its files and a `Language` variant. One that is not written in Latin
+letters needs a font for the half-width engine, or full-width text.
 
 ## Profiling
 

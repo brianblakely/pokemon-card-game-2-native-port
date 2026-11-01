@@ -1,0 +1,34 @@
+# Pokémon Card GB2 in American English: the texts the game keeps outside its
+# text table, in its code banks (format: src/text.rs). Each is keyed by its
+# label in the decomp (`Label` or `Owner.local`); `[Label+N]` starts N bytes
+# in. A translation must fit in the original's bytes, which are cleared first.
+
+# Appended to a deck's name: "Starter" + " Deck".
+[DeckNameSuffix]
+ Deck
+
+# The same, followed by blanks that clear the rest of the line.
+[AppendDeckName.text_start]
+ Deck<SPACE><SPACE><SPACE><SPACE><SPACE><SPACE><SPACE><SPACE><SPACE>
+
+# The deck breakdown's title: a deck's name + " Deck".
+[AppendDeckName_Breakdown.DeckNameSuffix]
+ Deck<SPACE>
+
+# The Gift Center's title when choosing cards to send.
+[HandleGiftCenterSendCardsScreen.title_text]
+Cards to Give
+
+# The player's name when they enter none.
+[PlayerNameSelection.default_male_name]
+Mark
+
+[PlayerNameSelection.default_female_name]
+Mint
+
+# The Challenge Machine's first record holders: two 16-byte name records.
+[InitChallengeMachine.default_scorers]
+Dr. Mason
+
+[InitChallengeMachine.default_scorers+16]
+Biruritchi

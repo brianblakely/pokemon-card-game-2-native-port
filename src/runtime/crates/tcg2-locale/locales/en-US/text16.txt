@@ -1,0 +1,2094 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text16.asm, by label (format: src/text.rs).
+
+[DigUnderDescription]
+Choose 1 of your opponent's Pokémon.
+This attack does 10 damage to that
+Pokémon. Don't apply Weakness and
+Resistance for this attack.
+
+[DiglettLv15Description]
+It sometimes shows up after an Onix
+passes through, hoping to eat the
+Onix's leftovers.
+
+[TripOverName]
+Trip Over
+
+[DiglettLv16Description]
+It moves just beneath the surface.
+The ground bulges up where it has
+dug, so its trail is easy to spot.
+
+[DugtrioName]
+Dugtrio
+
+[EarthquakeName]
+Earthquake
+
+[EarthquakeDescription]
+Does 10 damage to each of your own
+Benched Pokémon. (Don't apply
+Weakness and Resistance for Benched
+Pokémon.)
+
+[DugtrioLv36Description]
+It burrows underground, then strikes
+from somewhere else while its foe is
+off guard.
+
+[GoUndergroundName]
+Go Underground
+
+[GoUndergroundDescription]
+As long as Dugtrio is on your Bench,
+prevent all damage done to it by
+attacks.
+
+[EarthWaveName]
+Earth Wave
+
+[EarthWaveDescription]
+Choose 2 of your opponent's Benched
+Pokémon. This attack does 10 damage
+to each of them. (Don't apply
+Weakness and Resistance for Benched
+Pokémon.)
+
+[DugtrioLv40Description]
+It burrows underground, then strikes
+from somewhere else while its foe is
+off guard.
+
+[DarkDugtrioName]
+Dark Dugtrio
+
+[SinkholeName]
+Sinkhole
+
+[SinkholeDescription]
+When the Defending Pokémon retreats,
+its owner flips a coin. If tails, it
+takes 20 damage (ignore Weakness and
+Resistance) but still retreats.
+Can't be used if Dark Dugtrio is
+Asleep, Confused, or Paralyzed.
+
+[KnockDownName]
+Knock Down
+
+[KnockDownDescription]
+Your opponent flips a coin. If
+tails, this attack does 20 damage
+plus 20 more damage.
+
+[DarkDugtrioDescription]
+It digs huge pitfalls and lies in
+wait for its foes. It may also knock
+weakened foes into the pit.
+
+[MankeyName]
+Mankey
+
+[PeekName]
+Peek
+
+[PeekDescription]
+Once during your turn, you may look
+at the top card of either deck, 1 of
+either player's Prizes, or 1 card in
+your opponent's hand, then put it
+back. Can't be used if Mankey is
+Asleep, Confused, or Paralyzed.
+
+[PigMonkeyName]
+Pig Monkey
+
+[MankeyLv7Description]
+Light on its feet and vicious by
+nature. Once it flies into a rage,
+no one can stop it.
+
+[MischiefName]
+Mischief
+
+[MischiefDescription]
+Shuffle your opponent's deck.
+
+[AngerName]
+Anger
+
+[MankeyLv14Description]
+It is usually in a good mood, but
+the slightest thing can change its
+expression and send it into a rage.
+
+[PrimeapeName]
+Primeape
+
+[TantrumName]
+Tantrum
+
+[TantrumDescription]
+Flip a coin. If tails, Primeape is
+now Confused (after doing damage).
+
+[PrimeapeDescription]
+Always in a furious rage. No matter
+how far you run, it will keep
+chasing you.
+
+[DarkPrimeapeName]
+Dark Primeape
+
+[FrenzyName]
+Frenzy
+
+[FrenzyDescription]
+While Dark Primeape is Confused, the
+damage it does to any Pokémon is
+increased by 30.
+
+[FrenziedAttackName]
+Frenzied Attack
+
+[FrenziedAttackDescription]
+Dark Primeape is now Confused (after
+doing damage).
+
+[DarkPrimeapeDescription]
+It always had a short temper, but
+lately it seems to be growing even
+more violent.
+
+[MachopName]
+Machop
+
+[FocusedOneShotName]
+Focused One Shot
+
+[FocusedOneShotDescription]
+Flip a coin. If heads, during your
+next turn, Machop's Corkscrew Punch
+attack does double damage. If tails,
+Machop can't use Corkscrew Punch
+during your next turn.
+
+[CorkscrewPunchName]
+Corkscrew Punch
+
+[SuperpowerName]
+Superpower
+
+[MachopLv18Description]
+Loves to build its muscles. It
+trains in all styles of martial arts
+to grow even stronger.
+
+[LowKickName]
+Low Kick
+
+[MachopLv20Description]
+Its whole body is pure muscle.
+Though it is only the size of a
+child, it can hurl 100 grown-ups.
+
+[PunchName]
+Punch
+
+[KickName]
+Kick
+
+[MachopLv24Description]
+It is said that no one, not even a
+pro wrestler, can pin a Machop.
+
+[MachokeName]
+Machoke
+
+[WickedJabName]
+Wicked Jab
+
+[FocusBlastName]
+Focus Blast
+
+[FocusBlastDescription]
+Flip a coin. If heads, choose 1 of
+your opponent's Pokémon. This attack
+does 20 damage to that Pokémon.
+(Apply Weakness and Resistance even
+for Benched Pokémon.)
+
+[MachokeLv24Description]
+Its body is so incredibly tough that
+it wears a power-save belt to keep
+its strength under control.
+
+[MegaKickName]
+Mega Kick
+
+[SteadyPunchName]
+Steady Punch
+
+[MachokeLv28Description]
+Its body is so incredibly tough that
+it wears a power-save belt to keep
+its strength under control.
+
+[KarateChopName]
+Karate Chop
+
+[KarateChopDescription]
+Does 50 damage minus 10 damage for
+each damage counter on Machoke.
+
+[SubmissionName]
+Submission
+
+[MachokeLv40Description]
+Its formidable body never tires. It
+helps people with work such as
+moving heavy loads.
+
+[DarkMachokeName]
+Dark Machoke
+
+[DragOffName]
+Drag Off
+
+[DragOffDescription]
+Before doing damage, choose 1 of
+your opponent's Benched Pokémon and
+switch it with the Defending
+Pokémon. Do the damage to the new
+Defending Pokémon. (Can't be used if
+your opponent's Bench is empty.)
+
+[KnockBackName]
+Knock Back
+
+[DarkMachokeDescription]
+Machoke are supposed to obey people,
+but this one suddenly went on a
+rampage.
+
+[MachampName]
+Machamp
+
+[SeethingAngerName]
+Seething Anger
+
+[SeethingAngerDescription]
+Flip a coin for each damage counter
+on Machamp. This attack does 20
+damage plus 10 more damage for each
+heads.
+
+[FlingName]
+Fling
+
+[MachampLv54Description]
+It is said that anything hit by its
+super-powerful punches goes flying
+all the way to the horizon.
+
+[StrikesBackName]
+Strikes Back
+
+[StrikesBackDescription]
+Whenever your opponent's attack
+damages Machamp (even if Machamp is
+Knocked Out), this power does 10
+damage to the attacking Pokémon.
+(Don't apply Weakness and
+Resistance.)
+
+[StrikesBackDescriptionCont]
+This power doesn't work if Machamp
+is already Asleep, Confused, or
+Paralyzed when damaged.
+
+[SeismicTossName]
+Seismic Toss
+
+[MachampLv67Description]
+Its four well-developed arms can
+throw 1,000 punches in just 2
+seconds.
+
+[DarkMachampName]
+Dark Machamp
+
+[FlingAltName]
+Fling
+
+[FlingDescription]
+Shuffle the Defending Pokémon and
+all cards attached to it into your
+opponent's deck. (This attack can't
+be used if your opponent has no
+Benched Pokémon.)
+
+[DarkMachampDescription]
+Blows from its four mighty arms are
+next to impossible to block.
+
+[GeodudeName]
+Geodude
+
+[HardenName]
+Harden
+
+[Harden20DamageDescription]
+During your opponent's next turn,
+whenever 20 or less damage is done
+to Geodude (after applying Weakness
+and Resistance), prevent that
+damage. (Any other effects of
+attacks still happen.)
+
+[RockName]
+Rock
+
+[GeodudeLv15Description]
+It looks so much like a rock that
+people often step or trip on it
+without noticing.
+
+[StoneBarrageName]
+Stone Barrage
+
+[StoneBarrage10DamageDescription]
+Flip a coin until you get tails.
+This attack does 10 damage times the
+number of heads.
+
+[GeodudeLv16Description]
+Round and easy to hold, Geodude can
+be grabbed and hurled at opponents
+in Geodude fights.
+
+[GravelerName]
+Graveler
+
+[BoulderSmashName]
+Boulder Smash
+
+[BoulderSmashDescription]
+Flip 2 coins. For each heads, do 10
+damage to 1 of your opponent's
+Benched Pokémon of your choice.
+(Don't apply Weakness and Resistance
+for Benched Pokémon.)
+
+[GravelerLv27Description]
+Rolls down slopes to get around. It
+crushes any obstacle in its path as
+it goes.
+
+[StoneBarrageAltName]
+Stone Barrage
+
+[StoneBarrage20DamageDescription]
+Flip a coin until you get tails.
+This attack does 20 damage times the
+number of heads.
+
+[EarthquakeAltDescription]
+Does 10 damage to each of your own
+Benched Pokémon. (Don't apply
+Weakness and Resistance for Benched
+Pokémon.)
+
+[GravelerLv28Description]
+Rolls down slopes to get around. It
+crushes any obstacle in its path as
+it goes.
+
+[Harden30DamageDescription]
+During your opponent's next turn,
+whenever 30 or less damage is done
+to Graveler (after applying Weakness
+and Resistance), prevent that
+damage. (Any other effects of
+attacks still happen.)
+
+[RockThrowName]
+Rock Throw
+
+[GravelerLv29Description]
+Hikers on mountain slopes sometimes
+see a Graveler come rolling down.
+
+[GolemName]
+Golem
+
+[AvalancheName]
+Avalanche
+
+[MegatonName]
+Megaton
+
+[GolemLv36Description]
+It is covered in a shell as hard as
+bedrock. It sheds its skin once a
+year to grow larger.
+
+[RockBlastName]
+Rock Blast
+
+[RockBlastDescription]
+Discard up to 5 Fighting Energy
+cards attached to Golem. Choose 1 of
+your opponent's Pokémon for each
+card discarded. (You may choose the
+same Pokémon more than once.)
+
+[RockBlastDescriptionCont]
+Then this attack does 20 damage to
+each chosen Pokémon for each time it
+was chosen. (Don't apply Weakness
+and Resistance.)
+
+[GolemLv37Description]
+Its boulder-like body is extremely
+hard. It can withstand dynamite
+blasts without damage.
+
+[OnixName]
+Onix
+
+[Harden30DamageAltDescription]
+During your opponent's next turn,
+whenever 30 or less damage is done
+to Onix (after applying Weakness and
+Resistance), prevent that damage.
+(Any other effects of attacks still
+happen.)
+
+[RockSnakeName]
+Rock Snake
+
+[OnixLv12Description]
+It usually lives underground. It
+searches for food while burrowing
+through the earth at 80 km/h.
+
+[RockSealName]
+Rock Seal
+
+[RockSealDescription]
+Flip a coin. If heads, the Defending
+Pokémon can't retreat during your
+opponent's next turn.
+
+[OnixLv25Description]
+As it grows, the stone portions of
+its body change and harden into
+something like a black diamond.
+
+[CuboneName]
+Cubone
+
+[SnivelName]
+Snivel
+
+[SnivelDescription]
+If the Defending Pokémon attacks
+Cubone during your opponent's next
+turn, any damage done by the attack
+is reduced by 20 (after applying
+Weakness and Resistance).
+
+[LonelyName]
+Lonely
+
+[CuboneLv13Description]
+It wears the skull of its dead
+mother on its head. They say it
+wails loudly when it feels lonely.
+
+[BoneTossName]
+Bone Toss
+
+[BoneTossDescription]
+Flip a coin. If heads, this attack
+does 30 damage to the Defending
+Pokémon. If tails, choose 1 of your
+opponent's Benched Pokémon and do 10
+damage to it. (Don't apply Weakness
+and Resistance for Benched Pokémon.)
+
+[CuboneLv14Description]
+Because it never removes its skull
+helmet, no one has ever seen its
+real face.
+
+[MarowakName]
+Marowak
+
+[BonemerangName]
+Bonemerang
+
+[CallForFriendName]
+Call for Friend
+
+[CallForFriendDescription]
+Search your deck for a Fighting
+Basic Pokémon card and put it onto
+your Bench. Shuffle your deck
+afterward. (You can't use this
+attack if your Bench is full.)
+
+[BoneKeeperName]
+Bone Keeper
+
+[MarowakLv26Description]
+It was small and weak by nature.
+After it began to wield bones, its
+temper turned violent.
+
+[BoneAttackName]
+Bone Attack
+
+[BoneAttackDescription]
+Flip a coin. If heads, the Defending
+Pokémon can't attack during your
+opponent's next turn.
+
+[WailName]
+Wail
+
+[WailDescription]
+Each player puts Basic Pokémon
+chosen at random from his or her
+deck onto the Bench until the Bench
+is full or no Basic Pokémon remain
+in the deck. Each player then
+shuffles his or her deck.
+
+[MarowakLv32Description]
+The bone it holds is its key weapon.
+It throws the bone like a boomerang
+to knock out its prey.
+
+[DarkMarowakName]
+Dark Marowak
+
+[BoneHeadbuttName]
+Bone Headbutt
+
+[BoneHeadbuttDescription]
+Does 0, 10, or 20 damage (at random)
+to 1 of your opponent's Benched
+Pokémon chosen at random, ignoring
+Weakness and Resistance. Then switch
+the Defending Pokémon with 1 of his
+or her Benched Pokémon at random.
+
+[DarkMarowakDescription]
+Its headbutt hits with tremendous
+force, sending foes flying all the
+way back to the Bench.
+
+[HitmonleeName]
+Hitmonlee
+
+[RollingKickName]
+Rolling Kick
+
+[HitmonleeLv23Description]
+When in a hurry, its legs lengthen
+progressively. It runs smoothly with
+extra long, loping strides.
+
+[StretchKickName]
+Stretch Kick
+
+[StretchKickDescription]
+Choose 1 of your opponent's Benched
+Pokémon. This attack does 20 damage
+to that Pokémon. (Don't apply
+Weakness and Resistance for Benched
+Pokémon. Can't be used if your
+opponent has no Benched Pokémon.)
+
+[HighJumpKick]
+High Jump Kick
+
+[HitmonleeLv30Description]
+Its legs can stretch and contract
+freely, so it can kick foes even
+from far away.
+
+[HitmonchanName]
+Hitmonchan
+
+[MatchPunchName]
+Mach Punch
+
+[MatchPunchDescription]
+Flip a coin. If heads, choose 1 of
+your opponent's Benched Pokémon.
+This attack also does 10 damage to
+that Pokémon. (Don't apply Weakness
+and Resistance for Benched Pokémon.)
+
+[HitmonchanLv23Description]
+Even when it seems idle, it is
+throwing punches too fast to see. Be
+careful!
+
+[JabName]
+Jab
+
+[SpecialPunchName]
+Special Punch
+
+[HitmonchanLv33Description]
+It is possessed by the spirit of a
+pro boxer. Its punches are faster
+than a bullet train.
+
+[RhyhornName]
+Rhyhorn
+
+[LeerName]
+Leer
+
+[LeerDescription]
+Flip a coin. If heads, the Defending
+Pokémon can't attack during your
+opponent's next turn as long as this
+Pokémon is your Active Pokémon.
+
+[SpikesName]
+Spikes
+
+[RhyhornDescription]
+Strong but not too bright, it can
+shatter even a skyscraper with its
+charging tackles.
+
+[RhydonName]
+Rhydon
+
+[MountainBreakName]
+Mountain Break
+
+[MountainBreakDescription]
+Discard the top 5 cards of your
+deck. Put any Fighting Energy cards
+discarded this way into your hand.
+
+[OneTwoStrikeName]
+One-Two Strike
+
+[RhydonLv37Description]
+Its body is protected by armor-like
+hide. It can survive even in
+2,000-degree magma.
+
+[RamAltName]
+Ram
+
+[RamDescription]
+Your opponent switches the Defending
+Pokémon with 1 of his or her Benched
+Pokémon, if any. Rhydon also does 20
+damage to itself.
+
+[RhydonLv48Description]
+After evolving, it began standing on
+its hind legs. Its horn can bore
+holes even in solid rock.
+
+[KabutoName]
+Kabuto
+
+[KabutoArmorName]
+Kabuto Armor
+
+[KabutoArmorDescription]
+Damage done to Kabuto by attacks is
+halved (rounded down to the nearest
+10). (Any other effects still
+happen.) This power doesn't work if
+Kabuto is already Asleep, Confused,
+or Paralyzed when damaged.
+
+[KabutoLv9Description]
+A Pokémon regenerated from the
+fossil of an ancient creature. It
+protects itself with a hard shell.
+
+[FossilizeName]
+Fossilize
+
+[FossilizeDescription]
+Once during your turn, you may
+choose 1 of your Pokémon that
+evolved from Mysterious Fossil and
+flip a coin. If heads, return all
+Evolution cards on that Pokémon to
+your hand.
+
+[SharpClawsName]
+Sharp Claws
+
+[SharpClawsDescription]
+Flip a coin. If heads, this attack
+does 10 damage plus 30 more damage.
+
+[KabutoLv22Description]
+A Pokémon that was resurrected from
+a fossil found in what was once the
+ocean floor eons ago.
+
+[KabutopsName]
+Kabutops
+
+[SharpSickleName]
+Sharp Sickle
+
+[AbsorbName]
+Absorb
+
+[KabutopsDescription]
+It swims freely underwater, catching
+prey with its sharp scythes and
+draining their body fluids.
+
+[AerodactylName]
+Aerodactyl
+
+[PrehistoricPowerName]
+Prehistoric Power
+
+[PrehistoricPowerDescription]
+As long as Aerodactyl is in play, no
+one can evolve Pokémon (except by
+attacks or Pokémon Powers; evolved
+Pokémon are unaffected). This power
+stops working while Aerodactyl is
+Asleep, Confused, or Paralyzed.
+
+[FossilName]
+Fossil
+
+[AerodactylLv28Description]
+Revived from dinosaur genes found in
+amber. It flies while letting out
+high-pitched cries.
+
+[TailspinAttackName]
+Tailspin Attack
+
+[TailspinAttackDescription]
+Aerodactyl does 10 damage to itself.
+(Don't apply Weakness and
+Resistance.)
+
+[AerodactylLv30Description]
+A ferocious, prehistoric Pokémon
+that goes for the enemy's throat
+with its serrated saw-like fangs.
+
+[AbraName]
+Abra
+
+[PsychicBeamName]
+Psychic Beam
+
+[PsychicBeamDescription]
+Choose 1 of your opponent's Pokémon.
+This attack does 10 damage to that
+Pokémon. Don't apply Weakness and
+Resistance for this attack.
+
+[AbraLv8Description]
+It reads its enemy's mind and
+teleports away before it can get
+into a tight spot.
+
+[AbraLv10Description]
+It sleeps 18 hours a day. Even while
+asleep, it uses all kinds of psychic
+powers.
+
+[VanishName]
+Vanish
+
+[VanishDescription]
+Remove all damage counters from Abra
+and discard all cards attached to
+it. Then shuffle Abra into your
+deck.
+
+[AbraLv14Description]
+It teleports away when danger is
+near, so even when people find one,
+they often can't catch it.
+
+[KadabraName]
+Kadabra
+
+[RecoverPsychicDescription]
+Discard 1 Psychic Energy card
+attached to Kadabra, then remove all
+damage counters from Kadabra. If you
+can't discard, this attack does
+nothing.
+
+[KadabraLv38Description]
+One morning, a boy with psychic
+powers awoke in bed to find he had
+turned into a Kadabra.
+
+[PsychoPanicName]
+Psycho Panic
+
+[PsychoPanicDescription]
+If the Defending Pokémon is a
+Psychic Pokémon, this attack does 60
+damage instead.
+
+[BlinkName]
+Blink
+
+[BlinkDescription]
+During your opponent's next turn,
+whenever Kadabra would be damaged by
+an attack, flip a coin. If heads,
+prevent that damage. (Any other
+effects of attacks still happen.)
+
+[KadabraLv39Description]
+It emits special alpha waves from
+its body that induce headaches just
+by being close by.
+
+[DarkKadabraName]
+Dark Kadabra
+
+[MatterExchangeName]
+Matter Exchange
+
+[MatterExchangeDescription]
+Once during your turn, you may
+discard a card from your hand in
+order to draw a card. This power
+can't be used if Dark Kadabra is
+Asleep, Confused, or Paralyzed.
+
+[MindShockName]
+Mind Shock
+
+[MindShockDescription]
+Don't apply Weakness and Resistance
+for this attack.
+
+[DarkKadabraDescription]
+Rumor has it that Kadabra's psychic
+powers are behind many mysterious
+incidents.
+
+[AlakazamName]
+Alakazam
+
+[DamageSwapName]
+Damage Swap
+
+[DamageSwapDescription]
+As often as you like during your
+turn, you may move 1 damage counter
+from 1 of your Pokémon to another as
+long as it isn't Knocked Out. This
+power can't be used if Alakazam is
+Asleep, Confused, or Paralyzed.
+
+[AlakazamLv42Description]
+It doesn't care for brute force. It
+defeats foes by wielding its psychic
+powers at will.
+
+[TransDamageName]
+Trans Damage
+
+[TransDamageDescription]
+Discard all Energy cards attached to
+Alakazam. Then move all damage
+counters on Alakazam to the
+Defending Pokémon.
+
+[AlakazamLv45Description]
+Its brain can search for information
+faster than a supercomputer. Its IQ
+is about 5,000.
+
+[DarkAlakazamName]
+Dark Alakazam
+
+[TeleportBlastName]
+Teleport Blast
+
+[TeleportBlastDescription]
+After doing damage, you may switch
+Dark Alakazam with 1 of your Benched
+Pokémon.
+
+[DarkAlakazamDescription]
+It is said that during battle, it
+never changes its expression, as if
+something were controlling it.
+
+[SlowpokeName]
+Slowpoke
+
+[DopeyName]
+Dopey
+
+[SlowpokeLv9Description]
+It always looks vacant, and no one
+knows what it is thinking. It is
+good at fishing with its tail.
+
+[AfternoonNapName]
+Afternoon Nap
+
+[AfternoonNapDescription]
+Search your deck for a Psychic
+Energy card and attach it to
+Slowpoke. Shuffle your deck
+afterward.
+
+[SlowpokeLv16Description]
+It is smart enough to go fishing,
+but it has never been seen doing
+anything smarter than that.
+
+[SpacingOutName]
+Spacing Out
+
+[SpacingOutDescription]
+Flip a coin. If heads, remove 1
+damage counter from Slowpoke.
+
+[ScavengeName]
+Scavenge
+
+[ScavengeDescription]
+Discard 1 Psychic Energy card
+attached to Slowpoke, then put a
+Trainer card from your discard pile
+into your hand. If you can't
+discard, this attack does nothing.
+
+[SlowpokeLv18Description]
+It always looks vacant, and no one
+knows what it is thinking. It is
+good at fishing with its tail.
+
+[SlowbroName]
+Slowbro
+
+[StrangeBehaviorName]
+Strange Behavior
+
+[StrangeBehaviorDescription]
+As often as you like during your
+turn, you may move 1 damage counter
+from 1 of your Pokémon to Slowbro as
+long as you don't Knock Out Slowbro.
+This power can't be used if Slowbro
+is Asleep, Confused, or Paralyzed.
+
+[HermitcrabName]
+Hermit Crab
+
+[SlowbroLv26Description]
+When a Slowpoke went fishing in the
+sea, a Shellder bit its tail, and it
+became a Slowbro.
+
+[BigYawnName]
+Big Yawn
+
+[BigYawnDescription]
+Slowbro and the Defending Pokémon
+are now Asleep.
+
+[BigSnoreName]
+Big Snore
+
+[BigSnoreDescription]
+You can't use this attack unless
+Slowbro is Asleep.
+
+[SlowbroLv35Description]
+The Shellder latched onto its tail
+is said to live off the scraps that
+Slowpoke leaves behind.
+
+[DarkSlowbroName]
+Dark Slowbro
+
+[ReelInName]
+Reel In
+
+[ReelInDescription]
+When you play Dark Slowbro from your
+hand, you may choose up to 3 Basic
+Pokémon and/or Evolution cards from
+your discard pile, show them to your
+opponent, and put them into your
+hand.
+
+[FickleAttackName]
+Fickle Attack
+
+[DarkSlowbroDescription]
+Since it loves to space out, it
+sometimes ends up being exploited by
+people.
+
+[GastlyName]
+Gastly
+
+[SleepingGasName]
+Sleeping Gas
+
+[MayInflictSleepAltDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Asleep.
+
+[DestinyBondName]
+Destiny Bond
+
+[DestinyBondDescription]
+Discard 1 Psychic Energy card
+attached to Gastly. If Gastly is
+Knocked Out while Active during your
+opponent's next turn, Knock Out the
+Defending Pokémon. If you can't
+discard, this attack does nothing.
+
+[GasName]
+Gas
+
+[GastlyLv8Description]
+A life-form made of thin gas. When
+wrapped in its gas, even an Indian
+elephant collapses in 2 seconds.
+
+[SpookifyName]
+Spookify
+
+[SpookifyDescription]
+Your opponent can't play Trainer
+cards until the end of his or her
+next turn.
+
+[FadeToBlackName]
+Fade to Black
+
+[GastlyLv13Description]
+It is nearly invisible. Victims are
+overcome by its gas and black out
+before they even notice.
+
+[LickName]
+Lick
+
+[EnergyConversionName]
+Energy Conversion
+
+[EnergyConversionDescription]
+Put up to 2 Energy cards from your
+discard pile into your hand. Then
+Gastly does 10 damage to itself.
+
+[GastlyLv17Description]
+A mysterious Pokémon. Some say it
+arose from smog; others say it is a
+life-form from another dimension.
+
+[HaunterName]
+Haunter
+
+[TransparencyName]
+Transparency
+
+[TransparencyDescription]
+Whenever an attack does anything to
+Haunter, flip a coin. If heads,
+prevent all effects of that attack,
+including damage, done to it. This
+power stops working while Haunter is
+Asleep, Confused, or Paralyzed.
+
+[NightmareName]
+Nightmare
+
+[HaunterSharedDescription1]
+If you feel like you're being
+watched in the dark when no one is
+around, a Haunter is there.
+
+[DreamEaterName]
+Dream Eater
+
+[DreamEaterDescription]
+You can't use this attack unless the
+Defending Pokémon is Asleep.
+
+[EerieLightName]
+Eerie Light
+
+[GrudgeName]
+Grudge
+
+[GrudgeDescription]
+Does 20 damage plus 10 more damage
+for each Prize card your opponent
+has already taken.
+
+[HaunterSharedDescription2]
+Because it can slip through block
+walls, it is rumored to come from
+another dimension.
+
+[PoltergeistName]
+Poltergeist
+
+[PoltergeistDescription]
+Look at your opponent's hand. This
+attack does 10 damage times the
+number of Trainer cards there.
+
+[BadDreamsName]
+Bad Dreams
+
+[BadDreamsDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Asleep; if tails, it
+is now Confused.
+
+[DarkHaunterName]
+Dark Haunter
+
+[BotherName]
+Bother
+
+[BotherDescription]
+Flip a coin. If heads, 1 Trainer
+card in your opponent's hand is
+chosen at random and shuffled into
+his or her deck.
+
+[DarkHaunterDescription]
+It lurks in darkness, so its true
+form is hard to make out. It is said
+to scare even Trainers.
+
+[GengarName]
+Gengar
+
+[CurseName]
+Curse
+
+[CurseDescription]
+Once during your turn, you may move
+1 damage counter from 1 of your
+opponent's Pokémon to another of his
+or her Pokémon. This power can't be
+used if Gengar is Asleep, Confused,
+or Paralyzed.
+
+[DarkMindName]
+Dark Mind
+
+[ShadowName]
+Shadow
+
+[GengarLv38Description]
+It is said to appear from darkness
+to take the lives of people lost in
+the mountains.
+
+[PowerOfDarknessName]
+Power of Darkness
+
+[PowerOfDarknessDescription]
+When you play Gengar from your hand,
+you may flip a coin. If heads,
+choose 1 of your opponent's Pokémon
+and return it and all cards attached
+to it to his or her hand.
+
+[PsyHorrorName]
+Psy Horror
+
+[GengarLv40Description]
+On full-moon nights, if shadows move
+on their own and laugh, it must be
+Gengar's doing.
+
+[DarkGengarName]
+Dark Gengar
+
+[PlayTricksName]
+Play Tricks
+
+[PlayTricksDescription]
+Once during your turn, you may
+randomly rearrange the damage
+counters on your opponent's Pokémon
+as long as none is Knocked Out. This
+power can't be used if Dark Gengar
+is Asleep, Confused, or Paralyzed.
+
+[PushAsideName]
+Push Aside
+
+[PushAsideDescription]
+Flip a coin. If heads, 1 of your
+opponent's Pokémon is chosen at
+random. Shuffle it and all cards
+attached to it into his or her deck.
+
+[DarkGengarDescription]
+If a Pokémon disappears in the dark,
+it is surely Gengar's doing.
+
+[DrowzeeName]
+Drowzee
+
+[LongDistanceHypnosisName]
+Long-Range Hypnosis
+
+[LongDistanceHypnosisDescription]
+Once during your turn, you may flip
+a coin. If heads, the Defending
+Pokémon is now Asleep; if tails,
+your Active Pokémon is now Asleep.
+This power can't be used if Drowzee
+is Asleep, Confused, or Paralyzed.
+
+[HypnosisCategoryName]
+Hypnosis
+
+[DrowzeeLv10Description]
+Its looks make it unpopular with
+women. It has a habit of quietly
+muttering to itself.
+
+[DrowzeeLv12Description]
+Descended from the baku, a legendary
+creature said to eat dreams. It is
+skilled at hypnosis.
+
+[HypnoName]
+Hypno
+
+[PuppetMasterName]
+Puppet Master
+
+[PuppetMasterDescription]
+If Clefairy Doll is your Active
+Pokémon, it may use Hypno's attacks
+as long as Hypno has the Energy
+those attacks require. (Clefairy
+Doll itself doesn't need any
+Energy.)
+
+[HypnoLv30Description]
+When it locks eyes with an enemy, it
+uses hypnosis and many other psychic
+powers.
+
+[ProphecyName]
+Prophecy
+
+[ProphecyDescription]
+Look at the top 3 cards of either
+player's deck and put them back on
+top in any order you like.
+
+[HypnoLv36Description]
+It carries a pendulum-like device.
+It once hypnotized a child and took
+the child away somewhere.
+
+[DarkHypnoName]
+Dark Hypno
+
+[PsypunchName]
+Psypunch
+
+[BenchManipulationName]
+Bench Manipulation
+
+[BenchManipulationDescription]
+Your opponent flips a coin for each
+of his or her Benched Pokémon. This
+attack does 20 damage times the
+number of tails. Don't apply
+Weakness and Resistance for this
+attack.
+
+[DarkHypnoDescription]
+It carries a pendulum-like device.
+It is said to show up on lonely
+roads and at schools at dusk.
+
+[MrMimeName]
+Mr. Mime
+
+[DampeningShieldName]
+Dampening Shield
+
+[DampeningShieldDescription]
+As long as Mr. Mime is on your
+Bench, don't apply Weakness and
+Resistance to damage done to either
+player's Active Pokémon.
+
+[JugglingName]
+Juggling
+
+[JugglingDescription]
+Flip 4 coins. This attack does 10
+damage times the number of heads.
+
+[BarrierName]
+Barrier
+
+[MrMimeLv20Description]
+If interrupted while it is miming,
+it will suddenly slap the offender
+around with its broad hands.
+
+[InvisibleWallName]
+Invisible Wall
+
+[InvisibleWallDescription]
+Whenever an attack does 30 or more
+damage to Mr. Mime, prevent that
+damage. (Any other effects still
+happen.) This power doesn't work if
+Mr. Mime is already Asleep,
+Confused, or Paralyzed when damaged.
+
+[MeditateName]
+Meditate
+
+[MeditateDescription]
+This attack does 10 more damage for
+each damage counter on the Defending
+Pokémon.
+
+[MrMimeLv28Description]
+It is a master at convincing people.
+Walls it creates by miming are said
+to actually appear.
+
+[JynxName]
+Jynx
+
+[IcePunchName]
+Ice Punch
+
+[ColdBreathName]
+Cold Breath
+
+[HumanShapeName]
+Human Shape
+
+[JynxLv18Description]
+It walks with a sway of its hips. If
+you're careless, you'll find
+yourself dancing along with it.
+
+[JynxLv23Description]
+It speaks a humanlike language, but
+what it says is still a mystery that
+is under study.
+
+[JynxLv27Description]
+It seems to move to a rhythm of its
+own, as if dancing. It wiggles its
+hips lightly as it walks.
+
+[MewtwoName]
+Mewtwo
+
+[EnergyControlDescription]
+Flip a coin. If tails, this attack
+does nothing. If heads, take 1 basic
+Energy card attached to 1 of your
+opponent's Pokémon and attach it to
+1 of his or her Pokémon of your
+choice.
+
+[TelekinesisName]
+Telekinesis
+
+[TelekinesisDescription]
+Choose 1 of your opponent's Pokémon.
+This attack does 30 damage to that
+Pokémon. Don't apply Weakness and
+Resistance for this attack.
+
+[GeneticName]
+Genetic
+
+[MewtwoLv30Description]
+It was created by a scientist after
+years of horrific gene splicing and
+DNA engineering experiments.
+
+[BarrierDescription]
+Discard 1 Psychic Energy card
+attached to Mewtwo. During your
+opponent's next turn, prevent all
+effects of attacks, including
+damage, done to Mewtwo. If you can't
+discard, this attack does nothing.
+
+[MewtwoLv53Description]
+Its genes were spliced over and over
+for research, until it became a
+savage Pokémon.
+
+[PsycrushName]
+Psycrush
+
+[PsycrushDescription]
+Does 10 damage times the number of
+Psychic Energy cards attached to
+your opponent's Pokémon.
+
+[MewtwoLv54Description]
+It was created by a scientist after
+years of horrific gene splicing and
+DNA engineering experiments.
+
+[EnergyAbsorptionName]
+Energy Absorption
+
+[EnergyAbsorptionDescription]
+Choose up to 2 Energy cards from
+your discard pile and attach them to
+Mewtwo.
+
+[PsyburnName]
+Psyburn
+
+[MewtwoLv60Description]
+Splicing Pokémon genes again and
+again gave birth to a Pokémon more
+savage than any before it.
+
+[CompleteRecoveryName]
+Complete Recovery
+
+[CompleteRecoveryDescription]
+Discard all Energy cards attached to
+Mewtwo. Then remove all damage
+counters and markers from Mewtwo. It
+is no longer Poisoned or Confused.
+
+[PsychoBlastName]
+Psycho Blast
+
+[PsychoBlastDescription]
+Flip a coin. If heads, discard 1
+Energy card attached to the
+Defending Pokémon.
+
+[MewtwoLv67Description]
+It was created by a scientist after
+years of horrific gene splicing and
+DNA engineering experiments.
+
+[GRsMewtwoName]
+GR's Mewtwo
+
+[DarkWaveName]
+Dark Wave
+
+[DarkWaveDescription]
+As long as GR's Mewtwo is in play,
+attacks by your Dark Pokémon do 0,
+10, or 20 more damage (at random).
+This power stops working while GR's
+Mewtwo is Asleep, Confused, or
+Paralyzed.
+
+[DarkAmplificationName]
+Dark Amplification
+
+[DarkAmplificationDescription]
+Flip a coin for each Dark Pokémon on
+your Bench. This attack does 20
+damage plus 20 more damage for each
+heads.
+
+[GRsMewtwoDescription]
+It is said to have the power to
+control Dark Pokémon. It is seldom
+seen by anyone.
+
+[MewName]
+Mew
+
+[NeutralShieldName]
+Neutral Shield
+
+[NeutralShieldDescription]
+Prevent all effects of attacks,
+including damage, done to Mew by
+your opponent's evolved Pokémon.
+This power doesn't work if Mew is
+already Asleep, Confused, or
+Paralyzed when attacked.
+
+[NewSpeciesName]
+New Species
+
+[MewLv8Description]
+So rare that it is still said to be
+a mirage by many experts. Only a few
+people have seen it worldwide.
+
+[MysteryAttackName]
+Mystery Attack
+
+[MysteryAttackDescription]
+Does random damage and/or effects to
+the Defending Pokémon. (Sometimes it
+does nothing.)
+
+[MewLv15Description]
+A South American Pokémon thought to
+be extinct. It is very intelligent
+and can learn anything.
+
+[PsywaveName]
+Psywave
+
+[PsywaveDescription]
+Does 10 damage times the number of
+Energy cards attached to the
+Defending Pokémon.
+
+[DevolutionBeamName]
+Devolution Beam
+
+[DevolutionBeamDescription]
+Choose 1 evolved Pokémon in play
+(yours or your opponent's). Return
+the highest Stage Evolution card on
+it to its owner's hand, devolving
+that Pokémon.
+
+[MewLv23Description]
+So rare that it is still said to be
+a mirage by many experts. Only a few
+people have seen it worldwide.
+
+[PidgeyName]
+Pidgey
+
+[TinyBirdName]
+Tiny Bird
+
+[PidgeyLv8Description]
+It does not like to fight. It hides
+in tall grass and catches small bugs
+to eat.
+
+[GustName]
+Gust
+
+[PidgeyLv10Description]
+A common sight in forests and woods.
+It flaps its wings at ground level
+to kick up blinding sand.
+
+[PidgeottoName]
+Pidgeotto
+
+[MirrorMoveName]
+Mirror Move
+
+[MirrorMoveDescription]
+If this Pokémon was attacked during
+your opponent's last turn, do the
+final result of that attack on it to
+the Defending Pokémon.
+
+[BirdName]
+Bird
+
+[PidgeottoLv36Description]
+The claws on its feet are well
+developed. It carries prey such as
+Exeggcute to its nest 100 km away.
+
+[TwisterName]
+Twister
+
+[TwisterDescription]
+If the Defending Pokémon isn't
+Knocked Out, flip a coin. If heads,
+return all Energy cards and Trainer
+cards attached to it to its owner's
+hand.
+
+[FlyAltDescription]
+Flip a coin. If tails, this attack
+does nothing. If heads, during your
+opponent's next turn, prevent all
+effects of attacks, including
+damage, done to Pidgeotto.
+
+[PidgeottoLv38Description]
+Very protective of its sprawling
+territory, this Pokémon will
+fiercely peck at any intruder.
+
+[PidgeotName]
+Pidgeot
+
+[SlicingWingName]
+Razor Wind
+
+[SlicingWingDescription]
+Does 30 damage to 1 of your
+opponent's Pokémon chosen at random.
+Don't apply Weakness and Resistance
+for this attack.
+
+[GaleName]
+Gale
+
+[GaleDescription]
+Switch Pidgeot with 1 of your
+Benched Pokémon and the Defending
+Pokémon with 1 of your opponent's
+Benched Pokémon, each chosen at
+random. (A player with no Benched
+Pokémon doesn't switch.)
+
+[PidgeotLv38Description]
+It spreads its beautiful wings to
+intimidate enemies. It races through
+the skies at Mach 2.
+
+[HurricaneName]
+Hurricane
+
+[HurricaneDescription]
+Unless this attack Knocks Out the
+Defending Pokémon, return the
+Defending Pokémon and all cards
+attached to it to your opponent's
+hand.
+
+[PidgeotLv40Description]
+It spreads its beautiful wings to
+intimidate enemies. It races through
+the skies at Mach 2.
+
+[RattataName]
+Rattata
+
+[RattataLv9Description]
+Its fangs are long and very sharp.
+They never stop growing, so it gnaws
+hard things to wear them down.
+
+[TrickeryName]
+Trickery
+
+[TrickeryDescription]
+Once during your turn, you may
+switch 1 of your Prizes with the top
+card of your deck. This power can't
+be used if Rattata is Asleep,
+Confused, or Paralyzed.
+
+[RattataLv12Description]
+It likes nuts such as walnuts and
+acorns. Among human foods, it loves
+cheese and milk.
+
+[RattataLv15Description]
+It attacks by gnawing on anything.
+Small and quick, it turns up in all
+kinds of places.
+
+[RaticateName]
+Raticate
+
+[SuperFangName]
+Super Fang
+
+[SuperFangDescription]
+Does damage to the Defending Pokémon
+equal to half the Defending
+Pokémon's remaining HP (rounded up
+to the nearest 10).
+
+[RaticateDescription]
+Its hind feet have 3 small webs
+between the toes. It swims across
+rivers.
+
+[DarkRaticateName]
+Dark Raticate
+
+[HyperFangName]
+Hyper Fang
+
+[DarkRaticateDescription]
+Raticate's front teeth are so strong
+that it can topple a 2-story wooden
+house in just 5 minutes.
+
+[SpearowName]
+Spearow
+
+[SpearowLv9Description]
+Inept at flying high. However, it
+flies around at high speed to
+protect its territory.
+
+[FuryAttackName]
+Fury Attack
+
+[SpearowLv12Description]
+Eats bugs in grassy areas. Its wings
+are short, so it must always flap
+them busily.
+
+[SpearowLv13Description]
+It busily flies here and there. It
+has little stamina, but it's a tough
+foe when it uses Mirror Move.
+
+[FearowName]
+Fearow
+
+[DrillDescentName]
+Drill Descent
+
+[BeakName]
+Beak
+
+[FearowLv24Description]
+With its huge and magnificent wings,
+it can keep aloft without ever
+having to land for rest.
+
+[DrillPeckName]
+Drill Peck
+
+[FearowLv27Description]
+With its huge wings, it can keep
+flying through the sky. It can go a
+whole day without landing.
+
+[DarkFearowName]
+Dark Fearow
+
+[FlyHighName]
+Fly High
+
+[FlyHighDescription]
+During your next turn, Dark Fearow's
+Drill Dive attack does double
+damage.
+
+[DrillDiveName]
+Drill Dive
+
+[DrillDiveDescription]
+During your next turn, Dark Fearow
+can't attack or retreat.
+
+[DarkFearowDescription]
+It is hard to dodge the attacks it
+unleashes when it suddenly dives
+down from between the clouds.
+
+[ClefairyName]
+Clefairy
+
+[MetronomeName]
+Metronome
+
+[MetronomeDescription]
+Choose 1 of the Defending Pokémon's
+attacks. Metronome copies that
+attack. (This Pokémon doesn't need
+the Energy that attack requires.)
+
+[FairyName]
+Fairy
+
+[ClefairyLv14Description]
+Its adorable looks make it popular
+as a pet. However, it is very hard
+to find.
+
+[FollowMeName]
+Follow Me
+
+[ShiningFingersName]
+Shining Fingers
+
+[ClefairyLv15Description]
+Its magical and cute appeal has many
+admirers. It lives only in certain
+areas and is hard to find.
+
+[ClefableName]
+Clefable
+
+[MinimizeAltDescription]
+All damage done by attacks to
+Clefable during your opponent's next
+turn is reduced by 20 (after
+applying Weakness and Resistance).
+(Any other effects of attacks still
+happen.)
+
+[ClefableDescription]
+Its hearing is so keen that it can
+pick out the sound of a pin dropped
+1 km away.
+
+[DarkClefableName]
+Dark Clefable
+
+[DarknessVeilName]
+Darkness Veil
+
+[DarknessVeiDescription]
+While Dark Clefable is in play, your
+Active Dark Pokémon takes 0, 10, or
+20 less damage (at random) from your
+opponent's attacks. This power stops
+working while Dark Clefable is
+Asleep, Confused, or Paralyzed.
+
+[DarkSongName]
+Dark Song
+
+[DarkSongDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Asleep and this
+attack does 10 damage to each of
+your opponent's non-Dark Benched
+Pokémon. (Don't apply Weakness and
+Resistance for Benched Pokémon.)
+
+[DarkClefableDescription]
+It senses what is around it and
+protects its friends with a strange
+power that only fairies possess.
+
+[JigglypuffName]
+Jigglypuff
+
+[DoubleEdgeName]
+Double-Edge
+
+[BalloonName]
+Balloon
+
+[JigglypuffLv12Description]
+It lures foes in with its big round
+eyes, then sings a soothing song
+that puts them to sleep.
+
+[FriendshipSongName]
+Friendship Song
+
+[FriendshipSongDescription]
+Flip a coin. If heads, put a Basic
+Pokémon card chosen at random from
+your deck onto your Bench. Shuffle
+your deck afterward. (You can't use
+this attack if your Bench is full.)
+
+[ExpandName]
+Expand
+
+[ExpandDescription]
+All damage done to Jigglypuff during
+your opponent's next turn is reduced
+by 10 (after applying Weakness and
+Resistance).
+
+[JigglypuffLv13Description]
+When its big round eyes waver, it
+sings a strange, soothing song that
+makes everyone sleepy.
+
+[LullabyName]
+Lullaby
+
+[JigglypuffLv14Description]
+When something annoys it, it puffs
+up like a balloon.
+
+[WigglytuffName]
+Wigglytuff
+
+[DoTheWaveName]
+Do the Wave
+
+[DoTheWaveDescription]
+Does 10 damage plus 10 more damage
+for each of your Benched Pokémon.
+
+[WigglytuffLv36Description]
+Its fine, supple fur is simply
+enchanting. Its pelt is considered a
+luxury item.
+
+[HelpingHandName]
+Helping Hand
+
+[HelpingHandDescription]
+Once during your turn, if Wigglytuff
+is on your Bench, you may flip a
+coin. If heads, your Active Pokémon
+recovers from 1 of these: Poisoned,
+Asleep, Confused, or Paralyzed.
+
+[ExpandAltDescription]
+All damage done to Wigglytuff during
+your opponent's next turn is reduced
+by 10 (after applying Weakness and
+Resistance).
+
+[WigglytuffLv40Description]
+The body is soft and rubbery. When
+angered, it will suck in air and
+inflate itself to an enormous size.
+
+[MeowthName]
+Meowth
+
+[CoinHurlName]
+Coin Hurl
+
+[CoinHurlDescription]
+Flip a coin. If heads, choose 1 of
+your opponent's Pokémon. This attack
+does 20 damage to that Pokémon.
+Don't apply Weakness and Resistance
+for this attack.
+
+[ScratchCatName]
+Scratch Cat
+
+[MeowthLv10Description]
+It earns you pocket money with its
+Pay Day move, so it is a welcome
+Pokémon to have around.
+
+[CatPunchName]
+Cat Punch
+
+[CatPunchDescription]
+Does 20 damage to 1 of your
+opponent's Pokémon chosen at random.
+Don't apply Weakness and Resistance
+for this attack.
+
+[MeowthLv13Description]
+It goes out every night to collect
+dropped coins and bring them home.
+
+[ClearProfitName]
+Clear Profit
+
+[ClearProfitDescription]
+Flip a coin until you get tails.
+Draw a card for each heads.
+
+[MeowthLv14Description]
+Adores circular objects. Wanders the
+streets on a nightly basis to look
+for dropped loose change.
+
+[PayDayName]
+Pay Day
+
+[PayDayDescription]
+Flip a coin. If heads, draw a card.
+
+[MeowthLv15Description]
+It does nothing but sleep by day. At
+night, its eyes gleam as it prowls
+its territory.
+
+[MeowthLv17Description]
+It seems more lively at night. It
+loves round, shiny things and can't
+resist picking them up.
+
+[PersianName]
+Persian
+
+[PounceName]
+Pounce
+
+[PounceDescription]
+If the Defending Pokémon attacks
+Persian during your opponent's next
+turn, any damage done by the attack
+is reduced by 10 (after applying
+Weakness and Resistance).
+
+[ClassyCatName]
+Classy Cat
+
+[PersianDescription]
+It has a fierce temper. Beware if it
+raises its tail straight up: it is
+about to pounce and bite.
+
+[DarkPersianName]
+Dark Persian
+
+[FascinateName]
+Fascinate
+
+[FascinateDescription]
+Flip a coin. If heads, choose 1 of
+your opponent's Benched Pokémon and
+switch it with the Defending
+Pokémon. (This attack can't be used
+if your opponent has no Benched
+Pokémon.)
+
+[PoisonClawsName]
+Poison Claws
+
+[DarkPersianDescription]
+Many women keep it as a pet for its
+beautiful coat. It is also the pet
+of Team Rocket's boss.
+
+[FarfetchdName]
+Farfetch'd
+
+[LeekSlapName]
+Leek Slap

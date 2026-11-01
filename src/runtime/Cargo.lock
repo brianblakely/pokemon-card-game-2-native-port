@@ -253,8 +253,13 @@ name = "tcg2-kernel"
 version = "0.1.0"
 dependencies = [
  "tcg2-core",
+ "tcg2-locale",
  "tcg2-recomp",
 ]
+
+[[package]]
+name = "tcg2-locale"
+version = "0.1.0"
 
 [[package]]
 name = "tcg2-recomp"

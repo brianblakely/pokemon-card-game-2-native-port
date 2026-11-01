@@ -1,6 +1,7 @@
 //! The player's settings: `settings.ini` beside the app, `key = value` lines.
 
 use std::path::{Path, PathBuf};
+use tcg2_kernel::Language;
 use tcg2_render::{Filter, Fit, Look};
 
 /// How the game clock is paced.
@@ -15,6 +16,8 @@ pub enum Speed {
 
 #[derive(Clone, Debug)]
 pub struct Settings {
+    /// The game's language.
+    pub language: Language,
     pub look: Look,
     pub fullscreen: bool,
     /// 0-100.
@@ -31,6 +34,7 @@ pub struct Settings {
 impl Default for Settings {
     fn default() -> Self {
         Self {
+            language: Language::default(),
             look: Look::default(),
             fullscreen: false,
             volume: 100,
@@ -70,6 +74,7 @@ impl Settings {
     /// false for an unknown key or value.
     pub fn set(&mut self, key: &str, value: &str) -> bool {
         match key {
+            "language" => Language::parse(value).map(|l| self.language = l).is_some(),
             "filter" => Filter::parse(value).map(|f| self.look.filter = f).is_some(),
             "fit" => Fit::parse(value).map(|f| self.look.fit = f).is_some(),
             "lcd_colours" => parse_bool(value)
@@ -113,6 +118,8 @@ impl Settings {
     pub fn save(&self, path: &Path) {
         let text = format!(
             "# Pokémon Card GB2 settings\n\
+             # language: en-US (American English) | ja (Japanese, the original)\n\
+             language = {}\n\
              # filter: sharp | nearest | smooth\n\
              filter = {}\n\
              # fit: aspect | integer | stretch\n\
@@ -127,6 +134,7 @@ impl Settings {
              # the most pictures shown per second (0 = every new picture)\n\
              max_fps = {}\n\
              pause_hidden = {}\n",
+            self.language.tag(),
             self.look.filter.name(),
             self.look.fit.name(),
             self.look.lcd_colours,

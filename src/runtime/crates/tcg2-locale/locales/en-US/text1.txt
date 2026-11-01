@@ -1,0 +1,1143 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text1.asm, by label (format: src/text.rs).
+
+[HandText]
+Hand
+
+[CheckText]
+Check
+
+[AttackText]
+Attack
+
+[PokemonPowerHiraganaText]
+PKMN Power
+
+[DoneText]
+Done
+
+[TypeText]
+Type
+
+[RetreatText]
+Retreat
+
+[WeaknessText]
+Weakness
+
+[ResistanceText]
+Resist.
+
+[PokemonPowerKanjiText]
+PKMN PWR
+
+[PokemonTCGText]
+Pokémon Cards
+
+[LengthText]
+Ht.
+
+[WeightText]
+Wt.
+
+[PokemonText]
+` Pokémon`
+
+[WeightUnitKilogramsText]
+kg
+
+[AllCardsOwnedText]
+'s card collection
+
+[TotalCardsCountText]
+`Total cards                         `
+
+[TotalUniqueCardsCountText]
+`Different cards                     `
+
+[GrassPokemonText]
+Grass
+
+[FirePokemonText]
+Fire
+
+[WaterPokemonText]
+Water
+
+[LightningPokemonText]
+Lightning
+
+[FightingPokemonText]
+Fighting
+
+[PsychicPokemonText]
+Psychic
+
+[ColorlessPokemonText]
+Colorless
+
+[TrainerCardText]
+Trainer cards
+
+[EnergyCardText]
+Energy cards
+
+[DeckPrinterText]
+` Deck`
+
+[AttackByText]
+'s attack
+
+[NoBenchedPokemonText]
+No Pokémon on the Bench.
+
+[UnableDueToSleepText]
+Can't do that while Asleep.
+
+[UnableDueToParalysisText]
+Can't do that while Paralyzed.
+
+[ReceivedXDamageDueToPoisonText]
+<RAMTEXT> takes
+<RAMNUM> damage from Poison.
+
+[ReceivedXDamageDueToToxicText]
+<RAMTEXT> takes
+<RAMNUM> damage from Toxic poison.
+
+[IsStillAsleepText]
+<RAMTEXT>
+is still Asleep.
+
+[IsCuredOfSleepText]
+<RAMTEXT>
+woke up.
+
+[IsCuredOfParalysisText]
+<RAMTEXT>
+can act again.
+
+[BetweenTurnsText]
+Between Turns.
+
+[UnableToUseItText]
+Unable to use it.
+
+[NoEnergyCardsText]
+There are no Energy cards.
+
+[IsThisOKText]
+Is this OK?
+
+[YesOrNoText]
+`Yes     No`
+
+[DiscardActionName]
+Discard
+
+[IncompleteText]
+WIP
+
+[DamageText]
+Damage
+
+[UsedText]
+<RAMTEXT>
+was used.
+
+[ReceivedDamageText]
+Took damage.
+
+[PokemonsAttackText]
+<RAMTEXT>'s
+<RAMTEXT>!
+
+[ResistanceLessDamageText]
+<RAMTEXT> took <RAMNUM> damage
+due to Resistance.
+
+[WeaknessMoreDamageText]
+<RAMTEXT> took <RAMNUM> damage
+due to Weakness.
+
+[WeaknessResistanceMixedDamageText]
+<RAMTEXT> took <RAMNUM> damage
+due to Weakness and Resistance.
+
+[ResistanceNoDamageText]
+<RAMTEXT> took no damage
+due to Resistance!
+
+[AttackDamageText]
+<RAMTEXT>
+took <RAMNUM> damage.
+
+[NoDamageText]
+<RAMTEXT>
+took no damage!
+
+[NoSelectableAttacksText]
+There are no attacks to choose.
+
+[UnableToRetreatText]
+Unable to retreat!
+
+[Only1EnergyCardPerTurnText]
+You can only attach 1 Energy card
+during your turn.
+
+[UseThisPokemonPowerPromptText]
+Use this Pokémon Power?
+
+[PokemonPowerSelectNotRequiredText]
+This Pokémon Power doesn't need
+to be selected.
+
+[DiscardActionDescription]
+During your turn, you may discard
+this card. It does not count as a
+Knocked Out Pokémon. ("Discard" is
+not a Pokémon Power.)
+
+[WillDrawXPrizesText]
+<RAMNAME> will take
+<RAMNUM> Prize(s).
+
+[DrewXPrizesText]
+<RAMNAME> took
+<RAMNUM> Prize(s).
+
+[DuelistPlacedACardInArenaText]
+<RAMNAME> sent out
+<RAMTEXT>.
+
+[UnableToSelectText]
+Unable to select.
+
+[ColorListText]
+Grass
+Fire
+Water
+Lightning
+Fighting
+Psychic
+
+[BenchText]
+Bench
+
+[KnockOutText]
+`Knocked Out             `
+
+[DamageToSelfDueToConfusionText]
+It hurt itself in its confusion!!
+
+[ChooseEnergyCardToRemoveText]
+Choose an Energy card
+to remove.
+
+[ChooseEnergyCardToDiscardText]
+Choose an Energy card
+to discard.
+
+[ChooseNextActivePokemonText]
+The Active Pokémon was Knocked Out.
+Choose a new Active Pokémon.
+
+[PressStartWhenReadyText]
+When you're both ready, one of you
+please press the START button.
+
+[YouPlayFirstText]
+You play first.
+
+[YouPlaySecondText]
+You play second.
+
+[TransmissionErrorTryAgainText]
+Transmission error.
+Please try again from the start.
+
+[ChooseCardToCheckText]
+Choose a card
+to check.
+
+[TransmittingDataText]
+Linking...
+
+[OpponentsTurnWaitingMenuHandCheckText]
+Waiting...
+`    Hand        Check`
+
+[SelectingBenchPokemonSubmenuHandCheckBackText]
+Choosing a Benched Pokémon...
+`    Hand        Check       Back`
+
+[RetreatedToTheBenchText]
+<RAMTEXT>
+retreated.
+
+[RetreatWasUnsuccessfulText]
+<RAMTEXT>
+failed to Retreat.
+
+[UsePokemonPowerText]
+<RAMTEXT> uses the
+Pokémon Power <RAMTEXT>.
+
+[FinishedTurnWithoutAttackingText]
+Finished the turn
+without attacking.
+
+[DuelistsTurnText]
+Your move, <RAMNAME>
+
+[AttachedEnergyToPokemonText]
+Attached <RAMTEXT>
+to <RAMTEXT>.
+
+[PokemonEvolvedIntoPokemonText]
+<RAMTEXT> evolved
+into <RAMTEXT>.
+
+[PlacedOnBenchText]
+<RAMTEXT>
+is now on the Bench.
+
+[PlacedInArenaText]
+<RAMTEXT>
+is now in the Arena.
+
+[ShufflesTheDeckText]
+<RAMNAME> shuffles the Deck.
+
+[PracticeDuelNoShufflesText]
+This is practice, so no shuffling.
+
+[EachPlayerShuffleOpponentsDeckText]
+Players shuffle each other's Decks.
+
+[EachPlayerDraw7CardsText]
+Each player draws 7 cards.
+
+[Drew7CardsText]
+<RAMNAME>
+draws 7 cards.
+
+[DeckPileCardCountText]
+<RAMNAME> has <RAMNUM> cards in Deck.
+
+[ChooseBasicPokemonToPlaceInArenaText]
+Choose a Basic Pokémon
+to place in the Arena.
+
+[NoBasicPokemonInHandText]
+<RAMNAME> had no Basic Pokémon
+in the Hand.
+
+[NeitherPlayerHasBasicPokemonText]
+Neither player had a Basic
+Pokémon in their Hand.
+
+[ReturnCardsToDeckAndDrawAgainText]
+Return cards to
+the Deck and redraw.
+
+[ChooseUpToXBasicPokemonToPlaceOnBenchText]
+You may choose up to <RAMNUM> Basic
+Pokémon to place on the Bench.
+
+[ChooseActivePokemonText]
+Choose your Active
+Pokémon.
+
+[ChooseBenchedPokemonText]
+Choose Pokémon
+for your Bench.
+
+[YouDrewText]
+You drew <RAMTEXT>.
+
+[YouCannotSelectThisCardText]
+This card can't be chosen.
+
+[PlacingThePrizesText]
+Placing the Prize cards.
+
+[EachPlayerPlacePrizesText]
+Each player places
+<RAMNUM> Prize cards.
+
+[IfHeadsDuelistPlaysFirstText]
+If heads,
+<RAMTEXT> plays first.
+
+[CoinTossToDecideWhoPlaysFirstText]
+A coin flip will decide
+who plays first.
+
+[DecisionText]
+Deciding the result...
+
+[DuelWasADrawText]
+You tied the duel with <RAMNAME>.
+
+[WonDuelText]
+You beat <RAMNAME> in the duel!
+
+[LostDuelText]
+You lost the duel
+to <RAMNAME>...
+
+[StartSuddenDeathMatchText]
+"Sudden Death" begins!
+A new duel with 1 Prize card each.
+
+[PrizesLeftActivePokemonCardsInDeckText]
+Prizes left
+Pokémon left
+Deck
+
+[NoneText]
+No
+
+[YesText]
+Yes
+
+[CardsUnitText]
+`  `
+
+[DrewFromPrizesText]
+<RAMNAME> took <RAMTEXT>
+from the Prizes.
+
+[TookAllThePrizesText]
+<RAMNAME> has taken
+all of the Prizes!
+
+[NoPokemonInPlayAreaText]
+<RAMNAME> has
+no Pokémon left in play.
+
+[WasKnockedOutText]
+<RAMTEXT> was Knocked Out!
+
+[HavePokemonPowerText]
+<RAMTEXT>
+has a Pokémon Power.
+
+[HavePokemonPowerButUnableDueToToxicGasText]
+But because of "Toxic Gas,"
+its Pokémon Power can't be used.
+
+[HavePokemonPowerButUnableDueToGoopGasAttackText]
+But because of "Goop Gas Attack,"
+its Pokémon Power can't be used.
+
+[HavePokemonPowerButUnableDueToStareText]
+But because of "Stare,"
+its Pokémon Power can't be used.
+
+[MenuUseCheckText]
+`  Use`
+`  Check`
+
+[MenuPutOutCheckText]
+`  Play`
+`  Check`
+
+[MenuSelectCheckText]
+`  Select`
+`  Check`
+
+[DuelistIsThinkingText]
+<RAMNAME> is thinking.
+
+[DebugComputerOpponentSelectionText]
+Select CPU opponent
+
+[NumberOfPrizesText]
+Prizes
+
+[DebugRandom1Text]
+Random 1
+
+[DebugRandom2Text]
+Random 2
+
+[DebugRandom3Text]
+Random 3
+
+[DebugRandom4Text]
+Random 4
+
+[DebugTrainingComputerOpponentText]
+Training CPU
+
+[Player1Text]
+Player 1
+
+[DebugDirectionLeftToRightText]
+L to R
+
+[DebugDirectionRightToLeftText]
+R to L
+
+[DebugChangeExecuteEndText]
+START:Swap
+`    A:Execute`
+`    B:Quit`
+
+[DebugDuelMenu1Text]
+Other
+Psn.
+Sleep
+Par.
+Confused
+Toxic
+Clear
+Smokescreen
+Opp. Hand
+Discard from Hand
+Deck
+Discard Pile
+Hand to Deck
+Take Prize
+Swap Players
+Shuffle Deck
+Discard Bench
+Swap Cards
+
+[DebugDuelMenu2Text]
+Win Game
+Lose Game
+Draw Game
+Limited
+Pause Mode
+Toggle Computer Duel
+Set Player 2 to CPU
+Flip 20 Coins
+Save Current State
+Load File
+
+[DebugSaveFileText]
+Save File
+
+[DebugLoadFileLastSavedFileText]
+Load File
+`  0 Last saved file`
+
+[DebugPauseModeOnText]
+Pause mode is now ON.
+Press SELECT to pause.
+
+[DebugPauseModeOffText]
+Pause mode is now OFF.
+
+[DebugComputerModeOffText]
+Computer mode is
+now OFF.
+
+[DebugComputerModeOnText]
+Computer mode is
+now ON.
+
+[DebugCardCategoryListText]
+<GRASS> Pokémon
+<FIRE> Pokémon
+<WATER> Pokémon
+<LIGHTNING> Pokémon
+<FIGHTING> Pokémon
+<PSYCHIC> Pokémon
+<COLORLESS> Pokémon
+Trainer cards
+Energy cards
+
+[DebugBoosterPackListText]
+Beginning Pokémon
+Legendary Power
+Fossil Is.
+Psy Btl.
+Flying Pokémon
+We, Team Rocket
+Rocket's Ambition
+Special
+Energy
+Present Pack 1
+Present Pack 2
+Present Pack 3
+Present Pack 4
+DDI Pack
+
+[DebugSpecialDuelRuleListText]
+Clear
+Grass Pokémon: no Special Conditions
+Lightning Pokémon do +10 damage
+Fire Pokémon: no Water Weakness
+Bench size is 3
+Water Pokémon: Retreat Cost -1
+Fighting Pokémon ignore Resistance
+Resistance is -10 instead of -30
+KO'd Pokémon's basic Energy to Hand
+Retreat Cost +1
+Discard Pile can't be used
+
+[DebugCardListText]
+Card List
+
+[DebugTestCoinFlipText]
+Testing coin flips.
+
+[DebugEndWithoutPrizesText]
+No Prize cards. End the duel?
+
+[ResetBackUpRamPromptText]
+Reset the backup RAM?
+
+[DebugIncidentAbortPleaseSubmitRomText]
+!!!! ABORT !!!!
+A serious problem has occurred.
+The program will now stop.
+Please submit the cartridge.
+
+[NoCardsInHandText]
+No cards in Hand.
+
+[TheDiscardPileHasNoCardsText]
+The Discard Pile has no cards.
+
+[DuelistDiscardPileText]
+Discards: <RAMNAME>
+
+[DuelistHandText]
+Hand: <RAMNAME>
+
+[DuelistPlayAreaText]
+Play Area: <RAMNAME>
+
+[DuelistDeckText]
+Deck: <RAMNAME>
+
+[DuelistPrizeCardsText]
+Prizes: <RAMNAME>
+
+[PleaseSelectHandText]
+Choose a
+card from Hand.
+
+[EnergyCardsAttachedToPokemonText]
+List of Energy cards
+attached to the Pokémon
+
+[PleaseSelectCardText]
+Choose a card.
+
+[NoPokemonWithDamageCountersText]
+There are no Pokémon
+with damage counters.
+
+[NoDamageCountersText]
+It has no damage counters.
+
+[NoEnergyAttachedToPokemonInOppPlayAreaText]
+There is no Energy attached to
+your opponent's Pokémon.
+
+[NoEnergyCardsInDiscardPileText]
+There are no Energy cards
+in the Discard Pile.
+
+[NoBasicEnergyCardsInDiscardPileText]
+There are no basic Energy cards
+in the Discard Pile.
+
+[NoCardsLeftInTheDeckText]
+No cards left in the Deck.
+
+[NoSpaceOnTheBenchText]
+The Bench is full.
+
+[NoPokemonCapableOfEvolvingText]
+There are no Pokémon to evolve.
+
+[CantEvolvePokemonInSameTurnItsPlacedText]
+Can't evolve the turn it's played.
+
+[NotAffectedByStatusText]
+Not Poisoned, Asleep, Paralyzed,
+or Confused.
+
+[NotEnoughCardsInHandText]
+Not enough cards.
+
+[EffectNoBenchedPokemonText]
+No Pokémon on the Bench.
+
+[NoBasicPokemonInDiscardPileText]
+The Discard
+Pile has no Basic Pokémon.
+
+[NoPokemonInDiscardPileText]
+The Discard
+Pile has no Pokémon.
+
+[ConditionsForEvolvingToStage2NotFulfilledText]
+The conditions to evolve into a
+Stage 2 Pokémon aren't met.
+
+[NoExchangeableCardsInHandText]
+There are no cards in Hand to trade.
+
+[NoCardsInDiscardPileText]
+No cards in the Discard Pile.
+
+[NoEvolvedPokemonText]
+No Evolved Pokémon are in play.
+
+[NoEnergyCardsAttachedToPokemonInYourPlayAreaText]
+There are no Energy cards attached
+to your Pokémon.
+
+[NoEnergyCardsAttachedToPokemonInOppPlayAreaText]
+There are no Energy cards attached
+to your opponent's Pokémon.
+
+[EnergyRequiredToRetreatText]
+Retreating requires
+<RAMNUM> Energy.
+
+[NotEnoughEnergyCardsText]
+Not enough Energy cards.
+
+[NotEnoughFireEnergyText]
+Not enough Fire Energy.
+
+[NotEnoughPsychicEnergyText]
+Not enough Psychic Energy.
+
+[NotEnoughWaterEnergyText]
+Not enough Water Energy.
+
+[NoTrainerCardsInDiscardPileText]
+There are no Trainer cards
+in the Discard Pile.
+
+[NoAttacksMayBeChosenText]
+There are no attacks to choose.
+
+[YouDidNotReceiveAnAttackToMirrorMoveText]
+It received no attack last turn
+that Mirror Move can copy.
+
+[CannotBeUsedTwiceText]
+It can't be used again.
+
+[NoWeaknessText]
+It has no Weakness.
+
+[NoResistanceText]
+It has no Resistance.
+
+[CannotChangeWeaknessDueToNoWeaknessText]
+The Defending Pokémon has no
+Weakness, so it can't be changed.
+
+[OnlyOncePerTurnText]
+Only once during your turn.
+
+[CannotUseDueToStatusText]
+Can't use it while Asleep,
+Paralyzed, or Confused.
+
+[CannotBeUsedInTurnWhichWasPlayedText]
+Can't be used the turn it's played.
+
+[NoEnergyCardsAttachedText]
+No Energy cards are attached.
+
+[NoGrassEnergyText]
+There's no Grass Energy.
+
+[CannotUseSinceTheresOnly1PokemonText]
+Can't use it with only 1 Pokémon.
+
+[CannotUseBecauseItWillBeKnockedOutText]
+Can't use it, as it'd be
+Knocked Out.
+
+[CanOnlyBeUsedOnTheBenchText]
+Only usable on the Bench.
+
+[NoBenchedPokemonOnBenchText]
+There are no Pokémon on the Bench.
+
+[OpponentIsNotAsleepText]
+The Defending Pokémon isn't Asleep.
+
+[UnableDueToToxicGasText]
+Due to the effect of "Toxic Gas,"
+it can't be used.
+
+[UnableDueToStareText]
+Unusable due to "Stare."
+
+[NoBasicEnergyCardsAttachedToOpponentText]
+The Defending Pokémon has no basic
+Energy cards attached.
+
+[NoSpecialEnergyCardsInDiscardPileText]
+There are no Special Energy cards
+in the Discard Pile.
+
+[NoBasicEnergyAttachedToPokemonInOppPlayAreaText]
+There is no basic Energy attached
+to your opponent's Pokémon.
+
+[NoBasicEnergyAttachedToPokemonInYourPlayAreaText]
+There is no basic Energy attached
+to your Pokémon.
+
+[CannotUseThisTurnText]
+Can't be used this turn.
+
+[CannotUseDueToNotAsleepText]
+Only usable while Asleep.
+
+[NoCardsInOpponentsHandText]
+Opponent holds no cards.
+
+[NoEvolutionCardsInDiscardPileText]
+No Evolution cards
+discarded.
+
+[NoPokemonEvolvingFromFossilText]
+There are no Pokémon that evolved
+from "Mysterious Fossil."
+
+[CannotUseSinceItAlreadyHas2FoodCountersText]
+It already has 2 food counters,
+so it can't be used.
+
+[CannotEvolveText]
+Can't evolve.
+
+[CannotUseText]
+Not usable.
+
+[NotEnoughEnergyCardsInHandText]
+Not enough Energy cards in Hand.
+
+[NoWaterEnergyInOppPlayAreaText]
+Your opponent has no Water Energy.
+
+[CannotUseThisAttackText]
+Can't use this attack.
+
+[TransmissionErrorSimpleText]
+A transmission error occurred.
+
+[BackUpIsBrokenText]
+The backup data is corrupted.
+
+[PrinterNotConnectedErrorText]
+Error <No>0<RAMNUM>
+The printer is not connected.
+
+[PrinterLowBatteryErrorText]
+Error <No>0<RAMNUM>
+The printer's batteries are low.
+
+[PrinterPaperJamErrorText]
+Error <No>0<RAMNUM>
+The printer paper is jammed.
+
+[PrinterErrorText]
+Error <No>0<RAMNUM>
+Printer error.
+
+[PrinterPacketErrorText]
+Error <No>0<RAMNUM>
+Printer packet error.
+
+[PrintingWasInterruptedText]
+Printing was interrupted.
+
+[CardPopUnavailableOnSGBText]
+"Card Pop!" can't be played on
+the Super Game Boy.
+Please play it on a Game Boy or
+Game Boy Color.
+
+[GBCOnlyText]
+`      This Game Pak is`
+`  for Game Boy Color only.`
+`     Please use it on a`
+`      Game Boy Color.`
+
+[SandAttackCheckText]
+Sand-attack check
+If tails, the attack does nothing.
+
+[SmokescreenCheckText]
+Smokescreen check
+If tails, the attack does nothing.
+
+[LightningFlashCheckText]
+Lightning Flash check
+If tails, the attack does nothing.
+
+[ParalysisInflictionCheckText]
+Paralysis check! If heads,
+the Defending Pokémon is Paralyzed.
+
+[SleepInflictionCheckText]
+Sleep check! If heads,
+the Defending Pokémon is Asleep.
+
+[PoisonInflictionCheckText]
+Poison check! If heads,
+the Defending Pokémon is Poisoned.
+
+[PoisonedIfHeadsParalyzedIfTailsText]
+If heads, the Defending Pokémon is
+Poisoned; if tails, it's Paralyzed.
+
+[IfHeadsPlus20AndParalysisText]
+If heads, it does 20 more damage and
+the Defending Pokémon is Paralyzed.
+
+[ConfusionInflictionCheckText]
+Confusion check! If heads,
+the Defending Pokémon is Confused.
+
+[VenomPowderCheckText]
+Venom Powder check! If heads, the
+opponent is Poisoned and Confused.
+
+[IfTailsYourPokemonBecomesConfusedText]
+If tails,
+it becomes Confused.
+
+[DamageCheckIfTailsNoDamageText]
+Damage check!
+If tails, no damage!!
+
+[IfHeadsDraw1CardFromDeckText]
+If heads,
+draw 1 card from the Deck!
+
+[FlipUntilTails10DamageTimesHeadsText]
+Flip a coin until you get tails.
+10 damage for each heads!!
+
+[IfHeadPlus10IfTails10ToYourselfText]
+If heads, +10 damage!
+If tails, 10 damage to itself!
+
+[DamageToOppBenchIfHeadsDamageToYoursIfTailsText]
+If heads, your opponent's Bench;
+if tails, yours. 10 damage to each!
+
+[IfHeadsSwitchOutOpponentsActivePokemonText]
+If heads,
+the Defending Pokémon is switched.
+
+[HealSuccessCheckText]
+If heads,
+"Heal" succeeds!!
+
+[IfTailsDamageToYourselfTooText]
+If tails,
+it also does <RAMNUM> damage to itself!
+
+[AttackSuccessCheckText]
+Attack success check!
+If heads, the attack succeeds!!
+
+[TrainerCardSuccessCheckText]
+Trainer card success check!
+If heads, it succeeds!
+
+[GamblerQuantityCheckText]
+Card count check!
+If heads, 8 cards! If tails, 1 card!
+
+[IfHeadsNoDamageNextTurnText]
+If heads, during your opponent's
+next turn, it takes no damage!
+
+[DamageCheckSimpleText]
+Damage check
+
+[DamageCheckIfHeadsPlusDamageText]
+Damage check!
+If heads, +<RAMNUM> damage!!
+
+[DamageCheckXDamageTimesHeadsText]
+Damage check!
+<RAMNUM> damage for each heads!!
+
+[DamageCheckPlusXDamageForEachHeadsText]
+Damage check!
+<RAMNUM> more damage for each heads!!
+
+[AcidCheckText]
+Acid check. If heads, the Defending
+Pokémon can't Retreat next turn.
+
+[TransparencyCheckText]
+Transparency check
+If heads, the attack has no effect.
+
+[ConfusionCheckDamageText]
+Confusion check
+If tails, it damages itself.
+
+[ConfusionCheckRetreatText]
+Confusion check!
+If tails, can't Retreat.
+
+[PokemonsSleepCheckText]
+<RAMTEXT>'s
+Sleep check!
+
+[PoisonedIfHeadsConfusedIfTailsText]
+If heads, the Defending Pokémon is
+Poisoned; if tails, it's Confused.
+
+[IfHeadsDoNotReceiveDamageOrEffectText]
+If heads, during your opponent's
+next turn, attacks do nothing to it!
+
+[IfHeadsOpponentCannotAttackText]
+If heads, the Defending Pokémon
+can't attack during the next turn!
+
+[FinalBeamSuccessCheckText]
+If heads,
+"Final Beam" succeeds!
+
+[ConfuseOppIfHeadsConfuseYourselfIfTailsText]
+If heads, the Defending Pokémon is
+Confused; if tails, yours is.
+
+[LongDistanceHypnosisCheckText]
+If heads, the Defending Pokémon is
+Asleep; if tails, yours is.
+
+[DamageCheckXDamageTimesTailsText]
+Damage check!
+<RAMNUM> damage for each tails!
+
+[DamageCheckIfTailsPlusDamageText]
+Damage check!
+If tails, +<RAMNUM> damage!!
+
+[SinkholeCheckText]
+Sinkhole check!
+If tails, 20 damage!!
+
+[ConfusedIfHeadsSleepIfTailsText]
+If heads, the Defending Pokémon is
+Confused; if tails, it's Asleep.
+
+[ParalyzedIfHeadsPoisonedIfTailsText]
+If heads, the Defending Pokémon is
+Paralyzed; if tails, it's Poisoned.
+
+[AsleepIfHeadsConfusedIfTailsText]
+If heads, the Defending Pokémon is
+Asleep; if tails, it's Confused.
+
+[IfTails40DamageToYourselfTooText]
+If tails,
+it also does 40 damage to itself!!
+
+[FlipUntilTails20DamageTimesHeadsText]
+Flip a coin until you get tails.
+20 damage for each heads!!
+
+[IfHeadsDiscard1EnergyCardText]
+If heads, discard 1 Energy card!
+
+[IfHeadsOpponentCannotRetreatText]
+If heads, the Defending Pokémon
+can't Retreat during the next turn!
+
+[IfHeads10DamageToBenchText]
+If heads,
+10 damage to a Benched Pokémon!
+
+[IfTails30DamageTo1OfYourPokemonText]
+If tails, 30 damage to
+1 of your own Pokémon!
+
+[Plus20DamageIfHeads20DamageToYourselfIfTailsText]
+If heads, +20 damage.
+If tails, 20 damage to itself.
+
+[IfTailsNoDamageToOppAnd20ToYourselfText]
+If tails, no damage is done, and
+it does 20 damage to itself.
+
+[BlinkCheckText]
+Blink check
+If heads, it takes no damage.
+
+[IfHeads20DamageTo1OfOppPokemonText]
+If heads, 20 damage to 1 of
+your opponent's Pokémon!
+
+[IfHeadsDoNotReceiveDamageText]
+If heads, during your opponent's
+next turn, attacks can't damage it!
+
+[IfHeadsDiscard1EnergyCardFromOpponentText]
+If heads, discard 1 Energy card
+attached to the Defending Pokémon!
+
+[IfTailsDiscard1EnergyCardFromYourselfText]
+If tails, discard 1 Energy card
+attached to your Active Pokémon!
+
+[IfHeads30DamageToOppIfTails10DamageToBenchText]
+If heads, 30 damage to the Defending
+Pokémon; if tails, 10 to the Bench.
+
+[FailIfEitherOf2CoinsIsTailsText]
+Flip 2 coins. If either is tails,
+this attack does nothing!
+
+[KickingAndStampingCheckText]
+If heads, 10 more damage; if tails,
+the Defending Pokémon is switched.
+
+[DrawCardForEachHeadsText]
+Draw a card for each heads.
+
+[ClearProfitCheckText]
+Flip a coin until you get tails.
+Draw a card for each heads.
+
+[FocusedOneShotCheckText]
+Heads: "Corkscrew Punch" does double
+next turn. Tails: it can't be used.
+
+[ParalyzedIfHeadsUnableToAttackNextTurnIfTailsText]
+If heads, the opponent is Paralyzed;
+if tails, can't reuse it next turn.
+
+[ForEachHeads10DamageToBenchInAnyWayYouLikeText]
+10 damage for each heads, divided
+among Benched Pokémon as you like.
+
+[PoisonMistCheckText]
+If heads, Poison damage is 20 until
+the start of your next turn.
+
+[DryUpCheckText]
+For each heads,
+remove 1 Water Energy.
+
+[FossilizeCheckText]
+If heads, return the Evolution cards
+on "Mysterious Fossil" to your Hand.

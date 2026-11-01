@@ -305,6 +305,38 @@ pub fn translate(prepared: &Prepared, ram_routines: &[RamRoutine]) -> Result<Tra
             );
         }
     }
+    root.push_str("];\n\n");
+
+    root.push_str(
+        "/// Text the game keeps outside its text table (a deck name's suffix, default\n",
+    );
+    root.push_str("/// names): bank, address, bytes up to the next label, and label.\n");
+    root.push_str("pub static TEXT_DATA: &[(u8, u16, u16, &str)] = &[\n");
+    let mut text: Vec<&String> = prepared.scan.text.iter().collect();
+    text.sort();
+    for name in text {
+        let symbol = prepared
+            .sym
+            .get(name)
+            .ok_or(format!("no symbol for the text {name}"))?;
+        let bank_end = if symbol.addr < 0x4000 { 0x4000 } else { 0x8000 };
+        let end = prepared
+            .sym
+            .all
+            .iter()
+            .filter(|s| s.bank == symbol.bank && s.addr > symbol.addr && s.addr < bank_end)
+            .map(|s| s.addr)
+            .min()
+            .unwrap_or(bank_end);
+        let _ = writeln!(
+            root,
+            "    (0x{:02x}, 0x{:04x}, {}, {:?}),",
+            symbol.bank,
+            symbol.addr,
+            end - symbol.addr,
+            symbol.name
+        );
+    }
     root.push_str("];\n");
     files.push(("kernel.rs".to_string(), root));
 

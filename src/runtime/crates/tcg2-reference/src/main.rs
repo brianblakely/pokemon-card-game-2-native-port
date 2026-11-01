@@ -7,8 +7,8 @@
 //! ```
 
 use tcg2_core::Machine;
-use tcg2_kernel::Kernel;
 use tcg2_kernel::script::{RandomPlay, Script};
+use tcg2_kernel::{Kernel, Language};
 
 fn cpu_line(m: &Machine) -> String {
     let c = &m.cpu;
@@ -209,6 +209,7 @@ fn main() {
     let mut script = Script::default();
     let mut calls: Vec<(u64, String)> = Vec::new();
     let mut sram: Option<String> = None;
+    let mut language = Language::default();
     let mut args = std::env::args().skip(1);
     while let Some(arg) = args.next() {
         let value = args.next().unwrap_or_else(|| panic!("{arg} needs a value"));
@@ -216,6 +217,7 @@ fn main() {
             "--rom" => rom_path = value,
             "--frames" => frames = value.parse().expect("frame count"),
             "--sram" => sram = Some(value),
+            "--language" => language = Language::parse(&value).expect("--language en-US|ja"),
             "--call" => {
                 let (frame, name) = value.split_once(':').expect("--call FRAME:ROUTINE");
                 calls.push((frame.parse().expect("frame"), name.to_string()));
@@ -231,8 +233,9 @@ fn main() {
         }
     }
     let rom = std::fs::read(&rom_path).unwrap_or_else(|e| panic!("{rom_path}: {e}"));
-    let mut kernel = Kernel::new(rom.clone(), 48_000).expect("ROM");
-    let mut b = Machine::new(rom.into(), 48_000);
+    let mut kernel = Kernel::new(rom, 48_000, language).expect("ROM");
+    // The same image: the player's ROM in the same language.
+    let mut b = Machine::new(kernel.machine.cart.rom.clone(), 48_000);
     if let Some(path) = &sram {
         let bytes = std::fs::read(path).unwrap_or_else(|e| panic!("{path}: {e}"));
         kernel.load_sram(&bytes);

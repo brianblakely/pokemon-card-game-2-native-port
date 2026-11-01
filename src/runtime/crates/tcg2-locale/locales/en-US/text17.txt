@@ -1,0 +1,1044 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text17.asm, by label (format: src/text.rs).
+
+[LeekSlapDescription]
+Flip a coin. If tails, this attack
+does nothing. Either way, you can't
+use this attack again as long as
+Farfetch'd stays in play.
+
+[PotSmashName]
+Pot Smash
+
+[WildDuckName]
+Wild Duck
+
+[FarfetchdLv20Description]
+It always walks around carrying a
+plant stalk, which it uses to build
+its nest.
+
+[LeekSlapAltDescription]
+You can use this attack only once
+while Farfetch'd is in play. Flip a
+coin. If tails, this attack does no
+damage. (It still counts as used.)
+
+[FarfetchdAltDescription]
+The stalk it holds is its precious
+weapon. It swings it like a sword to
+cut all sorts of things.
+
+[DoduoName]
+Doduo
+
+[GrowlAltDescription2]
+During your opponent's next turn,
+any damage done to Doduo by attacks
+from the Defending Pokémon is
+reduced by 10.
+
+[TwinBirdName]
+Twin Bird
+
+[DoduoLv8Description]
+Bad at flying but fast on its feet,
+it races across the land, leaving
+giant footprints behind.
+
+[DoduoLv10Description]
+A two-headed Pokémon that arose from
+a mutation. It runs at 100 km/h.
+
+[DodrioName]
+Dodrio
+
+[TriAttackName]
+Tri Attack
+
+[TripleBirdName]
+Triple Bird
+
+[DodrioLv25Description]
+Its three heads plan out clever
+strategies. Even when it sleeps, one
+head is said to stay awake.
+
+[RetreatAidName]
+Retreat Aid
+
+[RetreatAidDescription]
+As long as Dodrio is on your Bench,
+you pay 1 Energy less to retreat
+your Active Pokémon.
+
+[DodrioLv28Description]
+A rare variety that is seldom found.
+Its three heads express joy, sorrow,
+and anger.
+
+[LickitungName]
+Lickitung
+
+[LickAltName]
+Lick
+
+[LickingName]
+Licking
+
+[LickitungLv20Description]
+Its tongue stretches out like a
+chameleon's. For some reason, its
+licks leave you tingly and numb.
+
+[TongueWrapName]
+Tongue Wrap
+
+[LickitungLv26Description]
+Its tongue is twice as long as its
+body. It can move it like a hand to
+grab food or to attack.
+
+[ChanseyName]
+Chansey
+
+[DoubleSlapAltName]
+Doubleslap
+
+[ChanseyLv40Description]
+Very few of them exist. It is said
+to bring happiness to anyone who
+catches one.
+
+[ScrunchName]
+Scrunch
+
+[Do80DamageToSelfDescription]
+Chansey does 80 damage to itself.
+
+[ChanseyLv55Description]
+It lays several eggs a day. They are
+very nutritious and are said to be
+incredibly delicious.
+
+[KangaskhanName]
+Kangaskhan
+
+[TailDropName]
+Tail Drop
+
+[ParentName]
+Parent
+
+[KangaskhanLv36Description]
+The infant rarely ventures out of
+its mother's pouch. It leaves her
+after about 3 years.
+
+[DizzyPunchName]
+Dizzy Punch
+
+[KangaskhanLv38Description]
+The infant rarely ventures out of
+its mother's pouch. It leaves her
+after about 3 years.
+
+[FetchName]
+Fetch
+
+[FetchDescription]
+Draw a card.
+
+[CometPunchName]
+Comet Punch
+
+[KangaskhanLv40Description]
+The female raises its young in the
+pouch on its belly. It excels at
+rapid-fire punching attacks.
+
+[TaurosName]
+Tauros
+
+[RampageName]
+Rampage
+
+[RampageDescription]
+Does 20 damage plus 10 more damage
+for each damage counter on Tauros.
+Then flip a coin. If tails, Tauros
+is now Confused.
+
+[WildBullName]
+Wild Bull
+
+[TaurosLv32Description]
+When it charges at a foe, it whips
+its own body with its two tails.
+
+[KickingAndStampingName]
+Stomp and Kick
+
+[KickingAndStampingDescription]
+Flip a coin. If heads, this attack
+does 20 damage plus 10 more damage.
+If tails, your opponent switches the
+Defending Pokémon with 1 of his or
+her Benched Pokémon, if any.
+
+[TaurosLv35Description]
+Once it targets its prey, it charges
+straight at it while whipping its
+body with its tails.
+
+[DittoName]
+Ditto
+
+[MorphName]
+Morph
+
+[MorphDescription]
+Remove all damage counters from
+Ditto. Then a Basic Pokémon card
+other than Ditto is chosen at random
+from your deck. For the rest of the
+duel, Ditto is treated as a copy of
+that card.
+
+[MorphDescriptionCont]
+(If your deck has no Basic Pokémon,
+this attack does nothing.)
+
+[TransformName]
+Transform
+
+[DittoDescription]
+It can instantly copy a foe's cells
+and transform into its exact double.
+
+[EvolutionName]
+Evolution
+
+[EeveeLv5Description]
+Its genetic code is irregular. It
+mutates when exposed to radiation
+from stones.
+
+[SandAttackDescription]
+If the Defending Pokémon tries to
+attack during your opponent's next
+turn, your opponent flips a coin. If
+tails, that attack does nothing.
+
+[EeveeLv9Description]
+So few have been caught that this
+unusual Pokémon is hard to classify.
+
+[EeveeLv12Description]
+A rare Pokémon that may evolve into
+any of three different Pokémon.
+
+[PorygonName]
+Porygon
+
+[Conversion1Name]
+Conversion 1
+
+[Conversion1Description]
+If the Defending Pokémon has a
+Weakness, change it to a type of
+your choice other than Colorless.
+(The effect ends when that Pokémon
+leaves the Arena.)
+
+[Conversion2Name]
+Conversion 2
+
+[Conversion2Description]
+Change Porygon's Resistance to a
+type of your choice other than
+Colorless. (The effect ends when
+Porygon leaves the Arena.)
+
+[VirtualName]
+Virtual
+
+[PorygonLv12Description]
+Using the most advanced science,
+humans finally succeeded in creating
+an artificial Pokémon.
+
+[Porygon3DAttackName]
+3D Attack
+
+[Porygon3DAttack10DamageDescription]
+Flip 3 coins. This attack does 10
+damage times the number of heads.
+
+[PorygonSharedDescription]
+Its body is made of programming
+code. It can move freely through
+cyberspace.
+
+[Conversion1AltDescription]
+If the Defending Pokémon has a
+Weakness, change it to a type of
+your choice other than Colorless.
+(The effect ends when that Pokémon
+leaves the Arena.)
+
+[PorygonLv20Description]
+More and more adults are sitting at
+the slots day and night, hoping to
+win a Porygon.
+
+[CoolPorygonName]
+Cool Porygon
+
+[TextureMagicName]
+Conversion Magic
+
+[TextureMagicDescription]
+Change the Defending Pokémon's
+Weakness (if it has one) and Cool
+Porygon's Resistance to types of
+your choice other than Colorless.
+Each effect ends when its Pokémon
+leaves the Arena.
+
+[Porygon3DAttack20DamageDescription]
+Flip 3 coins. This attack does 20
+damage times the number of heads.
+
+[SnorlaxName]
+Snorlax
+
+[ThickSkinnedName]
+Thick Skinned
+
+[ThickSkinnedDescription]
+Snorlax can't become Asleep,
+Confused, Paralyzed, or Poisoned.
+This power can't be used if Snorlax
+is already Asleep, Confused, or
+Paralyzed.
+
+[SleepingName]
+Sleeping
+
+[SnorlaxLv20Description]
+It isn't satisfied unless it eats
+400 kg of food every day. Once it is
+done eating, it falls asleep.
+
+[GuardName]
+Guard
+
+[GuardDescription]
+As long as Snorlax is your Active
+Pokémon, your opponent's Active
+Pokémon can't retreat. This power
+stops working while Snorlax is
+Asleep, Confused, or Paralyzed.
+
+[RollOverName]
+Roll Over
+
+[RollOverDescription]
+Snorlax is now Asleep (after doing
+damage). Flip a coin. If heads, the
+Defending Pokémon is now Asleep too.
+
+[SnorlaxLv35Description]
+It loves napping so much that it may
+fall asleep in the middle of a road.
+
+[HungrySnorlaxName]
+Hungry Snorlax
+
+[EatName]
+Eat
+
+[EatDescription]
+Put 1 food counter on Hungry
+Snorlax. (You can't use this attack
+if Hungry Snorlax has 2 or more food
+counters on it.)
+
+[RolloutDescription]
+You may remove any number of food
+counters from Hungry Snorlax. This
+attack does 20 damage plus 30 more
+damage for each counter removed.
+
+[HungrySnorlaxDescription]
+So lazy it just eats and sleeps. As
+it gets fatter and fatter, it seems
+to grow even lazier.
+
+[DratiniName]
+Dratini
+
+[DratiniLv10Description]
+Even young ones are over 2 m long.
+They grow by shedding their skin
+again and again.
+
+[DratiniLv12Description]
+The capture of a Dratini set off the
+search for "Legendary Pokémon."
+
+[DragonairName]
+Dragonair
+
+[SlamName]
+Slam
+
+[DragonairDescription]
+It's said to live in seas and lakes.
+It has no wings, but it is sometimes
+seen flying through the sky.
+
+[DarkDragonairName]
+Dark Dragonair
+
+[EvolutionaryLightName]
+Evolutionary Light
+
+[EvolutionaryLightDescription]
+Once during your turn, unless Dark
+Dragonair is Asleep, Confused, or
+Paralyzed, you may search your deck
+for an Evolution card, show it to
+your opponent, and put it into your
+hand. Shuffle your deck afterward.
+
+[TailStrikeName]
+Tail Strike
+
+[DarkDragonairDescription]
+It is said to bring rain or snow at
+will and to wield mysterious powers
+befitting a Legendary Pokémon.
+
+[DragoniteName]
+Dragonite
+
+[HealingWindName]
+Healing Wind
+
+[HealingWindDescription]
+This power can be used once, when
+you play Dragonite from your hand.
+You may remove 2 damage counters
+from each of your Pokémon in play.
+
+[DragoniteLv41Description]
+Few have seen it, but this avatar of
+the sea truly exists. It is said to
+be as intelligent as humans.
+
+[SpecialDeliveryName]
+Special Delivery
+
+[SpecialDeliveryDescription]
+Once during your turn, you may draw
+a card. If you do, put a card from
+your hand on top of your deck. This
+power can't be used if Dragonite is
+Asleep, Confused, or Paralyzed.
+
+[SupersonicFlightName]
+Supersonic Flight
+
+[DragoniteSharedDescription]
+A large Pokémon that flies. It can
+circle the globe in about 16 hours.
+
+[StepInName]
+Step In
+
+[StepInDescription]
+Once during your turn, if Dragonite
+is on your Bench, you may switch it
+with your Active Pokémon.
+
+[SlamDescription]
+Flip 2 coins. This attack does 40
+damage times the number of heads.
+
+[DarkDragoniteName]
+Dark Dragonite
+
+[SummonMinionsName]
+Summon Minions
+
+[SummonMinionsDescription]
+This power can be used once, when
+you play Dark Dragonite from your
+hand. Search your deck for up to 2
+Basic Pokémon and put them onto your
+Bench. Then shuffle your deck.
+
+[GiantTailName]
+Giant Tail
+
+[DarkDragoniteDescription]
+The "God of Destruction" incarnate.
+It weighs over 200 kg, yet it flies
+freely through the sky on two wings.
+
+[TogepiName]
+Togepi
+
+[SnivelAltDescription]
+During your opponent's next turn,
+any damage done to Togepi by attacks
+from the Defending Pokémon is
+reduced by 20.
+
+[MetronomeCoinTossDescription]
+Flip a coin. If heads, choose 1 of
+the Defending Pokémon's attacks and
+use it as Togepi's own attack.
+(Ignore that attack's Energy cost.)
+
+[SpikeBallName]
+Spike Ball
+
+[TogepiDescription]
+It's only a baby, but in a pinch it
+does its best to chase off foes with
+poison from the top of its head.
+
+[LugiaName]
+Lugia
+
+[AeroblastName]
+Aeroblast
+
+[AeroblastDescription]
+Flip 2 coins. This attack does 20
+damage plus 20 more damage for each
+heads.
+
+[DivingName]
+Diving
+
+[LugiaDescription]
+Its powers are too strong, so it is
+said to spend its time quietly deep
+at the bottom of the sea.
+
+[SuperPotionName]
+Super Potion
+
+[SuperPotionDescription]
+Discard 1 Energy card attached to 1
+of your own Pokémon in order to
+remove up to 4 damage counters from
+that Pokémon.
+
+[ImakuniCardName]
+Imakuni?
+
+[ImakuniCardDescription]
+Your Active Pokémon is now Confused.
+(You can't put this card into play
+as a Pokémon.)
+
+[EnergyRemovalName]
+Energy Removal
+
+[EnergyRemovalDescription]
+Choose 1 Energy card attached to 1
+of your opponent's Pokémon and
+discard it.
+
+[EnergyRetrievalName]
+Energy Retrieval
+
+[EnergyRetrievalDescription]
+Trade 1 of the other cards in your
+hand for up to 2 basic Energy cards
+from your discard pile. (You can't
+take the card you discarded.)
+
+[EnergySearchName]
+Energy Search
+
+[EnergySearchDescription]
+Search your deck for a basic Energy
+card, show it to your opponent, and
+put it into your hand. Shuffle your
+deck afterward.
+
+[ProfessorOakName]
+Professor Oak
+
+[ProfessorOakDescription]
+Discard your hand, then draw 7
+cards.
+
+[FossilExcavationName]
+Fossil Excavation
+
+[FossilExcavationDescription]
+Search your deck or discard pile for
+a Mysterious Fossil, show it to your
+opponent, and put it into your hand.
+(If you searched your deck, shuffle
+it afterward.)
+
+[PotionName]
+Potion
+
+[PotionDescription]
+Remove up to 2 damage counters from
+1 of your Pokémon.
+
+[GamblerName]
+Gambler
+
+[GamblerDescription]
+Shuffle your hand into your deck.
+Flip a coin. If heads, draw 8 cards.
+If tails, draw 1 card.
+
+[ReviveName]
+Revive
+
+[ReviveDescription]
+Put a Basic Pokémon card from your
+discard pile onto your Bench. Put
+damage counters on it equal to half
+its HP (rounded down). (You can't
+play this card if your Bench is
+full.)
+
+[MaxReviveName]
+Max Revive
+
+[MaxReviveDescription]
+Discard 2 Energy cards from your
+hand in order to put a Basic Pokémon
+card from your discard pile onto
+your Bench.
+
+[MaxReviveDescriptionCont]
+(You can't play this card if there
+are no Basic Pokémon in your discard
+pile or if your Bench is full.)
+
+[SuperScoopUpName]
+Super Scoop Up
+
+[SuperScoopUpDescription]
+Flip a coin. If heads, return 1 of
+your Pokémon in play and all cards
+attached to it to your hand.
+
+[DevolutionSprayName]
+Devolution Spray
+
+[DevolutionSprayDescription]
+Choose 1 of your own Pokémon in play
+and discard as many of its Evolution
+cards as you like to devolve it.
+
+[ItemFinderName]
+Item Finder
+
+[ItemFinderDescription]
+Discard 2 of the other cards from
+your hand in order to take a Trainer
+card from your discard pile, show it
+to your opponent, and put it into
+your hand.
+
+[ChallengeName]
+Challenge!
+
+[ChallengeDescription]
+Ask your opponent if he or she
+accepts your challenge. If not, draw
+2 cards. If so, each player searches
+his or her deck for any number of
+Basic Pokémon cards and puts them
+onto his or her Bench.
+
+[ChallengeDescriptionCont]
+(The cards stay face down until both
+players are done.) Then each player
+shuffles his or her deck.
+
+[SuperEnergyRetrievalName]
+Super Energy Retrieval
+
+[SuperEnergyRetrievalDescription]
+Trade 2 of the other cards in your
+hand for up to 4 basic Energy cards
+from your discard pile. (You can't
+take the cards you discarded.)
+
+[SuperEnergyRemovalName]
+Super Energy Removal
+
+[SuperEnergyRemovalDescription]
+Discard 1 Energy card attached to 1
+of your own Pokémon in order to
+choose 1 of your opponent's Pokémon
+and up to 2 Energy cards attached to
+it. Discard those Energy cards.
+
+[MoonStoneName]
+Moon Stone
+
+[MoonStoneDescription]
+Search your deck for a Colorless
+Evolution card, show it to your
+opponent, and put it into your hand.
+Shuffle your deck afterward.
+
+[DefenderName]
+Defender
+
+[DefenderDescription]
+Attach Defender to 1 of your own
+Pokémon. Discard it at the end of
+your opponent's next turn. Damage
+done to that Pokémon by attacks is
+reduced by 20.
+
+[GustOfWindName]
+Gust of Wind
+
+[GustOfWindDescription]
+Choose 1 of your opponent's Benched
+Pokémon and switch it with his or
+her Active Pokémon.
+
+[MysteriousFossilDescription]
+Play this card as if it were a Basic
+Pokémon. While in play, it counts as
+a Pokémon. It can evolve into cards
+that say "Evolves from Mysterious
+Fossil." It can't retreat and is
+immune to Special Conditions.
+
+[MysteriousFossilDescriptionCont]
+If this card is Knocked Out, your
+opponent can't take a Prize. At any
+time during your turn, you may
+discard this card from play. (This
+doesn't count as a Pokémon Power.)
+
+[FullHealName]
+Full Heal
+
+[FullHealDescription]
+Your Active Pokémon is no longer
+Asleep, Confused, Paralyzed, or
+Poisoned.
+
+[ImposterOaksRevengeName]
+Imposter Oak's Revenge
+
+[ImposterOaksRevengeDescription]
+Discard a card from your hand in
+order to play this card. Your
+opponent shuffles his or her hand
+into his or her deck, then draws 4
+cards.
+
+[ImposterProfessorOakName]
+Imposter Professor Oak
+
+[ImposterProfessorOakDescription]
+Your opponent shuffles his or her
+hand into his or her deck, then
+draws 7 cards.
+
+[SleepName]
+Sleep!
+
+[SleepDescription]
+[Rocket's Secret Machine]
+Flip a coin. If heads, the Defending
+Pokémon is now Asleep.
+
+[ComputerErrorName]
+Computer Error
+
+[ComputerErrorDescription]
+[Rocket's Secret Machine]
+After you play this card, your turn
+ends. Each player may draw up to 5
+cards. (You draw first, then your
+opponent draws.)
+
+[ComputerSearchName]
+Computer Search
+
+[ComputerSearchDescription]
+Discard 2 of the other cards from
+your hand in order to search your
+deck for any card and put it into
+your hand. Shuffle your deck
+afterward.
+
+[DiggerName]
+Digger
+
+[DiggerDescription]
+[Rocket's Secret Machine]
+Players take turns flipping a coin,
+starting with you. The Active
+Pokémon of the first player to flip
+tails takes 10 damage. Don't apply
+Weakness and Resistance.
+
+[ClefairyDollName]
+Clefairy Doll
+
+[ClefairyDollDescription]
+Play this card as if it were a Basic
+Pokémon. While in play, it counts as
+a Pokémon. It can't retreat and is
+immune to Special Conditions. If it
+is Knocked Out, your opponent can't
+take a Prize.
+
+[ClefairyDollDescriptionCont]
+At any time during your turn, you
+may discard this card from play.
+(This doesn't count as a Pokémon
+Power.)
+
+[MrFujiName]
+Mr. Fuji
+
+[MrFujiDescription]
+Choose 1 of your Benched Pokémon.
+Shuffle it and all cards attached to
+it into your deck.
+
+[PlusPowerName]
+PlusPower
+
+[PlusPowerDescription]
+Attach PlusPower to your Active
+Pokémon. Discard it at the end of
+your turn. Attacks by that Pokémon
+do 10 more damage to the Defending
+Pokémon.
+
+[SwitchName]
+Switch
+
+[SwitchDescription]
+Switch 1 of your Benched Pokémon
+with your Active Pokémon.
+
+[ScoopUpName]
+Scoop Up
+
+[ScoopUpDescription]
+Choose 1 of your Pokémon in play.
+Return only its Basic Pokémon card
+to your hand. (Discard its Evolution
+cards and all cards attached to it.)
+
+[PokemonTraderName]
+Pokémon Trader
+
+[PokemonTraderDescription]
+Choose a Basic Pokémon or Evolution
+card from your hand, show it to your
+opponent, and put it into your deck.
+If you can't, you can't play this
+card.
+
+[PokemonTraderDescriptionCont]
+Then search your deck for a Basic
+Pokémon or Evolution card, show it
+to your opponent, and put it into
+your hand. Shuffle your deck
+afterward.
+
+[PokemonRecallName]
+Pokémon Recall
+
+[PokemonRecallDescription]
+Choose an Evolution card from your
+discard pile, show it to your
+opponent, and put it on top of your
+deck.
+
+[PokedexName]
+Pokédex
+
+[PokedexDescription]
+Look at the top 5 cards of your deck
+and put them back on top in any
+order you like.
+
+[PokemonCenterName]
+Pokémon Center
+
+[PokemonCenterDescription]
+Remove all damage counters from all
+of your own Pokémon with damage
+counters on them, then discard all
+Energy cards attached to those
+Pokémon.
+
+[PokemonBreederName]
+Pokémon Breeder
+
+[PokemonBreederDescription]
+Put a Stage 2 Evolution card from
+your hand on the matching Basic
+Pokémon, skipping Stage 1. You can
+only play this card when you would
+be allowed to evolve that Pokémon.
+
+[PokemonFluteName]
+Pokémon Flute
+
+[PokemonFluteDescription]
+Choose a Basic Pokémon card from
+your opponent's discard pile and put
+it onto his or her Bench. (You can't
+play this card if your opponent's
+Bench is full.)
+
+[TheBosssWayName]
+The Boss's Way
+
+[TheBosssWayDescription]
+Search your deck for an Evolution
+card with Dark in its name, show it
+to your opponent, and put it into
+your hand. Shuffle your deck
+afterward.
+
+[GoopGasAttackName]
+Goop Gas Attack
+
+[GoopGasAttackDescription]
+Until the end of your opponent's
+next turn, Pokémon Powers can't be
+used and all of them stop working.
+
+[BillName]
+Bill
+
+[BillDescription]
+Draw 2 cards.
+
+[BillsTeleporterName]
+Bill's Teleporter
+
+[BillsTeleporterDescription]
+Flip a coin. If heads, draw 4 cards.
+
+[BillsComputerName]
+Bill's Computer
+
+[BillsComputerDescription]
+You need this card to trade an
+Omanyte, Haunter, Machoke, Graveler
+or Kadabra card for its Evolution
+card at the "Bill's Computer" corner
+of the Team GR Game Center.
+
+[BillsComputerDescriptionCont]
+For details, please ask the
+attendant at the Game Center. (This
+card can't be used in duels.)
+
+[MasterBallName]
+Master Ball
+
+[MasterBallDescription]
+Look at the top 7 cards of your
+deck. If there are any Basic Pokémon
+or Evolution cards among them, show
+1 of them to your opponent and put
+it into your hand. Shuffle the rest
+back into your deck.
+
+[LassName]
+Lass
+
+[LassDescription]
+You and your opponent show each
+other your hands, then shuffle all
+the Trainer cards from your hands
+into your decks.
+
+[MaintenanceName]
+Maintenance
+
+[MaintenanceDescription]
+Shuffle 2 of the other cards from
+your hand into your deck in order to
+draw a card.
+
+[PokeballName]
+Poké Ball
+
+[PokeballDescription]
+Flip a coin. If heads, search your
+deck for a Basic Pokémon or
+Evolution card, show it to your
+opponent, and put it into your hand.
+Shuffle your deck afterward.
+
+[NightlyGarbageRunName]
+Nightly Garbage Run
+
+[NightlyGarbageRunDescription]
+[Rocket's Secret Machine]
+Choose up to 3 Basic Pokémon cards,
+Evolution cards, and/or basic Energy
+cards from your discard pile, show
+them to your opponent, and shuffle
+them into your deck.
+
+[RecycleName]
+Recycle
+
+[RecycleDescription]
+Flip a coin. If heads, put a card
+from your discard pile on top of
+your deck.
+
+[RocketsSneakAttackName]
+Rocket's Sneak Attack
+
+[RocketsSneakAttackDescription]
+Look at your opponent's hand. If he
+or she has any Trainer cards, choose
+1 of them. Your opponent shuffles it
+into his or her deck.
+
+[HereComesTeamRocketName]
+Here Comes Team Rocket!
+
+[HereComesTeamRocketDescription]
+Each player turns all of his or her
+Prize cards face up, so both players
+can see them. (They stay face up for
+the rest of the duel.)
+
+[TheRocketsTrapName]
+The Rocket's Trap
+
+[TheRocketsTrapDescription]
+Flip a coin. If heads, choose 3
+cards from your opponent's hand
+without looking at them. Your
+opponent shuffles them into his or
+her deck.

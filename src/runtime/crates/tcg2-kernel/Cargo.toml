@@ -10,6 +10,7 @@ build = "build.rs"
 
 [dependencies]
 tcg2-core = { path = "../tcg2-core" }
+tcg2-locale = { path = "../tcg2-locale" }
 
 [build-dependencies]
 tcg2-recomp = { path = "../tcg2-recomp" }

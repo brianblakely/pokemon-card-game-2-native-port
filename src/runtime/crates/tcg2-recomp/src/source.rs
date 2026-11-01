@@ -291,7 +291,13 @@ pub struct Scan {
     pub injected: HashMap<String, Kind>,
     /// Where each global label is defined (file, 1-based line).
     pub locations: HashMap<String, (String, usize)>,
+    /// Labels, global or local, of text kept outside `text/` (the text
+    /// table's files): their first statement is a text macro.
+    pub text: HashSet<String>,
 }
+
+/// The decomp's text macros (`macros/text.asm`).
+const TEXT_MACROS: [&str; 4] = ["text", "textfw", "katakana", "hiragana"];
 
 /// Scans `files` (relative path, contents), with `macros` classified.
 pub fn scan(files: &[(String, String)], macros: &HashMap<String, Word>) -> Scan {
@@ -300,6 +306,7 @@ pub fn scan(files: &[(String, String)], macros: &HashMap<String, Word>) -> Scan 
         labels: HashMap::new(),
         injected: HashMap::new(),
         locations: HashMap::new(),
+        text: HashSet::new(),
     };
     let mut counter = 0usize;
     for (path, text) in files {
@@ -363,7 +370,12 @@ pub fn scan(files: &[(String, String)], macros: &HashMap<String, Word>) -> Scan 
             }
             if let Word::Emits(kind) = class {
                 let unlabelled = pending.is_empty();
+                let text =
+                    word.is_some_and(|w| TEXT_MACROS.contains(&w)) && !path.starts_with("text/");
                 for label in pending.drain(..) {
+                    if text {
+                        out.text.insert(label.clone());
+                    }
                     out.labels.entry(label).or_insert(kind);
                 }
                 if unlabelled
@@ -430,5 +442,20 @@ mod tests {
                 .1
                 .contains(".tcg2_data_0:\n\tquit_script\n.tcg2_code_1:\n\tld a, 1")
         );
+    }
+
+    #[test]
+    fn text_outside_the_text_table_is_listed() {
+        let macros_src = "MACRO textfw\n\tdb \\1\nENDM\n".to_string();
+        let file = "Func:\n\tret\n.Suffix\n\ttextfw \"x\"\n\tdb 0\nTable:\n\tdb 1\n".to_string();
+        let texts = "Hand:\n\ttextfw \"y\"\n".to_string();
+        let files = vec![
+            ("macros.asm".to_string(), macros_src),
+            ("f.asm".to_string(), file),
+            ("text/t.asm".to_string(), texts),
+        ];
+        let macros = classify_macros(&files);
+        let scan = scan(&files[1..], &macros);
+        assert_eq!(scan.text, HashSet::from(["Func.Suffix".to_string()]));
     }
 }

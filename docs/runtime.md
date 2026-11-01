@@ -14,7 +14,7 @@ build must still match `rom.sha1`.
 | Toolchain | `nix develop path:./nix/runtime`: Rust 1.97.1 (rust-overlay), RGBDS 1.0.4, SDL3 3.4.14; `#windows` adds the MinGW cross toolchain and SDL3; `#linux` builds the release with zig against glibc 2.31 |
 | Decomp toolchain | `nix develop path:./nix`: RGBDS 1.0.4, GCC, make, Python |
 | Versions | sdl3-sys =0.6.8 (SDL 3.4.14, the sibling project's pin). The only graphics library is SDL's own 2D renderer |
-| Game data | Read from the player's ROM at run time. SHA-1 `a7e12bcc5f514e3aad8de570fd511aab0a308822` is checked before boot. Builds contain code only |
+| Game data | Read from the player's ROM at run time. SHA-1 `a7e12bcc5f514e3aad8de570fd511aab0a308822` is checked before boot. Builds contain code, plus the port's own translation and font |
 
 ## Translation (`tcg2-recomp`)
 
@@ -70,8 +70,11 @@ the same by hand.
 
    The generated code is about 615,000 lines and compiles in about 35 s.
 4. **Tables.** Every block start of every bank is listed with its function. The
-   output also includes the RAM routines (`hDMAFunction` is a copy of `DMA`)
-   and the global labels for diagnostics.
+   output also includes the RAM routines (`hDMAFunction` is a copy of `DMA`),
+   the global labels for diagnostics, and the texts the game keeps outside
+   its text table (`TEXT_DATA`: every label outside `src/text` whose first
+   statement is a text macro, with its size up to the next label) for
+   [languages](#languages-tcg2-locale).
 
 ## The dispatcher (`tcg2-kernel`)
 
@@ -194,6 +197,56 @@ per-user folder when that isn't writable: `rom/`, `saves/poketcg2.sav`,
 `screenshots/` and `settings.ini`. `TCG2_HOME` overrides the location.
 Battery RAM is written atomically, 0.75 s after the game last changed it, and on
 exit.
+
+## Languages (`tcg2-locale`)
+
+The game prints every text through one table, `TextOffsets`. Text number
+N's entry, 4 bytes at N × 4 from the start of the table's bank ($37), holds
+the text's 24-bit offset from that same point, and `GetTextOffsetFromTextID`
+switches to the bank the offset falls in. The ROM's 6,443 texts are
+Japanese, a full-width tile per character.
+
+A language is a set of translations keyed by the decomp's text labels:
+`locales/en-US/text1.txt` to `text17.txt` mirror `src/text/text*.asm` (the
+format is described in `src/text.rs`). When the kernel boots, or the player
+switches language, `tcg2_locale::localize` builds the ROM image:
+
+1. **4 MiB.** Banks $00-$7F are the player's ROM. Banks $80-$FF are free, and
+   the game's own bank switch reaches them: it writes only the MBC5's low
+   bank register. Every image holds every language's text and differs only
+   in steps 3 to 7.
+2. **Text.** Each translation is encoded as the engine's half-width text:
+   `TX_HALFWIDTH`, Latin letters two to a tile, `TX_END`. `<RAMNAME>`,
+   `<RAMTEXT>`, `<RAMNUM>` and symbols such as `<Lv>` become their control
+   codes. Texts follow one another from bank $80, never across a bank's end,
+   and identical texts share their bytes.
+3. **The table.** The chosen language's entries point at its texts. A text it
+   leaves out (a symbol, a number) prints as the ROM has it.
+4. **Font.** English is drawn with the port's own 4×8 font (`font.txt`) in
+   place of `HalfWidthFont`. The game pads names and list rows with $70, its
+   full-width blank, also after half-width text, where $70 is 'p'
+   (`CopyCardNameAndLevel`). So the font draws $70 blank, and the encoder
+   writes 'p' as $3C, the '<' that no text needs.
+5. **Text outside the table.** A few texts sit in code banks: a deck name's
+   suffix, default names, a title. `data.txt` replaces them in place
+   (`TEXT_DATA` gives where), each within its original bytes.
+6. **Characters the code writes.** The game's code itself writes "枚" (a
+   counter word English lacks) after card counts; `fullwidth.txt` draws it
+   blank. ("の", which the code puts between the player's name and an unnamed
+   deck's number, stays: the name entry keyboard types it too.)
+7. **Pictures.** `graphics.txt` redraws pictures with lettering (the duel's
+   banners, the play area's location labels, the result stamps, the slot
+   machine's signs, the booster packs' names, the Card Pop! screens) in the
+   original's four colors, over the original's tiles. A picture the game
+   assembles from scattered tiles (sprites, a sign's tilemap) is drawn as it
+   appears and mapped back to its tiles. Only the lettering is drawn: pixels
+   it does not change stay the ROM's.
+
+No code is changed: the kernel was translated from the same program and runs
+on the new image as it is. `Kernel::set_language` swaps the cartridge's
+image. The mapped bank stays mapped, and a text being printed keeps reading
+the bytes it started on. Text already on screen, and names the game has
+stored in battery RAM, stay as they are.
 
 ## Save states
 

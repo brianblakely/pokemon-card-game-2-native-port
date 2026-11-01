@@ -1,0 +1,8 @@
+[package]
+name = "tcg2-locale"
+description = "The game in other languages: translations of every text the game prints, laid into the player's ROM image at load time (the ROM, the decomp and the kernel stay unchanged)"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish.workspace = true
