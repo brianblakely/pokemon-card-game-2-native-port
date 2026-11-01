@@ -69,6 +69,10 @@ impl Input {
         });
     }
 
+    pub fn has_gamepad(&self) -> bool {
+        !self.pads.is_empty()
+    }
+
     /// The buttons held now.
     pub fn buttons(&self, keyboard_focus: bool) -> u8 {
         let mut held = 0;

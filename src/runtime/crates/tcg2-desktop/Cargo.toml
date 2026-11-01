@@ -1,20 +1,28 @@
 [package]
 name = "tcg2-desktop"
-description = "The desktop app (Linux, macOS, Windows): an SDL3 window and 2D renderer, keyboard and gamepads, sound, battery saves, and a game clock that sleeps between frames"
+description = "The app (Linux, macOS, Windows and Android): an SDL3 window and 2D renderer, keyboard, gamepads and touch, sound, battery saves, and a game clock that sleeps between frames"
 version.workspace = true
 edition.workspace = true
 rust-version.workspace = true
 license.workspace = true
 publish.workspace = true
 
+# The app. On Android it is built as a shared library, libmain.so, which
+# SDL's Java activity loads (tools/release/package.py android).
+[lib]
+path = "src/lib.rs"
+
 [[bin]]
 name = "pokemon-tcg2"
 path = "src/main.rs"
 
 [features]
-# Builds SDL3 from source and links it statically (release builds for macOS
-# and Windows, where no system SDL3 is expected).
+# Builds SDL3 from source and links it statically (the Linux release: one
+# executable, which opens the system's libraries at run time).
 static-sdl = ["sdl3-sys/build-from-source-static"]
+# Builds SDL3 from source as libSDL3.so (Android: the APK carries it beside
+# the app's library).
+shared-sdl = ["sdl3-sys/build-from-source"]
 
 [dependencies]
 tcg2-core = { path = "../tcg2-core" }
@@ -22,4 +30,3 @@ tcg2-kernel = { path = "../tcg2-kernel" }
 tcg2-render = { path = "../tcg2-render" }
 sdl3-sys.workspace = true
 png.workspace = true
-

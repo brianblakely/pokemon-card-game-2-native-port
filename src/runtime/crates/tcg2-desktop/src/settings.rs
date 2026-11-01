@@ -151,7 +151,7 @@ impl Settings {
             self.pause_hidden,
         );
         if let Err(e) = std::fs::write(path, text) {
-            eprintln!("pokemon-tcg2: {}: {e}", path.display());
+            crate::warn(&format!("{}: {e}", path.display()));
         }
     }
 }
@@ -161,27 +161,36 @@ impl Settings {
 /// and `settings.ini`; or, when that folder cannot be written (an installed
 /// package in /usr/bin, say), the platform's per-user data folder
 /// (`~/.local/share/pokemon-tcg2`, `~/Library/Application Support/...`,
-/// `%APPDATA%\...`). `TCG2_HOME` overrides both.
+/// `%APPDATA%\...`). On Android, the app's own folder
+/// (`crate::android::files_dir`). `TCG2_HOME` overrides them all.
 pub fn home() -> PathBuf {
     if let Some(dir) = std::env::var_os("TCG2_HOME") {
         return PathBuf::from(dir);
     }
-    let portable = portable_dir();
-    if let Some((dir, bundled)) = &portable {
-        // Beside an .app (often /Applications) only when the player made
-        // the portable folder themselves; beside a plain executable also
-        // when the folder can be written.
-        if dir.join("rom").is_dir() || (!bundled && writable(dir)) {
-            return dir.clone();
-        }
+    #[cfg(target_os = "android")]
+    {
+        crate::android::files_dir()
     }
-    user_data_dir()
-        .or(portable.map(|(dir, _)| dir))
-        .unwrap_or_else(|| PathBuf::from("."))
+    #[cfg(not(target_os = "android"))]
+    {
+        let portable = portable_dir();
+        if let Some((dir, bundled)) = &portable {
+            // Beside an .app (often /Applications) only when the player made
+            // the portable folder themselves; beside a plain executable also
+            // when the folder can be written.
+            if dir.join("rom").is_dir() || (!bundled && writable(dir)) {
+                return dir.clone();
+            }
+        }
+        user_data_dir()
+            .or(portable.map(|(dir, _)| dir))
+            .unwrap_or_else(|| PathBuf::from("."))
+    }
 }
 
 /// The folder beside the executable (beside the `.app` on macOS) and
 /// whether it is an app bundle's.
+#[cfg(not(target_os = "android"))]
 fn portable_dir() -> Option<(PathBuf, bool)> {
     let exe = std::env::current_exe().ok()?.canonicalize().ok()?;
     let dir = exe.parent()?;
@@ -192,6 +201,7 @@ fn portable_dir() -> Option<(PathBuf, bool)> {
     Some((dir.to_path_buf(), false))
 }
 
+#[cfg(not(target_os = "android"))]
 fn writable(dir: &Path) -> bool {
     let probe = dir.join(".tcg2-write-test");
     let ok = std::fs::write(&probe, b"").is_ok();
@@ -199,6 +209,7 @@ fn writable(dir: &Path) -> bool {
     ok
 }
 
+#[cfg(not(target_os = "android"))]
 fn user_data_dir() -> Option<PathBuf> {
     // SAFETY: SDL_GetPrefPath needs no initialisation; the string it returns
     // is freed with SDL_free.

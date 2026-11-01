@@ -45,7 +45,7 @@ impl Audio {
             )
         };
         if stream.is_null() {
-            eprintln!("pokemon-tcg2: no sound: {}", crate::sdl::error());
+            crate::warn(&format!("no sound: {}", crate::sdl::error()));
             return None;
         }
         Some(Self {

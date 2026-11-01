@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Android app: SDL's Java activity (GameActivity) running the app's
+     library, libmain.so, beside libSDL3.so. tools/release/package.py android
+     builds the APK and sets its versions. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.pokemon_card_game_2_native_port"
+    android:installLocation="auto">
+
+    <!-- SDL's 2D renderer draws with OpenGL ES 2. Touch, gamepads and
+         keyboards are all optional. -->
+    <uses-feature android:glEsVersion="0x00020000" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.gamepad"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+
+    <!-- The app's files are in its folder of shared storage, which Android's
+         own backup leaves out: allowBackup changes nothing for them. The
+         native libraries are compressed in the APK and unpacked when it is
+         installed. -->
+    <application
+        android:label="Pokémon Card GB2"
+        android:allowBackup="false"
+        android:appCategory="game"
+        android:extractNativeLibs="true"
+        android:hardwareAccelerated="true"
+        android:enableOnBackInvokedCallback="false"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+        <!-- The configuration changes SDL handles itself (those of SDL's own
+             android-project): a rotation resizes the window. -->
+        <activity
+            android:name=".GameActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="layoutDirection|locale|grammaticalGender|fontScale|fontWeightAdjustment|orientation|uiMode|screenLayout|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:preferMinimalPostProcessing="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
