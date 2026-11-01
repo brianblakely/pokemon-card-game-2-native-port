@@ -998,8 +998,9 @@ put in the Deck.
 [BattleCenterText]
 Battle Center
 
-[PrizesNumberText]
-Prize cards
+[PrizesNumberText] full-width
+Prize
+cards
 
 [ChooseTheNumberOfPrizesText] full-width
 Choose the number

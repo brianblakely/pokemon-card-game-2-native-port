@@ -240,9 +240,9 @@ its confusion!!
 Choose an Energy card
 to remove.
 
-[ChooseEnergyCardToDiscardText]
-Choose an Energy card
-to discard.
+[ChooseEnergyCardToDiscardText] full-width
+Choose an Energy
+card to discard.
 
 [ChooseNextActivePokemonText]
 The Active Pokémon was Knocked Out.
@@ -803,8 +803,9 @@ The Defending Pokémon isn't Asleep.
 Due to the effect of "Toxic Gas,"
 it can't be used.
 
-[UnableDueToStareText]
-Unusable due to "Stare."
+[UnableDueToStareText] full-width
+Unusable due
+to "Stare."
 
 [NoBasicEnergyCardsAttachedToOpponentText]
 The Defending Pokémon has no basic
