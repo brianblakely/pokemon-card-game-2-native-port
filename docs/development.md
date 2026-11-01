@@ -162,7 +162,8 @@ TCG2_BLESS=1 cargo test --release -p tcg2-locale full_width    # rewrite the tex
 
 The tests read the Japanese, and how the game prints each text, from
 `src/decomp`, so they need no ROM. A text is full-width wherever the decomp
-shows it fits (`src/tests/layout.rs`): blessing flows its words into lines
+shows it fits (`src/tests/layout.rs`, and `src/tests/measured.txt` for the
+places measured by hand): blessing flows its words into lines
 of its box (fewest lines, then even ones, breaking at sentence ends), and
 keeps each word of a spaced line (a cursor's column) on its tile. To see a
 change, run the game (`tcg2-headless … --screenshot`, or the app). The fixed
