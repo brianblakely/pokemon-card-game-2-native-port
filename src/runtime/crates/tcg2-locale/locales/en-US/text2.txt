@@ -49,11 +49,11 @@ from the Discard Pile into the Hand.
 Attack
 unsuccessful.
 
-[UnableToRetreatDueToAcidText]
+[UnableToRetreatDueToAcidText] full-width
 Can't flee due to
 Acid.
 
-[UnableToRetreatDueToRockSealText]
+[UnableToRetreatDueToRockSealText] full-width
 Can't flee due to
 Rock Seal.
 
@@ -73,13 +73,13 @@ the effects of Headache.
 Unable to use Trainer cards due to
 the effects of Spookify.
 
-[UnableToAttackDueToTailWagText]
-Can't attack due to
-Tail Whip.
+[UnableToAttackDueToTailWagText] full-width
+Can't attack due
+to Tail Whip.
 
-[UnableToAttackDueToLeerText]
-Can't attack due to
-Leer.
+[UnableToAttackDueToLeerText] full-width
+Can't attack due
+to Leer.
 
 [UnableToAttackDueToBoneAttackText]
 Can't attack due to
@@ -237,8 +237,9 @@ Deck per Fire Energy you discard.
 Choose 2 Energy
 cards to discard.
 
-[ChooseAKrabbyFromDeckText]
-Find a Krabby in the Deck.
+[ChooseAKrabbyFromDeckText] full-width
+Find a Krabby in
+the Deck.
 
 [ChooseEnergyCardFromOppActiveToDiscardText]
 Choose an Energy card to discard
@@ -252,8 +253,9 @@ the opponent's next turn.
 Choose a Basic Fighting Pokémon
 from the Deck.
 
-[ChooseAnOddishFromDeckText]
-Choose an Oddish from the Deck.
+[ChooseAnOddishFromDeckText] full-width
+Choose an Oddish
+from the Deck.
 
 [ChooseAnOddishText] full-width
 Choose an
@@ -525,7 +527,7 @@ Evolution
 Choose an
 Evolution card.
 
-[ChooseAParasFromDeckText]
+[ChooseAParasFromDeckText] full-width
 Choose a Paras
 from the Deck.
 
@@ -566,7 +568,7 @@ Lightning Energy
 Choose a Lightning
 Energy card.
 
-[ChooseAMagnemiteFromDeckText]
+[ChooseAMagnemiteFromDeckText] full-width
 Choose a Magnemite
 from the Deck.
 
@@ -1321,8 +1323,8 @@ abc
 [EndText]
 End
 
-[WhatIsYourNameText]
-What's your name?
+[WhatIsYourNameText] full-width
+Your name?
 
 [NewDeckText]
 Build a new deck

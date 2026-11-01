@@ -91,6 +91,13 @@ fn routine_place(name: &str) -> Option<Place> {
         | "YesOrNoMenuWithText_SetCursorToYes"
         | "TwoItemHorizontalMenu" => wide(1),
         "DrawNarrowTextBox_PrintTextNoDelay" | "DrawNarrowTextBox_WaitForInput" => narrow(2),
+        // A card search's prompt, before the list of the deck.
+        "LookForCardsInDeck" => wide(2),
+        // A yes/no question over the mailbox's menu.
+        "MailboxYesNoPrompt" => Place::Box {
+            width: WIDE,
+            lines: 1,
+        },
         // A card list's prompt, which `DisplayCardList` prints in the narrow
         // box under the list.
         "SetCardListInfoBoxText" | "SetCardListHeaderAndInfoText" | "SelectCardSearchTarget" => {
@@ -105,7 +112,7 @@ fn routine_place(name: &str) -> Option<Place> {
 /// with the column each row's room ends at, read from the code: (table,
 /// column). An item runs from its position to that column, or to the next
 /// item's cursor; a table's texts are full-width only all together.
-const TABLES: [(&str, usize); 5] = [
+const TABLES: [(&str, usize); 7] = [
     // The duel's menu, in the wide box at the bottom (border at x = 19).
     ("DuelMenuData", 19),
     // A Pokémon card's page: retreat cost, weakness and resistance symbols
@@ -118,6 +125,10 @@ const TABLES: [(&str, usize); 5] = [
     // The status screen's coin box: its title on the top border from x = 1,
     // the current coin from x = 4, up to the right border at x = 19.
     ("DrawStatusScreenBottomBox", 19),
+    // The naming screen's question, before the name at x = 12.
+    ("WhatIsYourNameData", 12),
+    // A letter's "From:" and "Subject:", before their values at x = 6.
+    ("DrawReadMailScreenHeader", 6),
 ];
 
 /// Texts the code puts into exactly one other text, as its `<RAMTEXT>`:
@@ -197,7 +208,7 @@ const NOT_PRINTED: [(&str, &str); 1] = [("ButterfreeMegaDrainEffect", "DoneText"
 
 /// Texts printed where the scan cannot measure the room, measured by hand
 /// from the routine that prints them: (routine, text, place).
-const MEASURED: [(&str, &str, Place); 9] = [
+const MEASURED: [(&str, &str, Place); 18] = [
     // The hero's gender, at (5, 8) in the 20×12 box, under the portrait
     // (from x = 12 on).
     (
@@ -270,6 +281,79 @@ const MEASURED: [(&str, &str, Place); 9] = [
     (
         "DrawConfigMenu",
         "ConfigExitText",
+        Place::Box {
+            width: 18,
+            lines: 1,
+        },
+    ),
+    // The mailbox's list: "From:" and "Subject:" at x = 2, before their
+    // values at x = 7.
+    (
+        "PrintMailSenderAndSubjectToScreen",
+        "MailboxSenderText",
+        Place::Box { width: 5, lines: 1 },
+    ),
+    (
+        "PrintMailSenderAndSubjectToScreen",
+        "MailboxSubjectText",
+        Place::Box { width: 5, lines: 1 },
+    ),
+    // The mailbox's title: at (6, 2) in the 20×4 box, and on the top border
+    // of its list and of a letter.
+    (
+        "Func_1ed2d",
+        "MailboxTitleText",
+        Place::Box {
+            width: 13,
+            lines: 1,
+        },
+    ),
+    (
+        "MailboxMainScreen",
+        "MailboxTitleText",
+        Place::Box {
+            width: 18,
+            lines: 1,
+        },
+    ),
+    (
+        "DrawReadMailScreenHeader",
+        "MailboxTitleText",
+        Place::Box {
+            width: 18,
+            lines: 1,
+        },
+    ),
+    // The mailbox's prompts, at (1, 2) in the 20×5 box at the top (one
+    // line: the box ends on the next).
+    (
+        "MailboxMainScreen",
+        "MailboxChooseMailText",
+        Place::Box {
+            width: 18,
+            lines: 1,
+        },
+    ),
+    (
+        "MailboxMainScreen",
+        "MailboxEmptyText",
+        Place::Box {
+            width: 18,
+            lines: 1,
+        },
+    ),
+    (
+        "DrawMailDeletedTextBox",
+        "MailboxDeletedText",
+        Place::Box {
+            width: 18,
+            lines: 1,
+        },
+    ),
+    // Over a letter's Read / Delete / End menu: (1, 1), the items on row 3.
+    (
+        "MailboxSelectedMail_LoadMenuBoxParams",
+        "MailboxActionPromptText",
         Place::Box {
             width: 18,
             lines: 1,
@@ -692,7 +776,8 @@ fn global_label(line: &str) -> Option<&str> {
 ///   tests the carry next, only the path with carry, the one that holds the
 ///   text, counts.
 ///
-/// A routine reached any other way (a pointer, falling into it) does not.
+/// A routine reached any other way (a pointer, falling into it) does not,
+/// except [`DUEL_MENU_CHECKS`].
 fn returners(sources: &[(String, Vec<String>)]) -> HashSet<String> {
     enum Use {
         Check {
@@ -767,26 +852,39 @@ fn returners(sources: &[(String, Vec<String>)]) -> HashSet<String> {
     loop {
         let before = ok.clone();
         ok.retain(|routine| {
-            uses[routine].iter().all(|u| match u {
-                Use::Check { handled } => *handled,
-                Use::Call {
-                    tail: true, caller, ..
-                } => before.contains(caller),
-                Use::Call {
-                    file, line, caller, ..
-                } => {
-                    let after = after_call(&sources[*file].1, *line);
-                    after.places.iter().all(|p| *p == wide)
-                        && (!after.returned || before.contains(caller))
-                }
-                Use::Other => false,
-            })
+            DUEL_MENU_CHECKS.contains(&routine.as_str())
+                || uses[routine].iter().all(|u| match u {
+                    Use::Check { handled } => *handled,
+                    Use::Call {
+                        tail: true, caller, ..
+                    } => before.contains(caller),
+                    Use::Call {
+                        file, line, caller, ..
+                    } => {
+                        let after = after_call(&sources[*file].1, *line);
+                        after.places.iter().all(|p| *p == wide)
+                            && (!after.returned || before.contains(caller))
+                    }
+                    Use::Other => false,
+                })
         });
         if ok.len() == before.len() {
             return ok;
         }
     }
 }
+
+/// The checks behind the duel menu's Attack and Retreat, read by hand:
+/// `DuelMenu_Attack` and `DuelMenu_Retreat` (through `CheckAbleToRetreat`)
+/// print the reason in the wide box. Their other callers are the AI's
+/// (`Func_167e5`, bank 12's retreat check, `CheckIfArenaCardCanRetreat` for
+/// `HandleAIPollenStench`, `HandleAIGatherFire` and
+/// `AIDecide_GustOfWind_PoisonMistDeck`, the AI's Trainer logic), which
+/// read only the carry.
+const DUEL_MENU_CHECKS: [&str; 2] = [
+    "CheckUnableToRetreatDueToEffect",
+    "CheckIfArenaCardIsUnableToAttack",
+];
 
 /// Where the text a routine hands back in hl goes after the call at
 /// `lines[at]`: on the path with carry, if the next instruction tests it.
@@ -853,7 +951,14 @@ fn follow_de(lines: &[String], start: usize) -> Vec<Place> {
 
 /// Routines that take no text and leave hl alone, so the text in it is
 /// printed after them.
-const LEAVE_HL: [&str; 2] = ["LoadCardDataToBuffer1_FromDeckIndex", "SwapTurn"];
+const LEAVE_HL: [&str; 6] = [
+    "LoadCardDataToBuffer1_FromDeckIndex",
+    "SwapTurn",
+    "TossCoin",
+    "TossCoinATimes",
+    "TossCoin_Bank1a",
+    "TossCoinATimes_Bank1a",
+];
 
 /// The CPU's instructions and the decomp's macros for them (`lb`, `ldtx`,
 /// calls): anything else on a path (another macro) may do anything.

@@ -91,11 +91,13 @@ Energy cards
 [NoBenchedPokemonText]
 No Pokémon on the Bench.
 
-[UnableDueToSleepText]
-Can't do that while Asleep.
+[UnableDueToSleepText] full-width
+Can't do that
+while Asleep.
 
-[UnableDueToParalysisText]
-Can't do that while Paralyzed.
+[UnableDueToParalysisText] full-width
+Can't do that
+while Paralyzed.
 
 [ReceivedXDamageDueToPoisonText]
 <RAMTEXT> takes
@@ -250,10 +252,10 @@ Choose a new Active Pokémon.
 When you're both ready, one of you
 please press the START button.
 
-[YouPlayFirstText]
+[YouPlayFirstText] full-width
 You play first.
 
-[YouPlaySecondText]
+[YouPlaySecondText] full-width
 You play second.
 
 [TransmissionErrorTryAgainText]

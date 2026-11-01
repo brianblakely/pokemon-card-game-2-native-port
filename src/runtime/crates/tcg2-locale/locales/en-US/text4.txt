@@ -1682,8 +1682,8 @@ We look forward to your visit!
 
 `                Battle Center m(__)m`
 
-[MailboxTitleText]
-`  Mailbox  `
+[MailboxTitleText] full-width
+` Mailbox `
 
 [MailboxFullWarningText]
 Your Mailbox is full, so new Mail
@@ -1698,16 +1698,16 @@ has arrived.
 [MailboxNewMailText]
 New Mail has arrived!
 
-[MailboxChooseMailText]
-Please select Mail.
+[MailboxChooseMailText] full-width
+Select Mail.
 
-[MailboxSenderText]
+[MailboxSenderText] full-width
 From:
 
-[MailboxSubjectText]
-Subject:
+[MailboxSubjectText] full-width
+Subj:
 
-[MailboxActionPromptText]
+[MailboxActionPromptText] full-width
 What to do?
 
 [MailboxActionReadText] full-width
@@ -1716,19 +1716,19 @@ Read
 [MailboxActionDeleteText] full-width
 Delete
 
-[MailboxActionDeleteConfirmText]
-Really delete this Mail?
+[MailboxActionDeleteConfirmText] full-width
+Delete this Mail?
 
 [MailboxActionDeleteUnreadConfirmText]
 It's unread. Delete it anyway?
 
-[MailboxDeletedText]
+[MailboxDeletedText] full-width
 Mail deleted.
 
 [DebugSendMailText]
 Send Mail
 
-[MailboxEmptyText]
+[MailboxEmptyText] full-width
 You have no Mail.
 
 [SamRulesEnergyText] full-width
