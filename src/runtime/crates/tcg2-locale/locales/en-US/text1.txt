@@ -848,7 +848,7 @@ so it can't be used.
 [CannotEvolveText] full-width
 Can't evolve.
 
-[CannotUseText]
+[CannotUseText] full-width
 Not usable.
 
 [NotEnoughEnergyCardsInHandText] full-width

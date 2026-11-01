@@ -638,6 +638,10 @@ enum CardField {
 /// - A special rule (`ShowSpecialRuleDescription`): its title at (3, 4) in
 ///   the 20×6 box (16 tiles), its description double-spaced from (1, 8) in
 ///   the 20×12 box (five lines of 18).
+/// - An Auto Deck Machine's deck (`auto_deck`): its description in the
+///   wide box (`wCardConfirmationText`, printed by
+///   `DrawWideTextBox_PrintText` or at (1, 14)). Its name is put into
+///   other texts.
 #[derive(Default)]
 struct DataTables {
     card: Option<(CardField, usize)>,
@@ -701,6 +705,9 @@ impl DataTables {
                 (w[2], Place::Pages { then_yes_no: false }),
                 (w[3], lines(WIDE, 2)),
             ]),
+            "data/auto_deck_machine.asm" if op == "auto_deck" => {
+                Some(vec![(w[2], Place::Unknown), (w[3], lines(WIDE, 2))])
+            }
             _ if routine == "ShowSpecialRuleDescription" && op == "tx" => {
                 Some(vec![(w[1], lines(16, 1)), (w[2], lines(WIDE, 5))])
             }
@@ -765,12 +772,14 @@ fn global_label(line: &str) -> Option<&str> {
 /// The routines that hand a text back in hl (`ret`) only to code that
 /// prints it in the duel's wide box, or not at all.
 ///
-/// - The checks the duel runs before an attack, a Trainer card or a Pokémon
-///   Power (`EFFECTCMDTYPE_INITIAL_EFFECT_1` and `_2`) say with carry why it
-///   can't be done. `UseAttackOrPokemonPower`, `UsePokemonPower` and the
+/// - An attack's, a Trainer's or a Pokémon Power's effect commands
+///   (`dbw EFFECTCMDTYPE_…`). The checks before one
+///   (`EFFECTCMDTYPE_INITIAL_EFFECT_1` and `_2`) say with carry why it can't
+///   be done, and `UseAttackOrPokemonPower`, `UsePokemonPower` and the
 ///   Trainer and Metronome paths print that text with
-///   `DrawWideTextBox_WaitForInput`; the other paths and the AI only read
-///   the carry.
+///   `DrawWideTextBox_WaitForInput`. Every other call of a command (the
+///   other types, the link opponent's and the AI's) drops what it hands
+///   back.
 /// - Any other routine qualifies if every call of it prints the text so,
 ///   drops it, or hands it on from a routine that qualifies. Where the call
 ///   tests the carry next, only the path with carry, the one that holds the
@@ -780,9 +789,7 @@ fn global_label(line: &str) -> Option<&str> {
 /// except [`DUEL_MENU_CHECKS`].
 fn returners(sources: &[(String, Vec<String>)]) -> HashSet<String> {
     enum Use {
-        Check {
-            handled: bool,
-        },
+        Command,
         Call {
             file: usize,
             line: usize,
@@ -817,13 +824,9 @@ fn returners(sources: &[(String, Vec<String>)]) -> HashSet<String> {
                 || matches!(op, "jp" | "jr") && w.len() == 2);
             if op == "dbw" && w.get(1).is_some_and(|t| t.starts_with("EFFECTCMDTYPE_")) {
                 if let Some(&routine) = w.get(2) {
-                    let handled = matches!(
-                        w[1],
-                        "EFFECTCMDTYPE_INITIAL_EFFECT_1" | "EFFECTCMDTYPE_INITIAL_EFFECT_2"
-                    );
                     uses.entry(routine.to_string())
                         .or_default()
-                        .push(Use::Check { handled });
+                        .push(Use::Command);
                 }
                 continue;
             }
@@ -854,7 +857,7 @@ fn returners(sources: &[(String, Vec<String>)]) -> HashSet<String> {
         ok.retain(|routine| {
             DUEL_MENU_CHECKS.contains(&routine.as_str())
                 || uses[routine].iter().all(|u| match u {
-                    Use::Check { handled } => *handled,
+                    Use::Command => true,
                     Use::Call {
                         tail: true, caller, ..
                     } => before.contains(caller),
