@@ -25,7 +25,8 @@
 //! debug menus and routines (`Debug*`), which no player sees, do not count.
 //!
 //! A text that puts another into itself (`<RAMTEXT>`: a card's, a deck's or
-//! a person's name) stays half-width too. What it puts in is such a text,
+//! a person's name) stays half-width too, unless what it puts in is known
+//! and full-width ([`PUT_INTO`]). What it puts in is such a text,
 //! half-width, and a line reads in one size. (The other way round would
 //! also go wrong: the engine pairs a half-width text's odd last letter with
 //! what follows, so a full-width text put into a half-width one would
@@ -104,6 +105,20 @@ const TABLES: [(&str, usize); 4] = [
     // The Shift screen: type, weakness and resistance symbols at x = 14.
     ("ShiftMenuData", 14),
 ];
+
+/// Texts the code puts into exactly one other text, as its `<RAMTEXT>`,
+/// from a table in a routine: (that text, the routine, the texts). That
+/// text may be full-width when all of them are.
+pub const PUT_INTO: [(&str, &str, [&str; 4]); 1] = [(
+    "GiftCenterServiceAcknowledgementText",
+    "GiftCenter_HandleMenu",
+    [
+        "GiftCenterSendCardsText",
+        "GiftCenterReceiveCardsText",
+        "GiftCenterSendDeckConfigurationText",
+        "GiftCenterReceiveDeckConfigurationText",
+    ],
+)];
 
 /// References to a text's number that print nothing: (routine, text).
 /// `ButterfreeMegaDrainEffect` adds 5 to round, written as `DoneText`.
@@ -338,6 +353,11 @@ pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
                 .map(|a| a.strip_suffix('_').unwrap_or(a))
                 .filter(|a| texts.contains(*a))
                 .filter(|a| !NOT_PRINTED.contains(&(routine, *a)))
+                .filter(|a| {
+                    !PUT_INTO
+                        .iter()
+                        .any(|(_, r, ts)| *r == routine && ts.contains(a))
+                })
                 .collect();
             if refs.is_empty() {
                 i += 1;

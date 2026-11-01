@@ -887,8 +887,7 @@ play while reading
 the "instruction
 booklet." Now
 then, let the
-"Practice Duel"
-begin!
+"Lesson" begin!
 
 [Text0f26] full-width
 Well? This is how

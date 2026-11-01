@@ -50,7 +50,7 @@ Change Settings
 ` Coin Flip Animation `
 
 [ConfigExitText]
-Exit Settings
+Exit Setup
 
 [ConfigMessageSpeedSlowLabelText]
 Slow
@@ -291,9 +291,10 @@ the Gift Center!
 How may I help you
 today?
 
-[GiftCenterServiceAcknowledgementText]
+[GiftCenterServiceAcknowledgementText] full-width
 Certainly.
-"<RAMTEXT>" it is.
+"<RAMTEXT>"
+it is.
 
 [GiftCenterServiceSaveRequestText] full-width
 Before you use our
@@ -311,20 +312,20 @@ service.
 We look forward to
 your next visit!
 
-[GiftCenterSendCardsText]
+[GiftCenterSendCardsText] full-width
 Send Cards
 
-[GiftCenterReceiveCardsText]
-Receive Cards
+[GiftCenterReceiveCardsText] full-width
+Get Cards
 
-[GiftCenterSendDeckConfigurationText]
-Send Deck Configuration
+[GiftCenterSendDeckConfigurationText] full-width
+Send Decklist
 
-[GiftCenterReceiveDeckConfigurationText]
-Receive Deck Configuration
+[GiftCenterReceiveDeckConfigurationText] full-width
+Get Decklist
 
-[GiftCenterQuitText]
-Quit
+[GiftCenterQuitText] full-width
+End
 
 [GiftCenterPressStartWhenReadyText]
 When you're both ready, one of you
@@ -1697,10 +1698,10 @@ Subject:
 [MailboxActionPromptText]
 What to do?
 
-[MailboxActionReadText]
+[MailboxActionReadText] full-width
 Read
 
-[MailboxActionDeleteText]
+[MailboxActionDeleteText] full-width
 Delete
 
 [MailboxActionDeleteConfirmText]
@@ -1742,25 +1743,25 @@ Win or Lose
 [SamRulesQuitText] full-width
 Never Mind
 
-[MasonLabPracticeDuelText]
-Practice Duel
+[MasonLabPracticeDuelText] full-width
+Lesson
 
-[MasonLabRegularDuelText]
-Normal Duel
+[MasonLabRegularDuelText] full-width
+Duel
 
-[SamRulesText]
-Explain Rules
+[SamRulesText] full-width
+Rules
 
-[SamQuitText]
-Never Mind
+[SamQuitText] full-width
+Cancel
 
-[AaronStep1Text]
+[AaronStep1Text] full-width
 Step 1
 
-[AaronStep2Text]
+[AaronStep2Text] full-width
 Step 2
 
-[AaronStep3Text]
+[AaronStep3Text] full-width
 Step 3
 
 [AaronStep4Text]

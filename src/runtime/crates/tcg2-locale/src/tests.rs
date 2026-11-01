@@ -135,15 +135,37 @@ fn full_width_wherever_it_fits() {
         let all: Vec<&text::Entry> = entries.iter().collect();
         let menus = layout::menus_that_fit(&all, &places);
         let mut rewrites: HashMap<&str, HashMap<&str, Vec<String>>> = HashMap::new();
+        let by_entry: HashMap<&str, &text::Entry> =
+            entries.iter().map(|e| (e.label.as_str(), e)).collect();
+        // What a text puts in, if known and all full-width: its widest, in
+        // tiles. A run of that many blocks stands for it while laying out.
+        let put_in = |label: &str| -> Option<usize> {
+            let (_, _, texts) = layout::PUT_INTO.iter().find(|(h, _, _)| *h == label)?;
+            texts
+                .iter()
+                .map(|t| {
+                    let e = by_entry.get(t)?;
+                    let widths = text::line_widths(&e.text, Width::Full).unwrap();
+                    (e.width == Width::Full).then(|| widths.into_iter().max().unwrap() / 2)
+                })
+                .collect::<Option<Vec<_>>>()?
+                .into_iter()
+                .max()
+        };
         for entry in &entries {
             let at = format!("{}:{}: [{}]", entry.file, entry.line, entry.label);
             let found = places.get(&entry.label).map(Vec::as_slice).unwrap_or(&[]);
+            let stand_in = put_in(&entry.label).map(|w| "\u{2588}".repeat(w));
+            let laid_out = match &stand_in {
+                Some(s) => entry.text.replace(layout::RAMTEXT, s),
+                None => entry.text.clone(),
+            };
             let menu_fits = found.iter().all(|p| match p {
                 layout::Place::Item { menu, .. } => menus.contains(menu),
                 _ => true,
             });
-            let lines: Vec<&str> = entry.text.split('\n').collect();
-            if entry.width == Width::Full && entry.text.contains(layout::RAMTEXT) {
+            let lines: Vec<&str> = laid_out.split('\n').collect();
+            if entry.width == Width::Full && laid_out.contains(layout::RAMTEXT) {
                 problems.push(format!(
                     "{at}: full-width, but what it puts in (<RAMTEXT>) is half-width"
                 ));
@@ -174,7 +196,15 @@ fn full_width_wherever_it_fits() {
                     }
                 }
                 Width::Half => {
-                    let wanted = layout::full_width_lines(&entry.text, found).filter(|_| menu_fits);
+                    let wanted = layout::full_width_lines(&laid_out, found)
+                        .filter(|_| menu_fits)
+                        .map(|lines| match &stand_in {
+                            Some(s) => lines
+                                .iter()
+                                .map(|l| l.replace(s, layout::RAMTEXT))
+                                .collect(),
+                            None => lines,
+                        });
                     if let Some(wanted) = wanted {
                         problems.push(format!("{at}: fits full-width ({found:?}): {wanted:?}"));
                         rewrites
