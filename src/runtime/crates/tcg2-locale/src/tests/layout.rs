@@ -15,7 +15,7 @@
 //!   menu reads in one size.
 //!
 //! - A few texts and tables printed at fixed places, measured by hand from
-//!   the code that prints them ([`MEASURED`], [`TABLES`]).
+//!   the code that prints them ([`MEASURED`], [`TABLES`], [`TABLE_TEXTS`]).
 //!
 //! A text the decomp prints anywhere else (a card's name, a screen's
 //! title, a text the code computes or stores in a table) stays half-width:
@@ -94,7 +94,7 @@ fn routine_place(name: &str) -> Option<Place> {
 /// with the column each row's room ends at, read from the code: (table,
 /// column). An item runs from its position to that column, or to the next
 /// item's cursor; a table's texts are full-width only all together.
-const TABLES: [(&str, usize); 4] = [
+const TABLES: [(&str, usize); 5] = [
     // The duel's menu, in the wide box at the bottom (border at x = 19).
     ("DuelMenuData", 19),
     // A Pokémon card's page: retreat cost, weakness and resistance symbols
@@ -104,21 +104,81 @@ const TABLES: [(&str, usize); 4] = [
     ("RetreatWeakResistData", 5),
     // The Shift screen: type, weakness and resistance symbols at x = 14.
     ("ShiftMenuData", 14),
+    // The status screen's coin box: its title on the top border from x = 1,
+    // the current coin from x = 4, up to the right border at x = 19.
+    ("DrawStatusScreenBottomBox", 19),
 ];
 
-/// Texts the code puts into exactly one other text, as its `<RAMTEXT>`,
-/// from a table in a routine: (that text, the routine, the texts). That
-/// text may be full-width when all of them are.
-pub const PUT_INTO: [(&str, &str, [&str; 4]); 1] = [(
-    "GiftCenterServiceAcknowledgementText",
-    "GiftCenter_HandleMenu",
-    [
-        "GiftCenterSendCardsText",
-        "GiftCenterReceiveCardsText",
-        "GiftCenterSendDeckConfigurationText",
-        "GiftCenterReceiveDeckConfigurationText",
-    ],
-)];
+/// Texts the code puts into exactly one other text, as its `<RAMTEXT>`:
+/// (that text, the texts). That text may be full-width when all of them
+/// are.
+pub const PUT_INTO: [(&str, &[&str]); 2] = [
+    (
+        "GiftCenterServiceAcknowledgementText",
+        &[
+            "GiftCenterSendCardsText",
+            "GiftCenterReceiveCardsText",
+            "GiftCenterSendDeckConfigurationText",
+            "GiftCenterReceiveDeckConfigurationText",
+        ],
+    ),
+    (
+        "ObtainedCoinText",
+        &[
+            "ChanseyCoinText",
+            "GRCoinText",
+            "GrassCoinText",
+            "FireCoinText",
+            "WaterCoinText",
+            "LightningCoinText",
+            "PsychicCoinText",
+            "RockCoinText",
+            "GRGrassCoinText",
+            "GRLightningCoinText",
+            "GRFireCoinText",
+            "GRWaterCoinText",
+            "GRFightingCoinText",
+            "GRPsychicCoinText",
+            "GRColorlessCoinText",
+            "GRKingCoinText",
+            "PonytaCoinText",
+            "HorseaCoinText",
+            "ArbokCoinText",
+            "JigglypuffCoinText",
+            "DugtrioCoinText",
+            "GengarCoinText",
+            "RaichuCoinText",
+            "LugiaCoinText",
+        ],
+    ),
+];
+
+/// Tables of texts the code reads by number, by the routine they are in,
+/// and the place where it prints each of their texts: none for texts it
+/// only puts into another ([`PUT_INTO`]).
+const TABLE_TEXTS: [(&str, Option<Place>); 3] = [
+    // The Gift Center's items, put into its acknowledgement.
+    ("GiftCenter_HandleMenu", None),
+    // Coin names: on the status screen at (4, 12), up to the border, and on
+    // the Coins screen in the 12 tiles cleared at (4, 6). They are also put
+    // into `ObtainedCoinText`.
+    (
+        "GetCoinName",
+        Some(Place::Box {
+            width: 12,
+            lines: 1,
+        }),
+    ),
+    // The Coins screen's page title, at (6, 8) between the page arrows at
+    // x = 0 and 19.
+    (
+        "CoinMenuPageTitles",
+        Some(Place::Box {
+            width: 13,
+            lines: 1,
+        }),
+    ),
+];
 
 /// References to a text's number that print nothing: (routine, text).
 /// `ButterfreeMegaDrainEffect` adds 5 to round, written as `DoneText`.
@@ -126,7 +186,7 @@ const NOT_PRINTED: [(&str, &str); 1] = [("ButterfreeMegaDrainEffect", "DoneText"
 
 /// Texts printed where the scan cannot measure the room, measured by hand
 /// from the routine that prints them: (routine, text, place).
-const MEASURED: [(&str, &str, Place); 3] = [
+const MEASURED: [(&str, &str, Place); 9] = [
     // The hero's gender, at (5, 8) in the 20×12 box, under the portrait
     // (from x = 12 on).
     (
@@ -145,6 +205,62 @@ const MEASURED: [(&str, &str, Place); 3] = [
         "PauseMenuMinicomText",
         Place::Box {
             width: 12,
+            lines: 1,
+        },
+    ),
+    // The status screen's coin box: Team GR's coin, at (4, 14).
+    (
+        "DrawStatusScreenBottomBox",
+        "PlayerStatusGRCoinText",
+        Place::Box {
+            width: 15,
+            lines: 1,
+        },
+    ),
+    // The Coins screen: "Current Coin" at (4, 4) in the 20×8 box.
+    (
+        "ShowSelectedCoinOnCoinMenu",
+        "PlayerStatusCurrentCoinText",
+        Place::Box {
+            width: 15,
+            lines: 1,
+        },
+    ),
+    // The Coins screen's prompt, at (1, 2) in the 20×8 box: the coin and its
+    // name take the lines below.
+    (
+        "CoinMenu",
+        "PlayerCoinSelectText",
+        Place::Box {
+            width: 18,
+            lines: 1,
+        },
+    ),
+    // The Coins screen after a new coin: the count, where the prompt
+    // stands.
+    (
+        "ShowReceivedCoinOnCoinMenu",
+        "ObtainedCoinTotalNumberText",
+        Place::Box {
+            width: 18,
+            lines: 1,
+        },
+    ),
+    (
+        "ShowReceivedCoinOnCoinMenu",
+        "ObtainedGRCoinPieceTotalNumberText",
+        Place::Box {
+            width: 18,
+            lines: 1,
+        },
+    ),
+    // The settings screen's exit, at (2, 17) under the last box, alone on
+    // its row.
+    (
+        "DrawConfigMenu",
+        "ConfigExitText",
+        Place::Box {
+            width: 18,
             lines: 1,
         },
     ),
@@ -291,7 +407,9 @@ pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
                         .filter(|(nx, ny, _)| ny == y && nx > x)
                         .map(|(nx, _, _)| nx - 1)
                         .min()
-                        .unwrap_or(width - 1);
+                        // A menu that draws no box of its own runs to its
+                        // end.
+                        .unwrap_or(if box_drawn { width - 1 } else { width });
                     if texts.contains(label) {
                         places.entry(label.clone()).or_default().push(Place::Item {
                             width: end.saturating_sub(*x),
@@ -353,13 +471,20 @@ pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
                 .map(|a| a.strip_suffix('_').unwrap_or(a))
                 .filter(|a| texts.contains(*a))
                 .filter(|a| !NOT_PRINTED.contains(&(routine, *a)))
-                .filter(|a| {
-                    !PUT_INTO
-                        .iter()
-                        .any(|(_, r, ts)| *r == routine && ts.contains(a))
-                })
                 .collect();
             if refs.is_empty() {
+                i += 1;
+                continue;
+            }
+            // A table the code reads by number.
+            if op == "tx"
+                && let Some((_, place)) = TABLE_TEXTS.iter().find(|(r, _)| *r == routine)
+            {
+                if let Some(place) = place {
+                    for r in &refs {
+                        places.entry(r.to_string()).or_default().push(place.clone());
+                    }
+                }
                 i += 1;
                 continue;
             }
@@ -803,10 +928,12 @@ pub fn menus_that_fit(
         let Some(&first) = menus.first() else {
             continue;
         };
-        // A text the language leaves as the ROM has it stays as it is.
-        let ok = by_label
-            .get(label.as_str())
-            .is_none_or(|e| full_width_lines(&e.text, ps).is_some());
+        // A text the language leaves as the ROM has it stays as it is; one
+        // already full-width fits as it is written.
+        let ok = by_label.get(label.as_str()).is_none_or(|e| match e.width {
+            Width::Full => fits(&e.text.split('\n').collect::<Vec<_>>(), ps),
+            Width::Half => full_width_lines(&e.text, ps).is_some(),
+        });
         for &m in &menus {
             *fit.entry(m).or_insert(true) &= ok;
             let (a, b) = (root(&mut parent, first), root(&mut parent, m));

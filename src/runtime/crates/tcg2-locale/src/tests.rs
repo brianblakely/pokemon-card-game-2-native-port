@@ -140,7 +140,7 @@ fn full_width_wherever_it_fits() {
         // What a text puts in, if known and all full-width: its widest, in
         // tiles. A run of that many blocks stands for it while laying out.
         let put_in = |label: &str| -> Option<usize> {
-            let (_, _, texts) = layout::PUT_INTO.iter().find(|(h, _, _)| *h == label)?;
+            let (_, texts) = layout::PUT_INTO.iter().find(|(h, _)| *h == label)?;
             texts
                 .iter()
                 .map(|t| {

@@ -49,7 +49,7 @@ Change Settings
 [ConfigCoinAnimationText]
 ` Coin Flip Animation `
 
-[ConfigExitText]
+[ConfigExitText] full-width
 Exit Setup
 
 [ConfigMessageSpeedSlowLabelText]
@@ -58,14 +58,14 @@ Slow
 [ConfigMessageSpeedFastLabelText]
 Fast
 
-[ConfigAnimationShowAllText]
-Show All
+[ConfigAnimationShowAllText] full-width
+All
 
-[ConfigAnimationSkipSomeText]
-Skip Some
+[ConfigAnimationSkipSomeText] full-width
+Some
 
-[ConfigAnimationNoneText]
-None
+[ConfigAnimationNoneText] full-width
+Off
 
 [PlayerDiaryTitleText]
 <RAMNAME>'s Diary
@@ -73,8 +73,8 @@ None
 [PlayerDiaryNameText]
 Name
 
-[PlayerStatusEventCoinTitleText]
-` Event Coins      `
+[PlayerStatusEventCoinTitleText] full-width
+` Event Coins `
 
 [PlayerDiaryEventCoinText]
 Event Coins
@@ -94,10 +94,10 @@ Yes
 [PlayerDiaryPromptNoText] full-width
 No
 
-[PlayerStatusCurrentCoinText]
+[PlayerStatusCurrentCoinText] full-width
 Current Coin
 
-[PlayerStatusGRCoinText]
+[PlayerStatusGRCoinText] full-width
 Team GR's Coin
 
 [PCMenuCardAlbumText]
@@ -338,80 +338,80 @@ Please start over from the top.
 [DebugBackgroundCoinDisplayText]
 BG Coin Display
 
-[PlayerCoinSelectText]
-Please choose a coin to use.
+[PlayerCoinSelectText] full-width
+Choose your coin.
 
-[ChanseyCoinText]
-Chansey Coin
+[ChanseyCoinText] full-width
+Chansey
 
-[GrassCoinText]
-Grass Coin
+[GrassCoinText] full-width
+Grass
 
-[FireCoinText]
-Fire Coin
+[FireCoinText] full-width
+Fire
 
-[WaterCoinText]
-Water Coin
+[WaterCoinText] full-width
+Water
 
-[LightningCoinText]
-Lightning Coin
+[LightningCoinText] full-width
+Lightning
 
-[PsychicCoinText]
-Psychic Coin
+[PsychicCoinText] full-width
+Psychic
 
-[RockCoinText]
-Rock Coin
+[RockCoinText] full-width
+Rock
 
-[GRCoinText]
-GR Coin
+[GRCoinText] full-width
+GR
 
-[GRGrassCoinText]
-GR Grass Coin
+[GRGrassCoinText] full-width
+GR Grass
 
-[GRLightningCoinText]
-GR Lightning Coin
+[GRLightningCoinText] full-width
+GR Lightning
 
-[GRFireCoinText]
-GR Fire Coin
+[GRFireCoinText] full-width
+GR Fire
 
-[GRWaterCoinText]
-GR Water Coin
+[GRWaterCoinText] full-width
+GR Water
 
-[GRFightingCoinText]
-GR Fighting Coin
+[GRFightingCoinText] full-width
+GR Fighting
 
-[GRPsychicCoinText]
-GR Psychic Coin
+[GRPsychicCoinText] full-width
+GR Psychic
 
-[GRColorlessCoinText]
-GR Colorless Coin
+[GRColorlessCoinText] full-width
+GR Colorless
 
-[GRKingCoinText]
-GR King Coin
+[GRKingCoinText] full-width
+GR King
 
-[PonytaCoinText]
-Ponyta Coin
+[PonytaCoinText] full-width
+Ponyta
 
-[HorseaCoinText]
-Horsea Coin
+[HorseaCoinText] full-width
+Horsea
 
-[ArbokCoinText]
-Arbok Coin
+[ArbokCoinText] full-width
+Arbok
 
-[JigglypuffCoinText]
-Jigglypuff Coin
+[JigglypuffCoinText] full-width
+Jigglypuff
 
-[DugtrioCoinText]
-Dugtrio Coin
+[DugtrioCoinText] full-width
+Dugtrio
 
-[GengarCoinText]
-Gengar Coin
+[GengarCoinText] full-width
+Gengar
 
-[RaichuCoinText]
-Raichu Coin
+[RaichuCoinText] full-width
+Raichu
 
-[LugiaCoinText]
-Lugia Coin
+[LugiaCoinText] full-width
+Lugia
 
 [GRCoinPiece1Text]
 GR Coin Piece 1
@@ -425,13 +425,13 @@ GR Coin Piece 3
 [GRCoinPiece4Text]
 GR Coin Piece 4
 
-[EventCoinPage1Text]
+[EventCoinPage1Text] full-width
 Event Coins 1
 
-[EventCoinPage2Text]
+[EventCoinPage2Text] full-width
 Event Coins 2
 
-[EventCoinPage3Text]
+[EventCoinPage3Text] full-width
 Event Coins 3
 
 [DebugEffectViewerText]
@@ -464,12 +464,12 @@ B:Stop
 [DebugPowerOnText]
 Power On
 
-[ObtainedCoinText]
-The "<RAMTEXT>"
-is now yours!
+[ObtainedCoinText] full-width
+The <RAMTEXT>
+Coin is now yours!
 
-[ObtainedCoinTotalNumberText]
-Total coins collected: <RAMNUM>!
+[ObtainedCoinTotalNumberText] full-width
+Total coins: <RAMNUM>!
 
 [DebugSlotMachineText]
 Slot Machine
@@ -2395,8 +2395,8 @@ Attendant
 [DebugClearMailText]
 Clear Mail
 
-[ObtainedGRCoinPieceTotalNumberText]
-That makes <RAMNUM> GR Coin pieces!
+[ObtainedGRCoinPieceTotalNumberText] full-width
+GR Coin piece <RAMNUM>!
 
 [ChallengeMachineQuitWinStreakWarningText] full-width
 If you quit the
