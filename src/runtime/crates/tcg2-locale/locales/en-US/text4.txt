@@ -1718,29 +1718,29 @@ Send Mail
 [MailboxEmptyText]
 You have no Mail.
 
-[SamRulesEnergyText]
-About Energy
+[SamRulesEnergyText] full-width
+Energy
 
-[SamRulesAttackText]
-Using Attacks
+[SamRulesAttackText] full-width
+Attacks
 
-[SamRulesSwitchText]
-Switching Pokémon
+[SamRulesSwitchText] full-width
+Switching
 
-[SamRulesEvolutionText]
-Evolving Pokémon
+[SamRulesEvolutionText] full-width
+Evolving
 
-[SamRulesPokemonPowerText]
-Using Pokémon Powers
+[SamRulesPokemonPowerText] full-width
+PKMN Powers
 
-[SamRulesEndOfTurnText]
-Ending Your Turn
+[SamRulesEndOfTurnText] full-width
+Ending Turn
 
-[SamRulesDecisionText]
-Winning and Losing
+[SamRulesDecisionText] full-width
+Win or Lose
 
-[SamRulesQuitText]
-Nothing to Ask
+[SamRulesQuitText] full-width
+Never Mind
 
 [MasonLabPracticeDuelText]
 Practice Duel
