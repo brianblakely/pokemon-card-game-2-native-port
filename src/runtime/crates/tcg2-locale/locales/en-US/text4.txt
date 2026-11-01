@@ -521,8 +521,8 @@ Prize Counter
 [DebugDuelText]
 Duel
 
-[SpecialRuleChlorophyllTitleText]
-`        Chlorophyll         `
+[SpecialRuleChlorophyllTitleText] full-width
+`    Chlorophyll`
 
 [SpecialRuleChlorophyllDescriptionText]
 In this duel, Grass Pokémon can't be
@@ -557,24 +557,30 @@ size becomes 3.
 [SpecialRuleRunningWaterTitleText]
 `       Running Water        `
 
-[SpecialRuleRunningWaterDescriptionText]
-In this duel, Water Pokémon's
-Retreat Cost is reduced by 1.
+[SpecialRuleRunningWaterDescriptionText] full-width
+In this duel,
+Water Pokémon's
+Retreat Cost is
+reduced by 1.
 
 [SpecialRuleEarthPowerTitleText]
 `        Earth Power         `
 
-[SpecialRuleEarthPowerDescriptionText]
-In this duel, damage done by
-Fighting Pokémon isn't affected by
+[SpecialRuleEarthPowerDescriptionText] full-width
+In this duel,
+damage done by
+Fighting Pokémon
+isn't affected by
 Resistance.
 
 [SpecialRuleLowResistanceTitleText]
 `       Low Resistance       `
 
-[SpecialRuleLowResistanceDescriptionText]
-In this duel, Resistance is changed
-from -30 to -10.
+[SpecialRuleLowResistanceDescriptionText] full-width
+In this duel,
+Resistance is
+changed from -30
+to -10.
 
 [SpecialRuleEnergyReturnTitleText]
 `       Energy Return        `
@@ -886,10 +892,10 @@ Champion
 <RAMNAME>
 checked the cards!!
 
-[MailBlackBoxOutputSenderText]
+[MailBlackBoxOutputSenderText] full-width
 Game Center
 
-[MailBlackBoxOutputSubjectText]
+[MailBlackBoxOutputSubjectText] full-width
 Black Box
 
 [MailBlackBoxOutputBody1Text]
@@ -907,7 +913,7 @@ We hope to see you at the
 
 `    Team GR Game Center (^-^)/`
 
-[MailBillsPCOutputSenderText]
+[MailBillsPCOutputSenderText] full-width
 Game Center
 
 [MailBillsPCOutputSubjectText]
@@ -928,10 +934,10 @@ We hope to see you at
 
 `    Team GR Game Center (^-^)/`
 
-[MailMailboxIntroSenderText]
+[MailMailboxIntroSenderText] full-width
 Dr. Mason
 
-[MailMailboxIntroSubjectText]
+[MailMailboxIntroSubjectText] full-width
 PC and Mail
 
 [MailMailboxIntroBody1Text]
@@ -962,7 +968,7 @@ P.S.
 This is a parting gift from me.
 Make good use of it in your duels.
 
-[MailDeckDiagnosis1SenderText]
+[MailDeckDiagnosis1SenderText] full-width
 Dr. Mason
 
 [MailDeckDiagnosis1SubjectText]
@@ -991,12 +997,13 @@ advice and a Deck Check...
 Mason Laboratory
 `      Dr. Mason, Director (^o^)`
 
-[MailDeckDiagnosis1Body4Text]
-P.S.
-I'll contact you again when
-"Step 2" is complete...
+[MailDeckDiagnosis1Body4Text] full-width
+P.S. I'll contact
+you again when
+"Step 2" is
+complete...
 
-[MailDeckDiagnosis2SenderText]
+[MailDeckDiagnosis2SenderText] full-width
 Dr. Mason
 
 [MailDeckDiagnosis2SubjectText]
@@ -1024,12 +1031,13 @@ Try it out and see what you think!
 Mason Laboratory
 `      Dr. Mason, Director (^o^)`
 
-[MailDeckDiagnosis2Body4Text]
-P.S.
-I'll contact you again when
-"Step 3" is complete...
+[MailDeckDiagnosis2Body4Text] full-width
+P.S. I'll contact
+you again when
+"Step 3" is
+complete...
 
-[MailDeckDiagnosis3SenderText]
+[MailDeckDiagnosis3SenderText] full-width
 Dr. Mason
 
 [MailDeckDiagnosis3SubjectText]
@@ -1050,12 +1058,13 @@ on building decks, I suppose...
 Mason Laboratory
 `      Dr. Mason, Director (^o^)`
 
-[MailDeckDiagnosis3Body3Text]
-P.S.
-I'll contact you again when
-"Step 4" is complete...
+[MailDeckDiagnosis3Body3Text] full-width
+P.S. I'll contact
+you again when
+"Step 4" is
+complete...
 
-[MailDeckDiagnosis4SenderText]
+[MailDeckDiagnosis4SenderText] full-width
 Dr. Mason
 
 [MailDeckDiagnosis4SubjectText]
@@ -1076,7 +1085,7 @@ to take a good, hard look at it!
 Mason Laboratory
 `      Dr. Mason, Director (^o^)`
 
-[MailAutoDeckMachine1SenderText]
+[MailAutoDeckMachine1SenderText] full-width
 Dr. Mason
 
 [MailAutoDeckMachine1SubjectText]
@@ -1096,13 +1105,14 @@ Put it to good use in your duels!
 Mason Laboratory
 `      Dr. Mason, Director (^o^)`
 
-[MailAutoDeckMachine1Body3Text]
-P.S.
-I doubt this will let you build
-many more decks, but here's a
+[MailAutoDeckMachine1Body3Text] full-width
+P.S. I doubt this
+will let you build
+many more decks,
+but here's a
 present anyway!
 
-[MailAutoDeckMachine2SenderText]
+[MailAutoDeckMachine2SenderText] full-width
 Dr. Mason
 
 [MailAutoDeckMachine2SubjectText]
@@ -1128,7 +1138,7 @@ P.S.
 Here's a present for now!
 Please accept it.
 
-[MailAutoDeckMachine3SenderText]
+[MailAutoDeckMachine3SenderText] full-width
 Dr. Mason
 
 [MailAutoDeckMachine3SubjectText]
@@ -1149,12 +1159,13 @@ then to study your opponents!
 Mason Laboratory
 `      Director Dr. Mason (^o^)`
 
-[MailAutoDeckMachine3Body3Text]
-P.S.
-Another present!
-This time, the 3rd set!!
+[MailAutoDeckMachine3Body3Text] full-width
+P.S. Another
+present! This
+time, the 3rd
+set!!
 
-[MailAutoDeckMachine4SenderText]
+[MailAutoDeckMachine4SenderText] full-width
 Dr. Mason
 
 [MailAutoDeckMachine4SubjectText]
@@ -1176,12 +1187,13 @@ for a change?
 Mason Laboratory
 `      Director Dr. Mason (^o^)`
 
-[MailAutoDeckMachine4Body3Text]
-P.S.
-Here's the newest booster pack,
-the one you won back!
+[MailAutoDeckMachine4Body3Text] full-width
+P.S. Here's the
+newest booster
+pack, the one you
+won back!
 
-[MailAutoDeckMachine5SenderText]
+[MailAutoDeckMachine5SenderText] full-width
 Dr. Mason
 
 [MailAutoDeckMachine5SubjectText]
@@ -1210,7 +1222,7 @@ keep getting more decks!
 Mason Laboratory
 `      Director Dr. Mason (^o^)`
 
-[MailChallengeMachineSenderText]
+[MailChallengeMachineSenderText] full-width
 Dr. Mason
 
 [MailChallengeMachineSubjectText]
@@ -1232,7 +1244,7 @@ Now then, let's take the challenge!
 Mason Laboratory
 `      Director Dr. Mason (^O^)`
 
-[MailGRChallengeMachineSenderText]
+[MailGRChallengeMachineSenderText] full-width
 Biruritchi
 
 [MailGRChallengeMachineSubjectText]
@@ -1260,7 +1272,7 @@ Do your best and win it!
 King of Team GR
 `                    Biruritchi (-^-)`
 
-[MailGrandMasterCupSenderText]
+[MailGrandMasterCupSenderText] full-width
 Rod
 
 [MailGrandMasterCupSubjectText]
@@ -1282,10 +1294,10 @@ the Pokémon Dome now and then.
 Grand Master Leader
 `                           Rod (^o^)`
 
-[MailRonaldsScoutGR1SenderText]
+[MailRonaldsScoutGR1SenderText] full-width
 Ronald
 
-[MailRonaldsScoutGR1SubjectText]
+[MailRonaldsScoutGR1SubjectText] full-width
 GR-1's Deck
 
 [MailRonaldsScoutGR1Body1Text]
@@ -1304,10 +1316,10 @@ Watch out for Magnemite's
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutGR2SenderText]
+[MailRonaldsScoutGR2SenderText] full-width
 Ronald
 
-[MailRonaldsScoutGR2SubjectText]
+[MailRonaldsScoutGR2SubjectText] full-width
 GR-2's Deck
 
 [MailRonaldsScoutGR2Body1Text]
@@ -1326,10 +1338,10 @@ Dark Arbok! Later!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutGR3SenderText]
+[MailRonaldsScoutGR3SenderText] full-width
 Ronald
 
-[MailRonaldsScoutGR3SubjectText]
+[MailRonaldsScoutGR3SubjectText] full-width
 GR-3's Deck
 
 [MailRonaldsScoutGR3Body1Text]
@@ -1347,10 +1359,10 @@ Exeggutor, or you'll get hit with
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutGR4SenderText]
+[MailRonaldsScoutGR4SenderText] full-width
 Ronald
 
-[MailRonaldsScoutGR4SubjectText]
+[MailRonaldsScoutGR4SubjectText] full-width
 GR-4's Deck
 
 [MailRonaldsScoutGR4Body1Text]
@@ -1368,7 +1380,7 @@ it and get his advice. Got it?
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutMorinoSenderText]
+[MailRonaldsScoutMorinoSenderText] full-width
 Ronald
 
 [MailRonaldsScoutMorinoSubjectText]
@@ -1404,7 +1416,7 @@ or Vileplume! Later!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutCatherineSenderText]
+[MailRonaldsScoutCatherineSenderText] full-width
 Ronald
 
 [MailRonaldsScoutCatherineSubjectText]
@@ -1434,7 +1446,7 @@ That's up to you!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutHideroSenderText]
+[MailRonaldsScoutHideroSenderText] full-width
 Ronald
 
 [MailRonaldsScoutHideroSubjectText]
@@ -1464,7 +1476,7 @@ yourself, <RAMNAME>!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutKanokoSenderText]
+[MailRonaldsScoutKanokoSenderText] full-width
 Ronald
 
 [MailRonaldsScoutKanokoSubjectText]
@@ -1494,7 +1506,7 @@ Well, think it over. Later!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutKamiyaSenderText]
+[MailRonaldsScoutKamiyaSenderText] full-width
 Ronald
 
 [MailRonaldsScoutKamiyaSubjectText]
@@ -1523,10 +1535,10 @@ Probably... Well, good luck!
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutMamiSenderText]
+[MailRonaldsScoutMamiSenderText] full-width
 Ronald
 
-[MailRonaldsScoutMamiSubjectText]
+[MailRonaldsScoutMamiSubjectText] full-width
 Mami's Deck
 
 [MailRonaldsScoutMamiBody1Text]
@@ -1567,7 +1579,7 @@ to counter Psychic decks, I guess...
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutColorlessAltarSenderText]
+[MailRonaldsScoutColorlessAltarSenderText] full-width
 Ronald
 
 [MailRonaldsScoutColorlessAltarSubjectText]
@@ -1605,7 +1617,7 @@ far, no use rushing it now...
 
 `                        Ronald (o_o)`
 
-[MailRonaldsScoutBiruritchiSenderText]
+[MailRonaldsScoutBiruritchiSenderText] full-width
 Ronald
 
 [MailRonaldsScoutBiruritchiSubjectText]

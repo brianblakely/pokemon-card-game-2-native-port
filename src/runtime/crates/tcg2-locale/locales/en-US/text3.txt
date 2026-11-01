@@ -1,7 +1,7 @@
 # Pokémon Card GB2 in American English: the texts of
 # src/decomp/src/text/text3.asm, by label (format: src/text.rs).
 
-[GlossaryPrizesTitleText]
+[GlossaryPrizesTitleText] full-width
 About Prizes
 
 [GlossaryDamageCountersTitleText]
@@ -22,13 +22,13 @@ About Evolution Cards
 [GlossaryDarkEvolutionCardsTitleText]
 About Dark Evolution Cards
 
-[GlossaryAttackTitleText]
+[GlossaryAttackTitleText] full-width
 About Attacks
 
 [GlossaryPokemonPowerTitleText]
 About Pokémon Power
 
-[GlossaryWeaknessTitleText]
+[GlossaryWeaknessTitleText] full-width
 About Weakness
 
 [GlossaryResistanceTitleText]
@@ -37,16 +37,16 @@ About Resistance
 [GlossaryRetreatTitleText]
 About Retreating
 
-[GlossaryPoisonedTitleText]
+[GlossaryPoisonedTitleText] full-width
 About Poison
 
-[GlossaryParalyzedTitleText]
+[GlossaryParalyzedTitleText] full-width
 About Paralysis
 
-[GlossaryAsleepTitleText]
+[GlossaryAsleepTitleText] full-width
 About Sleep
 
-[GlossaryConfusedTitleText]
+[GlossaryConfusedTitleText] full-width
 About Confusion
 
 [GlossaryDecision1TakenAllPrizesTitleText]
@@ -61,13 +61,13 @@ About Winning and Losing 3
 [GlossarySuddenDeathTitleText]
 About Sudden Death
 
-[GlossaryChlorophyllTitleText]
+[GlossaryChlorophyllTitleText] full-width
 About Chlorophyll
 
 [GlossaryThunderChargeTitleText]
 About Thunder Charge
 
-[GlossaryFlameArmorTitleText]
+[GlossaryFlameArmorTitleText] full-width
 About Flame Armor
 
 [GlossarySmallBenchTitleText]
@@ -76,7 +76,7 @@ About Small Bench
 [GlossaryRunningWaterTitleText]
 About Running Water
 
-[GlossaryEarthPowerTitleText]
+[GlossaryEarthPowerTitleText] full-width
 About Earth Power
 
 [GlossaryLowResistanceTitleText]
@@ -102,14 +102,19 @@ Building your own deck and dueling
 with it--that's the real joy of
 Pokémon cards!
 
-[GlossaryDeckPileDescriptionText]
-The pile of cards you will draw
-from is called the "Deck."
-At the start of your turn, you draw
-1 card from your Deck.
-If your Deck has no cards left and
-you can't draw a card, you lose the
-duel.
+[GlossaryDeckPileDescriptionText] full-width
+The pile of cards
+you will draw
+from is called
+the "Deck." At
+the start of your
+turn, you draw
+1 card from your
+Deck. If your Deck
+has no cards left
+and you can't draw
+a card, you lose
+the duel.
 
 [GlossaryDiscardPileDescriptionText]
 The place where used cards go is
@@ -121,33 +126,51 @@ look at the cards in your Discard
 Pile, and in your opponent's as
 well.
 
-[GlossaryHandDescriptionText]
-The cards each player holds are
-called their "Hand."
-There is no limit to the number of
-cards in your Hand. You can hold 10
-or even 20 cards.
+[GlossaryHandDescriptionText] full-width
+The cards each
+player holds are
+called their
+"Hand." There is
+no limit to the
+number of cards in
+your Hand. You can
+hold 10 or even 20
+cards.
 
-[GlossaryArenaDescriptionText]
-The spot for the Pokémon that is
-fighting right now is the "Arena."
-The Pokémon in the Arena is called
-the "Active Pokémon."
-The game is played by using the
-Active Pokémon in the Arena.
+[GlossaryArenaDescriptionText] full-width
+The spot for the
+Pokémon that is
+fighting right now
+is the "Arena."
+The Pokémon in the
+Arena is called
+the "Active
+Pokémon." The game
+is played by using
+the Active Pokémon
+in the Arena.
 
-[GlossaryBenchDescriptionText]
-The place where Pokémon wait to
-switch in for the Pokémon in the
-Arena is called the "Bench."
-Normally, you can have up to 5
-Pokémon waiting on your Bench.
+[GlossaryBenchDescriptionText] full-width
+The place where
+Pokémon wait to
+switch in for the
+Pokémon in the
+Arena is called
+the "Bench."
+Normally, you
+can have up to 5
+Pokémon waiting on
+your Bench.
 
-[GlossaryActivePokemonDescriptionText]
-The Pokémon in the Arena is called
-the "Active Pokémon."
-You use your Active Pokémon's
-attacks to defeat your opponent's
+[GlossaryActivePokemonDescriptionText] full-width
+The Pokémon
+in the Arena
+is called the
+"Active Pokémon."
+You use your
+Active Pokémon's
+attacks to defeat
+your opponent's
 Pokémon.
 
 [GlossaryBenchedPokemonDescriptionText]
@@ -259,17 +282,25 @@ used only once, when the Pokémon is
 played from your Hand.
 Be sure to read each card's text!
 
-[GlossaryWeaknessDescriptionText]
-Some Pokémon have a "Weakness."
-A Pokémon with a Weakness takes
-double damage from Pokémon of its
-Weakness color (type).
+[GlossaryWeaknessDescriptionText] full-width
+Some Pokémon have
+a "Weakness."
+A Pokémon with
+a Weakness takes
+double damage from
+Pokémon of its
+Weakness color
+(type).
 
-[GlossaryResistanceDescriptionText]
-Some Pokémon have "Resistance."
-A Pokémon with Resistance takes 30
-less damage from Pokémon of its
-Resistance color (type).
+[GlossaryResistanceDescriptionText] full-width
+Some Pokémon have
+"Resistance."
+A Pokémon with
+Resistance takes
+30 less damage
+from Pokémon of
+its Resistance
+color (type).
 
 [GlossaryRetreatDescriptionText]
 Choosing "Flee" makes your Active
@@ -346,13 +377,18 @@ more cards from your Deck, so keep
 an eye on how many cards are left in
 your Deck.
 
-[GlossaryDecision3RunOutOfPokemonDescriptionText]
-When your Active Pokémon is Knocked
-Out, you lose if there are no
-Pokémon on your Bench to put into
+[GlossaryDecision3RunOutOfPokemonDescriptionText] full-width
+When your Active
+Pokémon is Knocked
+Out, you lose
+if there are no
+Pokémon on your
+Bench to put into
 the Arena next.
-So always try to keep some Pokémon
-waiting on your Bench.
+So always try to
+keep some Pokémon
+waiting on your
+Bench.
 
 [GlossarySuddenDeathDescriptionText]
 If you and your opponent take all
@@ -1178,23 +1214,31 @@ play, press the B Button to finish.
 3. Choose "Fight" from the menu
 `   and select Dig.`
 
-[PracticeDuelTurn1Mason1Text]
-A Pokémon needs Energy to use its
+[PracticeDuelTurn1Mason1Text] full-width
+A Pokémon needs
+Energy to use its
 attacks, you see.
-Choose "Hand" from the menu, then
-select Fighting Energy.
+Choose "Hand" from
+the menu, then
+select Fighting
+Energy.
 
-[PracticeDuelTurn1Mason2Text]
-Next, choose Diglett in the Arena
-and press the A Button.
-That way, you can attach Fighting
+[PracticeDuelTurn1Mason2Text] full-width
+Next, choose
+Diglett in the
+Arena and press
+the A Button.
+That way, you can
+attach Fighting
 Energy to Diglett.
 
-[PracticeDuelTurn1Mason3Text]
-And finally, it's time to use an
-attack!
-Choose "Fight" from the menu and
-attack with Dig!
+[PracticeDuelTurn1Mason3Text] full-width
+And finally, it's
+time to use an
+attack! Choose
+"Fight" from the
+menu and attack
+with Dig!
 
 [PracticeDuelMasonProceedAsTaughtText]
 Now then!
@@ -1218,15 +1262,18 @@ again?
 2. Attack with Diglett's second
 `   attack, Mud Slap.`
 
-[PracticeDuelTurn2Mason1Text]
-Let's get ready to use Diglett's
+[PracticeDuelTurn2Mason1Text] full-width
+Let's get ready
+to use Diglett's
 second attack.
-Attach another Fighting Energy to
+Attach another
+Fighting Energy to
 Diglett.
 
-[PracticeDuelTurn2Mason2Text]
-Now, attack with Diglett's
-Mud Slap!
+[PracticeDuelTurn2Mason2Text] full-width
+Now, attack with
+Diglett's Mud
+Slap!
 
 [PracticeDuelTurn3Instr1Text]
 1. Choose Dugtrio and play it on
@@ -1236,30 +1283,39 @@ Mud Slap!
 2. Attach Fighting Energy to the
 `   newly evolved Dugtrio.`
 
-[PracticeDuelTurn3Instr3Text]
-3. Attack with Dugtrio's Slash.
+[PracticeDuelTurn3Instr3Text] full-width
+3. Attack with
+Dugtrio's Slash.
 
-[PracticeDuelTurn3Mason1Text]
-At this rate, Diglett will go down,
-so let's try evolving it.
-Play the Dugtrio in your Hand on
-Diglett to evolve it.
-By evolving, its HP also goes up
-from 30 to 70!
+[PracticeDuelTurn3Mason1Text] full-width
+At this rate,
+Diglett will go
+down, so let's
+try evolving it.
+Play the Dugtrio
+in your Hand on
+Diglett to evolve
+it. By evolving,
+its HP also goes
+up from 30 to 70!
 
-[PracticeDuelTurn3Mason2Text]
-Dugtrio doesn't have enough Energy
+[PracticeDuelTurn3Mason2Text] full-width
+Dugtrio doesn't
+have enough Energy
 to use Slash yet.
-Attach another Fighting Energy to
+Attach another
+Fighting Energy to
 Dugtrio.
 
-[PracticeDuelTurn3Mason3Text]
-Now Dugtrio can use its attack,
-Slash!
-Use Dugtrio's Slash to attack
-Seel!
-Once you knock out Seel, take
-1 Prize.
+[PracticeDuelTurn3Mason3Text] full-width
+Now Dugtrio can
+use its attack,
+Slash! Use
+Dugtrio's Slash
+to attack Seel!
+Once you knock
+out Seel, take 1
+Prize.
 
 [PracticeDuelTurn4Instr1Text]
 1. Choose Nidoran♂ from your Hand
@@ -1269,40 +1325,55 @@ Once you knock out Seel, take
 2. Attach Grass Energy to Nidoran♂
 `   on your Bench.`
 
-[PracticeDuelTurn4Instr3Text]
-3. Attack with Dugtrio's Slash.
+[PracticeDuelTurn4Instr3Text] full-width
+3. Attack with
+Dugtrio's Slash.
 
-[PracticeDuelTurn4Mason1Text]
-If you run out of Pokémon in play,
+[PracticeDuelTurn4Mason1Text] full-width
+If you run out of
+Pokémon in play,
 you lose the duel.
-Put Nidoran♂, the Basic Pokémon you
-just drew, on your Bench.
+Put Nidoran♂, the
+Basic Pokémon you
+just drew, on your
+Bench.
 
-[PracticeDuelTurn4Mason2Text]
-Attach Grass Energy to Nidoran♂ to
-get it ready to attack.
+[PracticeDuelTurn4Mason2Text] full-width
+Attach Grass
+Energy to Nidoran♂
+to get it ready to
+attack.
 
-[PracticeDuelTurn4Mason3Text]
-Then have Dugtrio attack with
-Slash!
+[PracticeDuelTurn4Mason3Text] full-width
+Then have Dugtrio
+attack with Slash!
 
 [PracticeDuelKnockedOutInstr1Text]
 1. Dugtrio was Knocked Out, so
 `   choose Nidoran♂ on your Bench`
 `   and press A to send it out.`
 
-[PracticeDuelKnockedOutMason1Text]
-Replace the Knocked Out Pokémon
-with a Pokémon from your Bench.
-You can choose Pidgey or Nidoran♂
-from your Bench, but this time,
-put Nidoran♂ into the Arena.
+[PracticeDuelKnockedOutMason1Text] full-width
+Replace the
+Knocked Out
+Pokémon with a
+Pokémon from your
+Bench. You can
+choose Pidgey or
+Nidoran♂ from your
+Bench, but this
+time, put Nidoran♂
+into the Arena.
 
-[PracticeDuelKnockedOutMason2Text]
-At times like this, press SELECT to
-check all kinds of information.
-It's important to check your Hand
-and the state of play.
+[PracticeDuelKnockedOutMason2Text] full-width
+At times like
+this, press SELECT
+to check all kinds
+of information.
+It's important to
+check your Hand
+and the state of
+play.
 
 [PracticeDuelKnockedOutMasonIncorrectText] full-width
 Here, you must
@@ -1320,23 +1391,33 @@ choose Nidoran♂.
 3. Attack with Nidoran♂'s
 `   Horn Hazard.`
 
-[PracticeDuelTurn5Mason1Text]
-First, let's restock your Bench.
-Put the Machop you just drew there.
+[PracticeDuelTurn5Mason1Text] full-width
+First, let's
+restock your
+Bench. Put the
+Machop you just
+drew there.
 
-[PracticeDuelTurn5Mason2Text]
-Nidoran♂ can evolve into
-Nidorino.
-Let's get ready for the attack it'll
-use once it's evolved into Nidorino.
-Attach the Grass Energy in your Hand
-to Nidoran♂.
+[PracticeDuelTurn5Mason2Text] full-width
+Nidoran♂ can
+evolve into
+Nidorino. Let's
+get ready for the
+attack it'll use
+once it's evolved
+into Nidorino.
+Attach the Grass
+Energy in your
+Hand to Nidoran♂.
 
-[PracticeDuelTurn5Mason3Text]
-For the attack, use Nidoran♂'s
+[PracticeDuelTurn5Mason3Text] full-width
+For the attack,
+use Nidoran♂'s
 Horn Hazard.
-With this attack, you flip a coin,
-and if it's heads, it works!
+With this attack,
+you flip a coin,
+and if it's heads,
+it works!
 
 [PracticeDuelTurn6Instr1Text]
 1. Choose Nidorino and play it on
@@ -1349,29 +1430,40 @@ and if it's heads, it works!
 3. Attack with Nidorino's
 `   Double Kick.`
 
-[PracticeDuelTurn6Mason1Text]
-All right! Now evolve Nidoran♂ into
+[PracticeDuelTurn6Mason1Text] full-width
+All right! Now
+evolve Nidoran♂
+into Nidorino.
+Choose Nidorino
+from your Hand
+and play it on
+Nidoran♂.
+
+[PracticeDuelTurn6Mason2Text] full-width
+Now get ready
+for the evolved
+Nidorino's Double
+Kick. Attach
+the Grass Energy
+in your Hand to
 Nidorino.
-Choose Nidorino from your Hand and
-play it on Nidoran♂.
 
-[PracticeDuelTurn6Mason2Text]
-Now get ready for the evolved
-Nidorino's Double Kick.
-Attach the Grass Energy in your Hand
-to Nidorino.
-
-[PracticeDuelTurn6Mason3Text]
-Now, attack with Nidorino's
-Double Kick!
-Double Kick uses coin flips to
-decide how much damage it does.
-If both coins are heads, it does 60
-damage!
-That would knock out your opponent's
-Seaking in one blow!
-If you knock it out, take a Prize,
-and you win, <RAMNAME>!
+[PracticeDuelTurn6Mason3Text] full-width
+Now, attack with
+Nidorino's Double
+Kick! Double Kick
+uses coin flips to
+decide how much
+damage it does.
+If both coins are
+heads, it does 60
+damage! That would
+knock out your
+opponent's Seaking
+in one blow! If
+you knock it out,
+take a Prize, and
+you win, <RAMNAME>!
 
 [DeckDiagnosisStep1Text]
 Step 1

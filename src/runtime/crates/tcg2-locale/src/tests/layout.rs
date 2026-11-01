@@ -13,7 +13,12 @@
 //!   its position to the box's border or the next item's cursor. A menu's
 //!   items, and its label, are full-width only if all of them fit, so a
 //!   menu reads in one size.
-//!
+//! - The duel's other ways to a box: a coin toss's text (in de), a card
+//!   list's prompt and header, and the reason a check hands back with
+//!   carry, which the duel prints in the wide box ([`returners`]).
+//! - Tables of data: a card's text and Pokédex entry, letters, the
+//!   glossary, the practice duel's steps, the special rules
+//!   ([`DataTables`]).
 //! - A few texts and tables printed at fixed places, measured by hand from
 //!   the code that prints them ([`MEASURED`], [`TABLES`], [`TABLE_TEXTS`]).
 //!
@@ -77,6 +82,7 @@ fn routine_place(name: &str) -> Option<Place> {
         "PrintScrollableText_WithTextBoxLabelWithYesOrNoMenu" => Place::Pages { then_yes_no: true },
         "DrawWideTextBox_PrintText"
         | "DrawWideTextBox_WaitForInput"
+        | "DrawWideTextBox_WaitForInput_ReturnCarry"
         | "DrawWideTextBox_PrintTextNoDelay"
         | "DrawWideTextBox_PrintTextNoDelay_Wait"
         | "PrintTextInWideTextBox" => wide(2),
@@ -85,6 +91,11 @@ fn routine_place(name: &str) -> Option<Place> {
         | "YesOrNoMenuWithText_SetCursorToYes"
         | "TwoItemHorizontalMenu" => wide(1),
         "DrawNarrowTextBox_PrintTextNoDelay" | "DrawNarrowTextBox_WaitForInput" => narrow(2),
+        // A card list's prompt, which `DisplayCardList` prints in the narrow
+        // box under the list.
+        "SetCardListInfoBoxText" | "SetCardListHeaderAndInfoText" | "SelectCardSearchTarget" => {
+            narrow(2)
+        }
         "YesOrNoMenuWithText_LeftAligned" => narrow(1),
         _ => return None,
     })
@@ -301,40 +312,13 @@ fn words(line: &str) -> Vec<&str> {
 /// Every place each text label is printed, read from the decomp's code and
 /// data (everything but `text/`).
 pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
-    let src = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../../decomp/src");
-    let mut files = Vec::new();
-    let mut dirs = vec![src.clone()];
-    while let Some(dir) = dirs.pop() {
-        for entry in std::fs::read_dir(&dir).unwrap() {
-            let path = entry.unwrap().path();
-            if path.is_dir() {
-                if path != src.join("text") {
-                    dirs.push(path);
-                }
-            } else if path.extension().is_some_and(|e| e == "asm") {
-                files.push(path);
-            }
-        }
-    }
-    files.sort();
+    let sources = sources();
+    let returners = returners(&sources);
     let mut places: HashMap<String, Vec<Place>> = HashMap::new();
     let mut menus = 0;
-    for path in files {
-        let source = std::fs::read_to_string(&path).unwrap();
-        // Join continued lines (`\` at the end).
-        let mut lines: Vec<String> = Vec::new();
-        let mut joined = String::new();
-        for raw in source.lines() {
-            let code = raw.split(';').next().unwrap().trim_end();
-            if let Some(head) = code.strip_suffix('\\') {
-                joined.push_str(head);
-                joined.push(' ');
-                continue;
-            }
-            joined.push_str(code);
-            lines.push(std::mem::take(&mut joined));
-        }
-        let paged = paged_lists(&lines);
+    for (file, lines) in &sources {
+        let paged = paged_lists(lines);
+        let mut tables = DataTables::default();
         let mut routine = "";
         let mut i = 0;
         while i < lines.len() {
@@ -353,6 +337,16 @@ pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
             };
             // The game's debug menus and routines: no player sees them.
             if routine.starts_with("Debug") {
+                i += 1;
+                continue;
+            }
+            // Tables of data whose texts' places are known.
+            if let Some(found) = tables.places(file, routine, &w) {
+                for (text, place) in found {
+                    if texts.contains(text) {
+                        places.entry(text.to_string()).or_default().push(place);
+                    }
+                }
                 i += 1;
                 continue;
             }
@@ -496,7 +490,21 @@ pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
             let reached = if let Some(place) = measured {
                 vec![place]
             } else if op == "ldtx" && w.get(1) == Some(&"hl") {
-                follow(&lines, i + 1)
+                let followed = follow(lines, i + 1);
+                let mut reached = followed.places;
+                if followed.returned {
+                    reached.push(if returners.contains(routine) {
+                        Place::Box {
+                            width: WIDE,
+                            lines: 2,
+                        }
+                    } else {
+                        Place::Unknown
+                    });
+                }
+                reached
+            } else if op == "ldtx" && w.get(1) == Some(&"de") {
+                follow_de(lines, i + 1)
             } else if paged.contains(&i) {
                 vec![Place::Pages { then_yes_no: false }]
             } else {
@@ -514,9 +522,338 @@ pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
     places
 }
 
+/// What a card's text field is (`data/cards*.asm`).
+#[derive(Clone, Copy, PartialEq)]
+enum CardField {
+    /// An attack's name, text and its continuation, after its `energy`.
+    Attack,
+    /// A Trainer's or an Energy's rules and their continuation, after the
+    /// card's effect commands.
+    Rules,
+    /// A Pokémon's Pokédex entry, after its `weight`.
+    Pokedex,
+}
+
+/// Tables of data the scan reads row by row, and where the game prints
+/// their texts:
+/// - A card's text on its page (`PrintAttackOrCardDescription`: from
+///   (1, 11), lines of 18 up to the frame, moved up a line when there are
+///   7) and on the screens for a used attack or Trainer (the same routine,
+///   above the wide box). Its Pokédex entry: three lines of 18 from
+///   (1, 14). Names are not known here: they are put into other texts.
+/// - A letter (`data/mail.asm`): its sender and subject after "From:" and
+///   "Subject:" in the mailbox's list (12 tiles from x = 7), its pages in
+///   the reading screen's body (`PrintMailBodyPage`: six lines of 18,
+///   double-spaced from (1, 6)).
+/// - The glossary's topics (`explanation`): the title at (x, 2) over the
+///   box, up to the screen's edge, the explanation single-spaced from
+///   (1, 5) in the 20×14 box (twelve lines of 18).
+/// - The practice duel's steps (`practicetext`): Dr. Mason's text in the
+///   dialogue box, and the step at (1, y), three rows from the next step
+///   (two lines of 18).
+/// - A special rule (`ShowSpecialRuleDescription`): its title at (3, 4) in
+///   the 20×6 box (16 tiles), its description double-spaced from (1, 8) in
+///   the 20×12 box (five lines of 18).
+#[derive(Default)]
+struct DataTables {
+    card: Option<(CardField, usize)>,
+}
+
+impl DataTables {
+    /// The texts of a table's row `w` and their places, if it is one.
+    fn places<'a>(
+        &mut self,
+        file: &str,
+        routine: &str,
+        w: &[&'a str],
+    ) -> Option<Vec<(&'a str, Place)>> {
+        let lines = |width, lines| Place::Box { width, lines };
+        let op = *w.first()?;
+        match file {
+            "data/cards1.asm" | "data/cards2.asm" => {
+                let field = self.card.take();
+                match op {
+                    "energy" => self.card = Some((CardField::Attack, 0)),
+                    "weight" => self.card = Some((CardField::Pokedex, 0)),
+                    "dw" if w.get(1).is_some_and(|c| c.ends_with("EffectCommands")) => {
+                        self.card = Some((CardField::Rules, 0));
+                    }
+                    "tx" | "dw" => {
+                        let (field, n) = field?;
+                        // The block's fields in order: an attack's name, text
+                        // and its continuation; rules and their
+                        // continuation; a Pokédex entry.
+                        let card = lines(WIDE, 7);
+                        let fields = match field {
+                            CardField::Attack => vec![None, Some(card.clone()), Some(card)],
+                            CardField::Rules => vec![Some(card.clone()), Some(card)],
+                            CardField::Pokedex => vec![Some(lines(WIDE, 3))],
+                        };
+                        if n + 1 < fields.len() {
+                            self.card = Some((field, n + 1));
+                        }
+                        // A name: not known here.
+                        let place = fields[n].clone()?;
+                        return Some(if op == "tx" {
+                            vec![(w[1], place)]
+                        } else {
+                            Vec::new()
+                        });
+                    }
+                    _ => {}
+                }
+                None
+            }
+            "data/mail.asm" => match op {
+                "tx" => Some(vec![(w[1], lines(12, 1))]),
+                "mail" => Some(vec![(w[1], lines(WIDE, 6))]),
+                _ => None,
+            },
+            "engine/glossary.asm" if op == "explanation" => {
+                let x: usize = w[1].parse().ok()?;
+                Some(vec![(w[2], lines(20 - x, 1)), (w[3], lines(WIDE, 12))])
+            }
+            "data/duel/practice_text.asm" if op == "practicetext" => Some(vec![
+                (w[2], Place::Pages { then_yes_no: false }),
+                (w[3], lines(WIDE, 2)),
+            ]),
+            _ if routine == "ShowSpecialRuleDescription" && op == "tx" => {
+                Some(vec![(w[1], lines(16, 1)), (w[2], lines(WIDE, 5))])
+            }
+            _ => None,
+        }
+    }
+}
+
+/// The decomp's sources (everything but `text/`), in order: lines without
+/// their comments, continued lines (`\\` at the end) joined.
+fn sources() -> Vec<(String, Vec<String>)> {
+    let src = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("../../../decomp/src");
+    let mut files = Vec::new();
+    let mut dirs = vec![src.clone()];
+    while let Some(dir) = dirs.pop() {
+        for entry in std::fs::read_dir(&dir).unwrap() {
+            let path = entry.unwrap().path();
+            if path.is_dir() {
+                if path != src.join("text") {
+                    dirs.push(path);
+                }
+            } else if path.extension().is_some_and(|e| e == "asm") {
+                files.push(path);
+            }
+        }
+    }
+    files.sort();
+    files
+        .iter()
+        .map(|path| {
+            let name = path
+                .strip_prefix(&src)
+                .unwrap()
+                .to_string_lossy()
+                .into_owned();
+            let mut lines = Vec::new();
+            let mut joined = String::new();
+            for raw in std::fs::read_to_string(path).unwrap().lines() {
+                let code = raw.split(';').next().unwrap().trim_end();
+                if let Some(head) = code.strip_suffix('\\') {
+                    joined.push_str(head);
+                    joined.push(' ');
+                    continue;
+                }
+                joined.push_str(code);
+                lines.push(std::mem::take(&mut joined));
+            }
+            (name, lines)
+        })
+        .collect()
+}
+
+/// The routine a line starts, if any (`Name:` or `Name::`).
+fn global_label(line: &str) -> Option<&str> {
+    let (label, _) = line.split_once(':')?;
+    (!line.starts_with(['.', ' ', '\t'])
+        && !label.is_empty()
+        && !label.contains(char::is_whitespace))
+    .then_some(label)
+}
+
+/// The routines that hand a text back in hl (`ret`) only to code that
+/// prints it in the duel's wide box, or not at all.
+///
+/// - The checks the duel runs before an attack, a Trainer card or a Pokémon
+///   Power (`EFFECTCMDTYPE_INITIAL_EFFECT_1` and `_2`) say with carry why it
+///   can't be done. `UseAttackOrPokemonPower`, `UsePokemonPower` and the
+///   Trainer and Metronome paths print that text with
+///   `DrawWideTextBox_WaitForInput`; the other paths and the AI only read
+///   the carry.
+/// - Any other routine qualifies if every call of it prints the text so,
+///   drops it, or hands it on from a routine that qualifies. Where the call
+///   tests the carry next, only the path with carry, the one that holds the
+///   text, counts.
+///
+/// A routine reached any other way (a pointer, falling into it) does not.
+fn returners(sources: &[(String, Vec<String>)]) -> HashSet<String> {
+    enum Use {
+        Check {
+            handled: bool,
+        },
+        Call {
+            file: usize,
+            line: usize,
+            caller: String,
+            tail: bool,
+        },
+        Other,
+    }
+    let labels: HashSet<&str> = sources
+        .iter()
+        .flat_map(|(_, lines)| lines)
+        .filter_map(|l| global_label(l))
+        .collect();
+    let mut uses: HashMap<String, Vec<Use>> = HashMap::new();
+    for (file, (_, lines)) in sources.iter().enumerate() {
+        let mut caller = "";
+        let mut falls = false;
+        for (line, code) in lines.iter().enumerate() {
+            if let Some(label) = global_label(code) {
+                if falls {
+                    uses.entry(label.to_string()).or_default().push(Use::Other);
+                }
+                caller = label;
+                continue;
+            }
+            let w = words(code);
+            let Some(&op) = w.first() else { continue };
+            if op.starts_with('.') {
+                continue;
+            }
+            falls = !(matches!(op, "ret" | "reti") && w.len() == 1
+                || matches!(op, "jp" | "jr") && w.len() == 2);
+            if op == "dbw" && w.get(1).is_some_and(|t| t.starts_with("EFFECTCMDTYPE_")) {
+                if let Some(&routine) = w.get(2) {
+                    let handled = matches!(
+                        w[1],
+                        "EFFECTCMDTYPE_INITIAL_EFFECT_1" | "EFFECTCMDTYPE_INITIAL_EFFECT_2"
+                    );
+                    uses.entry(routine.to_string())
+                        .or_default()
+                        .push(Use::Check { handled });
+                }
+                continue;
+            }
+            if matches!(op, "call" | "farcall" | "bank1call" | "jp" | "jr") {
+                let target = *w.last().unwrap();
+                if labels.contains(target) {
+                    uses.entry(target.to_string()).or_default().push(Use::Call {
+                        file,
+                        line,
+                        caller: caller.to_string(),
+                        tail: matches!(op, "jp" | "jr"),
+                    });
+                }
+                continue;
+            }
+            for t in w[1..].iter().filter(|t| labels.contains(*t)) {
+                uses.entry(t.to_string()).or_default().push(Use::Other);
+            }
+        }
+    }
+    let wide = Place::Box {
+        width: WIDE,
+        lines: 2,
+    };
+    let mut ok: HashSet<String> = uses.keys().cloned().collect();
+    loop {
+        let before = ok.clone();
+        ok.retain(|routine| {
+            uses[routine].iter().all(|u| match u {
+                Use::Check { handled } => *handled,
+                Use::Call {
+                    tail: true, caller, ..
+                } => before.contains(caller),
+                Use::Call {
+                    file, line, caller, ..
+                } => {
+                    let after = after_call(&sources[*file].1, *line);
+                    after.places.iter().all(|p| *p == wide)
+                        && (!after.returned || before.contains(caller))
+                }
+                Use::Other => false,
+            })
+        });
+        if ok.len() == before.len() {
+            return ok;
+        }
+    }
+}
+
+/// Where the text a routine hands back in hl goes after the call at
+/// `lines[at]`: on the path with carry, if the next instruction tests it.
+fn after_call(lines: &[String], at: usize) -> Followed {
+    let unknown = || Followed {
+        places: vec![Place::Unknown],
+        returned: false,
+    };
+    let Some(next) = (at + 1..lines.len()).find(|&j| !words(&lines[j]).is_empty()) else {
+        return unknown();
+    };
+    match words(&lines[next]).as_slice() {
+        ["ret", "c"] => Followed {
+            places: Vec::new(),
+            returned: true,
+        },
+        ["ret", "nc"] | ["jr" | "jp", "nc", _] => follow(lines, next + 1),
+        ["jr" | "jp", "c", target] if target.starts_with('.') => {
+            local_label(lines, next, target).map_or_else(unknown, |to| follow(lines, to))
+        }
+        ["jr" | "jp", "c", target] => Followed {
+            places: vec![routine_place(target).unwrap_or(Place::Unknown)],
+            returned: false,
+        },
+        _ => follow(lines, next),
+    }
+}
+
+/// The places where the text in de, from `lines[start]` on, is printed: a
+/// coin toss's (`TossCoin…`: two lines of 18 in the box at the bottom) or a
+/// card list's header (one line of 18). Unknown on any other path.
+fn follow_de(lines: &[String], start: usize) -> Vec<Place> {
+    for line in &lines[start..] {
+        let n = words(line);
+        let Some(&first) = n.first() else { continue };
+        let writes_de = n.get(1).is_some_and(|r| matches!(*r, "de" | "d" | "e"));
+        match first {
+            "call" | "farcall" | "bank1call" | "jp" if n.len() == 2 => {
+                return vec![match n[1] {
+                    "TossCoin"
+                    | "TossCoinATimes"
+                    | "TossCoin_Bank1a"
+                    | "TossCoinATimes_Bank1a"
+                    | "Serial_TossCoin"
+                    | "Serial_TossCoinATimes" => Place::Box {
+                        width: WIDE,
+                        lines: 2,
+                    },
+                    "SetCardListHeaderAndInfoText" | "SelectCardSearchTarget" => Place::Box {
+                        width: WIDE,
+                        lines: 1,
+                    },
+                    _ => Place::Unknown,
+                }];
+            }
+            "ld" | "lb" | "ldtx" | "pop" | "inc" | "dec" if writes_de => return Vec::new(),
+            "ld" | "ldh" | "ldtx" | "lb" | "cp" | "and" | "or" | "xor" | "inc" | "dec" | "add"
+            | "sub" | "scf" | "ccf" => {}
+            _ => return vec![Place::Unknown],
+        }
+    }
+    vec![Place::Unknown]
+}
+
 /// Routines that take no text and leave hl alone, so the text in it is
 /// printed after them.
-const LEAVE_HL: [&str; 1] = ["LoadCardDataToBuffer1_FromDeckIndex"];
+const LEAVE_HL: [&str; 2] = ["LoadCardDataToBuffer1_FromDeckIndex", "SwapTurn"];
 
 /// The CPU's instructions and the decomp's macros for them (`lb`, `ldtx`,
 /// calls): anything else on a path (another macro) may do anything.
@@ -573,15 +910,22 @@ const INSTRUCTIONS: [&str; 50] = [
     "xor",
 ];
 
-/// The places where the text in hl, from `lines[start]` on, is printed:
-/// every path through the code (local jumps followed both ways) up to a
-/// call of a printing routine, or up to an instruction that changes hl (the
-/// text is not printed on that path). Unknown if a path calls anything
-/// else, returns or leaves the routine, or keeps the text (`ld a, l`,
-/// `push hl`, `wTxRam*`: the game may put a kept text into another,
-/// `<RAMTEXT>`).
-fn follow(lines: &[String], start: usize) -> Vec<Place> {
+/// Where the text in hl goes from `lines[start]` on.
+struct Followed {
+    /// The places paths print it at: every path through the code (local
+    /// jumps followed both ways) up to a call of a printing routine, or up
+    /// to an instruction that changes hl (the text is not printed on that
+    /// path). Unknown if a path calls anything else, leaves the routine
+    /// another way, or keeps the text (`ld a, l`, `push hl`, `wTxRam*`: the
+    /// game may put a kept text into another, `<RAMTEXT>`).
+    places: Vec<Place>,
+    /// Whether a path returns it to the caller (`ret`).
+    returned: bool,
+}
+
+fn follow(lines: &[String], start: usize) -> Followed {
     let mut reached = Vec::new();
+    let mut returned = false;
     let mut seen = HashSet::new();
     let mut todo = vec![start];
     while let Some(mut i) = todo.pop() {
@@ -619,16 +963,25 @@ fn follow(lines: &[String], start: usize) -> Vec<Place> {
                     if !conditional && LEAVE_HL.contains(&target) {
                         continue;
                     }
-                    // `call z, Routine` may not print it.
-                    let place = (!conditional).then(|| routine_place(target)).flatten();
+                    let place = routine_place(target);
+                    // `call z, Print…` prints it on one path; the other goes on.
+                    if conditional && let Some(place) = place {
+                        reached.push(place);
+                        continue;
+                    }
                     reached.push(place.unwrap_or(Place::Unknown));
                     break;
                 }
-                "ret" | "reti" | "rst" => {
-                    reached.push(Place::Unknown);
-                    if n.len() == 2 && first == "ret" {
+                "ret" => {
+                    returned = true;
+                    // `ret c`: the other path goes on.
+                    if n.len() == 2 {
                         continue;
                     }
+                    break;
+                }
+                "reti" | "rst" => {
+                    reached.push(Place::Unknown);
                     break;
                 }
                 _ => {}
@@ -650,7 +1003,10 @@ fn follow(lines: &[String], start: usize) -> Vec<Place> {
             }
         }
     }
-    reached
+    Followed {
+        places: reached,
+        returned,
+    }
 }
 
 /// The lines of the routine around line `at`: from its global label to the
@@ -723,6 +1079,11 @@ fn local_label(lines: &[String], from: usize, target: &str) -> Option<usize> {
 /// cursor's column, padding: lines with leading, trailing or runs of
 /// spaces) keeps its lines, and each word the tile it starts on
 /// ([`columns`]). None for a place not known.
+/// A line that is a card's type in brackets.
+fn is_tag(line: &str) -> bool {
+    line.starts_with('[') && line.ends_with(']')
+}
+
 pub fn full_width_lines(text: &str, places: &[Place]) -> Option<Vec<String>> {
     if places.is_empty() || places.contains(&Place::Unknown) || text.contains(RAMTEXT) {
         return None;
@@ -781,7 +1142,23 @@ pub fn full_width_lines(text: &str, places: &[Place]) -> Option<Vec<String>> {
                 out.push(String::new());
             }
         }
-        out.extend(flow(paragraph, room, width)?);
+        // A card's type in brackets ("[Special Energy Card]") keeps a line
+        // of its own; the lines around it flow.
+        for (tag, run) in paragraph
+            .chunk_by(|a, b| is_tag(a) == is_tag(b))
+            .map(|run| (is_tag(run[0]), run))
+        {
+            if tag {
+                for line in run {
+                    if width(line) > room {
+                        return None;
+                    }
+                    out.push(line.to_string());
+                }
+            } else {
+                out.extend(flow(run, room, width)?);
+            }
+        }
     }
     // The yes/no menu covers the last page's second line.
     let fits = out.len() <= most && !(yes_no && out.len().is_multiple_of(2));

@@ -26,11 +26,14 @@ Dugtrio
 [EarthquakeName]
 Earthquake
 
-[EarthquakeDescription]
-Does 10 damage to each of your own
-Benched Pokémon. (Don't apply
-Weakness and Resistance for Benched
-Pokémon.)
+[EarthquakeDescription] full-width
+Does 10 damage to
+each of your own
+Benched Pokémon.
+(Don't apply
+Weakness and
+Resistance for
+Benched Pokémon.)
 
 [DugtrioLv36Description]
 It burrows underground, then strikes
@@ -40,9 +43,11 @@ off guard.
 [GoUndergroundName]
 Go Underground
 
-[GoUndergroundDescription]
-As long as Dugtrio is on your Bench,
-prevent all damage done to it by
+[GoUndergroundDescription] full-width
+As long as Dugtrio
+is on your Bench,
+prevent all damage
+done to it by
 attacks.
 
 [EarthWaveName]
@@ -77,10 +82,13 @@ Asleep, Confused, or Paralyzed.
 [KnockDownName]
 Knock Down
 
-[KnockDownDescription]
-Your opponent flips a coin. If
-tails, this attack does 20 damage
-plus 20 more damage.
+[KnockDownDescription] full-width
+Your opponent
+flips a coin. If
+tails, this attack
+does 20 damage
+plus 20 more
+damage.
 
 [DarkDugtrioDescription]
 It digs huge pitfalls and lies in
@@ -112,8 +120,9 @@ no one can stop it.
 [MischiefName]
 Mischief
 
-[MischiefDescription]
-Shuffle your opponent's deck.
+[MischiefDescription] full-width
+Shuffle your
+opponent's deck.
 
 [AngerName]
 Anger
@@ -129,9 +138,12 @@ Primeape
 [TantrumName]
 Tantrum
 
-[TantrumDescription]
-Flip a coin. If tails, Primeape is
-now Confused (after doing damage).
+[TantrumDescription] full-width
+Flip a coin.
+If tails, Primeape
+is now Confused
+(after doing
+damage).
 
 [PrimeapeDescription]
 Always in a furious rage. No matter
@@ -144,17 +156,22 @@ Dark Primeape
 [FrenzyName]
 Frenzy
 
-[FrenzyDescription]
-While Dark Primeape is Confused, the
-damage it does to any Pokémon is
+[FrenzyDescription] full-width
+While Dark
+Primeape is
+Confused, the
+damage it does
+to any Pokémon is
 increased by 30.
 
 [FrenziedAttackName]
 Frenzied Attack
 
-[FrenziedAttackDescription]
-Dark Primeape is now Confused (after
-doing damage).
+[FrenziedAttackDescription] full-width
+Dark Primeape
+is now Confused
+(after doing
+damage).
 
 [DarkPrimeapeDescription]
 It always had a short temper, but
@@ -238,9 +255,12 @@ its strength under control.
 [KarateChopName]
 Karate Chop
 
-[KarateChopDescription]
-Does 50 damage minus 10 damage for
-each damage counter on Machoke.
+[KarateChopDescription] full-width
+Does 50 damage
+minus 10 damage
+for each damage
+counter on
+Machoke.
 
 [SubmissionName]
 Submission
@@ -303,10 +323,13 @@ damage to the attacking Pokémon.
 (Don't apply Weakness and
 Resistance.)
 
-[StrikesBackDescriptionCont]
-This power doesn't work if Machamp
-is already Asleep, Confused, or
-Paralyzed when damaged.
+[StrikesBackDescriptionCont] full-width
+This power doesn't
+work if Machamp
+is already Asleep,
+Confused, or
+Paralyzed when
+damaged.
 
 [SeismicTossName]
 Seismic Toss
@@ -358,10 +381,13 @@ without noticing.
 [StoneBarrageName]
 Stone Barrage
 
-[StoneBarrage10DamageDescription]
-Flip a coin until you get tails.
-This attack does 10 damage times the
-number of heads.
+[StoneBarrage10DamageDescription] full-width
+Flip a coin until
+you get tails.
+This attack does
+10 damage times
+the number of
+heads.
 
 [GeodudeLv16Description]
 Round and easy to hold, Geodude can
@@ -389,16 +415,22 @@ it goes.
 [StoneBarrageAltName]
 Stone Barrage
 
-[StoneBarrage20DamageDescription]
-Flip a coin until you get tails.
-This attack does 20 damage times the
-number of heads.
+[StoneBarrage20DamageDescription] full-width
+Flip a coin until
+you get tails.
+This attack does
+20 damage times
+the number of
+heads.
 
-[EarthquakeAltDescription]
-Does 10 damage to each of your own
-Benched Pokémon. (Don't apply
-Weakness and Resistance for Benched
-Pokémon.)
+[EarthquakeAltDescription] full-width
+Does 10 damage to
+each of your own
+Benched Pokémon.
+(Don't apply
+Weakness and
+Resistance for
+Benched Pokémon.)
 
 [GravelerLv28Description]
 Rolls down slopes to get around. It
@@ -477,10 +509,14 @@ through the earth at 80 km/h.
 [RockSealName]
 Rock Seal
 
-[RockSealDescription]
-Flip a coin. If heads, the Defending
-Pokémon can't retreat during your
-opponent's next turn.
+[RockSealDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+can't retreat
+during your
+opponent's next
+turn.
 
 [OnixLv25Description]
 As it grows, the stone portions of
@@ -551,10 +587,14 @@ temper turned violent.
 [BoneAttackName]
 Bone Attack
 
-[BoneAttackDescription]
-Flip a coin. If heads, the Defending
-Pokémon can't attack during your
-opponent's next turn.
+[BoneAttackDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+can't attack
+during your
+opponent's next
+turn.
 
 [WailName]
 Wail
@@ -676,10 +716,14 @@ Rhydon
 [MountainBreakName]
 Mountain Break
 
-[MountainBreakDescription]
-Discard the top 5 cards of your
-deck. Put any Fighting Energy cards
-discarded this way into your hand.
+[MountainBreakDescription] full-width
+Discard the top
+5 cards of your
+deck. Put any
+Fighting Energy
+cards discarded
+this way into your
+hand.
 
 [OneTwoStrikeName]
 One-Two Strike
@@ -736,9 +780,12 @@ your hand.
 [SharpClawsName]
 Sharp Claws
 
-[SharpClawsDescription]
-Flip a coin. If heads, this attack
-does 10 damage plus 30 more damage.
+[SharpClawsDescription] full-width
+Flip a coin. If
+heads, this attack
+does 10 damage
+plus 30 more
+damage.
 
 [KabutoLv22Description]
 A Pokémon that was resurrected from
@@ -784,9 +831,11 @@ high-pitched cries.
 [TailspinAttackName]
 Tailspin Attack
 
-[TailspinAttackDescription]
-Aerodactyl does 10 damage to itself.
-(Don't apply Weakness and
+[TailspinAttackDescription] full-width
+Aerodactyl does 10
+damage to itself.
+(Don't apply
+Weakness and
 Resistance.)
 
 [AerodactylLv30Description]
@@ -819,10 +868,13 @@ powers.
 [VanishName]
 Vanish
 
-[VanishDescription]
-Remove all damage counters from Abra
-and discard all cards attached to
-it. Then shuffle Abra into your
+[VanishDescription] full-width
+Remove all damage
+counters from Abra
+and discard all
+cards attached to
+it. Then shuffle
+Abra into your
 deck.
 
 [AbraLv14Description]
@@ -848,10 +900,12 @@ turned into a Kadabra.
 [PsychoPanicName]
 Psycho Panic
 
-[PsychoPanicDescription]
-If the Defending Pokémon is a
-Psychic Pokémon, this attack does 60
-damage instead.
+[PsychoPanicDescription] full-width
+If the Defending
+Pokémon is a
+Psychic Pokémon,
+this attack does
+60 damage instead.
 
 [BlinkName]
 Blink
@@ -884,9 +938,11 @@ Asleep, Confused, or Paralyzed.
 [MindShockName]
 Mind Shock
 
-[MindShockDescription]
-Don't apply Weakness and Resistance
-for this attack.
+[MindShockDescription] full-width
+Don't apply
+Weakness and
+Resistance for
+this attack.
 
 [DarkKadabraDescription]
 Rumor has it that Kadabra's psychic
@@ -915,10 +971,13 @@ powers at will.
 [TransDamageName]
 Trans Damage
 
-[TransDamageDescription]
-Discard all Energy cards attached to
-Alakazam. Then move all damage
-counters on Alakazam to the
+[TransDamageDescription] full-width
+Discard all Energy
+cards attached
+to Alakazam.
+Then move all
+damage counters
+on Alakazam to the
 Defending Pokémon.
 
 [AlakazamLv45Description]
@@ -932,9 +991,12 @@ Dark Alakazam
 [TeleportBlastName]
 Teleport Blast
 
-[TeleportBlastDescription]
-After doing damage, you may switch
-Dark Alakazam with 1 of your Benched
+[TeleportBlastDescription] full-width
+After doing
+damage, you
+may switch Dark
+Alakazam with 1
+of your Benched
 Pokémon.
 
 [DarkAlakazamDescription]
@@ -956,10 +1018,13 @@ good at fishing with its tail.
 [AfternoonNapName]
 Afternoon Nap
 
-[AfternoonNapDescription]
-Search your deck for a Psychic
-Energy card and attach it to
-Slowpoke. Shuffle your deck
+[AfternoonNapDescription] full-width
+Search your deck
+for a Psychic
+Energy card
+and attach it
+to Slowpoke.
+Shuffle your deck
 afterward.
 
 [SlowpokeLv16Description]
@@ -970,9 +1035,11 @@ anything smarter than that.
 [SpacingOutName]
 Spacing Out
 
-[SpacingOutDescription]
-Flip a coin. If heads, remove 1
-damage counter from Slowpoke.
+[SpacingOutDescription] full-width
+Flip a coin.
+If heads, remove 1
+damage counter
+from Slowpoke.
 
 [ScavengeName]
 Scavenge
@@ -1014,15 +1081,17 @@ became a Slowbro.
 [BigYawnName]
 Big Yawn
 
-[BigYawnDescription]
-Slowbro and the Defending Pokémon
+[BigYawnDescription] full-width
+Slowbro and the
+Defending Pokémon
 are now Asleep.
 
 [BigSnoreName]
 Big Snore
 
-[BigSnoreDescription]
-You can't use this attack unless
+[BigSnoreDescription] full-width
+You can't use
+this attack unless
 Slowbro is Asleep.
 
 [SlowbroLv35Description]
@@ -1058,9 +1127,11 @@ Gastly
 [SleepingGasName]
 Sleeping Gas
 
-[MayInflictSleepAltDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Asleep.
+[MayInflictSleepAltDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Asleep.
 
 [DestinyBondName]
 Destiny Bond
@@ -1084,9 +1155,11 @@ elephant collapses in 2 seconds.
 [SpookifyName]
 Spookify
 
-[SpookifyDescription]
-Your opponent can't play Trainer
-cards until the end of his or her
+[SpookifyDescription] full-width
+Your opponent
+can't play Trainer
+cards until the
+end of his or her
 next turn.
 
 [FadeToBlackName]
@@ -1103,10 +1176,13 @@ Lick
 [EnergyConversionName]
 Energy Conversion
 
-[EnergyConversionDescription]
-Put up to 2 Energy cards from your
-discard pile into your hand. Then
-Gastly does 10 damage to itself.
+[EnergyConversionDescription] full-width
+Put up to 2 Energy
+cards from your
+discard pile into
+your hand. Then
+Gastly does 10
+damage to itself.
 
 [GastlyLv17Description]
 A mysterious Pokémon. Some say it
@@ -1138,9 +1214,11 @@ around, a Haunter is there.
 [DreamEaterName]
 Dream Eater
 
-[DreamEaterDescription]
-You can't use this attack unless the
-Defending Pokémon is Asleep.
+[DreamEaterDescription] full-width
+You can't use this
+attack unless the
+Defending Pokémon
+is Asleep.
 
 [EerieLightName]
 Eerie Light
@@ -1148,10 +1226,13 @@ Eerie Light
 [GrudgeName]
 Grudge
 
-[GrudgeDescription]
-Does 20 damage plus 10 more damage
-for each Prize card your opponent
-has already taken.
+[GrudgeDescription] full-width
+Does 20 damage
+plus 10 more
+damage for each
+Prize card your
+opponent has
+already taken.
 
 [HaunterSharedDescription2]
 Because it can slip through block
@@ -1161,18 +1242,25 @@ another dimension.
 [PoltergeistName]
 Poltergeist
 
-[PoltergeistDescription]
-Look at your opponent's hand. This
-attack does 10 damage times the
-number of Trainer cards there.
+[PoltergeistDescription] full-width
+Look at your
+opponent's hand.
+This attack does
+10 damage times
+the number of
+Trainer cards
+there.
 
 [BadDreamsName]
 Bad Dreams
 
-[BadDreamsDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Asleep; if tails, it
-is now Confused.
+[BadDreamsDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Asleep; if
+tails, it is now
+Confused.
 
 [DarkHaunterName]
 Dark Haunter
@@ -1180,10 +1268,13 @@ Dark Haunter
 [BotherName]
 Bother
 
-[BotherDescription]
-Flip a coin. If heads, 1 Trainer
-card in your opponent's hand is
-chosen at random and shuffled into
+[BotherDescription] full-width
+Flip a coin. If
+heads, 1 Trainer
+card in your
+opponent's hand is
+chosen at random
+and shuffled into
 his or her deck.
 
 [DarkHaunterDescription]
@@ -1310,10 +1401,13 @@ powers.
 [ProphecyName]
 Prophecy
 
-[ProphecyDescription]
-Look at the top 3 cards of either
-player's deck and put them back on
-top in any order you like.
+[ProphecyDescription] full-width
+Look at the top
+3 cards of either
+player's deck and
+put them back on
+top in any order
+you like.
 
 [HypnoLv36Description]
 It carries a pendulum-like device.
@@ -1357,9 +1451,11 @@ player's Active Pokémon.
 [JugglingName]
 Juggling
 
-[JugglingDescription]
-Flip 4 coins. This attack does 10
-damage times the number of heads.
+[JugglingDescription] full-width
+Flip 4 coins. This
+attack does 10
+damage times the
+number of heads.
 
 [BarrierName]
 Barrier
@@ -1383,10 +1479,12 @@ Confused, or Paralyzed when damaged.
 [MeditateName]
 Meditate
 
-[MeditateDescription]
-This attack does 10 more damage for
-each damage counter on the Defending
-Pokémon.
+[MeditateDescription] full-width
+This attack does
+10 more damage
+for each damage
+counter on the
+Defending Pokémon.
 
 [MrMimeLv28Description]
 It is a master at convincing people.
@@ -1464,10 +1562,13 @@ savage Pokémon.
 [PsycrushName]
 Psycrush
 
-[PsycrushDescription]
-Does 10 damage times the number of
-Psychic Energy cards attached to
-your opponent's Pokémon.
+[PsycrushDescription] full-width
+Does 10 damage
+times the number
+of Psychic Energy
+cards attached to
+your opponent's
+Pokémon.
 
 [MewtwoLv54Description]
 It was created by a scientist after
@@ -1477,9 +1578,11 @@ DNA engineering experiments.
 [EnergyAbsorptionName]
 Energy Absorption
 
-[EnergyAbsorptionDescription]
-Choose up to 2 Energy cards from
-your discard pile and attach them to
+[EnergyAbsorptionDescription] full-width
+Choose up to 2
+Energy cards from
+your discard pile
+and attach them to
 Mewtwo.
 
 [PsyburnName]
@@ -1502,9 +1605,11 @@ is no longer Poisoned or Confused.
 [PsychoBlastName]
 Psycho Blast
 
-[PsychoBlastDescription]
-Flip a coin. If heads, discard 1
-Energy card attached to the
+[PsychoBlastDescription] full-width
+Flip a coin.
+If heads, discard
+1 Energy card
+attached to the
 Defending Pokémon.
 
 [MewtwoLv67Description]
@@ -1529,11 +1634,14 @@ Paralyzed.
 [DarkAmplificationName]
 Dark Amplification
 
-[DarkAmplificationDescription]
-Flip a coin for each Dark Pokémon on
-your Bench. This attack does 20
-damage plus 20 more damage for each
-heads.
+[DarkAmplificationDescription] full-width
+Flip a coin for
+each Dark Pokémon
+on your Bench.
+This attack does
+20 damage plus 20
+more damage for
+each heads.
 
 [GRsMewtwoDescription]
 It is said to have the power to
@@ -1565,10 +1673,13 @@ people have seen it worldwide.
 [MysteryAttackName]
 Mystery Attack
 
-[MysteryAttackDescription]
-Does random damage and/or effects to
-the Defending Pokémon. (Sometimes it
-does nothing.)
+[MysteryAttackDescription] full-width
+Does random
+damage and/or
+effects to the
+Defending Pokémon.
+(Sometimes it does
+nothing.)
 
 [MewLv15Description]
 A South American Pokémon thought to
@@ -1578,9 +1689,11 @@ and can learn anything.
 [PsywaveName]
 Psywave
 
-[PsywaveDescription]
-Does 10 damage times the number of
-Energy cards attached to the
+[PsywaveDescription] full-width
+Does 10 damage
+times the number
+of Energy cards
+attached to the
 Defending Pokémon.
 
 [DevolutionBeamName]
@@ -1807,17 +1920,21 @@ Dark Fearow
 [FlyHighName]
 Fly High
 
-[FlyHighDescription]
-During your next turn, Dark Fearow's
-Drill Dive attack does double
-damage.
+[FlyHighDescription] full-width
+During your
+next turn, Dark
+Fearow's Drill
+Dive attack does
+double damage.
 
 [DrillDiveName]
 Drill Dive
 
-[DrillDiveDescription]
-During your next turn, Dark Fearow
-can't attack or retreat.
+[DrillDiveDescription] full-width
+During your next
+turn, Dark Fearow
+can't attack or
+retreat.
 
 [DarkFearowDescription]
 It is hard to dodge the attacks it
@@ -1952,9 +2069,12 @@ Wigglytuff
 [DoTheWaveName]
 Do the Wave
 
-[DoTheWaveDescription]
-Does 10 damage plus 10 more damage
-for each of your Benched Pokémon.
+[DoTheWaveDescription] full-width
+Does 10 damage
+plus 10 more
+damage for each
+of your Benched
+Pokémon.
 
 [WigglytuffLv36Description]
 Its fine, supple fur is simply
@@ -2019,9 +2139,11 @@ dropped coins and bring them home.
 [ClearProfitName]
 Clear Profit
 
-[ClearProfitDescription]
-Flip a coin until you get tails.
-Draw a card for each heads.
+[ClearProfitDescription] full-width
+Flip a coin until
+you get tails.
+Draw a card for
+each heads.
 
 [MeowthLv14Description]
 Adores circular objects. Wanders the
@@ -2031,8 +2153,10 @@ for dropped loose change.
 [PayDayName]
 Pay Day
 
-[PayDayDescription]
-Flip a coin. If heads, draw a card.
+[PayDayDescription] full-width
+Flip a coin.
+If heads, draw a
+card.
 
 [MeowthLv15Description]
 It does nothing but sleep by day. At

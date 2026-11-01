@@ -123,8 +123,9 @@ Between Turns.
 [UnableToUseItText]
 Unable to use it.
 
-[NoEnergyCardsText]
-There are no Energy cards.
+[NoEnergyCardsText] full-width
+There are no
+Energy cards.
 
 [IsThisOKText]
 Is this OK?
@@ -180,7 +181,7 @@ took no damage!
 There are no
 attacks to choose.
 
-[UnableToRetreatText]
+[UnableToRetreatText] full-width
 Unable to flee!
 
 [Only1EnergyCardPerTurnText]
@@ -212,7 +213,7 @@ Prize(s).
 <RAMNAME> sent out
 <RAMTEXT>.
 
-[UnableToSelectText]
+[UnableToSelectText] full-width
 Unable to select.
 
 [ColorListText]
@@ -608,14 +609,14 @@ A serious problem has occurred.
 The program will now stop.
 Please submit the cartridge.
 
-[NoCardsInHandText]
+[NoCardsInHandText] full-width
 No cards in Hand.
 
 [TheDiscardPileHasNoCardsText] full-width
 The Discard Pile
 has no cards.
 
-[DuelistDiscardPileText]
+[DuelistDiscardPileText] full-width
 Discards: <RAMNAME>
 
 [DuelistHandText]
@@ -624,10 +625,10 @@ Hand: <RAMNAME>
 [DuelistPlayAreaText]
 Play Area: <RAMNAME>
 
-[DuelistDeckText]
+[DuelistDeckText] full-width
 Deck: <RAMNAME>
 
-[DuelistPrizeCardsText]
+[DuelistPrizeCardsText] full-width
 Prizes: <RAMNAME>
 
 [PleaseSelectHandText]
@@ -638,15 +639,17 @@ card from Hand.
 List of Energy cards
 attached to the Pokémon
 
-[PleaseSelectCardText]
-Choose a card.
+[PleaseSelectCardText] full-width
+Choose a
+card.
 
 [NoPokemonWithDamageCountersText]
 There are no Pokémon
 with damage counters.
 
-[NoDamageCountersText]
-It has no damage counters.
+[NoDamageCountersText] full-width
+It has no damage
+counters.
 
 [NoEnergyAttachedToPokemonInOppPlayAreaText]
 There is no Energy attached to
@@ -687,9 +690,9 @@ No Pokémon on the Bench.
 The Discard
 Pile has no Basic Pokémon.
 
-[NoPokemonInDiscardPileText]
-The Discard
-Pile has no Pokémon.
+[NoPokemonInDiscardPileText] full-width
+The Discard Pile
+has no Pokémon.
 
 [ConditionsForEvolvingToStage2NotFulfilledText]
 The conditions to evolve into a
@@ -701,8 +704,9 @@ There are no cards in Hand to trade.
 [NoCardsInDiscardPileText]
 No cards in the Discard Pile.
 
-[NoEvolvedPokemonText]
-No Evolved Pokémon are in play.
+[NoEvolvedPokemonText] full-width
+No Evolved Pokémon
+are in play.
 
 [NoEnergyCardsAttachedToPokemonInYourPlayAreaText]
 There are no Energy cards attached
@@ -712,18 +716,20 @@ to your Pokémon.
 There are no Energy cards attached
 to your opponent's Pokémon.
 
-[EnergyRequiredToRetreatText]
-You need <RAMNUM> Energy
-to flee.
+[EnergyRequiredToRetreatText] full-width
+You need <RAMNUM>
+Energy to flee.
 
-[NotEnoughEnergyCardsText]
-Not enough Energy cards.
+[NotEnoughEnergyCardsText] full-width
+Not enough Energy
+cards.
 
 [NotEnoughFireEnergyText]
 Not enough Fire Energy.
 
-[NotEnoughPsychicEnergyText]
-Not enough Psychic Energy.
+[NotEnoughPsychicEnergyText] full-width
+Not enough Psychic
+Energy.
 
 [NotEnoughWaterEnergyText]
 Not enough Water Energy.
@@ -732,21 +738,25 @@ Not enough Water Energy.
 There are no Trainer cards
 in the Discard Pile.
 
-[NoAttacksMayBeChosenText]
-There are no attacks to choose.
+[NoAttacksMayBeChosenText] full-width
+There are no
+attacks to choose.
 
 [YouDidNotReceiveAnAttackToMirrorMoveText]
 It received no attack last turn
 that Mirror Move can copy.
 
-[CannotBeUsedTwiceText]
-It can't be used again.
+[CannotBeUsedTwiceText] full-width
+It can't be used
+again.
 
-[NoWeaknessText]
-It has no Weakness.
+[NoWeaknessText] full-width
+It has no
+Weakness.
 
-[NoResistanceText]
-It has no Resistance.
+[NoResistanceText] full-width
+It has no
+Resistance.
 
 [CannotChangeWeaknessDueToNoWeaknessText]
 The Defending Pokémon has no
@@ -759,14 +769,17 @@ Only once during your turn.
 Can't use it while Asleep,
 Paralyzed, or Confused.
 
-[CannotBeUsedInTurnWhichWasPlayedText]
-Can't be used the turn it's played.
+[CannotBeUsedInTurnWhichWasPlayedText] full-width
+Can't be used the
+turn it's played.
 
-[NoEnergyCardsAttachedText]
-No Energy cards are attached.
+[NoEnergyCardsAttachedText] full-width
+No Energy cards
+are attached.
 
-[NoGrassEnergyText]
-There's no Grass Energy.
+[NoGrassEnergyText] full-width
+There's no Grass
+Energy.
 
 [CannotUseSinceTheresOnly1PokemonText]
 Can't use it with only 1 Pokémon.
@@ -807,11 +820,13 @@ to your opponent's Pokémon.
 There is no basic Energy attached
 to your Pokémon.
 
-[CannotUseThisTurnText]
-Can't be used this turn.
+[CannotUseThisTurnText] full-width
+Can't be used this
+turn.
 
-[CannotUseDueToNotAsleepText]
-Only usable while Asleep.
+[CannotUseDueToNotAsleepText] full-width
+Only usable while
+Asleep.
 
 [NoCardsInOpponentsHandText]
 Opponent holds no cards.
@@ -828,17 +843,19 @@ from "Mysterious Fossil."
 It already has 2 food counters,
 so it can't be used.
 
-[CannotEvolveText]
+[CannotEvolveText] full-width
 Can't evolve.
 
 [CannotUseText]
 Not usable.
 
-[NotEnoughEnergyCardsInHandText]
-Not enough Energy cards in Hand.
+[NotEnoughEnergyCardsInHandText] full-width
+Not enough Energy
+cards in Hand.
 
-[NoWaterEnergyInOppPlayAreaText]
-Your opponent has no Water Energy.
+[NoWaterEnergyInOppPlayAreaText] full-width
+Your opponent has
+no Water Energy.
 
 [CannotUseThisAttackText]
 Can't use this attack.
@@ -926,13 +943,13 @@ the Defending Pokémon is Confused.
 Venom Powder check! If heads, the
 opponent is Poisoned and Confused.
 
-[IfTailsYourPokemonBecomesConfusedText]
-If tails,
-it becomes Confused.
+[IfTailsYourPokemonBecomesConfusedText] full-width
+If tails, it
+becomes Confused.
 
-[DamageCheckIfTailsNoDamageText]
-Damage check!
-If tails, no damage!!
+[DamageCheckIfTailsNoDamageText] full-width
+Damage check! If
+tails, no damage!!
 
 [IfHeadsDraw1CardFromDeckText]
 If heads,
@@ -954,9 +971,9 @@ if tails, yours. 10 damage to each!
 If heads,
 the Defending Pokémon is switched.
 
-[HealSuccessCheckText]
-If heads,
-"Heal" succeeds!!
+[HealSuccessCheckText] full-width
+If heads, "Heal"
+succeeds!!
 
 [IfTailsDamageToYourselfTooText]
 If tails,
@@ -1025,9 +1042,9 @@ next turn, attacks do nothing to it!
 If heads, the Defending Pokémon
 can't attack during the next turn!
 
-[FinalBeamSuccessCheckText]
-If heads,
-"Final Beam" succeeds!
+[FinalBeamSuccessCheckText] full-width
+If heads, "Final
+Beam" succeeds!
 
 [ConfuseOppIfHeadsConfuseYourselfIfTailsText]
 If heads, the Defending Pokémon is
@@ -1045,9 +1062,9 @@ Damage check!
 Damage check!
 If tails, +<RAMNUM> damage!!
 
-[SinkholeCheckText]
-Sinkhole check!
-If tails, 20 damage!!
+[SinkholeCheckText] full-width
+Sinkhole check! If
+tails, 20 damage!!
 
 [ConfusedIfHeadsSleepIfTailsText]
 If heads, the Defending Pokémon is
@@ -1069,8 +1086,9 @@ it also does 40 damage to itself!!
 Flip a coin until you get tails.
 20 damage for each heads!!
 
-[IfHeadsDiscard1EnergyCardText]
-If heads, discard 1 Energy card!
+[IfHeadsDiscard1EnergyCardText] full-width
+If heads, discard
+1 Energy card!
 
 [IfHeadsOpponentCannotRetreatText]
 If heads, the Defending Pokémon
@@ -1124,8 +1142,9 @@ this attack does nothing!
 If heads, 10 more damage; if tails,
 the Defending Pokémon is switched.
 
-[DrawCardForEachHeadsText]
-Draw a card for each heads.
+[DrawCardForEachHeadsText] full-width
+Draw a card for
+each heads.
 
 [ClearProfitCheckText]
 Flip a coin until you get tails.

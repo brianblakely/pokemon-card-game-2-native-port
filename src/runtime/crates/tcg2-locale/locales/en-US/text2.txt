@@ -255,11 +255,11 @@ from the Deck.
 [ChooseAnOddishFromDeckText]
 Choose an Oddish from the Deck.
 
-[ChooseAnOddishText]
+[ChooseAnOddishText] full-width
 Choose an
 Oddish.
 
-[ChooseAKrabbyText]
+[ChooseAKrabbyText] full-width
 Choose a
 Krabby.
 
@@ -488,7 +488,7 @@ evolves from Magikarp.
 [EffectTargetGyaradosText]
 Gyarados
 
-[ChooseAGyaradosText]
+[ChooseAGyaradosText] full-width
 Choose a
 Gyarados.
 
@@ -532,7 +532,7 @@ from the Deck.
 [EffectTargetParasText]
 Paras
 
-[ChooseAParasText]
+[ChooseAParasText] full-width
 Choose a
 Paras.
 
@@ -573,7 +573,7 @@ from the Deck.
 [EffectTargetMagnemiteText]
 Magnemite
 
-[ChooseAMagnemiteText]
+[ChooseAMagnemiteText] full-width
 Choose a
 Magnemite.
 
@@ -873,20 +873,25 @@ You can choose <RAMNUM> more. Quit?
 [ThereWasNoEffectText] full-width
 No effect.
 
-[ThereWasNoEffectFromToxicText]
-Toxic had no effect.
+[ThereWasNoEffectFromToxicText] full-width
+Toxic had no
+effect.
 
-[ThereWasNoEffectFromPoisonText]
-Poison had no effect.
+[ThereWasNoEffectFromPoisonText] full-width
+Poison had no
+effect.
 
-[ThereWasNoEffectFromSleepText]
-Sleep had no effect.
+[ThereWasNoEffectFromSleepText] full-width
+Sleep had no
+effect.
 
-[ThereWasNoEffectFromParalysisText]
-Paralysis had no effect.
+[ThereWasNoEffectFromParalysisText] full-width
+Paralysis had no
+effect.
 
-[ThereWasNoEffectFromConfusionText]
-Confusion had no effect.
+[ThereWasNoEffectFromConfusionText] full-width
+Confusion had no
+effect.
 
 [ThereWasNoEffectFromPoisonConfusionText]
 Poison and Confusion had no effect.
@@ -894,8 +899,9 @@ Poison and Confusion had no effect.
 [ThereWasNoEffectFromPoisonParalysisText]
 Poison and Paralysis had no effect.
 
-[ThereWasNoEffectFromPoisonSleepText]
-Poison and Sleep had no effect.
+[ThereWasNoEffectFromPoisonSleepText] full-width
+Poison and Sleep
+had no effect.
 
 [RearrangedDuelistsDeckText] full-width
 Rearranged the
@@ -912,11 +918,13 @@ Dark Pokémon
 Choose a
 Dark Pokémon.
 
-[NoWaterEnergyText]
-There is no Water Energy.
+[NoWaterEnergyText] full-width
+There is no Water
+Energy.
 
-[NoFightingEnergyText]
-There is no Fighting Energy.
+[NoFightingEnergyText] full-width
+There is no
+Fighting Energy.
 
 [ReturningTheseCardsToDeckText]
 Returning these cards to the Deck.
@@ -1031,7 +1039,7 @@ Pretend you saw the card list.
 Now printing.
 Please wait a moment.
 
-[BoosterPackCardsText]
+[BoosterPackCardsText] full-width
 Booster pack cards
 
 [TryAgainPromptText] full-width
@@ -1106,11 +1114,13 @@ the Active Pokémon.
 [ChallengePromptText]
 Accept the challenge?
 
-[ChallengeAcceptedText]
-<RAMNAME> accepted the challenge!
+[ChallengeAcceptedText] full-width
+<RAMNAME> accepted
+the challenge!
 
-[ChallengeDeclinedText]
-<RAMNAME> declined the challenge.
+[ChallengeDeclinedText] full-width
+<RAMNAME> declined
+the challenge.
 
 [DuelistSelectsPokemonTotalNumberText]
 <RAMNAME> chose <RAMNUM> Pokémon
@@ -2441,7 +2451,7 @@ Special Conditions, Win/Loss
 [GlossarySpecialRulesTitleText]
 Special Rule Duels
 
-[GlossaryDeckTitleText]
+[GlossaryDeckTitleText] full-width
 About the Deck
 
 [GlossaryDeckPileTitleText]
@@ -2450,13 +2460,13 @@ About Deck Piles
 [GlossaryDiscardPileTitleText]
 About the Discard Pile
 
-[GlossaryHandTitleText]
+[GlossaryHandTitleText] full-width
 About the Hand
 
-[GlossaryArenaTitleText]
+[GlossaryArenaTitleText] full-width
 About the Arena
 
-[GlossaryBenchTitleText]
+[GlossaryBenchTitleText] full-width
 About the Bench
 
 [GlossaryActivePokemonTitleText]

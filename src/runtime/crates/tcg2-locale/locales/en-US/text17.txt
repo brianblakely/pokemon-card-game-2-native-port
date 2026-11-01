@@ -32,11 +32,14 @@ cut all sorts of things.
 [DoduoName]
 Doduo
 
-[GrowlAltDescription2]
-During your opponent's next turn,
-any damage done to Doduo by attacks
-from the Defending Pokémon is
-reduced by 10.
+[GrowlAltDescription2] full-width
+During your
+opponent's next
+turn, any damage
+done to Doduo by
+attacks from the
+Defending Pokémon
+is reduced by 10.
 
 [TwinBirdName]
 Twin Bird
@@ -67,10 +70,13 @@ head is said to stay awake.
 [RetreatAidName]
 Retreat Aid
 
-[RetreatAidDescription]
-As long as Dodrio is on your Bench,
-you pay 1 Energy less to retreat
-your Active Pokémon.
+[RetreatAidDescription] full-width
+As long as Dodrio
+is on your Bench,
+you pay 1 Energy
+less to retreat
+your Active
+Pokémon.
 
 [DodrioLv28Description]
 A rare variety that is seldom found.
@@ -113,8 +119,9 @@ catches one.
 [ScrunchName]
 Scrunch
 
-[Do80DamageToSelfDescription]
-Chansey does 80 damage to itself.
+[Do80DamageToSelfDescription] full-width
+Chansey does 80
+damage to itself.
 
 [ChanseyLv55Description]
 It lays several eggs a day. They are
@@ -146,7 +153,7 @@ after about 3 years.
 [FetchName]
 Fetch
 
-[FetchDescription]
+[FetchDescription] full-width
 Draw a card.
 
 [CometPunchName]
@@ -205,9 +212,11 @@ from your deck. For the rest of the
 duel, Ditto is treated as a copy of
 that card.
 
-[MorphDescriptionCont]
-(If your deck has no Basic Pokémon,
-this attack does nothing.)
+[MorphDescriptionCont] full-width
+(If your deck has
+no Basic Pokémon,
+this attack does
+nothing.)
 
 [TransformName]
 Transform
@@ -271,9 +280,11 @@ an artificial Pokémon.
 [Porygon3DAttackName]
 3D Attack
 
-[Porygon3DAttack10DamageDescription]
-Flip 3 coins. This attack does 10
-damage times the number of heads.
+[Porygon3DAttack10DamageDescription] full-width
+Flip 3 coins. This
+attack does 10
+damage times the
+number of heads.
 
 [PorygonSharedDescription]
 Its body is made of programming
@@ -306,9 +317,11 @@ your choice other than Colorless.
 Each effect ends when its Pokémon
 leaves the Arena.
 
-[Porygon3DAttack20DamageDescription]
-Flip 3 coins. This attack does 20
-damage times the number of heads.
+[Porygon3DAttack20DamageDescription] full-width
+Flip 3 coins. This
+attack does 20
+damage times the
+number of heads.
 
 [SnorlaxName]
 Snorlax
@@ -344,10 +357,14 @@ Asleep, Confused, or Paralyzed.
 [RollOverName]
 Roll Over
 
-[RollOverDescription]
-Snorlax is now Asleep (after doing
-damage). Flip a coin. If heads, the
-Defending Pokémon is now Asleep too.
+[RollOverDescription] full-width
+Snorlax is now
+Asleep (after
+doing damage).
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Asleep too.
 
 [SnorlaxLv35Description]
 It loves napping so much that it may
@@ -359,10 +376,13 @@ Hungry Snorlax
 [EatName]
 Eat
 
-[EatDescription]
-Put 1 food counter on Hungry
-Snorlax. (You can't use this attack
-if Hungry Snorlax has 2 or more food
+[EatDescription] full-width
+Put 1 food counter
+on Hungry Snorlax.
+(You can't use
+this attack if
+Hungry Snorlax
+has 2 or more food
 counters on it.)
 
 [RolloutDescription]
@@ -458,14 +478,19 @@ circle the globe in about 16 hours.
 [StepInName]
 Step In
 
-[StepInDescription]
-Once during your turn, if Dragonite
-is on your Bench, you may switch it
-with your Active Pokémon.
+[StepInDescription] full-width
+Once during your
+turn, if Dragonite
+is on your Bench,
+you may switch it
+with your Active
+Pokémon.
 
-[SlamDescription]
-Flip 2 coins. This attack does 40
-damage times the number of heads.
+[SlamDescription] full-width
+Flip 2 coins. This
+attack does 40
+damage times the
+number of heads.
 
 [DarkDragoniteName]
 Dark Dragonite
@@ -491,11 +516,14 @@ freely through the sky on two wings.
 [TogepiName]
 Togepi
 
-[SnivelAltDescription]
-During your opponent's next turn,
-any damage done to Togepi by attacks
-from the Defending Pokémon is
-reduced by 20.
+[SnivelAltDescription] full-width
+During your
+opponent's next
+turn, any damage
+done to Togepi by
+attacks from the
+Defending Pokémon
+is reduced by 20.
 
 [MetronomeCoinTossDescription]
 Flip a coin. If heads, choose 1 of
@@ -517,10 +545,12 @@ Lugia
 [AeroblastName]
 Aeroblast
 
-[AeroblastDescription]
-Flip 2 coins. This attack does 20
-damage plus 20 more damage for each
-heads.
+[AeroblastDescription] full-width
+Flip 2 coins.
+This attack does
+20 damage plus 20
+more damage for
+each heads.
 
 [DivingName]
 Diving
@@ -533,26 +563,34 @@ at the bottom of the sea.
 [SuperPotionName]
 Super Potion
 
-[SuperPotionDescription]
-Discard 1 Energy card attached to 1
-of your own Pokémon in order to
-remove up to 4 damage counters from
-that Pokémon.
+[SuperPotionDescription] full-width
+Discard 1 Energy
+card attached
+to 1 of your own
+Pokémon in order
+to remove up to
+4 damage counters
+from that Pokémon.
 
 [ImakuniCardName]
 Imakuni?
 
-[ImakuniCardDescription]
-Your Active Pokémon is now Confused.
-(You can't put this card into play
-as a Pokémon.)
+[ImakuniCardDescription] full-width
+Your Active
+Pokémon is now
+Confused. (You
+can't put this
+card into play as
+a Pokémon.)
 
 [EnergyRemovalName]
 Energy Removal
 
-[EnergyRemovalDescription]
-Choose 1 Energy card attached to 1
-of your opponent's Pokémon and
+[EnergyRemovalDescription] full-width
+Choose 1 Energy
+card attached to 1
+of your opponent's
+Pokémon and
 discard it.
 
 [EnergyRetrievalName]
@@ -567,18 +605,21 @@ take the card you discarded.)
 [EnergySearchName]
 Energy Search
 
-[EnergySearchDescription]
-Search your deck for a basic Energy
-card, show it to your opponent, and
-put it into your hand. Shuffle your
+[EnergySearchDescription] full-width
+Search your deck
+for a basic Energy
+card, show it to
+your opponent, and
+put it into your
+hand. Shuffle your
 deck afterward.
 
 [ProfessorOakName]
 Professor Oak
 
-[ProfessorOakDescription]
-Discard your hand, then draw 7
-cards.
+[ProfessorOakDescription] full-width
+Discard your hand,
+then draw 7 cards.
 
 [FossilExcavationName]
 Fossil Excavation
@@ -593,17 +634,22 @@ it afterward.)
 [PotionName]
 Potion
 
-[PotionDescription]
-Remove up to 2 damage counters from
-1 of your Pokémon.
+[PotionDescription] full-width
+Remove up to 2
+damage counters
+from 1 of your
+Pokémon.
 
 [GamblerName]
 Gambler
 
-[GamblerDescription]
-Shuffle your hand into your deck.
-Flip a coin. If heads, draw 8 cards.
-If tails, draw 1 card.
+[GamblerDescription] full-width
+Shuffle your hand
+into your deck.
+Flip a coin.
+If heads, draw 8
+cards. If tails,
+draw 1 card.
 
 [ReviveName]
 Revive
@@ -619,32 +665,46 @@ full.)
 [MaxReviveName]
 Max Revive
 
-[MaxReviveDescription]
-Discard 2 Energy cards from your
-hand in order to put a Basic Pokémon
-card from your discard pile onto
-your Bench.
+[MaxReviveDescription] full-width
+Discard 2 Energy
+cards from your
+hand in order
+to put a Basic
+Pokémon card from
+your discard pile
+onto your Bench.
 
-[MaxReviveDescriptionCont]
-(You can't play this card if there
-are no Basic Pokémon in your discard
-pile or if your Bench is full.)
+[MaxReviveDescriptionCont] full-width
+(You can't play
+this card if there
+are no Basic
+Pokémon in your
+discard pile or
+if your Bench is
+full.)
 
 [SuperScoopUpName]
 Super Scoop Up
 
-[SuperScoopUpDescription]
-Flip a coin. If heads, return 1 of
-your Pokémon in play and all cards
-attached to it to your hand.
+[SuperScoopUpDescription] full-width
+Flip a coin. If
+heads, return 1 of
+your Pokémon in
+play and all cards
+attached to it to
+your hand.
 
 [DevolutionSprayName]
 Devolution Spray
 
-[DevolutionSprayDescription]
-Choose 1 of your own Pokémon in play
-and discard as many of its Evolution
-cards as you like to devolve it.
+[DevolutionSprayDescription] full-width
+Choose 1 of your
+own Pokémon in
+play and discard
+as many of its
+Evolution cards
+as you like to
+devolve it.
 
 [ItemFinderName]
 Item Finder
@@ -667,10 +727,13 @@ his or her deck for any number of
 Basic Pokémon cards and puts them
 onto his or her Bench.
 
-[ChallengeDescriptionCont]
-(The cards stay face down until both
-players are done.) Then each player
-shuffles his or her deck.
+[ChallengeDescriptionCont] full-width
+(The cards stay
+face down until
+both players are
+done.) Then each
+player shuffles
+his or her deck.
 
 [SuperEnergyRetrievalName]
 Super Energy Retrieval
@@ -713,10 +776,12 @@ reduced by 20.
 [GustOfWindName]
 Gust of Wind
 
-[GustOfWindDescription]
-Choose 1 of your opponent's Benched
-Pokémon and switch it with his or
-her Active Pokémon.
+[GustOfWindDescription] full-width
+Choose 1 of your
+opponent's Benched
+Pokémon and switch
+it with his or her
+Active Pokémon.
 
 [MysteriousFossilDescription]
 Play this card as if it were a Basic
@@ -736,9 +801,12 @@ doesn't count as a Pokémon Power.)
 [FullHealName]
 Full Heal
 
-[FullHealDescription]
-Your Active Pokémon is no longer
-Asleep, Confused, Paralyzed, or
+[FullHealDescription] full-width
+Your Active
+Pokémon is no
+longer Asleep,
+Confused,
+Paralyzed, or
 Poisoned.
 
 [ImposterOaksRevengeName]
@@ -754,9 +822,11 @@ cards.
 [ImposterProfessorOakName]
 Imposter Professor Oak
 
-[ImposterProfessorOakDescription]
-Your opponent shuffles his or her
-hand into his or her deck, then
+[ImposterProfessorOakDescription] full-width
+Your opponent
+shuffles his or
+her hand into his
+or her deck, then
 draws 7 cards.
 
 [SleepName]
@@ -809,18 +879,22 @@ immune to Special Conditions. If it
 is Knocked Out, your opponent can't
 take a Prize.
 
-[ClefairyDollDescriptionCont]
-At any time during your turn, you
-may discard this card from play.
-(This doesn't count as a Pokémon
-Power.)
+[ClefairyDollDescriptionCont] full-width
+At any time during
+your turn, you may
+discard this card
+from play. (This
+doesn't count as a
+Pokémon Power.)
 
 [MrFujiName]
 Mr. Fuji
 
-[MrFujiDescription]
-Choose 1 of your Benched Pokémon.
-Shuffle it and all cards attached to
+[MrFujiDescription] full-width
+Choose 1 of your
+Benched Pokémon.
+Shuffle it and all
+cards attached to
 it into your deck.
 
 [PlusPowerName]
@@ -836,9 +910,11 @@ Pokémon.
 [SwitchName]
 Switch
 
-[SwitchDescription]
-Switch 1 of your Benched Pokémon
-with your Active Pokémon.
+[SwitchDescription] full-width
+Switch 1 of your
+Benched Pokémon
+with your Active
+Pokémon.
 
 [ScoopUpName]
 Scoop Up
@@ -869,18 +945,23 @@ afterward.
 [PokemonRecallName]
 Pokémon Recall
 
-[PokemonRecallDescription]
-Choose an Evolution card from your
-discard pile, show it to your
-opponent, and put it on top of your
-deck.
+[PokemonRecallDescription] full-width
+Choose an
+Evolution card
+from your discard
+pile, show it to
+your opponent, and
+put it on top of
+your deck.
 
 [PokedexName]
 Pokédex
 
-[PokedexDescription]
-Look at the top 5 cards of your deck
-and put them back on top in any
+[PokedexDescription] full-width
+Look at the top 5
+cards of your deck
+and put them back
+on top in any
 order you like.
 
 [PokemonCenterName]
@@ -926,22 +1007,27 @@ afterward.
 [GoopGasAttackName]
 Goop Gas Attack
 
-[GoopGasAttackDescription]
-Until the end of your opponent's
-next turn, Pokémon Powers can't be
-used and all of them stop working.
+[GoopGasAttackDescription] full-width
+Until the end of
+your opponent's
+next turn, Pokémon
+Powers can't be
+used and all of
+them stop working.
 
 [BillName]
 Bill
 
-[BillDescription]
+[BillDescription] full-width
 Draw 2 cards.
 
 [BillsTeleporterName]
 Bill's Teleporter
 
-[BillsTeleporterDescription]
-Flip a coin. If heads, draw 4 cards.
+[BillsTeleporterDescription] full-width
+Flip a coin.
+If heads, draw 4
+cards.
 
 [BillsComputerName]
 Bill's Computer
@@ -953,10 +1039,13 @@ or Kadabra card for its Evolution
 card at the "Bill's Computer" corner
 of the Team GR Game Center.
 
-[BillsComputerDescriptionCont]
-For details, please ask the
-attendant at the Game Center. (This
-card can't be used in duels.)
+[BillsComputerDescriptionCont] full-width
+For details,
+please ask the
+attendant at the
+Game Center. (This
+card can't be used
+in duels.)
 
 [MasterBallName]
 Master Ball
@@ -972,19 +1061,24 @@ back into your deck.
 [LassName]
 Lass
 
-[LassDescription]
-You and your opponent show each
-other your hands, then shuffle all
-the Trainer cards from your hands
+[LassDescription] full-width
+You and your
+opponent show each
+other your hands,
+then shuffle all
+the Trainer cards
+from your hands
 into your decks.
 
 [MaintenanceName]
 Maintenance
 
-[MaintenanceDescription]
-Shuffle 2 of the other cards from
-your hand into your deck in order to
-draw a card.
+[MaintenanceDescription] full-width
+Shuffle 2 of the
+other cards from
+your hand into
+your deck in order
+to draw a card.
 
 [PokeballName]
 Poké Ball
@@ -1010,9 +1104,11 @@ them into your deck.
 [RecycleName]
 Recycle
 
-[RecycleDescription]
-Flip a coin. If heads, put a card
-from your discard pile on top of
+[RecycleDescription] full-width
+Flip a coin. If
+heads, put a card
+from your discard
+pile on top of
 your deck.
 
 [RocketsSneakAttackName]

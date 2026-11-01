@@ -748,10 +748,13 @@ lots of nutrients, so it's fine.
 [LeechSeedName]
 Leech Seed
 
-[LeechSeedDescription]
-If this attack damages the Defending
-Pokémon, remove 1 damage counter
-from this Pokémon.
+[LeechSeedDescription] full-width
+If this attack
+damages the
+Defending Pokémon,
+remove 1 damage
+counter from this
+Pokémon.
 
 [BulbasaurLv13Description]
 It has had a plant seed on its back
@@ -761,15 +764,17 @@ little by little.
 [FirstAidName]
 First Aid
 
-[FirstAidDescription]
-Remove 1 damage counter from
-this Pokémon.
+[FirstAidDescription] full-width
+Remove 1 damage
+counter from this
+Pokémon.
 
 [PoisonSeedName]
 Poison Seed
 
-[InflictPoisonDescription]
-The Defending Pokémon is now
+[InflictPoisonDescription] full-width
+The Defending
+Pokémon is now
 Poisoned.
 
 [BulbasaurLv15Description]
@@ -794,10 +799,13 @@ it blooms into a large flower.
 [LeechSeedAltName]
 Leech Seed
 
-[IvysaursLeechSeedDescription]
-If this attack damages the Defending
-Pokémon, remove 1 damage counter
-from this Pokémon.
+[IvysaursLeechSeedDescription] full-width
+If this attack
+damages the
+Defending Pokémon,
+remove 1 damage
+counter from this
+Pokémon.
 
 [VineWhipAltName]
 Vine Whip
@@ -888,10 +896,14 @@ Dark Venusaur
 [HorridPollenName]
 Horrid Pollen
 
-[HorridPollenDescription]
-The Defending Pokémon is now
-Poisoned, plus Confused, Asleep, or
-Paralyzed (chosen at random).
+[HorridPollenDescription] full-width
+The Defending
+Pokémon is now
+Poisoned, plus
+Confused, Asleep,
+or Paralyzed
+(chosen at
+random).
 
 [DarkVenusaurDescription]
 When its big flower opens, there's a
@@ -904,9 +916,11 @@ Caterpie
 [StringShotName]
 String Shot
 
-[MayInflictParalysisDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Paralyzed.
+[MayInflictParalysisDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Paralyzed.
 
 [WormName]
 Worm
@@ -932,9 +946,11 @@ Asleep, Confused, or Paralyzed.
 [MysteriousPowerName]
 Mysterious Powder
 
-[MayInflictConfusionDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Confused.
+[MayInflictConfusionDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Confused.
 
 [CocoonName]
 Cocoon
@@ -968,10 +984,13 @@ Butterfree
 [WhirlwindName]
 Whirlwind
 
-[WhirlwindDescription]
-If your opponent has any Benched
-Pokémon, he or she chooses 1 of them
-and switches it with the Defending
+[WhirlwindDescription] full-width
+If your opponent
+has any Benched
+Pokémon, he or she
+chooses 1 of them
+and switches it
+with the Defending
 Pokémon.
 
 [ButterflyName]
@@ -988,9 +1007,11 @@ Weedle
 [PoisonStingName]
 Poison Sting
 
-[MayInflictPoisonDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Poisoned.
+[MayInflictPoisonDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Poisoned.
 
 [HairyBugName]
 Hairy Bug
@@ -1044,9 +1065,11 @@ Beedrill
 [TwineedleName]
 Twineedle
 
-[Do30DamageNumberOfHeadsDescription]
-Flip 2 coins. This attack does 30
-damage times the number of heads.
+[Do30DamageNumberOfHeadsDescription] full-width
+Flip 2 coins. This
+attack does 30
+damage times the
+number of heads.
 
 [PoisonBeeName]
 Poison Bee
@@ -1076,9 +1099,11 @@ around it.
 [BiteName]
 Bite
 
-[MayInflictPoisonAltDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Poisoned.
+[MayInflictPoisonAltDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Poisoned.
 
 [EkansLv15Description]
 A carnivore, it swallows anything
@@ -1109,9 +1134,11 @@ The pattern on its belly looks like
 a scary face. Weak foes flee at the
 mere sight of it.
 
-[MayInflictParalysisAltDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Paralyzed.
+[MayInflictParalysisAltDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Paralyzed.
 
 [DeadlyPoisonName]
 Deadly Poison
@@ -1176,9 +1203,11 @@ female has smaller horns.
 [FurySwipesName]
 Fury Swipes
 
-[FurySwipes10DamageDescription]
-Flip 3 coins. This attack does 10
-damage times the number of heads.
+[FurySwipes10DamageDescription] full-width
+Flip 3 coins. This
+attack does 10
+damage times the
+number of heads.
 
 [CallForFamilyName]
 Call for Family
@@ -1207,9 +1236,11 @@ Nidoran♂, Nidoran♀, Nidorino,
 Nidorina, Nidoking, and Nidoqueen on
 your Bench.
 
-[FurySwipes30DamageDescription]
-Flip 3 coins. This attack does 30
-damage times the number of heads.
+[FurySwipes30DamageDescription] full-width
+Flip 3 coins. This
+attack does 30
+damage times the
+number of heads.
 
 [NidorinaLv22Description]
 The female's horn develops slowly.
@@ -1219,9 +1250,11 @@ clawing and biting.
 [SupersonicName]
 Supersonic
 
-[MayInflictConfusionAltDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Confused.
+[MayInflictConfusionAltDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Confused.
 
 [DoubleKickName]
 Double Kick
@@ -1237,9 +1270,11 @@ Nidoqueen
 [BoyfriendsName]
 Boyfriends
 
-[BoyfriendsDescription]
-Does 20 more damage for each
-Nidoking you have in play.
+[BoyfriendsDescription] full-width
+Does 20 more
+damage for each
+Nidoking you have
+in play.
 
 [MegaPunchName]
 Mega Punch
@@ -1258,8 +1293,9 @@ Nidoran♂
 [HornHazardName]
 Horn Hazard
 
-[IfTailsDoNothingDescription]
-Flip a coin. If tails, this attack
+[IfTailsDoNothingDescription] full-width
+Flip a coin. If
+tails, this attack
 does nothing.
 
 [NidoranMLv20Description]
@@ -1270,16 +1306,19 @@ angered, it releases poison barbs.
 [FocusEnergyName]
 Focus Energy
 
-[FocusEnergyHornRushDescription]
-During your next turn, the damage of
-this Pokémon's Horn Rush attack is
-doubled.
+[FocusEnergyHornRushDescription] full-width
+During your next
+turn, the damage
+of this Pokémon's
+Horn Rush attack
+is doubled.
 
 [HornRushName]
 Horn Rush
 
-[IfTailsDoNothingAltDescription]
-Flip a coin. If tails, this attack
+[IfTailsDoNothingAltDescription] full-width
+Flip a coin. If
+tails, this attack
 does nothing.
 
 [NidoranMLv22Description]
@@ -1293,10 +1332,13 @@ Nidorino
 [SwiftLungeName]
 Swift Lunge
 
-[SwiftLungeDescription]
-Flip a coin. If tails, this attack
-does no damage to the Defending
-Pokémon, and this Pokémon does 20
+[SwiftLungeDescription] full-width
+Flip a coin. If
+tails, this attack
+does no damage
+to the Defending
+Pokémon, and this
+Pokémon does 20
 damage to itself.
 
 [NidorinoLv23Description]
@@ -1318,18 +1360,25 @@ Nidoking
 [ThrashName]
 Thrash
 
-[ThrashDescription]
-Flip a coin. If heads, this attack
-does 10 more damage. If tails, this
-Pokémon does 10 damage to itself.
+[ThrashDescription] full-width
+Flip a coin. If
+heads, this attack
+does 10 more
+damage. If tails,
+this Pokémon
+does 10 damage to
+itself.
 
 [ToxicName]
 Toxic
 
-[ToxicDescription]
-The Defending Pokémon is now
-Poisoned. It now takes 20 Poison
-damage instead of 10 after each
+[ToxicDescription] full-width
+The Defending
+Pokémon is now
+Poisoned. It now
+takes 20 Poison
+damage instead
+of 10 after each
 player's turn.
 
 [NidokingDescription]
@@ -1384,9 +1433,11 @@ the damage done.
 [NosediveName]
 Nosedive
 
-[NosediveDescription]
-Flip a coin. If tails, this Pokémon
-does 40 damage to itself.
+[NosediveDescription] full-width
+Flip a coin.
+If tails, this
+Pokémon does 40
+damage to itself.
 
 [GolbatLv25Description]
 Once it strikes, it won't stop
@@ -1450,8 +1501,10 @@ as 300 m on its two roots.
 [SleepPowderName]
 Sleep Powder
 
-[InflictSleepDescription]
-The Defending Pokémon is now Asleep.
+[InflictSleepDescription] full-width
+The Defending
+Pokémon is now
+Asleep.
 
 [OddishLv21Description]
 To preserve its species, it is said
@@ -1464,9 +1517,11 @@ Gloom
 [FoulOdorName]
 Foul Odor
 
-[FoulOdorDescription]
-Both the Defending Pokémon and this
-Pokémon are now Confused (after
+[FoulOdorDescription] full-width
+Both the Defending
+Pokémon and this
+Pokémon are now
+Confused (after
 doing damage).
 
 [GloomDescription]
@@ -1647,10 +1702,13 @@ with this Pokémon.
 [RainbowPowderName]
 Rainbow Powder
 
-[RainbowPowderDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Paralyzed; if tails,
-it is now Poisoned.
+[RainbowPowderDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Paralyzed;
+if tails, it is
+now Poisoned.
 
 [PoisonMothName]
 Poison Moth
@@ -1679,9 +1737,12 @@ its original color (type).
 [VenomPowderName]
 Venom Powder
 
-[VenomPowderDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now both Poisoned and
+[VenomPowderDescription] full-width
+Flip a coin.
+If heads,
+the Defending
+Pokémon is now
+both Poisoned and
 Confused.
 
 [VenomothLv28Description]
@@ -1728,9 +1789,11 @@ Pokémon.
 [DissolveName]
 Dissolve
 
-[DissolveDescription]
-Flip a coin. If heads, discard 1
-Energy card attached to the
+[DissolveDescription] full-width
+Flip a coin.
+If heads, discard
+1 Energy card
+attached to the
 Defending Pokémon.
 
 [FlycatcherName]
@@ -1762,10 +1825,14 @@ Benched Pokémon.)
 [AcidName]
 Acid
 
-[AcidDescription]
-Flip a coin. If heads, the Defending
-Pokémon can't retreat during your
-opponent's next turn.
+[AcidDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+can't retreat
+during your
+opponent's next
+turn.
 
 [VictreebelDescription]
 Prey lured into its mouth by its
@@ -1781,10 +1848,13 @@ Poison Gas
 [StickyHandsName]
 Sticky Hands
 
-[StickyHandsDescription]
-Flip a coin. If heads, this attack
-does 20 more damage and the
-Defending Pokémon is now Paralyzed.
+[StickyHandsDescription] full-width
+Flip a coin. If
+heads, this attack
+does 20 more
+damage and the
+Defending Pokémon
+is now Paralyzed.
 
 [SludgeCategoryName]
 Sludge
@@ -1875,17 +1945,23 @@ Exeggutor
 [TeleportName]
 Teleport
 
-[TeleportDescription]
-Switch this Pokémon with 1 of your
-Benched Pokémon.
+[TeleportDescription] full-width
+Switch this
+Pokémon with 1
+of your Benched
+Pokémon.
 
 [BigEggsplosionName]
 Big Eggsplosion
 
-[BigEggsplosionDescription]
-Flip a coin for each Energy attached
-to this Pokémon. This attack does 20
-damage times the number of heads.
+[BigEggsplosionDescription] full-width
+Flip a coin
+for each Energy
+attached to this
+Pokémon. This
+attack does 20
+damage times the
+number of heads.
 
 [CoconutName]
 Coconut
@@ -1906,10 +1982,13 @@ have spread in recent years.
 [FoulGasName]
 Foul Gas
 
-[FoulGasDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Poisoned; if tails,
-it is now Confused.
+[FoulGasDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Poisoned;
+if tails, it is
+now Confused.
 
 [KoffingLv13Description]
 Its thin, balloonlike body is full
@@ -1937,10 +2016,13 @@ your next turn, Poisoned Pokémon
 take 20 Poison damage instead of 10
 after each player's turn.
 
-[PoisonMistDescriptionCont]
-If this Pokémon is Asleep, Confused,
-or Paralyzed, this power can't be
-used and its effect ends.
+[PoisonMistDescriptionCont] full-width
+If this Pokémon is
+Asleep, Confused,
+or Paralyzed,
+this power can't
+be used and its
+effect ends.
 
 [GasExplosionName]
 Gas Explosion
@@ -1992,10 +2074,13 @@ and Dark Weezing in play.
 [StunGasName]
 Stun Gas
 
-[StunGasDescription]
-Flip a coin. If heads, the Defending
-Pokémon is now Poisoned; if tails,
-it is now Paralyzed.
+[StunGasDescription] full-width
+Flip a coin.
+If heads, the
+Defending Pokémon
+is now Poisoned;
+if tails, it is
+now Paralyzed.
 
 [DarkWeezingDescription]
 It has been seen multiplying at
@@ -2029,9 +2114,11 @@ Scyther
 [SlashingStrikeName]
 Slashing Strike
 
-[SlashingStrikeDescription]
-This Pokémon can't use Slashing
-Strike during your next turn.
+[SlashingStrikeDescription] full-width
+This Pokémon
+can't use Slashing
+Strike during your
+next turn.
 
 [MantisName]
 Mantis
@@ -2044,9 +2131,11 @@ more than one.
 [SwordsDanceName]
 Swords Dance
 
-[SwordsDanceDescription]
-During your next turn, the damage of
-this Pokémon's Slash attack is
+[SwordsDanceDescription] full-width
+During your next
+turn, the damage
+of this Pokémon's
+Slash attack is
 doubled.
 
 [ScytherLv25Description]
@@ -2060,9 +2149,11 @@ Pinsir
 [SlicingThrowName]
 Slicing Throw
 
-[IfHeadsDo10DamageDescription]
-Flip a coin. If heads, this attack
-does 10 more damage.
+[IfHeadsDo10DamageDescription] full-width
+Flip a coin. If
+heads, this attack
+does 10 more
+damage.
 
 [StagbeetleName]
 Stag Beetle
@@ -2111,10 +2202,13 @@ burned.
 [EmberName]
 Ember
 
-[DiscardOneFireEnergyDescription]
-Discard 1 Fire Energy card attached
-to this Pokémon. If you can't, this
-attack does no damage.
+[DiscardOneFireEnergyDescription] full-width
+Discard 1 Fire
+Energy card
+attached to this
+Pokémon. If you
+can't, this attack
+does no damage.
 
 [CharmanderLv10Description]
 From the time it is born, a flame
