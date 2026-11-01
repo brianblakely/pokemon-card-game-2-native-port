@@ -231,12 +231,16 @@ switches language, `tcg2_locale::localize` builds the ROM image:
    `PrintScrollableTextFromList` prints; the wide box at the bottom, two
    lines of 18, one under a yes/no menu; the narrow box, lines of 10; a menu
    box's items, each up to the border or the next item's cursor, and a menu
-   only if all its items fit; a few places measured by hand) and check that
-   every text that fits is full-width, flowed into lines of its box, and
-   that the rest are not. A text the decomp prints anywhere else (card
-   names and rules, lists, a text the code keeps to put into another) stays
-   half-width; one can be made full-width by hand within the Japanese
-   text's own lines. So does a text that puts another into itself
+   only if all its items fit; the duel's coin toss, card lists and the
+   reason a check hands back, which the duel prints in the wide box; tables
+   of data: a card's text on its page, seven lines of 18, its Pokédex
+   entry, three, letters, the glossary, the practice duel's steps and the
+   special rules; a few places measured by hand) and check that every text
+   that fits is full-width, flowed into lines of its box (a card's type in
+   brackets keeps a line of its own), and that the rest are not. A text the
+   decomp prints anywhere else (card names, lists, a text the code keeps to
+   put into another) stays half-width; one can be made full-width by hand
+   within the Japanese text's own lines. So does a text that puts another into itself
    (`<RAMTEXT>`): what it puts in is half-width, and a line reads in one
    size, unless the texts it puts in are known and all full-width
    (`PUT_INTO`). Debug menus and routines, which no player sees, do not count.

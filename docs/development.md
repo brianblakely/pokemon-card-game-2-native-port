@@ -170,7 +170,8 @@ limits that matter most:
 - **Dialog** scrolls two lines at a time, at most 18 full-width or 36
   half-width characters per line. A blank line starts a new page.
 - **A question** with a Yes/No menu has one line.
-- **A card's rules** take at most 6 lines.
+- **A card's text** takes at most 7 lines (its page moves it up a line
+  when it has 7): 18 letters a line full-width.
 - **A Pokédex entry** takes at most 3 lines.
 - **Labels and menu items** are no wider than the room the Japanese had, at
   two English letters per Japanese character, or one in full-width text.
