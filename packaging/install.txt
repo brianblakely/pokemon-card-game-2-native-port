@@ -3,7 +3,9 @@ Pokémon Card GB2 - native port
 
 This is the game's own program, translated to native code, running without
 an emulator. It does not contain the game's graphics, text, music or cards:
-it reads them from your own copy of the game.
+it reads them from your own copy of the game. It plays in American English
+(the port's own translation, laid over the game's text when it loads) or in
+the original Japanese.
 
 1. Put your ROM of "Pokémon Card GB2 - GR Dan Sanjou! (J)" (2 MiB,
    SHA-1 a7e12bcc5f514e3aad8de570fd511aab0a308822) in the rom/ folder
@@ -29,9 +31,11 @@ Controls
   F2                 LCD colours         F3  frame blending
   F4                 fit: aspect/integer/stretch
   F5 / F7            save / load a state  F12 screenshot     P   pause
+  F9                 language: American English / Japanese
   hold Tab           fast-forward
 
 Settings (settings.ini, or --set key=value on the command line)
+  language = en-US (American English) | ja (Japanese)
   filter = sharp | nearest | smooth
   fit = aspect | integer | stretch
   lcd_colours, frame_blending, fullscreen, pause_hidden = true | false
@@ -50,4 +54,5 @@ Open the first time.
 tcg2-headless runs the game without a window (for tests and benchmarks),
 for example: tcg2-headless --rom rom/poketcg2.gbc --frames 600.
 
-No ROM, graphics, music or other game data is included.
+No ROM, graphics, music or other game data is included. The English
+translation and its font are the port's own.

@@ -1,0 +1,2413 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text4.asm, by label (format: src/text.rs).
+
+[DebugCharacterDisplayTestText]
+NPC Display Test
+
+[DebugYoshidaTestText]
+Yoshida Test
+
+[DebugGameMainText]
+Game Main
+
+[DebugReserveText]
+Book
+
+[DebugReturnToMainText]
+Back to Main
+
+[PauseMenuStatusText]
+Status
+
+[PauseMenuDiaryText]
+Diary
+
+[PauseMenuDeckText]
+Deck
+
+[PauseMenuMinicomText]
+PC
+
+[PauseMenuCoinText]
+Coins
+
+[PauseMenuConfigText]
+Settings
+
+[PauseMenuExitText]
+Exit
+
+[ConfigTitleText]
+Change Settings
+
+[ConfigMessageSpeedText]
+` Text Speed `
+
+[ConfigDuelAnimationText]
+` Duel Animation `
+
+[ConfigCoinAnimationText]
+` Coin Flip Animation `
+
+[ConfigExitText]
+Exit Settings
+
+[ConfigMessageSpeedSlowLabelText]
+Slow
+
+[ConfigMessageSpeedFastLabelText]
+Fast
+
+[ConfigAnimationShowAllText]
+Show All
+
+[ConfigAnimationSkipSomeText]
+Skip Some
+
+[ConfigAnimationNoneText]
+None
+
+[PlayerDiaryTitleText]
+<RAMNAME>'s Diary
+
+[PlayerDiaryNameText]
+Name
+
+[PlayerStatusEventCoinTitleText]
+` Event Coins      `
+
+[PlayerDiaryEventCoinText]
+Event Coins
+
+[PlayerDiaryAlbumText]
+Album
+
+[PlayerDiaryPlayTimeText]
+Play Time
+
+[PlayerDiaryPromptText]
+Write in your diary?
+
+[PlayerDiaryPromptYesText]
+Yes
+
+[PlayerDiaryPromptNoText]
+No
+
+[PlayerStatusCurrentCoinText]
+Current Coin
+
+[PlayerStatusGRCoinText]
+Team GR's Coin
+
+[PCMenuCardAlbumText]
+Card Album
+
+[PCMenuReadMailText]
+Read Mail
+
+[PCMenuGlossaryText]
+Glossary
+
+[PCMenuPrintText]
+Print
+
+[TurnedOnPCText]
+<RAMNAME> turned on
+the computer!
+
+[TurnedOffPCText]
+<RAMNAME> turned off
+the computer!
+
+[PCMenuShutdownText]
+Shut Down
+
+[DebugMenuDebugText]
+Debug
+
+[DebugGotCardsText]
+Got the cards!
+
+[DebugBackgroundFontStateText]
+BG Font State
+
+[DebugForceDuelWinPromptText]
+Win the duel?
+
+[DebugVCounterLabelText]
+V Counter:
+
+[DebugVHookCountLabelText]
+V Hooks:
+
+[DebugBackgroundFaceDisplayText]
+BG Face Display
+
+[DebugSystemStateText]
+System State
+
+[DebugCurrentObjectCharacterNumberLabelText]
+OBJ Chars in Use:
+
+[DebugCurrentMapNumberLabelText]
+Current Map No.:
+
+[DebugCurrentMapChipsetCountLabelText]
+Map Chips in Use:
+
+[CardsAndChipsUnitText]
+`  `
+
+[ChipsText]
+Chips
+
+[PCMenuDeckDiagnosisText]
+Deck Diagnosis
+
+[TCG2TitleText]
+Pokémon Card GB2
+
+[MainMenuNewGameText]
+New Game
+
+[MainMenuContinueFromDiaryText]
+Continue
+
+[MainMenuCardPopText]
+Card Pop!
+
+[MainMenuContinueDuelText]
+Continue Duel
+
+[MainMenuNewGameDialogText]
+Start a new game from the beginning.
+
+[MainMenuCardPopDialogText]
+"Card Pop!" with a friend and
+new cards will be created.
+You'll both come out ahead!
+
+[MainMenuContinueDuelDialogText]
+The power was cut during a duel.
+You can pick up the game from
+where the power went out.
+
+[PlayerGenderMaleText]
+Boy
+
+[PlayerGenderFemaleText]
+Girl
+
+[ChoosePlayerGenderText]
+Are you a boy
+or a girl?
+
+[ConfirmPlayerGenderMaleText]
+You chose "Boy." Is that OK?
+
+[ConfirmPlayerGenderFemaleText]
+You chose "Girl." Is that OK?
+
+[DebugTournamentTableText]
+Tournament Bracket
+
+[DebugLabText]
+Laboratory
+
+[DebugObjectCharacterDisplayText]
+OBJ NPC Display
+
+[IsThisOKText_2]
+Is this OK?
+
+[PlayerGenderText]
+Gender
+
+[CardsUnitHiraganaText]
+`    `
+
+[ReceptionistText]
+Receptionist
+
+[GameCenterPrizeExchangeWelcomeText]
+Hello!
+Welcome to the Prize Counter!
+
+[GameCenterPrizeExchangePromptText]
+Exchange your chips for a prize?
+
+[GameCenterPrizeExchangeChoosePrizeText]
+Please choose a prize.
+
+[GameCenterNotEnoughChipsText]
+Not enough chips!
+
+[GameCenterPrizeExchangeConfirmText]
+Do you want this prize?
+
+[GameCenterPrizeExchangeQuitConfirmText]
+Are you finished exchanging?
+
+[GameCenterPrizeExchangeComeAgainText]
+We look forward to
+your next visit!
+
+[GameCenterPrizeVenusaurText]
+Venusaur<Lv>64
+
+[GameCenterPrizeMewText]
+Mew<Lv>15
+
+[GameCenterPrizeBillsComputerText]
+Bill's Computer
+
+[GameCenterPrizeJigglypuffCoinText]
+Jigglypuff Coin
+
+[GameCenterPrize1PresentPackText]
+Present Pack x1
+
+[GameCenterPrize3PresentPacksText]
+Present Pack x3
+
+[BattleCenterWelcomeTextOld]
+Hello!
+Welcome to the Battle Center!
+
+[BattleCenterBeginPromptTextOld]
+Start a duel with your friend?
+
+[BattleCenterThankYouTextOld]
+Thank you for using
+the Battle Center!
+
+[GiftCenterWelcomeText]
+Hello!
+Welcome to the Gift Center!
+
+[GiftCenterServicePromptText]
+How may I
+help you today?
+
+[GiftCenterServiceAcknowledgementText]
+Certainly.
+"<RAMTEXT>" it is.
+
+[GiftCenterServiceSaveRequestText]
+Before you use our service,
+please write in your "Diary."
+
+[GiftCenterServiceUnavailableSaveRequiredText]
+Unless you write in your "Diary,"
+you can't use our service.
+
+[GiftCenterComeAgainText]
+We look forward to
+your next visit!
+
+[GiftCenterSendCardsText]
+Send Cards
+
+[GiftCenterReceiveCardsText]
+Receive Cards
+
+[GiftCenterSendDeckConfigurationText]
+Send Deck Configuration
+
+[GiftCenterReceiveDeckConfigurationText]
+Receive Deck Configuration
+
+[GiftCenterQuitText]
+Quit
+
+[GiftCenterPressStartWhenReadyText]
+When you're both ready, one of you
+please press the START Button.
+
+[GiftCenterTransmissionErrorTryAgainText]
+Transmission error.
+Please start over from the top.
+
+[DebugBackgroundCoinDisplayText]
+BG Coin Display
+
+[PlayerCoinSelectText]
+Please choose a coin to use.
+
+[ChanseyCoinText]
+Chansey Coin
+
+[GrassCoinText]
+Grass Coin
+
+[FireCoinText]
+Fire Coin
+
+[WaterCoinText]
+Water Coin
+
+[LightningCoinText]
+Lightning Coin
+
+[PsychicCoinText]
+Psychic Coin
+
+[RockCoinText]
+Rock Coin
+
+[GRCoinText]
+GR Coin
+
+[GRGrassCoinText]
+GR Grass Coin
+
+[GRLightningCoinText]
+GR Lightning Coin
+
+[GRFireCoinText]
+GR Fire Coin
+
+[GRWaterCoinText]
+GR Water Coin
+
+[GRFightingCoinText]
+GR Fighting Coin
+
+[GRPsychicCoinText]
+GR Psychic Coin
+
+[GRColorlessCoinText]
+GR Colorless Coin
+
+[GRKingCoinText]
+GR King Coin
+
+[PonytaCoinText]
+Ponyta Coin
+
+[HorseaCoinText]
+Horsea Coin
+
+[ArbokCoinText]
+Arbok Coin
+
+[JigglypuffCoinText]
+Jigglypuff Coin
+
+[DugtrioCoinText]
+Dugtrio Coin
+
+[GengarCoinText]
+Gengar Coin
+
+[RaichuCoinText]
+Raichu Coin
+
+[LugiaCoinText]
+Lugia Coin
+
+[GRCoinPiece1Text]
+GR Coin Piece 1
+
+[GRCoinPiece2Text]
+GR Coin Piece 2
+
+[GRCoinPiece3Text]
+GR Coin Piece 3
+
+[GRCoinPiece4Text]
+GR Coin Piece 4
+
+[EventCoinPage1Text]
+Event Coins 1
+
+[EventCoinPage2Text]
+Event Coins 2
+
+[EventCoinPage3Text]
+Event Coins 3
+
+[DebugEffectViewerText]
+Effect Viewer
+
+[DebugEffectViewerLeftToRightText]
+L to R
+
+[DebugEffectViewerRightToLeftText]
+R to L
+
+[LinkDuelText]
+Link VS
+
+[DebugEffectViewerStartButtonSwapText]
+START:Swap
+
+[DebugEffectViewerAButtonPlayText]
+A:Play
+
+[DebugEffectViewerBButtonStopText]
+B:Stop
+
+[DebugEffectViewerPlayingStateText]
+`[Playing]`
+
+[DebugEffectViewerStopStateText]
+`[Stopped]`
+
+[DebugPowerOnText]
+Power On
+
+[ObtainedCoinText]
+The "<RAMTEXT>"
+is now yours!
+
+[ObtainedCoinTotalNumberText]
+Total coins collected: <RAMNUM>!
+
+[DebugSlotMachineText]
+Slot Machine
+
+[GameCenterSlotMachineTitleText]
+` Slot Machine `
+
+[GameCenterSlotMachineStartPromptText]
+Play the slot machine?
+
+[GameCenterSlotMachineDescriptionText]
+Stop the 3 spinning reels and line
+up matching marks to win chips!
+Line up Rainbow Energy marks to
+go to the Bonus Game!
+
+[PlayerDiarySavedText]
+<RAMNAME>
+wrote in the diary.
+
+[PlayerDiaryCancelledText]
+<RAMNAME> decided not to
+write in the diary.
+
+[GameCenterCoinFlipTitleText]
+` Coin Flip Streak `
+
+[GameCenterCoinFlipDescriptionText]
+How many heads in a row can you
+flip? Try the coin flip challenge!
+Get 10 in a row and you'll win
+a fabulous prize!
+
+[GameCenterCoinFlipCheersText]
+Aim for 10 in a row.
+Good luck!
+
+[GameCenterCoinFlipDialogText]
+Get 10 in a row to win
+a fabulous prize!
+
+[GameCenterCoinFlipPlayAgainPromptText]
+Play again?
+
+[GameCenterPrizeExchangeText]
+Prize Counter
+
+[DebugDuelText]
+Duel
+
+[SpecialRuleChlorophyllTitleText]
+`        Chlorophyll         `
+
+[SpecialRuleChlorophyllDescriptionText]
+In this duel, Grass Pokémon can't be
+Poisoned, Paralyzed, Confused, or
+Asleep.
+
+[SpecialRuleThunderChargeTitleText]
+`       Thunder Charge       `
+
+[SpecialRuleThunderChargeDescriptionText]
+In this duel, Lightning Pokémon's
+attacks do 10 more damage to the
+Defending Pokémon.
+
+[SpecialRuleFlameArmorTitleText]
+`        Flame Armor         `
+
+[SpecialRuleFlameArmorDescriptionText]
+In this duel, Fire Pokémon aren't
+affected by Weakness when damaged
+by attacks from Water Pokémon.
+
+[SpecialRuleSmallBenchTitleText]
+`        Small Bench         `
+
+[SpecialRuleSmallBenchDescriptionText]
+In this duel, each player's Bench
+size becomes 3.
+(Each player can have only 3
+` Benched Pokémon.)`
+
+[SpecialRuleRunningWaterTitleText]
+`       Running Water        `
+
+[SpecialRuleRunningWaterDescriptionText]
+In this duel, Water Pokémon's
+Retreat Cost is reduced by 1.
+
+[SpecialRuleEarthPowerTitleText]
+`        Earth Power         `
+
+[SpecialRuleEarthPowerDescriptionText]
+In this duel, damage done by
+Fighting Pokémon isn't affected by
+Resistance.
+
+[SpecialRuleLowResistanceTitleText]
+`       Low Resistance       `
+
+[SpecialRuleLowResistanceDescriptionText]
+In this duel, Resistance is changed
+from -30 to -10.
+
+[SpecialRuleEnergyReturnTitleText]
+`       Energy Return        `
+
+[SpecialRuleEnergyReturnDescriptionText]
+In this duel, when a Pokémon in play
+is discarded, the basic Energy cards
+attached to it return to its
+owner's Hand.
+
+[SpecialRuleToughEscapeTitleText]
+`        Tough Escape        `
+
+[SpecialRuleToughEscapeDescriptionText]
+In this duel, when a Pokémon
+retreats from the Arena, it must
+discard 1 more Energy than usual.
+
+[SpecialRuleBlackHoleTitleText]
+`         Black Hole         `
+
+[SpecialRuleBlackHoleDescriptionText]
+In this duel, discarded cards can't
+be used for the rest of the duel.
+(The Discard Pile is always
+` empty.)`
+
+[MainCharacterText]
+Player
+
+[TechText]
+Tech
+
+[DuelistIntroLightningClubMemberText]
+Lightning Club Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroPsychicClubMemberText]
+Psychic Club Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroRockClubMemberText]
+Rock Club Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroFightingClubMemberText]
+Fighting Club Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGrassClubMemberText]
+Grass Club Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroScienceClubMemberText]
+Science Club Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroWaterClubMemberText]
+Water Club Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroFireClubMemberText]
+Fire Club Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroLightningClubMasterText]
+Lightning Club Master <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroPsychicClubMasterText]
+Psychic Club Master <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroRockClubMasterText]
+Rock Club Master <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroFightingClubMasterText]
+Fighting Club Master <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGrassClubMasterText]
+Grass Club Master <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroScienceClubMasterText]
+Science Club Master <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroWaterClubMasterText]
+Water Club Master <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroFireClubMasterText]
+Fire Club Master <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGrandMasterText]
+Grand Master <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroTechText]
+Tech <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroStrangeLifeFormText]
+Strange Creature <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroCollectorText]
+Collector <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroRivalText]
+Rival <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroEnigmaticMaskText]
+Mystery Mask <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRGrassFortMemberText]
+GR Grass Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRLightningFortMemberText]
+GR Lightning Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRFireFortMemberText]
+GR Fire Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRWaterFortMemberText]
+GR Water Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRFightingFortMemberText]
+GR Fighting Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRPsychicStrongholdMemberText]
+GR Psychic Member <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRGrassFortLeaderText]
+GR Grass Leader <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRLightningFortLeaderText]
+GR Lightning Leader <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRFireFortLeaderText]
+GR Fire Leader <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRWaterFortLeaderText]
+GR Water Leader <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRFightingFortLeaderText]
+GR Fighting Leader <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRPsychicStrongholdLeaderText]
+GR Psychic Leader <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroColorlessAltarGuardianText]
+Colorless Guardian <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRBigBossText]
+Team GR Executive <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGRKingText]
+Team GR King <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroTapText]
+<RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroDungeonMasterText]
+Dungeon Master <RAMTEXT>
+<RAMTEXT> Deck!
+
+[DuelistIntroGhostMasterText]
+Ghost Card Master <RAMTEXT>
+<RAMTEXT> Deck!
+
+[MinicomDeckSaveMachineText]
+Connect to Deck Save Machine
+
+[MinicomMailboxText]
+Check Mailbox
+
+[MinicomCardAlbumText]
+View Card List
+
+[MinicomDialogText]
+Please choose from the menu.
+
+[PlayersChipsText]
+` <RAMNAME>'s Chips `
+
+[BoosterPackBeginningPokemonText]
+Beginning Pokémon
+
+[BoosterPackLegendaryPowerText]
+Legendary Power
+
+[BoosterPackIslandOfFossilText]
+Fossil Island
+
+[BoosterPackPsychicBattleText]
+Psychic Battle
+
+[BoosterPackFlyingPokemonText]
+Flying Pokémon
+
+[BoosterPackWeAreTeamRocketText]
+We Are Team Rocket
+
+[BoosterPackTeamRocketsAmbitionText]
+Rocket's Ambition
+
+[EnergyPackText]
+Energy
+
+[PresentPackText]
+Present Pack
+
+[ReceivedBoosterPackText]
+<RAMNAME> got <RAMTEXT>
+"<RAMTEXT>"!
+
+[ReceivedAnotherBoosterPackText]
+Also got <RAMTEXT>
+"<RAMTEXT>"!
+
+[BoosterPack1Text]
+Set 1
+
+[BoosterPack2Text]
+Set 2
+
+[BoosterPack3Text]
+Set 3
+
+[BoosterPack4Text]
+Set 4
+
+[BoosterPack5Text]
+Set 5
+
+[BoosterPack6Text]
+Set 6
+
+[BoosterPack7Text]
+Set 7
+
+[GetPackText]
+Get Pack
+
+[GameCenter1ChipPerPlayText]
+1 Chip
+
+[GameCenter5ChipsPerPlayText]
+5 Chips
+
+[GameCenterSlotMachineDialogText]
+Press Down to start the game,
+or the B Button to quit.
+
+[GameCenterSlotMachineBonusPlayText]
+The Bonus Game begins!!
+You can try up to 10 times!
+
+[GameCenterSlotMachineBonusPlayMoneybagHitText]
+Bonus Chip marks lined up!
+You got <RAMNUM> chips!
+
+[GameCenterSlotMachineBonusPlayLegendaryHitText]
+Edition marks lined up!
+
+[GameCenterSlotMachineMissedText]
+Too bad!
+No luck this time.
+
+[DebugAdjustChipsText]
+Adjust Chips
+
+[DebugImageListText]
+Image List
+
+[DebugUnregisteredText]
+Unreg.
+
+[GrandMasterCupBracketTitleText]
+`     [Grand Master Cup Bracket]     `
+
+[GrandMasterCupBracketChampionshipText]
+Champion
+
+[ConfirmedCardsText]
+<RAMNAME>
+checked the cards!!
+
+[MailBlackBoxOutputSenderText]
+Game Center
+
+[MailBlackBoxOutputSubjectText]
+Black Box
+
+[MailBlackBoxOutputBody1Text]
+This is the "Black Box" Center.
+Thank you for using the "Black Box."
+We have sent you the results of
+your "Black Box Game."
+Please accept them.
+
+[MailBlackBoxOutputBody2Text]
+How did it go?
+Did you get some good cards?
+We hope to see you at the
+"Black Box" again soon!
+
+`    Team GR Game Center (^-^)/`
+
+[MailBillsPCOutputSenderText]
+Game Center
+
+[MailBillsPCOutputSubjectText]
+Bill's Computer
+
+[MailBillsPCOutputBody1Text]
+This is the "Bill's Computer"
+Center. Thank you for using
+"Bill's Computer."
+We have sent you the results of
+"Bill's Computer."
+Please check them.
+
+[MailBillsPCOutputBody2Text]
+Did you get any wonderful cards?
+We hope to see you at
+"Bill's Computer" again soon!
+
+`    Team GR Game Center (^-^)/`
+
+[MailMailboxIntroSenderText]
+Dr. Mason
+
+[MailMailboxIntroSubjectText]
+PC and Mail
+
+[MailMailboxIntroBody1Text]
+<RAMNAME>!
+It's me, Dr. Mason!
+Were you able to read this mail?
+Now listen here: all manner of news
+will reach you by mail like this.
+
+[MailMailboxIntroBody2Text]
+Be sure to open your PC often and
+check whether new mail has arrived.
+Mind you, the PC can only hold 8
+pieces of mail. Delete any mail
+you've read to make room!
+
+[MailMailboxIntroBody3Text]
+If your PC fills up with mail,
+you may not be able to receive
+new mail, you see.
+
+Mason Laboratory
+`      Dr. Mason, Director (^o^)`
+
+[MailMailboxIntroBody4Text]
+P.S.
+
+This is a parting gift from me.
+Make good use of it in your duels.
+
+[MailDeckDiagnosis1SenderText]
+Dr. Mason
+
+[MailDeckDiagnosis1SubjectText]
+"Deck Diagnosis"
+
+[MailDeckDiagnosis1Body1Text]
+<RAMNAME>!
+It's me, Dr. Mason!
+I have news of a new invention!
+It's the fruit of my long years of
+Pokémon card research: the
+"Deck Diagnosis System"!
+
+[MailDeckDiagnosis1Body2Text]
+For now, I've finished "Step 1,"
+which is for beginners.
+"Deck Check" lets you check the
+balance of the decks you build.
+Well? Marvelous, isn't it!
+
+[MailDeckDiagnosis1Body3Text]
+You can access it from a computer.
+Mind you, it only gives basic
+advice and a Deck Check...
+
+Mason Laboratory
+`      Dr. Mason, Director (^o^)`
+
+[MailDeckDiagnosis1Body4Text]
+P.S.
+I'll contact you again when
+"Step 2" is complete...
+
+[MailDeckDiagnosis2SenderText]
+Dr. Mason
+
+[MailDeckDiagnosis2SubjectText]
+"Deck Diagnosis" 2
+
+[MailDeckDiagnosis2Body1Text]
+<RAMNAME>! Dr. Mason here.
+I have news of an upgrade to the
+"Deck Diagnosis System"!
+"Step 2" is complete! It's for those
+who know Pokémon cards a little.
+
+[MailDeckDiagnosis2Body2Text]
+It offers a few tips on building
+decks. It's packed with advice on
+useful Trainer cards and how to
+deal with being Poisoned,
+Paralyzed, Asleep, or Confused!
+
+[MailDeckDiagnosis2Body3Text]
+As before, you can access it
+from a computer.
+Try it out and see what you think!
+
+Mason Laboratory
+`      Dr. Mason, Director (^o^)`
+
+[MailDeckDiagnosis2Body4Text]
+P.S.
+I'll contact you again when
+"Step 3" is complete...
+
+[MailDeckDiagnosis3SenderText]
+Dr. Mason
+
+[MailDeckDiagnosis3SubjectText]
+"Deck Diagnosis" 3
+
+[MailDeckDiagnosis3Body1Text]
+It's me, Dr. Mason!
+I have news of an upgrade to the
+"Deck Diagnosis System"!
+"Step 3" is complete!
+This time, it mainly gives advice
+on your deck's colors!
+
+[MailDeckDiagnosis3Body2Text]
+That covers all the basic advice
+on building decks, I suppose...
+
+Mason Laboratory
+`      Dr. Mason, Director (^o^)`
+
+[MailDeckDiagnosis3Body3Text]
+P.S.
+I'll contact you again when
+"Step 4" is complete...
+
+[MailDeckDiagnosis4SenderText]
+Dr. Mason
+
+[MailDeckDiagnosis4SubjectText]
+"Deck Diagnosis" 4
+
+[MailDeckDiagnosis4Body1Text]
+<RAMNAME>, it's Dr. Mason.
+I have news of another upgrade to
+the "Deck Diagnosis System"!
+"Step 4" focuses on advice for
+building even better decks.
+
+[MailDeckDiagnosis4Body2Text]
+When you can't seem to win duels,
+there's a problem with your deck.
+At times like that, it's important
+to take a good, hard look at it!
+Mason Laboratory
+`      Dr. Mason, Director (^o^)`
+
+[MailAutoDeckMachine1SenderText]
+Dr. Mason
+
+[MailAutoDeckMachine1SubjectText]
+Auto Deck Machine 1
+
+[MailAutoDeckMachine1Body1Text]
+<RAMNAME>! It's Dr. Mason.
+If building decks is hard for you,
+try using the Auto Deck Machine.
+If you have the cards it needs,
+it'll build one for you in no time!
+
+[MailAutoDeckMachine1Body2Text]
+I plan to upgrade this Auto Deck
+Machine little by little, too!
+Put it to good use in your duels!
+Mason Laboratory
+`      Dr. Mason, Director (^o^)`
+
+[MailAutoDeckMachine1Body3Text]
+P.S.
+I doubt this will let you build
+many more decks, but here's a
+present anyway!
+
+[MailAutoDeckMachine2SenderText]
+Dr. Mason
+
+[MailAutoDeckMachine2SubjectText]
+Auto Deck Machine 2
+
+[MailAutoDeckMachine2Body1Text]
+Dr. Mason here.
+<RAMNAME>! Quite a few decks have
+piled up in the Auto Deck Machine.
+Why not come back to the Lab once
+in a while and check on it?
+
+[MailAutoDeckMachine2Body2Text]
+I intend to keep upgrading the
+Auto Deck Machine from here on.
+Use it all you like, and put it
+to good use in your duels!
+Mason Laboratory
+`      Dr. Mason, Director (^o^)`
+
+[MailAutoDeckMachine2Body3Text]
+P.S.
+Here's a present for now!
+Please accept it.
+
+[MailAutoDeckMachine3SenderText]
+Dr. Mason
+
+[MailAutoDeckMachine3SubjectText]
+Auto Deck Machine 3
+
+[MailAutoDeckMachine3Body1Text]
+Ah, <RAMNAME>! How are you?
+Auto Deck Machine No. 2 is ready!!
+Auto Deck Machine No. 2 works with
+Team GR's cards!
+Well? Marvelous, isn't it!
+
+[MailAutoDeckMachine3Body2Text]
+It's the perfect machine for
+studying Team GR's decks!
+Do come back to the lab now and
+then to study your opponents!
+Mason Laboratory
+`      Director Dr. Mason (^o^)`
+
+[MailAutoDeckMachine3Body3Text]
+P.S.
+Another present!
+This time, the 3rd set!!
+
+[MailAutoDeckMachine4SenderText]
+Dr. Mason
+
+[MailAutoDeckMachine4SubjectText]
+Auto Deck Machine 4
+
+[MailAutoDeckMachine4Body1Text]
+<RAMNAME>! Dr. Mason here.
+How are your duels with Team GR?
+Auto Deck Machine 2 has collected
+quite a few decks that use Team
+GR's cards!
+Why not come back to the lab?
+
+[MailAutoDeckMachine4Body2Text]
+Thanks to you, we've gotten our
+cards back. So now and then, why
+not duel the folks on this island
+for a change?
+Mason Laboratory
+`      Director Dr. Mason (^o^)`
+
+[MailAutoDeckMachine4Body3Text]
+P.S.
+Here's the newest booster pack,
+the one you won back!
+
+[MailAutoDeckMachine5SenderText]
+Dr. Mason
+
+[MailAutoDeckMachine5SubjectText]
+Auto Deck Machine 5
+
+[MailAutoDeckMachine5Body1Text]
+It's me, Dr. Mason!
+I hear you finally got Team GR's
+Lord Biruritchi to mend his ways!
+But you haven't mastered Pokémon
+cards just yet,
+<RAMNAME>!
+
+[MailAutoDeckMachine5Body2Text]
+Have you tried building all of the
+Auto Deck Machine's decks?
+The true fun lies in dueling with
+all kinds of decks, you see!
+Now, do your best and aim to
+complete every last deck!
+
+[MailAutoDeckMachine5Body3Text]
+Auto Deck Machines 1 and 2 will
+keep getting more decks!
+
+Mason Laboratory
+`      Director Dr. Mason (^o^)`
+
+[MailChallengeMachineSenderText]
+Dr. Mason
+
+[MailChallengeMachineSubjectText]
+Challenge Machine!
+
+[MailChallengeMachineBody1Text]
+It's me! Dr. Mason!
+Are you enjoying the Challenge
+Machine?
+Build the strongest deck you can,
+take on the challenge again and
+again, and extend your win streak!!
+
+[MailChallengeMachineBody2Text]
+Win 50 in a row, and I'll give
+you a wonderful coin, <RAMNAME>!
+The Dugtrio Coin!!
+Now then, let's take the challenge!
+Mason Laboratory
+`      Director Dr. Mason (^O^)`
+
+[MailGRChallengeMachineSenderText]
+Biruritchi
+
+[MailGRChallengeMachineSubjectText]
+GR Challenge Machine
+
+[MailGRChallengeMachineBody1Text]
+Are you enjoying Pokémon cards
+and keeping well, <RAMNAME>?
+I have wonderful news!
+I've installed the GR Challenge
+Machine in Team GR's Challenge
+Hall!
+
+[MailGRChallengeMachineBody2Text]
+Dr. Mason built the machine for
+us, and it's quite a lot of fun!
+Do give it a try!
+Win 50 in a row, and I'll present
+you with a new coin!!
+
+[MailGRChallengeMachineBody3Text]
+The Gengar Coin!
+Do your best and win it!
+
+King of Team GR
+`                    Biruritchi (-^-)`
+
+[MailGrandMasterCupSenderText]
+Rod
+
+[MailGrandMasterCupSubjectText]
+Grand Master Cup
+
+[MailGrandMasterCupBody1Text]
+<RAMNAME>!
+It's Rod of the Grand Masters!
+We Grand Masters are planning the
+greatest Pokémon card tournament
+ever!
+It's called the "Grand Master Cup"!
+
+[MailGrandMasterCupBody2Text]
+We'd like you to take part, too.
+Preparations for the Grand Master
+Cup are almost done, so do drop by
+the Pokémon Dome now and then.
+Grand Master Leader
+`                           Rod (^o^)`
+
+[MailRonaldsScoutGR1SenderText]
+Ronald
+
+[MailRonaldsScoutGR1SubjectText]
+GR-1's Deck
+
+[MailRonaldsScoutGR1Body1Text]
+Yo, <RAMNAME>!
+Listen up. I'll be sending you
+the scoop on those Team GR punks
+by Mail, just like this.
+So check your Mail often, got it?
+Otherwise my info'll go stale!
+
+[MailRonaldsScoutGR1Body2Text]
+Here's the scoop on GR-1's deck!
+It's a Water and Lightning deck!
+Watch out for Magnemite's
+"Magnetism"! Later!
+
+`                        Ronald (o_o)`
+
+[MailRonaldsScoutGR2SenderText]
+Ronald
+
+[MailRonaldsScoutGR2SubjectText]
+GR-2's Deck
+
+[MailRonaldsScoutGR2Body1Text]
+Yo, <RAMNAME>!
+You'd better be putting my info
+to good use, ya hear?!
+Make sure you check your Mail!
+Keep room in your Mailbox, too!
+Got it, <RAMNAME>?!
+
+[MailRonaldsScoutGR2Body2Text]
+Here's the scoop on GR-2's deck.
+It's a Grass and Fighting deck!
+Be especially careful of
+Dark Arbok! Later!
+
+`                        Ronald (o_o)`
+
+[MailRonaldsScoutGR3SenderText]
+Ronald
+
+[MailRonaldsScoutGR3SubjectText]
+GR-3's Deck
+
+[MailRonaldsScoutGR3Body1Text]
+Yo, <RAMNAME>!
+Are you actually reading your Mail?
+I've got some dirt on Team GR!
+I risked my neck digging this up,
+so don't you waste it!
+
+[MailRonaldsScoutGR3Body2Text]
+Here's GR-3's deck: Grass and Fire!
+Don't let Exeggcute evolve into
+Exeggutor, or you'll get hit with
+"Big Eggsplosion"!
+
+`                        Ronald (o_o)`
+
+[MailRonaldsScoutGR4SenderText]
+Ronald
+
+[MailRonaldsScoutGR4SubjectText]
+GR-4's Deck
+
+[MailRonaldsScoutGR4Body1Text]
+Yo, <RAMNAME>!
+You checking your Mail?
+Here's the scoop on GR-4's deck.
+It's a Water and Psychic deck!
+Kingler's "Double-Edged Pincers"
+is super powerful!
+
+[MailRonaldsScoutGR4Body2Text]
+Listen. Somehow, you've gotta snap
+Murray of the Psychic Club out of
+it and get his advice. Got it?
+
+`                        Ronald (o_o)`
+
+[MailRonaldsScoutMorinoSenderText]
+Ronald
+
+[MailRonaldsScoutMorinoSubjectText]
+Morino's Deck
+
+[MailRonaldsScoutMorinoBody1Text]
+Yo, <RAMNAME>!
+I got the scoop on Team GR's
+Grass leader, Morino!
+Get this: in duels on Morino's turf,
+Grass Pokémon can't be Poisoned,
+Paralyzed, Asleep or Confused!
+
+[MailRonaldsScoutMorinoBody2Text]
+And Morino uses a deck built to
+take advantage of that!
+It's a Grass deck built around
+Gloom, Vileplume, Dark Gloom
+and Dark Vileplume!
+
+[MailRonaldsScoutMorinoBody3Text]
+Those Pokémon use attacks that
+Confuse themselves, too! Normally,
+the attacking Pokémon would end
+up Confused, but at Morino's place,
+Grass Pokémon don't get Confused!
+
+[MailRonaldsScoutMorinoBody4Text]
+This is no laughing matter!
+Somehow, you gotta torch 'em
+before they evolve into Gloom
+or Vileplume! Later!
+
+`                        Ronald (o_o)`
+
+[MailRonaldsScoutCatherineSenderText]
+Ronald
+
+[MailRonaldsScoutCatherineSubjectText]
+Catherine's Deck
+
+[MailRonaldsScoutCatherineBody1Text]
+<RAMNAME>! How ya doin'?
+This time it's the scoop on Team
+GR's Lightning leader, Catherine!
+Catherine's crackling with power!
+In duels with her, Lightning
+Pokémon do 10 more damage!
+
+[MailRonaldsScoutCatherineBody2Text]
+So for Lightning Pokémon only, a
+10-damage attack does 20 damage!
+Catherine's deck is full of
+Lightning Pokémon like Pikachu,
+Voltorb, Dark Jolteon and Dark
+Raichu!!
+
+[MailRonaldsScoutCatherineBody3Text]
+Fight her with a Lightning deck
+and overpower her?
+Or play it smart with another deck?
+That's up to you!
+
+`                        Ronald (o_o)`
+
+[MailRonaldsScoutHideroSenderText]
+Ronald
+
+[MailRonaldsScoutHideroSubjectText]
+Hidero's Deck
+
+[MailRonaldsScoutHideroBody1Text]
+<RAMNAME>! It's me! Ronald!
+I got the scoop on Team GR's
+Fire leader, Hidero!
+That place is all about Fire!
+Fire Pokémon there have no Weakness
+to Water Pokémon's attacks!
+
+[MailRonaldsScoutHideroBody2Text]
+So trying to beat Fire Pokémon by
+hitting their Weakness is useless!
+And Hidero's deck is nothing
+but Fire Pokémon, all Fire!!
+Cheap tricks like going for
+Weakness won't work!!
+
+[MailRonaldsScoutHideroBody3Text]
+The only way is to fight fair and
+square!
+Figure out which deck to use
+yourself, <RAMNAME>!
+
+`                        Ronald (o_o)`
+
+[MailRonaldsScoutKanokoSenderText]
+Ronald
+
+[MailRonaldsScoutKanokoSubjectText]
+Kanoko's Deck
+
+[MailRonaldsScoutKanokoBody1Text]
+Yo, <RAMNAME>!
+Here's the scoop on Team GR's
+Water leader, Kanoko!
+In that room, Water Pokémon are
+quick! Their Retreat Cost goes
+down by 1 Energy!
+
+[MailRonaldsScoutKanokoBody2Text]
+At Kanoko's place, Water Pokémon
+are like fish in water, so they
+retreat easily! Kanoko will keep
+retreating Pokémon in trouble!
+It's a real pain! Pokémon you could
+Knock Out just run away!
+
+[MailRonaldsScoutKanokoBody3Text]
+Find a way to keep them from
+running, or Knock them Out with big
+damage before they get away...
+Well, think it over. Later!
+
+`                        Ronald (o_o)`
+
+[MailRonaldsScoutKamiyaSenderText]
+Ronald
+
+[MailRonaldsScoutKamiyaSubjectText]
+Kamiya's Deck
+
+[MailRonaldsScoutKamiyaBody1Text]
+You're on a roll, <RAMNAME>!
+Don't forget, it's all thanks to
+me tipping you off by Mail!
+Now, here's the scoop on Team GR's
+Fighting leader, Kamiya!!
+
+[MailRonaldsScoutKamiyaBody2Text]
+Kamiya's place has Fighting power!
+In duels with Kamiya, Resistance
+can't reduce damage from Fighting
+Pokémon by 30!
+So you'll take Fighting Pokémon
+damage head-on!
+
+[MailRonaldsScoutKamiyaBody3Text]
+Even without Resistance, you'll be
+OK if you attack with a deck that
+hits Fighting Pokémon's Weakness!
+Probably... Well, good luck!
+
+`                        Ronald (o_o)`
+
+[MailRonaldsScoutMamiSenderText]
+Ronald
+
+[MailRonaldsScoutMamiSubjectText]
+Mami's Deck
+
+[MailRonaldsScoutMamiBody1Text]
+<RAMNAME>! It's Ronald!
+I got the scoop on Team GR's
+Psychic leader, Mami!
+Turns out Mami's an old granny!
+And she duels with weird rules!
+
+[MailRonaldsScoutMamiBody2Text]
+The weird rule goes like this:
+"When a Pokémon is discarded, the
+` basic Energy cards attached to it`
+` go back to the owner's Hand."`
+That's the rule!
+So you won't run low on Energy.
+
+[MailRonaldsScoutMamiBody3Text]
+But that old granny won't let you
+use that rule to your advantage!
+She's crammed a ton of Energy
+Removal and Super Energy Removal
+into her deck!
+
+[MailRonaldsScoutMamiBody4Text]
+Looks like her plan is to discard
+just the Energy before your
+Pokémon get discarded...
+And watch out for Dark Gengar's
+"Push Aside"!! That old granny is
+no ordinary lady!
+
+[MailRonaldsScoutMamiBody5Text]
+You could pack Energy Removal too
+and fight back...
+Or else hold out with a deck built
+to counter Psychic decks, I guess...
+
+`                        Ronald (o_o)`
+
+[MailRonaldsScoutColorlessAltarSenderText]
+Ronald
+
+[MailRonaldsScoutColorlessAltarSubjectText]
+Colorless Altar Info
+
+[MailRonaldsScoutColorlessAltarBody1Text]
+Yo, <RAMNAME>!
+Here's the scoop on the Colorless
+Altar! Its 3 guardians, Nishijima,
+Ishii and Samejima, make you put
+4 copies of a certain card in your
+deck before you can duel them!
+
+[MailRonaldsScoutColorlessAltarBody2Text]
+And after each duel, they change
+which card you have to put in!
+It's a real pain...
+One way around it is to lose until
+they ask for an easy-to-use card!
+But still...
+
+[MailRonaldsScoutColorlessAltarBody3Text]
+Each duel needs 4 copies of the
+card they name, so you'll have to
+look up which booster pack it's in
+using your Card Album, then duel
+whoever gives out that booster
+pack...
+
+[MailRonaldsScoutColorlessAltarBody4Text]
+Well, maybe you should come back
+to our island now and then and
+duel everyone. You've come this
+far, no use rushing it now...
+
+`                        Ronald (o_o)`
+
+[MailRonaldsScoutBiruritchiSenderText]
+Ronald
+
+[MailRonaldsScoutBiruritchiSubjectText]
+Biruritchi's Deck
+
+[MailRonaldsScoutBiruritchiBody1Text]
+<RAMNAME>...
+Looks like the fight against
+Team GR is reaching the end...
+I lost, too...
+You're the only one left now!
+I'm counting on you, <RAMNAME>!
+
+[MailRonaldsScoutBiruritchiBody2Text]
+At Team GR! At Lord Biruritchi!
+Hit 'em with all our love for
+cards, with everything you've got!!
+Please, <RAMNAME>...
+Here's the last bit of info
+I can give you.
+
+[MailRonaldsScoutBiruritchiBody3Text]
+Team GR's top brass beat me to a
+pulp, so...
+I couldn't dig up much on Team GR's
+Lord Biruritchi, but it seems
+Biruritchi has 4 different decks!
+
+[MailRonaldsScoutBiruritchiBody4Text]
+And your duel with Biruritchi is a
+long battle: "First to 2 wins!"
+He'll probably switch decks every
+duel! He's a master of all 4 decks!
+
+[MailRonaldsScoutBiruritchiBody5Text]
+So...
+you'd better get lots of decks
+ready, too!
+Good luck, <RAMNAME>!!
+
+`                        Ronald (o_o)`
+
+[MailLinkDuelSenderText]
+Battle Center
+
+[MailLinkDuelSubjectText]
+Let's Link Duel!
+
+[MailLinkDuelBody1Text]
+News from the Battle Center!
+Use the Game Link Cable and duel
+to your heart's content!
+Win a duel, and you get 3 booster
+packs! Even if you lose, you get
+1 booster pack!
+
+[MailLinkDuelBody2Text]
+Win 50 link duels, and we'll
+give you a special Battle Center
+coin!
+We look forward to your visit!
+
+`                Battle Center m(__)m`
+
+[MailboxTitleText]
+`  Mailbox  `
+
+[MailboxFullWarningText]
+Your Mailbox is full, so new Mail
+can't be received. To read new
+Mail, please delete any Mail you
+no longer need.
+
+[MailboxNoNewMailText]
+No new Mail
+has arrived.
+
+[MailboxNewMailText]
+New Mail has arrived!
+
+[MailboxChooseMailText]
+Please select Mail.
+
+[MailboxSenderText]
+From:
+
+[MailboxSubjectText]
+Subject:
+
+[MailboxActionPromptText]
+What to do?
+
+[MailboxActionReadText]
+Read
+
+[MailboxActionDeleteText]
+Delete
+
+[MailboxActionDeleteConfirmText]
+Really delete this Mail?
+
+[MailboxActionDeleteUnreadConfirmText]
+It's unread. Delete it anyway?
+
+[MailboxDeletedText]
+Mail deleted.
+
+[DebugSendMailText]
+Send Mail
+
+[MailboxEmptyText]
+You have no Mail.
+
+[SamRulesEnergyText]
+About Energy
+
+[SamRulesAttackText]
+Using Attacks
+
+[SamRulesSwitchText]
+Switching Pokémon
+
+[SamRulesEvolutionText]
+Evolving Pokémon
+
+[SamRulesPokemonPowerText]
+Using Pokémon Powers
+
+[SamRulesEndOfTurnText]
+Ending Your Turn
+
+[SamRulesDecisionText]
+Winning and Losing
+
+[SamRulesQuitText]
+Nothing to Ask
+
+[MasonLabPracticeDuelText]
+Practice Duel
+
+[MasonLabRegularDuelText]
+Normal Duel
+
+[SamRulesText]
+Explain Rules
+
+[SamQuitText]
+Never Mind
+
+[AaronStep1Text]
+Step 1
+
+[AaronStep2Text]
+Step 2
+
+[AaronStep3Text]
+Step 3
+
+[AaronStep4Text]
+Step 4
+
+[GrandMasterCupPrizesTitleText]
+Grand Master Cup Prizes
+
+[GrandMasterCupPrizesDialogText]
+Your Grand Master Cup prizes!
+Choose any 2 cards you like.
+
+[GrandMasterCupPrizesConfirmPromptText]
+Are these 2 cards OK?
+
+[DebugTitleScreenTentativeText]
+Temp Title Screen
+
+[DebugPlayerGenderSelectionScreenText]
+Gender Menu
+
+[DebugStartMenuText]
+Start Menu
+
+[GameCenterBlackBoxTitleText]
+`  Black Box  `
+
+[GameCenterBlackBoxDescriptionText]
+Put in 1 to 5 cards, and you'll
+receive new cards in return!
+The cards you get depend on the
+combination you use, so try it
+with all sorts of cards!
+
+[GameCenterBlackBoxStartPromptText]
+Want to play the Black Box?
+
+[GameCenterBlackBoxSaveRequestText]
+Before you play, please
+write in your "Diary."
+
+[GameCenterBlackBoxUnableNotEnoughChipsText]
+The Black Box costs 5 chips a play.
+You don't have enough chips!
+
+[GameCenterBlackBoxUnableLastOutputRemainingText]
+Mail from the Black Box is still
+waiting in your Mailbox.
+
+[GameCenterBlackBoxUnableLastOutputRemainingTextCont]
+Please read it and get your cards
+first, then come back.
+
+[GameCenterBlackBoxUnableSaveRequiredText]
+You can't play unless you
+write in your "Diary."
+
+[GameCenterBlackBoxProcedureText]
+`      Choosing Cards to Send`
+
+1. Choose cards to send as you would
+`   for a deck. Left/Right adds more.`
+
+2. When all your cards are chosen,
+`   press B to open the menu.`
+
+3. Select "Send" and your cards
+`   are all set to be sent.`
+
+[GameCenterBlackBoxProcedureDialogText]
+Here's how to choose the cards
+to send to the Black Box.
+
+[GameCenterBlackBoxDoneText]
+You've sent cards
+to the Black Box!
+
+[GameCenterToBeMailedText]
+The result will arrive in your
+Mailbox. Look forward to it!
+
+[MainMenuNewGameInsteadOfContinueWarning1Text]
+Save data already exists.
+
+[MainMenuNewGameInsteadOfContinueWarning2Text]
+If you start over now,
+you will lose all of your cards.
+
+[MainMenuNewGameInsteadOfContinueConfirmPromptText]
+Is that still OK?
+
+[MainMenuNewGameInsteadOfContinueDeletedText]
+All data has been deleted.
+
+[ProloguePlayerRecapLine1Text]
+<RAMNAME> loves collecting
+Pokémon cards.
+
+[ProloguePlayerRecapLine2Text]
+To win the Legendary Pokémon Cards
+of this island, <RAMNAME>
+
+[ProloguePlayerRecapLine3Text]
+took on the 8 Club Masters and
+the guardians of those cards,
+
+[ProloguePlayerRecapLine4Text]
+the 4 Grand Masters...
+
+[ProloguePlayerRecapLine5Text]
+And finally!
+The Grand Masters were defeated,
+
+[ProloguePlayerRecapLine6Text]
+and the 4 Legendary Pokémon Cards
+were won!
+
+[ProloguePlayerRecapLine7Text]
+Then, one day...
+trouble struck!
+
+[PrologueGRInvasionLine1Text]
+Suddenly,
+a mysterious gang attacked!
+
+[PrologueGRInvasionLine2Text]
+Their name was "Team GR"!
+Short for "Team Great Rocket"!
+
+[PrologueGRInvasionLine3Text]
+Team GR attacked the clubs
+and stole their cards!
+
+[ProloguePlayerToLabLine1Text]
+Robbed of the cards by Team GR,
+<RAMNAME> headed for
+
+[ProloguePlayerToLabLine2Text]
+the laboratory of Dr. Mason,
+the Pokémon card researcher,
+
+[ProloguePlayerToLabLine3Text]
+to tell him what had happened...
+
+[IntroductionText]
+Introduction
+
+[ConfigTitleText_2]
+Change Settings
+
+[ConfigFrameColorText]
+`  Window Color  `
+
+[ConfigFrameColorRedText]
+Red
+
+[ConfigFrameColorBlueText]
+Blue
+
+[ConfigFrameColorGreenText]
+Green
+
+[ConfigFrameColorBlackText]
+Dark
+
+[GameCenterBlackBoxSendingHeaderText]
+Sending
+
+[GameCenterBlackBoxConfirmPromptText]
+Send these cards?
+
+[GameCenterBlackBoxCancelPromptText]
+Quit the Black Box?
+
+[GameCenterBlackBoxChipsPaidText]
+Now then, we'll take 5 chips
+as the fee.
+
+[GameCenterCardDungeonBet10Text]
+Bet 10
+
+[GameCenterCardDungeonBet20Text]
+Bet 20
+
+[GameCenterCardDungeonBet30Text]
+Bet 30
+
+[GameCenterCardDungeonBet50Text]
+Bet 50
+
+[GameCenterCardDungeonBet100Text]
+Bet 100
+
+[GameCenterCardDungeonBetCancelText]
+Cancel
+
+[GameCenter10ChipsPerPlayText]
+10 Chips
+
+[GameCenter20ChipsPerPlayText]
+20 Chips
+
+[GameCenterCardDungeonTitleText]
+`  Card Dungeon  `
+
+[GameCenterCardDungeonDescriptionText]
+Bet chips and duel!
+Choose how many chips to bet.
+Win, and the chips you bet double!
+Lose, and your chips are taken,
+and it's game over!
+
+[GameCenterCardDungeonUnableNotEnoughChipsText]
+You need at least 10 chips.
+Please collect more chips.
+
+[GameCenterCardDungeonDialogText]
+Keep on dueling and
+collect lots of chips!
+
+[MainMenuContinueFromDiaryInsteadOfDuelWarning1Text]
+There's save data from a duel
+interrupted by a power loss.
+
+[MainMenuContinueFromDiaryInsteadOfDuelWarning2Text]
+Choose "Continue Duel" to resume
+the duel that was interrupted.
+
+[MainMenuContinueFromDiaryInsteadOfDuelWarning3Text]
+If you start now, "Continue Duel"
+will disappear from the menu,
+
+[MainMenuContinueFromDiaryInsteadOfDuelWarning4Text]
+and the game will start from where
+you last wrote in your "Diary."
+
+[MainMenuContinueFromDiaryInsteadOfDuelConfirmText]
+Continue from your Diary?
+
+[TCGChallengeMachineText]
+Challenge Mach.
+
+[GRChallengeMachineText]
+GR Challenge Machine
+
+[ChallengeMachineScoreTitleText]
+<RAMNAME>'s Score
+
+[ChallengeMachineSetsWonRecordText]
+Sets of 5 Cleared
+
+[ChallengeMachineCurrentWinStreakText]
+Current Win Streak
+
+[ChallengeMachineWinStreakRecordText]
+Best Win Streak
+
+[AttemptsUnitText]
+
+[WinsUnitText]
+
+[ChallengeMachineStartPromptText]
+Want to play the Challenge Machine?
+
+[OpponentGrassScienceClubMemberSimpleText]
+Club Member <GRASS>
+
+[OpponentWaterClubMemberSimpleText]
+Club Member <WATER>
+
+[OpponentFireClubMemberSimpleText]
+Club Member <FIRE>
+
+[OpponentPsychicClubMemberSimpleText]
+Club Member <PSYCHIC>
+
+[OpponentLightningClubMemberSimpleText]
+Club Member <LIGHTNING>
+
+[OpponentRockFightingClubMemberSimpleText]
+Club Member <FIGHTING>
+
+[ChallengeMachineOpponentListDialogText]
+Here are your opponents this time.
+
+[ChallengeMachineOpponent1DialogText]
+<RAMNAME> is on a <RAMNUM>-win streak!
+First up is <RAMTEXT>.
+
+[ChallengeMachineDuelPromptText]
+Start the duel?
+
+[ChallengeMachineOpponentGrandMasterText]
+Grand Master
+
+[GameCenterBillsPCTitleText_2]
+Bill's Computer
+
+[GameCenterXChipsPerPlayText]
+<RAMNUM> Chips
+
+[IncompleteText_2]
+WIP
+
+[ChallengeMachineOpponentXDialogText]
+<RAMNAME> is on a <RAMNUM>-win streak!
+Opponent <RAMNUM> is <RAMTEXT>.
+
+[ChallengeMachineWinDialogText]
+Opponent <RAMNUM>:
+You beat <RAMTEXT>!
+
+[ChallengeMachineLossDialogText]
+Opponent <RAMNUM>:
+You lost to <RAMTEXT>!
+
+[ChallengeMachineLossDialogWinStreakText]
+<RAMNAME>'s win streak
+ended at <RAMNUM>.
+
+[DebugCreditsText]
+Credits
+
+[CreditsProducersText]
+Producers
+
+[CreditsProducersListText]
+Tsunekazu Ishihara
+Shinichi Nakamoto
+Takahiro Harada
+
+[CreditsDirectorText]
+Director
+
+[CreditsDirectorListText]
+Koji Arai
+
+[CreditsStoryText]
+Story
+
+[CreditsStoryListText]
+Teruyuki Fujita
+
+[CreditsPlannerText]
+Planner
+
+[CreditsPlannerListText]
+Yoshimasa Kitamura
+
+[CreditsProgrammersText]
+Program
+
+[CreditsProgrammersList1Text]
+Masahiro Tobita
+
+[CreditsProgrammersList2Text]
+Masaki Tsumori
+Kei Kondo
+Makoto Yoshida
+
+[CreditsProgrammersList3Text]
+Satoshi Mikami
+
+[CreditsGBGraphicDesignersText]
+GB Graphic Design
+
+[CreditsGBGraphicDesignersList1Text]
+Yasuhiro Ichizawa
+
+[CreditsGBGraphicDesignersList2Text]
+Tsuguyuki Yamamoto
+Mari Matsuda
+
+[CreditsGBGraphicDesignersList3Text]
+Moto Yamaguchi
+Kazushi Kosaka
+Shigeru Sato
+Chiaki Nishiki
+
+[CreditsGBGraphicDesignersList4Text]
+Hideki Soma
+
+[CreditsSoundDirectorText]
+Sound Direction
+
+[CreditsSoundDirectorListText]
+Toshiaki Takimoto
+
+[CreditsMusicText]
+Music
+
+[CreditsMusicListText]
+Ichiro Shimakura
+
+[CreditsMusicProgrammerText]
+Music Programming
+
+[CreditsMusicProgrammerListText]
+Keita Hoshi
+
+[CreditsSoundEffectsText]
+Sound Effects
+
+[CreditsSoundEffectsListText]
+Ichiro Shimakura
+Masato Aihara
+
+[CreditsSoundSupportText]
+Sound Support
+
+[CreditsSoundSupportListText]
+K. Takahashi
+Hideki Oka
+
+[CreditsCardGameProductionText]
+Card Game Production
+
+[CreditsCardGameProductionList1Text]
+Takumi Akabane
+
+[CreditsCardGameProductionList2Text]
+Koichi Oyama
+
+[CreditsCardGameProductionList3Text]
+Akihiko Miura
+
+[CreditsCardIllustratorsText]
+Card Illustrators
+
+[CreditsCardIllustratorsList1Text]
+Ken Sugimori
+Hironobu Yoshida
+Atsuko Nishida
+Mitsuhiro Arita
+
+[CreditsCardIllustratorsList2Text]
+Keiji Kinebuchi
+Kagemaru Himeno
+Miki Tanaka
+Sumiyoshi Kizuki
+
+[CreditsCardIllustratorsList3Text]
+Shinichi Yoshida
+Naoyo Kimura
+Aya Kusube
+Tomokazu Komiya
+
+[CreditsCardIllustratorsList4Text]
+Hikaru Koike
+Nobuyuki Habu
+Yukiko Baba
+Masako Yamashita
+
+[CreditsCardIllustratorsList5Text]
+Ai Kurihara
+Kasumi Matsuda
+Keita Takahashi
+Yuki Kawamura
+
+[CreditsCardIllustratorsList6Text]
+Kazuhiko Nishihara
+Toshinao Aoki
+Benimaru Itoh
+Hiromichi Sugiyama
+
+[CreditsGuestAppearancesText]
+Guest Appearances
+
+[CreditsGuestAppearancesListText]
+Imakuni?
+Kunimi Kawamura
+Ryutaro Yamaguchi
+Yusuke Kurushima
+
+[CreditsMasteringText]
+Mastering
+
+[CreditsMasteringListText]
+T. Komatsu
+
+[CreditsManualProductionText]
+Manual Production
+
+[CreditsManualProductionListText]
+Haruki Mitani
+Hidenori Sezaki
+
+[CreditsManualIllustrationsText]
+Manual Illustrator
+
+[CreditsManualIllustrationsListText]
+Kagemaru Himeno
+
+[CreditsPackageArtworkText]
+Package Artwork
+
+[CreditsPackageArtworkListText]
+Hideki Kazama
+
+[CreditsOriginalPokemonCreatorText]
+Original Pokémon Concept
+
+[CreditsOriginalPokemonCreatorListText]
+Satoshi Tajiri
+
+[CreditsProductionAssistanceText]
+Production Support
+
+[CreditsProductionAssistanceListText]
+Shinji Hatano
+Satoshi Yamato
+
+[CreditsAssistanceText]
+Assistance
+
+[CreditsAssistanceList1Text]
+N. Takahashi
+Daisaku Nishida
+Y. Tsukuda
+
+[CreditsAssistanceList2Text]
+Satoshi Hosaka
+Yukiko Tomita
+
+[CreditsAssistanceList3Text]
+Toru Osawa
+Nobuto Koganezawa
+
+[CreditsAssistanceList4Text]
+Hiroyuki Mikami
+Kunji Katsuki
+
+[CreditsAssistanceList5Text]
+Keigo Yasuda
+Rich Wilson
+
+[CreditsAssistanceList5ContText]
+`          Kunihiko`
+
+[CreditsAssistanceList6Text]
+Creatures
+
+[CreditsAssistanceList7Text]
+Card Game
+
+[CreditsAssistanceList7ContText]
+`  Production Dept.`
+
+[CreditsAssistanceList8Text]
+Test Players
+
+[CreditsProjectManagerText]
+Project Manager
+
+[CreditsProjectManagerListText]
+Yasutaka Kakiseko
+
+[CreditsSupervisorText]
+Supervisor
+
+[CreditsSupervisorListText]
+Hiroshi Kudo
+
+[CreditsExecutiveProducerText]
+Executive Producer
+
+[CreditsExecutiveProducerListText]
+Hiroshi Yamauchi
+
+[CreditsGameProductionText]
+Developed by
+
+[CreditsGameProductionListText]
+H U D S O N
+
+[DebugNameEntryText]
+Name Entry
+
+[PleasePressAText]
+Press the A Button.
+
+[AttendantText]
+Attendant
+
+[DebugClearMailText]
+Clear Mail
+
+[ObtainedGRCoinPieceTotalNumberText]
+That makes <RAMNUM> GR Coin pieces!
+
+[ChallengeMachineQuitWinStreakWarningText]
+If you quit the duel, your win
+streak will come to an end.
+
+[ChallengeMachineQuitPromptText]
+Do you still want to quit?
+
+[ChallengeMachineWonASetText]
+Congratulations!
+You beat all 5 opponents!
+
+[ChallengeMachineSetsWonText]
+<RAMNAME> has beaten 5 in a row
+a total of <RAMNUM> times!!
+
+[ChallengeMachineComeAgainText]
+We look forward to
+your next challenge!
+
+[OpenedBoosterPackText]
+<RAMNAME> looked inside
+the booster pack!!
+
+[NoCardsSelectedTryAgainText]
+No cards have been chosen.
+Please choose again.
+
+[GameCenterToBeMailedText_2]
+The result will arrive in your
+Mailbox. Look forward to it!
+
+[DebugDummyLinesText]
+Dummy line!
+
+[DebugScenarioDebugMenuText]
+`    Scenario Debug Menu`
+
+[DebugModifyEventsText]
+Modify Events
+
+[DebugModifyFlagsText]
+Modify Flags
+
+[DebugModifyCountersText]
+Modify Counters
+
+[DebugModifyCardCountText]
+Modify Card Counts
+
+[DebugReturnToGameText]
+Back to Game
+
+[DebugModifyFlagsNumberLabelText]
+Flag No.
+
+[DebugModifyCountersNumberLabelText]
+Counter No.
+
+[DebugModifyCardCountNumberLabelText]
+Card No.<RAMNUM>
+
+[DebugModifyCardCountCardNameText]
+`[<RAMTEXT>]`
+
+[DebugBeatTheGameText]
+Set to Game Cleared

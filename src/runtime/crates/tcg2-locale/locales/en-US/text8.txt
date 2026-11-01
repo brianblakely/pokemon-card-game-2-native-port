@@ -1,0 +1,1749 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text8.asm, by label (format: src/text.rs).
+
+[Text0c95]
+Now then. Next, you should
+head for the GR Water Fort.
+
+[Text0c96]
+So you already have it...
+the "GR Water Coin"...
+In that case, you should head
+for the GR Fighting Fort.
+
+[Text0c97]
+Hold on a sec! I'm thinking up
+a new recipe right now.
+Hmm... With you around,
+I just can't concentrate...
+Forget it! I'm done
+thinking about it!
+I'm Jes of Team GR!
+
+On Hidero's orders, I've gotta
+cook your goose!
+
+[Text0c98]
+Hurry up and duel me already!
+I'm busy, y'know!
+If you keep dawdling, I'll push
+you into the lava!
+
+[Text0c99]
+Duel Jes?
+
+[Text0c9a]
+Let's play with 4 Prizes
+and get this over with!
+
+[Text0c9b]
+I wanna think up a new recipe.
+So skipping the duel is fine by me!
+You're the one who'll be
+in a jam, after all.
+
+[Text0c9c]
+I've thought up a few new recipes,
+so I don't mind dueling you.
+
+[Text0c9d]
+We'll play with 4 Prizes.
+
+[Text0c9e]
+Oh, OK. Then I'll go back to
+thinking up recipes.
+
+[Text0c9f]
+Um... I lost, so first
+it's a booster pack, right?
+
+[Text0ca0]
+Aw, man, I won.
+I'm busy, y'know.
+Hurry up and duel me,
+and win this time!
+
+[Text0ca1]
+For you, the winner,
+a booster pack.
+
+[Text0ca2]
+Hm... Well, dueling you is
+kinda fun, surprisingly.
+If you want, let's duel again.
+
+[Text0ca3]
+Well, the duel's over,
+so I'll go think up recipes.
+
+[Text0ca4]
+I'll open the door to
+Yuki's room now.
+Press the switch on this rock,
+and it opens.
+
+[Text0ca5]
+Now you can go on ahead, right?
+Better hurry along.
+
+[Text0ca6]
+I am... Shoko... of Team GR...
+
+You... must... duel...
+with me...
+If you win... that woman...
+
+[Text0ca7]
+Grand Master... Courtney...
+I will... give her... back...
+
+[Text0ca8]
+This duel... has a condition...
+Put... 4 Eevee... in your deck...
+Then... I will... duel you...
+
+[Text0ca9]
+4 Eevee... in your deck...
+put them in...
+Then... we will... duel...
+
+[Text0caa]
+Duel Shoko?
+
+[Text0cab]
+Not enough... Eevee...
+Put them... in your deck...
+then... come back...
+
+[Text0cac]
+4... Prizes...
+
+[Text0cad]
+Do... as you... please...
+
+[Text0cae]
+4 Eevee... in your deck...
+put them in...
+Then... we will... duel...
+
+[Text0caf]
+...I... lost...
+
+[Text0cb0]
+You... are strong...
+
+[Text0cb1]
+Heh...
+I... win.
+
+[Text0cb2]
+You... are very... strong...
+
+[Text0cb3]
+And you use... your deck...
+so... very well...
+
+[Text0cb4]
+The door... will not open...
+unless... you beat me...
+
+[Text0cb5]
+...Courtney... I will return her...
+
+[Text0cb6]
+How pathetic, for Grand Master
+Courtney to get caught by Team GR.
+But... hee hee... I'm so happy
+you rescued me, <RAMNAME>.
+I'm so happy, I'll give you
+a card as thanks.
+
+[Text0cb7]
+Use it in your duels from now on.
+Team GR is strong. Be careful!
+Hee hee... I'll be heading back
+to the Pokémon Dome.
+At the Pokémon Dome... hee hee...
+I'll be waiting.
+
+[Text0cb8]
+...Go... see... Hidero...
+
+[Text0cb9]
+...Go...
+
+[Text0cba]
+I'm an old grampy in Team GR,
+so they all call me GRampy!
+But! Young folks these days
+are just no good!!
+They treasure their decks so much,
+they won't even trade cards!
+So even when I want to build a deck,
+I don't have enough cards!
+You're not a Team GR member,
+are you, now?
+Won't you let me have
+a "Dark Charizard<Lv>38"?
+In return, I'll give you
+a "Charizard<Lv>76" from my cards!
+A rare "Charizard<Lv>76," it is!
+Well, how about it? Will you trade?
+
+[Text0cbb]
+I hear you're standing up
+to Team GR all by yourself.
+Fighting alone, eh...
+I like that a whole lot!!
+I really must ask you to trade
+your "Dark Charizard<Lv>38"
+for my very own card,
+"Charizard<Lv>76"!
+
+[Text0cbc]
+I've made up my mind to trade
+cards with you.
+I won't trade with anyone else,
+so I'll be waiting.
+
+[Text0cbd]
+Hmm... So you don't have
+a "Dark Charizard<Lv>38."
+I've no mind to trade
+with anyone but you.
+Please, find a "Dark Charizard<Lv>38"
+and trade with me.
+
+[Text0cbe]
+Even I can't take a card
+out of your deck.
+Take good care of your deck,
+so you're ready for battle!
+
+[Text0cbf]
+Oh! You've got a
+"Dark Charizard<Lv>38"!
+Then let's make the trade!
+
+[Text0cc0]
+Team GR these days is too
+hung up on decks.
+I hope fighting you will
+open their eyes...
+
+[Text0cc1]
+Thanks to your battles,
+Team GR is changing bit by bit.
+That's a good thing.
+
+[Text0cc2]
+Team GR is strong!
+Team GR is right!
+Cards are only worth something if
+you put 'em in a deck and use 'em!!
+...That's what Team GR members say.
+You're not in Team GR, are you?
+The truth is, I think collecting
+cards is fine too.
+'Cause everybody has their own
+way of having fun, right?
+Team GR would nag me about it,
+so keep this a secret!
+
+[Text0cc3]
+Now that Biruritchi lost, I can
+finally say it out loud!
+I love collecting cards AND
+dueling sooo much!!!
+
+[Text0cc4]
+I've been waiting for you,
+<RAMNAME>!
+Um... and then...
+what was it?
+
+[Text0cc5]
+(Um, first I say my name,
+ and then a duel...)
+
+[Text0cc6]
+I'm Yuki,
+from Team GR!
+<RAMNAME>, we're gonna cook...
+I mean, duel!
+I'm gonna duel you, <RAMNAME>!
+
+If you win,
+I'll give you 1 booster pack!
+
+[Text0cc7]
+Duel, duel, DUUUEL!
+...That's what we do, right?
+Um, for a duel with me...
+what was it again?
+
+[Text0cc8]
+(The cards you can put in are...
+ only Fire Energy...)
+
+[Text0cc9]
+My duel comes with
+a condition!
+The only Energy cards you can
+put in are Fire Energy!
+Is your deck
+all ready?
+
+[Text0cca]
+My duel comes with
+a condition!
+Um, the condition is...
+what was it...
+
+[Text0ccb]
+(The cards you can put in are...
+ Fire Energy...)
+
+[Text0ccc]
+The only Energy cards you can
+put in are Fire Energy!
+If you win the duel,
+I'll give you a booster pack!
+
+[Text0ccd]
+Duel Yuki?
+
+[Text0cce]
+Huh? There's some other Energy
+in there...
+
+[Text0ccf]
+(If there's other Energy in there,
+ have them come back Fire-only.)
+
+[Text0cd0]
+The only Energy cards you can
+put in are Fire Energy!
+Put in only Fire Energy,
+and come back again!
+
+[Text0cd1]
+We'll play with 4 Prizes!
+
+[Text0cd2]
+You won't duel?
+In that case...
+
+[Text0cd3]
+(If they turn down the duel...
+ tell them to come again...)
+
+[Text0cd4]
+Please come duel me again!
+
+[Text0cd5]
+Oh? <RAMNAME>! Um, so...
+a duel after I've lost once is...
+
+[Text0cd6]
+(Duel the same way
+ as before...)
+
+[Text0cd7]
+My duel comes with
+a condition!
+The only Energy cards you can
+put in are Fire Energy!
+If you win the duel,
+I'll give you a booster pack!
+
+[Text0cd8]
+There's some other
+Energy in there!
+Put in only Fire Energy,
+and come back again!
+
+[Text0cd9]
+Please come duel me again!
+
+[Text0cda]
+Um, if I lose, I hand over
+a booster pack, right?
+
+[Text0cdb]
+Huh? I won!
+In that case...
+
+[Text0cdc]
+(If I win...
+ brag about winning...)
+
+[Text0cdd]
+How about that, I won!
+Aren't I great? Ahem!
+You lost, <RAMNAME>,
+so please go home!
+
+[Text0cde]
+I'm handing over a booster pack!
+
+[Text0cdf]
+(From the 2nd time on, tell them
+ to come duel again...)
+
+[Text0ce0]
+Come back and duel me again!
+
+[Text0ce1]
+You lost, <RAMNAME>,
+so please go home!
+
+[Text0ce2]
+Um, if I lose the duel...
+
+[Text0ce3]
+(The first time,
+ open the door...)
+
+[Text0ce4]
+Um, I'll open the door
+to Shoko's room!
+
+[Text0ce5]
+Door, open!
+
+[Text0ce6]
+OK, go see Shoko!
+
+[PawnWantsToDuelInitialText]
+I'm Pawn!
+The Dungeon's very first opponent!
+Duel me and win, and you get to
+go deeper into the Dungeon!
+But if you wanna duel,
+I'll take 10 chips from you.
+Of course, if you win,
+I'll give you back 20 chips!
+Will you pay 10 chips
+and duel me?
+
+[PawnWantsToDuelRepeatText]
+Duel me and win,
+and you can go on ahead!
+But you need 10 chips to duel me.
+Still wanna duel?
+
+[PawnDuelPromptText]
+Duel Pawn?
+
+[PawnDuelStartText]
+Our duel's gonna be with 4 Prizes!
+All right, let's duel!
+
+[PawnDeclinedDuelText]
+You won't duel?
+Are you really sure?
+
+[PawnQuitDuelPromptText]
+Give up on dueling Pawn?
+
+[PawnResumeDuelText]
+Then you'll bet chips
+and duel me, right?
+
+[PawnPlayerQuitText]
+Well then, please see yourself
+out of the Dungeon!
+
+[PawnProceedRepeatText]
+Go right ahead!
+You can go on through!
+
+[PawnPlayerWon1Text]
+Won-der-ful!
+OK, here are your chips back!
+
+[PawnPlayerWon2Text]
+You beat me, so
+you can go on ahead!
+You can leave the Dungeon if you
+like, or keep going. Up to you!
+What'll it be?
+
+[PawnPlayerLostText]
+You lose!
+
+Losers have to
+leave the Dungeon!
+
+[PawnProceedWithCardDungeonPromptText]
+Go deeper into the Dungeon?
+
+[PawnProceedInitial1Text]
+OK, I'll open the door
+in the back for you!
+
+[PawnProceedInitial2Text]
+Here you go!
+Go on ahead!
+
+[PawnDeclinedProceedingText]
+If you won't go on, you'll have
+to leave the Dungeon!
+Is that OK with you?
+
+[PawnWithdrawFromCardDungeonPromptText]
+Leave the Dungeon?
+
+[PawnPlayerWithdrewText]
+Well then, bye-bye!
+
+[KnightWantsToDuelInitialText]
+I am Knight, who stands guard
+over this chamber.
+Duel me and prevail,
+and you may proceed.
+To duel, you must wager
+either 10 or 20 chips.
+Should you win, I shall repay you
+20 for 10, or 40 for 20.
+What say you?
+Will you duel me?
+
+[KnightWantsToDuelRepeatText]
+To proceed, you must
+duel me and prevail.
+To duel, you must put up
+either 10 or 20 chips.
+Should you win, I shall repay you
+20 for 10, or 40 for 20.
+What say you?
+Will you duel me?
+
+[KnightDuelPromptText]
+Duel Knight?
+
+[KnightDuelStartText]
+Very well. We shall duel
+for <RAMNUM> chips.
+A duel with me shall be
+played with 4 Prizes.
+Now then...
+have at you!
+
+[KnightDeclinedDuelText]
+What?! You say you
+will not duel?
+If you do not duel, you must
+leave the Dungeon.
+Moreover, if you leave even once,
+you must start over from the top.
+
+[KnightQuitDuelPromptText]
+Give up on dueling Knight?
+
+[KnightResumeDuelText]
+Then...
+you will duel?
+
+[KnightPlayerQuitText]
+Then, farewell.
+
+[KnightProceedRepeatText]
+Your next opponent
+is Sir Bishop.
+Sir Bishop is mighty,
+so give it your all.
+
+[KnightPlayerWon1Text]
+Congratulations!
+I shall hand over your chips.
+
+[KnightPlayerWon2Text]
+Will you proceed?
+Or will you stop here?
+
+[KnightPlayerLostText]
+You have lost.
+I must ask you to leave the Dungeon.
+
+[KnightProceedWithCardDungeonPromptText]
+Go deeper into the Dungeon?
+
+[KnightProceedInitial1Text]
+Then I shall
+open the door.
+
+[KnightProceedInitial2Text]
+Come, come.
+Proceed to the inner chamber.
+
+[KnightDeclinedProceedingText]
+If you will not proceed,
+you must leave the Dungeon.
+Is that acceptable?
+
+[KnightWithdrawFromCardDungeonPromptText]
+Leave the Dungeon?
+
+[KnightPlayerWithdrewText]
+If you will not duel, I must
+ask you to leave the Dungeon.
+
+[BishopWantsToDuelInitialText]
+I'm the great Bishop!
+I won't let you by so easily!
+If you want to duel me,
+hand over 10 or 30 chips!
+Win, and I'll let you through,
+and pay you back extra chips!
+Bet 30, and I'll give you
+back 60!
+Well? Will you hand over
+chips and duel me?
+
+[BishopWantsToDuelRepeatText]
+If you want more chips,
+you ought to duel me!
+And if you duel, you'll pay
+chips, of course!
+
+[BishopDuelPromptText]
+Duel Bishop?
+
+[BishopNotEnoughChipsText]
+Looks like you're short on chips.
+Come back when you've got more!
+
+[BishopDuelStartText]
+<RAMNUM> chips, eh?
+All right, let the duel begin!
+We'll play with 4 Prizes!
+
+[BishopDeclinedDuelText]
+You won't duel?
+Don't you want more chips?
+
+[BishopQuitDuelPromptText]
+Give up on dueling Bishop?
+
+[BishopResumeDuelText]
+So you want to duel after all, eh?
+
+[BishopPlayerQuitText]
+Then I'll be having you
+leave the Dungeon.
+
+[BishopProceedRepeatText]
+Our next duel will be when you
+come into the Dungeon again.
+
+[BishopPlayerWon1Text]
+You win!
+As promised, here are your chips.
+
+[BishopPlayerWon2Text]
+You beat me, so I'll open
+the door. What'll you do?
+
+[BishopPlayerLostText]
+You lose!
+Out of the Dungeon with you!
+
+[BishopProceedWithCardDungeonPromptText]
+Go deeper into the Dungeon?
+
+[BishopProceedInitial1Text]
+All right, I'll open the door!
+
+[BishopProceedInitial2Text]
+Now, go on ahead!
+
+[BishopDeclinedProceedingText]
+Then out of the
+Dungeon you go.
+
+[BishopWithdrawFromCardDungeonPromptText]
+Leave the Dungeon?
+
+[BishopPlayerWithdrewText]
+Then I'll be having you
+leave the Dungeon!
+
+[RookWantsToDuelInitialText]
+I'm Rook.
+Not bad, making it this far.
+To meet Her Majesty the Queen
+within, you have to beat me.
+If you want to duel,
+hand over 30 or 50 chips.
+Got it? Will you hand over
+your chips and duel me?
+
+[RookWantsToDuelRepeatText]
+To meet Her Majesty the Queen,
+you must fight me.
+If you want to duel,
+hand over 30 or 50 chips.
+Got it? Will you hand over
+your chips and duel me?
+
+[RookDuelPromptText]
+Duel Rook?
+
+[RookNotEnoughChipsText]
+Ahahahaha... Don't mess with me.
+Honestly, what a pain.
+You don't have enough chips!
+
+[RookDuelStartText]
+<RAMNUM> chips, then.
+I accept your challenge.
+I'll be fighting
+with 5 Prizes.
+
+[RookDeclinedDuelText]
+You're really not going to duel?
+
+[RookQuitDuelPromptText]
+Give up on dueling Rook?
+
+[RookResumeDuelText]
+So you really will duel me?
+
+[RookPlayerQuitText]
+Then get out
+of the Dungeon!
+
+[RookProceedRepeatText]
+Beat Her Majesty the Queen,
+and no one in here can match you.
+
+[RookPlayerWon1Text]
+I'll admit it with good grace.
+I lost...
+
+[RookPlayerWon2Text]
+What will you do?
+Will you face Her Majesty?
+
+[RookPlayerLostText]
+I win.
+
+You lost, so you'll be leaving
+the Dungeon.
+
+[RookProceedWithCardDungeonPromptText]
+Go deeper into the Dungeon?
+
+[RookProceedInitial1Text]
+Looks like you're prepared,
+so I'll open the door!
+
+[RookProceedInitial2Text]
+Her Majesty the Queen awaits ahead.
+Go, and steel yourself!
+
+[RookDeclinedProceedingText]
+Then you'll have no choice but to
+leave the Dungeon. You sure?
+
+[RookWithdrawFromCardDungeonPromptText]
+Leave the Dungeon?
+
+[RookPlayerWithdrewText]
+Then begone from this place.
+
+[QueenWantsToDuelInitialText]
+Oh!
+A challenger, I see!
+Few indeed ever make it
+all the way to me.
+I grew so impatient, I came to
+wait for you at the duel table.
+I am Queen,
+your final opponent.
+Alas, His Majesty the King
+resides in the Castle.
+And so, here,
+it is I who shall face you.
+My duels require
+50 or 100 chips.
+Rather a lot of chips, I admit,
+but will you not duel me?
+
+[QueenWantsToDuelRepeatText]
+My duels require
+50 or 100 chips.
+Rather a lot of chips, I admit,
+but will you not duel me?
+
+[QueenDuelPromptText]
+Duel Queen?
+
+[QueenNotEnoughChipsText]
+Alas, with that,
+you have not enough chips.
+
+[QueenDuelStart1Text]
+So you accept my challenge!
+A fine spirit.
+Now, take a seat
+in that chair there.
+
+[QueenDuelStart2Text]
+We shall play with 6 Prizes.
+Now, let us do battle!!
+
+[QueenDeclinedDuelText]
+You would forgo our duel
+and leave the Dungeon?
+
+[QueenQuitDuelPromptText]
+Give up on dueling Queen?
+
+[QueenResumeDuelText]
+So you do wish
+to duel me?
+
+[QueenPlayerQuitText]
+I see.
+It cannot be helped, then.
+You may take your leave
+of this Dungeon.
+
+[QueenPlayerWon1Text]
+I have lost.
+A splendid fight indeed.
+As expected of one who made it
+all the way to me!
+Now,
+accept your chips.
+
+[QueenPlayerWon2Text]
+How very lonely,
+to part with you so soon.
+I do hope you will
+come to see me again.
+
+[QueenPlayerLostText]
+As I have won,
+I shall not return your chips.
+If you wish to face me once more,
+then come again.
+Fight your way past Pawn, Knight,
+Bishop, and Rook.
+Then I shall duel you
+once more.
+
+[GameCenterCoinFlipAttendantNoPrizesTryAgainText]
+Too bad!!
+
+You need 3 or more "heads"
+to win a prize!
+Please try again!
+
+[GameCenterCoinFlipAttendant3HeadsPrizeText]
+All right!
+That was 3 "heads"!
+Your prize is
+20 chips!
+
+[GameCenterCoinFlipAttendantTryAgainText]
+Please try again!
+
+[GameCenterCoinFlipAttendant4HeadsPrizeText]
+All right!
+That was 4 "heads"!
+Your prize is
+40 chips!
+
+[GameCenterCoinFlipAttendant5HeadsPrizeText]
+All right!
+That was 5 "heads"!
+Your prize is
+100 chips!
+
+[GameCenterCoinFlipAttendant6HeadsPrizeText]
+All right!
+That was 6 "heads"!
+Your prize is
+200 chips!
+
+[GameCenterCoinFlipAttendant7HeadsPrizeText]
+All right!
+That was 7 "heads"!
+Your prize is
+500 chips!
+
+[GameCenterCoinFlipAttendant8HeadsPrizeText]
+All right!
+That was 8 "heads"!
+8 in a row, that's amazing!
+Your prize is 1000 chips!
+
+[GameCenterCoinFlipAttendant9HeadsPrizeText]
+All right!
+That was 9 "heads"!
+So close!
+Just 1 more, and it'd be 10!
+Your prize is... wow!
+3000 chips!
+
+[GameCenterCoinFlipAttendantAlmostCompleteTryAgainText]
+10 in a row isn't just a dream!
+Please try again!
+
+[GameCenterCoinFlipAttendant10HeadsPrizeText]
+Congratulations!
+
+You've hit 10 in a row in
+"Coin Flip Streak"!
+Your prize for 10 is "Mew<Lv>8"!
+Please accept it!!
+
+[GameCenterCoinFlipAttendant10HeadsCongratsText]
+Truly, congratulations!
+
+[TurnedOnBlackBoxText]
+You switched on
+the "Black Box."
+
+[TurnedOnBillsPCText]
+You switched on
+"Bill's Computer."
+
+[GameCenterBlackBoxAttendantWelcomeText]
+Welcome!
+
+The attraction here is
+the "Black Box."
+If you like, I can give you
+a brief explanation.
+
+[GameCenterBlackBoxAttendantGuidePromptText]
+Hear the explanation?
+
+[GameCenterBlackBoxAttendantGuideText]
+The "Black Box" costs
+5 chips to play.
+You put 1 to 5 Pokémon cards
+into the "Black Box."
+Then those cards transform
+into different cards!
+The transformed cards are
+delivered to you by Mail!!
+So, whenever you play
+the "Black Box,"
+please be sure to leave
+room in your Mailbox.
+If your Mail has piled up,
+the cards can't be delivered.
+That was brief, but that's
+the end of my explanation.
+Now, please enjoy
+the "Black Box."
+
+[GameCenterBlackBoxAttendantNoGuideText]
+You'd rather not hear it?
+That's fine too.
+Just follow the machine's steps,
+and you'll be able to play.
+Also, whenever you play
+the "Black Box,"
+please be sure to leave
+room in your Mailbox.
+If your Mail has piled up,
+the cards can't be delivered.
+
+[GameCenterBillsPCAttendantWelcomeText]
+Hiya!
+
+The attraction here is
+"Bill's Computer."
+If you want, I can give ya
+a quick rundown.
+
+[GameCenterBillsPCAttendantGuidePromptText]
+Hear the explanation?
+
+[GameCenterBillsPCAttendantGuideText]
+OK, here's the rundown.
+
+With "Bill's Computer,"
+you can get new cards.
+But for that, you're gonna need
+certain cards.
+First, the "Bill's Computer" card.
+That one's an absolute must.
+You also need 20 chips,
+or you can't play.
+For the other cards you need,
+check the machine itself.
+And that's the end of my
+"Bill's Computer" rundown.
+
+[GameCenterBillsPCAttendantNoGuideText]
+Oh yeah? Well, just do what
+the machine says, and you're good.
+Maybe just diving right in
+and playing is a good idea too.
+
+[GameCenterCoinFlipAttendantWelcomeText]
+Hello!
+
+The attraction here is
+"Coin Flip Streak."
+Flip a coin until you get "tails."
+How many "heads" can you get?
+Get 10 "heads" in a row, and
+we'll give you a "Mew<Lv>8"!
+"Coin Flip Streak" costs
+1 chip to play.
+How about it?
+Want to give it a try?
+
+[GameCenterCoinFlipStartPromptText]
+Play Coin Flip Streak?
+
+[GameCenterCoinFlipAttendantStartText]
+Then let "Coin Flip Streak"
+begin!!
+
+[GameCenterCoinFlipAttendantNotEnoughChipsText]
+I'm terribly sorry, but it
+seems you don't have any chips.
+To play "Coin Flip Streak,"
+you need 1 chip.
+
+[GameCenterCoinFlipAttendantComeAgainText]
+Well then, please come again!
+
+[GameCenterGRGalText]
+Ohhh, I can't decide
+which one to play!
+
+[GameCenterCoinTossBoyInitialText]
+In "Coin Flip Streak," you flip
+a coin and try to get heads.
+Get heads 10 times in a row,
+and you get an awesome card!
+
+[GameCenterCoinTossBoyRepeatText]
+My heart's pounding... Will it be
+heads next?
+Waiting to see if I get heads...
+the suspense is killing me!
+
+[GameCenterCoinTossBoyPostgameText]
+I'm so used to "Coin Flip Streak"
+now, my heart doesn't even pound.
+Maybe it's about time
+I tried another game?
+
+[GameCenterSlotMachine1AttendantWelcomeText]
+Welcome, welcome!
+
+The attraction here is
+the "Slot Machine."
+This "Slot Machine" here
+costs just 1 chip to play!
+If you like, I can give you
+a quick explanation!
+
+[GameCenterSlotMachine1AttendantGuidePromptText]
+Hear the explanation?
+
+[GameCenterSlotMachine1AttendantGuideText]
+I call it an explanation, but
+there's nothing hard about it.
+Line up 3 symbols on the
+slot machine to win chips!
+Line up Rainbow Energy, and
+you go into the Bonus Game!
+Line up symbols there, and wow!
+You get a "Present Pack"!
+Go on, give it a try!
+
+[GameCenterSlotMachine1AttendantNoGuideText]
+Well, it's only 1 chip,
+so give it a try!
+
+[GameCenterSlotMachine5AttendantWelcomeText]
+Hi there! Hello!
+Here for the "Slot Machine"?
+Unlike that one over there,
+this one takes 5 chips!
+I can give you a little
+explanation. Wanna hear it?
+
+[GameCenterSlotMachine5AttendantGuidePromptText]
+Hear the explanation?
+
+[GameCenterSlotMachine5AttendantGuideText]
+Both "Slot Machines"
+work the same way.
+You use chips to
+spin the slot machine.
+Line up 3 symbols on the
+slot machine to win chips!
+Line up Rainbow Energy, and
+you get to play the Bonus Game.
+Line up symbols in the Bonus Game,
+and you get a "Present Pack"!
+See? Easy, right?
+Give it a try!
+
+[GameCenterSlotMachine5AttendantNoGuideText]
+"Seeing is believing," they say!
+Trying it out is the best way!
+
+[GameCenterCardDungeonAttendantWelcomeText]
+Welcome
+to the Card Dungeon!!
+You need 10 chips to play.
+Would you like to play?
+
+[GameCenterCardDungeonStartPromptText]
+Play the Card Dungeon?
+
+[GameCenterCardDungeonAttendantNotEnoughChipsText]
+I'm terribly sorry.
+You don't have enough chips.
+Please come back
+with 10 chips.
+
+[GameCenterCardDungeonAttendantReadDescriptionText]
+Then, first, please read
+this description.
+
+[GameCenterCardDungeonAttendantEnterText]
+Now, please enter
+the Dungeon.
+
+[GameCenterCardDungeonAttendantComeAgainText]
+If you ever want to play
+the Card Dungeon, come anytime!
+
+[GameCenterCardDungeonAttendantPlayerWonComeAgainText]
+I hear you beat the Queen!
+Congratulations!
+You can play as many times as you
+like, so please come play again.
+
+[GameCenterCardDungeonAttendantPlayerLostTryAgainText]
+Thank you for playing.
+Please come play again.
+
+[GameCenterCardDungeonAttendantPlayerQuitTryAgainText]
+Oh, you quit dueling?
+Please come play again if you like.
+
+[GameCenterCardDungeonBoy1Text]
+Me, I'm taking on
+the Dungeon.
+I've been betting chips on card
+battles! But I can't win...
+I can't even beat Pawn,
+the very first one!!!!
+
+[GameCenterCardDungeonBoy2Text]
+Heh heh heh... I beat Pawn,
+I'll have you know!!!!
+But... I just can't beat
+the 4th one, Rook...
+Rook's so tough...
+
+[GameCenterCardDungeonBoy3Text]
+It's hopeless!!!
+I can't win no matter what!!!!
+I've given up on clearing
+the Dungeon... Sigh...
+
+[GameCenterFixerNormalText]
+Well, I came to GR Castle
+on business, but
+the GR King seems to be busy,
+so I've been kept waiting.
+That's why I'm killing time at
+the slot machines like this.
+
+[GameCenterFixerPostgameText]
+Well, I came to GR Castle
+on business, but
+the job fell through.
+
+Now all I can do is play the slots.
+Oh well, can't be helped.
+
+[GameCenterSlotMachineGRWomanInitialText]
+Hey, don't talk to me right now!
+I'm playing the slot machine!
+Line up Energy symbols,
+and you get chips!
+And if you line up Rainbow Energy
+symbols, it's a Bonus Game!
+If you've got chips,
+why don't you play too?
+
+[GameCenterSlotMachineGRWomanWhiffText]
+Hey, don't talk to me right now!
+The symbols are about to line up...
+...Argh!! I missed!!
+It's your fault for talking to me!
+Don't bug me
+by talking to me!
+
+[GameCenterSlotMachineGRWomanHitText]
+Hey, don't talk to me right now!
+The symbols are about to line up...
+...Ahh!! JACKPOT!!
+It's 'cause you talked to me!
+From now on, keep on
+talking to me, OK?!
+
+[GameCenterChipDeskWelcomeText]
+Welcome!
+Welcome to the Chip Counter!
+Here you can deposit chips, or
+take back chips you've deposited.
+
+[GameCenterChipDeskDepositInfoText]
+We are holding <RAMNUM> chips
+for you.
+
+[GameCenterChipDeskDepositReturnPromptText]
+Shall I return your chips?
+
+[GameCenterChipDeskDepositReturnedText]
+Here you are: <RAMNUM> chips.
+Please take them.
+
+[GameCenterChipDeskDepositReminderText]
+When you leave the Game Center,
+please come deposit your chips.
+
+[GameCenterChipDeskComeAgainText]
+We look forward to
+serving you again.
+
+[GameCenterChipDeskDepositPromptText]
+Deposit your chips?
+
+[GameCenterChipDeskDepositedText]
+We have received <RAMNUM> chips
+for safekeeping.
+
+[GameCenterChipGirlFirstServiceText]
+Welcome!
+Welcome to the Game Center!
+It seems you don't
+have any chips.
+In that case, I'll give
+you 10 chips.
+
+[Received10ChipsText]
+<RAMNAME> received
+10 Game Center chips!
+
+[GameCenterChipGirlNoticeText]
+Now, please enjoy
+the Game Center!
+Oh yes, chips can't be taken
+outside, so please be careful.
+
+[GameCenterChipGirlRefillText]
+Oh? You don't have any chips?
+Hmm... As a favor, just for you,
+I'll give you
+10 chips!!
+
+[GameCenterChipGirlWelcomeRefillText]
+Hello!
+Welcome to the Game Center!
+Oh?
+It seems you don't have any chips.
+It's on the house!
+I'll give you 10.
+
+[GameCenterChipGirlEnjoyText]
+Now, please enjoy
+the Game Center!
+
+[GameCenterChipGirlRefillReminderText]
+If you run out of chips,
+come see me again.
+It's only 10, but I'll
+give you some chips.
+
+[GameCenterChipSecurityReminderText]
+Chips can't be taken out
+of the Game Center.
+Be sure to deposit them at
+the counter on the left.
+
+[GameCenterChipSecurityWarningText]
+Excuse me, could you wait a moment?
+I see you have some chips.
+I'm terribly sorry, but chips are
+for use in the Game Center only.
+If you're going outside, please
+deposit your chips first.
+Sorry for the trouble,
+and thank you.
+
+[GameCenterLobbyTechExcuseText]
+I've been researching the games
+here for 20 long, hard years...
+Yet I still have no conclusions.
+Lose, lose! Lose!! Always losing!
+Basically...
+I'm just playing games, though.
+
+[GameCenterLobbyGRLassMockeryText]
+You're <RAMNAME>, right?
+What are you doing here?
+Aha, you can't beat Team GR,
+so you're goofing off here!
+Ugh, how laaame!
+
+[GameCenterLobbyGRLassPostgameNoWordsToVictorText]
+Biruritchi lost, so do whatever
+you like. I've got no complaints.
+
+[GameCenterLobbyGRPappyLectureText]
+I got so wrapped up in the games,
+I lost all track of time playing...
+And look how old
+it's gone and made me...
+Just kidding, of course!
+
+Don't get so wrapped up in games
+that you forget your real goal.
+
+[GameCenterLobbyGRPappyPostgamePlayFreelyText]
+Seems you've achieved your goal.
+Now go on and play as you please.
+
+[Text0d8c]
+Welcome.
+This is the GR Grass Fort.
+
+[Text0d8d]
+Welcome.
+This is the GR Grass Fort.
+Allow me to explain the rules
+of dueling at GR Grass.
+The leader of the GR Grass Fort
+goes by the name of Morino.
+To see Morino, you must defeat
+3 GR Grass members.
+Some of our members duel
+under special conditions.
+Now, please enjoy dueling
+at the GR Grass Fort.
+
+[Text0d8e]
+<RAMNAME>, it's me, Rick,
+the Science Club Master.
+Why are you on GR Island?
+
+What? To get the cards back?
+Team GR challenged you...?
+I see...
+Let me tell you something useful.
+It seems you'll need coins
+to go any farther.
+And each fort's leader seems
+to have one of those coins.
+Apparently, you can't get a coin
+without beating the leader.
+But you beat the Grand Master,
+so you'll be just fine.
+Please, do your best,
+for everyone's sake.
+
+[Text0d8f]
+I hear that Team GR
+has a King.
+Unless Team GR's King is defeated,
+there will be no peace.
+But you could defeat
+even Team GR's King.
+Please, do your best,
+for everyone's sake.
+
+[Text0d90]
+Hiii!
+You're <RAMNAME>, right?
+I'm Midori.
+I'm a GR Grass member!
+I've been waiting and waiting
+for you to come, <RAMNAME>!
+'Cause I wanted to duel someone
+who's not in Team GR!
+You'll duel me, won't you?
+If you win, you get a booster pack,
+and if you win, that guy there...
+
+[Text0d91]
+The Science Club Master...
+Rick, was it...?
+
+[Text0d92]
+...I'll give him back to you!
+
+[Text0d93]
+Come onnn, let's duel!
+
+You can't go any farther without
+dueling me anyway!
+
+[Text0d94]
+Duel Midori?
+
+[Text0d95]
+OK, we'll play with 4 Prizes!
+I can't wait!
+
+[Text0d96]
+Huh? But you can't go any farther
+without dueling me!
+If you wanna go to the other GR
+forts, let's duel, OK?
+
+[Text0d97]
+I wanna play Pokémon cards
+with you, <RAMNAME>!
+Hey, hey, let's duel!
+
+[Text0d98]
+Let's play with 4 Prizes,
+nice and slow!
+
+[Text0d99]
+Aww, no fun!
+...But oh well.
+Come duel me again, OK?
+I'll be waiting!
+
+[Text0d9a]
+Oopsie, I lost!
+
+[Text0d9b]
+I lost, but I'm not even upset.
+Why's that?
+Oh, I get it! I lost 'cause your
+deck is good. That makes sense!
+
+[Text0d9c]
+It's over already...?
+Come duel me again!
+
+[Text0d9d]
+Huh? I lost again.
+Hmm, why's that?
+
+[Text0d9e]
+All right! I won't lose
+the next duel!
+Duel me again, OK?
+I'll be waiting!
+
+[Text0d9f]
+Yay! I won!
+I'm so happy!
+Come duel me next time too!
+
+[Text0da0]
+OK, I'll let Rick
+out of the cage!
+
+[Text0da1]
+Thank you for saving me,
+<RAMNAME>.
+As thanks, please accept
+this card.
+
+[Text0da2]
+Put it to good use in
+your duels to come.
+I've decided to return
+to the Science Club.
+Please come visit the
+Science Club sometime.
+Let's have a duel then.
+Well, I'll be going now.
+
+[Text0da3]
+There! Now you can go
+to Yuta's room.
+See ya! Let's duel again!
+
+[Text0da4]
+Oh, here already?
+Honestly, Yuta's such a pushover.
+I'm Miyuki.
+Team GR, of course.
+You're <RAMNAME>, right? The one
+who's been defyin' Team GR?
+You want the "GR Grass Coin"
+that Morino's got, don't ya?
+Can't go on without it,
+after all.
+So let's hurry up and duel!
+I wanna go tend my flowers.
+But a duel with me
+comes with a condition.
+You can't put any Energy but
+Grass Energy in your deck.
+That's my condition
+for a duel.
+So what'll it be, <RAMNAME>?
+
+[Text0da5]
+Ugh, you came back again?
+Gimme a break already.
+I ain't just playin' around here.
+
+I've got the King's orders, so I'll
+take on tough folks, but still.
+Remember my condition for a duel?
+The only Energy allowed is Grass.
+You can't put any Energy but
+Grass Energy in your deck.
+So, how 'bout it, <RAMNAME>?
+You're gonna duel, right?
+
+[Text0da6]
+Duel Miyuki?
+
+[Text0da7]
+Ah, no good!
+I said only Grass Energy, didn't I?
+You've got Energy other than
+Grass Energy in there!
+The only Energy you can put
+in your deck is Grass Energy.
+Put in only Grass Energy,
+rebuild your deck, and come back!
+
+[Text0da8]
+Mm-hm, you've built your deck
+with only Grass Energy.
+So, with 4 Prizes, let's
+get this duel started!
+
+[Text0da9]
+If you're short on Grass Energy,
+go collect some and come back.
+Heading home from GR Island
+is one way to do it, I guess.
+Either way, build a deck with
+only Grass Energy, then come back.
+
+[Text0daa]
+So you want a duel
+with conditions, huh?
+I figure you know it already,
+but I'll tell you the condition.
+I won't duel unless your deck
+has only Grass Energy in it.
+Well then, let's duel.
+
+[Text0dab]
+Were you even listening
+to me?
+The only Energy allowed is Grass!
+Don't you forget it.
+Rebuild your deck, then
+come back and duel me.
+
+[Text0dac]
+Looks like you've built your deck
+with only Grass Energy. That'll do.
+I've got flowers to tend, so
+we'll play with 4 Prizes.
+Let's hurry up and duel!
+
+[Text0dad]
+If you don't like my condition,
+then there ain't gonna be a duel.
+When in Rome, you gotta do as the
+Romans do. You'd best remember that.
+
+[Text0dae]
+Oh my, I went and lost!
+
+[Text0daf]
+You've got real skill, <RAMNAME>.
+I'm impressed.
+
+[Text0db0]
+OK! Bye now.
+I've got flowers to tend.
+Come back when you can really
+use a deck with only Grass Energy.
+I ain't gonna run or hide.
+
+[Text0db1]
+Looks like you've really gotten
+used to duels with conditions.
+
+[Text0db2]
+If conditions are fine by you,
+let's duel again sometime.
+
+[Text0db3]
+Not good enough yet. You gotta
+learn to use your deck better.
+
+[Text0db4]
+You beat me, so you've earned
+the right to see Morino.
+Hang on a sec.
+
+[Text0db5]
+Go on in, and you'll find Morino.
+So get goin' already.
+I've got flowers to tend.
+Don't bother me any more, OK?
+
+[Text0db6]
+Welcooome... to the garden of
+Morino, leader of GR Grass...
+Oh, and by the way... I'm Morino...
+And you're <RAMNAME>, riiight...?
+My "GR Grass Coin"...
+you want this, don't you...?
+Let's seeee... A duel, I guess...
+Duel me and win, and it's yours...
+Oh yeah, lemme tell you something...
+Duels here are special...
+Grass Pokémon won't get "Poisoned,"
+"Paralyzed," "Confused," or "Asleep"
+None of 'em, not one...
+Pretty neat, huh...?
+That's the kind of place this is,
+but still wanna duel...?
+
+[Text0db7]
+Heyyy, <RAMNAME>...
+Welcome to my garden...
+Dueling surrounded by nature
+like this... isn't it bliss...?
+In my garden, Grass Pokémon
+are just bursting with pep...
+Grass Pokémon won't get "Poisoned,"
+"Paralyzed," "Confused," or "Asleep"
+None of 'em...
+You know that, riiight...?
+Well theeen... shall we duel...?
+
+Win, and you'll get
+the "GR Grass Coin"...
+
+[Text0db8]
+Duel Morino?
+
+[Text0db9]
+I like to duel nice and slooow...
+So we'll play with 6 Prizes...
+
+[Text0dba]
+If you're turning me dowwwn...
+your deck must be full of
+Poison and Paralysis, huh...
+Then go on and rebuild
+your deck...
+I'll be waiting right here...
+Oh, there's no need to rush...
+
+[Text0dbb]
+In Team GR, y'knowww... folks who
+can adapt their decks get respect...
+You beat me and Miyuki, so
+you've got my respect...
+And I wanna duel you,
+since you're so respected...
+But my garden's got green power...
+Grass Pokémon are full of pep...
+It's a duel where Grass Pokémon
+can't be "Poisoned," "Paralyzed,"
+"Confused," or "Asleep"...
+
+[Text0dbc]
+I respect you... you've really
+mastered your deck...
+In my garden, Grass Pokémon
+are bursting with pep...
+Grass Pokémon won't get "Poisoned,"
+"Paralyzed," "Confused," or "Asleep"
+Not a single one...
+
+If my mysterious garden is OK
+with you... wanna duel...?
+
+[Text0dbd]
+With 6 Prizes...
+let's duel nice and slooow...
+
+[Text0dbe]
+When you duel me, let's forget
+all about winning and losing...
+Pokémon cards should be played
+in a good mood, after all...
+
+[Text0dbf]
+I hear you beat the King too...?
+Well, I'm impressed...
+Seems just using cards in decks
+isn't the answer either...
+Having fun when you play must
+be the best thing of all...
+
+[Text0dc0]
+Ahahahahaha...
+Looks like I lost...
+
+[Text0dc1]
+Losing teaches you stuff too...
+Did you know that...?
+When you lose, you really see what
+kind of duel it was...
+
+[Text0dc2]
+Ahahahahaha, congrats...
+That's <RAMNAME> for you...
+
+[Text0dc3]
+Did you enjoy yourself...?
+If you like, let's duel again...
+
+[Text0dc4]
+Somehow I feel like I'd be happier
+if you'd won instead...
+'Cause your smile when you win
+is so nice, y'know...
+
+[Text0dc5]
+Oh, riiight... You won, so I gotta
+give you the "GR Grass Coin"...
+
+[Text0dc6]
+Now you can get into
+the GR Lightning Fort...
+If you wanna duel surrounded by
+nature, come on back...
+
+[Text0dc7]
+I'm Team GR!
+I'm tough... Huh?
+I've never seen your face before.
+Maybe you've got what I'm after?
+I really want a
+"Dark Venusaur<Lv>37."
+How 'bout it? Wanna trade it
+for my "Venusaur<Lv>67"?
+It's not just any "Venusaur<Lv>67"!
+It's a rare one with different art!

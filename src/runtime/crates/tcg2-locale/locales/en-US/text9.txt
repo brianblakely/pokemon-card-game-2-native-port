@@ -1,0 +1,1638 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text9.asm, by label (format: src/text.rs).
+
+[Text0dc8]
+I'll give you a rare "Venusaur<Lv>67"
+with different art!
+Won't you trade me your
+"Dark Venusaur<Lv>37" for it?
+
+[Text0dc9]
+But it's a super-rare card...
+What a waste.
+
+[Text0dca]
+What? You don't even have a
+"Dark Venusaur<Lv>37"!
+Go get the card first,
+and then let's trade!
+
+[Text0dcb]
+No way! Your "Dark Venusaur<Lv>37"
+cards are all in your decks!
+Team GR takes good care of decks.
+I won't let you break one up!
+If it weren't in a deck,
+I'd sure want it, though.
+
+[Text0dcc]
+All right! It's a trade!
+
+[Text0dcd]
+See?!
+The art's different, right?!
+
+[Text0dce]
+Oh, it's you! Thanks for
+trading cards with me.
+Oh yeah, have you heard?
+I'll tell you, since it's you...
+Someone named <RAMNAME>
+has come to this island.
+Word is, they're a baddie who
+steals cards! You be careful too!
+
+[Text0dcf]
+So <RAMNAME>...
+was you all along!
+And I hear you came to get cards
+back for your friends!
+<RAMNAME>, you're...
+so cool! You're the best!
+I'm proud I got to trade
+cards with you!
+
+[Text0dd0]
+That bunch on the other island...
+They're a disgraaace!!
+All they do is worship cards,
+calling 'em legendary and such!
+Cards ought to be put in a deck
+and used, I say!
+
+[Text0dd1]
+Even now, I don't reckon
+I was in the wrong.
+Stealing those cards was the
+only bad part, I tell you!
+
+[Text0dd2]
+I came to see Midori, but
+she says she's busy.
+She says she has to battle
+somebody named <RAMNAME>.
+This is so boring...
+
+[Text0dd3]
+Midori has Team GR work to do,
+so she can't play with me.
+This is so boring...
+
+[Text0dd4]
+Listen, listen!!
+Do you know about the "Sealed Fort"?
+It's awful! They duel using
+totally crazy decks!
+I'm never, ever going there again!
+
+[Text0dd5]
+So you finally made it this far.
+I've been waiting, <RAMNAME>!
+I'm Yuta!
+But my other name is...
+
+[Text0dd6]
+GR-1!
+There's no way I'll lose this time!
+If I lose here, I'll never be able
+to face the GR King!
+
+[Text0dd7]
+Now, let's settle this,
+<RAMNAME>!!
+
+[Text0dd8]
+On the honor of the GR Grass Fort,
+I won't lose this time!
+Now, let's settle this,
+<RAMNAME>!!
+
+[Text0dd9]
+Do you want to duel Yuta?
+
+[Text0dda]
+We'll play with 4 Prizes!
+
+I'll make you feel the power
+of my real deck!!
+
+[Text0ddb]
+What?! You're saying you won't
+duel me, <RAMNAME>?!
+I'm not giving up on
+our duel, you hear?!
+
+[Text0ddc]
+<RAMNAME>, huh...
+I don't mind dueling you now!
+
+[Text0ddd]
+We'll play with 4 Prizes!
+Here I come, <RAMNAME>!!
+
+[Text0dde]
+Truth is, I don't really
+want to duel either.
+If neither of us is up for it,
+let's call it off.
+See ya, <RAMNAME>.
+
+[Text0ddf]
+Dang it! I lost again!
+Tch! Here, take this.
+
+[Text0de0]
+Phew... All I can do now
+is sigh...
+
+[Text0de1]
+Heh heh heh... I win!
+
+Come back anytime, <RAMNAME>!
+I'll duel you again!
+
+[Text0de2]
+Argh, I lost again?!
+The booster pack is yours.
+
+[Text0de3]
+With deck skills like yours,
+you could probably join Team GR.
+But don't think you'll keep
+winning forever, <RAMNAME>.
+
+[Text0de4]
+Heh... I won.
+Well, that's skill for you.
+I'll take you on anytime,
+so come back again.
+
+[Text0de5]
+What're you doing?!
+That won't open.
+Not until you fight me and win!
+
+[Text0de6]
+Well, there's no point
+in sighing about it.
+A loss is a loss.
+I'll open the door for you.
+
+[Text0de7]
+Open up!
+
+[Text0de8]
+Go on, get moving!
+
+Miyuki is waiting for you
+in the next room.
+Miyuki is way stronger
+than me!
+Go get yourself beaten!
+
+[GRChallengeMachineStaff50WinStreakRewards1Text]
+Congrats!
+You've hit a 50-win streak!!
+Here's a commemorative coin!
+
+It's my very own, so
+take good care of it, OK?
+
+[GRChallengeMachineStaff50WinStreakRewards2Text]
+Congrats on 50 wins in a row!
+
+Keep that winning streak
+going and going!!
+
+[GRCupClerkCup1ActiveText]
+We are now holding
+the "GR Cup"!
+Beat three opponents, and you'll
+receive a wonderful card!
+And that card is...
+"Dark Persian<Lv>28"!
+Duels are 4-Prize matches!
+Just one game each!
+Why not take on the challenge
+of these thrilling duels?
+
+[GRCupClerkCup2ActiveText]
+The GR Cup is
+now under way!
+Beat three Team GR members
+and get "Bill's Computer"!
+Duels are 4-Prize matches!
+Just one game each!
+Thrilling duels galore!!
+You can sign up right here.
+Won't you become
+a challenger too?
+
+[GRCupClerkCup3ActiveText]
+Team GR's "King's Cup" is
+now under way!
+It's a tournament sanctioned by
+Team GR's King, Lord Biruritchi!
+Win the cup, and you'll receive
+one wonderful card!
+This time, the prize card is
+"<RAMTEXT>"!
+You must win 3 times in a row
+to get the card!
+Challenger sign-up
+is right here.
+Won't you become
+a challenger too?
+
+[GRCupClerkCup1PlayerWonText]
+The rules say anyone who's won
+can't take the challenge again.
+Please wait until the next
+"GR Cup" to try again.
+
+[GRCupClerkCup2PlayerWonText]
+The rules say anyone who's won
+can't take the challenge again.
+
+[GRCupClerkCup3PlayerWonText]
+By our code, anyone who's won
+can't take the challenge again.
+Please wait until the next
+"King's Cup" to try again.
+
+[GRCupClerkPlayerLostText]
+Once you've taken the challenge,
+you can't try again for a while.
+Please come back
+a little later.
+
+[GRCupClerkEnterPromptText]
+Will you become a challenger?
+
+[GRCupClerkEnterAcceptedText]
+Very well.
+Please go on up to the stage!
+
+[GRCupClerkEnterDeclinedText]
+I see. What a shame.
+Please come again.
+
+[GRCupClerkRightNoEntryText]
+We don't register challengers
+at this desk.
+Please speak to the person
+on your left.
+
+[GRChallengeMachineStaffUnderConstructionInitialText]
+Huh? You want to know
+what I'm doing here?
+Somebody asked me to do a job.
+So-o-o, don't get in my way!
+
+[GRChallengeMachineStaffUnderConstructionRepeatText]
+I'm going to set up a fabulous
+machine right here.
+Right now, I'm thinking about
+exactly where to put it.
+
+[GRChallengeMachineStaffWelcomeText]
+It's Team GR's Challenge Machine!
+Try it! It's not like the other one.
+Win 50 in a row, and
+I'll give you a rare coin!
+
+[GRChallengeMachineStaffWelcome50WinStreakDoneText]
+Hi there!
+How's it going?
+I can't wait to see how far
+you'll push your winning streak!
+Good luck with your challenge!
+
+[CupHostGRCup1IntroText]
+Things are really heating up
+at the thrill-packed GR Cup!
+Still standing right now is
+<RAMTEXT>!
+And now, let's welcome our next
+challenger! It's...
+
+[CupHostGRCup1Round1ChallengerText]
+It's <RAMNAME>, who's been
+fighting Team GR!!
+
+[CupHostGRCup1Round1DuelStartText]
+Are you ready?
+It's a 4-Prize match!
+Now!!
+Let the duel begin!
+
+[CupHostGRCup2IntroText]
+It's the GR Cup, where fierce
+duels unfold before your eyes!
+Still standing right now is
+<RAMTEXT>!
+And now, let's welcome our next
+challenger! It's...
+
+[CupHostGRCup2Round1ChallengerText]
+It's <RAMNAME>, who's been
+fighting Team GR!!
+
+[CupHostGRCup3IntroText]
+The "King's Cup," the tournament
+of Lord Biruritchi, King of Team GR!
+The excitement is reaching
+fever pitch!
+And still standing amid it all
+is <RAMTEXT>!
+
+[CupHostGRCup3Round1ChallengerText]
+The challenger we welcome now
+is a special guest entrant!
+It's Pokémon Card Master
+<RAMNAME>!!
+
+[CupHostGRCup3Round1DuelStartText]
+Are you ready?
+First up is a 4-Prize match!
+Now!!
+Begin the duel!
+
+[CupHostGRCup1Or2Round1PlayerWonText]
+And the winner is...
+<RAMNAME>!
+That's one win
+for <RAMNAME>!!
+
+[CupHostGRCup1Or2Round1PlayerWonOpponentEliminatedText]
+Better luck next time,
+<RAMTEXT>!
+Have a safe trip home.
+
+[CupHostGRCup1Or2Round1NextChallengerText]
+Now, let's get
+the next duel started!!
+Next challenger,
+please come up to the stage!
+
+[CupHostGRCup3Round1PlayerWonText]
+<RAMNAME> wins!
+Truly a Pokémon Card Master!
+Amazing!!
+What a splendid battle!
+That's one win
+for <RAMNAME>!!
+
+[CupHostGRCup3Round1PlayerWonOpponentEliminatedText]
+Too bad, <RAMTEXT>.
+Please head on home.
+
+[CupHostGRCup3Round1NextChallengerText]
+Next Team GR member!
+Please take the stage!
+
+[CupHostGRCup1Or2Round1PlayerLostText]
+And the winner is...
+<RAMTEXT>!!
+<RAMTEXT> has two wins!
+One more to win the card!
+
+[CupHostGRCup1Or2Round1PlayerLostEliminatedText]
+Better luck next time,
+<RAMNAME>!
+Please take the stairs down
+on your way home.
+
+[CupHostGRCup3Round1PlayerLostText]
+Unbelievable! Pokémon Card Master
+<RAMNAME> has been defeated!
+The winner is
+<RAMTEXT>!
+<RAMTEXT> has two wins!
+One more to get the card!
+
+[CupHostGRCup3Round1PlayerLostEliminatedText]
+<RAMNAME>, as you have lost,
+please take your leave.
+
+[CupHostGRCupRound2ChallengerText]
+Our new challenger is
+<RAMTEXT>!
+
+[CupHostGRCupRound2The4PrizesMatchText]
+This duel is also
+a 4-Prize match.
+
+[CupHostGRCupAreYourDecksReadyText]
+Are both of you
+ready with your decks?
+
+[CupHostGRCupMakeYourPreparationsText]
+Then please
+make your preparations!
+
+[CupHostGRCupRound2DuelStartText]
+All right, <RAMNAME>!
+Your second duel! Begin!
+
+[CupHostGRCup1Round2PlayerWonText]
+You did it, <RAMNAME>!
+That's two wins in a row!!
+Just one more to take the cup!
+
+[CupHostGRCupRound2Or3PlayerWonOpponentEliminatedText]
+Too bad, <RAMTEXT>.
+Have a safe trip home.
+
+[CupHostGRCup1Or2Round2NextChallengerText]
+Now, will this be the final duel
+for <RAMNAME>... or will
+the next challenger end
+the championship run?!
+Challenger!
+Please come on up!
+
+[CupHostGRCup2Round2PlayerWonText]
+You did it, <RAMNAME>!
+That's two wins in a row!!
+Just one more
+to take the cup!
+
+[CupHostGRCup3Round2PlayerWonText]
+You did it, <RAMNAME>!
+Two wins in a row!!
+Win the next duel,
+and the cup is yours!
+
+[CupHostGRCup3Round2NextChallengerText]
+From here on, duels are
+6-Prize matches!
+Now, which member of Team GR
+will step up to duel?
+
+[CupHostGRCup1Or2Round2PlayerLostText]
+<RAMTEXT> wins!
+
+<RAMTEXT> has one win!
+Two more to take the cup!
+
+[CupHostGRCup1Or2Round2PlayerLostEliminatedText]
+Too bad, <RAMNAME>.
+Have a safe trip home.
+
+[CupHostGRCup3Round2PlayerLostText]
+<RAMTEXT> wins!
+
+Victory over the
+Pokémon Card Master!!
+<RAMTEXT> has one win!
+Two more to take the cup!
+
+[CupHostGRCup3Round2PlayerLostEliminatedText]
+A tough loss for <RAMNAME>.
+What a shame.
+Please take the stairs there
+and have a safe trip home.
+
+[CupHostGRCupRound3ChallengerText]
+Our new challenger is
+<RAMTEXT>!
+
+[CupHostGRCupRound3DuelStartText]
+All right, <RAMNAME>!
+Your third duel! Begin!
+
+[CupHostGRCup1Or2Round3PlayerWonText]
+Congratulations!
+Three wins in a row at last!
+
+[CupHostGRCup1Or2Round3PlayerChampionText]
+The champion of the GR Cup is
+<RAMNAME>!
+
+[CupHostGRCup3Round3PlayerWonText]
+Congratulations!
+That's three straight wins!
+
+[CupHostGRCup3Round3PlayerChampionText]
+And the champion of this
+"King's Cup" is...
+Pokémon Card Master
+<RAMNAME>!!
+
+[CupHostGRCup1Or2Round3PlayerLostText]
+<RAMTEXT> wins!
+
+<RAMNAME>'s championship run
+has been brilliantly stopped!
+<RAMTEXT> has one win!
+Two more to take the cup!
+
+[CupHostGRCup1Or2Round3PlayerLostEliminatedText]
+Too bad, <RAMNAME>.
+Have a safe trip home.
+
+[CupHostGRCup3Round3PlayerLostText]
+Oh, what a shame!
+<RAMNAME> is defeated!!
+<RAMTEXT> wins!
+<RAMTEXT> has one win!
+Two more to take the cup!
+
+[CupHostGRCup3Round3PlayerLostEliminatedText]
+<RAMNAME>,
+please go on home.
+
+[CupHostGRCup1ChampionPrizeText]
+And now, <RAMNAME>!
+Please accept "Dark Persian"!
+
+[CupHostGRCup2ChampionPrizeText]
+And now, <RAMNAME>!
+Please accept "Bill's Computer"!
+
+[CupHostGRCup3ChampionPrizeText]
+And now, your prize!
+"<RAMTEXT>"!!
+
+[CupHostGRCup10TimesChampionRewards1Text]
+<RAMNAME>,
+did you realize?
+This makes your 10th
+"King's Cup" win!
+Congratulations! Please accept
+this commemorative coin!
+
+[CupHostGRCup10TimesChampionRewards2Text]
+The "Horsea Coin"!
+Please give it lots of love!
+<RAMNAME>! Really and truly!!
+Congratulations!
+
+[CupHostGRCupPlayerChampionCongratsText]
+<RAMNAME>, my heartiest
+congratulations!
+
+[GRChallengeHallEntranceClerkGRCup1InactiveText]
+Challenge Cups featuring Team GR
+members are held here.
+But we're preparing right now.
+Please wait a while.
+
+[GRChallengeHallEntranceClerkGRCup1ActiveText]
+This is Team GR's
+Challenge Hall.
+Challenge Cups featuring Team GR
+members are held here.
+The first GR Cup is
+now under way.
+If you wish to take part,
+please proceed to the back.
+
+[GRChallengeHallEntranceClerkGRCup2ActiveText]
+This is Team GR's
+Challenge Hall.
+Challenge Cups featuring Team GR
+members are held here.
+The second GR Cup is
+now under way.
+If you wish to take part,
+please proceed to the back.
+
+[GRChallengeHallEntranceClerkGRCup2InactiveText]
+Challenge Cups featuring Team GR
+members are held here.
+But we're preparing right now.
+Please wait a while.
+
+[GRChallengeHallEntranceClerkGRCup3InactiveText]
+The King's Cup, hosted by
+Lord Biruritchi, will be held here.
+We're preparing right now, so
+please wait a while.
+
+[GRChallengeHallEntranceClerkGRCup3ActiveText]
+Lord Biruritchi's tournament,
+the "King's Cup," is under way!
+If you wish to compete,
+please proceed to the back.
+
+[GRChallengeHallEntranceClerkGRCupPlayedText]
+How was the tournament?
+
+No, no, I have no intention
+of asking about the results.
+After all, the one who can win
+is the one who takes the cup.
+If you'd like to try your hand,
+please drop by.
+
+[Text0e32]
+Oh dear, what am I to do...
+Oh, would you hear me out?
+No matter what I do, I can't get
+a "Chansey<Lv>55" card.
+Won't you give poor, unlucky me
+a lucky Chansey?
+I'll trade you "Bill's Computer,"
+usable at the Game Center!
+
+[Text0e33]
+Well? Will you trade with me?
+A "Chansey<Lv>55"...
+Please give poor, unlucky me
+a lucky Chansey!
+I'll give you "Bill's Computer"
+in return, dear.
+
+[Text0e34]
+So you won't give unlucky me
+a lucky Chansey...
+Oh, why must I
+be so unlucky...
+
+[Text0e35]
+Oh my.
+You're unlucky too, aren't you?
+You don't have a "Chansey<Lv>55"...
+You poor thing.
+
+[Text0e36]
+Oh my, your "Chansey<Lv>55" cards
+are all in your decks.
+Even I couldn't take
+that kind of luck from you.
+
+[Text0e37]
+Oh, how lucky!
+You'll trade with me!
+
+[Text0e38]
+Ahh, now I'm
+a lucky lady too!
+
+[Text0e39]
+Thank you so much
+for trading with me.
+Thanks to you,
+my luck has completely changed!
+
+[GRChallengeHallLobbyCupHostStandbyText]
+Oh, <RAMNAME>, you came
+here too?
+It's me! Don't you recognize me?
+The Challenge Cup host!
+I'm so popular, they invited me
+to host the GR Cup here.
+Ugh, hosting somewhere new
+is so exhausting!
+
+[GRChallengeHallLobbyCupHostStandbyGRCup3Text]
+I hear something called the
+"King's Cup" is going to be held.
+And they asked me
+to host it, too!
+When the "King's Cup" starts,
+come and join in!
+
+[Text0e3c]
+Ah, kindly do not talk to me.
+I am busy researching decks.
+
+[Text0e3d]
+Ah, kindly do not talk to me.
+I am busy researching decks.
+The decks of this GR Cup's
+entrants, you see...
+
+[Text0e3e]
+Ah, kindly do not talk to me.
+I am busy researching decks.
+The last GR Cup was
+truly remarkable.
+Naturally, I shall be studying
+your deck as well.
+
+[Text0e3f]
+I was researching decks
+on the orders of a certain person.
+Yes, Lord Biruritchi's...
+But that is all over now.
+Now, if you'll excuse me.
+
+[Text0e40]
+Before long,
+the GR Cup will begin.
+The prizes are good, so
+you should enter too, dear.
+
+[Text0e41]
+I know I'm being nosy, but
+listen to me, dear.
+You know the GR Cup
+has started, right?
+The prizes are good,
+so you should enter!
+
+[Text0e42]
+Oh my, if you're here now,
+you must have lost.
+But let me tell you
+something good, dear.
+I hear the GR Cup will keep
+running for a while.
+You can challenge it
+as many times as you like.
+
+[Text0e43]
+Lord Biruritchi's "King's Cup"
+starts without any warning.
+So drop by often
+and check on it.
+Checking often is the secret
+to never missing your chance!
+
+[Text0e44]
+Now that the King's Cup has begun,
+I've got nothing more to tell you.
+Good luck, dear!
+
+[Text0e45]
+Oh dear, this is troubling...
+Our Pokémon cards were stolen...
+<RAMNAME>, please lend us your
+strength and get the cards back.
+
+[Text0e46]
+Oh, <RAMNAME>, perfect timing.
+I've just finished building a deck.
+And I owe it all to you,
+<RAMNAME>. Thank you so much.
+It's been a while, so
+would you care to duel me?
+
+[Text0e47]
+Oh, <RAMNAME>.
+Have you come for a duel?
+
+[Text0e48]
+Do you want to duel Nikki?
+
+[Text0e49]
+Our duel will be
+a 6-Prize match.
+I do hope you'll
+go easy on me.
+
+[Text0e4a]
+Then please relax here,
+among all this greenery.
+Sometimes one must forget
+about battling and rest.
+
+[Text0e4b]
+Oh my, I've lost.
+Then please take these.
+
+[Text0e4c]
+That was a delightful duel,
+<RAMNAME>.
+Keep up the good work
+on GR Island, too.
+Please come by anytime.
+I'll be waiting.
+
+[Text0e4d]
+That was a delightful duel.
+
+Please come again.
+I'll be waiting.
+
+[Text0e4e]
+Oh, <RAMNAME>.
+Welcome to the Play Hall.
+You beat GR-2? You're better
+than I thought!
+So, how about a duel?
+I'll give you booster packs again!
+
+[Text0e4f]
+Oh, <RAMNAME>.
+How's it going?
+If you want to beat Team GR,
+duel and get more cards!
+
+[Text0e50]
+Do you want to duel Brittany?
+
+[Text0e51]
+All right, I won't lose this time!
+4 Prizes, same as before!
+
+[Text0e52]
+Oh? If you don't want cards,
+we don't have to duel.
+
+[Text0e53]
+Hey, it's <RAMNAME>!
+Perfect timing.
+I changed my deck, and the
+booster packs too. Duel me!
+
+[Text0e54]
+You're here! Forget the gardening!
+Let's duel! I want to duel!!
+
+[Text0e55]
+Same as before,
+we'll play with 4 Prizes!
+
+[Text0e56]
+Geez! You're such a slacker.
+Duel me next time you come!
+Oh well, I guess
+I'll go do some gardening.
+
+[Text0e57]
+I lost again...
+Here, have some booster packs.
+
+[Text0e58]
+Go beat Team GR
+and get those cards back!
+
+[Text0e59]
+Ugh, dueling the same person
+all the time is sooo boring!
+
+[Text0e5a]
+What?! I lost?
+...Oh well, can't be helped.
+
+[Text0e5b]
+I'll try harder
+not to lose next time!
+
+[Text0e5c]
+I won!
+My deck is sooo strong!
+
+[Text0e5d]
+I'm so glad that Nikki
+was able to come back.
+Thank you so much,
+<RAMNAME>.
+
+[Text0e5e]
+Thank you so much.
+Thanks to you, I could build a deck.
+I haven't dueled anyone yet, so
+would you care for a duel?
+
+[Text0e5f]
+Isn't this a lovely garden?
+It takes so much care, you know.
+Shall we have a lovely duel
+in this lovely garden?
+
+[Text0e60]
+Do you want to duel Kristin?
+
+[Text0e61]
+We'll play with 4 Prizes.
+Now then, here I come!
+
+[Text0e62]
+I so wanted a lovely duel with
+you, <RAMNAME>. What a pity.
+When you have time,
+please do duel me.
+
+[Text0e63]
+I've lost.
+You really are strong.
+
+[Text0e64]
+If you like,
+please duel me again.
+
+[Text0e65]
+I can't believe it!
+I actually won!
+Could it be that
+you let me win?
+
+[Text0e66]
+Thanks to you, we were all able
+to return to the Play Hall.
+Now if only I could duel,
+I'd be so happy...
+
+[Text0e67]
+Hello, <RAMNAME>.
+How good of you to come.
+I've heard of your great deeds,
+and I'm delighted.
+I can duel now as well.
+Would you grant me a match?
+
+[Text0e68]
+Growing flowers
+is such a joy.
+But dueling is a joy too, so
+would you grant me a match?
+
+[Text0e69]
+Do you want to duel Heather?
+
+[Text0e6a]
+We'll play with 4 Prizes.
+Is that all right?
+Then let us begin.
+I look forward to our match.
+
+[Text0e6b]
+I'll give up for today, but
+please duel me another time.
+
+[Text0e6c]
+Even I lose now and then,
+you know.
+
+[Text0e6d]
+Please grant me another match.
+I won't lose next time.
+
+[Text0e6e]
+Don't you think my skills
+are rather impressive?
+Well then, good day.
+
+[Text0e6f]
+Look, look, looook!
+It's aaall Team GR's now!
+Buuut where'd Nikki,
+the Master, go?
+Hm?
+Who're you...
+Ahh! You're <RAMNAME>,
+the one defying Team GR!
+Bad kids who defy Team GR
+get punished!
+
+[Text0e70]
+Whaaat? You're back agaaain?
+You're not the one I wanna see!
+I wanna see
+Nikkiii!
+Buuut you just won't quit,
+so I'll duel youuu.
+
+[Text0e71]
+Do you want to duel GR-2?
+
+[Text0e72]
+We'll play with 6 Priiizes!
+Sooo, let's get started!
+
+[Text0e73]
+Then go away somewheeere.
+I'm waiting for Nikkiii.
+
+[Text0e74]
+Whoa-oh... I lost.
+Okaaay, first, take these.
+
+[Text0e75]
+Whaaat? You're
+such a weakling!
+You're no match for me.
+Come back when you're strooonger!
+
+[Text0e76]
+And I'll throw in "GR Coin Piece 2"
+as a special bonuuus!
+
+[Text0e77]
+Collect 4 pieces, and they
+turn into 1 coin!
+Once it's a coin, you can go
+to GR Island!
+Oh, by the way, the Science Club's
+Master, Rick...
+I took him away
+to GR Island!
+Weeell, fareweeell!
+See you again on GR Island!
+
+[Text0e78]
+Whaaat? You've already got all 4?
+That's amaaazing!
+Head on over to the Airport.
+You can ride the airship!
+Oh yeah, the Science Club's
+Master, Rick...
+I took him away
+to GR Island!
+Next time, I'll be waiting
+on GR Island!
+
+[Text0e79]
+I'm Brittany
+of the Grass Club!
+You're <RAMNAME>, the one
+fighting Team GR, right?
+If you want to beat GR-2,
+you'd better go see Nikki.
+But unless you're strong,
+I won't tell you where she is.
+I want to see what you've got,
+so duel me first!
+
+[Text0e7a]
+If you want to beat GR-2,
+you have to meet Nikki.
+But I won't tell you where
+unless you beat me in a duel!
+
+[Text0e7b]
+Being short on cards is rough,
+so I'll duel you.
+But make sure you go
+see Nikki, OK?
+
+[Text0e7c]
+Since you're so strong,
+go take down Team GR!
+But it's rough with few cards,
+so how about a duel?
+
+[Text0e7d]
+Do you want to duel Brittany?
+
+[Text0e7e]
+We'll play with 4 Prizes!
+
+[Text0e7f]
+If you won't duel,
+then we're done here... Bye.
+
+[Text0e80]
+Yep! You really are strong!
+Here, take these booster packs!!
+
+[Text0e81]
+All right, I'll tell you
+where Nikki is.
+Nikki is at Mr. Ishihara's
+place out on the cape.
+Hurry to Mr. Ishihara's place
+and go see Nikki!
+
+[Text0e82]
+Just in case, I'll tell you
+once more where Nikki is.
+Nikki is at Mr. Ishihara's
+place out on the cape.
+Hurry to Mr. Ishihara's place
+and go see Nikki!
+
+[Text0e83]
+I gave you booster packs,
+so hurry up and beat Team GR!
+
+[Text0e84]
+Come on, get it together!
+You'll never beat Team GR like that!
+
+[Text0e85]
+I am Kristin.
+A Grass Club member, of course.
+We had our Club Master, Nikki,
+escape to safety.
+I was asked to give you this
+if you came by, <RAMNAME>.
+
+[Text0e86]
+Please, do go see Nikki.
+Brittany knows where she is.
+Brittany wears a hat, and she's
+over by the dueling table.
+
+[Text0e87]
+I'd love to play cards
+like we used to again soon.
+So please, go see Nikki
+and hear what she has to say.
+
+[Text0e88]
+Until GR-2 leaves,
+Nikki can't come back.
+
+[Text0e89]
+Now that GR-2 has gone home,
+Nikki can come back too.
+
+[Text0e8a]
+I am Heather,
+of the Grass Club.
+And you must be <RAMNAME>,
+who is fighting Team GR.
+You see, GR-2 is searching for
+our Club Master, Nikki.
+It seems he wants to kidnap her
+and take her to GR Island.
+Now, please accept this.
+I had it hidden away.
+
+[Text0e8b]
+Please ask Brittany
+where Nikki is.
+
+[Text0e8c]
+Ask Brittany, and then
+please go see Nikki.
+Brittany is sitting
+by the dueling table.
+
+[Text0e8d]
+Please fight GR-2
+in Nikki's place.
+
+[Text0e8e]
+You beat GR-2, didn't you?
+I saw him leaving.
+
+[Text0e8f]
+Goodness, that Team GR...
+I'm just appalled.
+However right their words may be,
+stealing cards is wicked.
+Why can't they see
+that, I wonder...
+
+[Text0e90]
+Folks each have their own way
+of enjoying Pokémon cards.
+Looks like Team GR finally
+understands that too.
+My, my, how wonderful!
+
+[Text0e91]
+I hate Team GR!
+They took everybody's cards!
+That's a bad thing to do!
+I'll never, ever forgive them!
+
+[Text0e92]
+Yay, I'm so glad!
+Team GR is gone!
+
+[Text0e93]
+Team GR learned their lesson,
+so now we're all friends!
+
+[Text0e94]
+Just looking at cards
+makes me feel so happy.
+So I'm sad that Team GR
+took my cards... Sniffle...
+
+[Text0e95]
+Yay, my cards came back!
+Thank you, <RAMNAME>!
+Now I can look at my cards
+and feel happy again!
+
+[Text0e96]
+A Grand Master told me
+that dueling is fun too.
+So I might try dueling too,
+not just looking at cards!
+
+[IshiharaUnderGRInvasionInitialText]
+Why, hello there.
+I am Mr. Ishihara.
+I'm a Pokémon card collector.
+I love collecting cards.
+But now that Team GR is here,
+collecting is out of the question.
+I've heard the clubs and the Dome
+are under attack by Team GR.
+I do hope everyone
+is all right...
+
+[IshiharaUnderGRInvasionRepeatText]
+Why, hello there.
+I am Mr. Ishihara.
+I've heard the clubs and the Dome
+are under attack by Team GR.
+I do hope everyone
+is all right...
+
+[IshiharaListenToNikkiText]
+Why, hello there.
+I am Mr. Ishihara.
+I'm a Pokémon card collector.
+I love collecting cards.
+But right now, there are
+more pressing matters.
+Please grant the wish of
+Grass Club Master Nikki.
+
+[IshiharaHelpNikkiText]
+Why, hello there.
+I am Mr. Ishihara.
+I'm a Pokémon card collector.
+I love collecting cards.
+But right now, there are
+more pressing matters.
+Once Nikki's wish comes true,
+let's do some trading.
+
+[IshiharaWantsToTrade1InitialText]
+Ah, it's you, <RAMNAME>.
+Well then, let's trade cards.
+Actually, I'm looking for a
+"Clefairy<Lv>15" at the moment.
+It's the Clefairy with the
+"Follow Me" attack.
+I'd like to trade my
+"Flying Pikachu" for it.
+Do you have a
+"Clefairy<Lv>15" card?
+
+[IshiharaWantsToTrade1RepeatText]
+Ah, it's you, <RAMNAME>.
+Enjoying your Pokémon cards?
+Actually, I'm looking for a
+"Clefairy<Lv>15" at the moment.
+I'd like to trade my
+"Flying Pikachu" for it.
+Do you have a
+"Clefairy<Lv>15" card?
+
+[IshiharaDeclinedTradeText]
+I see.
+That's too bad...
+Then let's trade cards
+some other time...
+
+[IshiharaDoNotOwnClefairyLv15Text]
+I truly appreciate the thought,
+but you don't have the card.
+Then let's trade cards
+some other time...
+
+[IshiharaUsingAllClefairyLv15InDecksText]
+Oh my, your "Clefairy<Lv>15" cards
+are all in your decks.
+I couldn't possibly take cards
+you're using in your games.
+Then let's trade cards
+some other time...
+
+[IshiharaAcceptedTrade1Text]
+Oh, how wonderful!
+Then, without further ado...
+
+[TradedClefairyForFlyingPikachuText]
+<RAMNAME> traded "Clefairy"
+for "Flying Pikachu"!
+
+[IshiharaThanksTradedClefairyLv15Text]
+I'll gratefully accept this
+"Clefairy<Lv>15."
+Thank you so much.
+You've been a great help.
+
+[IshiharaAtHomeTradeLaterReadMyBooksText]
+Ah, it's you, <RAMNAME>.
+Welcome.
+Right now, there's no card I want
+and no card to trade.
+Let's trade cards
+another time.
+If you like, please have a look
+at the books I've written.
+I'm sure they'll help
+you in your duels.
+
+[IshiharaWantsToTrade2InitialText]
+Ah, it's you, <RAMNAME>.
+Well then, let's trade cards.
+This time, I'm looking for a
+"Clefable<Lv>34," you see...
+I'd like to trade the new card
+"Togepi<Lv>8" for it.
+Do you have a
+"Clefable<Lv>34" card?
+
+[IshiharaWantsToTrade2RepeatText]
+Ah, it's you, <RAMNAME>.
+Enjoying your Pokémon cards?
+This time, I'm looking for a
+"Clefable<Lv>34," you see...
+I'd like to trade the new card
+"Togepi<Lv>8" for it.
+Do you have a
+"Clefable<Lv>34" card?
+
+[IshiharaDoNotOwnClefableLv34Text]
+You don't have a
+"Clefable<Lv>34," do you?
+I'll only trade "Togepi<Lv>8"
+for a "Clefable<Lv>34."
+Then let's trade cards
+some other time...
+
+[IshiharaUsingAllClefableLv34InDecksText]
+Hmm... Your "Clefable<Lv>34" cards
+are all in your decks.
+I couldn't possibly take cards
+you're using in your games.
+Then let's trade cards
+some other time...
+
+[IshiharaAcceptedTrade2Text]
+Oh, how wonderful!
+Then, without further ado...
+
+[TradedClefableLv34ForTogepiLv8Text]
+<RAMNAME> traded "Clefable<Lv>34"
+for "Togepi<Lv>8"!
+
+[IshiharaThanksTradedClefableLv34Text]
+I'll gratefully accept this
+"Clefable<Lv>34."
+Thank you so much.
+You've been a great help.
+
+[IshiharaWantsToTrade3InitialText]
+Ah, it's you, <RAMNAME>.
+Looking as lively as ever.
+This time, I'm looking for a
+"Dragonite<Lv>45."
+If you have one, I'd like to
+trade "Marill<Lv>17" for it.
+Do you have a
+"Dragonite<Lv>45" card?
+
+[IshiharaWantsToTrade3RepeatText]
+This time, I'm looking for a
+"Dragonite<Lv>45."
+If you have one, I'd like to
+trade "Marill<Lv>17" for it.
+Do you have a
+"Dragonite<Lv>45" card?
+
+[IshiharaDoNotOwnDragoniteLv45Text]
+You don't have a
+"Dragonite<Lv>45," do you?
+I'll only trade "Marill<Lv>17"
+for a "Dragonite<Lv>45."
+Then let's trade cards
+some other time...
+
+[IshiharaUsingAllDragoniteLv45InDecksText]
+Hmm... Your "Dragonite<Lv>45" cards
+are all in your decks.
+I couldn't possibly take cards
+you're using in your games.
+Then let's trade cards
+some other time...
+
+[IshiharaAcceptedTrade3Text]
+Oh, how wonderful!
+Then, without further ado...
+
+[TradedDragoniteLv45ForMarillLv17Text]
+<RAMNAME> traded "Dragonite<Lv>45"
+for "Marill<Lv>17"!
+
+[IshiharaThanksTradedDragoniteLv45Text]
+I'll gratefully accept this
+"Dragonite<Lv>45."
+Thank you so much.
+You've been a great help.
+
+[IshiharaHeadingForVillaText]
+Thank you for all the trades,
+<RAMNAME>.
+I have some business to attend to,
+so I'm off to my villa.
+If you like, next time,
+come visit me at my villa.
+
+[IshiharaBusyRevisitVillaText]
+Hello, <RAMNAME>.
+Enjoying your Pokémon cards?
+I came back here to
+look something up.
+I'm busy right now, so
+please come see me at the villa.
+
+[IshiharaDefeatedBiruritchiCongratsText]
+Congratulations, <RAMNAME>!
+I heard all about it!
+You finally beat Team GR's King,
+Biruritchi, didn't you!
+Just as I thought, you're
+the greatest Pokémon Card Master!
+Keep on collecting Pokémon cards
+and enjoying your duels!
+
+[NikkiWantsToGiveAwayGiveInAntiGR2Deck1Text]
+Yes, I am Nikki...
+Master of the Grass Club.
+You heard about me from Brittany
+and came all this way, didn't you?
+Thank you so much,
+<RAMNAME>.
+If you could beat Brittany,
+I'm sure you'll be fine.
+
+[NikkiWantsToGiveAwayGiveInAntiGR2Deck2Text]
+Please take this.
+
+It should help you
+in your duel against GR-2.
+
+[ReceivedGiveInAntiGR2DeckText]
+<RAMNAME> received the
+"Give Up, GR-2!" deck!
+
+[NikkiDecksFullGivesCardsInsteadText]
+...It seems you can't carry
+any more decks.
+I'll give you the 60 cards of
+the "Give Up, GR-2!" deck.
+
+[ReceivedCardsForGiveInAntiGR2DeckText]
+<RAMNAME> received 60 cards
+for building a deck!
+
+[NikkiToSendDeckConfigurationToMachineText]
+I'll send the "deck configuration"
+to Mason Laboratory.
+Please build it with
+the Auto Deck Machine.
+
+[NikkiWantsToGiveOddishCoinText]
+And please take this as well.
+
+[NikkiGaveOddishCoinText]
+If you like, please use it
+in your duels.
+Please do your best, for everyone
+at the Grass Club, too.
+
+[NikkiCountingOnYouInitialText]
+With my strength alone, I could
+never hope to beat GR-2.
+<RAMNAME>,
+I'm counting on you.
+
+[NikkiCountingOnYouRepeatText]
+Please do your best, for everyone
+at the Grass Club, too.
+
+[IshiharaMyVillaText]
+Ah, <RAMNAME>! Thank you for
+your help on the other island.
+I've also heard about your
+great deeds on this island.
+Oh yes,
+this is my villa, you know.
+When I need to think things over,
+I come here to do my thinking.
+I'll be here for a while, so
+let's trade cards again.
+
+[IshiharaVillaSeeYouLaterText]
+Hello, <RAMNAME>.
+Enjoying your duels with Team GR?
+With Pokémon cards, it's always
+important to have fun.
+Unfortunately, I don't have
+any cards to trade yet.
+I'll be here for a while, so
+please come visit again.
+
+[IshiharaWantsToTrade4InitialText]
+Ah, it's you, <RAMNAME>.
+Enjoying your duels with Team GR?
+Actually, I'm collecting cards of
+the legendary bird Pokémon.
+What I want right now is a
+"Moltres<Lv>37" card.
+It's the "Moltres" card with the
+"Dry Up" attack.
+I'm thinking of trading my
+"Surfing Pikachu" for it.
+Do you have a
+"Moltres<Lv>37" card?
+
+[IshiharaWantsToTrade4RepeatText]
+Enjoying your Pokémon cards? I'm
+collecting legendary bird cards.
+What I want right now is a
+"Moltres<Lv>37" card.
+I'm thinking of trading my
+"Surfing Pikachu" for it.
+Do you have a
+"Moltres<Lv>37" card?
+
+[IshiharaDoNotOwnMoltresLv37Text]
+I truly appreciate the thought,
+but I'm afraid...
+you don't have a
+"Moltres<Lv>37" card.
+Then let's trade cards
+some other time...
+
+[IshiharaUsingAllMoltresLv37InDecksText]
+Oh my, your "Moltres<Lv>37" cards
+are all in your decks.
+I couldn't possibly take cards
+you're using in your games.
+Then let's trade cards
+some other time...
+
+[IshiharaAcceptedTrade4Text]
+Oh, how wonderful!
+Then, without further ado...
+
+[TradedMoltresForSurfingPikachuText]
+<RAMNAME> traded "Moltres"
+for "Surfing Pikachu"!
+
+[IshiharaThanksTradedMoltresLv37Text]
+I'll gratefully accept this
+"Moltres<Lv>37."
+That's my first legendary
+bird Pokémon card!
+Thank you so much.
+You've been a great help.
+
+[IshiharaWantsToTrade5InitialText]
+Ah, it's you, <RAMNAME>.
+Enjoying your duels with Team GR?
+I'm collecting the cards of
+the legendary bird Pokémon.
+What I want right now is an
+"Articuno<Lv>34" card.
+It's the "Articuno" card with
+the Pokémon Power "Aurora Veil."
+I'm thinking of trading my
+"Surfing Pikachu" for it.
+That said, it has different art
+from the one I traded before.
+Do you have an
+"Articuno<Lv>34" card?
+
+[IshiharaWantsToTrade5RepeatText]
+Ah, it's you, <RAMNAME>.
+Enjoying your Pokémon cards?
+I'm collecting the cards of
+the legendary bird Pokémon.
+What I want right now is an
+"Articuno<Lv>34" card.
+I'm thinking of trading my
+"Surfing Pikachu" for it.
+That said, it has different art
+from the one I traded before.
+Do you have an
+"Articuno<Lv>34" card?
+
+[IshiharaDoNotOwnArticunoLv34Text]
+I truly appreciate the thought,
+but I'm afraid...
+you don't have an
+"Articuno<Lv>34" card.
+Then let's trade cards
+some other time...
+
+[IshiharaUsingAllArticunoLv34InDecksText]
+Oh my, your "Articuno<Lv>34" cards
+are all in your decks.
+I couldn't possibly take cards
+you're using in your games.
+Then let's trade cards
+some other time...
+
+[IshiharaAcceptedTrade5Text]
+Oh, how wonderful!
+Then, without further ado...
+
+[TradedArticunoLv34ForSurfingPikachuText]
+<RAMNAME> traded "Articuno"
+for "Surfing Pikachu"!
+
+[IshiharaThanksTradedArticunoLv34Text]
+I'll gratefully accept this
+"Articuno<Lv>34."
+That makes two legendary
+bird Pokémon cards!
+Thank you so much.
+You've been a great help.

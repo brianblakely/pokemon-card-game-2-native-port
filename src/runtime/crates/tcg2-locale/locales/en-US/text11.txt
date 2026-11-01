@@ -1,0 +1,1747 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text11.asm, by label (format: src/text.rs).
+
+[RodFinalCupRound2NextOpponentText]
+Impressive, <RAMNAME>.
+Your next opponent is Jack!
+
+[SteveTournamentsPlayerLostText]
+You lose!
+You still have a lot to learn!
+Come challenge me again!
+Never give up!!
+
+[JackFinalCupReadyToDuelText]
+So, you will face my gorgeous deck
+once again. This time I won't lose.
+
+[JackFinalCupDuelStartText]
+Are you ready?
+We'll play with 6 Prizes.
+
+[JackFinalCupPlayerWonText]
+To think my gorgeous deck could
+be beaten... Well done.
+It seems your skill is genuine
+after all...
+
+[RodFinalCupRound3NextOpponentText]
+<RAMNAME>, you are
+splendid, as always!
+Now then, this time
+I, Rod, will be your opponent!
+
+[JackTournamentsPlayerLostText]
+Well, how was that?
+I told you I wouldn't lose.
+My gorgeous deck is simply
+superior, you see.
+
+[RodFinalCupReadyToDuelText]
+This is the last duel
+of the Final Cup!
+
+[RodFinalCupDuelStartText]
+This duel will also be played
+with 6 Prizes.
+I won't hand over the Legendary
+Pokémon Cards so easily!
+
+[RodTournamentsPlayerWonText]
+Impressive, <RAMNAME>.
+You truly are magnificent!
+
+[RodTournamentsPlayerLostText]
+It seems you fell
+just a little short.
+
+[RodYouDeserveLegendaryCardsText]
+Just as I thought. You are worthy
+of the Legendary Pokémon Cards.
+I gladly hand the Legendary
+Pokémon Cards over to you...
+
+[RodChallengeBiruritchiText]
+Now, <RAMNAME>,
+go to GR Castle.
+And no matter what, you must meet
+Biruritchi, the King of Team GR.
+Make Team GR mend
+their misguided ways.
+We Grand Masters, too,
+await that day.
+When it comes, we will be able to
+enjoy Pokémon cards with Team GR.
+Now, I'm counting on you,
+<RAMNAME>...
+
+[RodYouDoNotDeserveLegendaryCardsText]
+I'm sorry, but I cannot give you
+the Legendary Pokémon Cards.
+Come back and try again.
+Well then...
+
+[CupHostGrandMasterCupIntroBracketRevealText]
+And now, the Grand Master Cup
+is about to begin!!
+As the Grand Masters look on,
+the duel of the century begins!!
+Now let's announce the
+tournament matchups!
+
+[CupHostGrandMasterCupRound1Text]
+Now, let's begin the first
+round of the tournament!
+
+[CupHostGrandMasterCupRound1CallPlayerText]
+Match 1 pits <RAMNAME>,
+who defeated Team GR, against...
+
+[CupHostGrandMasterCupRound1CallOpponentText]
+the <RAMTEXT> Club Master!!
+It's <RAMTEXT>!
+
+[CupHostGrandMasterCupRound1StartingText]
+Now then,
+let's begin the duel!
+
+[CupHostGrandMasterCupAreYourDecksReadyText]
+Both of you,
+are your decks ready?
+
+[CupHostGrandMasterCupMakeYourPreparationsText]
+Then go ahead and
+make your preparations!
+
+[CupHostGrandMasterCupRound1DuelStartText]
+Are you ready?
+We'll play with 6 Prizes!
+And now!!
+Ready... Go!!
+
+[CupHostGrandMasterCupRound2Text]
+Now, let's begin the second
+round of the tournament!
+
+[CupHostGrandMasterCupRound2CallPlayerText]
+Match 2 pits <RAMNAME>,
+who defeated Team GR, against...
+
+[CupHostGrandMasterCupRound2CallOpponentText]
+the <RAMTEXT> Club Master!!
+It's <RAMTEXT>!
+
+[CupHostGrandMasterCupRound2DuelStartText]
+Now then,
+let's begin the duel!
+Under Grand Master Cup rules,
+you may not change decks.
+Are you ready?
+We'll play with 6 Prizes!
+And now!!
+Ready... Go!!
+
+[CupHostGrandMasterCupFinalsText]
+And with that, our finalists
+have been decided!
+Now let's begin the final
+of the tournament!
+
+[CupHostGrandMasterCupFinalsCallPlayerText]
+Introducing our finalists!
+First up, <RAMNAME>!!
+
+[CupHostGrandMasterCupFinalsCallOpponentClubMasterText]
+And the other finalist,
+the <RAMTEXT> Club Master,
+<RAMTEXT>!
+
+[CupHostGrandMasterCupFinalsCallOpponentRonaldText]
+And the other finalist,
+Ronald!
+
+[RonaldGrandMasterCupFinalsText]
+Hey, <RAMNAME>!
+So you made it this far, huh?
+But you'll never beat
+the great Ronald!
+I built this deck just to beat you.
+Now I'll show you what it can do!
+
+[CupHostGrandMasterCupFinalsDuelStartText]
+Now then,
+let's begin the final!
+Under Grand Master Cup rules,
+you may not change decks.
+Are you ready?
+We'll play with 6 Prizes!
+And now, on to the final!
+Ready... Go!!
+
+[CupHostGrandMasterCupRoundsPlayerWonText]
+<RAMNAME> has cleared
+Round <RAMNUM>!!
+
+[CupHostGrandMasterCupRoundsOpponentEliminatedText]
+Too bad, <RAMTEXT>.
+Have a safe trip home!
+
+[CupHostGrandMasterCupSeeUpdatedBracketText]
+Now then,
+let's check the other matches!
+
+[CupHostGrandMasterCupRoundsPlayerLost1Text]
+And the winner is...
+<RAMTEXT>!
+
+[CupHostGrandMasterCupRoundsPlayerLost2Text]
+<RAMTEXT> has cleared
+Round <RAMNUM>!!
+
+[CupHostGrandMasterCupFinalsPlayerWon1Text]
+And the winner is...
+<RAMNAME>!
+
+[CupHostGrandMasterCupFinalsPlayerWon2Text]
+<RAMNAME> will now challenge
+a Grand Master!!
+
+[CupHostGrandMasterCupFinalsOpponentEliminatedText]
+Too bad, <RAMTEXT>.
+Have a safe trip home!
+
+[RonaldGrandMasterCupFinalsPlayerWonText]
+Rats!
+I lost to <RAMNAME> again?!
+No...
+I just got bad draws, that's all!
+I won't lose next time!
+Just you wait, <RAMNAME>!!
+
+[CupHostGrandMasterCupFinalsPlayerLost1Text]
+And the winner is...
+<RAMTEXT>!
+
+[CupHostGrandMasterCupFinalsPlayerLost2Text]
+<RAMTEXT> will now challenge
+a Grand Master!!
+
+[RonaldGrandMasterCupFinalsPlayerLostText]
+See that, <RAMNAME>?
+That's what I can really do!!
+Just as I thought, I'm way
+stronger than the likes of you!
+
+[CupHostGrandMasterCupGrandFinalsText]
+And at last, it's time for
+the duel with a Grand Master!
+Now, which Grand Master
+will be dueling this time?
+Let's have Grand Master Rod
+make the announcement!
+
+[RodGrandMasterCupGrandFinalsBracketReveal1Text]
+In this Grand Master Cup,
+your opponent will be...
+
+[RodGrandMasterCupGrandFinalsBracketReveal2Text]
+Grand Master...
+<RAMTEXT>!
+
+[CupHostGrandMasterCupGrandFinalsCallCourtneyText]
+It's Grand Master
+Courtney, the Fire Queen!
+
+[CourtneyGrandMasterCupGrandFinalsText]
+Here I come, <RAMNAME>.
+Hee hee... I won't go easy on you.
+
+[CupHostGrandMasterCupGrandFinalsDuelStartText]
+We'll play with 6 Prizes.
+Now, let the duel begin!
+
+[CourtneyGrandMasterCupGrandFinalsPlayerLostText]
+Hee hee...
+I win. Too bad for you.
+
+[CupHostGrandMasterCupGrandFinalsPlayerLostText]
+The winner is the Grand Master!!
+It's <RAMTEXT>!
+Oh, my!!
+<RAMNAME> has been defeated!!
+
+[CupHostGrandMasterCupGrandFinalsCallSteveText]
+It's the Lightning Grand Master,
+Thunder Steve!
+
+[SteveGrandMasterCupGrandFinalsText]
+Your duel with Thunder Steve
+will be BIG and GREAT!
+
+[CupHostGrandMasterCupGrandFinalsCallJackText]
+It's the Ice Grand Master,
+Gentleman Jack!
+
+[JackGrandMasterCupGrandFinalsText]
+So, you will face my gorgeous deck
+once again. This time I won't lose.
+
+[JackGrandMasterCupGrandFinalsPlayerWonText]
+To think my gorgeous deck could
+be beaten... Well done.
+
+[CupHostGrandMasterCupGrandFinalsCallRodText]
+Your opponent is the leader
+of the Grand Masters, Rod!
+
+[RodGrandMasterCupGrandFinalsText]
+Now, I, Rod, shall personally
+be your opponent!
+
+[CupHostGrandMasterCupGrandFinalsPlayerWonText]
+<RAMNAME> did it!
+Congratulations!!
+
+[CupHostGrandMasterCupPlayerChampionText]
+Champion of the
+Grand Master Cup!!
+
+[CupHostGrandMasterCupChampionPrizeSelectionText]
+Now then, it's time to
+choose your prizes!
+
+[CupHostGrandMasterCupChampionPrizesText]
+Please accept your
+championship prizes!!
+
+[CupHostGrandMasterCupFirstChampionRewardsText]
+Congratulations on your
+first championship!
+<RAMNAME>, as a memento,
+please accept this coin.
+
+[CupHostGrandMasterCupPlayerFirstChampionCongratsText]
+Once again, <RAMNAME>,
+congratulations!
+
+[CupHostGrandMasterCupPlayerChampionCongratsText]
+Congratulations,
+<RAMNAME>!
+
+[CupHostGrandMasterCupPlayerChampionClosingText]
+This Grand Master Cup was won
+by <RAMNAME>!
+Until the next Grand Master Cup,
+farewell, everyone!!
+
+[CupHostGrandMasterCupPlayerLostEliminatedText]
+Too bad, <RAMNAME>.
+Have a safe trip home!
+
+[CourtneyWantsToDuelInitialText]
+Oh my, hee hee...
+If it isn't <RAMNAME>.
+I was so happy you rescued me
+from Team GR, <RAMNAME>.
+Hee hee... Thanks to you, I could
+come back to the Pokémon Dome.
+Since you came all this way,
+how about a duel with me?
+
+[CourtneyWantsToDuelRepeatText]
+Hee hee...
+If it isn't <RAMNAME>.
+Oh? The Legendary Pokémon Cards?
+I'll give them to you!
+That is, if you beat all four
+Grand Masters in the Final Cup...
+But...
+we're not all here yet.
+Still, if it's just me,
+hee hee... I'll duel you.
+
+[CourtneyDuelPromptText]
+Do you want to duel Courtney?
+
+[CourtneyDuelStartText]
+Now take my fiery attacks
+to your heart's content!
+We'll play with 6 Prizes.
+Hee hee... Here I come!
+
+[CourtneyDeclinedDuelText]
+Hee hee...
+Oh, what a shame.
+Well, first things first.
+Good luck against Team GR.
+
+[CourtneyReadyForFinalCupText]
+Hee hee... All the Grand Masters
+are back together.
+It's time for the Final Cup!
+Go win the Legendary Pokémon Cards!
+But <RAMNAME>,
+I won't go easy on you.
+
+[CourtneyPostgameInitialText]
+Thanks to you, <RAMNAME>,
+we've made friends with Team GR,
+and the world of Pokémon cards
+has grown so much bigger.
+Hee hee...
+Thank you, <RAMNAME>.
+
+[CourtneyPostgameRepeatText]
+We Grand Masters won't be
+outdone by Team GR, either.
+We'll think of more ways to
+enjoy Pokémon cards.
+Hee hee... ways for lots of people
+to enjoy them together!
+
+[CourtneyPlayerWon1Text]
+Hee hee...
+You beat me.
+
+[CourtneyPlayerWon2Text]
+Impressive, <RAMNAME>.
+` `
+No wonder you once inherited
+the Legendary Pokémon Cards.
+
+[CourtneyPlayerLostText]
+Hee hee...
+Vic-to-ry is mine!
+Come back and duel me
+once in a while, OK?
+
+[SteveWantsToDuelInitialText]
+Hey, <RAMNAME>!
+Thanks for the help on GR Island!
+We lost to Team GR and got
+captured. So pathetic!
+We Grand Masters gotta get
+stronger, more and more!
+Or our Grand Master pride
+will crash into pieces!
+Hey, <RAMNAME>!
+Time to battle Steve!
+
+[SteveWantsToDuelRepeatText]
+Hey, <RAMNAME>!
+Condition OK?
+Without all the Grand Masters,
+the Final Cup can't open!
+And no Final Cup means
+no Legendary Pokémon Cards!
+But with just me,
+a Pokémon card battle is OK!
+Hey, <RAMNAME>!
+Time to battle Steve!
+
+[SteveDuelPromptText]
+Do you want to duel Steve?
+
+[SteveDuelStartText]
+Prize cards: six!
+In Japanese, that's "roku"!
+<RAMNAME>!
+Let's battle! Go!!
+
+[SteveDeclinedDuelText]
+Oh, no!
+That's cold, <RAMNAME>.
+Am I not powerful enough
+to be your opponent?
+
+[SteveReadyForFinalCupText]
+Hey, <RAMNAME>!
+Rod made a comeback!
+So now the
+Final Cup is A-OK!
+Beat us and get the
+Legendary Pokémon Cards!
+
+[SteveReadyForNextFinalCupText]
+If it helps crush Team GR,
+we Grand Masters will accept
+your challenge any time,
+as many times as you want!
+
+[StevePostgameInitialText]
+Hey! <RAMNAME>!
+Congratulations!
+Thanks to you, it's love and
+peace with Team GR too!
+From now on, let's enjoy
+Pokémon cards!
+
+[StevePostgameRepeatText]
+Hey! <RAMNAME>!
+Enjoying Pokémon cards OK?
+We Grand Masters are holding
+a wonderful card tournament!
+You've gotta enter
+the tournament too!
+
+[SteveGrandMasterCupPlayedText]
+Hey! <RAMNAME>!
+Enjoying Pokémon cards OK?
+The Grand Master Cup is
+closed for today.
+But it will open again!
+So drop by now and then, OK!
+
+[StevePlayerWon1Text]
+You are the winner!
+Oh, so great!
+
+[StevePlayerWon2Text]
+Mmm... I am the loser.
+I've lost again.
+<RAMNAME>,
+come back again!
+Next battle,
+I'll be the winner!!
+
+[StevePlayerLostText]
+You lose!
+You still have a lot to learn!
+Come challenge me again!
+Giving up is not cool!
+
+[JackWantsToDuelInitialText]
+Well, well,
+if it isn't <RAMNAME>.
+Thank you for rescuing me
+from Team GR.
+I, Jack, shall never forget
+this debt of gratitude.
+This time, Team GR got the
+better of us completely.
+And even now, our leader,
+Rod, remains their captive.
+We are only the Grand Masters
+when all four of us are together.
+Without all four of us,
+the Final Cup cannot be held.
+For now, all we can do is
+duel one by one.
+What do you say? Will you duel
+my gorgeous deck?
+
+[JackWantsToDuelRepeatText]
+Oh?
+Is that you, <RAMNAME>?
+Have you come here
+to duel with me?
+Since Rod has yet to return,
+we cannot hold the Final Cup.
+If you'll settle for me,
+let us duel with my gorgeous deck.
+
+[JackDuelPromptText]
+Do you want to duel Jack?
+
+[JackDuelStartText]
+Are you ready, then?
+We'll play with 6 Prizes.
+
+[JackDeclinedDuelText]
+I see. That is a shame.
+I was hoping to duel
+the gorgeous deck that
+rescued me...
+
+[JackReadyForFinalCupText]
+If you need the Legendary
+Pokémon Cards, win the Final Cup.
+Go now, and speak with Rod,
+leader of the Grand Masters.
+
+[JackPostgameInitialText]
+Well, well,
+if it isn't <RAMNAME>.
+So you finally won over
+the King of Team GR.
+In any case, this means
+the battle with Team GR is over.
+Now we can all enjoy gorgeous
+duels with Pokémon cards.
+And it's all
+thanks to you, <RAMNAME>.
+
+[JackPostgameRepeatText]
+Our leader, Rod, is planning
+some gorgeous duels.
+A gorgeous tournament called
+the "Grand Master Cup."
+Well...
+Do look forward to it.
+
+[JackGrandMasterCupPlayedText]
+Wasn't the Grand Master Cup
+a gorgeous tournament?
+Someday, we will hold
+the Grand Master Cup again,
+so do come by the
+Pokémon Dome now and then.
+
+[JackPlayerWon1Text]
+To think my gorgeous deck could
+be beaten... You are impressive.
+
+[JackPlayerWon2Text]
+It seems your skill is
+the real thing...
+
+[JackPlayerLostText]
+Your gorgeous deck was quite
+something, too...
+but you cannot beat
+my gorgeous deck.
+
+[RodWantsToStartFinalCupInitialText]
+<RAMNAME>.
+So, you've come, as I expected.
+As I said on GR Island, you must
+meet Biruritchi, King of Team GR,
+and make Team GR mend
+their misguided ways.
+I know. You'll need the Legendary
+Pokémon Cards to meet Biruritchi.
+Now, it's the Final Cup!
+Are you prepared?
+
+[RodWantsToStartFinalCupRepeatText]
+<RAMNAME>...
+Unless you defeat all four of us,
+you cannot obtain the Legendary
+Pokémon Cards...
+You need the Legendary Pokémon
+Cards to meet Biruritchi, right?
+Now, it's the Final Cup!
+Are you prepared?
+
+[RodWantsToStartNextFinalCupText]
+<RAMNAME>, whatever it takes,
+meet Biruritchi, King of Team GR,
+and make Team GR mend
+their misguided ways.
+We Grand Masters, too,
+await that day.
+If you need the Legendary
+Pokémon Cards to duel Team GR,
+then once again,
+let us begin the Final Cup.
+<RAMNAME>,
+are you prepared?
+
+[FinalCupEnterPrompt]
+Begin the Final Cup?
+
+[RodFinalCupEnterAcceptedPrompt]
+Very well.
+Now, to the Final Hall!
+
+[RodFinalCupEnterDeclinedPrompt]
+Then get yourself prepared
+and come back again.
+Never forget that "only you"
+can stop Team GR.
+
+[RodPostgameInitialText]
+Thank you,
+<RAMNAME>.
+Your courageous dueling
+moved Biruritchi's heart.
+All who enjoy Pokémon cards
+are friends.
+Duel not only the people of this
+island and Team GR, but many more.
+For that is how to enjoy
+Pokémon cards even more...
+
+[RodPostgameRepeatText]
+Duel all sorts of people, not just
+those on this island or in Team GR.
+It would be good to duel others
+at places like the Battle Center.
+That is one step toward widening
+the new world of Pokémon cards.
+
+[RodGrandMasterCupPlayedText]
+Did you enjoy the
+Grand Master Cup?
+We will hold it again someday,
+so look forward to it.
+Until then, duel all sorts of
+people at the Battle Center.
+
+[PokemonDomeGR5PreachInitialText]
+We, Team Great Rocket, have
+seized the Pokémon Dome!
+And the Grand Masters are
+our prisoners on GR Island!
+Listen well! All you people can
+do is collect cards!
+Pokémon cards are wasted
+on the likes of you!
+Cards are meaningless unless
+they're put in a deck and used!
+For the sake of all the poor
+cards that never get used...
+We, Team GR, shall take
+every last card!!!
+
+[PokemonDomeGR5PreachRepeatText]
+We, Team GR, have but
+one goal!
+To take all the Pokémon cards
+that are merely collected!
+
+[GrandMasterCupClerkWelcomeText]
+The Grand Master Cup is
+now being held!
+Win the tournament and
+challenge a Grand Master!
+Beat the Grand Master, and
+you'll win fabulous prizes!
+
+[GrandMasterCupClerkPrizesText]
+"<RAMTEXT>"
+"<RAMTEXT>"
+
+[GrandMasterCupClerkInviteText]
+The winner gets 2 of these
+4 promotional cards!
+<RAMNAME>, will you enter
+the Grand Master Cup?
+
+[GrandMasterCupClerkPlayerLostText]
+That was a real shame,
+<RAMNAME>.
+Please do your best at
+the next Grand Master Cup.
+
+[GrandMasterCupClerkPlayerWonGrandFinalText]
+Congratulations,
+<RAMNAME>!
+Please win the next
+Grand Master Cup, too!
+
+[GrandMasterCupClerkEnterPromptText]
+Enter the Grand Master Cup?
+
+[GrandMasterCupClerkEnterAcceptedText]
+Then please proceed
+to the Final Hall!
+
+[GrandMasterCupClerkEnterDeclinedText]
+I see. That's too bad.
+Please come again!
+
+[PokemonDomeGRLassSpectatorText]
+I came all the way from GR Island
+to watch the Grand Master Cup!
+A tournament of Club Masters,
+and a showdown with a Grand Master!
+
+[PokemonDomeGRLassAnticipatingText]
+I can't wait to see what happens!
+So exciting...
+
+[PokemonDomeGRLassSpectatedText]
+Those were wonderful duels!!
+My heart's still pounding...
+
+[PokemonDomeYoungsterSpectatorText]
+Rod himself is holding the
+Grand Master Cup!
+But only those who are chosen
+can enter the Grand Master Cup.
+I want to be a card master
+good enough to enter, too!
+
+[PokemonDomeYoungsterSpectatedText]
+Hey, hey! You were in the
+Grand Master Cup, right?
+So who won
+this time?
+Did you beat
+the Grand Master?
+
+[PokemonDomeSwimmerSpectatorText]
+The Grand Master Cup's rules:
+first, an 8-player tournament.
+The tournament's winner then
+duels one of the Grand Masters.
+Beat the Grand Master in that
+duel, and you're the champion!
+What's more, you can use only
+one deck for every duel!
+Rod sure made some
+tough rules, didn't he?
+
+[PokemonDomeSwimmerPlayerWonCupText]
+I heard! You won the
+Grand Master Cup!
+Way to go, <RAMNAME>!
+You're a true Grand Master!
+
+[PokemonDomeSwimmerPlayerLostCupText]
+I hear the tournament winner
+lost to the Grand Master.
+The Grand Masters really are
+incredibly strong!
+
+[PokemonDomeGR5SealedArenaDoorsText]
+I've sealed that door!
+` `
+If all four Grand Masters
+come back, you might open it!
+
+[RodIAmGrandMasterLeaderText]
+<RAMNAME>, it is I, Rod,
+leader of the Grand Masters!
+
+[RodRevisitPokemonDomeForNextFinalCupText]
+I will hold the Final Cup for you
+as many times as it takes.
+But now is not yet the time.
+Leave the Pokémon Dome,
+build a new deck once more,
+and then return.
+
+[PokemonDomeFatGuyAllGrandMastersGoneText]
+All four of the Pokémon Dome's
+Grand Masters, who guarded the
+Legendary Pokémon Cards, were
+taken away by Team GR...
+What will become of the
+Legendary Pokémon Cards now?
+
+[PokemonDomeFatGuySteveIsBackText]
+Steve, the Lightning Grand
+Master, has come back!
+But three Grand Masters are
+still held by Team GR...
+I wish someone would
+rescue them...
+
+[PokemonDomeFatGuyCourtneyIsBackText]
+All right! The Fire Queen,
+Courtney, has come back!
+I wonder who
+rescued her?
+Now there are only two
+Grand Masters still captive!
+
+[PokemonDomeFatGuyJackIsBackText]
+Hey! Jack, the Ice Grand Master,
+has come back!
+I wonder who
+rescued him?
+Now only Courtney and Rod
+are left.
+
+[PokemonDomeFatGuyWeNeedRodText]
+I heard, <RAMNAME>! It was you
+who rescued the Grand Masters!
+Now there's only the leader of
+the Grand Masters, Rod!
+Once all four Grand Masters are
+back, the Final Cup will reopen!
+Then you can get the
+Legendary Pokémon Cards!
+
+[PokemonDomeFatGuyRodIsBackText]
+Rod is back too, so
+the Final Cup is back on!
+Beat all four Grand Masters and
+get the Legendary Pokémon Cards!
+
+[PokemonDomeFatGuyGrandMasterCupInactiveText]
+The Grand Master Cup that the
+Grand Masters hold is amazing!
+The champion's prize is
+2 promotional cards!
+You get to pick any 2 out of
+4 promotional cards!!
+But when it'll be held is
+shrouded in mystery!!
+
+[PokemonDomeFatGuyGrandMasterCupActiveText]
+The Grand Master Cup is being
+held at the Pokémon Dome now!
+The Grand Master Cup is
+a tournament!
+The champion's prize is
+2 promotional cards!
+You get to pick any 2 out of
+4 promotional cards!!
+
+[PokemonDomeFatGuyGrandMasterCupPlayedText]
+How'd it go?!
+Did you win?
+The Grand Master Cup is
+hardly ever held...
+I wonder when the next one
+will be...
+
+[PlateOfLegendsText]
+`"To those who seek the`
+` Legendary Pokémon Cards:`
+` Defeat the four Grand Masters`
+` who reside in this Pokémon Dome,`
+` Steve, Courtney, Jack`
+` and Rod.`
+` Then the Legendary Pokémon`
+` Cards shall be yours."`
+
+[Text1034]
+Well, well!
+Welcome, <RAMNAME>.
+Thank you for rescuing me from
+GR Island. I'm truly grateful.
+How about a duel to celebrate
+my return to the club?
+
+[Text1035]
+I've been thinking all this time
+about why I lost to Team GR...
+I believe it was a mistake to
+lose myself in research alone.
+Pokémon cards are meant to be
+enjoyed, after all.
+What do you say?
+Shall we enjoy a duel together?
+
+[Text1036]
+Ah, <RAMNAME>.
+How are you today?
+What do you say?
+Shall we enjoy a duel together?
+
+[Text1037]
+Do you want to duel Rick?
+
+[Text1038]
+As for Prizes... let's see,
+shall we make it 6?
+Now then, let's enjoy our duel.
+
+[Text1039]
+I was so hoping to enjoy
+a duel with you...
+Very well.
+I'll wait for another chance.
+
+[Text103a]
+Mitch from the Fighting Club
+brought me some cards.
+I've restocked my booster packs,
+so duel me and I'll hand them over.
+
+[Text103b]
+Shall we enjoy a duel?
+` `
+If you win, I'll give you
+the booster packs I have.
+
+[Text103c]
+Shall we play with 6 Prizes,
+as usual?
+Now then, let's enjoy our duel.
+
+[Text103d]
+Whenever you'd like to enjoy
+a duel, please come again.
+
+[Text103e]
+Hmm, so I lost.
+Then here are your booster packs.
+
+[Text103f]
+Even when I lose, dueling is
+still fun.
+It goes to show that enjoying
+things is what matters most.
+
+[Text1040]
+What matters more than winning or
+losing is enjoying Pokémon cards.
+
+[Text1041]
+Having lost, I'll gladly hand
+over these booster packs.
+
+[Text1042]
+Perhaps the people who are
+strong at Pokémon cards
+are the ones who know how
+to enjoy a duel.
+
+[Text1043]
+I'm afraid I've won this time.
+
+[Text1044]
+We study Pokémon cards using
+this Deck Machine.
+Unlike Dr. Mason's Auto Deck
+Machines, only we can use it.
+But what's going on here?
+The machine wasn't wrecked.
+Maybe Team GR aren't such
+bad guys after all...
+You can duel me if you like.
+Want to?
+
+[Text1045]
+I'm always up
+for a duel!
+
+[Text1046]
+Do you want to duel David?
+
+[Text1047]
+Same as before,
+we'll play with 4 Prizes!
+
+[Text1048]
+Whenever you want to duel,
+I'm always ready!
+
+[Text1049]
+I tuned up the machine, and
+still lost...
+Oh, right. Your booster packs.
+
+[Text104a]
+If I keep losing like this,
+I'd better check the machine...
+
+[Text104b]
+Don't you think our Deck Machine
+is really something?
+
+[Text104c]
+Thanks for driving out GR-2,
+<RAMNAME>!
+But... Rick still
+hasn't come back...
+
+[Text104d]
+If I had cards, I could at least
+help you a little, <RAMNAME>.
+Please, I'm counting on you
+to save our Club Master, Rick.
+
+[Text104e]
+Hi, <RAMNAME>.
+Rick still isn't back.
+But I've collected some cards,
+so we can duel. Want to?
+
+[Text104f]
+<RAMNAME>, if you beat me,
+I'll give you booster packs!
+So please get Rick
+back for us!!
+I'm sure Rick is
+on GR Island!
+<RAMNAME>! You're strong enough
+to fight even on GR Island!
+
+[Text1050]
+Do you want to duel Joseph?
+
+[Text1051]
+I always play with
+4 Prizes!
+
+[Text1052]
+Well, whether you duel or not
+is up to you...
+
+[Text1053]
+Rick came back!
+You rescued him, didn't you!!
+Thank you, thank you,
+thank you, thank you!
+Now the Science Club can
+get back to research!
+I'm so happy! How about
+a duel?
+
+[Text1054]
+Hi, <RAMNAME>!
+I'm in the middle of research.
+But I was just wanting a break,
+so how about a duel?
+
+[Text1055]
+Yep! I lost, just as I thought!
+OK, here are your booster packs!
+
+[Text1056]
+If giving you booster packs
+makes you stronger, and that
+brings Rick back,
+then it's worth it.
+
+[Text1057]
+You can't be losing to me!
+You need to get stronger.
+
+[Text1058]
+You keep getting stronger and
+stronger. I might never win again.
+
+[Text1059]
+My desk wasn't messed up, but
+my cards are gone, after all.
+Sorry, but I can't duel.
+
+[Text105a]
+I've got enough cards now to
+cover my whole desk!
+Of course you'll play
+Pokémon cards with me, right?
+
+[Text105b]
+Playing with cards is so fun,
+I almost forget my research.
+And dueling is the best part!
+Let's duel!
+
+[Text105c]
+Do you want to duel Erik?
+
+[Text105d]
+We'll play with 4 Prizes!
+
+[Text105e]
+You don't want to duel?
+Fine, then.
+I'll go research my
+scientific deck.
+
+[Text105f]
+OK, here's a booster pack I made
+from the cards I collected.
+
+[Text1060]
+I need to research my
+scientific deck more.
+I'm not Team GR, but
+cards are meant to be used!
+
+[Text1061]
+Score one for the scientific deck!
+My research wasn't for nothing!
+After all, I beat
+<RAMNAME>!
+Well, don't let it put you off.
+Come visit the Science Club!
+
+[Text1062]
+Look, look, lookee!
+It's aaall Team GR's now!
+I even took away Rick,
+the Science Club's Master!
+Hm?
+Who are you?
+Ohhh, so you're the <RAMNAME>
+I've heard about!
+Let's see if you're
+reeeally strong!
+
+[Text1063]
+Whaaat? You came back again?
+You're such a pain!
+If you wanna fight that bad,
+fine! I'll fight you!
+
+[Text1064]
+Do you want to duel GR-2?
+
+[Text1065]
+Six Prize caaards!
+Here I gooo!
+
+[Text1066]
+Whaaat? If you're not gonna fight,
+you're in the way! Go awaaay!
+
+[Text1067]
+Uh-oh... I lost.
+Tch! Here, take your booster packs!
+
+[Text1068]
+Okay, okaaay, you lose, you looose!
+Now hurry up and go home, pleeease!
+
+[Text1069]
+And also...
+"GR Coin Piece 2," too!
+
+[Text106a]
+Collect all 4, and you can ride
+the airship at the Airport!
+By the way, the Science Club's
+Master, Rick...
+I went and took him
+off to GR Island!
+Next time, let's meet on GR Island!
+Faaare-wellll!
+
+[Text106b]
+Huh? You've got all 4?
+Sooo cool!
+Go to the Airport!
+You can ride the airship!
+By the way, the Science Club's
+Master, Rick...
+I went and took him
+off to GR Island!
+Next, let's meet on GR Island!
+Seeee ya!
+
+[Text106c]
+I'm Joseph of the Science Club.
+You're <RAMNAME>, right?
+Listen to this!
+GR-2 of Team GR attacked us!
+And our Club Master, Rick,
+was taken away!
+Please, <RAMNAME>!
+Bring Rick back!
+You're the only one who can
+fight even the Grand Masters!
+
+[Text106d]
+The Team GR guy is waiting for
+you in the Play Hall, <RAMNAME>.
+Beat him to a pulp!
+
+[Text106e]
+GR-2 said something
+about the Grass Club.
+If you go to the Grass Club,
+you might find out something.
+
+[Text106f]
+The Team GR guy is waiting for
+you in the Play Hall, <RAMNAME>.
+Beat him to a pulp!
+
+[Text1070]
+I've looked all over, but
+Rick is nowhere to be found.
+Maybe GR-2, who went to the
+Grass Club, knows something...
+
+[Text1071]
+GR-2 ran away!
+Heh heh! Serves him right!
+
+[Text1072]
+Um, I'm David.
+I run the Science Club's machines.
+Unfortunately, thanks to Team GR,
+we can't use the Deck Machine.
+But I've got some cards I hid
+away. Want to duel?
+
+[Text1073]
+Until GR-2 is gone, we can't
+use the Deck Machine.
+I doubt anyone but <RAMNAME>
+could beat him.
+But don't let your guard down.
+Let's practice together.
+
+[Text1074]
+Do you want to duel David?
+
+[Text1075]
+In our duels,
+we use 4 Prizes!
+I won't lose so easily!
+Come on, let's duel!
+
+[Text1076]
+That's fine.
+I'll think about the Deck Machine.
+
+[Text1077]
+So GR-2 is gone.
+Now we can use the Deck Machine!
+While I'm in a good mood,
+want to have a duel?
+
+[Text1078]
+I lost, just as I figured.
+I don't have the Deck Machine...
+But a loss is a loss,
+so here are your booster packs.
+
+[Text1079]
+You're the only one who can
+fight Team GR, <RAMNAME>!
+We're counting on you,
+<RAMNAME>!
+
+[Text107a]
+Even without the Deck Machine,
+my research is paying off.
+
+[Text107b]
+I'm Erik of the Science Club.
+I research Pokémon cards.
+What a mess. I lost to GR-2,
+so now we can't use the machine.
+
+[Text107c]
+Thanks, <RAMNAME>!
+Now I can go back to the Play Hall.
+
+[Text107d]
+Rick, the Science Club's Master,
+was kidnapped.
+They say he's being held
+on GR Island.
+The other Club Masters were
+taken there too, they say.
+I wonder if they're all safe...
+
+[Text107e]
+Rick has come back.
+The other Club Masters seem safe.
+Well, that's a relief for now.
+
+[Text107f]
+Team GR turned over a new leaf,
+and peace is back. What a relief.
+
+[Text1080]
+Even the mighty Grand Masters
+were taken away.
+The Grand Masters lost too.
+Now it's all up to <RAMNAME>...
+Never met <RAMNAME> myself, but
+I'm sure it'll be OK.
+After all, anyone who beat
+the Grand Masters must have
+the Legendary Pokémon Cards...
+right?
+
+[Text1081]
+It's all about <RAMNAME>!
+Huh? What about, you ask?
+Isn't it obvious?
+Beating Team GR, of course!
+Word is, that duelist even
+made it to GR Island!
+<RAMNAME> is amazing, huh?
+Never met in person, though...
+
+[Text1082]
+I heard! So <RAMNAME>
+was you all along!
+Thank you, <RAMNAME>,
+for getting the cards back!
+
+[Text1083]
+Thank you, <RAMNAME>!
+
+[Text1084]
+I'm here to research the way
+Team GR fights.
+As a research subject, it's a
+most fascinating problem.
+
+[Text1085]
+You beat a Team GR member!
+Impressive, <RAMNAME>!
+Keep up the good work!
+
+[Text1086]
+I learned a great many things
+from this whole affair.
+I'm sure you learned a lot too,
+didn't you, <RAMNAME>?
+Hmm... Pokémon cards are
+truly profound...
+
+[Text1087]
+`"I seal these dread, ruinous decks`
+` together with their wielders.`
+` King of Team Great Rocket`
+`                     Biruritchi"`
+
+[TobichanWelcomeText]
+Welcome
+to the "Sealed Fort"!!
+
+[TobichanGhostMasterIntroductionText]
+We are the wielders of
+feared decks.
+And so we have been sealed
+away in this place.
+If you wish to know the power
+of our decks, duel us.
+Speak to a statue, and
+you may duel.
+Now then, please choose
+your opponent.
+
+[TobichanWelcomeBackText]
+My, my, you've come again?
+You would do well to stop...
+But since you are here,
+I shall be your opponent.
+
+[StatuePoisonStormDeckName]
+Poison Storm Deck
+
+[GhostMasterStatueInscriptionText]
+There's a stone statue.
+Words are carved on its pedestal.
+"Ghost Master <RAMTEXT>
+` <RAMTEXT>"`
+
+[GhostMasterDuelPromptText]
+Will you duel <RAMTEXT>?
+
+[TobichanWantsToDuelText]
+Of all people, you wish
+to duel me?
+Are you truly certain?
+Then, to the duel table...
+
+[TobichanDuelStartInitialText]
+Now then, shall we duel
+with 6 Prizes?
+
+[TobichanDuelStartRepeatText]
+Allow me to show you
+my "Poison Storm Deck."
+
+[TobichanPlayerWon1Text]
+Hmm... To think I would lose.
+I must say, I am surprised.
+
+[TobichanPlayerWon2Text]
+Heh heh heh... Not bad at all.
+I look forward to our next duel.
+Until we meet again,
+<RAMNAME>...
+
+[TobichanPlayerLostText]
+This is why our decks
+are so feared.
+Don't let it trouble you that
+you couldn't win, <RAMNAME>.
+Still, I think you'd be wise
+not to duel us again. Farewell.
+
+[StatueEverybodysFriendDeckName]
+All Friends Deck
+
+[EijiWantsToDuelText]
+So you're gonna duel me?
+Then take a seat at the table.
+
+[EijiDuelStartInitialText]
+My name's Eiji.
+Nice to meetcha!
+Let's duel right away!
+We'll play with 6 Prizes!
+Check out the power of my
+"All Friends Deck"!!
+
+[EijiDuelStartRepeatText]
+You wanna duel me?
+Well, I don't mind.
+OK, let's duel right away!
+We'll play with 6 Prizes!
+
+[EijiPlayerWon1Text]
+Huh? Did I just lose?
+Heh heh. Here, have a booster pack!
+
+[EijiPlayerWon2Text]
+When your deck doesn't cooperate,
+this kind of thing happens, huh?
+See ya!
+
+[EijiPlayerLostText]
+Don't let it bother you.
+You were bound to lose anyway!
+See ya!
+
+[StatueImmortalPokemonDeckName]
+Immortal Pokémon Deck
+
+[MagicianWantsToDuelText]
+So you wish to duel me.
+Very well, I shall oblige you.
+
+[MagicianDuelStartInitialText]
+I am known as Magician.
+Pray, remember the name.
+Now, let us duel.
+We shall play with 6 Prizes.
+My "Immortal Pokémon Deck"--
+allow me to show it to you.
+
+[MagicianDuelStartRepeatText]
+My "Immortal Pokémon Deck"--
+allow me to show it to you.
+
+[MagicianPlayerWon1Text]
+Oh ho! To defeat me...
+You are quite something.
+Now then, for the victor,
+a lovely present...
+
+[MagicianPlayerWon2Text]
+Thank you most sincerely
+for the duel.
+And now, I take my leave...
+
+[MagicianPlayerLostText]
+Please do not take your
+loss too much to heart.
+It is precisely because I am so
+hard to beat that I am feared.
+And now, I take my leave...
+
+[StatueTrainerImprisonDeckName]
+Trainer Seal Deck
+
+[ToshironWantsToDuelText]
+You wanna duel me?
+Heh! You've got guts!
+
+[ToshironDuelStartInitialText]
+I'm Toshiron!
+I won't go down easy!
+All right! 6 Prizes!
+We duel with 6!!
+Take on my "Trainer Seal Deck"
+and you'll be sorry!
+
+[ToshironDuelStartRepeatText]
+Take on my "Trainer Seal Deck"
+and you'll be sorry!
+
+[ToshironPlayerWon1Text]
+No way!
+I lost?!
+Tch! Fine, whatever.
+Here's a booster pack.
+
+[ToshironPlayerWon2Text]
+Next time we duel,
+I ain't losing!
+Later!
+
+[ToshironPlayerLostText]
+Ha haa! Didn't I tell you
+you'd be sorry?!
+Well, you'd better not duel me
+again. Later!
+
+[StatueBlazingFlameDeckName]
+Blazing Flame Deck
+
+[PierrotWantsToDuelText]
+Hyahyahyahyahya!
+You wanna duuuel? Reeeally?
+
+[PierrotDuelStartInitialText]
+Meee, I'm Pierrooot!
+Nice to meet youuu!
+The Priiize caaards
+will be siiix!!
+
+[PierrotDuelStartRepeatText]
+My "Blazing Flame Deck"!
+Let's duuuel nooow!!
+
+[PierrotPlayerWon1Text]
+Hyahyahyahyahya!
+I lose lose lose lose loooose!
+
+[PierrotPlayerWon2Text]
+Weeell theeen,
+let's meet agaaain!!
+
+[PierrotPlayerLostText]
+Hyahyahyahyahya!
+I win win win wiiin!!
+Weeell theeen,
+let's meet agaaain!!
+
+[StatueDamageChaosDeckName]
+Damage Chaos Deck
+
+[AnnaWantsToDuelText]
+Welcome!
+How many in your party today?
+I'll show you to your seat!
+Right this way!
+
+[AnnaDuelStartInitialText]
+Thanks for requesting me!
+I'm Annaaa!
+Your order is a duel, right?
+That'll be 6 Prizes!
+
+[AnnaDuelStartRepeatText]
+Here's the duel you ordered!
+That'll be 6 Prizes!
+
+[AnnaPlayerWon1Text]
+Here's your change: a booster pack!
+Please take it!
+
+[AnnaPlayerWon2Text]
+Thank you for dueling!
+Please come again!
+
+[AnnaPlayerLostText]
+Thank you for dueling!
+
+[StatueBigThunderDeckName]
+Big Thunder Deck
+
+[DeeWantsToDuelText]
+If ya wanna duel me,
+grab a seat at the table, wontcha?
+
+[DeeDuelStartInitialText]
+The name's Dee.
+Good to meetcha.
+So, about this duel...
+we'll go with 6 Prizes.
+
+[DeeDuelStartRepeatText]
+"Big Thunder Deck"!
+I'm gonna let ya have it!
+
+[DeePlayerWon1Text]
+Aw, man! I lost!
+I can't believe it!
+
+[DeePlayerWon2Text]
+Not bad, pal!
+Let's duel again sometime!
+Well, see ya around!
+
+[DeePlayerLostText]
+I won! Well, if I didn't,
+I wouldn't be a Ghost Master.
+So anyway, I'm
+outta here. Later!
+
+[StatuePowerOfDarknessDeckName]
+Power of Darkness Deck
+
+[MasqueradeWantsToDuelText]
+Take your place at the duel table...
+
+[MasqueradeDuelStartInitialText]
+I am called Masquerade...
+...The Prizes shall be 6.
+
+[MasqueradeDuelStartRepeatText]
+The "Power of Darkness Deck"...
+
+[MasqueradePlayerWon1Text]
+To the victor, a booster pack...
+
+[MasqueradePlayerWon2Text]
+Now, farewell...
+
+[MasqueradePlayerLostText]
+We are the wielders of
+feared decks.
+Victory was only natural...
+Now, farewell...
+
+[StatueTorrentialFloodDeckName]
+Torrential Flood Deck
+
+[YuiWantsToDuelText]
+Hiii! Hello there!
+You want a duel, right?
+Then let's go to the duel table!
+
+[YuiDuelStartInitialText]
+I'm Yui.
+Nice to meet you!
+It's been a long time since
+my last duel. I can't wait!
+I want to take my time and
+enjoy it, so 6 Prizes!
+
+[YuiDuelStartRepeatText]
+"Torrential Flood Deck"--
+that's my deck's name.
+Remember it, OK? Now then,
+let's duel with 6 Prizes!
+
+[YuiPlayerWon1Text]
+Maybe I'm just rusty
+since it's been so long?
+
+[YuiPlayerWon2Text]
+Thanks for dueling me!
+Let's play again, OK?
+Bye-bye!
+
+[YuiPlayerLostText]
+Looks like being sealed away
+hasn't dulled my skills.
+But our decks are super nasty,
+so don't let it get to you!
+Let's play again, OK?
+Bye-bye!
+
+[Text10cc]
+How's that, Gene?!
+You can't stand up to me now!
+Looks like Team GR will
+be taking over this place too!
+
+[Text10cd]
+Not yet... not yet...
+I, Gene, have not borne
+the title of Rock Club Master
+for nothing!
+
+[Text10ce]
+Quit your whining! The Rock Club
+shall bow before me, GR-1!
+
+[Text10cf]
+You're still wet behind the ears!
+This settles it!
+
+[Text10d0]
+Ngh!!
+No... it can't be...!
+
+[Text10d1]
+I... GR-1 of Team Great Rocket...
+...lost...
+
+[Text10d2]
+Tch! So my takeover of the
+Rock Club failed...
+Fine. I'll at least keep
+my hold on the Fighting Club...

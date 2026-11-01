@@ -14,9 +14,9 @@
 //!
 //! Keys: arrows/WASD, X/K = A, Z/J = B, Enter = Start, Backspace/right
 //! Shift = Select; F11 or Alt+Enter fullscreen, F1 scaling filter, F2 LCD
-//! colours, F3 frame blending, F4 fit, F5 save state, F7 load it, F12
-//! screenshot, P pause, hold Tab to fast-forward. Gamepads work as the
-//! console's pad.
+//! colours, F3 frame blending, F4 fit, F5 save state, F7 load it, F9
+//! language, F12 screenshot, P pause, hold Tab to fast-forward. Gamepads
+//! work as the console's pad.
 
 // A window, not a console, on Windows (errors go to a message box).
 #![cfg_attr(all(windows, not(debug_assertions)), windows_subsystem = "windows")]
@@ -82,6 +82,7 @@ fn options() -> Result<Options, String> {
                 println!(
                     "{TITLE}\n\nusage: pokemon-tcg2 [--rom PATH] [--set KEY=VALUE]... [--stats]\n\
                      \nThe ROM is looked for in rom/ beside the app. Settings (settings.ini):\n\
+                     language=en-US|ja\n\
                      filter=sharp|nearest|smooth fit=aspect|integer|stretch lcd_colours=BOOL\n\
                      frame_blending=BOOL fullscreen=BOOL volume=0-100 speed=exact|display\n\
                      max_fps=N pause_hidden=BOOL window=WxH"
@@ -276,7 +277,7 @@ fn run(options: Options) -> Result<(), String> {
     }
     let sdl = sdl::Sdl::init()?;
     let rom = load_rom(&home, options.rom.as_deref())?;
-    let mut kernel = Kernel::new(rom, SAMPLE_RATE).map_err(|e| e.to_string())?;
+    let mut kernel = Kernel::new(rom, SAMPLE_RATE, settings.language).map_err(|e| e.to_string())?;
     let save_path = home.join("saves").join("poketcg2.sav");
     if let Ok(bytes) = std::fs::read(&save_path) {
         kernel.load_sram(&bytes);
@@ -433,6 +434,16 @@ fn run(options: Options) -> Result<(), String> {
                                         Err(e) => window
                                             .set_title(&format!("{TITLE} - no state loaded: {e}")),
                                     }
+                                }
+                                SDLK_F9 => {
+                                    let language = kernel.language().next();
+                                    window.set_title(&match kernel.set_language(language) {
+                                        Ok(()) => {
+                                            settings.language = language;
+                                            format!("{TITLE} - language: {}", language.name())
+                                        }
+                                        Err(e) => format!("{TITLE} - {e}"),
+                                    });
                                 }
                                 SDLK_F12 => {
                                     let stamp = std::time::SystemTime::now()

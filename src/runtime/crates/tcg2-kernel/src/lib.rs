@@ -8,7 +8,10 @@
 //! therefore costs the host only what its own instructions cost, plus one
 //! wake-up per frame.
 
+use std::collections::HashMap;
+use std::sync::OnceLock;
 use tcg2_core::{Fault, Machine, RomError, verify_rom};
+pub use tcg2_locale::Language;
 
 pub mod script;
 
@@ -135,10 +138,15 @@ pub fn ram_routines() -> &'static [(u16, u16, u16)] {
 
 /// A global label's location: (bank, address).
 pub fn label(name: &str) -> Option<(u16, u16)> {
-    generated::LABELS
-        .iter()
-        .find(|&&(_, _, n)| n == name)
-        .map(|&(b, a, _)| (b as u16, a))
+    static BY_NAME: OnceLock<HashMap<&'static str, (u16, u16)>> = OnceLock::new();
+    let by_name = BY_NAME.get_or_init(|| {
+        let mut map = HashMap::with_capacity(generated::LABELS.len());
+        for &(bank, addr, name) in generated::LABELS {
+            map.entry(name).or_insert((bank as u16, addr));
+        }
+        map
+    });
+    by_name.get(name).copied()
 }
 
 /// Calls one of the game's own routines from where it waits for the next
@@ -192,27 +200,87 @@ pub struct KernelFault(pub Fault);
 
 impl std::error::Error for KernelFault {}
 
+/// Why the game cannot start.
+#[derive(Debug)]
+pub enum LoadError {
+    /// Not the ROM the kernel was translated from.
+    Rom(RomError),
+    /// A translation that does not fit the ROM (a bug its tests catch).
+    Language(tcg2_locale::Error),
+}
+
+impl std::fmt::Display for LoadError {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            LoadError::Rom(e) => e.fmt(f),
+            LoadError::Language(e) => write!(f, "the translation: {e}"),
+        }
+    }
+}
+
+impl std::error::Error for LoadError {}
+
+/// The ROM image the game runs on in `language`: the player's ROM with
+/// every translation laid into the banks past it (`tcg2_locale::localize`).
+pub fn localized_rom(rom: &[u8], language: Language) -> Result<Vec<u8>, tcg2_locale::Error> {
+    let text_data = |name: &str| {
+        generated::TEXT_DATA
+            .iter()
+            .find(|&&(_, _, _, n)| n == name)
+            .map(|&(bank, addr, size, _)| (bank as u16, addr, size))
+    };
+    let symbols = tcg2_locale::Symbols {
+        label: &label,
+        text_data: &text_data,
+    };
+    tcg2_locale::localize(rom, language, &symbols)
+}
+
 /// The game: the machine and the code that runs on it.
 pub struct Kernel {
     pub machine: Machine,
     pub code: Code,
+    /// The player's ROM, as dumped: each language's image is made from it.
+    rom: Box<[u8]>,
+    language: Language,
 }
 
 impl Kernel {
     /// Boots the game from the player's ROM (checked to be the one the
-    /// kernel was translated from).
-    pub fn new(rom: Vec<u8>, sample_rate: u32) -> Result<Self, RomError> {
-        verify_rom(&rom)?;
+    /// kernel was translated from), in `language`.
+    pub fn new(rom: Vec<u8>, sample_rate: u32, language: Language) -> Result<Self, LoadError> {
+        verify_rom(&rom).map_err(LoadError::Rom)?;
+        let image = localized_rom(&rom, language).map_err(LoadError::Language)?;
         Ok(Self {
-            machine: Machine::new(rom.into(), sample_rate),
+            machine: Machine::new(image.into(), sample_rate),
             code: Code::new(),
+            rom: rom.into(),
+            language,
         })
+    }
+
+    pub fn language(&self) -> Language {
+        self.language
+    }
+
+    /// Switches the game's text to `language`. What is on screen stays;
+    /// every text printed from now on (the rest of one being printed
+    /// included) is in the new language.
+    pub fn set_language(&mut self, language: Language) -> Result<(), tcg2_locale::Error> {
+        if language != self.language {
+            let image = localized_rom(&self.rom, language)?;
+            self.machine.cart.replace_rom(image.into());
+            self.language = language;
+        }
+        Ok(())
     }
 
     /// Runs the game until its next frame ends (vertical blank begins, or a
     /// frame's time passes with the LCD off).
     pub fn run_frame(&mut self) -> Result<(), KernelFault> {
-        let Self { machine: m, code } = self;
+        let Self {
+            machine: m, code, ..
+        } = self;
         loop {
             if m.clock >= m.next_event {
                 if let Some(fault) = m.fault.take() {

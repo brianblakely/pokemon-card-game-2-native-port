@@ -5,10 +5,12 @@ A native PC port of **Pokémon Card GB2 - GR Dan Sanjou!** (Game Boy Color,
 translated to Rust from the [pret disassembly](src/decomp/README.md). No Game
 Boy emulator is involved, and the port uses a fraction of the power emulation
 does. The picture scales to any window size, and presentation follows any
-display's refresh rate.
+display's refresh rate. The game plays in **American English**, the port's
+own translation, or in its original Japanese.
 
 The port contains no game data. It reads the graphics, text, cards and music
-from **your own ROM** at run time.
+from **your own ROM** at run time. The English translation and its font are
+the port's own work, laid over the game's text when the ROM is loaded.
 
 ## How it works
 
@@ -51,6 +53,10 @@ the only implementation of its logic. Everything the port adds lives outside
   changed, and a picture is presented only when it differs from the last one. A
   static menu costs no drawing and no GPU work. The sound device pauses when the
   game makes no sound.
+- **Translated, not patched.** The game prints every text through one table.
+  `tcg2-locale` writes the English text into the ROM image's free upper banks
+  and points that table at it. Your ROM file, the decomp and the translated
+  program stay unchanged ([Languages](#languages)).
 
 ## Battery use
 
@@ -82,7 +88,8 @@ drawing changed lines and synthesizing sound.
 2. Put your ROM of *Pokémon Card GB2 - GR Dan Sanjou! (J)* in `rom/` beside the
    app. It must be 2 MiB with SHA-1 `a7e12bcc5f514e3aad8de570fd511aab0a308822`;
    the file name doesn't matter. The `rom/` folder is in `.gitignore`.
-3. Run `pokemon-tcg2`.
+3. Run `pokemon-tcg2`. The game starts in American English; F9 switches to
+   the original Japanese and back.
 
 Battery saves go to `saves/poketcg2.sav`, a raw 32 KiB file in the same format
 emulators use, so existing saves can be copied in. Screenshots go to
@@ -102,6 +109,7 @@ beside the `.app` only if you create a `rom/` folder there; otherwise they go in
 | Frame blending | F3 | |
 | Fit (aspect, integer, stretch) | F4 | |
 | Save state / load it | F5 / F7 | |
+| Language (American English, Japanese) | F9 | |
 | Screenshot / pause / fast-forward | F12 / P / hold Tab | |
 
 **Any resolution:** the 160×144 picture fills any window or screen. *Sharp*
@@ -116,6 +124,39 @@ once. `max_fps = 30` (or any value) caps how often pictures are presented to
 save more power, while the game itself keeps full speed. Frame blending
 reproduces the LCD's slow response, which some of the game's flicker effects
 rely on.
+
+## Languages
+
+| `language` | |
+| --- | --- |
+| `en-US` (default) | American English, the port's own translation |
+| `ja` | Japanese, the game's text as your ROM has it |
+
+Press F9 while playing to switch, or set `language` in `settings.ini` (or
+`--set language=ja`).
+
+- **Everything the game says** is translated: dialogue, menus, duel messages,
+  the in-game books and glossary, and every card's name, attacks, rules and
+  Pokédex entry. Card text follows the English cards of the time, and names
+  follow the first game's English release where it had them (Dr. Mason,
+  Ronald, Imakuni?).
+- **Two letters to a tile.** The game's text engine draws English in
+  half-width letters, as the first Pokémon Trading Card Game's English
+  release did. The port draws its own, easier-to-read font for them. The
+  engine pads what it fills into a sentence (a card's name, a number) to a
+  whole tile, so after an odd number of letters a narrow extra space can
+  appear.
+- **Your name** is typed on the game's own keyboard: its ABC and abc pages
+  type Latin letters, its other pages kana.
+- **Switching mid-game.** What is on screen stays until the game draws it
+  again, and the next text it prints is in the new language. Names the game
+  has already stored, such as your decks' names and the Challenge Machine's
+  records, keep the language they were made in.
+- **Pictures with lettering** in duels are redrawn in English: the turn and
+  setup banners, and the play area's location labels. A few others keep their
+  Japanese lettering: the title logo, the booster pack art, the win/lose
+  animation at a duel's end, the special-rules banner, the slot machine's
+  signs and the Card Pop! scene.
 
 ## Building
 
@@ -159,7 +200,8 @@ The decomp builds on its own too (`nix develop path:./nix`, then
   kernel and on the interpreter. All 520,900 trials matched. The 0.2% of trials
   where random registers made code switch its own ROM bank are set aside.
 - **Against a real emulator.** `tcg2-libretro` runs the ROM in SameBoy or
-  gambatte with the same input. Screens match SameBoy pixel for pixel: the
+  gambatte with the same input. In Japanese (`--language ja`), screens match
+  SameBoy pixel for pixel: the
   title, menus and new-game screens exactly, and the animated intro on 552 of
   700 frames. The intro's other frames differ only by the phase of the boot
   timing, plus one palette fade that lands a few dozen cycles apart. The music's
@@ -171,6 +213,10 @@ The decomp builds on its own too (`nix develop path:./nix`, then
 - **Everywhere alike.** The Windows build (under Wine) ends a scripted run on
   the same clock and memory hash as the Linux build. A save state resumed in a
   new process ends the same as an uninterrupted run.
+- **The translation.** `cargo test -p tcg2-locale` checks that every Japanese
+  text of the decomp has an English translation, that the game's font can
+  draw it, and that no line outgrows its text box. The lockstep checks run on
+  the English image.
 
 [docs/development.md](docs/development.md) has the commands.
 
@@ -182,6 +228,7 @@ The decomp builds on its own too (`nix develop path:./nix`, then
 | `src/runtime/crates/tcg2-recomp` | The translator (SM83 to Rust) |
 | `src/runtime/crates/tcg2-kernel` | The translated game and its dispatcher |
 | `src/runtime/crates/tcg2-core` | The machine: memory map, cartridge, LCD, sound, timer |
+| `src/runtime/crates/tcg2-locale` | The game in other languages: the American English translation and font (`locales/en-US/`), laid into the ROM image at load |
 | `src/runtime/crates/tcg2-render` | The picture's look: fit, LCD colours, frame blending (CPU, per new picture) |
 | `src/runtime/crates/tcg2-desktop` | The desktop app (`pokemon-tcg2`) |
 | `src/runtime/crates/tcg2-headless` | The game without a window: scripted input, screenshots, measurement |

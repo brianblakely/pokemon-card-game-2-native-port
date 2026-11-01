@@ -1,0 +1,2446 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text2.asm, by label (format: src/text.rs).
+
+[PrehistoricDreamCheckText]
+If heads, Pokémon that evolved from
+Mysterious Fossil do +10 damage.
+
+[PowerOfDarknessCheckText]
+If heads, return 1 opposing Pokémon
+and all attached cards to the Hand.
+
+[Plus10DamageToOppAndYourselfForEachHeadsText]
++10 damage for each heads.
+10 damage to itself for each heads.
+
+[TheRocketsTrapCheckText]
+If heads, return 3 cards from the
+opponent's Hand to their Deck.
+
+[ThunderAttackCheckText]
+If heads, the opponent is Paralyzed.
+If tails, 10 damage to itself.
+
+[TwisterCheckText]
+If heads, return all cards on the
+Defending Pokémon to the Hand.
+
+[IfHeadsHeal1StatusOfYourActiveText]
+If heads, cure 1 Special Condition
+of your Active Pokémon!
+
+[BotherCheckText]
+If heads, 1 Trainer card from the
+opponent's Hand returns to the Deck.
+
+[PerplexCheckText]
+If tails, <RAMNAME> can't draw
+a card at the start of next turn.
+
+[MagnetCheckText]
+If heads, choose a Magnemite from
+the Deck and put it on the Bench.
+
+[FossilGuidanceCheckText]
+If heads, put a Mysterious Fossil
+from the Discard Pile into the Hand.
+
+[AttackUnsuccessfulText]
+Attack unsuccessful.
+
+[UnableToRetreatDueToAcidText]
+Can't Retreat due to
+Acid.
+
+[UnableToRetreatDueToRockSealText]
+Can't Retreat due to
+Rock Seal.
+
+[UnableToRetreatDueToDrillDiveText]
+Can't Retreat due to
+Drill Dive.
+
+[UnableToRetreatDueToGuardText]
+Can't Retreat due to
+Guard.
+
+[UnableToUseTrainerDueToHeadacheText]
+Unable to use Trainer cards due to
+the effects of Headache.
+
+[UnableToUseTrainerDueToSpookifyText]
+Unable to use Trainer cards due to
+the effects of Spookify.
+
+[UnableToAttackDueToTailWagText]
+Can't attack due to
+Tail Whip.
+
+[UnableToAttackDueToLeerText]
+Can't attack due to
+Leer.
+
+[UnableToAttackDueToBoneAttackText]
+Can't attack due to
+Bone Attack.
+
+[UnableToAttackDueToDrillDiveText]
+Can't attack due to
+Drill Dive.
+
+[UnableToUseAttackDueToAmnesiaText]
+Can't use this
+attack due to Amnesia.
+
+[UnableToUseAttackDueToDisableText]
+Can't use this
+attack due to Disable.
+
+[KnockedOutDueToDestinyBondText]
+Due to the effects of Destiny Bond,
+<RAMTEXT> is Knocked Out!
+
+[ReceivedDamageDueToStrikesBackText]
+<RAMTEXT> took
+<RAMNUM> damage from Strikes Back!
+
+[UnableToEvolveDueToPrehistoricPowerText]
+Prehistoric Power prevents
+evolution.
+
+[NoDamageOrEffectDueToFlyText]
+Fly prevents all effects of the
+attack, including damage.
+
+[NoDamageOrEffectDueToBarrierText]
+Barrier prevents all effects of the
+attack, including damage.
+
+[NoDamageOrEffectDueToAgilityText]
+Agility prevents all effects of the
+attack, including damage.
+
+[NoDamageOrEffectDueToHideText]
+Hide prevents all effects of the
+attack, including damage.
+
+[UnableToUseAttackDueToNShieldText]
+Can't use this attack due to
+Neutral Shield.
+
+[NoDamageOrEffectDueToNShieldText]
+Neutral Shield prevents all effects
+of the attack, including damage.
+
+[NoDamageOrEffectDueToTransparencyText]
+Transparency prevents all effects of
+the attack, including damage.
+
+[UnableToUseTrainerDueToHayFeverText]
+Unable to use Trainer cards due to
+the effects of Hay Fever.
+
+[PoisonFluidActivatedText]
+Poison Fluid takes effect!
+
+[UnableToDrawCardDueToPerplexText]
+Unable to draw a card due to
+the effects of Perplex.
+
+[MetamorphsToText]
+<RAMTEXT> transformed
+into <RAMTEXT>!
+
+[SelectBenchedPokemonToSwitchWithActiveText]
+Choose a Benched Pokémon to switch
+with your Active Pokémon.
+
+[SelectPokemonToPlaceInTheArenaText]
+Choose a Pokémon to place
+in the Arena.
+
+[DuelistIsSelectingPokemonToPlaceInArenaText]
+<RAMNAME> is choosing a Pokémon
+to place in the Arena.
+
+[ChooseWeaknessToConversion1Text]
+Choose the new Weakness type
+for Conversion 1.
+
+[ChooseResistanceToConversion2Text]
+Choose the new Resistance type
+for Conversion 2.
+
+[ChoosePokemonToColorChangeText]
+Choose the new Pokémon type
+for Shift.
+
+[ChangedTheWeaknessOfPokemonToColorText]
+<RAMTEXT> is now
+weak to <RAMTEXT>
+
+[ChangedTheResistanceOfPokemonToColorText]
+<RAMTEXT> now
+resists <RAMTEXT>
+
+[ChangedTheColorOfPokemonToColorText]
+<RAMTEXT> is
+now <RAMTEXT>.
+
+[Draw1CardFromTheDeckText]
+Draw 1 card
+from the Deck.
+
+[DrawCardsFromTheDeckText]
+Draw <RAMNUM> card(s)
+from the Deck.
+
+[DrawNoCardsFromTheDeckText]
+No cards drawn from the Deck.
+
+[ChooseBenchedPokemonToGiveDamageText]
+Choose a Benched Pokémon
+to damage.
+
+[ChoosePokemonToGiveDamageText]
+Choose a Pokémon
+to damage.
+
+[ChooseUpTo3BenchedPokemonToGiveDamageText]
+Choose up to 3 Benched Pokémon
+to damage.
+
+[Choose1BasicEnergyCardFromDeckText]
+Choose 1 basic Energy card
+from the Deck.
+
+[ChoosePokemonToAttachEnergyCardText]
+Choose a Pokémon to attach
+the Energy card to.
+
+[ChooseAndDiscard1FireEnergyCardText]
+Choose 1 Fire Energy card
+to discard.
+
+[ChooseAndDiscard2FireEnergyCardsText]
+Choose 2 Fire Energy cards
+to discard.
+
+[DiscardOppDeckAsManyFireEnergyCardsText]
+Discard 1 card from the opponent's
+Deck per Fire Energy you discard.
+
+[ChooseAndDiscard2EnergyCardsText]
+Choose 2 Energy cards
+to discard.
+
+[ChooseAKrabbyFromDeckText]
+Find a Krabby in the Deck.
+
+[ChooseEnergyCardFromOppActiveToDiscardText]
+Choose an Energy card to discard
+from the Defending Pokémon.
+
+[ChooseAttackToDisableNextOppTurnText]
+Choose an attack to disable during
+the opponent's next turn.
+
+[ChooseBasicFightingPokemonFromDeckText]
+Choose a Basic Fighting Pokémon
+from the Deck.
+
+[ChooseAnOddishFromDeckText]
+Choose an Oddish from the Deck.
+
+[ChooseAnOddishText]
+Choose an
+Oddish.
+
+[ChooseAKrabbyText]
+Choose a
+Krabby.
+
+[ChooseBasicEnergyCardText]
+Choose a basic
+Energy card.
+
+[ChooseNidoranFromDeckText]
+Choose a Nidoran♀ or Nidoran♂
+from the Deck.
+
+[ChooseNidoranText]
+Choose a
+Nidoran♀ or Nidoran♂
+
+[ChooseBasicFightingPokemonText]
+Choose a Basic
+Fighting Pokémon.
+
+[ProcedureForEnergyTransferText]
+`    How to use Energy Trans`
+
+1. Choose a Pokémon to move Grass
+`   Energy from and press A.`
+
+2. Choose the Pokémon to move it to
+`   and press A.`
+
+3. Repeat steps 1 and 2.
+
+4. Press B to finish.
+
+[ChooseABellsproutFromDeckText]
+Choose a Bellsprout from the Deck.
+
+[ChooseABellsproutText]
+Choose a
+Bellsprout.
+
+[ChoosePokemonToRemoveDamageCounterFromText]
+Choose a Pokémon to remove
+damage counters from.
+
+[ProcedureForCurseText]
+`    How to use Curse`
+
+1. Choose a Pokémon to move a damage
+`   counter from and press A.`
+
+2. Choose the Pokémon to move it to
+`   and press A to confirm.`
+
+3. Press B to cancel.
+
+[Choose2EnergyCardsFromDiscardPileToAttachText]
+Choose 2 Energy cards to attach
+from the Discard Pile.
+
+[Choose2EnergyCardsFromDiscardPileForHandText]
+Choose 2 Energy cards to put in
+your Hand from the Discard Pile.
+
+[ChooseAnEnergyCardText]
+Choose an
+Energy card.
+
+[ProcedureForProphecyText]
+`    How to use Prophecy`
+
+1. Choose your Deck or your
+`   opponent's Deck.`
+
+2. Choose the cards in the order you
+`   want them on top and press A.`
+
+3. Once all 3 cards are numbered,
+`   choose Yes to finish.`
+
+4. Press B to cancel.
+
+[ChooseTheOrderOfTheCardsText]
+Choose the cards
+in order.
+
+[ProcedureForDamageSwapText]
+`    How to use Damage Swap`
+
+1. Choose a Pokémon to move a damage
+`   counter from and press A.`
+
+2. Choose the Pokémon to move it to
+`   and press A.`
+
+3. Repeat steps 1 and 2.
+
+4. Press B to finish.
+
+5. You can't make a move that would
+`   Knock Out a Pokémon.`
+
+[ProcedureForDevolutionBeamText]
+`    How to use Devolution Beam`
+
+1. Choose your Pokémon or your
+`   opponent's Pokémon and press A.`
+
+2. Choose the Pokémon to devolve
+`   and press A.`
+
+3. Press B to cancel.
+
+[ProcedureForStrangeBehaviorText]
+`    How to use Strange Behavior`
+
+1. Choose the Pokémon whose damage
+`   counter you'll move to Slowbro,`
+`   and press A.`
+
+2. Repeat step 1 as you like.
+
+3. Press B to finish.
+
+4. You can't make a move that would
+`   Knock Out Slowbro.`
+
+[ChooseOppAttackForMetronomeText]
+Choose 1 of the Defending Pokémon's
+attacks for Metronome to copy.
+
+[NoTargetsInDeckText]
+<RAMTEXT>
+not found in the Deck.
+
+[NoTargetsButCheckDeckPromptText]
+Check the Deck anyway?
+
+[SelectTargetDeckYoursOppsText]
+Choose a Deck.
+`            Yours   Opponent's`
+
+[SelectTargetPlayAreaYoursOppsText]
+Choose a play area.
+`            Yours   Opponent's`
+
+[EffectTargetNidoranMNidoranFText]
+Nidoran♂ and Nidoran♀
+
+[EffectTargetOddishText]
+Oddish
+
+[EffectTargetBellsproutText]
+Bellsprout
+
+[EffectTargetKrabbyText]
+Krabby
+
+[EffectTargetFightingPokemonText]
+Fighting Pokémon
+
+[EffectTargetBasicEnergyText]
+Basic Energy
+
+[PeekWasUsedToLookInYourHandText]
+Peek was used to look at
+<RAMTEXT> in your Hand.
+
+[CardPeekWasUsedOnText]
+Peek was used here.
+
+[PokemonAndAllAttachedCardsReturnedToHandText]
+<RAMTEXT> and all attached
+cards were returned to the Hand.
+
+[DisabledNextTurnText]
+<RAMTEXT> can't be used
+during the next turn.
+
+[BasicPokemonWasPlacedOnEachBenchText]
+Basic Pokémon were placed on
+both players' Benches!
+
+[WasUnsuccessfulText]
+<RAMTEXT>'s
+<RAMTEXT> was unsuccessful!
+
+[MetronomeWasUnsuccessfulText]
+<RAMTEXT>'s
+Metronome was unsuccessful!
+
+[ThereWasNoEffectFromTxRam2Text]
+<RAMTEXT> had no effect.
+
+[TheEnergyCardFromPlayAreaWasMovedText]
+The Energy cards in the play area
+of <RAMNAME> were moved!
+
+[DrewFireEnergyFromDeckText]
+<RAMNAME> drew <RAMNUM> Fire Energy
+card(s) from the Deck.
+
+[AffectedByMixUpText]
+The Pokémon cards in the Hand and
+Deck of <RAMNAME> were mixed up!
+
+[ProcedureForGatherFireText]
+`    How to use Gather Fire`
+
+1. Choose a Pokémon with Fire Energy
+`   attached and press A.`
+
+2. Choose the Energy card to take
+`   and press A.`
+
+[RemoveEnergyCardPromptText]
+Discard an Energy card?
+
+[ReceivedDamageDueToMirrorShellText]
+<RAMTEXT> took
+<RAMNUM> damage from Mirror Shell!
+
+[ChooseEvolutionCardForMagikarpFromDeckText]
+From the Deck, choose a card that
+evolves from Magikarp.
+
+[EffectTargetGyaradosText]
+Gyarados
+
+[ChooseAGyaradosText]
+Choose a
+Gyarados.
+
+[ReceivedDamageDueToFinalBeamText]
+Final Beam dealt
+<RAMNUM> damage!
+
+[SwitchOutDarkAlakazamPromptText]
+Switch out Dark Alakazam?
+
+[ChooseAPsychicEnergyCardFromDeckText]
+Choose a Psychic Energy card
+from the Deck.
+
+[EffectTargetPsychicEnergyText]
+Psychic Energy
+
+[ChooseAPsychicEnergyCardText]
+Choose a Psychic
+Energy card.
+
+[CardTrickeryWasUsedOnText]
+Trickery swapped
+this card.
+
+[ChooseAnEvolutionCardFromDeckText]
+Pick an Evolution card
+from the Deck.
+
+[EffectTargetEvolutionCardText]
+Evolution
+
+[ChooseAnEvolutionCardText]
+Choose an
+Evolution card.
+
+[ChooseAParasFromDeckText]
+Choose a Paras
+from the Deck.
+
+[EffectTargetParasText]
+Paras
+
+[ChooseAParasText]
+Choose a
+Paras.
+
+[ChooseATrainerCardFromDeckText]
+Choose a Trainer card from the Deck.
+
+[ChooseATrainerCardText]
+Choose a
+Trainer card.
+
+[IfHeadsAttachUpTo3WaterEnergyFromDeckText]
+If heads, attach up to 3 Water
+Energy from the Deck to itself.
+
+[ChooseWaterEnergyText]
+Choose a Water
+Energy card.
+
+[NoFossilsInDiscardPileText]
+Mysterious Fossil
+not in the Discard Pile.
+
+[ChooseALightningEnergyFromDeckText]
+Choose a Lightning Energy card
+from the Deck.
+
+[EffectTargetLightningEnergyText]
+Lightning Energy
+
+[ChooseALightningEnergyText]
+Choose a Lightning
+Energy card.
+
+[ChooseAMagnemiteFromDeckText]
+Choose a Magnemite
+from the Deck.
+
+[EffectTargetMagnemiteText]
+Magnemite
+
+[ChooseAMagnemiteText]
+Choose a
+Magnemite.
+
+[ChooseUpTo3PokemonCardsFromDiscardPileText]
+Choose up to 3 Pokémon cards
+from the Discard Pile.
+
+[ChooseUpTo2BasicPokemonFromDeckText]
+Choose up to 2 Basic
+Pokémon from the Deck.
+
+[EffectTargetBasicPokemonText]
+Basic Pokémon
+
+[ChooseBasicPokemonText]
+Choose a Basic
+Pokémon.
+
+[ChooseUpTo2BenchedPokemonToGiveDamageText]
+Choose up to 2 Benched Pokémon
+to damage.
+
+[NoDamageOrEffectDueToAuroraVeilText]
+Aurora Veil prevents all effects of
+the attack, including damage.
+
+[ComputerErrorPromptText]
+You can draw up to 5 cards.
+How many will you draw?
+
+[EffectTargetCardsUnitText]
+
+[EffectTargetGeneralUnitText]
+
+[DuelistDrawCardsText]
+<RAMNAME> draws
+<RAMNUM> card(s).
+
+[ClefairyDollMindShockName]
+Mind Shock
+
+[ClefairyDollMindShockDescription]
+Don't apply Weakness and Resistance
+for this attack.
+
+[DiscardingXCardsPromptText]
+OK to discard <RAMNUM> card(s)?
+
+[ProcedureForBurningFireText]
+`    How to use Burning Fire`
+
+1. Choose a Pokémon with Fire Energy
+`   attached and press A.`
+
+2. Choose the Energy card to discard
+`   and press A.`
+
+3. Repeat steps 1 and 2.
+
+4. Press B to finish.
+
+[ChooseHowManyFoodCountersToRemoveText]
+How many food counters
+will you remove?
+
+[Put1FoodCounterCurrentNumberText]
+Added 1 food counter!
+Total: <RAMNUM>!
+
+[ChoosePokemonWithWaterEnergyText]
+Choose a Pokémon with
+Water Energy attached.
+
+[ChoosePokemonToRemoveWaterEnergyFromText]
+Choose a Pokémon to remove
+Water Energy from.
+
+[ChoosePokemonEvolvingFromFossilText]
+Choose a Pokémon that evolved
+from Mysterious Fossil.
+
+[ChooseUpTo2FireEnergyPlus20DamageForEachText]
+Choose up to 2 Fire Energy cards.
++20 damage for each one discarded.
+
+[RemoveAllEnergyPromptText]
+Discard all Energy?
+
+[ChoosePokemonToReturnToHandText]
+Pick a Pokémon to return
+to the Hand.
+
+[ChoosePokemonToRemoveEnergyFromText]
+Choose a Pokémon to remove
+Energy from.
+
+[ChoosePokemonToAttachEnergyToText]
+Choose a Pokémon to attach
+the Energy to.
+
+[ChooseCardToReturnToTopDeckText]
+Choose a card to put back
+on top of the Deck.
+
+[NoTrainerCardsInOppHandText]
+There were no Trainer cards
+in the opponent's Hand.
+
+[DiscardedCardText]
+<RAMTEXT>
+was discarded.
+
+[SwitchedOutDueToVinePullText]
+Vine Pull switched out
+the Defending Pokémon!
+
+[RemoveDamageCountersOneByOneText]
+Press A to remove damage counters
+one at a time. Press B to finish.
+
+[ChoosePokemonToRemoveDamageCounterFromText_2]
+Choose a Pokémon to remove
+damage counters from.
+
+[ChooseCardFromHandToDiscardText]
+Choose a card from your Hand
+to discard.
+
+[ChoosePokemonAndRemoveEnergyText]
+Choose a Pokémon to remove Energy
+from, then choose the Energy card.
+
+[Choose2BasicEnergyCardsFromDiscardPileText]
+Choose 2 basic Energy cards
+from the Discard Pile.
+
+[ChoosePokemonPressAToRemoveDamageCounterText]
+Choose a Pokémon and press A
+to remove damage counters.
+
+[Choose2CardsFromHandToDiscardText]
+Choose 2 cards from your Hand
+to discard.
+
+[Choose2CardsFromHandToReturnToDeckText]
+Choose 2 cards from your Hand
+to return to the Deck.
+
+[ChooseCardToPlaceInHandText]
+Choose a card to
+put in the Hand.
+
+[ChoosePokemonToAttachDefenderToText]
+Choose a Pokémon to attach
+Defender to.
+
+[DrawUpToXCardsOneByOneText]
+You can draw up to <RAMNUM> card(s).
+Press A to draw, B to finish.
+
+[ChoosePokemonToReturnToTheDeckText]
+Choose a Pokémon to return
+to the Deck.
+
+[ChoosePokemonToPlaceInPlayText]
+Choose a Pokémon to
+put into play.
+
+[ChooseBasicPokemonToEvolveText]
+Choose a Basic Pokémon
+to evolve.
+
+[ChoosePokemonToScoopUpText]
+Choose a Pokémon
+to scoop up.
+
+[ChooseCardFromYourHandToExchangeText]
+Choose a card from your
+Hand to trade.
+
+[ChooseCardToExchangeText]
+Choose a card
+to trade.
+
+[ChooseBasicOrEvolutionPokemonCardFromDeckText]
+Choose a Basic Pokémon or
+Evolution card from the Deck.
+
+[ChoosePokemonCardText]
+Choose a
+Pokémon card.
+
+[RearrangeThe5CardsAtTopOfDeckText]
+Rearrange the top 5 cards of
+the Deck in any order.
+
+[PleaseCheckTheOpponentsHandText]
+Look at the
+opponent's Hand.
+
+[EffectTargetBasicOrEvolutionPokemonCardText]
+Basic or Evolution card
+
+[CardWasChosenText]
+<RAMTEXT>
+chosen.
+
+[ChooseBasicPokemonToPlaceOnBenchText]
+Choose a Basic Pokémon to place
+on the Bench.
+
+[ChooseEvolutionCardAndPressAButtonToDevolveText]
+Choose an Evolution card. Press A
+to remove one card at a time.
+
+[ChoosePokemonInYourAreaThenInOppAreaText]
+Choose 1 of your Pokémon, then
+choose 1 of your opponent's Pokémon.
+
+[ChooseUpTo4FromDiscardPileText]
+Choose up to 4
+from the Discard Pile.
+
+[ChoosePokemonToSwitchWithActiveText]
+Choose a Pokémon to switch with
+the Defending Pokémon.
+
+[PokemonAndAllAttachedCardsWereReturnedToDeckText]
+<RAMTEXT> and all attached
+cards were returned to the Deck.
+
+[PokemonWasReturnedFromArenaToHandText]
+<RAMTEXT> was returned
+from the Arena to the Hand.
+
+[PokemonWasReturnedFromBenchToHandText]
+<RAMTEXT>
+moved from Bench to Hand.
+
+[PokemonWasReturnedToDeckText]
+<RAMTEXT>
+put in the Deck.
+
+[WasPlacedInTheHandText]
+<RAMTEXT>
+added to Hand.
+
+[TheCardYouReceivedText]
+Cards you received
+
+[YouReceivedTheseCardsText]
+You received
+these cards.
+
+[ChooseTheCardToPutBackText]
+Choose a card
+to put back.
+
+[ChooseTheCardToDiscardText]
+Choose a card
+to discard.
+
+[DiscardedCardsFromDeckText]
+<RAMNAME> discarded <RAMNUM>
+from the Deck.
+
+[DiscardedCardFromHandText]
+<RAMTEXT>
+discarded from Hand.
+
+[NoneCameText]
+No one came out.
+
+[CameToTheBenchText]
+<RAMTEXT>
+is on the Bench!
+
+[DuelistHasNoCardsInHandText]
+<RAMNAME> has
+no cards in hand.
+
+[PokemonHealedDamageText]
+<RAMTEXT>
+healed <RAMNUM> damage!
+
+[PokemonDevolvedToText]
+<RAMTEXT> devolved
+into <RAMTEXT>.
+
+[ThereWasNoFireEnergyText]
+There was no Fire Energy.
+
+[MaySelectMoreCardsButQuitPromptText]
+You can choose <RAMNUM> more. Quit?
+
+[ThereWasNoEffectText]
+No effect.
+
+[ThereWasNoEffectFromToxicText]
+Toxic had no effect.
+
+[ThereWasNoEffectFromPoisonText]
+Poison had no effect.
+
+[ThereWasNoEffectFromSleepText]
+Sleep had no effect.
+
+[ThereWasNoEffectFromParalysisText]
+Paralysis had no effect.
+
+[ThereWasNoEffectFromConfusionText]
+Confusion had no effect.
+
+[ThereWasNoEffectFromPoisonConfusionText]
+Poison and Confusion had no effect.
+
+[ThereWasNoEffectFromPoisonParalysisText]
+Poison and Paralysis had no effect.
+
+[ThereWasNoEffectFromPoisonSleepText]
+Poison and Sleep had no effect.
+
+[RearrangedDuelistsDeckText]
+Rearranged the Deck of <RAMNAME>
+
+[ChooseADarkEvolutionCardText]
+Choose a Dark Pokémon
+Evolution card.
+
+[EffectTargetDarkPokemonText]
+Dark Pokémon
+
+[ChooseADarkPokemonText]
+Choose a
+Dark Pokémon.
+
+[NoWaterEnergyText]
+There is no Water Energy.
+
+[NoFightingEnergyText]
+There is no Fighting Energy.
+
+[ReturningTheseCardsToDeckText]
+Returning these cards to the Deck.
+
+[CardsToReturnToDeckText]
+Cards back to Deck
+
+[ChooseAColorlessEvolutionCardText]
+Choose a Colorless Pokémon
+Evolution card.
+
+[EffectTargetColorlessEvolutionCardText]
+Colorless Evolution
+
+[ChooseAColorlessEvolutionPokemonText]
+Choose a Colorless
+Evolution card.
+
+[Choose1StatusToHealText]
+Which condition will you cure?
+`            Poison  <RAMTEXT>`
+
+[EffectTargetSleepText]
+Asleep
+
+[EffectTargetParalysisText]
+Paralyzed
+
+[EffectTargetConfusionText]
+Confused
+
+[ChooseDeckOrDiscardPileToCheckText]
+Which will you look at?
+`            Deck    Discard Pile`
+
+[CheckDeckPilePromptText]
+Check the Deck?
+
+[CheckDiscardPilePromptText]
+Check the Discard Pile?
+
+[EffectTargetFossilText]
+Mysterious Fossil
+
+[ChooseAFossilFromDeckText]
+Pick a Mysterious Fossil
+from the Deck.
+
+[ChooseAFossilText]
+Choose a
+Myst. Fossil.
+
+[ReturnedXCardsToDeckText]
+<RAMNUM> card(s) to the Deck.
+
+[ChooseBasicOrEvolutionCardText]
+Choose a Basic
+or Evolution card.
+
+[Choose2EnergyCardsFromHandToDiscardText]
+Choose 2 Energy cards from your
+Hand to discard.
+
+[ChooseACardToReturnToDeckText]
+Choose a card to
+put in the Deck.
+
+[BattleCenterText]
+Battle Center
+
+[PrizesNumberText]
+Prize cards
+
+[ChooseTheNumberOfPrizesText]
+Choose the number
+of Prizes.
+
+[PleaseWaitDecidingNumberOfPrizesText]
+Deciding the number of Prizes.
+Please wait a moment.
+
+[BeginDuelOfXPrizesWithOpponentText]
+Begin a <RAMNUM>-Prize duel
+with <RAMNAME>!
+
+[ReceivedCardText]
+<RAMNAME> received
+<RAMTEXT>!
+
+[ReceivedPromotionalCardText]
+<RAMNAME> received the
+promo card <RAMTEXT>!
+
+[ReceivedLegendaryCardText]
+<RAMNAME> received the Legendary
+Pokémon Card <RAMTEXT>!
+
+[ReceivedPromotionalFlyingPikachuText]
+<RAMNAME> received the
+promo card Flying Pikachu!
+
+[ReceivedPromotionalSurfingPikachuText]
+<RAMNAME> received the
+promo card Surfing Pikachu!
+
+[UnusedText023a]
+Got a booster pack!!
+Pretend you saw the card list.
+
+[NowPrintingPleaseWaitText]
+Now printing.
+Please wait a moment.
+
+[BoosterPackCardsText]
+Booster pack cards
+
+[TryAgainPromptText]
+Try again?
+
+[TransmittedToText]
+Sent to <RAMNAME>.
+
+[TransmittedFromText]
+Received from <RAMNAME>.
+
+[TransmittingCardSenderText]
+Sending cards.
+Bring the Game Boys close. Press A!
+
+[TransmittingCardReceiverText]
+Receiving cards.
+Bring the Game Boys close together.
+
+[TransmittingDeckConfigurationSenderText]
+Sending a deck configuration.
+Bring the Game Boys close. Press A!
+
+[TransmittingDeckConfigurationReceiverText]
+Receiving a deck configuration.
+Bring the Game Boys close together.
+
+[TransmittingCardUnsuccessfulSenderText]
+Failed to send the cards.
+
+[TransmittingCardUnsuccessfulReceiverText]
+Failed to receive the cards.
+
+[TransmittingDeckConfigurationUnsuccessfulSenderText]
+Failed to send the deck
+configuration.
+
+[TransmittingDeckConfigurationUnsuccessfulReceiverText]
+Failed to receive the deck
+configuration.
+
+[NowPrintingText]
+<RAMTEXT>
+Printing...
+
+[IfHeadsInflictSleepText]
+If heads,
+the opponent is Asleep.
+
+[UnableDueToGoopGasAttackText]
+Unable to use Pokémon Powers due to
+the effects of Goop Gas Attack.
+
+[ChooseATrainerCardText_2]
+Choose a
+Trainer card.
+
+[NightlyGarbageRunPromptText]
+Choose 3 Pokémon or basic Energy
+cards from the Discard Pile.
+
+012345678901234567
+
+[NoRecoverableCardsInDiscardPileText]
+There are no cards to retrieve
+in the Discard Pile.
+
+[DiggerCheckText]
+If tails, 10 damage to
+the Active Pokémon.
+
+[ChallengePromptText]
+Accept the challenge?
+
+[ChallengeAcceptedText]
+<RAMNAME> accepted the challenge!
+
+[ChallengeDeclinedText]
+<RAMNAME> declined the challenge.
+
+[DuelistSelectsPokemonTotalNumberText]
+<RAMNAME> chose <RAMNUM> Pokémon
+for a total of <RAMNUM>.
+
+[SelectingPokemonFromDeckText]
+Choosing Pokémon from the Deck...
+
+[CardPopMenuText]
+Card Pop!
+View Records
+Exit
+
+[CardPopMenuRareCardPopUnlockedText]
+Card Pop!
+Rare Card Pop!
+View Records
+Exit
+
+[CardPopEncouragementMessageText]
+Let's Card Pop! with lots of
+different friends!
+
+[RareCardPopDescriptionText]
+A Card Pop! for players who have
+both beaten the game.
+
+[CardPopViewRecordsDescriptionText]
+Look at the records of every
+Card Pop! you've done so far.
+
+[CardPopExitText]
+Exit Card Pop!
+
+[AreYouBothReadyToCardPopText]
+Are you both ready
+for Card Pop!?
+
+[CardPopUnsuccessfulTryAgainText]
+The Card Pop! didn't work.
+Please try again.
+
+[CannotCardPopWithFriendPreviouslyPoppedWithText]
+You can't Card Pop! with a friend
+you've popped with before.
+
+[PositionGameBoyColorsAndPressAButtonText]
+Bring the Game Boys close together
+and one of you press the A Button.
+
+[ReceivedThroughCardPopText]
+Received <RAMTEXT>
+through Card Pop!
+
+[AreYouBothReadyToRareCardPopText]
+Are you both ready
+for Rare Card Pop!?
+
+[ReceivedThroughRareCardPopText]
+Received <RAMTEXT>
+through Rare Card Pop!
+
+[CannotRareCardPopWithFriendPreviouslyPoppedWithText]
+You can't Rare Card Pop! with a
+friend you've popped with before.
+
+[CardPopModeMismatchedText]
+Card Pop! types
+don't match.
+
+[CardPopRecordsText]
+Card Pop! Records
+
+[CardPopRecordFriendNameText]
+`- Friend:                     `
+
+[RareCardPopRecordFriendNameText]
+`* Friend:                     `
+
+[CardPopRecordContentText]
+`    Record Details    `
+
+[CardPopRecordFriendCoinQuantityText]
+`Coins         <SLASH><2><4>`
+
+[CardPopRecordFriendCardQuantityText]
+`Cards               `
+
+[CardPopRecordFriendBattleQuantityText]
+`Duels               `
+
+[CardPopRecordCardsText]
+`  Cards   `
+
+[CardPopRecordYourResultText]
+- Card you got
+
+[CardPopRecordFriendResultText]
+- Card your friend got
+
+[NoCardPopRecordsText]
+There are no Card Pop! records.
+
+[CardPopFriendDeckNameText]
+<RAMTEXT> Deck
+
+[CardPopImakuniText]
+Imakuni?
+
+[CardPopRonaldText]
+Ronald
+
+[GameCenterBillsPCTitleText]
+Bill's Computer
+
+[GameCenterBillsPC20ChipsPerPlayText]
+20 Chips
+
+[GameCenterBillsPCDescriptionText]
+Omanyte   <CURSOR_R> Omastar<Lv>36
+Haunter   <CURSOR_R> Gengar<Lv>40
+Machoke   <CURSOR_R> Machamp<Lv>54
+Graveler  <CURSOR_R> Golem<Lv>37
+Kadabra   <CURSOR_R> Alakazam<Lv>45
+
+[GameCenterBillsPCDescriptionDialogText]
+Combine Bill's Computer with a card
+to get a super-rare card!
+
+[GameCenterBillsPCStartPromptText]
+Play Bill's Computer?
+
+[GameCenterBillsPCUnableNoBillsComputerText]
+You can't play without a
+Bill's Computer card.
+Get a Bill's Computer card first,
+then come back to play.
+
+[GameCenterBillsPCYourCompatibleCardsText]
+Cards for Bill's Computer
+
+[GameCenterBillsPCUnableNoCompatibleCardsText]
+You have no cards that work with
+Bill's Computer.
+Get the cards you need
+and then come back.
+
+[GameCenterBillsPCChooseACardToInsertText]
+Choose a card to put in together
+with Bill's Computer.
+
+[GameCenterBillsPCConfirmPromptText]
+Is this card OK?
+
+[GameCenterBillsPCCancelPromptText]
+Quit Bill's Computer?
+
+[GameCenterBillsPCChipsPaidText]
+Then I'll take 20 chips
+as the play fee.
+
+[GameCenterBillsPCCardsInsertedText]
+Inserted the cards
+into Bill's Computer!
+
+[GameCenterBillsPCReceivedRewardText]
+<RAMNAME> received
+<RAMTEXT>!
+
+[GameCenterBillsPCUnableLastOutputRemainingText]
+Mail from Bill's Computer is still
+waiting in your Mailbox.
+Read the Mail and get the card,
+then come back.
+
+[GameCenterBillsPCUnableNotEnoughChipsText]
+Bill's Computer is 20 chips a play.
+You don't have enough chips!
+
+[DeckText]
+Deck
+
+[HiraganaOptionText]
+Hiragana
+
+[KatakanaOptionText]
+Katakana
+
+[UppercaseOptionText]
+ABC
+
+[LowercaseOptionText]
+abc
+
+[EndText]
+End
+
+[WhatIsYourNameText]
+What's your name?
+
+[NewDeckText]
+Build a new deck
+
+[PleaseSelectDeckText]
+Please select a deck.
+
+[ModifyDeckText]
+Modify Deck
+
+[RenameDeckText]
+Change Name
+
+[ChooseAsDuelingDeckText]
+Select Deck
+
+[CancelDeckText]
+Cancel
+
+[ParticleOText]
+as
+
+[ChosenAsDuelingDeckText]
+<RAMTEXT> was
+chosen as the dueling deck!
+
+[Deck1Text]
+1.
+
+[Deck2Text]
+2.
+
+[Deck3Text]
+3.
+
+[Deck4Text]
+4.
+
+[Deck5Text]
+5.
+
+[ThereIsNoDeckHereText]
+There is no deck here!
+
+[DeckBuildingConfirmText]
+Confirm
+
+[DeckBuildingDismantleText]
+Dismantle
+
+[DeckBuildingContinueModifyingText]
+Modify
+
+[DeckBuildingSaveText]
+Save
+
+[DeckBuildingNameText]
+Name
+
+[DeckBuildingWarningTheOnlyDeckNotDismantleableText]
+There is only 1 deck, so this
+deck cannot be dismantled.
+
+[DeckBuildingWarningNoBasicPokemonText]
+There are no
+Basic Pokémon in the deck!
+
+[DeckBuildingWarningMustIncludeBasicPokemonText]
+You must include a Basic Pokémon
+in the deck!
+
+[DeckBuildingWarningNot60CardsText]
+This isn't a 60-card deck!
+
+[DeckBuildingWarningMustInclude60CardsText]
+The deck must include 60 cards!
+
+[DeckBuildingRevertPromptText]
+Return to original configuration?
+
+[DeckBuildingSavePromptText]
+Save this deck?
+
+[DeckBuildingQuitPromptText]
+Quit modifying the deck?
+
+[DeckBuildingDismantlePromptText]
+Dismantle this deck?
+
+[DeckBuildingSaveToMachinePromptText]
+Save it to the Deck Save Machine?
+
+[DeckBuildingRevertAndSaveToMachinePromptText]
+Save the original deck?
+
+[DeckBuildingWarningIncompleteCannotSaveToMachineText]
+The deck isn't complete, so
+it could not be saved.
+
+[YourPokemonHiraganaText]
+Your Pokémon
+
+[YourDiscardPileHiraganaText]
+Your Discard Pile
+
+[YourHandHiraganaText]
+Your Hand
+
+[ToYourPlayAreaHiraganaText]
+To Your Area
+
+[YourPrizesHiraganaText]
+Your Prizes
+
+[OpponentsPokemonHiraganaText]
+Opp. Pokémon
+
+[OpponentsDiscardPileHiraganaText]
+Opp. Discard Pile
+
+[OpponentsHandHiraganaText]
+Opp. Hand
+
+[OpponentsPrizesHiraganaText]
+Opp. Prizes
+
+[ToOpponentsPlayAreaHiraganaText]
+To Opp. Area
+
+[DuelistsPlayAreaSuffixText]
+'s
+
+[YourPlayAreaHiraganaText]
+Your Area
+
+[OpponentsPlayAreaHiraganaText]
+Opp. Area
+
+[EntirePlayAreaHiraganaText]
+In Play Area
+
+[GlossaryText]
+Glossary
+
+[WhichCardWouldYouLikeToSeeText]
+Which cards will you view?
+
+[PleaseChooseAPrizeText]
+Please choose a Prize.
+
+[HandText_2]
+Hand
+
+[DuelistHandText_2]
+Hand: <RAMNAME>
+
+[DuelistDiscardPileText_2]
+Discards: <RAMNAME>
+
+[BoosterPackTitleText]
+Expansions
+
+[Item1BeginningPokemonText]
+`1.Beginning Pokémon     `
+
+[Item2LegendaryPowerText]
+`2.Legendary Power       `
+
+[Item3IslandOfFossilText]
+`3.Fossil Island         `
+
+[Item3IslandOfFossilLockedText]
+`3.--------------------  `
+
+[Item4PsychicBattleText]
+`4.Psychic Battle        `
+
+[Item4PsychicBattleLockedText]
+`4.--------------------  `
+
+[Item5SkyFlyingPokemonText]
+`5.Flying Pokémon        `
+
+[Item5SkyFlyingPokemonLockedText]
+`5.--------------------  `
+
+[Item6WeAreTeamRocketText]
+`6.We Are Team Rocket    `
+
+[Item6WeAreTeamRocketLockedText]
+`6.--------------------  `
+
+[Item7TeamRocketsAmbitionText]
+`7.Team Rocket's Ambition`
+
+[Item7TeamRocketsAmbitionLockedText]
+`7.--------------------  `
+
+[Item8PromotionalCardText]
+`8.Promotional Card      `
+
+[Item8PromotionalCardLockedText]
+`8.--------------------  `
+
+[ViewWhichCardFileText]
+View which Card File?
+
+[OnesCardsText]
+'s Cards
+
+[DeckSaveMachineText]
+Deck Save Machine
+
+[SaveDeckToMachineText]
+Save Deck
+
+[DeleteDeckFromMachineText]
+Delete Deck
+
+[BuildDeckText]
+Build Deck
+
+[ChooseDeckToSaveToMachineText]
+Choose a deck to save.
+
+[CannotSaveDeckToMachine60FullText]
+You may only save 60 decks.
+Please delete a deck first.
+
+[ParticleNOText]
+of
+
+[SavedDeckToMachineText]
+Saved the configuration for
+<RAMTEXT>!
+
+[NoDecksSavedToMachineText]
+No decks have been saved.
+
+[ChooseDeckToDeleteFromMachineText]
+Choose a deck
+configuration to delete.
+
+[ConfirmDeletePromptText]
+Do you really wish to delete?
+
+[DeletedDeckFromMachineText]
+<RAMTEXT>'s
+configuration deleted.
+
+[YouMayOnlyCarry4DecksText]
+You may only carry 4 decks!
+
+[ChooseDeckToDismantleText]
+Choose a deck to dismantle.
+
+[DismantledThisDeckText]
+<RAMTEXT>
+dismantled.
+
+[ChooseDeckToBuildText]
+Please choose a deck to build.
+
+[CannotBuildMustDismantleText]
+This deck can only be built if
+you dismantle another deck.
+
+[YouDoNotOwnAllCardsNeededToBuildThisDeckText]
+You do not own all cards needed
+to build this deck.
+
+[BuiltDeckText]
+<RAMTEXT>
+was built!
+
+[NeedTheseCardsToBuildThisDeckText]
+These cards are needed
+to build this deck.
+
+[LackTheseCardsToBuildThisDeckText]
+You are missing these cards
+to build this deck.
+
+[UsingTheseCardsInOtherDecksText]
+These cards are being used
+in other decks.
+
+[UsingTheseCardsTooInOtherDecksText]
+These cards are also being used
+in other decks.
+
+[DismantleTheseDecksPromptText]
+Dismantle these decks?
+
+[DismantledTheseDecksText]
+Dismantled the decks.
+
+[DeleteSavedDeckPromptText]
+OK if this file is deleted?
+
+[DeckMachineReadInstructionsText]
+Instructions
+
+[MaySubInEnergyCardsToBuildThisDeckText]
+You can build the deck by using
+other Energy cards in their place.
+
+[BuildSubbedDeckPromptText]
+Build a substitute deck?
+
+[CannotBuildLackingTooManyCardsText]
+Too many cards are missing, so
+the deck cannot be built.
+
+[CannotBuildLackingEnergyCardsText]
+There aren't enough Energy cards,
+so the deck cannot be built.
+
+[CannotBuildLackingBasicPokemonText]
+There are no Basic Pokémon, so
+the deck cannot be built.
+
+[BuiltSubbedDeckWithTheseCardsText]
+Built a substitute deck
+using these cards.
+
+[SubInEnergyCardsPromptText]
+Use other Energy cards instead?
+
+[ChooseDeckCategoryText]
+Please choose a
+deck category.
+
+[PrintThisCardPromptYesNoText]
+Print this card?
+`      Yes     No`
+
+[ChooseDeckConfigurationToPrintText]
+Please choose a deck configuration
+to print.
+
+[PrintThisDeckPromptText]
+Print this deck?
+
+[PrintCardListPromptText]
+Print the card list?
+`      Yes     No`
+
+[PrintMenuItemsText]
+Pokémon Cards
+Deck Configuration
+Card List
+Print Quality
+Quit Print
+
+[WhatToPrintPromptText]
+What would you like to print?
+
+[PrinterContrastSettingsPromptText]
+Please set the contrast:
+`  Light   1   2   3   4   5   Dark`
+
+[PrinterTurningOffReminderText]
+Please make sure to turn
+the Game Boy Printer OFF.
+
+[ProcedureForSendingCardsToPlayerTitleText]
+Choosing cards to send:
+
+[ProcedureForSendingCardsToPlayerText]
+1. Choose cards to send as in deck
+   building. Left/Right adds more.
+
+2. Choose all the cards. Then press
+   the B Button to open the menu.
+
+3. Choose "Send" and you're ready
+   to send the cards.
+
+[ReadProcedureForSendingCardsToPlayerText]
+Please read the procedures
+for sending cards.
+
+[SendText]
+Send
+
+[CardsReceivedText]
+Card received
+
+[CardsToSendToPlayerText]
+Card to send
+
+[SendTheseCardsToPlayerPromptText]
+Send these cards?
+
+[ReceivedTheseCardsFromText]
+Received these cards
+from <RAMTEXT>!
+
+[ChooseDeckConfigurationToSendText]
+Please choose a deck
+configuration to send.
+
+[ChooseWhereToSaveText]
+Please choose a save slot.
+
+[ReceiveRecordsText]
+Receive Record
+
+[ReceivedDeckConfigurationFromText]
+Received a deck configuration
+from <RAMTEXT>!
+
+[AutoDeckMachine1Text]
+Auto Deck Machine 1
+
+[AutoDeckMachine1BasicDecksText]
+Basic Decks
+
+[AutoDeckMachine1GivenDecksText]
+Gift Decks
+
+[AutoDeckMachine1FightingDecksText]
+`Fighting Decks    `
+
+[AutoDeckMachine1GrassDecksText]
+`Grass Decks       `
+
+[AutoDeckMachine1WaterDecksText]
+`Water Decks       `
+
+[AutoDeckMachine1FireDecksText]
+`Fire Decks        `
+
+[AutoDeckMachine1LightningDecksText]
+`Lightning Decks   `
+
+[AutoDeckMachine1PsychicDecksText]
+`Psychic Decks     `
+
+[AutoDeckMachine1SpecialDecksText]
+Special Decks
+
+[AutoDeckMachine1LegendaryDecksText]
+Legend Decks
+
+[AutoDeckMachine1BasicDecksTextPadded]
+`Basic Decks       `
+
+[AutoDeckMachine1GivenDecksTextPadded]
+`Gift Decks        `
+
+[AutoDeckMachine1SpecialDecksTextPadded]
+`Special Decks     `
+
+[AutoDeckMachine1LegendaryDecksTextPadded]
+`Legend Decks      `
+
+[AutoDeckMachine2Text]
+Auto Deck Machine 2
+
+[AutoDeckMachine2DarkGrassDecksText]
+`Dark Grass Decks      `
+
+[AutoDeckMachine2DarkLightningDecksText]
+`Dark Lightning Decks  `
+
+[AutoDeckMachine2DarkWaterDecksText]
+`Dark Water Decks      `
+
+[AutoDeckMachine2DarkFireDecksText]
+`Dark Fire Decks       `
+
+[AutoDeckMachine2DarkFightingDecksText]
+`Dark Fighting Decks   `
+
+[AutoDeckMachine2DarkPsychicDecksText]
+`Dark Psychic Decks    `
+
+[AutoDeckMachine2ColorlessDecksText]
+Colorless Decks
+
+[AutoDeckMachine2DarkSpecialDecksText]
+`Dark Special Decks    `
+
+[AutoDeckMachine2RareCardDecksText]
+`Rare Card Decks       `
+
+[AutoDeckMachine2MysteriousCardDecksText]
+Mystery Card Decks
+
+[AutoDeckMachine2ColorlessDecksTextPadded]
+`Colorless Decks       `
+
+[AutoDeckMachine2MysteriousCardDecksTextPadded]
+`Mystery Card Decks    `
+
+[MachineStarterDeckName]
+Starter
+
+[MachineElectricFireDeckName]
+Electric Fire
+
+[MachineBattleWaterDeckName]
+Battle Water
+
+[MachineEsperGreenDeckName]
+Psychic Green
+
+[MachineSweatAntiGR1DeckName]
+Defeat GR-1!
+
+[MachineGiveInAntiGR2DeckName]
+Give Up, GR-2!
+
+[MachineVengefulAntiGR3DeckName]
+Revenge on GR-3
+
+[MachineUnforgivingAntiGR4DeckName]
+No Mercy for GR-4
+
+[MachineAwesomeFossilsDeckName]
+Cool Fossils
+
+[MachineNewMachokeDeckName]
+New Machoke
+
+[MachineRockFestivalDeckName]
+Rock Festival
+
+[MachineJabHookDeckName]
+Jab! Hook!
+
+[MachineSteadyIncreaseDeckName]
+Keep Multiplying
+
+[MachineGatheringNidoranDeckName]
+Gather, Nidoran!
+
+[MachineNationalParkDeckName]
+Forest Park
+
+[MachineSelectiveBreedingDeckName]
+Selective Breeding
+
+[MachineSplashingAboutDeckName]
+Water Play
+
+[MachineBeachDeckName]
+Water's Edge
+
+[MachineInsulationDeckName]
+Insulator
+
+[MachineAntarcticDeckName]
+Antarctic
+
+[MachineFlameFestivalDeckName]
+Flame Festival
+
+[MachineElectricCurrentShockDeckName]
+Electric Sparks
+
+[MachineRiskyBlazeDeckName]
+Reckless Flame
+
+[MachineRagingCharizardDeckName]
+Charizard Rampage
+
+[MachineZapdosPowerPlantDeckName]
+Zapdos Power Plant
+
+[MachineElectricShockDeckName]
+Electric Shock
+
+[MachineOverflowDeckName]
+Overflow
+
+[MachineTripleZapdosDeckName]
+Triple Zapdos
+
+[MachineSpecialBarrierDeckName]
+Special Barrier
+
+[MachineEvolutionProhibitedDeckName]
+No Evolution
+
+[MachineGhostDeckName]
+Ghosts
+
+[MachinePuppetMasterDeckName]
+Puppet Master
+
+[MachineMewLv15DeckName]
+Mew<Lv>15
+
+[MachineVenusaurLv64DeckName]
+Venusaur<Lv>64
+
+[MachineMutualDestructionDeckName]
+Double KO
+
+[MachineEverybodySurfDeckName]
+Everybody Surf
+
+[MachineGrandFireDeckName]
+Grand Fire
+
+[MachineLegendaryFossilDeckName]
+Legendary Fossil
+
+[MachineWaterLegendDeckName]
+Water Legend
+
+[MachineGreatDragonDeckName]
+Legend Dragon
+
+[MachineStarterDeckDescriptionText]
+The deck you got from Dr. Mason,
+made with Fire and Fighting Energy.
+
+[MachineElectricFireDeckDescriptionText]
+Fire, Lightning and Colorless
+Pokémon in one deck.
+
+[MachineBattleWaterDeckDescriptionText]
+Water and Fighting Pokémon
+in one deck.
+
+[MachineEsperGreenDeckDescriptionText]
+Grass and Psychic Pokémon
+in one deck.
+
+[MachineSweatAntiGR1DeckDescriptionText]
+Gene of the Rock Club gave you
+this Grass and Rock Pokémon deck.
+
+[MachineGiveInAntiGR2DeckDescriptionText]
+Nikki of the Grass Club gave you
+this Grass and Water Pokémon deck.
+
+[MachineVengefulAntiGR3DeckDescriptionText]
+Amy of the Water Club gave you
+this Fire and Water Pokémon deck.
+
+[MachineUnforgivingAntiGR4DeckDescriptionText]
+Murray of the Psychic Club gave you
+this Lightning and Psychic deck.
+
+[MachineAwesomeFossilsDeckDescriptionText]
+A lineup of cool "Rock Pokémon"!
+Evolve the "Mysterious Fossil"!
+
+[MachineNewMachokeDeckDescriptionText]
+A deck of the reborn Machoke!
+Hit the Bench with "Focus Blast"!
+
+[MachineRockFestivalDeckDescriptionText]
+All the Rock Pokémon are here!
+Attack Lightning Pokémon with this!
+
+[MachineJabHookDeckDescriptionText]
+A deck that knocks out the foe
+with all kinds of "Punches"!
+
+[MachineSteadyIncreaseDeckDescriptionText]
+Add more and more allies and
+hang on with this tough deck!
+
+[MachineGatheringNidoranDeckDescriptionText]
+A big gathering of Nidoran!
+Raise Nidoking and Nidoqueen!
+
+[MachineNationalParkDeckDescriptionText]
+Play in the park with all kinds
+of Grass Pokémon!
+
+[MachineSelectiveBreedingDeckDescriptionText]
+They get strong when they evolve!
+Attack with the power of science!
+
+[MachineSplashingAboutDeckDescriptionText]
+Pokémon that play by the water
+splash around with you!
+
+[MachineBeachDeckDescriptionText]
+Pokémon of the water's edge.
+The southern seas are always lively.
+
+[MachineInsulationDeckDescriptionText]
+Water Pokémon not weak to Lightning!
+Now Lightning Pokémon are no sweat.
+
+[MachineAntarcticDeckDescriptionText]
+Water Pokémon from the cold seas
+will stop the opponent cold!
+
+[MachineFlameFestivalDeckDescriptionText]
+Attacks from Vulpix and Ninetales
+leave the foe totally Confused!
+
+[MachineElectricCurrentShockDeckDescriptionText]
+A two-color Fire and Lightning deck.
+Exploit your opponent's Weakness!
+
+[MachineRiskyBlazeDeckDescriptionText]
+Fight with all-out attacks!
+Make good use of "Defender"!
+
+[MachineRagingCharizardDeckDescriptionText]
+A deck where Charizard shines!
+Raise it with care on your Bench.
+
+[MachineZapdosPowerPlantDeckDescriptionText]
+Magnemite and Voltorb are all here!
+Zapdos settles it all at once!
+
+[MachineElectricShockDeckDescriptionText]
+Electricity makes foes "Paralyzed"!
+They're too numb to do anything!
+
+[MachineOverflowDeckDescriptionText]
+Stored-up electricity overflows
+and strikes the opponent!
+
+[MachineTripleZapdosDeckDescriptionText]
+Three kinds of Zapdos attacks!
+Careful not to run out of Energy!
+
+[MachineSpecialBarrierDeckDescriptionText]
+A deck that seals off attacks
+with a special barrier.
+
+[MachineEvolutionProhibitedDeckDescriptionText]
+A deck that uses Aerodactyl and Mew
+to keep the opponent from evolving.
+
+[MachineGhostDeckDescriptionText]
+Gastly, Haunter and Gengar
+strike fear into your opponent!
+
+[MachinePuppetMasterDeckDescriptionText]
+Use Hypno's "Puppet Master" to
+control "Clefairy Doll"!
+
+[MachineMewLv15DeckDescriptionText]
+The full power of Mew's
+"Mystery Attack" is now revealed!
+
+[MachineVenusaurLv64DeckDescriptionText]
+With Venusaur's "Solar Power,"
+special effects are no problem!
+
+[MachineMutualDestructionDeckDescriptionText]
+Take a cut to deal a crushing blow!
+A really fierce deck!
+
+[MachineEverybodySurfDeckDescriptionText]
+With Blastoise's "Rain Dance,"
+everyone can "Surf" at once!
+
+[MachineGrandFireDeckDescriptionText]
+Use Moltres's "Firegiver"
+to get Fire Energy!
+
+[MachineLegendaryFossilDeckDescriptionText]
+Block evolution with Aerodactyl,
+then hit with powerful attacks!
+
+[MachineWaterLegendDeckDescriptionText]
+Use Articuno's "Quickfreeze"
+to "Paralyze" foes again and again!
+
+[MachineGreatDragonDeckDescriptionText]
+Evolve with Dark Dragonair's power,
+then finish with strong Pokémon!
+
+[MachineInsectCollectionDeckName]
+Insect Collection
+
+[MachineCaveExplorationDeckName]
+Cave Exploration
+
+[MachineOminousMeadowDeckName]
+Eerie Flower Field
+
+[MachineAtrociousWeezingDeckName]
+Vicious Weezing
+
+[MachineTheBenchIsAlsoASurpriseDeckName]
+Bench Surprise
+
+[MachineEnergyConservationDeckName]
+Energy Saver
+
+[MachineSonicboomDeckName]
+Sonicboom
+
+[MachineRageOfTheHeavensDeckName]
+Rage of the Sky
+
+[MachineDarkWaterDeckName]
+Dark Water
+
+[MachineQuickFreezeDeckName]
+Flash Freeze
+
+[MachineWhirlpoolShowerDeckName]
+Whirlpool Shower
+
+[MachineWaterGangDeckName]
+Water Gang
+
+[MachineFireballDeckName]
+Fireball
+
+[MachineCompleteCombustionDeckName]
+Total Combustion
+
+[MachineOminousSpiritFlamesDeckName]
+Eerie Wisps
+
+[MachineEternalFireDeckName]
+Eternal Fire
+
+[MachineBewareTheTrapDeckName]
+Beware of Traps!
+
+[MachineOgresKickDeckName]
+Kick Fiend
+
+[MachineRockBlastDeckName]
+Rock Blast!
+
+[MachineHeavyWorkDeckName]
+Strongarm
+
+[MachineSlowbrosFishingDeckName]
+Slowbro Fishing
+
+[MachineDirectHitDeckName]
+Direct Hit
+
+[MachineBadDreamDeckName]
+Bad Dream
+
+[MachineBenchPanicDeckName]
+Bench Panic!
+
+[MachineSnorlaxGuardDeckName]
+Snorlax Blockade
+
+[MachineEyeOfTheStormDeckName]
+Typhoon Eye
+
+[MachineSuddenGrowthDeckName]
+Growth Spurt
+
+[MachineKingDragoniteDeckName]
+King Dragonite
+
+[MachineDarkCharizardDeckName]
+Dark Charizard!
+
+[MachineDarkBlastoiseDeckName]
+Dark Blastoise!
+
+[MachineDarkVenusaurDeckName]
+Dark Venusaur!
+
+[MachineDarkDragoniteDeckName]
+Dark Dragonite!
+
+[MachinePerfectHealthDeckName]
+Perfect Health
+
+[MachineSuperSoakerDeckName]
+Super Water Gun
+
+[MachineHellsDemonDeckName]
+Demon Below
+
+[MachinePremiumThunderDeckName]
+Premium Thunder
+
+[MachineMysteriousMewtwoDeckName]
+Mystery Mewtwo
+
+[MachineHeavenlyLugiaDeckName]
+Lugia of the Sky
+
+[MachineBrutalTrainersDeckName]
+Vicious Trainers
+
+[MachineDreadfulParalysisDeckName]
+Dreadful Paralysis
+
+[MachineInsectCollectionDeckDescriptionText]
+Lots and lots of Insect Pokémon!
+Metapod makes it strong vs. Fire!
+
+[MachineCaveExplorationDeckDescriptionText]
+Pokémon that lurk in dark caves.
+Catch your prey with Poison attacks!
+
+[MachineOminousMeadowDeckDescriptionText]
+Stinky pollen makes heads spin...
+but somehow Snorlax is just fine?
+
+[MachineAtrociousWeezingDeckDescriptionText]
+Dark Weezing makes a huge blast!
+Its Poison attacks are strong, too.
+
+[MachineTheBenchIsAlsoASurpriseDeckDescriptionText]
+Attack the opponent's Bench, too!
+Beat them all at once!
+
+[MachineEnergyConservationDeckDescriptionText]
+Energy is really important!
+Get it back with "Energy Retrieval"!
+
+[MachineSonicboomDeckDescriptionText]
+"Sonicboom" ignores Resistance,
+so Rock Pokémon are no problem!
+
+[MachineRageOfTheHeavensDeckDescriptionText]
+All the Pokémon of the open sky!
+Zapdos settles it all at once!
+
+[MachineDarkWaterDeckDescriptionText]
+A wicked and shady deck of
+Psychic and Water Pokémon!
+
+[MachineQuickFreezeDeckDescriptionText]
+Powerful "Ice Beam" attacks
+freeze the opponent in place!
+
+[MachineWhirlpoolShowerDeckDescriptionText]
+Strip off the opponent's Energy
+with attacks and Trainer cards!
+
+[MachineWaterGangDeckDescriptionText]
+A lineup of Dark Water Pokémon!
+Evolve them fast and attack!
+
+[MachineFireballDeckDescriptionText]
+A deck whose "Continuous Fireball"
+burns everything to a crisp!
+
+[MachineCompleteCombustionDeckDescriptionText]
+Pick up discarded Energy cards,
+attach them, and burn it all up!
+
+[MachineOminousSpiritFlamesDeckDescriptionText]
+Baffle foes with eerie flames!
+Stir up your opponent's play area!
+
+[MachineEternalFireDeckDescriptionText]
+A seriously hot special deck!
+One blow from Moltres settles it!
+
+[MachineBewareTheTrapDeckDescriptionText]
+The Arena fills up with traps!
+Your foe has to tread carefully!
+
+[MachineOgresKickDeckDescriptionText]
+A deck of kicking specialists!
+Their kick attacks are fierce!
+
+[MachineRockBlastDeckDescriptionText]
+"Rock Blast" is really powerful!
+Come at me, all of you at once!
+
+[MachineHeavyWorkDeckDescriptionText]
+Pokémon proud of their strength.
+Push the opponent's Pokémon around!
+
+[MachineSlowbrosFishingDeckDescriptionText]
+With Slowbro's "Reel In,"
+Wigglytuff's attack powers up!
+
+[MachineDirectHitDeckDescriptionText]
+"Weakness/Resistance"? No worries!
+Colorless Pokémon are no threat!
+
+[MachineBadDreamDeckDescriptionText]
+"Long-Range Hypnosis" and
+"Dream Eater" make a sharp combo!
+
+[MachineBenchPanicDeckDescriptionText]
+Use Dark Gengar's "Play Tricks"
+to throw the foe's Bench into chaos!
+
+[MachineSnorlaxGuardDeckDescriptionText]
+A deck where Snorlax blocks the way!
+Strip Energy and put foes Asleep!
+
+[MachineEyeOfTheStormDeckDescriptionText]
+A flock of Bird Pokémon!
+Keep switching them as you fight.
+
+[MachineSuddenGrowthDeckDescriptionText]
+Raise your Pokémon quickly,
+then hit with powerful attacks!
+
+[MachineKingDragoniteDeckDescriptionText]
+A giant Dragonite runs wild!
+It scatters any Pokémon in its way!
+
+[MachineDarkCharizardDeckDescriptionText]
+Continuous Fireball is powerful!
+Learn to master Dark Charizard!
+
+[MachineDarkBlastoiseDeckDescriptionText]
+A deck led by trusty Dark Blastoise.
+Aerodactyl hits back at Lightning!
+
+[MachineDarkVenusaurDeckDescriptionText]
+Dark Venusaur's Poison attacks get
+powered up by "Poison Mist"!
+
+[MachineDarkDragoniteDeckDescriptionText]
+When Dark Dragonite summons minions,
+"Do the Wave" gets stronger!
+
+[MachinePerfectHealthDeckDescriptionText]
+The power of a rare Venusaur
+protects all of its friends!
+
+[MachineSuperSoakerDeckDescriptionText]
+Fire off "Water Gun" like crazy!
+Cute Marill is here, too!
+
+[MachineHellsDemonDeckDescriptionText]
+A deck with a rare Dugtrio.
+Damage the Bench with Earth Wave!
+
+[MachinePremiumThunderDeckDescriptionText]
+A deck of nothing but rare cards!
+Try your best to collect them all!
+
+[MachineMysteriousMewtwoDeckDescriptionText]
+What is "GR's Mewtwo"...?
+Its true identity is now revealed!
+
+[MachineHeavenlyLugiaDeckDescriptionText]
+A Pokémon shrouded in mystery...
+At last, Lugia is born!
+
+[MachineBrutalTrainersDeckDescriptionText]
+A full lineup of Trainer cards!
+Your opponent will have a hard time!
+
+[MachineDreadfulParalysisDeckDescriptionText]
+The opponent can't do anything!
+This is the deck of terror!
+
+[GlossaryTitleText]
+`     Pokémon Card Glossary`
+
+[GlossaryGameBasicsText]
+Pokémon Card Basics
+
+[GlossaryCardTypesAndKeywordsText]
+Card Types and Keywords
+
+[GlossaryStatusesAndDecisionText]
+Special Conditions, Win/Loss
+
+[GlossarySpecialRulesText]
+Special Rule Duels
+
+[GlossaryExitText]
+Exit Glossary
+
+[GlossaryGameBasicsMenuText]
+Deck                Bench
+Deck Pile           Active Pokémon
+Discard Pile        Benched Pokémon
+Hand                Prizes
+Arena               Damage Counters
+
+[GlossaryCardTypesAndKeywordsMenuText]
+Energy Cards        Attacks
+Trainer Cards       Pokémon Power
+Basic Pokémon       Weakness
+Evolution Cards     Resistance
+Dark Evolution      Retreat
+
+[GlossaryStatusesAndDecisionMenuText]
+Poison              Winning/Losing 1
+Paralysis           Winning/Losing 2
+Sleep               Winning/Losing 3
+Confusion           Sudden Death
+
+[GlossarySpecialRulesMenuText]
+Chlorophyll         Earth Power
+Thunder Charge      Low Resist.
+Flame Armor         Energy Ret.
+Small Bench         Tough Escape
+Running Wtr.        Black Hole
+
+[ChooseWordAndPressAButtonText]
+Choose a topic you want to know
+about and press the A Button.
+
+[GlossaryGameBasicsTitleText]
+Pokémon Card Basics
+
+[GlossaryCardTypesAndKeywordsTitleText]
+Card Types and Keywords
+
+[GlossaryStatusesAndDecisionTitleText]
+Special Conditions, Win/Loss
+
+[GlossarySpecialRulesTitleText]
+Special Rule Duels
+
+[GlossaryDeckTitleText]
+About the Deck
+
+[GlossaryDeckPileTitleText]
+About Deck Piles
+
+[GlossaryDiscardPileTitleText]
+About the Discard Pile
+
+[GlossaryHandTitleText]
+About the Hand
+
+[GlossaryArenaTitleText]
+About the Arena
+
+[GlossaryBenchTitleText]
+About the Bench
+
+[GlossaryActivePokemonTitleText]
+About the Active Pokémon
+
+[GlossaryBenchedPokemonTitleText]
+About Benched Pokémon

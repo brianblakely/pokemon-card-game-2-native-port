@@ -1,0 +1,1940 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text14.asm, by label (format: src/text.rs).
+
+[UsefulButtonsBookText]
+Handy buttons for the duel screen:
+hold B and press the Control Pad!
+You can easily check both players'
+Play Areas and Discard Piles!
+B+Down: Your Play Area
+B+Left: Your Discard Pile
+B+Up: Opponent's Play Area
+B+Right: Opponent's Discard Pile
+If you remember these,
+they'll come in really handy!
+
+[ColorlessPokemonBookText]
+Colorless Pokémon are
+very easy to use.
+They can use their attacks with
+Energy cards of any color!
+That means you can put them
+in a deck of any color.
+There are lots of different ones,
+so study the cards and learn them!
+
+[CardPopBookText]
+When you defeat an opponent,
+you get booster packs.
+But you can also get cards by
+linking with friends via "Card Pop!"
+However, from the same person,
+you can only get the same card.
+Link with lots of different people
+and collect lots of cards!
+
+[EnergyCardColorsBookText]
+The 6 Energy colors are Grass, Fire,
+Water, Lightning, Fighting, Psychic!
+Besides these 6 basic Energy types,
+there are Special Energy cards.
+You can put as many basic Energy
+cards in your deck as you like.
+But Special Energy cards are limited
+to 4 of each per deck.
+
+[LegendaryPokemonCardsVol1BookText]
+Legendary Pokémon Cards:
+The first is "Moltres<Lv>40"!
+With "Firegiver," Fire Energy
+goes into your hand!
+"Dive Bomb" is also
+a powerful attack!
+It's the card of the Fire Queen,
+Grand Master Courtney!
+
+[LegendaryPokemonCardsVol2BookText]
+Legendary Pokémon Cards:
+The second is "Zapdos<Lv>68"!
+"Peal of Thunder" does damage
+just by putting it into play!
+"Big Thunder" does 70 damage to
+one of the Pokémon in play!
+It's the card of the Grand Master
+of Lightning, Steve!
+
+[LegendaryPokemonCardsVol3BookText]
+Legendary Pokémon Cards:
+The third is "Articuno<Lv>37"!
+"Quickfreeze" Paralyzes your foe
+just by putting it into play!
+"Ice Breath" is also
+a pretty strong attack!
+It's the card of the Grand Master
+of Ice, Jack!
+
+[LegendaryPokemonCardsVol4BookText]
+Legendary Pokémon Cards:
+The fourth is "Dragonite<Lv>41"!
+"Healing Wind" heals your Pokémon's
+damage just by putting it into play!
+It attacks with "Slam"!
+It's seriously strong!
+It's the card of Rod, the leader
+of the Grand Masters!
+
+[GrandMastersBookText]
+The 4 Grand Masters who guard
+the Legendary Pokémon Cards:
+Courtney, Steve,
+Jack and Rod.
+Each of them is a highly skilled
+Pokémon card player!
+
+[CoinsBookText]
+There are coins you flip to decide
+the results of attacks.
+They say there are 24 coins
+in all in this world.
+You can get them in all sorts of
+ways. Try your best to get them all!
+
+[PhantomCardsBookText]
+It seems there are phantom cards
+you can only get through Card Pop!
+"Venusaur<Lv>64" and "Mew<Lv>15"
+were two of them.
+But it seems there are two more
+phantom cards besides those.
+Apparently no one knows what
+they are. What could they be?
+I'll get those phantom cards!
+`                    Mr. Ishihara`
+
+[DarkPokemonBookText]
+Team GR is skilled at using
+Dark Pokémon cards.
+Dark cards have strong attacks
+and Pokémon Powers.
+But they're known for having less
+HP than regular evolved Pokémon.
+
+[AugmentBasicPokemonBookText]
+Want Vaporeon, Jolteon and Flareon
+in your deck? 4 Eevee aren't enough?
+In that case, you need
+"Ditto<Lv>19"!
+Ditto's "Morph" turns it
+into a Basic Pokémon.
+Have it turn into Eevee,
+and duel with more Eevee!
+
+[GRKingCardsBookText]
+Biruritchi, the King of Team GR,
+has a special card.
+That card, which only the King has,
+is "GR's Mewtwo"!
+It has the Pokémon Power "Dark Wave"
+and the attack "Dark Amplification."
+Nobody knows what they do, but
+it must be an amazing card!
+
+[SpecialEnergyBookText]
+Besides the 6 basic Energy types,
+there are 5 Special Energy cards.
+"Double Colorless Energy" and
+"Rainbow Energy" are two of them.
+There's also Energy mixed with
+"Potion" or "Full Heal."
+You can only put 4 of the same
+Special Energy card in a deck.
+Think about the balance with your
+basic Energy when adding them!
+
+[GetCoinsBookText]
+There are 24 coins
+you can get in all.
+You can get them from the leaders
+of clubs and Forts in many ways.
+You can also win them at the
+Challenge Cup and the Game Center!
+Some coins can only be obtained
+after defeating Team GR's King!
+Try all kinds of things and
+complete your coin collection!
+
+[ImakuniBlackCardlessFirstCardPopText]
+Hm?
+Who are you?
+Huh? Who am I, you ask?
+You don't know me?
+I'm a super musical star,
+Imakuni?!
+But right now, I'm sad...
+Got no, no, no, no Pokémon cards!
+Hey, you!
+Do Card Pop! with me!!
+Even if you don't want to, I will!
+Get ready for Card Pop!
+
+[ImakuniBlackCardlessAfterFirstCardPopSaveText]
+Got a card!
+I'll save your data for ya!!
+
+[ImakuniBlackCardlessAfterFirstCardPopResultText]
+The card I got was
+"<RAMTEXT>"!
+And the card you got... "Imakuni?"
+Lucky you! Be happy!
+Well, we did Card Pop!, so
+I've got no more use for you!
+
+[ImakuniBlackCardlessAfterFirstCardPopRepeatText]
+I'm a super musical star,
+Imakuni?!
+Hm? What is it?
+You again?!
+We already did Card Pop! once,
+so I've got no more use for you!
+Just hurry and get the cards back!
+See ya!
+
+[ImakuniBlackWantsToDuelFirstEncounterText]
+Hm?
+Who are you?
+Huh? Who am I, you ask?
+You don't know me?
+I'm a super musical star,
+Imakuni?!
+Hm? Cards?
+You want a card showdown with me?
+
+[ImakuniBlackWantsToDuelRepeatText]
+I'm a super musical star,
+Imakuni?!
+Hm? What is it?
+You again?! You don't give up!
+What is it this time? Cards?
+You want to duel with cards?
+Challenging me to a match?
+You've got some nerve, huh?
+Shall I show you a thing or two?
+Come on, then!
+
+[ImakuniBlackDuelPromptText]
+Do you want to duel Imakuni??
+
+[ImakuniBlackDuelStartText]
+6 Prize cards!
+Let's duel for real!!
+
+[ImakuniBlackDeclinedDuelText]
+What? Aw, now I'm lonely...
+Weren't we gonna have a card duel?
+You're a real drag,
+you know that?!
+
+[ImakuniBlackPlayerLostText]
+Oopsie...
+I went and won!
+That's me for ya!
+But you were strong too!
+
+[ImakuniBlackByeText]
+Well, I'm off on my wandering
+journey again. See ya!
+
+[ImakuniBlackPlayerWonNormalText]
+Whoa, you're
+pretty strong, huh?
+I'll give you booster packs, so
+don't tell anyone I lost!
+
+[ImakuniBlackPlayerWon3Text]
+You've beaten me 3 times now!
+Happy? Huh? Are you happy?
+
+[ImakuniBlackPlayerWon6Text]
+I can't believe I lost 6 times...
+That's so frustrating... Seriously!
+I'm so frustrated
+that I'm giving you this!
+
+[ImakuniBlackPlayerWon9Text]
+Why?! How could I lose to you
+9 times?!
+I'm so disappointed in myself!
+Dang it!
+
+[ImakuniBlackPlayerWonManyText]
+What, you won again...
+You've got some real skill, huh?
+I'm starting to feel like
+I'll never beat you.
+Take this, and lose to me
+once in a while, OK?
+
+[Text12d3]
+I'm the kinda-sorta red
+Imakuni? Red!
+That guy on your island in black
+who calls himself "Imakuni?"!
+He's a fake,
+so watch out, you!
+Today, you!
+Do Card Pop! with me!!
+Even if you don't want to, I will!
+Get ready for Card Pop!
+
+[Text12d4]
+I got a rare card!
+I'll save your data too!
+
+[Text12d5]
+Hey, let me say thank you.
+I really wanted this card.
+I'm forever grateful to you,
+my dear friend!
+
+[Text12d6]
+Hm?
+Who are you?
+Huh? "Who am I?" you ask?
+You don't know me?
+I'm a super musical star!
+I'm Imakuni?!
+What? Imakuni? is black, you say?
+You don't know anything, do you!
+I'm the hopelessly red
+Imakuni? Red!
+I'm so red that the black guy
+doesn't even compare!
+Looks like you can't hide
+your surprise!
+What?
+You want a card duel with me?
+That's just what I wanted!
+I'll smash you to smithereens!
+
+[Text12d7]
+I'm the maddeningly red
+Imakuni? Red!
+What? Oh!
+Did you come to see me again?
+Wanna make a summer memory?
+Huh? No?
+You want a card duel with me?
+Then I'll smash you to smithereens!
+
+[Text12d8]
+Do you want to duel Imakuni? Red?
+
+[Text12d9]
+6 Prize cards!
+A "6-Pri" match, for short!
+
+[Text12da]
+What, you won't duel me?
+Why not?!
+And I was gonna smash you
+to smithereens...
+After I went to all the trouble
+of getting red, this is no fun...
+
+[Text12db]
+Ta-daaa! I won!
+I-It's not like I'm that happy.
+I win pretty often, after all.
+I-I'm not happy or anything...
+Well, see ya.
+You should get red like me, too!
+
+[Text12dc]
+Whew, that was close.
+I thought I might lose this time.
+Huh? What?
+I lost? That's the 3rd time?
+What? I didn't even know!
+Oh well, here, take this.
+
+[Text12dd]
+Well, I'm off on another journey
+to dye myself red!
+
+[Text12de]
+Oh, so that's your move...
+Then what should I do...
+Huh? What? I lost?
+Again? That's the 6th time?
+How did I lose? I don't get it!
+Well, that's that. Here, take this!
+
+[Text12df]
+Well, I'm off on another journey
+to dye myself even redder!
+
+[Text12e0]
+Hey, doesn't it kinda seem like
+I won this time?
+Huh? I lost again? How come?!
+I've lost 9 times already?
+I'd better learn what it takes
+to lose first.
+
+[Text12e1]
+Well, I'm off on another journey
+to dye myself super red!
+
+[Text12e2]
+You really had me cornered.
+I almost lost there.
+Huh? I lost?
+Aw, man... Fine, take this.
+
+[Text12e3]
+Next time we meet,
+I'll be even redder.
+That'll be a day you'll remember!
+See ya! I'm off on a journey!
+
+[BattleCenterWelcomeText]
+Hello, and welcome
+to the Battle Center!!
+Get booster packs from link duels!
+Winners get 3 packs, losers get 1.
+
+[BattleCenterBeginPromptText]
+Start a duel with your friend?
+
+[BattleCenterThankYouText]
+Thank you for using
+the Battle Center.
+
+[BattleCenterComeAgainText]
+We look forward to
+your next visit.
+
+[BattleCenterWinRewardsText]
+Congratulations!
+That was a splendid win!
+<RAMNAME>, as the winner,
+here are 3 booster packs!
+
+[BattleCenterLoseRewardsText]
+Too bad...
+` `
+<RAMNAME>, here's
+1 booster pack for you!
+
+[BattleCenter50WinsRewardsText]
+Congratulations!
+That's your 50th link duel win!
+<RAMNAME>, please accept
+this commemorative coin!
+
+[BattleCenterAppreciateContinuedSupportText]
+We appreciate your continued
+support of the Battle Center!
+
+[BattleCenter100WinsRewardsText]
+Congratulations!
+Amazing! Your 100th link duel win!
+<RAMNAME>, please accept
+this commemorative coin!
+
+[GrassEnergyName]
+Grass Energy
+
+[GrassEnergyDescription]
+`[Basic Energy Card]`
+Provides 1 Grass Energy.
+
+[FireEnergyName]
+Fire Energy
+
+[FireEnergyDescription]
+`[Basic Energy Card]`
+Provides 1 Fire Energy.
+
+[WaterEnergyName]
+Water Energy
+
+[WaterEnergyDescription]
+`[Basic Energy Card]`
+Provides 1 Water Energy.
+
+[LightningEnergyName]
+Lightning Energy
+
+[LightningEnergyDescription]
+`[Basic Energy Card]`
+Provides 1 Lightning Energy.
+
+[FightingEnergyName]
+Fighting Energy
+
+[FightingEnergyDescription]
+`[Basic Energy Card]`
+Provides 1 Fighting Energy.
+
+[PsychicEnergyName]
+Psychic Energy
+
+[PsychicEnergyDescription]
+`[Basic Energy Card]`
+Provides 1 Psychic Energy.
+
+[DoubleColorlessEnergyName]
+Double Colorless Energy
+
+[DoubleColorlessEnergyDescription]
+`[Special Energy Card]`
+Provides 2 Colorless Energy.
+(Colorless Energy can't be used in
+place of other colors of Energy, but
+other colors can be used in place
+of Colorless Energy.)
+
+[PotionEnergyName]
+Potion Energy
+
+[PotionEnergyDescription]
+`[Special Energy Card]`
+Provides 1 Colorless Energy. When
+you attach this card from your hand
+to a Pokémon, remove 1 damage
+counter from that Pokémon.
+
+[PotionEnergyDescriptionCont]
+Colorless Energy can't be used in
+place of other colors of Energy, but
+other colors can be used in place
+of Colorless Energy.
+
+[FullHealEnergyName]
+Full Heal Energy
+
+[FullHealEnergyDescription]
+`[Special Energy Card]`
+Provides 1 Colorless Energy. When
+you attach this card from your hand
+to a Pokémon, that Pokémon is no
+longer Asleep, Confused, Paralyzed,
+or Poisoned.
+
+[RainbowEnergyName]
+Rainbow Energy
+
+[RainbowEnergyDescription]
+`[Special Energy Card]`
+While in play, it counts as every
+type of basic Energy. When attached
+from your hand to a Pokémon, it does
+10 damage to that Pokémon. (Don't
+apply Weakness and Resistance.)
+
+[RecycleEnergyName]
+Recycle Energy
+
+[RecycleEnergyDescription]
+`[Special Energy Card]`
+Provides 1 Colorless Energy. If this
+card is put into the discard pile
+from play, return it to its owner's
+hand.
+
+[BulbasaurName]
+Bulbasaur
+
+[TackleName]
+Tackle
+
+[RazorLeafName]
+Razor Leaf
+
+[SeedName]
+Seed
+
+[BulbasaurLv12Description]
+It can go for days without eating
+anything. The seed on its back holds
+lots of nutrients, so it's fine.
+
+[LeechSeedName]
+Leech Seed
+
+[LeechSeedDescription]
+If this attack damages the Defending
+Pokémon, remove 1 damage counter
+from this Pokémon.
+
+[BulbasaurLv13Description]
+It has had a plant seed on its back
+since birth. The seed grows bigger
+little by little.
+
+[FirstAidName]
+First Aid
+
+[FirstAidDescription]
+Remove 1 damage counter from
+this Pokémon.
+
+[PoisonSeedName]
+Poison Seed
+
+[InflictPoisonDescription]
+The Defending Pokémon is now
+Poisoned.
+
+[BulbasaurLv15Description]
+A strange seed was planted on its
+back at birth. The plant sprouts and
+grows with this Pokémon.
+
+[IvysaurName]
+Ivysaur
+
+[VineWhipName]
+Vine Whip
+
+[PoisonPowderName]
+Poisonpowder
+
+[IvysaurLv20Description]
+It has a bud on its back. It's said
+that as the bud absorbs nutrients,
+it blooms into a large flower.
+
+[LeechSeedAltName]
+Leech Seed
+
+[IvysaursLeechSeedDescription]
+If this attack damages the Defending
+Pokémon, remove 1 damage counter
+from this Pokémon.
+
+[VineWhipAltName]
+Vine Whip
+
+[IvysaurLv26Description]
+When the bud that grew big on
+nutrients gives off a scent, it's a
+sign the flower will bloom soon.
+
+[DarkIvysaurName]
+Dark Ivysaur
+
+[VinePullName]
+Vine Pull
+
+[VinePullDescription]
+Once during your turn, when this
+Pokémon retreats, switch the
+Defending Pokémon with 1 of your
+opponent's Benched Pokémon chosen at
+random. This power doesn't work if
+your opponent's Bench is empty.
+
+[FuryStrikesName]
+Fury Strikes
+
+[FuryStrikesDescription]
+Do 10 damage to 1 of your opponent's
+Pokémon chosen at random. Repeat
+this 3 times. (Don't apply Weakness
+and Resistance.)
+
+[DarkIvysaurDescription]
+It freely controls the strong vines
+growing from its back and sometimes
+yanks its foes around recklessly.
+
+[VenusaurName]
+Venusaur
+
+[SolarPowerName]
+Solar Power
+
+[SolarPowerDescription]
+Once during your turn, you may use
+this power. Both Active Pokémon are
+no longer Asleep, Confused,
+Paralyzed, or Poisoned. This power
+can't be used if this Pokémon is
+Asleep, Confused, or Paralyzed.
+
+[MegaDrainName]
+Mega Drain
+
+[MegaDrainDescription]
+If this attack damages the Defending
+Pokémon, remove a number of damage
+counters from this Pokémon equal to
+half the damage done (rounded up).
+
+[VenusaurLv64Description]
+Its big flower blooms by feeding on
+solar energy. It moves as if drawn
+to sunny places.
+
+[EnergyTransName]
+Energy Trans
+
+[EnergyTransDescription]
+As often as you like during your
+turn, you may move a Grass Energy
+attached to 1 of your Pokémon to
+another of your Pokémon. This power
+can't be used if this Pokémon is
+Asleep, Confused, or Paralyzed.
+
+[SolarbeamName]
+Solarbeam
+
+[VenusaurLv67Description]
+A bewitching aroma wafts from its
+flower, soothing the feelings of
+those who fight.
+
+[DarkVenusaurName]
+Dark Venusaur
+
+[HorridPollenName]
+Horrid Pollen
+
+[HorridPollenDescription]
+The Defending Pokémon is now
+Poisoned, plus Confused, Asleep, or
+Paralyzed (chosen at random).
+
+[DarkVenusaurDescription]
+When its big flower opens, there's a
+1-in-a-million chance it scatters
+pollen that afflicts its foes.
+
+[CaterpieName]
+Caterpie
+
+[StringShotName]
+String Shot
+
+[MayInflictParalysisDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Paralyzed.
+
+[WormName]
+Worm
+
+[CaterpieDescription]
+It's covered in green skin. When it
+molts and grows, it spins silk and
+becomes a pupa.
+
+[MetapodName]
+Metapod
+
+[GreenShieldName]
+Green Shield
+
+[GreenShieldDescription]
+As long as this Pokémon is in play,
+don't apply Weakness to damage done
+to your Grass Pokémon. This power
+stops working while this Pokémon is
+Asleep, Confused, or Paralyzed.
+
+[MysteriousPowerName]
+Mysterious Powder
+
+[MayInflictConfusionDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Confused.
+
+[CocoonName]
+Cocoon
+
+[MetapodLv20Description]
+If it takes a hard hit before its
+shell hardens, its insides can spill
+out, so be careful.
+
+[StiffenName]
+Stiffen
+
+[PreventDamageCardEffectDescription]
+Flip a coin. If heads, prevent all
+damage done to this Pokémon during
+your opponent's next turn.
+(Any other effects of attacks still
+happen.)
+
+[StunSporeName]
+Stun Spore
+
+[MetapodLv21Description]
+It's encased in a hard shell, but
+its insides are soft, so it can't
+withstand strong attacks.
+
+[ButterfreeName]
+Butterfree
+
+[WhirlwindName]
+Whirlwind
+
+[WhirlwindDescription]
+If your opponent has any Benched
+Pokémon, he or she chooses 1 of them
+and switches it with the Defending
+Pokémon.
+
+[ButterflyName]
+Butterfly
+
+[ButterfreeDescription]
+Its wings are protected by scales
+that repel water. It can fly even on
+rainy days.
+
+[WeedleName]
+Weedle
+
+[PoisonStingName]
+Poison Sting
+
+[MayInflictPoisonDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Poisoned.
+
+[HairyBugName]
+Hairy Bug
+
+[WeedleLv12Description]
+Common in forests and grasslands.
+It has a small, sharp poison stinger
+about 5 cm long on its head.
+
+[PeckName]
+Peck
+
+[PoisonHornName]
+Poison Horn
+
+[WeedleLv15Description]
+It loves eating leaves and can be
+found in forests. It's poisonous,
+so be careful.
+
+[KakunaName]
+Kakuna
+
+[PoisonFluidName]
+Poison Fluid
+
+[PoisonFluidDescription]
+When your opponent's attack damages
+this Pokémon (even if it's Knocked
+Out), the attacking Pokémon is now
+Poisoned. This power doesn't work if
+this Pokémon was already Asleep,
+Confused, or Paralyzed.
+
+[RolloutName]
+Rollout
+
+[KakunaLv20Description]
+It can barely move on its own, but
+when in danger, it hardens itself
+to protect its body.
+
+[KakunaLv23Description]
+This is a temporary stage while it
+builds its adult body. It can barely
+move on its own.
+
+[BeedrillName]
+Beedrill
+
+[TwineedleName]
+Twineedle
+
+[Do30DamageNumberOfHeadsDescription]
+Flip 2 coins. This attack does 30
+damage times the number of heads.
+
+[PoisonBeeName]
+Poison Bee
+
+[BeedrillDescription]
+It may appear in swarms. It flies at
+high speed, stinging foes over and
+over with the stinger on its rear.
+
+[EkansName]
+Ekans
+
+[SpitPoisonName]
+Spit Poison
+
+[WrapName]
+Wrap
+
+[SnakeName]
+Snake
+
+[EkansLv10Description]
+It lives in places like graveyards.
+It flicks its tongue to sense danger
+around it.
+
+[BiteName]
+Bite
+
+[MayInflictPoisonAltDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Poisoned.
+
+[EkansLv15Description]
+A carnivore, it swallows anything
+whole without chewing. It loves
+Pidgey and Spearow eggs.
+
+[ArbokName]
+Arbok
+
+[TerrorStrikeName]
+Terror Strike
+
+[TerrorStrikeDescription]
+Flip a coin. If heads and if your
+opponent has any Benched Pokémon,
+he or she chooses 1 of them and
+switches it with the Defending
+Pokémon.
+
+[PoisonFangName]
+Poison Fang
+
+[CobraName]
+Cobra
+
+[ArbokLv27Description]
+The pattern on its belly looks like
+a scary face. Weak foes flee at the
+mere sight of it.
+
+[MayInflictParalysisAltDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Paralyzed.
+
+[DeadlyPoisonName]
+Deadly Poison
+
+[DeadlyPoisonDescription]
+The Defending Pokémon is now
+Poisoned. If it was already Poisoned
+before this attack, this attack does
+10 more damage.
+
+[ArbokLv30Description]
+It is rumored that the ferocious
+warning markings on its belly differ
+from area to area.
+
+[DarkArbokName]
+Dark Arbok
+
+[StareName]
+Stare
+
+[StareDescription]
+Choose 1 of your opponent's Pokémon.
+Do 10 damage to it. (Don't apply
+Weakness and Resistance.) Until the
+end of your opponent's next turn,
+that Pokémon's Pokémon Power stops
+working.
+
+[PoisonVaporName]
+Poison Vapor
+
+[PoisonVaporDescription]
+The Defending Pokémon is now
+Poisoned. This attack does 10 damage
+to each of your opponent's Benched
+Pokémon. (Don't apply Weakness and
+Resistance for Benched Pokémon.)
+
+[DarkArbokDescription]
+One glare from it will freeze you in
+place. If you meet one, it's best to
+look away at once.
+
+[NidoranFName]
+Nidoran♀
+
+[TailWhipName]
+Tail Whip
+
+[TailWhipDescription]
+Flip a coin. If heads, during your
+opponent's next turn, the Defending
+Pokémon can't attack as long as this
+Pokémon is your Active Pokémon.
+
+[NidoranFLv12Description]
+Although small, its venomous barbs
+make this Pokémon dangerous. The
+female has smaller horns.
+
+[FurySwipesName]
+Fury Swipes
+
+[FurySwipes10DamageDescription]
+Flip 3 coins. This attack does 10
+damage times the number of heads.
+
+[CallForFamilyName]
+Call for Family
+
+[CallForFamilyNidoranDescription]
+Search your deck for a Nidoran♂ or
+Nidoran♀ card and put it onto your
+Bench. Shuffle your deck afterward.
+(You can't use this attack if your
+Bench is full.)
+
+[NidoranFLv13Description]
+Though small, its poison barbs are
+very potent, so be careful. The
+female has smaller horns.
+
+[NidorinaName]
+Nidorina
+
+[StrengthInNumbersName]
+Strength in Numbers
+
+[StrengthInNumbersDescription]
+Does 10 more damage for each
+Nidoran♂, Nidoran♀, Nidorino,
+Nidorina, Nidoking, and Nidoqueen on
+your Bench.
+
+[FurySwipes30DamageDescription]
+Flip 3 coins. This attack does 30
+damage times the number of heads.
+
+[NidorinaLv22Description]
+The female's horn develops slowly.
+It prefers physical attacks such as
+clawing and biting.
+
+[SupersonicName]
+Supersonic
+
+[MayInflictConfusionAltDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Confused.
+
+[DoubleKickName]
+Double Kick
+
+[NidorinaLv24Description]
+As a female, it's gentle by nature.
+The ultrasonic waves from its mouth
+can confuse its foes.
+
+[NidoqueenName]
+Nidoqueen
+
+[BoyfriendsName]
+Boyfriends
+
+[BoyfriendsDescription]
+Does 20 more damage for each
+Nidoking you have in play.
+
+[MegaPunchName]
+Mega Punch
+
+[DrillName]
+Drill
+
+[NidoqueenDescription]
+Hard, needle-like scales cover its
+belly. When it gets excited, the
+needles stand on end.
+
+[NidoranMName]
+Nidoran♂
+
+[HornHazardName]
+Horn Hazard
+
+[IfTailsDoNothingDescription]
+Flip a coin. If tails, this attack
+does nothing.
+
+[NidoranMLv20Description]
+Its big ears flap like wings when it
+listens to faraway sounds. When
+angered, it releases poison barbs.
+
+[FocusEnergyName]
+Focus Energy
+
+[FocusEnergyHornRushDescription]
+During your next turn, the damage of
+this Pokémon's Horn Rush attack is
+doubled.
+
+[HornRushName]
+Horn Rush
+
+[IfTailsDoNothingAltDescription]
+Flip a coin. If tails, this attack
+does nothing.
+
+[NidoranMLv22Description]
+It raises its ears to sense danger.
+The larger the spikes on its body,
+the more potent its venom.
+
+[NidorinoName]
+Nidorino
+
+[SwiftLungeName]
+Swift Lunge
+
+[SwiftLungeDescription]
+Flip a coin. If tails, this attack
+does no damage to the Defending
+Pokémon, and this Pokémon does 20
+damage to itself.
+
+[NidorinoLv23Description]
+It's quick to anger and pick fights.
+Its horn releases a powerful toxin
+when it pierces something.
+
+[HornDrillName]
+Horn Drill
+
+[NidorinoLv25Description]
+It's easily angered. It swings its
+well-developed horn around and can
+skewer even diamonds.
+
+[NidokingName]
+Nidoking
+
+[ThrashName]
+Thrash
+
+[ThrashDescription]
+Flip a coin. If heads, this attack
+does 10 more damage. If tails, this
+Pokémon does 10 damage to itself.
+
+[ToxicName]
+Toxic
+
+[ToxicDescription]
+The Defending Pokémon is now
+Poisoned. It now takes 20 Poison
+damage instead of 10 after each
+player's turn.
+
+[NidokingDescription]
+Its rock-hard hide and long horn are
+its trademarks. The horn is also
+poisonous, so be careful.
+
+[ZubatName]
+Zubat
+
+[RamName]
+Ram
+
+[BatName]
+Bat
+
+[ZubatLv9Description]
+It lives in dark caves. At night, it
+is occasionally seen flying about.
+
+[LeechLifeName]
+Leech Life
+
+[LeechLifeDescription]
+If this attack damages the Defending
+Pokémon, remove a number of damage
+counters from this Pokémon equal to
+the damage done.
+
+[ZubatLv10Description]
+It has no eyes at all. It flies
+through the dark by emitting
+ultrasonic waves from its mouth.
+
+[SuspiciousSoundwaveName]
+Suspicious Soundwave
+
+[ZubatLv12Description]
+Forms colonies in perpetually dark
+places. Uses ultrasonic waves to
+approach its targets.
+
+[GolbatName]
+Golbat
+
+[LeechLifeAltDescription]
+If this attack damages the Defending
+Pokémon, remove a number of damage
+counters from this Pokémon equal to
+the damage done.
+
+[NosediveName]
+Nosedive
+
+[NosediveDescription]
+Flip a coin. If tails, this Pokémon
+does 40 damage to itself.
+
+[GolbatLv25Description]
+Once it strikes, it won't stop
+draining blood, even if it gets
+too heavy to fly.
+
+[WingAttackName]
+Wing Attack
+
+[GolbatLv29Description]
+It bites with its sharp fangs and
+drains 300 cc of blood at a time.
+
+[DarkGolbatName]
+Dark Golbat
+
+[SneakAttackName]
+Sneak Attack
+
+[SneakAttackDescription]
+When you play this Pokémon from your
+hand, you may choose 1 of your
+opponent's Pokémon. This power does
+10 damage to that Pokémon. (Don't
+apply Weakness and Resistance.)
+
+[FlitterName]
+Flitter
+
+[FlitterDescription]
+Choose 1 of your opponent's Pokémon.
+This attack does 20 damage to that
+Pokémon. (Don't apply Weakness and
+Resistance.)
+
+[DarkGolbatDescription]
+It sneaks up behind its prey without
+a sound and bites. Its bite can
+sometimes be fatal.
+
+[OddishName]
+Oddish
+
+[SproutName]
+Sprout
+
+[SproutDescription]
+Search your deck for an Oddish card
+and put it onto your Bench. Shuffle
+your deck afterward. (You can't use
+this attack if your Bench is full.)
+
+[WeedName]
+Weed
+
+[OddishLv8Description]
+Also known as the "walking weed."
+At night, it is said to walk as far
+as 300 m on its two roots.
+
+[SleepPowderName]
+Sleep Powder
+
+[InflictSleepDescription]
+The Defending Pokémon is now Asleep.
+
+[OddishLv21Description]
+To preserve its species, it is said
+to walk around at night, scattering
+its pollen.
+
+[GloomName]
+Gloom
+
+[FoulOdorName]
+Foul Odor
+
+[FoulOdorDescription]
+Both the Defending Pokémon and this
+Pokémon are now Confused (after
+doing damage).
+
+[GloomDescription]
+The awful stench from its pistils
+reaches as far as 2 km away and
+can make people faint.
+
+[DarkGloomName]
+Dark Gloom
+
+[PollenStenchName]
+Pollen Stench
+
+[PollenStenchDescription]
+Once during your turn, you may flip
+a coin. If heads, the Defending
+Pokémon is now Confused; if tails,
+your Active Pokémon is. This power
+can't be used if this Pokémon is
+Asleep, Confused, or Paralyzed.
+
+[DarkGloomDescription]
+Perhaps because its smell is so
+strong, it's said to sometimes get
+confused by its own pollen.
+
+[VileplumeName]
+Vileplume
+
+[HealName]
+Heal
+
+[HealDescription]
+Once during your turn, you may flip
+a coin. If heads, remove 1 damage
+counter from 1 of your Pokémon.
+This power can't be used if this
+Pokémon is Asleep, Confused, or
+Paralyzed.
+
+[PetalDanceName]
+Petal Dance
+
+[PetalDanceDescription]
+Flip 3 coins. This attack does 40
+damage times the number of heads.
+This Pokémon is now Confused (after
+doing damage).
+
+[FlowerName]
+Flower
+
+[VileplumeDescription]
+It furiously scatters allergenic
+pollen from the world's largest
+petals.
+
+[DarkVileplumeName]
+Dark Vileplume
+
+[HayFeverName]
+Hay Fever
+
+[HayFeverDescription]
+As long as this Pokémon is in play,
+neither player can play Trainer
+cards. (This doesn't affect Trainer
+cards already in play.) This power
+stops working while this Pokémon is
+Asleep, Confused, or Paralyzed.
+
+[PetalWhirlwindName]
+Petal Whirlwind
+
+[PetalWhirlwindDescription]
+Flip 3 coins. This attack does 30
+damage times the number of heads.
+If you get 2 or more heads, this
+Pokémon is now Confused.
+
+[DarkVileplumeDescription]
+Perhaps due to its potent pollen, no
+other Pokémon can approach where
+Vileplume lives.
+
+[ParasName]
+Paras
+
+[ScratchName]
+Scratch
+
+[SporeName]
+Spore
+
+[MushroomName]
+Mushroom
+
+[ParasLv8Description]
+The mushrooms on its back are called
+tochukaso. As it grows, so do the
+mushrooms.
+
+[ScatterSporesName]
+Scatter Spores
+
+[ScatterSporesDescription]
+Search your deck for a Paras card
+and put it onto your Bench. Shuffle
+your deck afterward. (You can't use
+this attack if your Bench is full.)
+
+[ParasLv15Description]
+It burrows to suck tree roots. The
+mushrooms on its back grow by taking
+nutrients from the bug host.
+
+[ParasectName]
+Parasect
+
+[SlashName]
+Slash
+
+[ParasectLv28Description]
+It scatters poison spores from its
+mushroom cap. In China, however, the
+spores are used in herbal medicine.
+
+[ToxicSporeName]
+Toxic Spore
+
+[ParasectLv29Description]
+It's driven by the will of the
+mushroom, now bigger than the bug.
+It is said to prefer damp places.
+
+[VenonatName]
+Venonat
+
+[InsectName]
+Insect
+
+[VenonatLv12Description]
+Its eyes work like radar, letting it
+move even in darkness. It can fire
+beams from its eyes.
+
+[DisableName]
+Disable
+
+[DisableDescription]
+Flip a coin. If heads, choose 1 of
+the Defending Pokémon's attacks.
+That Pokémon can't use that attack
+during your opponent's next turn.
+
+[PsybeamName]
+Psybeam
+
+[VenonatLv15Description]
+It seems to live under big trees,
+eating bugs and such. At night, it
+gathers near lights.
+
+[VenomothName]
+Venomoth
+
+[StirUpTwisterName]
+Stir Up Twister
+
+[StirUpTwisterDescription]
+If your opponent has any Benched
+Pokémon, he or she chooses 1 of them
+and switches it with the Defending
+Pokémon. Then, if you have any
+Benched Pokémon, switch 1 of them
+with this Pokémon.
+
+[RainbowPowderName]
+Rainbow Powder
+
+[RainbowPowderDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Paralyzed; if tails,
+it is now Poisoned.
+
+[PoisonMothName]
+Poison Moth
+
+[VenomothLv22Description]
+The dustlike scales covering its
+wings are color-coded to indicate
+the kinds of poison it has.
+
+[ShiftName]
+Shift
+
+[ShiftDescription]
+Once during your turn, you may
+change this Pokémon's color (type)
+to the color of any Pokémon in play.
+This effect lasts until this Pokémon
+leaves play.
+
+[ShiftDescriptionCont]
+If this Pokémon is Asleep, Confused,
+or Paralyzed, this power can't be
+used and this Pokémon goes back to
+its original color (type).
+
+[VenomPowderName]
+Venom Powder
+
+[VenomPowderDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now both Poisoned and
+Confused.
+
+[VenomothLv28Description]
+Its wings are covered with dustlike
+scales. Every time it flutters them,
+it scatters highly toxic powder.
+
+[BellsproutName]
+Bellsprout
+
+[SwayName]
+Sway
+
+[BellsproutLv10Description]
+It catches and eats small bugs. It
+also seems to draw water through
+the roots on its feet.
+
+[CallForFamilyBellsproutDescription]
+Search your deck for a Bellsprout
+card and put it onto your Bench.
+Shuffle your deck afterward.
+(You can't use this attack if your
+Bench is full.)
+
+[BellsproutLv11Description]
+Because its bud looks like a human
+face, some whisper that it's a type
+of the legendary mandrake.
+
+[WeepinbellName]
+Weepinbell
+
+[RegenerationName]
+Regeneration
+
+[RegenerationDescription]
+Remove all damage counters from this
+Pokémon. Then discard all Evolution
+cards and Energy cards attached to
+it, and it reverts to a Basic
+Pokémon.
+
+[DissolveName]
+Dissolve
+
+[DissolveDescription]
+Flip a coin. If heads, discard 1
+Energy card attached to the
+Defending Pokémon.
+
+[FlycatcherName]
+Flycatcher
+
+[WeepinbellLv23Description]
+First it spits poison powder to stop
+its foe from moving, then finishes
+it off with acid.
+
+[WeepinbellLv28Description]
+Its leaves act as cutters that slice
+up foes. From its mouth, it spits a
+fluid that dissolves anything.
+
+[VictreebelName]
+Victreebel
+
+[LureName]
+Lure
+
+[LureDescription]
+Choose 1 of your opponent's Benched
+Pokémon and switch it with the
+Defending Pokémon. (You can't use
+this attack if your opponent has no
+Benched Pokémon.)
+
+[AcidName]
+Acid
+
+[AcidDescription]
+Flip a coin. If heads, the Defending
+Pokémon can't retreat during your
+opponent's next turn.
+
+[VictreebelDescription]
+Prey lured into its mouth by its
+honeylike scent is doomed. It is
+dissolved by acid.
+
+[GrimerName]
+Grimer
+
+[PoisonGasName]
+Poison Gas
+
+[StickyHandsName]
+Sticky Hands
+
+[StickyHandsDescription]
+Flip a coin. If heads, this attack
+does 20 more damage and the
+Defending Pokémon is now Paralyzed.
+
+[SludgeCategoryName]
+Sludge
+
+[GrimerLv10Description]
+Born in sewage treatment plants, it
+was recently found traveling through
+sewers to appear in towns.
+
+[NastyGooName]
+Nasty Goo
+
+[MinimizeName]
+Minimize
+
+[MinimizeDescription]
+During your opponent's next turn,
+any damage done to this Pokémon by
+attacks is reduced by 20. (Any other
+effects of attacks still happen.)
+
+[GrimerLv17Description]
+Sludge exposed to X-rays from the
+moon transformed into Grimer. It
+loves feeding on filthy things.
+
+[MukName]
+Muk
+
+[ToxicGasName]
+Toxic Gas
+
+[ToxicGasDescription]
+As long as this Pokémon is in play,
+all Pokémon Powers other than Toxic
+Gas can't be used and stop working.
+This power stops working while this
+Pokémon is Asleep, Confused, or
+Paralyzed.
+
+[SludgeMoveName]
+Sludge
+
+[MukDescription]
+It usually blends into the ground,
+so it goes unnoticed. Touching its
+body exposes you to a deadly poison.
+
+[DarkMukName]
+Dark Muk
+
+[StickyGooName]
+Sticky Goo
+
+[StickyGooDescription]
+As long as this Pokémon is your
+Active Pokémon, your opponent must
+discard 2 more Energy to retreat the
+Defending Pokémon. This power stops
+working while this Pokémon is
+Asleep, Confused, or Paralyzed.
+
+[SludgePunchName]
+Sludge Punch
+
+[DarkMukDescription]
+It suddenly appears, spewing sludge.
+When a Muk shows up, the whole town
+panics.
+
+[ExeggcuteName]
+Exeggcute
+
+[HypnosisMoveName]
+Hypnosis
+
+[EggName]
+Egg
+
+[ExeggcuteDescription]
+It looks like some kind of egg, but
+it's actually a creature closer to
+a plant seed.
+
+[ExeggutorName]
+Exeggutor
+
+[TeleportName]
+Teleport
+
+[TeleportDescription]
+Switch this Pokémon with 1 of your
+Benched Pokémon.
+
+[BigEggsplosionName]
+Big Eggsplosion
+
+[BigEggsplosionDescription]
+Flip a coin for each Energy attached
+to this Pokémon. This attack does 20
+damage times the number of heads.
+
+[CoconutName]
+Coconut
+
+[ExeggutorDescription]
+It's called the walking rainforest.
+Each of its fruits has a face and a
+will of its own.
+
+[KoffingName]
+Koffing
+
+[KoffingLv12Description]
+It was first found at a munitions
+factory, but its habitat seems to
+have spread in recent years.
+
+[FoulGasName]
+Foul Gas
+
+[FoulGasDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Poisoned; if tails,
+it is now Confused.
+
+[KoffingLv13Description]
+Its thin, balloonlike body is full
+of deadly poison gas. It stinks when
+you get close.
+
+[ConfusionGasName]
+Confusion Gas
+
+[KoffingLv14Description]
+In hot places, the gas inside its
+body can swell and make it burst, so
+be careful.
+
+[WeezingName]
+Weezing
+
+[PoisonMistName]
+Poison Mist
+
+[PoisonMistDescription]
+Once during your turn, you may flip
+a coin. If heads, until the start of
+your next turn, Poisoned Pokémon
+take 20 Poison damage instead of 10
+after each player's turn.
+
+[PoisonMistDescriptionCont]
+If this Pokémon is Asleep, Confused,
+or Paralyzed, this power can't be
+used and its effect ends.
+
+[GasExplosionName]
+Gas Explosion
+
+[GasExplosionDescription]
+This Pokémon does 30 damage to
+itself. If this attack Knocks Out
+the Defending Pokémon, your
+opponent's new Active Pokémon is now
+Poisoned.
+
+[WeezingLv26Description]
+It seems twin Koffing appear where
+two kinds of poison gas collect for
+a long time.
+
+[SmogName]
+Smog
+
+[SelfdestructName]
+Selfdestruct
+
+[Selfdestruct60DamageDescription]
+This Pokémon does 60 damage to
+itself. Also does 10 damage to each
+Pokémon on each player's Bench.
+(Don't apply Weakness and Resistance
+for Benched Pokémon.)
+
+[WeezingLv27Description]
+On very rare occasions, a mutation
+produces small twin Koffing that are
+still joined together.
+
+[DarkWeezingName]
+Dark Weezing
+
+[MassExplosionName]
+Mass Explosion
+
+[MassExplosionDescription]
+Does 20 damage times the number of
+Koffing, Weezing, and Dark Weezing
+in play (both yours and your
+opponent's). Then this attack does
+20 damage to each Koffing, Weezing,
+and Dark Weezing in play.
+
+[StunGasName]
+Stun Gas
+
+[StunGasDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Poisoned; if tails,
+it is now Paralyzed.
+
+[DarkWeezingDescription]
+It has been seen multiplying at
+industrial waste dumps.
+
+[TangelaName]
+Tangela
+
+[BindName]
+Bind
+
+[VineName]
+Vine
+
+[TangelaLv8Description]
+Its true form is hidden by tangled
+blue vines. It entangles anything
+that comes near.
+
+[PoisonWhipName]
+Poison Whip
+
+[TangelaLv12Description]
+Its whole body is covered in vines
+like seaweed that sway with every
+step it takes.
+
+[ScytherName]
+Scyther
+
+[SlashingStrikeName]
+Slashing Strike
+
+[SlashingStrikeDescription]
+This Pokémon can't use Slashing
+Strike during your next turn.
+
+[MantisName]
+Mantis
+
+[ScytherLv23Description]
+With ninja-like agility and speed,
+it can make it look like there's
+more than one.
+
+[SwordsDanceName]
+Swords Dance
+
+[SwordsDanceDescription]
+During your next turn, the damage of
+this Pokémon's Slash attack is
+doubled.
+
+[ScytherLv25Description]
+It slashes its prey with its sharp
+scythes to finish it off. Very
+rarely, it uses its wings to fly.
+
+[PinsirName]
+Pinsir
+
+[SlicingThrowName]
+Slicing Throw
+
+[IfHeadsDo10DamageDescription]
+Flip a coin. If heads, this attack
+does 10 more damage.
+
+[StagbeetleName]
+Stag Beetle
+
+[PinsirLv15Description]
+If it fails to crush its victim in
+its pincers, it swings the victim
+around and tosses it hard.
+
+[IrongripName]
+Irongrip
+
+[GuillotineName]
+Guillotine
+
+[PinsirLv24Description]
+Its two long horns are powerful.
+Once it catches something, it won't
+let go until it's torn apart.
+
+[CharmanderName]
+Charmander
+
+[GatherFireName]
+Gather Fire
+
+[GatherFireDescription]
+Once during your turn, you may take
+1 Fire Energy card attached to 1 of
+your Pokémon and attach it to this
+Pokémon. This power can't be used if
+this Pokémon is Asleep, Confused, or
+Paralyzed.
+
+[FireTailName]
+Fire Tail
+
+[LizardName]
+Lizard
+
+[CharmanderLv9Description]
+It's so cute that many people can't
+help hugging it and end up getting
+burned.
+
+[EmberName]
+Ember
+
+[DiscardOneFireEnergyDescription]
+Discard 1 Fire Energy card attached
+to this Pokémon. If you can't, this
+attack does no damage.
+
+[CharmanderLv10Description]
+From the time it is born, a flame
+burns at the tip of its tail. Its
+life ends if the flame goes out.
+
+[GrowlName]
+Growl

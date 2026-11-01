@@ -1,0 +1,1925 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text3.asm, by label (format: src/text.rs).
+
+[GlossaryPrizesTitleText]
+About Prizes
+
+[GlossaryDamageCountersTitleText]
+About Damage Counters
+
+[GlossaryEnergyCardsTitleText]
+About Energy Cards
+
+[GlossaryTrainerCardsTitleText]
+About Trainer Cards
+
+[GlossaryBasicPokemonTitleText]
+About Basic Pokémon
+
+[GlossaryEvolutionCardsTitleText]
+About Evolution Cards
+
+[GlossaryDarkEvolutionCardsTitleText]
+About Dark Evolution Cards
+
+[GlossaryAttackTitleText]
+About Attacks
+
+[GlossaryPokemonPowerTitleText]
+About Pokémon Power
+
+[GlossaryWeaknessTitleText]
+About Weakness
+
+[GlossaryResistanceTitleText]
+About Resistance
+
+[GlossaryRetreatTitleText]
+About Retreating
+
+[GlossaryPoisonedTitleText]
+About Poison
+
+[GlossaryParalyzedTitleText]
+About Paralysis
+
+[GlossaryAsleepTitleText]
+About Sleep
+
+[GlossaryConfusedTitleText]
+About Confusion
+
+[GlossaryDecision1TakenAllPrizesTitleText]
+About Winning and Losing 1
+
+[GlossaryDecision2DeckedOutTitleText]
+About Winning and Losing 2
+
+[GlossaryDecision3RunOutOfPokemonTitleText]
+About Winning and Losing 3
+
+[GlossarySuddenDeathTitleText]
+About Sudden Death
+
+[GlossaryChlorophyllTitleText]
+About Chlorophyll
+
+[GlossaryThunderChargeTitleText]
+About Thunder Charge
+
+[GlossaryFlameArmorTitleText]
+About Flame Armor
+
+[GlossarySmallBenchTitleText]
+About Small Bench
+
+[GlossaryRunningWaterTitleText]
+About Running Water
+
+[GlossaryEarthPowerTitleText]
+About Earth Power
+
+[GlossaryLowResistanceTitleText]
+About Low Resistance
+
+[GlossaryEnergyReturnTitleText]
+About Energy Return
+
+[GlossaryToughEscapeTitleText]
+About Tough Escape
+
+[GlossaryBlackHoleTitleText]
+About Discard Black Hole
+
+[GlossaryDeckDescriptionText]
+The set of cards you duel with is
+called a "deck."
+A deck must contain exactly 60
+cards.
+A deck may not have more than 4
+cards with the same name.
+Building your own deck and dueling
+with it--that's the real joy of
+Pokémon cards!
+
+[GlossaryDeckPileDescriptionText]
+The pile of cards you will draw
+from is called the "Deck."
+At the start of your turn, you draw
+1 card from your Deck.
+If your Deck has no cards left and
+you can't draw a card, you lose the
+duel.
+
+[GlossaryDiscardPileDescriptionText]
+The place where used cards go is
+called the "Discard Pile."
+Putting a card there is called
+"discarding" it.
+Using the Check command, you can
+look at the cards in your Discard
+Pile, and in your opponent's as
+well.
+
+[GlossaryHandDescriptionText]
+The cards each player holds are
+called their "Hand."
+There is no limit to the number of
+cards in your Hand. You can hold 10
+or even 20 cards.
+
+[GlossaryArenaDescriptionText]
+The spot for the Pokémon that is
+fighting right now is the "Arena."
+The Pokémon in the Arena is called
+the "Active Pokémon."
+The game is played by using the
+Active Pokémon in the Arena.
+
+[GlossaryBenchDescriptionText]
+The place where Pokémon wait to
+switch in for the Pokémon in the
+Arena is called the "Bench."
+Normally, you can have up to 5
+Pokémon waiting on your Bench.
+
+[GlossaryActivePokemonDescriptionText]
+The Pokémon in the Arena is called
+the "Active Pokémon."
+You use your Active Pokémon's
+attacks to defeat your opponent's
+Pokémon.
+
+[GlossaryBenchedPokemonDescriptionText]
+The Pokémon on the Bench, waiting to
+switch in for the Pokémon in the
+Arena, are called "Benched Pokémon."
+When the Pokémon in the Arena is
+gone, you choose one of your Benched
+Pokémon to put into the Arena.
+If you have no Benched Pokémon to
+put into the Arena then, you lose.
+
+[GlossaryPrizesDescriptionText]
+The cards used to count how many of
+your opponent's Pokémon you have
+defeated are called "Prizes."
+Each time you defeat one of your
+opponent's Pokémon, you can take 1
+Prize.
+Take all of your Prizes, and you win
+the duel.
+So the goal of the game is to defeat
+as many of your opponent's Pokémon
+as the number of Prizes you set.
+
+[GlossaryDamageCountersDescriptionText]
+"Damage counters" show how much
+damage a Pokémon has taken.
+1 damage counter stands for 10
+points of damage.
+If 3 damage counters are placed on
+a Pokémon with 30 HP, it has taken
+30 damage, so its HP is 0, and it
+is Knocked Out.
+
+[GlossaryEnergyCardsDescriptionText]
+"Energy cards" are cards that
+represent Energy.
+There are 7 types of Energy in all:
+<GRASS>Grass, <FIRE>Fire, <WATER>Water,
+<LIGHTNING>Lightning, <PSYCHIC>Psychic,
+<FIGHTING>Fighting, and <COLORLESS>Colorless.
+You can play only 1 Energy card from
+your Hand during your turn.
+
+[GlossaryTrainerCardsDescriptionText]
+"Trainer cards" are cards that help
+you out.
+Each Trainer card has a different
+effect, so be sure to read each
+card's description.
+During your turn, you can play as
+many Trainer cards from your Hand
+as you like.
+
+[GlossaryBasicPokemonText]
+Among Pokémon cards, the Pokémon
+that others evolve from are called
+"Basic Pokémon."
+For example, Charmander, Squirtle,
+and Bulbasaur are Basic Pokémon.
+Only Basic Pokémon can be put
+directly from your Hand into the
+Arena or onto your Bench.
+
+[GlossaryEvolutionCardsDescriptionText]
+Cards showing Pokémon that have
+evolved from Basic Pokémon are
+called "Evolution cards."
+There are Stage 1 and Stage 2
+Evolution cards. Squirtle is a Basic
+Pokémon, Wartortle is Stage 1, and
+Blastoise is Stage 2.
+You can't play a Stage 1 card unless
+its Basic Pokémon is in play, and
+you can't play a Stage 2 card unless
+its Stage 1 Pokémon is in play.
+
+[GlossaryDarkEvolutionCardsDescriptionText]
+Among Evolution cards, there are
+"Dark Evolution cards." These are
+cards with "Dark" in the name, like
+Dark Charmeleon and Dark Charizard.
+Like normal ones, they evolve from
+Basic to Stage 1 to Stage 2.
+If a Pokémon evolved into a Dark
+Stage 1, its Stage 2 must be Dark
+too. If it evolved into a normal
+Stage 1, its Stage 2 can't be Dark.
+
+[GlossaryAttackDescriptionText]
+By using "attacks," a Pokémon can
+hit the opponent's Pokémon.
+To use an attack, a Pokémon needs
+Energy. The Energy needed differs
+from attack to attack.
+Also, only the Active Pokémon in
+the Arena can use attacks.
+
+[GlossaryPokemonPowerDescriptionText]
+Unlike attacks, a "Pokémon Power"
+can be used even by Pokémon on the
+Bench.
+There are many kinds: some work just
+by having the Pokémon in play, some
+work when you choose them with the
+PKMN Power command, and some can be
+used only once, when the Pokémon is
+played from your Hand.
+Be sure to read each card's text!
+
+[GlossaryWeaknessDescriptionText]
+Some Pokémon have a "Weakness."
+A Pokémon with a Weakness takes
+double damage from Pokémon of its
+Weakness color (type).
+
+[GlossaryResistanceDescriptionText]
+Some Pokémon have "Resistance."
+A Pokémon with Resistance takes 30
+less damage from Pokémon of its
+Resistance color (type).
+
+[GlossaryRetreatDescriptionText]
+By having your Active Pokémon
+"retreat" to the Bench, you can
+switch the Pokémon in the Arena with
+one on your Bench.
+Retreating also takes Energy. The
+amount needed differs from Pokémon
+to Pokémon, so discard as many
+Energy cards as it needs.
+
+[GlossaryPoisonedDescriptionText]
+A Poisoned Pokémon keeps taking 10
+damage between turns.
+To cure Poison, you can retreat the
+Pokémon to your Bench, or use the
+Trainer card "Full Heal."
+You can also cure it by evolving or
+devolving the Pokémon.
+
+[GlossaryParalyzedDescriptionText]
+A Paralyzed Pokémon can't do
+anything. It can't retreat, and it
+can't use Pokémon Powers or attacks.
+Paralysis wears off by itself at the
+end of its owner's turn.
+Using "Full Heal," evolving, or
+devolving also cures Paralysis.
+It is also cured if the Paralyzed
+Pokémon is moved to the Bench.
+
+[GlossaryAsleepDescriptionText]
+An Asleep Pokémon can't do anything.
+It can't retreat, attack, or use
+Pokémon Powers.
+Between turns, flip a coin: if
+heads, it wakes up; if tails, it
+stays Asleep.
+Using "Full Heal," evolving, or
+devolving also cures Sleep.
+
+[GlossaryConfusedDescriptionText]
+When a Confused Pokémon attacks, you
+flip a coin.
+If heads, the attack works normally.
+If tails, the attack fails! In its
+confusion, the Pokémon attacks
+itself and takes 20 damage.
+You also flip a coin when it tries
+to retreat: if heads, it retreats;
+if tails, it can't.
+Confusion is cured in the same ways
+as Poison.
+
+[GlossaryDecision1TakenAllPrizesDescriptionText]
+When a Pokémon's HP runs out, it is
+"Knocked Out."
+When you knock out an opponent's
+Pokémon, you take 1 Prize for each
+Pokémon Knocked Out.
+The first player to take all their
+Prizes this way wins.
+So if you knock out as many of your
+opponent's Pokémon as the Prizes set
+at the start of the duel, you win!
+
+[GlossaryDecision2DeckedOutDescriptionText]
+If your Deck has no cards left when
+you draw at the start of your turn,
+you can't draw, and you lose the
+duel.
+Many card effects make you draw
+more cards from your Deck, so keep
+an eye on how many cards are left in
+your Deck.
+
+[GlossaryDecision3RunOutOfPokemonDescriptionText]
+When your Active Pokémon is Knocked
+Out, you lose if there are no
+Pokémon on your Bench to put into
+the Arena next.
+So always try to keep some Pokémon
+waiting on your Bench.
+
+[GlossarySuddenDeathDescriptionText]
+If you and your opponent take all
+your Prizes at the same time, or
+neither of you can put a Pokémon
+into the Arena, the duel is a "tie"
+and goes to "Sudden Death."
+In Sudden Death, you duel again
+with 1 Prize each.
+If there's still no winner, Sudden
+Death is repeated.
+
+[GlossaryChlorophyllDescriptionText]
+Special Rule 1
+"Chlorophyll"
+
+In this duel, Grass Pokémon can't be
+Poisoned, Paralyzed, Confused, or
+Asleep.
+
+*Special Rules apply only when your
+` opponent calls for them.`
+
+[GlossaryThunderChargeDescriptionText]
+Special Rule 2
+"Thunder Charge"
+
+In this duel, Lightning Pokémon's
+attacks do 10 more damage to the
+Defending Pokémon.
+
+*Special Rules apply only when your
+` opponent calls for them.`
+
+[GlossaryFlameArmorDescriptionText]
+Special Rule 3
+"Flame Armor"
+
+In this duel, Fire Pokémon aren't
+affected by Weakness when they take
+damage from Water Pokémon's attacks.
+
+*Special Rules apply only when your
+` opponent calls for them.`
+
+[GlossarySmallBenchDescriptionText]
+Special Rule 4
+"Small Bench"
+
+In this duel, each Bench has only 3
+spaces.
+(Each player can have up to 3
+` Benched Pokémon.)`
+
+*Special Rules apply only when your
+` opponent calls for them.`
+
+[GlossaryRunningWaterDescriptionText]
+Special Rule 5
+"Running Water"
+
+In this duel, Water Pokémon need 1
+less Energy to retreat.
+
+*Special Rules apply only when your
+` opponent calls for them.`
+
+[GlossaryEarthPowerDescriptionText]
+Special Rule 6
+"Earth Power"
+
+In this duel, damage done by
+Fighting Pokémon isn't reduced by
+Resistance.
+
+*Special Rules apply only when your
+` opponent calls for them.`
+
+[GlossaryLowResistanceDescriptionText]
+Special Rule 7
+"Low Resistance"
+
+In this duel, Resistance reduces
+damage by only 10 instead of 30.
+
+*Special Rules apply only when your
+` opponent calls for them.`
+
+[GlossaryEnergyReturnDescriptionText]
+Special Rule 8
+"Energy Return"
+
+In this duel, when a Pokémon in play
+is discarded, the basic Energy cards
+attached to it return to its owner's
+Hand.
+
+*Special Rules apply only when your
+` opponent calls for them.`
+
+[GlossaryToughEscapeDescriptionText]
+Special Rule 9
+"Tough Escape"
+
+In this duel, an Active Pokémon must
+discard 1 more Energy to retreat.
+
+*Special Rules apply only when your
+` opponent calls for them.`
+
+[GlossaryBlackHoleDescriptionText]
+Special Rule 10
+"Discard Black Hole"
+
+In this duel, discarded cards can't
+be used again until the duel ends.
+(The Discard Pile is always empty.)
+
+*Special Rules apply only when your
+` opponent calls for them.`
+
+[DebugDeckMenuText]
+Deck Remodel
+Card List (All Assets)
+Album List
+Deck Save Machine
+Print Menu
+Auto Deck Machine
+Gift Center
+Deck Diagnosis
+
+[DebugAutoDeckMachineMenuText]
+Auto Deck Machine 1
+Auto Deck Machine 2
+
+[DebugTransmittingMenuText]
+Send Card
+Receive Card
+Send Deck
+Receive Deck
+
+[DebugLectureDuelText]
+Practice Duel
+
+[FirstStrikeDeckText]
+First Strike Deck
+
+[ThunderboltDeckName]
+Thunderbolt
+
+[DuelistGR1Name]
+GR-1
+
+[DuelistGR2Name]
+GR-2
+
+[DuelistGR3Name]
+GR-3
+
+[DuelistGR4Name]
+GR-4
+
+[DuelistGRXName]
+GR-X
+
+[MaxEnergyDeckName]
+Max Energy
+
+[DuelistMrIshiharaName]
+Mr. Ishihara
+
+[DemonicForestDeckName]
+Demon Forest
+
+[GatheringNidoranDeckName]
+Nidoran Roundup
+
+[RunningWildDeckName]
+Running Wild
+
+[RainDanceConfusionDeckName]
+Rain Dance Daze
+
+[DuelistAaronName]
+Aaron
+
+[AaronsStep1DeckName]
+Aaron's Step 1
+
+[AaronsStep2DeckName]
+Aaron's Step 2
+
+[AaronsStep3DeckName]
+Aaron's Step 3
+
+[PowerOfDarknessDeckName]
+Darkness Power
+
+[ChokeDeckName]
+Finish Them Off!
+
+[ThreeYearsOnRockDeckName]
+3 Years on a Rock
+
+[WhirlpoolShowerDeckName]
+Whirlpool Shower
+
+[TestYourLuckDeckName]
+Luck Test
+
+[TorrentialFloodDeckName]
+Torrential Flood
+
+[GlitteringScalesDeckName]
+Glitter Scales
+
+[SpiritedAwayDeckName]
+Vanished
+
+[RiversideWalkDeckName]
+Riverside Walk
+
+[CompleteCombustionDeckName]
+Total Combustion
+
+[YouCanDoItMachopDeckName]
+Go for It, Machop!
+
+[DangerousBenchDeckName]
+Danger Bench
+
+[StrangeDeckName]
+Strange
+
+[SuddenGrowthDeckName]
+Sudden Growth
+
+[PowerfulPokemonDeckName]
+Powerful Pokémon
+
+[MadPetalsDeckName]
+Mad Petals
+
+[ProtohistoricDeckName]
+Prehistoric
+
+[InsectCollectionDeckName]
+Bug Collecting
+
+[StarterDeckName]
+Starter
+
+[VengefulAntiGR3DeckName]
+Revenge on GR-3
+
+[NaturalScienceDeckName]
+Nat. Science
+
+[BenchTrapDeckName]
+Bench of Doom
+
+[EyeOfTheStormDeckName]
+Storm's Eye
+
+[SweatAntiGR1DeckName]
+Defeat GR-1!
+
+[SmashDeckName]
+Smash Them!
+
+[GreatEarthquakeDeckName]
+Earthquake
+
+[GreatDragonDeckName]
+Great Dragon
+
+[FullStrengthDeckName]
+Brute Force
+
+[SuperDestructivePowerDeckName]
+Super Destruction
+
+[PsychicEliteDeckName]
+Psychic Elite
+
+[DirectHitDeckName]
+Direct Hit
+
+[ThrowOutDeckName]
+Out You Go!
+
+[ThisIsThePowerOfElectricityDeckName]
+Electric Power!
+
+[QuickAttackDeckName]
+Quick Attack
+
+[LegendaryFossilDeckName]
+Legendary Fossil
+
+[ElectricCurrentShockDeckName]
+Electric Sparks
+
+[VeryRareCardDeckName]
+Very Rare Cards
+
+[PoisonousSwampDeckName]
+Poison Swamp
+
+[PoisonGoopGasDeckName]
+Poison Goop Gas
+
+[PoisonVespidsDeckName]
+Hornets
+
+[BeachDeckName]
+Water's Edge
+
+[PuppetMasterDeckName]
+Puppet Master
+
+[SurvivingWaterDeckName]
+Remaining Water
+
+[SurvivingGreenDeckName]
+Remaining Green
+
+[ImmortalPokemonDeckName]
+Immortal Pokémon
+
+[ImmortalFlameDeckName]
+Eternal Flame
+
+[WeirdDeckName]
+Weird
+
+[FlameFestivalDeckName]
+Flame Festival
+
+[GiveInAntiGR2DeckName]
+Give Up, GR-2!
+
+[SplashingAboutDeckName]
+Water Play
+
+[GazeUponThePowerOfFireDeckName]
+Behold! Fire Power
+
+[EverybodysFriendDeckName]
+All Friends
+
+[SkilledWarriorDeckName]
+Warrior Training
+
+[ColorlessEnergyDeckName]
+Colorless Energy
+
+[BlazingFlameDeckName]
+Blazing Flame
+
+[IncinerateDeckName]
+Incinerate!
+
+[GhostDeckName]
+Ghost
+
+[GoArcanineDeckName]
+Go, Arcanine!
+
+[UnforgivingAntiGR4DeckName]
+No Mercy for GR-4
+
+[HandedOverGRDeckName]
+GR's Gift
+
+[BadGuysDeckName]
+Bad Guys
+
+[DuelistAiraName]
+Aira
+
+[DuelistKenName]
+Ken
+
+[DuelistBrittanyName]
+Brittany
+
+[DuelistAnnaName]
+Anna
+
+[EeveeShowdownDeckName]
+Eevee Showdown
+
+[DuelistIshiiName]
+Ishii
+
+[DuelistIchikawaName]
+Ichikawa
+
+[DuelistImakuniName]
+Imakuni?
+
+[WaterStreamDeckName]
+Water Stream
+
+[WaterLegendDeckName]
+Water Legend
+
+[DuelistAmyName]
+Amy
+
+[UltraRemovalDeckName]
+Ultra Removal
+
+[DuelistEijiName]
+Eiji
+
+[EnergyRemovalDeckName]
+Energy Removal
+
+[OverflowDeckName]
+Overflow
+
+[DuelistJackName]
+Jack
+
+[DuelistKanokoName]
+Kanoko
+
+[SnorlaxGuardDeckName]
+Snorlax Blockade
+
+[DuelistKamiyaName]
+Kamiya
+
+[DuelistKanzakiName]
+Kanzaki
+
+[DuelistCatherineName]
+Catherine
+
+[DuelistQueenName]
+Queen
+
+[DuelistNikkiName]
+Nikki
+
+[DuelistRickName]
+Rick
+
+[GrandFireDeckName]
+Grand Fire
+
+[DuelistGraceName]
+Grace
+
+[GreatRocket1DeckName]
+Great Rocket 1
+
+[GreatRocket2DeckName]
+Great Rocket 2
+
+[GreatRocket3DeckName]
+Great Rocket 3
+
+[GreatRocket4DeckName]
+Great Rocket 4
+
+[DuelistDanielName]
+Daniel
+
+[DuelistKevinName]
+Kevin
+
+[DuelistGeneName]
+Gene
+
+[DuelistGodaName]
+Goda
+
+[PsychicBattleDeckName]
+Psychic Battle
+
+[PsychicDeckName]
+Psychokinesis
+
+[DuelistSamejimaName]
+Samejima
+
+[AwesomeFossilDeckName]
+Cool Fossils
+
+[DuelistShokoName]
+Shoko
+
+[DuelistJoshuaName]
+Joshua
+
+[DuelistJesName]
+Jes
+
+[DuelistAndrewName]
+Andrew
+
+[SkySparkDeckName]
+Sky Spark
+
+[DuelistSteveName]
+Steve
+
+[DuelistSentaName]
+Senta
+
+[DuelistNicholasName]
+Nicholas
+
+[DuelistJosephName]
+Joseph
+
+[DuelistJohnName]
+John
+
+[DuelistIsaacName]
+Isaac
+
+[DuelistTapName]
+Tap
+
+[DuelistChrisName]
+Chris
+
+[DarkScienceDeckName]
+Dark Science
+
+[DamageChaosDeckName]
+Damage Chaos
+
+[TextureTuner7DeckName]
+7-Way Conversion
+
+[DuelistDeeName]
+Dee
+
+[DuelistBrandonName]
+Brandon
+
+[DuelistToshironName]
+Toshiron
+
+[DuelistTobichanName]
+Tobichan
+
+[TripleZapdosDeckName]
+Triple Zapdos
+
+[TrainerImprisonDeckName]
+Trainer Lockdown
+
+[YourPracticeDeck1Name]
+Training 1
+
+[YourPracticeDeck2Name]
+Training 2
+
+[YourPracticeDeck3Name]
+Training 3
+
+[RagingBillowOfFistsDeckName]
+Raging Iron Fist
+
+[SteadyIncreaseDeckName]
+Keep Multiplying
+
+[DuelistKnightName]
+Knight
+
+[DuelistJessicaName]
+Jessica
+
+[DuelistNishijimaName]
+Nishijima
+
+[NewMachokeDeckName]
+New Machoke
+
+[DuelistRyanName]
+Ryan
+
+[DuelistKristinName]
+Kristin
+
+[BadDreamDeckName]
+Bad Dream
+
+[LoveToBattleDeckName]
+I Love Battles
+
+[DuelistHideroName]
+Hidero
+
+[DuelistRobertName]
+Robert
+
+[DuelistCourtneyName]
+Courtney
+
+[DuelistBishopName]
+Bishop
+
+[BigThunderDeckName]
+Big Thunder
+
+[ElectricSelfDestructDeckName]
+Zap Explosion
+
+[DuelistBiruritchiName]
+Biruritchi
+
+[DuelistPierrotName]
+Pierrot
+
+[ILovePikachuDeckName]
+I Love Pikachu
+
+[ChainLightningByPikachuDeckName]
+Zapped by Pikachu
+
+[FireballDeckName]
+Fireball
+
+[BenchCallDeckName]
+Bench Call
+
+[DuelistPawnName]
+Pawn
+
+[PoisonStormDeckName]
+Poison Storm
+
+[PoisonMistDeckName]
+Poison Mist
+
+[PokemonsPowerDeckName]
+Pokémon Power
+
+[DuelistErikName]
+Erik
+
+[DuelistJonathanName]
+Jonathan
+
+[DuelistMichaelName]
+Michael
+
+[DuelistMagicianName]
+Magician
+
+[DuelistMasqueradeName]
+Masquerade
+
+[ParalyzedParalyzedDeckName]
+Stun! Stun!
+
+[DuelistMamiName]
+Mami
+
+[DuelistSaraName]
+Sara
+
+[DuelistMurrayName]
+Murray
+
+[DuelistSamName]
+Sam
+
+[SamsPracticeDeckName]
+Sam's Practice
+
+[DuelistHeatherName]
+Heather
+
+[DuelistMidoriName]
+Midori
+
+[DuelistMiyajimaName]
+Miyajima
+
+[DuelistMiyukiName]
+Miyuki
+
+[DuelistMiwaName]
+Miwa
+
+[DuelistAmandaName]
+Amanda
+
+[DuelistMorinoName]
+Morino
+
+[DuelistMatthewName]
+Matthew
+
+[DuelistDavidName]
+David
+
+[DuelistMitchName]
+Mitch
+
+[DuelistYuiName]
+Yui
+
+[DuelistYukiName]
+Yuki
+
+[DuelistYutaName]
+Yuta
+
+[DuelistJenniferName]
+Jennifer
+
+[DuelistYosukeName]
+Yosuke
+
+[DuelistRonaldName]
+Ronald
+
+[RonaldsGRXDeckName]
+Ronald's GR-X
+
+[RonaldsUncoolDeckName]
+Ronald's Uncool
+
+[RonaldsUltraDeckName]
+Ronald's Ultra
+
+[RonaldsSuperDeckName]
+Ronald's Super
+
+[RonaldsPowerDeckName]
+Ronald's Power
+
+[DuelistStephanieName]
+Stephanie
+
+[DuelistRodName]
+Rod
+
+[DuelistRyokoName]
+Ryoko
+
+[DuelistRookName]
+Rook
+
+[DuelistRuiName]
+Rui
+
+[PracticeDeckName]
+Practice
+
+[DuelistRennaName]
+Renna
+
+[RollingStoneDeckName]
+Rolling Stone
+
+[RockBlastDeckName]
+Rock Blast!
+
+[DuelistAdamName]
+Adam
+
+[DuelistMainCharacterName]
+Player
+
+[DrMasonText]
+Dr. Mason
+
+[PracticeDuelHeaderPlayersTurnNumberText]
+<RAMNAME>: Turn <RAMNUM>
+
+[PracticeDuelHeaderKnockedOutReplaceText]
+Knock Out Replacement
+
+[PracticeDuelMasonSetupsActivePokemonText]
+Once you've drawn 7 cards, it's time
+to get ready for the duel.
+Choose a Pokémon from your Hand to
+place in the Arena.
+Only Basic Pokémon can go there, so
+you can choose Diglett or Pidgey.
+This time, let's go with Diglett!
+
+[PracticeDuelMasonSetupsActivePokemonIncorrectText]
+Just this once, choose Diglett.
+
+[PracticeDuelMasonSetupsBenchedPokemonText]
+Now then, next you'll place a
+Pokémon on your Bench.
+Pokémon on the Bench wait in reserve
+for the Pokémon in the Arena.
+Only Basic Pokémon can go on the
+Bench, too.
+Choose Pidgey from your Hand and
+place it on your Bench.
+
+[PracticeDuelMasonSetupsBenchedPokemonIncorrectText]
+Just this once, put Pidgey on your
+Bench.
+
+[PracticeDuelMasonSetupsFinishPressBText]
+When you have no more Pokémon to
+play, press the B Button to finish.
+
+[PracticeDuelTurn1Instr1Text]
+1. Choose "Hand" from the menu and
+`   select Fighting Energy.`
+
+[PracticeDuelTurn1Instr2Text]
+2. Attach Fighting Energy to
+`   Diglett in the Arena.`
+
+[PracticeDuelTurn1Instr3Text]
+3. Choose "Attack" from the menu
+`   and select Dig.`
+
+[PracticeDuelTurn1Mason1Text]
+A Pokémon needs Energy to use its
+attacks, you see.
+Choose "Hand" from the menu, then
+select Fighting Energy.
+
+[PracticeDuelTurn1Mason2Text]
+Next, choose Diglett in the Arena
+and press the A Button.
+That way, you can attach Fighting
+Energy to Diglett.
+
+[PracticeDuelTurn1Mason3Text]
+And finally, it's time to use an
+attack!
+Choose "Attack" from the menu and
+attack with Dig!
+
+[PracticeDuelMasonProceedAsTaughtText]
+Now then!
+Try it just the way I explained!
+
+[PracticeDuelMasonIncorrectRetryText]
+This is "practice," so do things
+exactly as you're told.
+Let's start over and try that
+again.
+
+[PracticeDuelMasonExplainAgainPromptText]
+Shall I explain it again?
+
+[PracticeDuelTurn2Instr1Text]
+1. Attach Fighting
+`   Energy to Diglett.`
+
+[PracticeDuelTurn2Instr2Text]
+2. Attack with Diglett's second
+`   attack, Mud Slap.`
+
+[PracticeDuelTurn2Mason1Text]
+Let's get ready to use Diglett's
+second attack.
+Attach another Fighting Energy to
+Diglett.
+
+[PracticeDuelTurn2Mason2Text]
+Now, attack with Diglett's
+Mud Slap!
+
+[PracticeDuelTurn3Instr1Text]
+1. Choose Dugtrio and play it on
+`   Diglett to evolve it.`
+
+[PracticeDuelTurn3Instr2Text]
+2. Attach Fighting Energy to the
+`   newly evolved Dugtrio.`
+
+[PracticeDuelTurn3Instr3Text]
+3. Attack with Dugtrio's Slash.
+
+[PracticeDuelTurn3Mason1Text]
+At this rate, Diglett will go down,
+so let's try evolving it.
+Play the Dugtrio in your Hand on
+Diglett to evolve it.
+By evolving, its HP also goes up
+from 30 to 70!
+
+[PracticeDuelTurn3Mason2Text]
+Dugtrio doesn't have enough Energy
+to use Slash yet.
+Attach another Fighting Energy to
+Dugtrio.
+
+[PracticeDuelTurn3Mason3Text]
+Now Dugtrio can use its attack,
+Slash!
+Use Dugtrio's Slash to attack
+Seel!
+Once you knock out Seel, take
+1 Prize.
+
+[PracticeDuelTurn4Instr1Text]
+1. Choose Nidoran♂ from your Hand
+`   and put it on your Bench.`
+
+[PracticeDuelTurn4Instr2Text]
+2. Attach Grass Energy to Nidoran♂
+`   on your Bench.`
+
+[PracticeDuelTurn4Instr3Text]
+3. Attack with Dugtrio's Slash.
+
+[PracticeDuelTurn4Mason1Text]
+If you run out of Pokémon in play,
+you lose the duel.
+Put Nidoran♂, the Basic Pokémon you
+just drew, on your Bench.
+
+[PracticeDuelTurn4Mason2Text]
+Attach Grass Energy to Nidoran♂ to
+get it ready to attack.
+
+[PracticeDuelTurn4Mason3Text]
+Then have Dugtrio attack with
+Slash!
+
+[PracticeDuelKnockedOutInstr1Text]
+1. Dugtrio was Knocked Out, so
+`   choose Nidoran♂ on your Bench`
+`   and press A to send it out.`
+
+[PracticeDuelKnockedOutMason1Text]
+Replace the Knocked Out Pokémon
+with a Pokémon from your Bench.
+You can choose Pidgey or Nidoran♂
+from your Bench, but this time,
+put Nidoran♂ into the Arena.
+
+[PracticeDuelKnockedOutMason2Text]
+At times like this, press SELECT to
+check all kinds of information.
+It's important to check your Hand
+and the state of play.
+
+[PracticeDuelKnockedOutMasonIncorrectText]
+Here, you must choose Nidoran♂.
+
+[PracticeDuelTurn5Instr1Text]
+1. Choose Machop from your Hand
+`   and put it on your Bench.`
+
+[PracticeDuelTurn5Instr2Text]
+2. Attach Grass Energy to Nidoran♂
+`   in the Arena.`
+
+[PracticeDuelTurn5Instr3Text]
+3. Attack with Nidoran♂'s
+`   Horn Hazard.`
+
+[PracticeDuelTurn5Mason1Text]
+First, let's restock your Bench.
+Put the Machop you just drew there.
+
+[PracticeDuelTurn5Mason2Text]
+Nidoran♂ can evolve into
+Nidorino.
+Let's get ready for the attack it'll
+use once it's evolved into Nidorino.
+Attach the Grass Energy in your Hand
+to Nidoran♂.
+
+[PracticeDuelTurn5Mason3Text]
+For the attack, use Nidoran♂'s
+Horn Hazard.
+With this attack, you flip a coin,
+and if it's heads, it works!
+
+[PracticeDuelTurn6Instr1Text]
+1. Choose Nidorino and play it on
+`   Nidoran♂ to evolve it.`
+
+[PracticeDuelTurn6Instr2Text]
+2. Attach Grass Energy to Nidorino.
+
+[PracticeDuelTurn6Instr3Text]
+3. Attack with Nidorino's
+`   Double Kick.`
+
+[PracticeDuelTurn6Mason1Text]
+All right! Now evolve Nidoran♂ into
+Nidorino.
+Choose Nidorino from your Hand and
+play it on Nidoran♂.
+
+[PracticeDuelTurn6Mason2Text]
+Now get ready for the evolved
+Nidorino's Double Kick.
+Attach the Grass Energy in your Hand
+to Nidorino.
+
+[PracticeDuelTurn6Mason3Text]
+Now, attack with Nidorino's
+Double Kick!
+Double Kick uses coin flips to
+decide how much damage it does.
+If both coins are heads, it does 60
+damage!
+That would knock out your opponent's
+Seaking in one blow!
+If you knock it out, take a Prize,
+and you win, <RAMNAME>!
+
+[DeckDiagnosisStep1Text]
+Step 1
+
+[DeckDiagnosisStep2Text]
+Step 2
+
+[DeckDiagnosisStep3Text]
+Step 3
+
+[DeckDiagnosisStep4Text]
+Step 4
+
+[DeckDiagnosisAdvice1Text]
+Advice 1
+
+[DeckDiagnosisAdvice2Text]
+Advice 2
+
+[DeckDiagnosisAdvice3Text]
+Advice 3
+
+[DeckDiagnosisAdvice4Text]
+Advice 4
+
+[DeckDiagnosisExitText]
+Quit
+
+[DeckDiagnosisStep1MenuText]
+Step 1
+Deck Check
+Advice 1
+Advice 2
+Advice 3
+Back
+
+[DeckDiagnosisStep2MenuText]
+Step 2
+Advice 1
+Advice 2
+Advice 3
+Back
+
+[DeckDiagnosisStep3MenuText]
+Step 3
+Advice 1
+Advice 2
+Advice 3
+Back
+
+[DeckDiagnosisStep4MenuText]
+Step 4
+Advice 1
+Advice 2
+Advice 3
+Advice 4
+Back
+
+[DeckDiagnosisTargetNameText]
+<RAMTEXT> Deck
+
+[DeckDiagnosisBreakdownText]
+Energy Cards
+Basic Pokémon Cards
+Stage 1 Cards
+Stage 2 Cards
+Trainer Cards
+
+[DeckDiagnosisGrassText]
+Grass
+
+[DeckDiagnosisWaterText]
+Water
+
+[DeckDiagnosisLightningText]
+Lightning
+
+[DeckDiagnosisFireText]
+Fire
+
+[DeckDiagnosisFightingText]
+Fighting
+
+[DeckDiagnosisPsychicText]
+Psychic
+
+[DeckDiagnosisDialogInitialText]
+This is Dr. Mason's Deck Diagnosis!
+Pick something from the menu.
+
+[DeckDiagnosisDialogStep1Text]
+Basic advice on how to build a deck.
+
+[DeckDiagnosisDialogStep2Text]
+Advice for those who are getting
+the hang of it.
+
+[DeckDiagnosisDialogStep3Text]
+Advice for those who want to step
+up even further.
+
+[DeckDiagnosisDialogStep4Text]
+Advice for those who want to get
+even stronger.
+
+[DeckDiagnosisDialogExitText]
+Ending the Deck Diagnosis.
+
+[DeckDiagnosisDialogCheckDeckText]
+I'll look over your deck for you.
+
+[DeckDiagnosisDialogStep1Advice1Text]
+Basic Pokémon are the foundation of
+Pokémon cards!
+
+[DeckDiagnosisDialogStep1Advice2Text]
+Don't forget to add
+Energy cards!
+
+[DeckDiagnosisDialogStep1Advice3Text]
+Think about balance when adding
+Evolution cards!
+
+[DeckDiagnosisDialogBackText]
+Back to the main menu.
+
+[DeckDiagnosisDialogStep2Advice1Text]
+First up:
+Bill and Professor Oak!
+
+[DeckDiagnosisDialogStep2Advice2Text]
+Next up:
+Potion and Switch!
+
+[DeckDiagnosisDialogStep2Advice3Text]
+Poison, Paralysis, Sleep, Confusion,
+and Full Heal!
+
+[DeckDiagnosisDialogStep3Advice1Text]
+First, a 2-color deck!
+
+[DeckDiagnosisDialogStep3Advice2Text]
+Next, a 3-color deck!
+
+[DeckDiagnosisDialogStep3Advice3Text]
+Think about what
+went wrong.
+
+[DeckDiagnosisDialogStep4Advice1Text]
+I'll explain the traits of each
+color.
+
+[DeckDiagnosisDialogStep4Advice2Text]
+Build decks that make good use of
+Colorless Pokémon!
+
+[DeckDiagnosisDialogStep4Advice3Text]
+How to use Professor Oak.
+
+[DeckDiagnosisDialogStep4Advice4Text]
+How to duel with "Rush" and
+"Wall" decks.
+
+[DeckDiagnosisChooseDeckToCheckText]
+Which deck
+shall I check for you?
+
+[DeckDiagnosisCheckingDeckText]
+"<RAMTEXT> Deck"
+Now checking...
+
+[DeckDiagnosisCheckedDeckText]
+Finished checking your
+"<RAMTEXT> Deck"!
+
+[DeckDiagnosisResultRareCardsHeaderText]
+In "<RAMTEXT>":
+Star-mark cards
+
+[DeckDiagnosisResultEvolutionMismatchedHeaderText]
+In "<RAMTEXT>":
+Cards with incomplete evolutions
+
+[DeckDiagnosisResultEnergyMismatchedHeaderText]
+In "<RAMTEXT>":
+Energy cards of mismatched colors
+
+[DeckDiagnosisResultPokemonPowerCardsHeaderText]
+In "<RAMTEXT>":
+Pokémon Power cards
+
+[DeckDiagnosisCheckAnotherDeckPromptText]
+Shall I check another deck too?
+
+[DeckDiagnosisStep1Advice1Description1Text]
+Basic Pokémon cards are the
+foundation of all Pokémon cards!
+Only Basic Pokémon can be put down
+at the start of a duel, or put
+straight into play. No Pokémon, no
+duel! And without Basic Pokémon,
+you can't play Evolution cards!
+
+[DeckDiagnosisStep1Advice1Description2Text]
+Hmm, let me see...
+You'll want at least 12 Basic
+Pokémon cards in your deck!
+
+[DeckDiagnosisStep1Advice2Description1Text]
+Don't forget to put Energy cards in
+your deck!
+Without Energy, Pokémon can't do a
+thing!!
+They can't attack, and they can't
+even retreat from the Arena.
+You need Energy for everything!
+
+[DeckDiagnosisStep1Advice2Description2Text]
+The color of your Energy matters,
+too.
+Match your Energy's colors to your
+Pokémon's colors.
+Let's see... It's best to put at
+least as many Energy cards in your
+deck as Pokémon cards.
+
+[DeckDiagnosisStep1Advice3Description1Text]
+There are 3 kinds of Pokémon cards:
+Basic Pokémon, Stage 1, and Stage 2.
+Basic Pokémon can be put straight
+into play, but a Stage 1 can't be
+played unless its Basic Pokémon is
+in play, and a Stage 2 can't be
+played unless its Stage 1 is in
+play.
+
+[DeckDiagnosisStep1Advice3Description2Text]
+In a deck, it's best to have the
+most Basic Pokémon, then fewer
+Stage 1s, and fewer still Stage 2s.
+Something like 4 Basics, 3 Stage 1s,
+and 2 Stage 2s.
+
+[DeckDiagnosisStep2Advice1DescriptionText]
+Bill and Professor Oak are great
+cards when you're aiming for a big
+comeback!
+Put about 2 Professor Oak cards in
+your deck, and try about 2 Bill
+cards, too.
+
+[DeckDiagnosisStep2Advice2DescriptionText]
+Next in importance are Potion and
+Switch.
+Potion and Switch are easy to use,
+so try adding them.
+Try about 3 Potion cards and about
+2 Switch cards.
+
+[DeckDiagnosisStep2Advice3DescriptionText]
+Your opponent's attacks can affect
+your Pokémon with Special Conditions
+like Poison, Paralysis, Sleep, or
+Confusion.
+When that happens, use the Trainer
+card Full Heal!
+It's good to have 1 or 2 in your
+deck.
+
+[DeckDiagnosisStep3Advice1Description1Text]
+First, try building a deck of 2
+colors plus Colorless.
+2 colors plus Colorless is simple
+and easy to duel with.
+Your Energy colors rarely mismatch,
+and it's good for dueling while
+covering each other's Weaknesses.
+Plan how to make up for Weaknesses!
+
+[DeckDiagnosisStep3Advice1Description2Text]
+For example...
+Take a deck built around Lightning
+Pokémon. They're weak to Fighting
+Pokémon, so add Psychic Pokémon or
+Colorless Pokémon (Flying type),
+which are strong against Fighting.
+
+[DeckDiagnosisStep3Advice1Description3Text]
+And take a deck built around Fire
+Pokémon. They're weak to Water
+Pokémon, so add Lightning Pokémon,
+which are strong against Water.
+Lightning Pokémon are weak to
+Fighting, so add a few Colorless
+(Flying type) Pokémon to cover them.
+
+[DeckDiagnosisStep3Advice1Description4Text]
+So that makes a deck of Fire +
+Lightning + Colorless (Flying type).
+
+[DeckDiagnosisStep3Advice2Description1Text]
+With some ingenuity, a 3-color deck
+can be a lot of fun!
+In "multicolor decks" (decks with
+Pokémon of 2 or more colors), like
+3-color decks, it's good to add 2 to
+4 Energy Search cards.
+
+[DeckDiagnosisStep3Advice2Description2Text]
+For example...
+Fire + Lightning + Grass works
+surprisingly well. Looks like a
+traffic light, though... Ha ha!
+
+[DeckDiagnosisStep3Advice3Description1Text]
+Whatever happens, don't worry about
+losing. Duel again and again, and
+think about what went wrong.
+If you lost because no Pokémon came
+up, add more Basic Pokémon. If you
+lost because no Energy cards came
+up, add more Energy cards.
+
+[DeckDiagnosisStep3Advice3Description2Text]
+Overall balance matters most, so
+keep an eye on it.
+You can use fewer colors in your
+deck, use fewer Evolution cards, or
+use Trainer cards to draw lots of
+cards. There are many ways! The key
+is to try different things and have
+fun dueling.
+
+[DeckDiagnosisStep4Advice1Description1Text]
+"Traits of Each Color"
+
+Many Fire Pokémon have attacks that
+discard Fire Energy, so in decks
+with lots of Fire Pokémon, add about
+2 Energy Retrieval cards.
+
+[DeckDiagnosisStep4Advice1Description2Text]
+Many Lightning Pokémon have attacks
+that also do damage to themselves.
+In decks like that, it's good to add
+about 2 Defender cards.
+
+[DeckDiagnosisStep4Advice1Description3Text]
+Many Grass Pokémon have Stage 2
+evolutions.
+So in decks like that, add cards
+that help your Pokémon evolve.
+About 2 each of Pokémon Trader and
+Pokémon Breeder would be good.
+
+[DeckDiagnosisStep4Advice1Description4Text]
+Many Water Pokémon have attacks
+that do more damage to the opponent
+when you add more Water Energy.
+In decks like that, it's good to put
+in plenty of Water Energy cards.
+
+[DeckDiagnosisStep4Advice1Description5Text]
+Quite a few Fighting Pokémon need
+lots of Energy to retreat.
+In decks with lots of Fighting
+Pokémon, try adding 2 to 4 Switch
+cards.
+
+[DeckDiagnosisStep4Advice1Description6Text]
+Psychic Pokémon's damage is
+sometimes blocked by Resistance, so
+in decks like that, try adding 2 to
+4 Gust of Wind cards.
+
+In decks with lots of Colorless
+Pokémon, you'll want 4 Double
+Colorless Energy cards.
+
+[DeckDiagnosisStep4Advice2Description1Text]
+Colorless Pokémon can use attacks
+with any color of Energy, so they
+are easy to use in any deck.
+Also remember that Normal-type and
+Flying-type Pokémon have different
+Resistances.
+
+[DeckDiagnosisStep4Advice2Description2Text]
+In decks with many Colorless
+Pokémon, add 2 to 4 Double Colorless
+Energy cards.
+Even without Colorless Pokémon,
+Pokémon with attacks that use
+Colorless Energy make multicolor
+decks easier to use.
+
+[DeckDiagnosisStep4Advice2Description3Text]
+For example, cards like Ponyta with
+Smash Kick, Squirtle with Shell
+Attack, Scyther with Slash, and
+Machop with Punch.
+
+[DeckDiagnosisStep4Advice3Description1Text]
+Don't hold back with Professor Oak!
+It takes courage to discard your
+whole Hand, but early in the game,
+when you have no Basic Pokémon, or
+have Pokémon but no Energy cards,
+be bold: discard your Hand and draw
+7 cards!
+
+[DeckDiagnosisStep4Advice3Description2Text]
+Doing this can completely change how
+your deck plays.
+Bold plays are the key to a
+comeback!
+You'll want at least 2 Professor Oak
+cards in your deck.
+
+[DeckDiagnosisStep4Advice4Description1Text]
+Rush Decks
+You attack fast with Pokémon like
+Staryu, Machop, and Voltorb that do
+20 damage for just 1 colored Energy.
+The longer the game goes, the harder
+it gets, though...
+You must include a few Pokémon with
+big attacks, too!
+
+[DeckDiagnosisStep4Advice4Description2Text]
+Wall Decks
+Pokémon with high <HP>, like Onix,
+Chansey, and Lickitung, guard the
+Arena while you power up Pokémon
+with big attacks on the Bench.
+It's the opposite of a Rush Deck!
+
+[DeckDiagnosisTooFewBasicPokemonText]
+Hmm... You don't seem to have many
+Basic Pokémon.
+Try adding a few more Basic
+Pokémon.
+
+[DeckDiagnosisTooManyColorsText]
+Try a deck of 2 colors + Colorless
+or 3 colors + Colorless.
+
+[DeckDiagnosisTooFewPokemonText]
+You seem a little short on Pokémon
+cards.
+It'd be best to add a few more
+Pokémon cards.
+
+[DeckDiagnosisTooManyPokemonText]
+You seem to have a few too many
+Pokémon cards.
+It'd be best to take out a few
+Pokémon cards.
+
+[DeckDiagnosisTooFewEnergyText]
+You seem to be short on Energy
+cards!
+It'd be best to add a few more
+Energy cards.
+
+[DeckDiagnosisTooManyEnergyText]
+You seem to have too many Energy
+cards!
+It'd be best to take out a few
+Energy cards.
+
+[DeckDiagnosisNoEnergyText]
+You fool! There isn't a single
+Energy card in this deck!
+Without Energy cards, you can't do
+a thing!!
+
+[DeckDiagnosisEvolutionMismatchedText]
+Some Pokémon cards don't have the
+Pokémon they evolve from!
+
+[DeckDiagnosisEvolutionMismatchedListText]
+These cards don't have the
+Pokémon they evolve from:
+
+[DeckDiagnosisEvolutionUnbalancedText]
+The balance between some Basic,
+Stage 1, and Stage 2 cards is off.
+
+[DeckDiagnosisEvolutionUnbalancedListText]
+Here are the cards with a poor
+evolution balance:
+
+[DeckDiagnosisPokemonEnergyMismatchedText]
+Match the colors of the Pokémon and
+Energy cards in your deck.
+
+[DeckDiagnosisPokemonEnergyMismatchedListText]
+These Energy cards don't match the
+colors of your Pokémon:
+
+[DeckDiagnosisPokemonEnergyUnbalancedText]
+You seem to have too little Energy
+for the number of Pokémon.
+Add more Energy cards so your
+Pokémon can use their attacks!
+
+[DeckDiagnosisTooManyEnergyThisColorText]
+<RAMTEXT> Energy makes up too
+much of your deck.
+How about using a little less
+<RAMTEXT> Energy?
+
+[DeckDiagnosisTooFewEnergyThisColorText]
+<RAMTEXT> Energy makes up too
+little of your deck.
+How about adding a little more
+<RAMTEXT> Energy?
+
+[DeckDiagnosisTooManyEnergyThisColorAddThatColorText]
+<RAMTEXT> Energy makes up too
+much of your deck.
+You'd do better to raise the share
+of <RAMTEXT> Energy.
+
+[DeckDiagnosisOKText]
+As a basic deck, this one will do
+just fine.
+Go on, try a duel with it.
+There's nothing like trying it out!
+
+[DeckDiagnosisOKButNoTrainerText]
+As a basic deck, this one will do
+just fine.
+Go on, try a duel with it.
+There's nothing like trying it out!
+But it doesn't seem to have a single
+Trainer card.
+Trainer cards are handy!
+Give them a try sometime.
+
+[DeckDiagnosisEnergyUnbalancedText]
+Hmmm... Your Energy balance doesn't
+look very good...
+
+[DebugDummyText]
+Dummy
+
+[DebugKondoDebugText]
+Kondo Debug
+
+[DebugMapDisplayTestText]
+Map Display Test

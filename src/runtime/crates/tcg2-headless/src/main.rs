@@ -14,14 +14,16 @@
 //! frame, `--load-state PATH` starts from one. `--call FRAME:ROUTINE` calls one of the game's bank-0
 //! routines from its frame wait at that frame (`CallStartupDebugMenu` opens
 //! the game's own debug menu, whose sixth item starts a duel against a
-//! random opponent). The run reports the host CPU time it took per second of
-//! game time.
+//! random opponent). `--language TAG` picks the game's language (`en-US`,
+//! the default, or `ja`, the ROM's own text); `--switch-language FRAME:TAG`
+//! switches to another at that frame, as the app's F9 does. The run reports
+//! the host CPU time it took per second of game time.
 
 use std::path::{Path, PathBuf};
 use std::time::Instant;
 use tcg2_core::{FRAME_RATE, SCREEN_HEIGHT, SCREEN_WIDTH};
-use tcg2_kernel::Kernel;
 use tcg2_kernel::script::Script;
+use tcg2_kernel::{Kernel, Language};
 
 struct Options {
     rom: PathBuf,
@@ -35,6 +37,8 @@ struct Options {
     wav: Option<PathBuf>,
     sram: Option<PathBuf>,
     save_sram: Option<PathBuf>,
+    language: Language,
+    switches: Vec<(u64, Language)>,
     quiet: bool,
 }
 
@@ -51,6 +55,8 @@ fn options() -> Result<Options, String> {
         wav: None,
         sram: None,
         save_sram: None,
+        language: Language::default(),
+        switches: Vec::new(),
         quiet: false,
     };
     let mut args = std::env::args().skip(1);
@@ -90,6 +96,18 @@ fn options() -> Result<Options, String> {
             "--wav" => o.wav = Some(value()?.into()),
             "--sram" => o.sram = Some(value()?.into()),
             "--save-sram" => o.save_sram = Some(value()?.into()),
+            "--language" => {
+                let tag = value()?;
+                o.language = Language::parse(&tag).ok_or(format!("unknown language {tag:?}"))?;
+            }
+            "--switch-language" => {
+                let v = value()?;
+                let (frame, tag) = v.split_once(':').ok_or("--switch-language FRAME:TAG")?;
+                o.switches.push((
+                    frame.parse().map_err(|_| "bad --switch-language frame")?,
+                    Language::parse(tag).ok_or(format!("unknown language {tag:?}"))?,
+                ));
+            }
             "--quiet" => o.quiet = true,
             "--version" => {
                 println!(
@@ -189,7 +207,7 @@ fn main() {
         std::process::exit(1)
     });
     let rate = 48_000;
-    let mut kernel = Kernel::new(rom, rate).unwrap_or_else(|e| {
+    let mut kernel = Kernel::new(rom, rate, o.language).unwrap_or_else(|e| {
         eprintln!("tcg2-headless: {e}");
         std::process::exit(1)
     });
@@ -219,6 +237,13 @@ fn main() {
             if *at == frame {
                 tcg2_kernel::call_routine(&mut kernel.machine, name)
                     .unwrap_or_else(|e| eprintln!("--call {name}: {e}"));
+            }
+        }
+        for &(at, language) in &o.switches {
+            if at == frame {
+                kernel
+                    .set_language(language)
+                    .unwrap_or_else(|e| eprintln!("--switch-language: {e}"));
             }
         }
         kernel.set_buttons(held);

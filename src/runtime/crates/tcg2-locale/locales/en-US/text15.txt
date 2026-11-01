@@ -1,0 +1,2153 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text15.asm, by label (format: src/text.rs).
+
+[GrowlDescription]
+If the Defending Pokémon attacks
+Charmander during your opponent's
+next turn, any damage done by the
+attack is reduced by 10.
+
+[CharmanderLv12Description]
+It loves hot things. When it gets
+wet in the rain, smoke is said to
+rise from the tip of its tail.
+
+[CharmeleonName]
+Charmeleon
+
+[FlamethrowerName]
+Flamethrower
+
+[FlameName]
+Flame
+
+[CharmeleonDescription]
+It knocks down its foes by swinging
+its tail, then tears them to shreds
+with its sharp claws.
+
+[DarkCharmeleonName]
+Dark Charmeleon
+
+[TailSlapName]
+Tail Slap
+
+[FireballName]
+Fireball
+
+[FireballDescription]
+Flip a coin. If tails, this attack
+does nothing. If heads, discard 1
+Fire Energy card attached to
+Dark Charmeleon. If you can't, this
+attack does nothing either.
+
+[DarkCharmeleonDescription]
+Its tail is so strong that it can
+lift up five grown men.
+
+[CharizardName]
+Charizard
+
+[EnergyBurnName]
+Energy Burn
+
+[EnergyBurnDescription]
+As often as you like during your
+turn, you may turn all Energy
+attached to Charizard into Fire
+Energy until the turn ends. This
+power can't be used if Charizard is
+Asleep, Confused, or Paralyzed.
+
+[FireSpinName]
+Fire Spin
+
+[FireSpinDescription]
+Discard 2 Energy cards attached to
+Charizard. If you can't, this attack
+does no damage.
+
+[CharizardDescription]
+It can use its wings to fly as high
+as 1,400 m above the ground. It
+breathes intensely hot flames.
+
+[CharizardAltDescription]
+It can use its wings to fly as high
+as 1,400 m above the ground. It
+breathes intensely hot flames.
+
+[DarkCharizardName]
+Dark Charizard
+
+[NailFlickName]
+Nail Flick
+
+[ContinuousFireballName]
+Continuous Fireball
+
+[ContinuousFireballDescription]
+Flip a coin for each Fire Energy
+card attached to Dark Charizard.
+Does 50 damage times the number of
+heads. Then discard that many Fire
+Energy cards from it. If you can't,
+this attack does no damage.
+
+[DarkCharizardDescription]
+As if possessed, it spews out balls
+of flame, trying to burn everything
+in sight.
+
+[VulpixName]
+Vulpix
+
+[ConfuseRayName]
+Confuse Ray
+
+[FoxName]
+Fox
+
+[VulpixLv11Description]
+Though still young, it has six
+beautiful tails. As it grows, it
+gains even more tails.
+
+[FoxFireName]
+Foxfire
+
+[FoxFireDescription]
+Before doing damage, you may choose
+1 of your opponent's Benched Pokémon
+and switch it with the Defending
+Pokémon. (The damage is done to the
+new Defending Pokémon.)
+
+[VulpixLv13Description]
+At birth, it has just one pure-white
+tail. As it grows, the tip splits to
+form more tails.
+
+[NinetalesName]
+Ninetales
+
+[LureAltName]
+Lure
+
+[FireBlastName]
+Fire Blast
+
+[NinetalesLv32Description]
+It has shining golden fur and nine
+long tails. It is said to live for
+1,000 years.
+
+[MixUpName]
+Mix-Up
+
+[MixUpDescription]
+Your opponent puts all Basic Pokémon
+and Evolution cards in his or her
+hand into his or her deck, then puts
+that many Basic Pokémon or Evolution
+cards from it into his or her hand
+at random and shuffles the deck.
+
+[DancingEmbersName]
+Dancing Embers
+
+[DancingEmbersDescription]
+Flip 8 coins. This attack does 10
+damage times the number of heads.
+
+[NinetalesLv35Description]
+Very smart and very vengeful.
+Grabbing one of its many tails could
+result in a 1,000-year curse.
+
+[DarkNinetalesName]
+Dark Ninetales
+
+[PerplexName]
+Perplex
+
+[PerplexDescription]
+Your opponent flips a coin. If
+tails, he or she can't draw a card
+at the start of his or her next
+turn.
+
+[NineTailsName]
+Nine Tails
+
+[NineTailsDescription]
+Flip 9 coins. This attack does 10
+damage times the number of heads.
+
+[DarkNinetalesDescription]
+It sometimes uses its mysterious,
+eerie power to bewitch Trainers.
+
+[GrowlitheName]
+Growlithe
+
+[LungeName]
+Lunge
+
+[PuppyName]
+Puppy
+
+[GrowlitheLv12Description]
+It is friendly by nature, but it
+barks fiercely at any enemy that
+enters its territory.
+
+[ErrandRunningName]
+Errand Running
+
+[ErrandRunningDescription]
+Flip a coin. If heads, search your
+deck for a Trainer card, show it to
+your opponent, and put it into your
+hand. Shuffle your deck afterward.
+
+[DiscardOneFireEnergyAltDescription]
+Discard 1 Fire Energy card attached
+to Growlithe. If you can't, this
+attack does no damage.
+
+[GrowlitheLv16Description]
+It is very territorial. Approach it
+carelessly and you'll be barked at,
+bitten, and hurt.
+
+[FlareName]
+Flare
+
+[GrowlitheLv18Description]
+Friendly and loyal by nature, it
+barks at and bites enemies to drive
+them away.
+
+[ArcanineName]
+Arcanine
+
+[QuickAttackName]
+Quick Attack
+
+[QuickAttackDescription]
+Flip a coin. If heads, this attack
+does 20 more damage.
+
+[FlamesOfRageName]
+Flames of Rage
+
+[FlamesOfRageDescription]
+Discard 2 Fire Energy cards attached
+to Arcanine. This attack does 10
+more damage for each damage counter
+on Arcanine. If you can't discard,
+this attack does no damage.
+
+[LegendaryName]
+Legendary
+
+[ArcanineLv34Description]
+A Pokémon that has been long admired
+for its beauty. It runs gracefully,
+as if on wings.
+
+[TakeDownName]
+Take Down
+
+[Do20DamageToSelfDescription]
+This Pokémon does 20 damage to
+itself.
+
+[ArcanineLv35Description]
+A legendary Pokémon in China. Many
+people are charmed by the grace of
+its running.
+
+[Do30DamageToSelfDescription]
+Arcanine does 30 damage to itself.
+
+[ArcanineLv45Description]
+A legendary Pokémon of Chinese
+folklore. It is said to run at
+incredible speed.
+
+[PonytaName]
+Ponyta
+
+[SmashKickName]
+Smash Kick
+
+[FireworksName]
+Fireworks
+
+[FireworksDescription]
+Flip a coin. If tails, discard 1
+Energy card attached to Ponyta.
+
+[FireHorseName]
+Fire Horse
+
+[PonytaLv8Description]
+Its hooves are 10 times harder than
+diamond. It can trample anything
+completely flat.
+
+[PonytaLv10Description]
+Its body is light and its legs are
+amazingly strong. It can clear
+Tokyo Tower in a single leap.
+
+[PonytaLv15Description]
+It eats plants and is gentle, so as
+long as you watch out for burns, you
+can even ride on its back.
+
+[RapidashName]
+Rapidash
+
+[FlameInfernoName]
+Flame Inferno
+
+[FlameInfernoDescription]
+You may discard up to 2 Fire Energy
+cards attached to Rapidash. If you
+do, this attack does 20 more damage
+for each Fire Energy card discarded.
+
+[KickAwayName]
+Kick Away
+
+[SwitchWithBenchedMonDescription]
+Your opponent chooses 1 of his or
+her Benched Pokémon and switches it
+with the Defending Pokémon. (If he
+or she has no Benched Pokémon, no
+switch happens.)
+
+[RapidashLv30Description]
+Very competitive, this Pokémon will
+chase anything that moves fast in
+the hopes of racing it.
+
+[StompName]
+Stomp
+
+[StompDescription]
+Flip a coin. If heads, this attack
+does 10 more damage.
+
+[AgilityName]
+Agility
+
+[AgilityDescription]
+Flip a coin. If heads, during your
+opponent's next turn, prevent all
+effects of attacks, including
+damage, done to this Pokémon.
+
+[RapidashLv33Description]
+Its top speed is 240 km/h. Blazing
+fiercely, it gallops as fast as a
+bullet train.
+
+[DarkRapidashName]
+Dark Rapidash
+
+[RearKickName]
+Rear Kick
+
+[FlamePillarName]
+Flame Pillar
+
+[FlamePillarDescription]
+You may discard 1 Fire Energy card
+attached to Dark Rapidash. If you
+do, choose 1 of your opponent's
+Benched Pokémon and do 10 damage to
+it. (Don't apply Weakness and
+Resistance for Benched Pokémon.)
+
+[DarkRapidashDescription]
+It has a fierce temper and can't be
+stopped once it runs wild. At full
+speed, it looks like a red comet.
+
+[MagmarName]
+Magmar
+
+[FirePunchName]
+Fire Punch
+
+[SpitfireName]
+Spitfire
+
+[MagmarLv18Description]
+It was born in the crater of a
+volcano. Its whole body is ablaze,
+so it looks just like a fireball.
+
+[MagmarLv24Description]
+Found near a volcano's crater, it
+breathes fire. Its body temperature
+is 1,200 degrees Celsius.
+
+[BurningFireName]
+Burning Fire
+
+[BurningFireDescription]
+You may discard any number of Fire
+Energy cards attached to Magmar or
+your Benched Pokémon. If you do,
+this attack does 10 more damage for
+each card discarded.
+
+[MagmaPunchName]
+Magma Punch
+
+[MagmarLv27Description]
+Its body always burns with an orange
+glow that enables it to hide
+perfectly among flames.
+
+[SmokescreenName]
+Smokescreen
+
+[SmokescreenDescription]
+If the Defending Pokémon tries to
+attack during your opponent's next
+turn, your opponent flips a coin. If
+tails, that attack does nothing.
+
+[MagmarLv31Description]
+It was found near the crater of a
+volcano. It is very hard to find,
+and few have ever been caught.
+
+[FlareonName]
+Flareon
+
+[EeveeName]
+Eevee
+
+[RageName]
+Rage
+
+[RageDescription]
+This attack does 10 more damage for
+each damage counter on this Pokémon.
+
+[FlareonLv22Description]
+When it stores flames in its body,
+its temperature rises above 900
+degrees, making it very dangerous.
+
+[FlareonLv28Description]
+It has a flame chamber inside its
+body. It inhales deeply, then blows
+out fire of 1,700 degrees Celsius.
+
+[DarkFlareonName]
+Dark Flareon
+
+[PlayingWithFireName]
+Playing with Fire
+
+[PlayingWithFireDescription]
+Flip a coin. If heads, discard 1
+Fire Energy card attached to
+Dark Flareon and this attack does 20
+more damage. If you can't discard,
+this attack does no damage.
+
+[DarkFlareonDescription]
+Once it gets angry, there's no
+stopping it. After inhaling deeply,
+it breathes fire of 1,700 degrees.
+
+[MoltresName]
+Moltres
+
+[WildfireName]
+Wildfire
+
+[WildfireDescription]
+You may discard any number of Fire
+Energy cards attached to Moltres
+when you use this attack. If you do,
+discard that many cards from the top
+of your opponent's deck.
+
+[DiveBombName]
+Dive Bomb
+
+[MoltresLv35Description]
+One of the legendary bird Pokémon.
+Its fiery orange wings overwhelm all
+who see them.
+
+[DryUpName]
+Dry Up
+
+[DryUpDescription]
+Choose 1 of your opponent's Pokémon.
+Flip a coin until you get tails. For
+each heads, discard a Water Energy
+card attached to that Pokémon.
+
+[FireWingName]
+Fire Wing
+
+[MoltresSharedDescription]
+Known as the legendary bird of fire.
+Every flap of its wings creates a
+dazzling flash of flames.
+
+[FiregiverName]
+Firegiver
+
+[FiregiverDescription]
+When you put Moltres into play from
+your hand (not during setup), put
+from 1 to 4 (chosen at random) Fire
+Energy cards from your deck into
+your hand.
+
+[FiregiverDescriptionCont]
+Shuffle your deck afterward.
+
+[SquirtleName]
+Squirtle
+
+[BubbleName]
+Bubble
+
+[WithdrawName]
+Withdraw
+
+[TinyTurtleName]
+Tiny Turtle
+
+[SquirtleLv8Description]
+When it retracts its long neck into
+its shell, it squirts out water with
+vigorous force.
+
+[SkullBashName]
+Skull Bash
+
+[SquirtleLv14Description]
+It shoots water at prey from the
+water's surface. When in danger, it
+pulls its limbs into its shell.
+
+[WaterPowerName]
+Water Power
+
+[WaterPowerDescription]
+During your next turn, Squirtle's
+Pound attack's base damage is
+tripled.
+
+[PoundName]
+Pound
+
+[SquirtleLv15Description]
+After birth, its back swells and
+hardens into a shell. It powerfully
+sprays foam from its mouth.
+
+[ShellAttackName]
+Shell Attack
+
+[SquirtleLv16Description]
+Its big round eyes are its charm. It
+seems to love swimming in the water.
+
+[WartortleName]
+Wartortle
+
+[TurtleName]
+Turtle
+
+[WartortleLv22Description]
+It is very popular as a pet. Its
+fur-covered tail is a symbol of long
+life.
+
+[SurfName]
+Surf
+
+[WartortleLv24Description]
+When someone tries to bonk it on the
+head, it ducks into its shell. But
+its tail still sticks out a little!
+
+[DarkWartortleName]
+Dark Wartortle
+
+[DoubleSlapName]
+Doubleslap
+
+[Do10DamageNumberOfHeadsDescription]
+Flip 2 coins. This attack does 10
+damage times the number of heads.
+
+[MirrorShellName]
+Mirror Shell
+
+[MirrorShellDescription]
+If an attack does damage to
+Dark Wartortle during your
+opponent's next turn (even if it is
+Knocked Out), it does the same
+damage to the attacking Pokémon. (No
+other effects are copied.)
+
+[DarkWartortleDescription]
+When it's in a bad mood, it quickly
+hides inside its shell. It seems to
+have grown a little bitter.
+
+[BlastoiseName]
+Blastoise
+
+[RainDanceName]
+Rain Dance
+
+[RainDanceDescription]
+As often as you like during your
+turn, you may attach a Water Energy
+card from your hand to 1 of your
+Water Pokémon. This power can't be
+used if Blastoise is Asleep,
+Confused, or Paralyzed.
+
+[HydroPumpName]
+Hydro Pump
+
+[Do20DamagePlus10WaterEnergyDescription]
+Does 10 more damage for each Water
+Energy attached to this Pokémon but
+not used to pay for this attack's
+Energy cost. Extra Water Energy
+after the 2nd doesn't count.
+
+[ShellfishName]
+Shellfish
+
+[BlastoiseDescription]
+It crushes its foe under its heavy
+body to cause fainting. In a pinch,
+it withdraws inside its shell.
+
+[BlastoiseAltDescription]
+It crushes its foe under its heavy
+body to cause fainting. In a pinch,
+it withdraws inside its shell.
+
+[DarkBlastoiseName]
+Dark Blastoise
+
+[HydrocannonName]
+Hydrocannon
+
+[HydrocannonDescription]
+Does 20 more damage for each Water
+Energy attached to Dark Blastoise
+but not used to pay for this
+attack's Energy cost. Extra Water
+Energy after the 2nd doesn't count.
+
+[RocketTackleName]
+Rocket Tackle
+
+[RocketTackleDescription]
+Dark Blastoise does 10 damage to
+itself. Flip a coin. If heads,
+prevent all damage done to
+Dark Blastoise during your
+opponent's next turn. (Any other
+effects of attacks still happen.)
+
+[DarkBlastoiseDescription]
+It is so belligerent that it will
+tackle any opponent, whatever it may
+be.
+
+[PsyduckName]
+Psyduck
+
+[HeadacheName]
+Headache
+
+[HeadacheDescription]
+Your opponent can't play Trainer
+cards during his or her next turn.
+
+[DuckName]
+Duck
+
+[PsyduckLv15Description]
+It is always plagued by headaches.
+When a headache turns intense, it
+begins to use mysterious powers.
+
+[DizzinessName]
+Dizziness
+
+[DizzinessDescription]
+Draw a card.
+
+[WaterGunName]
+Water Gun
+
+[PsyduckLv16Description]
+Perhaps because of its headaches, it
+is often seen holding its head in
+its hands.
+
+[GolduckName]
+Golduck
+
+[PsyshockName]
+Psi
+
+[HyperBeamName]
+Hyper Beam
+
+[HyperBeamDescription]
+If the Defending Pokémon has any
+Energy cards attached to it, choose
+1 of them and discard it.
+
+[GolduckLv27Description]
+Its webbed hands make it an
+excellent swimmer. It is often seen
+swimming gracefully in lakes.
+
+[PsychicName]
+Psychic
+
+[PsychicDescription]
+Does 10 more damage for each Energy
+card attached to the Defending
+Pokémon.
+
+[WaveSplashName]
+Wave Splash
+
+[GolduckLv28Description]
+At dusk, it swims gracefully by lake
+shores, where some mistake it for
+the Japanese monster, Kappa.
+
+[DarkGolduckName]
+Dark Golduck
+
+[ThirdEyeName]
+Third Eye
+
+[ThirdEyeDescription]
+Discard 1 Energy card attached to
+Dark Golduck. Then draw 3 cards.
+
+[SuperPsyName]
+Super Psy
+
+[DarkGolduckDescription]
+The headaches it had as a Psyduck
+have vanished, and it has somehow
+gained strong psychic powers.
+
+[PoliwagName]
+Poliwag
+
+[Do20DamagePlus10WaterEnergyAltDescription1]
+Does 10 more damage for each Water
+Energy attached to this Pokémon but
+not used to pay for this attack's
+Energy cost. Extra Water Energy
+after the 2nd doesn't count.
+
+[TadpoleName]
+Tadpole
+
+[PoliwagLv13Description]
+Its smooth black skin is thin and
+damp. Part of its innards shows
+through as a swirl.
+
+[PoliwagLv15Description]
+Its legs have only just grown in, so
+it can't walk well. It seems to
+prefer walking in the water.
+
+[PoliwhirlName]
+Poliwhirl
+
+[AmnesiaName]
+Amnesia
+
+[AmnesiaDescription]
+Choose 1 of the Defending Pokémon's
+attacks. That Pokémon can't use that
+attack during your opponent's next
+turn.
+
+[PoliwhirlLv28Description]
+Its two legs are well developed, so
+it could live on land. Yet for some
+reason, it prefers water.
+
+[TwiddleName]
+Twiddle
+
+[TwiddleDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Confused. If tails,
+it is now Asleep.
+
+[BodySlamName]
+Body Slam
+
+[PoliwhirlLv30Description]
+Capable of living in or out of
+water. When out of water, it sweats
+to keep its body slimy.
+
+[PoliwrathName]
+Poliwrath
+
+[PoliwrathLv40Description]
+An adept swimmer at both the crawl
+and the butterfly. It easily
+overtakes even Olympic swimmers.
+
+[WhirlpoolName]
+Whirlpool
+
+[PoliwrathLv48Description]
+A strong swimmer at the crawl and
+the butterfly. Even Olympic swimmers
+can't match its speed.
+
+[TentacoolName]
+Tentacool
+
+[CowardiceName]
+Cowardice
+
+[CowardiceDescription]
+During your turn, you may discard
+all cards attached to Tentacool and
+return it to your hand. This power
+can't be used the turn you put
+Tentacool into play, or if it is
+Asleep, Confused, or Paralyzed.
+
+[JellyfishName]
+Jellyfish
+
+[TentacoolDescription]
+It fires mysterious beams from its
+crystal-clear head.
+
+[TentacruelName]
+Tentacruel
+
+[JellyfishStingName]
+Jellyfish Sting
+
+[TentacruelDescription]
+It has 80 tentacles that move about
+freely. They can sting, causing
+poisoning and sharp pain.
+
+[SeelName]
+Seel
+
+[GrowlAltDescription1]
+If the Defending Pokémon attacks
+this Pokémon during your opponent's
+next turn, any damage done by the
+attack is reduced by 10.
+
+[IceBeamName]
+Ice Beam
+
+[SeaLionName]
+Sea Lion
+
+[SeelLv10Description]
+The protruding horn on its head is
+very hard. It is used for bashing
+through thick ice.
+
+[HeadbuttName]
+Headbutt
+
+[SeelLv12Description]
+Its skin, covered in light blue fur,
+is thick and tough. It stays active
+even at 40 degrees below zero.
+
+[DewgongName]
+Dewgong
+
+[RestName]
+Rest
+
+[RestDescription]
+Remove all damage counters from
+Dewgong. It is no longer Poisoned,
+Asleep, Paralyzed, or Confused. Then
+Dewgong is now Asleep.
+
+[AuroraWaveName]
+Aurora Wave
+
+[DewgongLv24Description]
+It stores thermal energy in its body
+to beat the cold. It swims at 8
+knots even in freezing seas.
+
+[AuroraBeamName]
+Aurora Beam
+
+[DewgongLv42Description]
+Its whole body is covered in pure
+white fur. It loves the cold: the
+colder it gets, the livelier it is.
+
+[ShellderName]
+Shellder
+
+[HideInShellName]
+Hide in Shell
+
+[BivalveName]
+Bivalve
+
+[ShellderLv8Description]
+It is covered by a shell that is
+harder than diamond, but its insides
+are surprisingly soft.
+
+[WaterSpoutName]
+Water Spout
+
+[Do20DamagePlus10WaterEnergyAltDescription2]
+Does 10 more damage for each Water
+Energy attached to this Pokémon but
+not used to pay for this attack's
+Energy cost. Extra Water Energy
+after the 2nd doesn't count.
+
+[ShellderLv16Description]
+Its hard shell repels any kind of
+attack. It is vulnerable only when
+its shell is open.
+
+[CloysterName]
+Cloyster
+
+[ClampName]
+Clamp
+
+[ClampDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Paralyzed. If tails,
+this attack does nothing (not even
+damage).
+
+[SpikeCannonName]
+Spike Cannon
+
+[CloysterDescription]
+Its shell is so hard that not even
+napalm can break it. It opens only
+when it attacks.
+
+[KrabbyName]
+Krabby
+
+[GuillotineAltName]
+Guillotine
+
+[RiverCrabName]
+River Crab
+
+[KrabbyLv17Description]
+Its pincers are not only powerful
+weapons, they are used for balance
+when walking sideways.
+
+[CallForFamilyKrabbyDescription]
+Search your deck for a Basic Pokémon
+named Krabby and put it onto your
+Bench. Shuffle your deck afterward.
+(You can't use this attack if your
+Bench is full.)
+
+[IrongripAltName]
+Irongrip
+
+[KrabbyLv20Description]
+It can be found near the sea. Its
+large pincers grow back even if they
+are torn off.
+
+[KinglerName]
+Kingler
+
+[FlailName]
+Flail
+
+[FlailDescription]
+Does 10 damage times the number of
+damage counters on this Pokémon.
+
+[CrabhammerName]
+Crabhammer
+
+[PincerName]
+Pincer
+
+[KinglerLv27Description]
+Its hard pincer packs 10,000
+horsepower, but it is so huge that
+it moves slowly.
+
+[SaltWaterName]
+Salt Water
+
+[SaltWaterDescription]
+Flip a coin. If heads, search your
+deck for 3 Water Energy cards and
+attach them to Kingler. Shuffle your
+deck afterward.
+
+[DoubleEdgedPincersName]
+Double-Edged Pincers
+
+[DoubleEdgedPincersDescription]
+During your opponent's next turn,
+any damage done to Kingler is
+doubled.
+
+[KinglerLv33Description]
+Its pincer hides super strength of
+10,000 horsepower, but it is too big
+to move well.
+
+[HorseaName]
+Horsea
+
+[DragonName]
+Dragon
+
+[HorseaLv19Description]
+It balances itself with its tail,
+which is coiled like a spring. It
+sometimes spits ink from its mouth.
+
+[HideName]
+Hide
+
+[HideDescription]
+Flip a coin. If heads, during your
+opponent's next turn, prevent all
+effects of attacks, including
+damage, done to Horsea.
+
+[HorseaLv20Description]
+Known to shoot down flying bugs with
+precision blasts of ink from the
+surface of the water.
+
+[SeadraName]
+Seadra
+
+[SeadraLv23Description]
+Anyone who carelessly tries to touch
+it may be stung by the spines on its
+body and faint.
+
+[WaterBombName]
+Water Bomb
+
+[WaterBombDescription]
+For each Water Energy attached to
+Seadra but not used to pay for this
+attack's Energy cost, do 10 damage
+to your opponent's Benched Pokémon,
+divided any way you like.
+
+[WaterBombDescriptionCont]
+(Extra Water Energy after the 2nd
+doesn't count. Don't apply Weakness
+and Resistance for Benched Pokémon.)
+
+[SeadraLv26Description]
+By rapidly moving its fins and tail,
+it can even swim backward while
+facing forward.
+
+[GoldeenName]
+Goldeen
+
+[HornAttackName]
+Horn Attack
+
+[GoldfishName]
+Goldfish
+
+[GoldeenDescription]
+Its tail fin billows like an elegant
+ballroom dress, giving it the
+nickname "Water Queen."
+
+[SeakingName]
+Seaking
+
+[WaterfallName]
+Waterfall
+
+[SeakingDescription]
+Its horn is as sharp as a drill. It
+bores into rock with its horn to
+make its nest.
+
+[StaryuName]
+Staryu
+
+[SlapName]
+Slap
+
+[StarshapeName]
+Star Shape
+
+[StaryuLv15Description]
+It appears in great numbers by the
+sea. At night, its center flashes
+red.
+
+[StrangeBeamName]
+Strange Beam
+
+[StrangeBeamDescription]
+During your opponent's next turn,
+don't apply Weakness to your Water
+Pokémon.
+
+[SpinningAttackName]
+Spinning Attack
+
+[StaryuLv17Description]
+A mysterious creature that can
+regenerate any part of its body that
+it loses.
+
+[StarmieName]
+Starmie
+
+[RecoverName]
+Recover
+
+[RecoverWaterDescription]
+Discard 1 Water Energy card attached
+to Starmie, then remove all damage
+counters from Starmie. If you can't
+discard a Water Energy card, this
+attack does nothing.
+
+[StarFreezeName]
+Star Freeze
+
+[MysteriousName]
+Mysterious
+
+[StarmieDescription]
+Because of its geometric body,
+locals suspect that it may be a
+creature from outer space.
+
+[DarkStarmieName]
+Dark Starmie
+
+[RebirthName]
+Rebirth
+
+[RebirthDescription]
+During your turn, you may remove all
+damage counters from Dark Starmie,
+then discard it and all cards
+attached to it. Then a Staryu from
+your deck is automatically put into
+play.
+
+[RebirthDescriptionCont]
+If there's no Staryu in your deck,
+Rebirth fails. This power can't be
+used if you have no Benched Pokémon,
+or if Dark Starmie is Asleep,
+Confused, or Paralyzed.
+
+[SpinningShowerName]
+Spinning Shower
+
+[SpinningShowerDescription]
+Flip a coin. If heads, 1 or 2 of
+your opponent's Pokémon are chosen
+at random. Do 20 damage to each
+(don't apply Weakness and
+Resistance) and discard 1 random
+Energy card from each, if any.
+
+[DarkStarmieDescription]
+Its habits are still a mystery. It
+is said that it can be reborn
+through mysterious powers.
+
+[MagikarpName]
+Magikarp
+
+[FlopName]
+Flop
+
+[RapidEvolutionName]
+Rapid Evolution
+
+[RapidEvolutionDescription]
+Search your deck for a card that
+evolves from Magikarp and put it on
+this Magikarp. Shuffle your deck
+afterward.
+
+[FishName]
+Fish
+
+[MagikarpLv6Description]
+According to the latest research,
+dragon DNA has apparently been found
+in Magikarp's body.
+
+[MagikarpLv8Description]
+Its strength and speed are next to
+useless. It is the weakest, most
+pathetic Pokémon in the world.
+
+[TrickleName]
+Trickle
+
+[Plus10DamagePerHeadsDescription]
+Flip 2 coins. This attack does 10
+damage times the number of heads.
+
+[DragonRageName]
+Dragon Rage
+
+[IfEitherTailsDoNothingDescription]
+Flip 2 coins. If either of them is
+tails, this attack does nothing.
+
+[MagikarpLv10Description]
+According to the latest research,
+dragon DNA has apparently been found
+in Magikarp's body.
+
+[GyaradosName]
+Gyarados
+
+[BubblebeamName]
+Bubblebeam
+
+[AtrociousName]
+Atrocious
+
+[GyaradosDescription]
+It has an extremely vicious nature.
+Its "Dragon Rage" utterly destroys
+everything.
+
+[DarkGyaradosName]
+Dark Gyarados
+
+[FinalBeamName]
+Final Beam
+
+[FinalBeamDescription]
+When Dark Gyarados is Knocked Out by
+your opponent's attack, flip a coin.
+If heads, this power does 20 damage
+for each Water Energy attached to
+Dark Gyarados to the Pokémon that
+Knocked it Out.
+
+[FinalBeamDescriptionCont]
+This power can't be used if
+Dark Gyarados is Asleep, Confused,
+or Paralyzed when it is Knocked Out.
+
+[DarkGyaradosDescription]
+It lives deep in the sea and was
+rarely seen, but it has finally
+appeared in the shallows.
+
+[LaprasName]
+Lapras
+
+[SingName]
+Sing
+
+[MayInflictSleepDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Asleep.
+
+[TransportName]
+Transport
+
+[LaprasLv24Description]
+Overhunted in the past, it is now on
+the verge of extinction. It can
+ferry people across water.
+
+[LaprasLv31Description]
+It is highly intelligent and
+understands human speech. It loves
+to ferry people across the sea.
+
+[VaporeonName]
+Vaporeon
+
+[FocusEnergyBiteDescription]
+During your next turn, Vaporeon's
+Bite attack's base damage is
+doubled.
+
+[BubbleJetName]
+Bubble Jet
+
+[VaporeonLv29Description]
+Lives close to water. Its long tail
+is ridged with a fin that is often
+mistaken for a mermaid's.
+
+[VaporeonLv42Description]
+Its cell structure is similar to
+water molecules. It will melt away
+and become invisible in water.
+
+[DarkVaporeonName]
+Dark Vaporeon
+
+[WhirlpoolDescription]
+If the Defending Pokémon has any
+Energy cards attached to it, choose
+1 of them and discard it.
+
+[DarkVaporeonDescription]
+It can control water at will. It is
+said to be able to create huge
+whirlpools.
+
+[OmanyteName]
+Omanyte
+
+[MysteriousFossilName]
+Mysterious Fossil
+
+[ClairvoyanceName]
+Clairvoyance
+
+[ClairvoyanceDescription]
+As long as Omanyte is in play, your
+opponent plays with his or her hand
+face up. This power stops working
+while Omanyte is Asleep, Confused,
+or Paralyzed.
+
+[SpiralName]
+Spiral
+
+[OmanyteLv19Description]
+A prehistoric Pokémon that lived in
+the primordial sea. It swims by
+twisting its 10 tentacles about.
+
+[PrehistoricDreamName]
+Prehistoric Dream
+
+[PrehistoricDreamDescription]
+Once during your turn, you may flip
+a coin. If heads, this turn, attacks
+by your Pokémon that evolved from
+Mysterious Fossil do 10 more damage
+to the Defending Pokémon. (Damage to
+Benched Pokémon isn't affected.)
+
+[PowerCantBeUsedIfStatusDescription]
+This power can't be used if this
+Pokémon is Asleep, Confused, or
+Paralyzed.
+
+[RollingTackleName]
+Rolling Tackle
+
+[OmanyteSharedDescription]
+Although long extinct, in rare
+cases, it can be genetically
+resurrected from fossils.
+
+[FossilGuidanceName]
+Fossil Guidance
+
+[FossilGuidanceDescription]
+Once during your turn, you may flip
+a coin. If heads, put a
+Mysterious Fossil from your discard
+pile into your hand. This power
+can't be used if Omanyte is Asleep,
+Confused, or Paralyzed.
+
+[OmastarName]
+Omastar
+
+[OmastarLv32Description]
+Its tentacles are as developed as
+arms and legs. As soon as it latches
+on to prey, it bites.
+
+[TentacleGripName]
+Tentacle Grip
+
+[TentacleGripDescription]
+Flip a coin for each Water Energy
+attached to Omastar. Draw 2 cards
+for each heads.
+
+[CorrosiveAcidName]
+Corrosive Acid
+
+[CorrosiveAcidDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Paralyzed. If tails,
+Omastar can't use this attack during
+your next turn.
+
+[OmastarLv36Description]
+Despite its sharp fangs and
+tentacles, its shell was too big for
+it to catch prey, so it died out.
+
+[ArticunoName]
+Articuno
+
+[AuroraVeilName]
+Aurora Veil
+
+[AuroraVeilDescription]
+As long as Articuno is your Active
+Pokémon, prevent all effects of
+attacks, including damage, done to
+your Benched Pokémon. This power
+stops working while Articuno is
+Asleep, Confused, or Paralyzed.
+
+[FreezeName]
+Freeze
+
+[ArticunoLv34Description]
+A legendary Freeze Pokémon said to
+appear before those freezing to
+death on snowy mountains.
+
+[FreezeDryName]
+Freeze Dry
+
+[BlizzardName]
+Blizzard
+
+[BlizzardDescription]
+Flip a coin. If heads, this attack
+also does 10 damage to each of your
+opponent's Benched Pokémon; if
+tails, to each of your own Benched
+Pokémon. (Don't apply Weakness and
+Resistance for Benched Pokémon.)
+
+[ArticunoLv35Description]
+One of the legendary bird Pokémon.
+It is a magnificent sight in flight,
+its long tail streaming behind.
+
+[QuickfreezeName]
+Quickfreeze
+
+[QuickfreezeDescription]
+When you put Articuno into play from
+your hand (not during setup), flip a
+coin. If heads, the Defending
+Pokémon is now Paralyzed.
+
+[IceBreathName]
+Ice Breath
+
+[IceBreathDescription]
+Does 40 damage to 1 of your
+opponent's Pokémon chosen at random.
+Don't apply Weakness and Resistance
+for this attack.
+
+[ArticunoLv37Description]
+A legendary Freeze Pokémon said to
+appear before those freezing to
+death on snowy mountains.
+
+[MarillName]
+Marill
+
+[AquamouseName]
+Aqua Mouse
+
+[MarillDescription]
+The fur on its body repels water, so
+it stays fluffy even after playing
+in the water.
+
+[PikachuName]
+Pikachu
+
+[ThundershockName]
+Thundershock
+
+[MouseName]
+Mouse
+
+[PikachuLv5Description]
+It can be found in Viridian Forest,
+but it is so quick that it is hard
+to catch.
+
+[GnawName]
+Gnaw
+
+[ThunderJoltName]
+Electric
+
+[ThunderJoltDescription]
+Flip a coin. If tails, Pikachu does
+10 damage to itself.
+
+[PikachuSharedDescription]
+It has small electric sacs on both
+its cheeks. If threatened, it looses
+electric charges from the sacs.
+
+[RechargeName]
+Recharge
+
+[RechargeDescription]
+Search your deck for a Lightning
+Energy card and attach it to
+Pikachu. Shuffle your deck
+afterward.
+
+[ThunderboltName]
+Thunderbolt
+
+[ThunderboltDescription]
+Discard all Energy cards attached to
+Pikachu.
+
+[PikachuLv13Description]
+When several of these Pokémon
+gather, their electricity can build
+and cause lightning storms.
+
+[SparkName]
+Spark
+
+[Do10DamageToABenchedMonDescription]
+Choose 1 of your opponent's Benched
+Pokémon. This attack also does 10
+damage to it. (Don't apply Weakness
+and Resistance for Benched Pokémon.)
+
+[PikachuLv14Description]
+Gentle, smart, and charming, it
+ranks No. 1 in popularity even among
+researchers.
+
+[FlyingPikachuName]
+Flying Pikachu
+
+[FlyName]
+Fly
+
+[FlyDescription]
+Flip a coin. If heads, during your
+opponent's next turn, prevent all
+effects of attacks, including
+damage, done to Flying Pikachu. If
+tails, this attack does nothing (not
+even damage).
+
+[FlyingPikachuDescription]
+A Pikachu that has overcome its
+weakness by flying through the sky.
+
+[SurfingPikachuName]
+Surfing Pikachu
+
+[SurfingPikachuDescription]
+One summer vacation, a Pikachu was
+discovered surfing at a beach with
+high waves.
+
+[RaichuName]
+Raichu
+
+[ShortCircuitName]
+Short Circuit
+
+[ShortCircuitDescription]
+Choose 1 of your opponent's Pokémon.
+This attack does 10 damage to it for
+each Water Energy attached to it.
+(Don't apply Weakness and
+Resistance.)
+
+[SparkingKickName]
+Sparking Kick
+
+[RaichuLv32Description]
+Its long tail serves as a ground to
+protect it, so even high voltage
+doesn't numb it.
+
+[QuickAttackAltDescription1]
+Flip a coin. If heads, this attack
+does 20 more damage.
+
+[ThunderboltAltDescription1]
+Discard all Energy cards attached to
+Raichu.
+
+[RaichuLv33Description]
+When electricity builds up inside
+its body, it becomes aggressive. It
+also glows in the dark.
+
+[ThunderName]
+Thunder
+
+[ThunderDescription]
+Flip a coin. If tails, this Pokémon
+does 30 damage to itself.
+
+[RaichuSharedDescription]
+Its electric charges can reach
+100,000 volts. Careless contact can
+make even an Indian elephant faint.
+
+[GigashockName]
+Gigashock
+
+[GigashockDescription]
+Choose 3 of your opponent's Benched
+Pokémon and this attack does 10
+damage to each of them. (Don't apply
+Weakness and Resistance for Benched
+Pokémon.)
+
+[DarkRaichuName]
+Dark Raichu
+
+[SurpriseThunderName]
+Surprise Thunder
+
+[SurpriseThunderDescription]
+This attack does 0, 10, or 20 damage
+(chosen at random) to each of your
+opponent's Benched Pokémon. (Don't
+apply Weakness and Resistance for
+Benched Pokémon.)
+
+[DarkRaichuDescription]
+It mischievously discharges the
+electricity stored in its body to
+startle those around it.
+
+[MagnemiteName]
+Magnemite
+
+[MagnetismName]
+Magnetism
+
+[MagnetismDescription]
+Does 10 more damage for each
+Magnemite, Magneton, and
+Dark Magneton on your Bench.
+
+[MagnetCategoryName]
+Magnet
+
+[MagnemiteLv12Description]
+When several Magnemite and Magneton
+gather, they are said to form a
+powerful magnetic barrier.
+
+[ThunderWaveName]
+Thunder Wave
+
+[Selfdestruct40DamageDescription]
+Magnemite does 40 damage to itself.
+Does 10 damage to each Pokémon on
+each player's Bench. (Don't apply
+Weakness and Resistance for Benched
+Pokémon.)
+
+[MagnemiteLv13Description]
+It moves while floating in the air,
+emitting electromagnetic waves and
+such from its side units.
+
+[MagneticStormName]
+Magnetic Storm
+
+[MagneticStormDescription]
+Remove all Energy cards attached to
+your Pokémon and reattach them to
+your Pokémon. Which card goes to
+which Pokémon is decided at random.
+
+[MagnemiteLv14Description]
+It seems to float using antigravity.
+It appears out of nowhere and emits
+electromagnetic waves.
+
+[MagnetMoveName]
+Magnet Move
+
+[MagnetMoveDescription]
+Once during your turn, you may flip
+a coin. If heads, put a Magnemite
+from your deck onto your Bench and
+shuffle your deck. Can't be used if
+your Bench is full or if Magnemite
+is Asleep, Confused, or Paralyzed.
+
+[SuperconductivityName]
+Superconductivity
+
+[SuperconductivityDescription]
+Choose 1 of your opponent's Pokémon.
+This attack does 10 damage to it.
+(Don't apply Weakness and
+Resistance.)
+
+[MagnemiteLv15Description]
+It seems to float using antigravity.
+It appears out of nowhere and emits
+electromagnetic waves.
+
+[MagnetonName]
+Magneton
+
+[Selfdestruct80DamageDescription]
+Magneton does 80 damage to itself.
+Does 20 damage to each Pokémon on
+each player's Bench. (Don't apply
+Weakness and Resistance for Benched
+Pokémon.)
+
+[MagnetonSharedDescription]
+Several Magnemite link together to
+emit powerful magnetic fields and
+high voltage.
+
+[MicrowaveName]
+Microwave
+
+[MicrowaveDescription]
+Choose 1 of your opponent's Pokémon.
+This attack does 20 damage to it.
+(Don't apply Weakness and
+Resistance.) Then flip a coin. If
+heads, discard 1 Energy card
+attached to that Pokémon.
+
+[MagnetonLv30Description]
+Formed by several Magnemite linked
+together. They frequently appear
+when sunspots flare up.
+
+[SonicboomName]
+Sonicboom
+
+[SonicboomDescription]
+Don't apply Weakness and Resistance
+for this attack.
+
+[Selfdestruct100DamageDescription]
+This Pokémon does 100 damage to
+itself. Does 20 damage to each
+Pokémon on each player's Bench.
+(Don't apply Weakness and Resistance
+for Benched Pokémon.)
+
+[DarkMagnetonName]
+Dark Magneton
+
+[SonicboomAltDescription]
+Don't apply Weakness and Resistance
+for this attack.
+
+[MagneticLinesName]
+Magnetic Lines
+
+[MagneticLinesDescription]
+Choose 1 basic Energy card attached
+to the Defending Pokémon and attach
+it to 1 of your opponent's Benched
+Pokémon. (If your opponent has no
+Benched Pokémon, don't move the
+Energy.)
+
+[DarkMagnetonDescription]
+There have been many incidents of
+Magneton's magnetic fields being
+used to destroy computer data.
+
+[VoltorbName]
+Voltorb
+
+[GroupSparkName]
+Group Spark
+
+[GroupSparkDescription]
+Does 10 more damage for each Voltorb
+in play (both yours and your
+opponent's).
+
+[BallName]
+Ball
+
+[VoltorbLv8Description]
+Found at power plants and such. Many
+people mistake it for a Poké Ball,
+touch it, and get shocked.
+
+[VoltorbLv10Description]
+An enigmatic creature. It is said to
+make unpleasant noises and sometimes
+suddenly explode.
+
+[SpeedBallName]
+Speed Ball
+
+[VoltorbLv13Description]
+It lives mainly in power plants, but
+it is now seen in towns too, perhaps
+traveling along power lines.
+
+[ElectrodeName]
+Electrode
+
+[EnergySpikeName]
+Energy Spike
+
+[EnergySpikeDescription]
+Search your deck for a basic Energy
+card and attach it to 1 of your
+Pokémon. Shuffle your deck
+afterward.
+
+[ElectrodeLv35Description]
+Stores electrical energy inside its
+body. Even the slightest shock could
+trigger a huge explosion.
+
+[ChainLightningName]
+Chain Lightning
+
+[ChainLightningDescription]
+This attack does 10 damage to each
+Benched Pokémon (both yours and your
+opponent's) of the same type as the
+Defending Pokémon. (Don't apply
+Weakness and Resistance for Benched
+Pokémon.)
+
+[ElectrodeLv42Description]
+It is charged with electricity and
+has an aggressive nature, so it is
+safest not to get close to it.
+
+[DarkElectrodeName]
+Dark Electrode
+
+[EnergyBombName]
+Energy Bomb
+
+[EnergyBombDescription]
+Take all Energy cards attached to
+Dark Electrode and attach them to
+your Benched Pokémon in any way you
+like. (If you have no Benched
+Pokémon, discard them.)
+
+[DarkElectrodeDescription]
+Researchers seem to believe that
+Electrode may be some kind of energy
+being.
+
+[ElectabuzzName]
+Electabuzz
+
+[LightScreenName]
+Light Screen
+
+[LightScreenDescription]
+During your opponent's next turn,
+any damage done to Electabuzz is
+halved (rounded down to the nearest
+10). (Any other effects of attacks
+still happen.)
+
+[ElectabuzzLv20Description]
+A Pokémon that is very hard to
+catch. It can tell colors apart and
+prefers the color red.
+
+[ElectabuzzLv30Description]
+When a big blackout happens, it's a
+sure sign that Electabuzz ate a
+power plant's electricity.
+
+[ThunderpunchName]
+Thunderpunch
+
+[ThunderpunchDescription]
+Flip a coin. If heads, this attack
+does 10 more damage. If tails,
+Electabuzz does 10 damage to itself.
+
+[ElectabuzzLv35Description]
+It loves strong electricity and
+often appears at large power plants
+and such.
+
+[JolteonName]
+Jolteon
+
+[Do20DamageNumberOfHeadsDescription]
+Flip 2 coins. This attack does 20
+damage times the number of heads.
+
+[StunNeedleName]
+Stun Needle
+
+[JolteonLv24Description]
+When it gets angry or startled, the
+fur all over its body bristles like
+needles that pierce its foe.
+
+[QuickAttackAltDescription2]
+Flip a coin. If heads, this attack
+does 20 more damage.
+
+[PinMissileName]
+Pin Missile
+
+[PinMissileDescription]
+Flip 4 coins. This attack does 20
+damage times the number of heads.
+
+[JolteonLv29Description]
+If it is angered or startled, the
+fur all over its body bristles like
+sharp needles that pierce foes.
+
+[DarkJolteonName]
+Dark Jolteon
+
+[LightningFlashName]
+Lightning Flash
+
+[LightningFlashDescription]
+If the Defending Pokémon tries to
+attack during your opponent's next
+turn, your opponent flips a coin. If
+tails, that attack does nothing.
+
+[ThunderAttackName]
+Thunder Attack
+
+[ThunderAttackDescription]
+Flip a coin. If heads, the Defending
+Pokémon is now Paralyzed. If tails,
+Dark Jolteon does 10 damage to
+itself.
+
+[DarkJolteonDescription]
+It sometimes uses the electricity
+stored in its body to play pranks.
+It is scary when angered.
+
+[ZapdosName]
+Zapdos
+
+[RagingThunderName]
+Raging Thunder
+
+[RagingThunderDescription]
+Flip a coin. If tails, choose 1 of
+your own Pokémon. This attack also
+does 30 damage to that Pokémon.
+(Don't apply Weakness and
+Resistance.)
+
+[ThunderCrashName]
+Thunder Crash
+
+[ThunderCrashDescription]
+Flip a coin. If heads, this attack
+does 20 more damage. If tails,
+Zapdos does 20 damage to itself.
+
+[ZapdosLv28Description]
+A legendary bird Pokémon that is
+said to appear from clouds while
+dropping enormous lightning bolts.
+
+[ThunderstormName]
+Thunderstorm
+
+[ThunderstormDescription]
+For each of your opponent's Benched
+Pokémon, flip a coin. If heads, do
+20 damage to it. (Don't apply
+Weakness and Resistance for Benched
+Pokémon.) Then Zapdos does 10 damage
+to itself for each tails.
+
+[ZapdosLv40Description]
+A divine bird that rules the sky, it
+has lived above the clouds for
+millennia. Is thunder its rage?!
+
+[ThunderboltAltDescription2]
+Discard all Energy cards attached to
+Zapdos.
+
+[ZapdosLv64Description]
+One of the legendary bird Pokémon.
+When it flies, it makes a crackling
+sound like something bursting.
+
+[PealOfThunderName]
+Peal of Thunder
+
+[PealOfThunderDescription]
+When you put Zapdos into play from
+your hand (not during setup), do 30
+damage to 1 Pokémon other than
+Zapdos, chosen at random. (Don't
+apply Weakness and Resistance.)
+
+[BigThunderName]
+Big Thunder
+
+[BigThunderDescription]
+Choose a Pokémon other than Zapdos
+at random. This attack does 70
+damage to that Pokémon. (Don't apply
+Weakness and Resistance.)
+
+[ZapdosLv68Description]
+A legendary bird Pokémon that is
+said to appear from clouds while
+dropping enormous lightning bolts.
+
+[SandshrewName]
+Sandshrew
+
+[SandAttackName]
+Sand-attack
+
+[SandshrewLv12Description]
+It digs holes in the ground to live
+in. When in danger, it curls up into
+a ball to protect itself.
+
+[SwiftName]
+Swift
+
+[SwiftDescription]
+This attack's damage isn't affected
+by Weakness, Resistance, Pokémon
+Powers, or any other effects on the
+Defending Pokémon.
+
+[SandshrewLv15Description]
+Burrows deep underground in arid
+locations far from water. It only
+emerges to hunt for food.
+
+[SandslashName]
+Sandslash
+
+[FurySwipes20DamageDescription]
+Flip 3 coins. This attack does 20
+damage times the number of heads.
+
+[SandslashLv33Description]
+It darts around nimbly and is good
+at attacking with the spikes on its
+back and its sharp claws.
+
+[SandVeilName]
+Sand Veil
+
+[RollingNeedleName]
+Rolling Needle
+
+[RollingNeedleDescription]
+Flip 3 coins. This attack does 10
+more damage for each heads. Then
+Sandslash does 10 damage to itself
+for each heads.
+
+[SandslashLv35Description]
+Curls up into a spiny ball when
+threatened. It can roll while curled
+up to attack or escape.
+
+[DiglettName]
+Diglett
+
+[DigName]
+Dig
+
+[MudSlapName]
+Mud Slap
+
+[MoleName]
+Mole
+
+[DiglettLv8Description]
+It moves just below the surface. You
+can easily tell where it has dug,
+because the ground bulges up.
+
+[DigUnderName]
+Dig Under

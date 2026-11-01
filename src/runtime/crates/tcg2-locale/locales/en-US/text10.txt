@@ -1,0 +1,1536 @@
+# Pokémon Card GB2 in American English: the texts of
+# src/decomp/src/text/text10.asm, by label (format: src/text.rs).
+
+[IshiharaWantsToTrade6InitialText]
+Oh, is that you, <RAMNAME>?
+Enjoying your duels with Team GR?
+I need just 1 more of the
+legendary bird Pokémon cards.
+The card I want right now is
+"Zapdos<Lv>40."
+It's the "Zapdos" card
+with "Thunderstorm."
+I'm thinking of trading
+my "Flying Pikachu" for it.
+It has different art from the one
+we traded on the other island!
+Would you happen to have
+a "Zapdos<Lv>40" card?
+
+[IshiharaWantsToTrade6RepeatText]
+Oh, is that you, <RAMNAME>?
+Are you enjoying Pokémon cards?
+I need just 1 more of the
+legendary bird Pokémon cards.
+The card I want right now is
+"Zapdos<Lv>40."
+I'm thinking of trading
+my "Flying Pikachu" for it.
+It has different art from the one
+we traded on the other island!
+Would you happen to have
+a "Zapdos<Lv>40" card?
+
+[IshiharaDoNotOwnZapdosLv40Text]
+I truly appreciate the thought,
+but...
+you don't seem to have a
+"Zapdos<Lv>40" card.
+Let's trade cards
+some other time, then...
+
+[IshiharaUsingAllZapdosLv40InDecksText]
+Oh my, all of your "Zapdos<Lv>40"
+cards are in your decks.
+I can't very well take cards
+you're using in your duels.
+Let's trade cards
+some other time, then...
+
+[IshiharaAcceptedTrade6Text]
+Oh, how wonderful!
+Then, without further ado...
+
+[TradedZapdosLv40ForFlyingPikachuText]
+<RAMNAME> traded "Zapdos"
+for "Flying Pikachu"!
+
+[IshiharaThanksTradedZapdosLv40Text]
+I'll gratefully accept
+this "Zapdos<Lv>40."
+With this, I have all of the
+legendary bird Pokémon cards!
+You've been a great help.
+Thank you so much.
+
+[IshiharaWantsToTrade7InitialText]
+Oh, is that you, <RAMNAME>?
+Enjoying your duels with Team GR?
+I've come across a rather
+unusual card.
+It's a card called
+"Bill's Computer."
+It doesn't seem to be a card
+you can use in duels...
+I'd be willing to trade it for
+a "Dark Dragonite<Lv>33," though.
+How about it?
+Would you like to trade?
+
+[IshiharaWantsToTrade7RepeatText]
+Oh, is that you, <RAMNAME>?
+Are you enjoying Pokémon cards?
+Would you like to trade for my
+"Bill's Computer" card?
+The card I want right now is
+"Dark Dragonite<Lv>33."
+Would you happen to have
+a "Dark Dragonite<Lv>33" card?
+
+[IshiharaDoNotOwnDarkDragoniteText]
+I truly appreciate the thought,
+but...
+you don't seem to have a
+"Dark Dragonite<Lv>33" card.
+Let's trade cards
+some other time, then...
+
+[IshiharaUsingAllDarkDragoniteInDecksText]
+All of your "Dark Dragonite<Lv>33"
+cards are in your decks.
+I can't very well take cards
+you're using in your duels.
+Let's trade cards
+some other time, then...
+
+[IshiharaAcceptedTrade7Text]
+Oh, how wonderful!
+Then, without further ado...
+
+[TradedDarkDragoniteForBillsComputerText]
+<RAMNAME> traded "Dark Dragonite"
+for "Bill's Computer"!
+
+[IshiharaThanksTradedDarkDragoniteTradesCompleteText]
+I'll gratefully accept
+this "Dark Dragonite<Lv>33."
+With this, I have all the
+Pokémon cards I need.
+You've truly been a great help.
+I'm very grateful to you.
+Please keep enjoying Pokémon cards
+through duels and trades!
+
+[IshiharaAtVillaTradeLaterReadMyBooksText]
+Oh, is that you, <RAMNAME>?
+Welcome.
+Right now, there are no cards I
+want, and none I have to trade.
+Let's trade cards
+another time.
+If you like, please have a look
+at the books I've written.
+Even the people of Team GR
+read them, you know.
+I'm sure they'll help you
+in your duels.
+
+[RuiStudyingAtIshiharasVillaPostgameText]
+Oh my, <RAMNAME>?
+Did you come here to study, too?
+Mr. Ishihara's books are simply
+marvelous for dueling, you know.
+Even I, Rui, a Grand Executive,
+come here often to study, you see.
+Have we met here before, I wonder?
+??... Well, never mind.
+Just you wait. Next time,
+I won't lose to you.
+But we won't duel here...
+We'll duel at GR Castle...
+Farewell for now, <RAMNAME>.
+
+[RuiThanksIshiharaText]
+Thank you, as always,
+Mr. Ishihara...
+
+[IshiharaGladToHelpRuiText]
+Not at all. I'm just glad
+my books are of some help.
+
+[RuiGoodbyeIshiharaText]
+Well, I shall take my leave,
+Mr. Ishihara...
+
+[IshiharaWantsToDuelInitialText]
+Hello, <RAMNAME>.
+Are you enjoying Pokémon cards?
+Thanks to you, I have nearly
+all the cards I need.
+So I'm all done
+with card trades!
+Now let's have fun dueling
+with our Pokémon cards.
+What do you say, <RAMNAME>?
+Won't you duel with me?
+
+[IshiharaWantsToDuelRepeatText]
+Hello, <RAMNAME>.
+Are you enjoying Pokémon cards?
+Dueling all sorts of people is fun,
+isn't it, <RAMNAME>?
+And it helps you better understand
+what makes each card good.
+What do you say, <RAMNAME>?
+Won't you duel with me?
+
+[IshiharaDuelPromptText]
+Do you want to duel Mr. Ishihara?
+
+[IshiharaDuelStartText]
+Thank you, <RAMNAME>.
+Now, let's enjoy our duel.
+We'll play with 6 Prizes,
+if you please.
+
+[IshiharaDeclinedDuelText]
+Is that so?
+That's too bad.
+Let's duel some other time,
+then...
+
+[IshiharaPlayerWon1Text]
+Impressive as ever, <RAMNAME>.
+You beat me soundly.
+But it was a fun duel.
+Please, take this.
+
+[IshiharaPlayerWon2Text]
+Please use the cards I just gave you
+to build a new deck.
+And then, let's have
+even more fun duels!
+Well then, <RAMNAME>,
+please do come duel me again!
+
+[IshiharaPlayerLostText]
+Oh my...
+It seems I've won.
+That was quite a fun duel,
+<RAMNAME>!
+Well then, <RAMNAME>,
+please come duel me again.
+
+[RuiStudyingAtIshiharasVilla1Text]
+Mm-hmm, mm-hmm... I see...
+Most impressive...
+
+[RuiStudyingAtIshiharasVilla2Text]
+What is it? I'm studying
+Pokémon cards right now.
+Mr. Ishihara's books are simply
+marvelous for dueling, you know.
+You would do well to read them
+and study, too.
+
+[ItsAutoDeckMachine1Text]
+It's Auto Deck Machine 1!
+
+[AutoDeckMachine1PromptText]
+Do you want to build a deck?
+
+[ItsAutoDeckMachine2Text]
+It's Auto Deck Machine 2!
+
+[AutoDeckMachine2PromptText]
+Want to build a deck?
+
+[ItsDeckSaveMachineText]
+It's the Deck Save Machine!
+
+[DeckSaveMachinePromptText]
+Use the Deck Save Machine?
+
+[Text0ef2]
+This Auto Deck Machine is
+really something!
+If you have all the cards
+needed to build a deck,
+this machine builds it for you
+automatically!
+The more you duel, the more
+decks this machine will have,
+so come by and check on it
+now and then!
+
+[Text0ef3]
+Congratulations, <RAMNAME>!
+I hear you finally beat Team GR!
+Was this Auto Deck Machine
+any help to you?
+
+[Text0ef4]
+Hi, <RAMNAME>! This machine is
+called the Deck Save Machine.
+It can save the recipes for
+decks you've built yourself.
+Once you save a recipe, you can
+build that deck anytime...
+as long as you have the cards
+you need to build it, that is.
+It's linked to your PC, so save
+as many decks as you like!
+
+[Text0ef5]
+They say Team Great Rocket (GR)
+came from a faraway island.
+Word is they use Pokémon cards
+we've never even seen before.
+I wonder what kind of cards
+they're using...
+
+[Text0ef6]
+Hi, <RAMNAME>! How are the duels
+on GR Island going?
+I hear there are duels with
+brand-new Pokémon cards!
+I'd like to go to GR Island
+someday, too...
+
+[Text0ef7]
+Thanks to you, we've been able to
+study Team GR's decks a lot.
+Now that we've made friends with
+Team GR, maybe I'll visit GR Island!
+
+[Text0ef8]
+Hi, <RAMNAME>!
+Did you know?
+The new Auto Deck Machine that
+Dr. Mason built...
+can build decks even if you don't
+have all of the cards!
+It replaces the cards you're
+missing with other cards.
+But it can't build a deck if you're
+missing way too many cards.
+
+[Text0ef9]
+Hey, glad you came,
+<RAMNAME>!
+A new Auto Deck Machine
+is complete!
+This Auto Deck Machine 2 can
+handle Team GR's cards!
+I'll keep collecting more deck
+recipes, so come by!
+
+[Text0efa]
+You did it, <RAMNAME>!
+I hear you finally beat Team GR!
+But it's not over yet! More decks
+will keep coming to the machines!
+And try out all the decks
+that have gathered here, too!
+
+[Text0efb]
+Oh!
+You're safe, <RAMNAME>!
+Terrible news! Team Great Rocket...
+Team GR has attacked us!
+They're raiding the Card Clubs
+on this island one by one!
+They're stealing everyone's cards
+and kidnapping Club members!
+At this rate, no one on this island
+will be able to play Pokémon cards!
+You defeated the Grand Masters!
+Use that strength to beat Team GR
+and take back the Pokémon cards
+from those scoundrels!
+
+[Text0efc]
+Do you accept Dr. Mason's request?
+
+[Text0efd]
+Please, <RAMNAME>!
+I need your strength!
+Ronald alone has me worried.
+I'm begging you, <RAMNAME>!
+
+[Text0efe]
+So you'll do it!
+Thank you, <RAMNAME>!
+
+[Text0eff]
+And another thing...
+I want you to have this PC!
+
+[Text0f00]
+<RAMNAME>
+received the "PC"!
+
+[Text0f01]
+That PC is a marvelous gadget!
+You can read your mail on it,
+and send the decks you build to
+the Deck Save Machine at the lab.
+Whenever I have news for you,
+I'll send mail to your PC.
+Press START and check your PC
+often, you hear?
+I'm counting on you, <RAMNAME>!
+Take back the cards from Team GR!
+
+[Text0f02]
+Come to think of it, they stole
+your cards too, didn't they!
+To duel those scoundrels,
+you'll need a deck!
+Here, I'll give you
+this deck!
+
+[Text0f03]
+<RAMNAME>
+received the "Starter Deck"!
+
+[Text0f04]
+Wait, <RAMNAME>!
+
+[Text0f05]
+Team GR is tough,
+<RAMNAME>!
+Are you sure you know the rules
+of Pokémon cards?
+If you're worried, practice
+with Sam, our Tech,
+or try dueling Aaron
+in the Training Room.
+
+[ChallengeMachineWinStreakRecordCorruptedAndResetText]
+The "Win Streak Record" data was
+corrupted for some reason.
+The "Win Streak Record" data
+has been reset.
+
+[DrMasonTCGChallengeMachine50WinStreakRewards1Text]
+A 50-win streak, eh?
+Here's a coin to mark the occasion!
+
+[DrMasonTCGChallengeMachine50WinStreakRewards2Text]
+How about that? Nice, isn't it?
+Take good care of it, now!
+
+[Text0f09]
+It seems those Team GR scoundrels
+are raiding the Clubs one by one.
+Ronald should be out scouting
+what they're up to.
+I want you to look into
+the Clubs, too!
+
+[Text0f0a]
+It seems only 5 Team GR members
+are left on this island.
+One of them is just giving orders
+from the Pokémon Dome.
+Attacking the Clubs are 4 of them:
+GR-1 through GR-4!
+If you defeat them, the chaos
+should settle down.
+I'm counting on you, <RAMNAME>.
+
+[Text0f0b]
+According to Ronald's report,
+Team GR has taken the Club Masters
+and Grand Masters away
+to their own island.
+Find some way to cross over to
+their island and rescue them!
+I'm counting on you, <RAMNAME>!
+
+[Text0f0c]
+Oh, <RAMNAME>!
+How are things going?
+It seems Team GR is using
+some new cards.
+They're "Dark" Evolution cards,
+like "Dark Charmeleon"!
+The Basic Pokémon is the same, but
+it can evolve 2 ways:
+into "Charmeleon," or Dark-evolve
+into "Dark Charmeleon."
+Once it has Dark-evolved, it seems
+it can only Dark-evolve after that.
+It may be a little tricky,
+but I'm sure you can manage!
+
+[Text0f0d]
+How goes it, <RAMNAME>?
+Have you been reading my mail?
+It seems Team GR's scoundrels like
+to set all sorts of duel conditions.
+Even with conditions,
+it's the same as always.
+Duel them again and again,
+and study their decks.
+Then build a deck that strikes
+at their decks' weaknesses!
+Hang in there, <RAMNAME>!
+I'm rooting for you!
+
+[Text0f0e]
+Ah, <RAMNAME>!
+You seem to be doing well!
+Your duels with Team GR are
+finally nearing the end!
+But don't rush! As they say,
+"Haste makes waste!"
+Duel the folks at the Clubs
+and collect cards.
+With lots of cards, you can
+build all kinds of decks.
+Keep at it, <RAMNAME>!
+The goal is near!
+
+[Text0f0f]
+<RAMNAME>! Congratulations!!
+You've finally defeated Team GR!
+But you mustn't hold
+a grudge against them!
+Their hearts love Pokémon cards
+just as much as ours.
+From now on, they're fellow
+Pokémon card players, too.
+Duel with everyone
+and enjoy Pokémon cards!
+And become a fine Card Master,
+<RAMNAME>!
+
+[Text0f10]
+Well now! Have you tried the
+Challenge Machine yet?
+It's the fruit of my research,
+the result of all my hard work!
+By all means,
+give it a try!
+It's a simple game, so go ahead
+and play it whenever you like.
+
+[Text0f11]
+Oh, it's you, <RAMNAME>!
+So you beat the King of Team GR?
+You only won against Team GR
+thanks to my support, you know!
+You'd better be grateful,
+<RAMNAME>!
+
+[Text0f12]
+Listen up, <RAMNAME>!
+Just you wait!
+Someday I'll build the strongest
+deck and challenge you!
+Let's meet at the Grand Masters'
+Grand Master Cup!
+
+[Text0f13]
+Hi, <RAMNAME>.
+What can I do for you?
+
+[Text0f14]
+OK then, let's start
+a Practice Duel.
+Do everything just the way
+Dr. Mason advises.
+
+[Text0f15]
+Do you want to duel Sam?
+
+[Text0f16]
+If you get confused again,
+come back and practice.
+
+[Text0f17]
+OK then, let's duel using
+the practice deck!
+
+[Text0f18]
+We'll start with 2 Prizes.
+There's no advice this time!
+
+[Text0f19]
+Come see me anytime.
+The basics are important!
+
+[Text0f1a]
+You're really getting
+the hang of it!
+
+[Text0f1b]
+Keep it up, and keep
+on winning!
+
+[Text0f1c]
+You still have a ways to go.
+Think calmly, and you can win.
+Why not try the Practice Duel
+one more time?
+
+[Text0f1d]
+So, how was that?
+Did you learn how to play?
+I hope you keep having fun
+playing Pokémon cards!
+
+[Text0f1e]
+Long time no see, <RAMNAME>!
+It's me, Sam the Tech!
+Let's make sure you know
+how to play Pokémon cards!
+Want to review how to play
+with a "Practice Duel"?
+
+[Text0f1f]
+Do you want to practice with Sam?
+
+[Text0f20]
+If you ever get stuck,
+come see me anytime...
+Just choose "Practice Duel,"
+and we can start right away!
+
+[Text0f21]
+OK, let's start the
+"Practice Duel"!
+Dr. Mason!
+Over to you, please!
+
+[Text0f22]
+First, ask Sam about
+the basics.
+
+[Text0f23]
+OK then, <RAMNAME>.
+What would you like to know?
+
+[Text0f24]
+Is that all?
+
+[Text0f25]
+Now then, "Practice makes perfect!"
+Let's give it a real try.
+This is the practice deck.
+Let's start with this!
+Since this is practice, first
+learn the steps.
+I'll give you advice, so do
+exactly as I say.
+If you don't do as I say,
+we won't move on, you hear?
+It might help to play while
+reading the "instruction booklet."
+Now then, let the
+"Practice Duel" begin!
+
+[Text0f26]
+Well? This is how you duel.
+Is it all coming back to you?
+Since this was a "Practice Duel,"
+I had you play just as I said,
+but there are other ways to play,
+so try them out in "Normal Duel."
+So, do you understand
+what the game is like?
+Or would you like to
+try once more?
+
+[Text0f27]
+Do you want to practice again?
+
+[Text0f28]
+Then let's duel once more!
+
+[Text0f29]
+I see.
+If you ever get stuck,
+try dueling Sam
+once more.
+
+[Text0f2a]
+If you ever get stuck,
+come see me anytime...
+Just choose "Practice Duel,"
+and we can start right away!
+
+[Text0f2b]
+To save your game, press START
+and choose "Diary" from the menu.
+You can also do all sorts of things
+with that computer over there.
+Anyway, go ahead and
+try things out!
+
+[Text0f2c]
+This is the Challenge Machine
+Dr. Mason built!
+The Challenge Machine is a
+Pokémon card dueling game machine!
+The rules of the game are simple.
+` `
+With 1 deck, you duel 5 members
+chosen by the machine!
+Beat all 5 members with that
+1 deck, and you've cleared it!
+You can also challenge yourself
+to set a winning streak record!
+Now, <RAMNAME>, build a deck
+and take the challenge!
+
+[Text0f2d]
+I'm sure you already know, but
+there are 8 Card Clubs.
+The Clubs are Fighting, Water,
+Lightning, Grass, Psychic, Fire...
+and finally Rock and Science.
+That makes 8 Clubs.
+But now that Team GR is here,
+I'm worried about how they're doing.
+
+[Text0f2e]
+You finally beat
+Team GR, didn't you!
+I knew it! <RAMNAME>,
+you're amazing!
+
+[Text0f2f]
+When you win a card duel,
+you get a booster pack.
+Each booster pack
+has 10 cards in it.
+The cards inside depend
+on the kind of booster pack.
+The kind of booster pack you get
+depends on your opponent...
+but Team GR took off
+with the cards.
+Unless someone beats Team GR,
+there won't be any new packs.
+
+[Text0f30]
+Congratulations, <RAMNAME>!
+I hear you beat Team GR!
+You took back the booster packs,
+and got more GR packs too, right?
+Now we can have even more fun
+Pokémon card duels!
+
+[Text0f31]
+Go take a look at the
+Computer Room in the back.
+There's the Deck Save Machine,
+which saves decks you've built,
+and the Auto Deck Machines,
+which hold our research results.
+Also, the room over there is
+now a Training Room.
+Dr. Mason made it for people
+who are new to Pokémon cards.
+Why not go see it
+sometime?
+
+[Text0f32]
+I hear you finally
+beat the King of Team GR!
+We analyzed the decks you faced
+during this whole fight...
+and put the data into
+the Auto Deck Machines!
+Pokémon cards run deep,
+so our research never ends!
+
+[Text0f33]
+Pokémon need Energy
+to do anything.
+With no Energy attached,
+they can't use attacks,
+and they can't "Retreat"
+from the Arena, either.
+The 6 Energy types are Grass, Fire,
+Water, Lightning, Psychic, Fighting.
+Different Pokémon need
+different Energy.
+Be sure to remember which
+Pokémon need which Energy!
+
+[Text0f34]
+Pokémon use attacks to damage
+the opponent's Pokémon.
+To use an attack,
+a Pokémon needs Energy.
+For Seaking's "Waterfall,"
+the Energy needed is "<WATER><COLORLESS>."
+"<WATER><COLORLESS>" means 1 Water Energy
+plus 1 more Energy of any type.
+The Energy needed is different
+for each attack.
+
+[Text0f35]
+To switch your Active Pokémon
+with one on your Bench,
+you use the "Retreat"
+command.
+When your Active Pokémon is in
+trouble, let it escape to the Bench.
+You need Energy to
+"Retreat," too.
+How much Energy you need
+depends on the Pokémon.
+
+[Text0f36]
+There are 3 kinds of Pokémon cards:
+Basic, Stage 1 and Stage 2.
+Squirtle is a Basic, Wartortle is a
+Stage 1 and Blastoise is a Stage 2.
+Only Basic Pokémon can be put
+into play at any time.
+If you have a Basic Pokémon in play,
+play a Stage 1 card to evolve it.
+To evolve into a Stage 2, you need
+a Stage 1 card in play.
+So without Squirtle in play, you
+can't evolve into Wartortle,
+and without Wartortle, you can't
+evolve into Blastoise.
+
+[Text0f37]
+Some Pokémon have special
+abilities called Pokémon Powers.
+Some Pokémon Powers take effect
+just by being in play,
+while others have no effect
+unless you use them.
+To use a Pokémon Power, choose
+the "PKMN Power" command.
+Pokémon Powers come in all kinds,
+so read each card's text carefully!
+
+[Text0f38]
+"Your turn" ends
+when you use an attack.
+When you lack Energy to attack,
+or are stuck Paralyzed or Asleep,
+choose the "Done" command
+and press the A Button.
+That ends "your turn,"
+and "your opponent's turn" begins.
+When there's nothing you can do,
+choose the "Done" command.
+
+[Text0f39]
+Whether you win or lose a duel
+is decided by Prizes.
+Prizes are cards you take when
+you Knock Out an opponent's Pokémon.
+Knock Out as many of your opponent's
+Pokémon as you have Prizes to win.
+In a 4-Prize duel, you win by
+Knocking Out 4 Pokémon.
+Also, you lose if you can't draw
+a card from your deck on your turn.
+So watch how many cards are left
+in your deck!
+
+[Text0f3a]
+Ho-hoo! Hey there!
+Welcome, <RAMNAME>!
+What do you think, <RAMNAME>?
+Isn't this Training Room great?
+It was made to help you understand
+Pokémon cards better.
+You can train here step by step,
+moving up one level at a time!
+
+[Text0f3b]
+Ho-hoo! <RAMNAME>!
+Want to do some training?
+You can train here step by step,
+moving up one level at a time!
+
+[Text0f3c]
+Ho-hoo! <RAMNAME>!
+You came back again?
+I built my own decks, so now
+we can have a normal duel, too!
+Or do you want to
+redo your training?
+
+[Text0f3d]
+Ho-hoo! <RAMNAME>!
+I hear you beat Team GR!
+Was the training here
+any help to you?
+So, how about it?
+Want to do some training?
+
+[Text0f3e]
+We'll start with Step 1.
+Want to give it a try?
+
+[Text0f3f]
+Which Step would you
+like to train in?
+
+[Text0f40]
+A duel?
+Or some training?
+
+[Text0f41]
+Ho-hoo!!
+Oh, that's too bad.
+Whenever you feel like training,
+come on by anytime.
+I'll be right here.
+See you, <RAMNAME>!
+
+[Text0f42]
+"Step 1," huh...
+Take a seat at Table 1.
+
+[Text0f43]
+First up is Pokémon card
+"Evolution"!
+Evolve your "Basic Pokémon" with
+"Stage 1" and "Stage 2" cards!
+Since this is training,
+you can't use your own deck.
+You'll be dueling with
+a "Training Deck."
+We'll play with 4 Prizes.
+Let the training duel begin!
+
+[Text0f44]
+Way to go, <RAMNAME>!
+You cleared Step 1!!
+
+[Text0f45]
+Ho-hoo! Keep it up and take on
+the next Step, too!
+Come back for more training!
+See you! Ho-hoo!!
+
+[Text0f46]
+Ho-hoo! Looks like you don't
+understand the basics yet.
+I think you should do a
+"Practice Duel" with Sam.
+Ho-hoo!! See you!
+Come back for more training!
+
+[Text0f47]
+"Step 2," huh...
+Take a seat at Table 2.
+
+[Text0f48]
+"Step 2" covers Special Conditions:
+Poison, Paralysis, Confusion, Sleep!
+Think about what each one does
+as you duel!
+If your Pokémon gets Poisoned,
+Paralyzed, Confused or Asleep,
+Retreat it from the Arena,
+or heal it with "Full Heal"!
+And since this is "Training,"
+you can't use your own deck.
+You'll be dueling with
+a "Training Deck."
+We'll play with 4 Prizes.
+Let the training duel begin!
+
+[Text0f49]
+Way to go, <RAMNAME>!
+You cleared Step 2!!
+
+[Text0f4a]
+Learn what Poison, Paralysis,
+Confusion and Sleep do!
+You can look them up in the
+"Glossary" on the computer.
+Ho-hoo!! See you!
+Come back for more training!
+
+[Text0f4b]
+"Step 3," huh...
+Take a seat at Table 3.
+
+[Text0f4c]
+In "Step 3," let's try using
+"Pokémon Powers"!
+A Pokémon's "Pokémon Power" is
+useful on its own...
+but combined with Trainer cards and
+such, its effect is tremendous!
+Again, you'll be dueling with
+a "Training Deck."
+We'll play with 4 Prizes.
+Let the training duel begin!
+
+[Text0f4d]
+Awesome, <RAMNAME>!
+You cleared Step 3!!
+
+[Text0f4e]
+Ho-hoo! With that, you've
+cleared Step 3!
+Impressive! Step 4 is
+still being prepared.
+It'll start one of these days,
+so drop by now and then!
+Ho-hoo!!
+See you! I'll be waiting!
+
+[Text0f4f]
+Ho-hoo! With that, you've
+cleared Step 3!
+Step 4 is a duel against me!
+Come duel me anytime!
+Ho-hoo!!
+See you! I'll be waiting!
+
+[Text0f50]
+Hmmm... "Pokémon Powers" are
+hard to master.
+Read the "Pokémon Power" text
+carefully, and understand it.
+Then, if you combine it with other
+cards, you might pull something off!
+Ho-hoo!! See you!
+Come back for more training!
+
+[Text0f51]
+"Normal Duel," huh...
+Take a seat at Table 4.
+
+[Text0f52]
+Ho-hoo! "Step 4" is a serious
+match against me!!
+My deck against
+your deck!
+Ho-hoo! I've built
+2 decks, you know.
+Now then, which deck
+should I duel with?
+We'll play with 4 Prizes.
+Let the duel begin!
+
+[Text0f53]
+Ho-hoo?
+Huh? I lost?
+You really are strong!
+Here, take this special prize!
+
+[Text0f54]
+Maybe my other deck
+would've been better...
+Come duel me again!
+I won't lose next time!!
+Ho-hoo!!
+See you! I'll be waiting!
+
+[Text0f55]
+Ho-hoo!!
+How's that? Had enough?
+Hey, I'm the one in charge
+of this room, you know!
+Ho-hoo! I can't lose
+that easily!
+Want to start over
+from "Step 1"?
+
+[Text0f56]
+We built the Training Room on
+Dr. Mason's orders, but...
+that Aaron went and made it
+way too big!
+Every time the Step changes,
+it's a major trek!!
+
+[Text0f57]
+So you've come, <RAMNAME>...
+
+[Text0f58]
+We three...
+
+[Text0f59]
+Ishii! Face this way!
+
+[Text0f5a]
+Huh...?
+
+[Text0f5b]
+We three are the guardians
+of the Colorless Altar!
+If you wish to go to GR Castle,
+you must battle the 3 of us!
+Defeat us all, and we shall give
+you the altar's "GR Colorless Coin"!
+None of us will battle you unless
+your deck has the cards we name!
+Now, face us in any order you like!
+Battle the 3 of us!
+
+[Text0f5c]
+Whoa, whoa, whoaaa...
+You beat everybody, huh...
+So here's the
+"GR Colorless Coin" for youuu.
+
+[Text0f5d]
+To get into GR Castle,
+you need the "GR Psychic Coin," too.
+Go to the GR Psychic Stronghold
+and meet the leader there, Mami.
+So get going to the GR Psychic
+Stronghold! Off you gooooo!!
+
+[Text0f5e]
+Ahh! <RAMNAME>!
+You've got the "GR Psychic Coin"!
+So you can get into
+GR Castle now, huh...
+You'll be the first non-GR person
+ever to go into the Castle!
+If you see Lord Biruritchi,
+tell him I said hiii.
+
+[Text0f5f]
+I'm Nishijima of GR Colorless!
+So ya wanna duel me, eh?
+It's "<RAMTEXT>"!
+Put 4 of these in yer deck!
+Do that, and I'll duel ya!
+` `
+But I'm a fickle one. After a duel,
+I'll change the card ya need!
+So brace yerself
+before ya challenge me!
+
+[Text0f60]
+This time, it's
+"<RAMTEXT>"!
+Ya better have 4 "<RAMTEXT>"
+ready to go!
+If ya don't have 'em all,
+I ain't dueling ya!
+
+[Text0f61]
+"<RAMTEXT>"! Ya put all 4
+in yer deck, right?
+If not, I ain't dueling ya.
+So, are we good to start the duel?
+
+[Text0f62]
+Do you want to duel Nishijima?
+
+[Text0f63]
+Hey, hey!
+"<RAMTEXT>"!
+Unless ya got 4 of these in there,
+I ain't dueling ya!
+Get yer cards ready first,
+then come duel me!
+
+[Text0f64]
+If ya don't have the card,
+here's a hint for ya.
+To look for cards, use the
+Card Album on the computer.
+Check the booster packs' contents
+in the Album to find yer card.
+Then all ya gotta do is find
+someone who gives out that pack.
+If that don't work, get it from
+a friend at the Gift Center!
+
+[Text0f65]
+We'll play with 6 Prizes!
+Beat me and ya get booster packs!!
+
+[Text0f66]
+Scared of me, are ya?!
+Can't say I blame ya!
+Work up some guts,
+then come challenge me!!
+
+[Text0f67]
+So ya wanna duel me again, eh?
+Ya got guts! I like that!
+This time, let's see...
+"<RAMTEXT>"!
+Put 4 "<RAMTEXT>" cards
+in yer deck, and I'll duel ya.
+Well? Ya gonna duel?
+
+[Text0f68]
+"<RAMTEXT>"...
+Yep, that's the one!
+Put 4 "<RAMTEXT>" cards
+in yer deck!
+If ya don't have 'em all,
+I ain't dueling ya!
+
+[Text0f69]
+Ya sure yer ready?
+"<RAMTEXT>"!
+Unless ya got 4 of this card in
+there, I ain't dueling ya.
+If the cards are in there,
+the duel's on!
+
+[Text0f6a]
+Hey, hey! Ya don't have 4 of the
+card I named in yer deck!
+"<RAMTEXT>"...
+That card ain't in there!
+Ya don't have all 4 cards,
+so I ain't dueling ya!
+
+[Text0f6b]
+The cards are in there, all right.
+No problems here!
+We'll play with 6 Prizes.
+Let the duel begin!
+
+[Text0f6c]
+If yer short on cards,
+find some way to get 'em!
+Without the cards in there,
+we can't have a duel!
+
+[Text0f6d]
+Anyone who makes it this far
+sure is strong! Hahaha!!
+
+[Text0f6e]
+Well, I'll be...
+First time I've lost in ages!
+Next time, I'll have to change
+the card ya need to put in!
+
+[Text0f6f]
+Hahaha! I don't lose
+that easy!
+Come again anytime!
+But remember this:
+Next time we duel, I plan
+to change the card ya need!
+
+[Text0f70]
+Didn't learn my lesson,
+and I've gone and lost again!
+
+[Text0f71]
+If I can't win with this deck,
+maybe I'll switch to other Pokémon.
+Next time, I might change
+the card ya need to put in.
+
+[Text0f72]
+In dueling, sometimes ya win,
+and sometimes ya lose!
+
+[Text0f73]
+Huuuh? A match with me?
+Then GR-2 is gonna...
+
+[Text0f74]
+Oh, riiight...
+I don't need to anymore, huh...
+
+[Text0f75]
+I used to be GR-2...
+You wanna duel me, Ishii?
+I don't miiind, but I don't wanna
+lose, so there's a conditionnn.
+Put 4 "<RAMTEXT>" cards
+in your deck.
+If you can do that, I guess
+I'll duel youuu.
+
+[Text0f76]
+If you wanna battle me, put in
+4 of the card I'm gonna saaay.
+Ummm, this time it's...
+"<RAMTEXT>"!
+If you've got 4 of those in,
+I'll battle youuu.
+
+[Text0f77]
+Uhhh, it's me, Ishii!
+Did you put in all 4?
+"<RAMTEXT>"...
+You remember, riiight?
+
+[Text0f78]
+Do you want to duel Ishii?
+
+[Text0f79]
+Nope, no gooood. You don't have 4
+of the card I named.
+Put in "<RAMTEXT>,"
+or no battle for youuu.
+Got it? It's
+"<RAMTEXT>"!
+
+[Text0f7a]
+Okay, okaaay!
+The cards are in there, all right.
+We'll battle with 6 Priiizes!
+Sooo, let's get started.
+
+[Text0f7b]
+Whaaat? You're not gonna battle?
+` `
+If you don't beat all of us,
+no "GR Colorless Coin" for youuu.
+
+[Text0f7c]
+Whoa-whoa... <RAMNAME>, you still
+wanna battle me?
+I'll battle you, but
+I'm gonna pick a caaard.
+What should it be this time...
+"<RAMTEXT>"!
+Put in 4 "<RAMTEXT>" cards,
+and we'll battle!
+
+[Text0f7d]
+Whoa, whoa, whoaaa!
+A battle, huh!
+This time I pick...
+"<RAMTEXT>"!
+Do you have 4 of 'em?
+If so, we battle right awaaay!
+
+[Text0f7e]
+"<RAMTEXT>"...
+Did you put 'em in?
+If you've got all 4 cards in,
+it's battle, battle time!
+
+[Text0f7f]
+"<RAMTEXT>"...
+You don't have fouuur!
+That's no good, no good at all!
+I'll tell you the card agaaain.
+It's "<RAMTEXT>"!
+Wanna battle? Put in 4, then!
+
+[Text0f80]
+'Sup! The cards are in there,
+all right.
+We'll battle with 6 Priiizes!
+Battle, battle, battle tiiime!
+
+[Text0f81]
+Don't tell me you're still
+short on caaards?
+You gotta collect cards, use 'em,
+and battle!
+
+[Text0f82]
+Whoa-whoa... I lost.
+How come...? Eh, whatever.
+
+[Text0f83]
+Huuuh? You haven't beaten
+everybody yet, have you?
+No "GR Colorless Coin" for you
+until you beat everybody.
+Once you've beaten everybody,
+come talk to me, okaaay?
+
+[Text0f84]
+Pfft, you're so weeeak.
+That's no good at all.
+Get stronger first,
+then come battle meee.
+
+[Text0f85]
+Whoa-whoa-whoa...
+Hmmm, I just can't win.
+Eh, whatever. Here are some
+booster packs for youuu.
+
+[Text0f86]
+Losing doesn't matter to me
+anywaaay. See ya laterrr.
+
+[Text0f87]
+I wooon! But even if I win,
+I don't get anything... Boooring.
+
+[Text0f88]
+So you dare to challenge me,
+Samejima of GR Colorless!
+"<RAMTEXT>"! If you have 4 in
+your deck, I shall battle you!
+But if you have fewer than 4,
+our match must wait!!
+Is "<RAMTEXT>"
+in your deck?
+If it is, then let the
+battle begin!!
+
+[Text0f89]
+Naming the same card every time
+might grow dull.
+I shall shuffle the cards well
+and choose one.
+"<RAMTEXT>"! Put 4 of this
+card in your deck.
+If you already have 4 in,
+we battle at once!
+
+[Text0f8a]
+Did you put in 4 of the card
+I named?
+It's "<RAMTEXT>"!
+You know that, yes?
+If you have 4 "<RAMTEXT>"
+in your deck, let us battle!
+
+[Text0f8b]
+Do you want to duel Samejima?
+
+[Text0f8c]
+You cannot deceive
+the eyes of Samejima!
+It is plain you do not have 4
+"<RAMTEXT>" in your deck!
+Until you meet the condition,
+our battle must wait!
+
+[Text0f8d]
+Good.
+You have the cards, I see!
+Then we shall battle
+with 6 Prizes!!
+
+[Text0f8e]
+If you lack the cards,
+go and get them!
+The great Samejima will
+wait for you right here!
+Now go!
+Gather your cards!
+
+[Text0f8f]
+So you mean to battle
+the great Samejima again?
+Let me see...
+"<RAMTEXT>"!
+Put 4 "<RAMTEXT>" cards
+in your deck!
+If they are already in,
+we shall battle at once!
+
+[Text0f90]
+It's "<RAMTEXT>."
+Do you have all 4 in your deck?
+If the cards are in,
+I accept your challenge!
+
+[Text0f91]
+You don't have 4
+"<RAMTEXT>" in your deck.
+I cannot battle you like this.
+Give it up!
+
+[Text0f92]
+Very well! The cards are in.
+Let the battle begin!
+We'll play with 6 Prizes.
+Here I come!
+
+[Text0f93]
+There's no need to force a battle.
+You have already won once.
+
+[Text0f94]
+Heh heh heh heh... Hahahahaha!
+The great Samejima, defeated!!
+
+[Text0f95]
+A loss is a loss.
+I shall admit it.
+
+[Text0f96]
+You'd need 10 more years to beat
+the great Samejima!
+
+[Text0f97]
+...I shall give you booster packs.
+
+[Text0f98]
+Even the great Samejima
+loses at times.
+Perhaps next time I should
+name a different Pokémon.
+
+[Text0f99]
+Well, I must win now and then,
+or I'd lose face.
+
+[RodFinalCupIntroAndRound1OpponentText]
+Now then, <RAMNAME>,
+let us begin the Final Cup.
+We are the Grand Masters, keepers
+of the Legendary Pokémon Cards!
+You must beat all 4 of us to
+get the Legendary Pokémon Cards.
+Now, first, you will
+duel Courtney!
+
+[CourtneyFinalCupDuelStartText]
+Hee hee... I'm your first opponent,
+the Fire Queen, Court-ney!
+Here I come, <RAMNAME>.
+Hee hee... I won't go easy on you.
+We'll play with 6 Prizes.
+Hee hee... Now, here I come!
+
+[CourtneyTournamentsPlayerWonText]
+Hee hee... I lose.
+Impressive, <RAMNAME>.
+
+[RodFinalCupRound1NextOpponentText]
+Next, you will duel Steve,
+<RAMNAME>!
+
+[CourtneyFinalCupPlayerLostText]
+Hee hee...
+Vic-to-ry is mine!
+Like that, you'll never
+beat Team GR.
+
+[SteveFinalCupReadyToDuelText]
+Hey, <RAMNAME>!
+A Pokémon card battle with me!
+Your duel with Thunder Steve
+will be BIG and GREAT!
+
+[RodFinalCupAreYourDecksReadyText]
+<RAMNAME>,
+is your deck ready?
+
+[RodFinalCupResumeRoundText]
+Then let us begin
+your duel with <RAMTEXT>.
+
+[SteveFinalCupDuelStartText]
+Prizes: six cards!
+Ready? Go!
+
+[SteveTournamentsPlayerWonText]
+You are the winner!
+Oh, great!
