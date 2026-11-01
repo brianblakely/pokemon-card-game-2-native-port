@@ -55,31 +55,31 @@ kg
 [TotalUniqueCardsCountText]
 `Different cards                     `
 
-[GrassPokemonText]
+[GrassPokemonText] full-width
 Grass
 
-[FirePokemonText]
+[FirePokemonText] full-width
 Fire
 
-[WaterPokemonText]
+[WaterPokemonText] full-width
 Water
 
-[LightningPokemonText]
+[LightningPokemonText] full-width
 Lightning
 
-[FightingPokemonText]
+[FightingPokemonText] full-width
 Fighting
 
-[PsychicPokemonText]
+[PsychicPokemonText] full-width
 Psychic
 
-[ColorlessPokemonText]
+[ColorlessPokemonText] full-width
 Colorless
 
 [TrainerCardText]
 Trainer cards
 
-[EnergyCardText]
+[EnergyCardText] full-width
 Energy cards
 
 [DeckPrinterText]
@@ -312,21 +312,24 @@ is now on the Bench.
 <RAMTEXT>
 is now in the Arena.
 
-[ShufflesTheDeckText]
-<RAMNAME> shuffles the Deck.
+[ShufflesTheDeckText] full-width
+<RAMNAME> shuffles
+the Deck.
 
-[PracticeDuelNoShufflesText]
-This is practice, so no shuffling.
+[PracticeDuelNoShufflesText] full-width
+This is practice,
+so no shuffling.
 
 [EachPlayerShuffleOpponentsDeckText]
 Players shuffle each other's Decks.
 
-[EachPlayerDraw7CardsText]
-Each player draws 7 cards.
+[EachPlayerDraw7CardsText] full-width
+Each player draws
+7 cards.
 
-[Drew7CardsText]
-<RAMNAME>
-draws 7 cards.
+[Drew7CardsText] full-width
+<RAMNAME> draws 7
+cards.
 
 [DeckPileCardCountText] full-width
 <RAMNAME> has <RAMNUM>
@@ -389,13 +392,15 @@ who plays first.
 Deciding the
 result...
 
-[DuelWasADrawText]
-You tied the duel with <RAMNAME>.
+[DuelWasADrawText] full-width
+You tied the duel
+with <RAMNAME>.
 
-[WonDuelText]
-You beat <RAMNAME> in the duel!
+[WonDuelText] full-width
+You beat <RAMNAME> in
+the duel!
 
-[LostDuelText]
+[LostDuelText] full-width
 You lost the duel
 to <RAMNAME>...
 
@@ -408,14 +413,14 @@ Prizes left
 Pokémon left
 Deck
 
-[NoneText]
+[NoneText] full-width
 No
 
-[YesText]
+[YesText] full-width
 Yes
 
-[CardsUnitText]
-`  `
+[CardsUnitText] full-width
+` `
 
 [DrewFromPrizesText]
 <RAMNAME> took <RAMTEXT>
@@ -621,7 +626,7 @@ has no cards.
 [DuelistDiscardPileText] full-width
 Discards: <RAMNAME>
 
-[DuelistHandText]
+[DuelistHandText] full-width
 Hand: <RAMNAME>
 
 [DuelistPlayAreaText]
@@ -665,28 +670,31 @@ in the Discard Pile.
 There are no basic Energy cards
 in the Discard Pile.
 
-[NoCardsLeftInTheDeckText]
-No cards left in the Deck.
+[NoCardsLeftInTheDeckText] full-width
+No cards left in
+the Deck.
 
-[NoSpaceOnTheBenchText]
+[NoSpaceOnTheBenchText] full-width
 The Bench is full.
 
 [NoPokemonCapableOfEvolvingText] full-width
 There are no
 Pokémon to evolve.
 
-[CantEvolvePokemonInSameTurnItsPlacedText]
-Can't evolve the turn it's played.
+[CantEvolvePokemonInSameTurnItsPlacedText] full-width
+Can't evolve the
+turn it's played.
 
 [NotAffectedByStatusText]
 Not Poisoned, Asleep, Paralyzed,
 or Confused.
 
-[NotEnoughCardsInHandText]
+[NotEnoughCardsInHandText] full-width
 Not enough cards.
 
-[EffectNoBenchedPokemonText]
-No Pokémon on the Bench.
+[EffectNoBenchedPokemonText] full-width
+No Pokémon on the
+Bench.
 
 [NoBasicPokemonInDiscardPileText]
 The Discard
@@ -700,11 +708,13 @@ has no Pokémon.
 The conditions to evolve into a
 Stage 2 Pokémon aren't met.
 
-[NoExchangeableCardsInHandText]
-There are no cards in Hand to trade.
+[NoExchangeableCardsInHandText] full-width
+There are no cards
+in Hand to trade.
 
-[NoCardsInDiscardPileText]
-No cards in the Discard Pile.
+[NoCardsInDiscardPileText] full-width
+No cards in the
+Discard Pile.
 
 [NoEvolvedPokemonText] full-width
 No Evolved Pokémon
@@ -726,15 +736,17 @@ Energy to flee.
 Not enough Energy
 cards.
 
-[NotEnoughFireEnergyText]
-Not enough Fire Energy.
+[NotEnoughFireEnergyText] full-width
+Not enough Fire
+Energy.
 
 [NotEnoughPsychicEnergyText] full-width
 Not enough Psychic
 Energy.
 
-[NotEnoughWaterEnergyText]
-Not enough Water Energy.
+[NotEnoughWaterEnergyText] full-width
+Not enough Water
+Energy.
 
 [NoTrainerCardsInDiscardPileText]
 There are no Trainer cards
@@ -764,8 +776,9 @@ Resistance.
 The Defending Pokémon has no
 Weakness, so it can't be changed.
 
-[OnlyOncePerTurnText]
-Only once during your turn.
+[OnlyOncePerTurnText] full-width
+Only once during
+your turn.
 
 [CannotUseDueToStatusText]
 Can't use it while Asleep,
@@ -783,15 +796,17 @@ are attached.
 There's no Grass
 Energy.
 
-[CannotUseSinceTheresOnly1PokemonText]
-Can't use it with only 1 Pokémon.
+[CannotUseSinceTheresOnly1PokemonText] full-width
+Can't use it with
+only 1 Pokémon.
 
 [CannotUseBecauseItWillBeKnockedOutText]
 Can't use it, as it'd be
 Knocked Out.
 
-[CanOnlyBeUsedOnTheBenchText]
-Only usable on the Bench.
+[CanOnlyBeUsedOnTheBenchText] full-width
+Only usable on the
+Bench.
 
 [NoBenchedPokemonOnBenchText]
 There are no Pokémon on the Bench.
@@ -831,10 +846,11 @@ turn.
 Only usable while
 Asleep.
 
-[NoCardsInOpponentsHandText]
-Opponent holds no cards.
+[NoCardsInOpponentsHandText] full-width
+Opponent holds no
+cards.
 
-[NoEvolutionCardsInDiscardPileText]
+[NoEvolutionCardsInDiscardPileText] full-width
 No Evolution cards
 discarded.
 
@@ -882,7 +898,7 @@ The printer's batteries are low.
 Error <No>0<RAMNUM>
 The printer paper is jammed.
 
-[PrinterErrorText]
+[PrinterErrorText] full-width
 Error <No>0<RAMNUM>
 Printer error.
 

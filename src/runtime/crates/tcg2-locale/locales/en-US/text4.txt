@@ -67,7 +67,7 @@ Some
 [ConfigAnimationNoneText] full-width
 Off
 
-[PlayerDiaryTitleText]
+[PlayerDiaryTitleText] full-width
 <RAMNAME>'s Diary
 
 [PlayerDiaryNameText]
@@ -159,7 +159,7 @@ Map Chips in Use:
 [CardsAndChipsUnitText]
 `  `
 
-[ChipsText]
+[ChipsText] full-width
 Chips
 
 [PCMenuDeckDiagnosisText]
@@ -180,8 +180,10 @@ Card Pop!
 [MainMenuContinueDuelText] full-width
 Resume
 
-[MainMenuNewGameDialogText]
-Start a new game from the beginning.
+[MainMenuNewGameDialogText] full-width
+Start a new
+game from the
+beginning.
 
 [MainMenuCardPopDialogText]
 "Card Pop!" with a friend and
@@ -783,8 +785,9 @@ Check Mailbox
 [MinicomCardAlbumText]
 View Card List
 
-[MinicomDialogText]
-Please choose from the menu.
+[MinicomDialogText] full-width
+Please choose from
+the menu.
 
 [PlayersChipsText]
 ` <RAMNAME>'s Chips `
@@ -866,8 +869,9 @@ You can try up to 10 times!
 Bonus Chip marks lined up!
 You got <RAMNUM> chips!
 
-[GameCenterSlotMachineBonusPlayLegendaryHitText]
-Edition marks lined up!
+[GameCenterSlotMachineBonusPlayLegendaryHitText] full-width
+Edition marks
+lined up!
 
 [GameCenterSlotMachineMissedText]
 Too bad!
@@ -1685,18 +1689,22 @@ We look forward to your visit!
 [MailboxTitleText] full-width
 ` Mailbox `
 
-[MailboxFullWarningText]
-Your Mailbox is full, so new Mail
-can't be received. To read new
-Mail, please delete any Mail you
-no longer need.
+[MailboxFullWarningText] full-width
+Your Mailbox is
+full, so new Mail
+can't be received.
+To read new Mail,
+please delete any
+Mail you no longer
+need.
 
-[MailboxNoNewMailText]
-No new Mail
-has arrived.
+[MailboxNoNewMailText] full-width
+No new Mail has
+arrived.
 
-[MailboxNewMailText]
-New Mail has arrived!
+[MailboxNewMailText] full-width
+New Mail has
+arrived!
 
 [MailboxChooseMailText] full-width
 Select Mail.
@@ -1970,7 +1978,7 @@ Green
 [ConfigFrameColorBlackText]
 Dark
 
-[GameCenterBlackBoxSendingHeaderText]
+[GameCenterBlackBoxSendingHeaderText] full-width
 Sending
 
 [GameCenterBlackBoxConfirmPromptText] full-width
@@ -2056,13 +2064,13 @@ your "Diary."
 [MainMenuContinueFromDiaryInsteadOfDuelConfirmText]
 Continue from your Diary?
 
-[TCGChallengeMachineText]
+[TCGChallengeMachineText] full-width
 Challenge Mach.
 
-[GRChallengeMachineText]
-GR Challenge Machine
+[GRChallengeMachineText] full-width
+GR Challenge Mach.
 
-[ChallengeMachineScoreTitleText]
+[ChallengeMachineScoreTitleText] full-width
 <RAMNAME>'s Score
 
 [ChallengeMachineSetsWonRecordText]

@@ -57,11 +57,11 @@ Acid.
 Can't flee due to
 Rock Seal.
 
-[UnableToRetreatDueToDrillDiveText]
+[UnableToRetreatDueToDrillDiveText] full-width
 Can't flee due to
 Drill Dive.
 
-[UnableToRetreatDueToGuardText]
+[UnableToRetreatDueToGuardText] full-width
 Can't flee due to
 Guard.
 
@@ -81,13 +81,13 @@ to Tail Whip.
 Can't attack due
 to Leer.
 
-[UnableToAttackDueToBoneAttackText]
-Can't attack due to
-Bone Attack.
+[UnableToAttackDueToBoneAttackText] full-width
+Can't attack due
+to Bone Attack.
 
-[UnableToAttackDueToDrillDiveText]
-Can't attack due to
-Drill Dive.
+[UnableToAttackDueToDrillDiveText] full-width
+Can't attack due
+to Drill Dive.
 
 [UnableToUseAttackDueToAmnesiaText]
 Can't use this
@@ -494,7 +494,7 @@ Gyarados
 Choose a
 Gyarados.
 
-[ReceivedDamageDueToFinalBeamText]
+[ReceivedDamageDueToFinalBeamText] full-width
 Final Beam dealt
 <RAMNUM> damage!
 
@@ -617,9 +617,11 @@ card(s).
 [ClefairyDollMindShockName]
 Mind Shock
 
-[ClefairyDollMindShockDescription]
-Don't apply Weakness and Resistance
-for this attack.
+[ClefairyDollMindShockDescription] full-width
+Don't apply
+Weakness and
+Resistance for
+this attack.
 
 [DiscardingXCardsPromptText]
 OK to discard <RAMNUM> card(s)?
@@ -823,7 +825,7 @@ put in the Deck.
 <RAMTEXT>
 added to Hand.
 
-[TheCardYouReceivedText]
+[TheCardYouReceivedText] full-width
 Cards you received
 
 [YouReceivedTheseCardsText] full-width
@@ -1070,11 +1072,13 @@ Bring the Game Boys close. Press A!
 Receiving a deck configuration.
 Bring the Game Boys close together.
 
-[TransmittingCardUnsuccessfulSenderText]
-Failed to send the cards.
+[TransmittingCardUnsuccessfulSenderText] full-width
+Failed to send the
+cards.
 
-[TransmittingCardUnsuccessfulReceiverText]
-Failed to receive the cards.
+[TransmittingCardUnsuccessfulReceiverText] full-width
+Failed to receive
+the cards.
 
 [TransmittingDeckConfigurationUnsuccessfulSenderText]
 Failed to send the deck
@@ -1156,20 +1160,23 @@ both beaten the game.
 Look at the records of every
 Card Pop! you've done so far.
 
-[CardPopExitText]
+[CardPopExitText] full-width
 Exit Card Pop!
 
 [AreYouBothReadyToCardPopText] full-width
 Are you both ready
 for Card Pop!?
 
-[CardPopUnsuccessfulTryAgainText]
-The Card Pop! didn't work.
+[CardPopUnsuccessfulTryAgainText] full-width
+The Card Pop!
+didn't work.
 Please try again.
 
-[CannotCardPopWithFriendPreviouslyPoppedWithText]
-You can't Card Pop! with a friend
-you've popped with before.
+[CannotCardPopWithFriendPreviouslyPoppedWithText] full-width
+You can't Card
+Pop! with a friend
+you've popped with
+before.
 
 [PositionGameBoyColorsAndPressAButtonText]
 Bring the Game Boys close together
@@ -1188,11 +1195,14 @@ Pop!?
 Received <RAMTEXT>
 through Rare Card Pop!
 
-[CannotRareCardPopWithFriendPreviouslyPoppedWithText]
-You can't Rare Card Pop! with a
-friend you've popped with before.
+[CannotRareCardPopWithFriendPreviouslyPoppedWithText] full-width
+You can't Rare
+Card Pop! with a
+friend you've
+popped with
+before.
 
-[CardPopModeMismatchedText]
+[CardPopModeMismatchedText] full-width
 Card Pop! types
 don't match.
 
@@ -1259,20 +1269,24 @@ to get a super-rare card!
 [GameCenterBillsPCStartPromptText]
 Play Bill's Computer?
 
-[GameCenterBillsPCUnableNoBillsComputerText]
-You can't play without a
-Bill's Computer card.
-Get a Bill's Computer card first,
-then come back to play.
+[GameCenterBillsPCUnableNoBillsComputerText] full-width
+You can't play
+without a Bill's
+Computer card. Get
+a Bill's Computer
+card first, then
+come back to play.
 
 [GameCenterBillsPCYourCompatibleCardsText]
 Cards for Bill's Computer
 
-[GameCenterBillsPCUnableNoCompatibleCardsText]
-You have no cards that work with
+[GameCenterBillsPCUnableNoCompatibleCardsText] full-width
+You have no cards
+that work with
 Bill's Computer.
-Get the cards you need
-and then come back.
+Get the cards you
+need and then come
+back.
 
 [GameCenterBillsPCChooseACardToInsertText]
 Choose a card to put in together
@@ -1296,17 +1310,22 @@ into Bill's Computer!
 <RAMNAME> received
 <RAMTEXT>!
 
-[GameCenterBillsPCUnableLastOutputRemainingText]
-Mail from Bill's Computer is still
-waiting in your Mailbox.
-Read the Mail and get the card,
-then come back.
+[GameCenterBillsPCUnableLastOutputRemainingText] full-width
+Mail from Bill's
+Computer is still
+waiting in your
+Mailbox. Read the
+Mail and get the
+card, then come
+back.
 
-[GameCenterBillsPCUnableNotEnoughChipsText]
-Bill's Computer is 20 chips a play.
-You don't have enough chips!
+[GameCenterBillsPCUnableNotEnoughChipsText] full-width
+Bill's Computer is
+20 chips a play.
+You don't have
+enough chips!
 
-[DeckText]
+[DeckText] full-width
 Deck
 
 [HiraganaOptionText]
@@ -1330,8 +1349,9 @@ Your name?
 [NewDeckText]
 Build a new deck
 
-[PleaseSelectDeckText]
-Please select a deck.
+[PleaseSelectDeckText] full-width
+Please select a
+deck.
 
 [ModifyDeckText]
 Modify Deck
@@ -1352,16 +1372,16 @@ as
 <RAMTEXT> was
 chosen as the dueling deck!
 
-[Deck1Text]
+[Deck1Text] full-width
 1.
 
-[Deck2Text]
+[Deck2Text] full-width
 2.
 
-[Deck3Text]
+[Deck3Text] full-width
 3.
 
-[Deck4Text]
+[Deck4Text] full-width
 4.
 
 [Deck5Text]
@@ -1458,7 +1478,7 @@ Opp. Prizes
 [ToOpponentsPlayAreaHiraganaText]
 To Opp. Area
 
-[DuelistsPlayAreaSuffixText]
+[DuelistsPlayAreaSuffixText] full-width
 's
 
 [YourPlayAreaHiraganaText]
@@ -1473,22 +1493,24 @@ In Play Area
 [GlossaryText]
 Glossary
 
-[WhichCardWouldYouLikeToSeeText]
-Which cards will you view?
+[WhichCardWouldYouLikeToSeeText] full-width
+Which cards will
+you view?
 
-[PleaseChooseAPrizeText]
-Please choose a Prize.
+[PleaseChooseAPrizeText] full-width
+Please choose a
+Prize.
 
 [HandText_2]
 Hand
 
-[DuelistHandText_2]
+[DuelistHandText_2] full-width
 Hand: <RAMNAME>
 
-[DuelistDiscardPileText_2]
+[DuelistDiscardPileText_2] full-width
 Discards: <RAMNAME>
 
-[BoosterPackTitleText]
+[BoosterPackTitleText] full-width
 Expansions
 
 [Item1BeginningPokemonText]
@@ -1540,7 +1562,7 @@ File?
 [OnesCardsText]
 's Cards
 
-[DeckSaveMachineText]
+[DeckSaveMachineText] full-width
 Deck Save Machine
 
 [SaveDeckToMachineText]
@@ -1722,10 +1744,10 @@ for sending cards.
 [SendText]
 Send
 
-[CardsReceivedText]
+[CardsReceivedText] full-width
 Card received
 
-[CardsToSendToPlayerText]
+[CardsToSendToPlayerText] full-width
 Card to send
 
 [SendTheseCardsToPlayerPromptText] full-width
@@ -1739,8 +1761,9 @@ from <RAMTEXT>!
 Please choose a deck
 configuration to send.
 
-[ChooseWhereToSaveText]
-Please choose a save slot.
+[ChooseWhereToSaveText] full-width
+Please choose a
+save slot.
 
 [ReceiveRecordsText]
 Receive Record

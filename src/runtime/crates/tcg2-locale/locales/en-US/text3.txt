@@ -1166,41 +1166,57 @@ Player
 [DrMasonText]
 Dr. Mason
 
-[PracticeDuelHeaderPlayersTurnNumberText]
+[PracticeDuelHeaderPlayersTurnNumberText] full-width
 <RAMNAME>: Turn <RAMNUM>
 
 [PracticeDuelHeaderKnockedOutReplaceText]
 Knock Out Replacement
 
-[PracticeDuelMasonSetupsActivePokemonText]
-Once you've drawn 7 cards, it's time
-to get ready for the duel.
-Choose a Pokémon from your Hand to
-place in the Arena.
-Only Basic Pokémon can go there, so
-you can choose Diglett or Pidgey.
-This time, let's go with Diglett!
+[PracticeDuelMasonSetupsActivePokemonText] full-width
+Once you've drawn
+7 cards, it's time
+to get ready for
+the duel. Choose
+a Pokémon from
+your Hand to place
+in the Arena.
+Only Basic Pokémon
+can go there, so
+you can choose
+Diglett or Pidgey.
+This time, let's
+go with Diglett!
 
-[PracticeDuelMasonSetupsActivePokemonIncorrectText]
-Just this once, choose Diglett.
+[PracticeDuelMasonSetupsActivePokemonIncorrectText] full-width
+Just this once,
+choose Diglett.
 
-[PracticeDuelMasonSetupsBenchedPokemonText]
-Now then, next you'll place a
-Pokémon on your Bench.
-Pokémon on the Bench wait in reserve
-for the Pokémon in the Arena.
-Only Basic Pokémon can go on the
-Bench, too.
-Choose Pidgey from your Hand and
-place it on your Bench.
-
-[PracticeDuelMasonSetupsBenchedPokemonIncorrectText]
-Just this once, put Pidgey on your
+[PracticeDuelMasonSetupsBenchedPokemonText] full-width
+Now then, next
+you'll place a
+Pokémon on your
+Bench. Pokémon on
+the Bench wait in
+reserve for the
+Pokémon in the
+Arena. Only Basic
+Pokémon can go on
+the Bench, too.
+Choose Pidgey
+from your Hand and
+place it on your
 Bench.
 
-[PracticeDuelMasonSetupsFinishPressBText]
-When you have no more Pokémon to
-play, press the B Button to finish.
+[PracticeDuelMasonSetupsBenchedPokemonIncorrectText] full-width
+Just this once,
+put Pidgey on your
+Bench.
+
+[PracticeDuelMasonSetupsFinishPressBText] full-width
+When you have no
+more Pokémon to
+play, press the B
+Button to finish.
 
 [PracticeDuelTurn1Instr1Text]
 1. Choose "Hand" from the menu and
@@ -1240,15 +1256,18 @@ attack! Choose
 menu and attack
 with Dig!
 
-[PracticeDuelMasonProceedAsTaughtText]
-Now then!
-Try it just the way I explained!
+[PracticeDuelMasonProceedAsTaughtText] full-width
+Now then! Try it
+just the way I
+explained!
 
-[PracticeDuelMasonIncorrectRetryText]
-This is "practice," so do things
-exactly as you're told.
-Let's start over and try that
-again.
+[PracticeDuelMasonIncorrectRetryText] full-width
+This is
+"practice," so do
+things exactly as
+you're told. Let's
+start over and try
+that again.
 
 [PracticeDuelMasonExplainAgainPromptText] full-width
 Shall I explain it
@@ -1465,31 +1484,31 @@ you knock it out,
 take a Prize, and
 you win, <RAMNAME>!
 
-[DeckDiagnosisStep1Text]
+[DeckDiagnosisStep1Text] full-width
 Step 1
 
-[DeckDiagnosisStep2Text]
+[DeckDiagnosisStep2Text] full-width
 Step 2
 
-[DeckDiagnosisStep3Text]
+[DeckDiagnosisStep3Text] full-width
 Step 3
 
-[DeckDiagnosisStep4Text]
+[DeckDiagnosisStep4Text] full-width
 Step 4
 
-[DeckDiagnosisAdvice1Text]
+[DeckDiagnosisAdvice1Text] full-width
 Advice 1
 
-[DeckDiagnosisAdvice2Text]
+[DeckDiagnosisAdvice2Text] full-width
 Advice 2
 
-[DeckDiagnosisAdvice3Text]
+[DeckDiagnosisAdvice3Text] full-width
 Advice 3
 
-[DeckDiagnosisAdvice4Text]
+[DeckDiagnosisAdvice4Text] full-width
 Advice 4
 
-[DeckDiagnosisExitText]
+[DeckDiagnosisExitText] full-width
 Quit
 
 [DeckDiagnosisStep1MenuText]
@@ -1550,9 +1569,12 @@ Fighting
 [DeckDiagnosisPsychicText]
 Psychic
 
-[DeckDiagnosisDialogInitialText]
-This is Dr. Mason's Deck Diagnosis!
-Pick something from the menu.
+[DeckDiagnosisDialogInitialText] full-width
+This is Dr.
+Mason's Deck
+Diagnosis! Pick
+something from the
+menu.
 
 [DeckDiagnosisDialogStep1Text]
 Basic advice on how to build a deck.
@@ -1569,46 +1591,51 @@ up even further.
 Advice for those who want to get
 even stronger.
 
-[DeckDiagnosisDialogExitText]
-Ending the Deck Diagnosis.
+[DeckDiagnosisDialogExitText] full-width
+Ending the Deck
+Diagnosis.
 
-[DeckDiagnosisDialogCheckDeckText]
-I'll look over your deck for you.
+[DeckDiagnosisDialogCheckDeckText] full-width
+I'll look over
+your deck for you.
 
 [DeckDiagnosisDialogStep1Advice1Text]
 Basic Pokémon are the foundation of
 Pokémon cards!
 
-[DeckDiagnosisDialogStep1Advice2Text]
-Don't forget to add
-Energy cards!
+[DeckDiagnosisDialogStep1Advice2Text] full-width
+Don't forget to
+add Energy cards!
 
 [DeckDiagnosisDialogStep1Advice3Text]
 Think about balance when adding
 Evolution cards!
 
-[DeckDiagnosisDialogBackText]
-Back to the main menu.
+[DeckDiagnosisDialogBackText] full-width
+Back to the main
+menu.
 
-[DeckDiagnosisDialogStep2Advice1Text]
-First up:
-Bill and Professor Oak!
+[DeckDiagnosisDialogStep2Advice1Text] full-width
+First up: Bill and
+Professor Oak!
 
-[DeckDiagnosisDialogStep2Advice2Text]
-Next up:
-Potion and Switch!
+[DeckDiagnosisDialogStep2Advice2Text] full-width
+Next up: Potion
+and Switch!
 
 [DeckDiagnosisDialogStep2Advice3Text]
 Poison, Paralysis, Sleep, Confusion,
 and Full Heal!
 
-[DeckDiagnosisDialogStep3Advice1Text]
-First, a 2-color deck!
+[DeckDiagnosisDialogStep3Advice1Text] full-width
+First, a 2-color
+deck!
 
-[DeckDiagnosisDialogStep3Advice2Text]
-Next, a 3-color deck!
+[DeckDiagnosisDialogStep3Advice2Text] full-width
+Next, a 3-color
+deck!
 
-[DeckDiagnosisDialogStep3Advice3Text]
+[DeckDiagnosisDialogStep3Advice3Text] full-width
 Think about what
 went wrong.
 
@@ -1620,16 +1647,17 @@ color.
 Build decks that make good use of
 Colorless Pokémon!
 
-[DeckDiagnosisDialogStep4Advice3Text]
-How to use Professor Oak.
+[DeckDiagnosisDialogStep4Advice3Text] full-width
+How to use
+Professor Oak.
 
 [DeckDiagnosisDialogStep4Advice4Text]
 How to duel with "Rush" and
 "Wall" decks.
 
-[DeckDiagnosisChooseDeckToCheckText]
-Which deck
-shall I check for you?
+[DeckDiagnosisChooseDeckToCheckText] full-width
+Which deck shall I
+check for you?
 
 [DeckDiagnosisCheckingDeckText]
 "<RAMTEXT> Deck"
@@ -1668,10 +1696,12 @@ straight into play. No Pokémon, no
 duel! And without Basic Pokémon,
 you can't play Evolution cards!
 
-[DeckDiagnosisStep1Advice1Description2Text]
+[DeckDiagnosisStep1Advice1Description2Text] full-width
 Hmm, let me see...
-You'll want at least 12 Basic
-Pokémon cards in your deck!
+You'll want at
+least 12 Basic
+Pokémon cards in
+your deck!
 
 [DeckDiagnosisStep1Advice2Description1Text]
 Don't forget to put Energy cards in
@@ -1761,9 +1791,12 @@ Lightning Pokémon are weak to
 Fighting, so add a few Colorless
 (Flying type) Pokémon to cover them.
 
-[DeckDiagnosisStep3Advice1Description4Text]
-So that makes a deck of Fire +
-Lightning + Colorless (Flying type).
+[DeckDiagnosisStep3Advice1Description4Text] full-width
+So that makes a
+deck of Fire +
+Lightning +
+Colorless (Flying
+type).
 
 [DeckDiagnosisStep3Advice2Description1Text]
 With some ingenuity, a 3-color deck
@@ -1773,11 +1806,14 @@ Pokémon of 2 or more colors), like
 3-color decks, it's good to add 2 to
 4 Energy Search cards.
 
-[DeckDiagnosisStep3Advice2Description2Text]
+[DeckDiagnosisStep3Advice2Description2Text] full-width
 For example...
-Fire + Lightning + Grass works
-surprisingly well. Looks like a
-traffic light, though... Ha ha!
+Fire + Lightning
++ Grass works
+surprisingly well.
+Looks like a
+traffic light,
+though... Ha ha!
 
 [DeckDiagnosisStep3Advice3Description1Text]
 Whatever happens, don't worry about
@@ -1861,11 +1897,15 @@ Pokémon with attacks that use
 Colorless Energy make multicolor
 decks easier to use.
 
-[DeckDiagnosisStep4Advice2Description3Text]
-For example, cards like Ponyta with
-Smash Kick, Squirtle with Shell
-Attack, Scyther with Slash, and
-Machop with Punch.
+[DeckDiagnosisStep4Advice2Description3Text] full-width
+For example,
+cards like Ponyta
+with Smash Kick,
+Squirtle with
+Shell Attack,
+Scyther with
+Slash, and Machop
+with Punch.
 
 [DeckDiagnosisStep4Advice3Description1Text]
 Don't hold back with Professor Oak!
@@ -1902,75 +1942,96 @@ Arena while you power up Pokémon
 with big attacks on the Bench.
 It's the opposite of a Rush Deck!
 
-[DeckDiagnosisTooFewBasicPokemonText]
-Hmm... You don't seem to have many
+[DeckDiagnosisTooFewBasicPokemonText] full-width
+Hmm... You don't
+seem to have many
+Basic Pokémon. Try
+adding a few more
 Basic Pokémon.
-Try adding a few more Basic
-Pokémon.
 
-[DeckDiagnosisTooManyColorsText]
-Try a deck of 2 colors + Colorless
-or 3 colors + Colorless.
+[DeckDiagnosisTooManyColorsText] full-width
+Try a deck of 2
+colors + Colorless
+or 3 colors +
+Colorless.
 
-[DeckDiagnosisTooFewPokemonText]
-You seem a little short on Pokémon
+[DeckDiagnosisTooFewPokemonText] full-width
+You seem a little
+short on Pokémon
+cards. It'd be
+best to add a
+few more Pokémon
 cards.
-It'd be best to add a few more
+
+[DeckDiagnosisTooManyPokemonText] full-width
+You seem to have
+a few too many
+Pokémon cards.
+It'd be best to
+take out a few
 Pokémon cards.
 
-[DeckDiagnosisTooManyPokemonText]
-You seem to have a few too many
-Pokémon cards.
-It'd be best to take out a few
-Pokémon cards.
+[DeckDiagnosisTooFewEnergyText] full-width
+You seem to be
+short on Energy
+cards! It'd be
+best to add a few
+more Energy cards.
 
-[DeckDiagnosisTooFewEnergyText]
-You seem to be short on Energy
-cards!
-It'd be best to add a few more
-Energy cards.
+[DeckDiagnosisTooManyEnergyText] full-width
+You seem to have
+too many Energy
+cards! It'd be
+best to take out a
+few Energy cards.
 
-[DeckDiagnosisTooManyEnergyText]
-You seem to have too many Energy
-cards!
-It'd be best to take out a few
-Energy cards.
+[DeckDiagnosisNoEnergyText] full-width
+You fool! There
+isn't a single
+Energy card in
+this deck! Without
+Energy cards, you
+can't do a thing!!
 
-[DeckDiagnosisNoEnergyText]
-You fool! There isn't a single
-Energy card in this deck!
-Without Energy cards, you can't do
-a thing!!
-
-[DeckDiagnosisEvolutionMismatchedText]
-Some Pokémon cards don't have the
-Pokémon they evolve from!
+[DeckDiagnosisEvolutionMismatchedText] full-width
+Some Pokémon cards
+don't have the
+Pokémon they
+evolve from!
 
 [DeckDiagnosisEvolutionMismatchedListText]
 These cards don't have the
 Pokémon they evolve from:
 
-[DeckDiagnosisEvolutionUnbalancedText]
-The balance between some Basic,
-Stage 1, and Stage 2 cards is off.
+[DeckDiagnosisEvolutionUnbalancedText] full-width
+The balance
+between some
+Basic, Stage 1,
+and Stage 2 cards
+is off.
 
 [DeckDiagnosisEvolutionUnbalancedListText]
 Here are the cards with a poor
 evolution balance:
 
-[DeckDiagnosisPokemonEnergyMismatchedText]
-Match the colors of the Pokémon and
-Energy cards in your deck.
+[DeckDiagnosisPokemonEnergyMismatchedText] full-width
+Match the colors
+of the Pokémon and
+Energy cards in
+your deck.
 
 [DeckDiagnosisPokemonEnergyMismatchedListText]
 These Energy cards don't match the
 colors of your Pokémon:
 
-[DeckDiagnosisPokemonEnergyUnbalancedText]
-You seem to have too little Energy
-for the number of Pokémon.
-Add more Energy cards so your
-Pokémon can use their attacks!
+[DeckDiagnosisPokemonEnergyUnbalancedText] full-width
+You seem to have
+too little Energy
+for the number of
+Pokémon. Add more
+Energy cards so
+your Pokémon can
+use their attacks!
 
 [DeckDiagnosisTooManyEnergyThisColorText]
 <RAMTEXT> Energy makes up too
@@ -1990,25 +2051,35 @@ much of your deck.
 You'd do better to raise the share
 of <RAMTEXT> Energy.
 
-[DeckDiagnosisOKText]
-As a basic deck, this one will do
-just fine.
-Go on, try a duel with it.
-There's nothing like trying it out!
+[DeckDiagnosisOKText] full-width
+As a basic deck,
+this one will
+do just fine.
+Go on, try a duel
+with it. There's
+nothing like
+trying it out!
 
-[DeckDiagnosisOKButNoTrainerText]
-As a basic deck, this one will do
-just fine.
-Go on, try a duel with it.
-There's nothing like trying it out!
-But it doesn't seem to have a single
+[DeckDiagnosisOKButNoTrainerText] full-width
+As a basic deck,
+this one will
+do just fine.
+Go on, try a duel
+with it. There's
+nothing like
+trying it out! But
+it doesn't seem
+to have a single
 Trainer card.
-Trainer cards are handy!
-Give them a try sometime.
+Trainer cards are
+handy! Give them a
+try sometime.
 
-[DeckDiagnosisEnergyUnbalancedText]
-Hmmm... Your Energy balance doesn't
-look very good...
+[DeckDiagnosisEnergyUnbalancedText] full-width
+Hmmm... Your
+Energy balance
+doesn't look very
+good...
 
 [DebugDummyText]
 Dummy

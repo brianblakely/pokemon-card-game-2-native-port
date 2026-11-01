@@ -20,7 +20,7 @@
 //!   glossary, the practice duel's steps, the special rules
 //!   ([`DataTables`]).
 //! - A few texts and tables printed at fixed places, measured by hand from
-//!   the code that prints them ([`MEASURED`], [`TABLES`], [`TABLE_TEXTS`]).
+//!   the code that prints them ([`measured`], [`TABLES`], [`TABLE_TEXTS`]).
 //!
 //! A text the decomp prints anywhere else (a card's name, a screen's
 //! title, a text the code computes or stores in a table) stays half-width:
@@ -39,6 +39,7 @@
 
 use super::*;
 use std::collections::{BTreeMap, HashSet};
+use std::sync::OnceLock;
 
 /// Tiles a line in the game's wide text boxes (`DrawWideTextBox`,
 /// `PrintScrollableText`: from x = 1, inside the border at x = 19).
@@ -228,159 +229,47 @@ const TABLE_TEXTS: [(&str, Option<Place>); 3] = [
 const NOT_PRINTED: [(&str, &str); 1] = [("ButterfreeMegaDrainEffect", "DoneText")];
 
 /// Texts printed where the scan cannot measure the room, measured by hand
-/// from the routine that prints them: (routine, text, place).
-const MEASURED: [(&str, &str, Place); 18] = [
-    // The hero's gender, at (5, 8) in the 20×12 box, under the portrait
-    // (from x = 12 on).
-    (
-        "ConfirmPlayerNameAndGender",
-        "PlayerGenderMaleText",
-        Place::Box { width: 7, lines: 1 },
-    ),
-    (
-        "ConfirmPlayerNameAndGender",
-        "PlayerGenderFemaleText",
-        Place::Box { width: 7, lines: 1 },
-    ),
-    // The PC screen's title, at (7, 2) in the 20×4 box at the top.
-    (
-        "DrawMinicomMainScreen",
-        "PauseMenuMinicomText",
-        Place::Box {
-            width: 12,
-            lines: 1,
-        },
-    ),
-    // The status screen's coin box: Team GR's coin, at (4, 14).
-    (
-        "DrawStatusScreenBottomBox",
-        "PlayerStatusGRCoinText",
-        Place::Box {
-            width: 15,
-            lines: 1,
-        },
-    ),
-    // The Coins screen: "Current Coin" at (4, 4) in the 20×8 box.
-    (
-        "ShowSelectedCoinOnCoinMenu",
-        "PlayerStatusCurrentCoinText",
-        Place::Box {
-            width: 15,
-            lines: 1,
-        },
-    ),
-    // The Coins screen's prompt, at (1, 2) in the 20×8 box: the coin and its
-    // name take the lines below.
-    (
-        "CoinMenu",
-        "PlayerCoinSelectText",
-        Place::Box {
-            width: 18,
-            lines: 1,
-        },
-    ),
-    // The Coins screen after a new coin: the count, where the prompt
-    // stands.
-    (
-        "ShowReceivedCoinOnCoinMenu",
-        "ObtainedCoinTotalNumberText",
-        Place::Box {
-            width: 18,
-            lines: 1,
-        },
-    ),
-    (
-        "ShowReceivedCoinOnCoinMenu",
-        "ObtainedGRCoinPieceTotalNumberText",
-        Place::Box {
-            width: 18,
-            lines: 1,
-        },
-    ),
-    // The settings screen's exit, at (2, 17) under the last box, alone on
-    // its row.
-    (
-        "DrawConfigMenu",
-        "ConfigExitText",
-        Place::Box {
-            width: 18,
-            lines: 1,
-        },
-    ),
-    // The mailbox's list: "From:" and "Subject:" at x = 2, before their
-    // values at x = 7.
-    (
-        "PrintMailSenderAndSubjectToScreen",
-        "MailboxSenderText",
-        Place::Box { width: 5, lines: 1 },
-    ),
-    (
-        "PrintMailSenderAndSubjectToScreen",
-        "MailboxSubjectText",
-        Place::Box { width: 5, lines: 1 },
-    ),
-    // The mailbox's title: at (6, 2) in the 20×4 box, and on the top border
-    // of its list and of a letter.
-    (
-        "Func_1ed2d",
-        "MailboxTitleText",
-        Place::Box {
-            width: 13,
-            lines: 1,
-        },
-    ),
-    (
-        "MailboxMainScreen",
-        "MailboxTitleText",
-        Place::Box {
-            width: 18,
-            lines: 1,
-        },
-    ),
-    (
-        "DrawReadMailScreenHeader",
-        "MailboxTitleText",
-        Place::Box {
-            width: 18,
-            lines: 1,
-        },
-    ),
-    // The mailbox's prompts, at (1, 2) in the 20×5 box at the top (one
-    // line: the box ends on the next).
-    (
-        "MailboxMainScreen",
-        "MailboxChooseMailText",
-        Place::Box {
-            width: 18,
-            lines: 1,
-        },
-    ),
-    (
-        "MailboxMainScreen",
-        "MailboxEmptyText",
-        Place::Box {
-            width: 18,
-            lines: 1,
-        },
-    ),
-    (
-        "DrawMailDeletedTextBox",
-        "MailboxDeletedText",
-        Place::Box {
-            width: 18,
-            lines: 1,
-        },
-    ),
-    // Over a letter's Read / Delete / End menu: (1, 1), the items on row 3.
-    (
-        "MailboxSelectedMail_LoadMenuBoxParams",
-        "MailboxActionPromptText",
-        Place::Box {
-            width: 18,
-            lines: 1,
-        },
-    ),
-];
+/// from the routine that prints them (`measured.txt`): (routine, text,
+/// place), none for a reference no player sees printed.
+fn measured() -> &'static [(String, String, Option<Place>)] {
+    static MEASURED: OnceLock<Vec<(String, String, Option<Place>)>> = OnceLock::new();
+    MEASURED.get_or_init(|| {
+        let mut groups: Vec<String> = Vec::new();
+        include_str!("measured.txt")
+            .lines()
+            .map(|l| l.split('#').next().unwrap())
+            .filter(|l| !l.trim().is_empty())
+            .map(|l| {
+                let w: Vec<&str> = l.split_whitespace().collect();
+                if w[2] == "pages" {
+                    let place = Place::Pages { then_yes_no: false };
+                    return (w[0].to_string(), w[1].to_string(), Some(place));
+                }
+                let n = |i: usize| w[i].parse::<usize>().unwrap();
+                let (width, lines) = (n(2), n(3));
+                let place = match w.get(4) {
+                    _ if width == 0 => None,
+                    Some(group) => {
+                        assert_eq!(lines, 1, "{l}: a group's texts take one line");
+                        let id = groups.iter().position(|g| g == group).unwrap_or_else(|| {
+                            groups.push(group.to_string());
+                            groups.len() - 1
+                        });
+                        Some(Place::Item {
+                            width,
+                            menu: MEASURED_GROUPS + id,
+                        })
+                    }
+                    None => Some(Place::Box { width, lines }),
+                };
+                (w[0].to_string(), w[1].to_string(), place)
+            })
+            .collect()
+    })
+}
+
+/// Where the menu numbers of [`measured`]'s groups start, past the scan's.
+const MEASURED_GROUPS: usize = 1 << 20;
 
 /// The overworld script commands that print a text (`macros/scripts.asm`),
 /// through the routines above.
@@ -591,13 +480,23 @@ pub fn places(texts: &HashSet<String>) -> HashMap<String, Vec<Place>> {
                 continue;
             }
             // `ldtx hl, Text`: where the code goes from there with the text.
-            let measured = MEASURED
-                .iter()
-                .find(|(r, t, _)| *r == routine && refs.contains(t))
-                .map(|(_, _, place)| place.clone());
-            let reached = if let Some(place) = measured {
-                vec![place]
-            } else if op == "ldtx" && w.get(1) == Some(&"hl") {
+            // Texts measured by hand where this routine refers to them.
+            let (by_hand, refs): (Vec<&str>, Vec<&str>) = refs
+                .into_iter()
+                .partition(|t| measured().iter().any(|(r, m, _)| r == routine && m == t));
+            for t in by_hand {
+                let (_, _, place) = measured()
+                    .iter()
+                    .find(|(r, m, _)| r == routine && m == t)
+                    .unwrap();
+                let entry = places.entry(t.to_string()).or_default();
+                entry.extend(place.clone());
+            }
+            if refs.is_empty() {
+                i += 1;
+                continue;
+            }
+            let reached = if op == "ldtx" && w.get(1) == Some(&"hl") {
                 let followed = follow(lines, i + 1);
                 let mut reached = followed.places;
                 if followed.returned {
