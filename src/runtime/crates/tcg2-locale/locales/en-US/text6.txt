@@ -1757,22 +1757,22 @@ Super Energy Retrieval
 <RAMNAME> got
 "Potion Energy"!
 
-[CombosBookName]
+[CombosBookName] full-width
 "Combos"
 
-[EnergyTransBookName]
+[EnergyTransBookName] full-width
 "Energy Trans"
 
-[ToxicGasBookName]
+[ToxicGasBookName] full-width
 "Toxic Gas"
 
-[RainDanceBookName]
+[RainDanceBookName] full-width
 "Rain Dance"
 
-[SelfdestructBookName]
+[SelfdestructBookName] full-width
 "Selfdestruct"
 
-[DamageSwapBookName]
+[DamageSwapBookName] full-width
 "Damage Swap"
 
 [RemoveEnergiesBookName]
@@ -1784,16 +1784,16 @@ Super Energy Retrieval
 [WeaknessResistanceBookName]
 "Weakness" & "Resistance"
 
-[TeamGRBookName]
+[TeamGRBookName] full-width
 About "Team GR"
 
-[GameCenterBookName]
+[GameCenterBookName] full-width
 Game Center
 
-[SamePokemonBookName]
+[SamePokemonBookName] full-width
 Same Pokémon
 
-[PhantomCardsBookName]
+[PhantomCardsBookName] full-width
 Phantom Cards
 
 [DarkPokemonBookName]
@@ -1802,13 +1802,13 @@ Dark Pokémon Cards
 [AugmentBasicPokemonBookName]
 More Basic Pokémon
 
-[GRKingCardsBookName]
+[GRKingCardsBookName] full-width
 King's Card
 
-[SpecialEnergyBookName]
+[SpecialEnergyBookName] full-width
 Special Energy
 
-[GetCoinsBookName]
+[GetCoinsBookName] full-width
 Get Coins
 
 [RockGroundPokemonBookName]
@@ -1817,7 +1817,7 @@ Rock & Ground Pokémon
 [FightingPokemonSurefireMethodBookName]
 Fighting Pokémon Strategy
 
-[FightingPokemonFormidableOpponentsBookName]
+[FightingPokemonFormidableOpponentsBookName] full-width
 Tough Opponents
 
 [FightingPokemonBookName]
@@ -1829,7 +1829,7 @@ Fighting Pokémon Combos
 [FightingPokemonDeckBuildingBookName]
 Fighting Pokémon Decks
 
-[PlantlikePokemonBookName]
+[PlantlikePokemonBookName] full-width
 Plant Pokémon
 
 [GrassPokemonBreederBookName]
@@ -1838,7 +1838,7 @@ Grass Pokémon & Breeder
 [GrassPokemonDeckBuildingBookName]
 Grass Pokémon Decks
 
-[SciencePokemonBookName]
+[SciencePokemonBookName] full-width
 Science Pokémon
 
 [SciencePokemonSurefireMethodBookName]
@@ -1847,7 +1847,7 @@ Science Pokémon Strategy
 [SciencePokemonDeckBuildingBookName]
 Science Pokémon Decks
 
-[WaterPokemonBookName]
+[WaterPokemonBookName] full-width
 Water Pokémon
 
 [WaterPokemonAttacksBookName]
@@ -1871,22 +1871,22 @@ Lightning Pokémon
 [LightningPokemonDeckBuildingBookName]
 Lightning Pokémon Decks
 
-[BirdPokemonBookName]
+[BirdPokemonBookName] full-width
 Bird Pokémon
 
-[PsychicPokemonBookName]
+[PsychicPokemonBookName] full-width
 Psychic Pokémon
 
 [PsychicPokemonPokemonPowerBookName]
 Psychic Pokémon & Powers
 
-[UsefulButtonsBookName]
+[UsefulButtonsBookName] full-width
 Useful Buttons
 
 [ColorlessPokemonBookName]
 Colorless Pokémon
 
-[CardPopBookName]
+[CardPopBookName] full-width
 Card Pop!
 
 [EnergyCardColorsBookName]
@@ -1904,10 +1904,10 @@ Legendary Pokémon Cards 3
 [LegendaryPokemonCardsVol4BookName]
 Legendary Pokémon Cards 4
 
-[GrandMastersBookName]
+[GrandMastersBookName] full-width
 Grand Masters
 
-[CoinsBookName]
+[CoinsBookName] full-width
 About Coins
 
 [ErrorInvalidDataText]

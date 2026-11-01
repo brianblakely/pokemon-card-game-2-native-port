@@ -1724,9 +1724,8 @@ think hard about
 which to put in!
 
 [RockGroundPokemonBookText] full-width
-Traits of Rock
-and Ground
-Pokémon cards
+Traits of Rock and
+Ground Pokémon
 Strong against
 Lightning Pokémon,
 weak against Grass
@@ -1973,11 +1972,11 @@ with Lightning!
 [LightningPokemonBookText] full-width
 Traits of
 Lightning Pokémon
-cards Strong
-against Water
-Pokémon, weak
-against Fighting
-Pokémon. They need
+Strong against
+Water Pokémon,
+weak against
+Fighting Pokémon.
+They need
 Lightning Energy
 cards to use their
 attacks.
@@ -2002,11 +2001,12 @@ Pokémon!
 
 [BirdPokemonBookText] full-width
 Colorless bird
-Pokémon cards They
-have "Resistance"
-to Fighting
-Pokémon, but are
-weak to Lightning.
+Pokémon cards
+They have
+"Resistance" to
+Fighting Pokémon,
+but are weak
+to Lightning.
 They can use
 their attacks with
 Energy cards of
@@ -2017,8 +2017,9 @@ easily, too.
 
 [PsychicPokemonBookText] full-width
 Traits of Psychic
-Pokémon cards A
-Psychic Pokémon's
+Pokémon cards
+A Psychic
+Pokémon's
 "Weakness" is
 other Psychic
 Pokémon cards.

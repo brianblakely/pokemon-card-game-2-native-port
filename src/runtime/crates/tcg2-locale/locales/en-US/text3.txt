@@ -1163,7 +1163,7 @@ Adam
 [DuelistMainCharacterName]
 Player
 
-[DrMasonText]
+[DrMasonText] full-width
 Dr. Mason
 
 [PracticeDuelHeaderPlayersTurnNumberText] full-width

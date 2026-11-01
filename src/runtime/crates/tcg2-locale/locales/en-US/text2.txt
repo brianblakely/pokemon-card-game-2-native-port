@@ -1230,7 +1230,7 @@ Card Pop! Records
 [CardPopRecordCardsText]
 `  Cards   `
 
-[CardPopRecordYourResultText]
+[CardPopRecordYourResultText] full-width
 - Card you got
 
 [CardPopRecordFriendResultText]
@@ -2431,7 +2431,7 @@ Special Conditions, Win/Loss
 [GlossarySpecialRulesText]
 Special Rule Duels
 
-[GlossaryExitText]
+[GlossaryExitText] full-width
 Exit Glossary
 
 [GlossaryGameBasicsMenuText]

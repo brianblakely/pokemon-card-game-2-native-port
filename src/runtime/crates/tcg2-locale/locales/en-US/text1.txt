@@ -43,7 +43,7 @@ Wt.
 [PokemonText]
 ` Pokémon`
 
-[WeightUnitKilogramsText]
+[WeightUnitKilogramsText] full-width
 kg
 
 [AllCardsOwnedText]

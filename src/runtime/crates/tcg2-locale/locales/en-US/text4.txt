@@ -156,8 +156,8 @@ Current Map No.:
 [DebugCurrentMapChipsetCountLabelText]
 Map Chips in Use:
 
-[CardsAndChipsUnitText]
-`  `
+[CardsAndChipsUnitText] full-width
+` `
 
 [ChipsText] full-width
 Chips
@@ -223,13 +223,13 @@ OBJ NPC Display
 [IsThisOKText_2] full-width
 Is this OK?
 
-[PlayerGenderText]
+[PlayerGenderText] full-width
 Gender
 
 [CardsUnitHiraganaText]
 `    `
 
-[ReceptionistText]
+[ReceptionistText] full-width
 Receptionist
 
 [GameCenterPrizeExchangeWelcomeText] full-width
@@ -256,10 +256,10 @@ Are you finished exchanging?
 We look forward to
 your next visit!
 
-[GameCenterPrizeVenusaurText]
+[GameCenterPrizeVenusaurText] full-width
 Venusaur<Lv>64
 
-[GameCenterPrizeMewText]
+[GameCenterPrizeMewText] full-width
 Mew<Lv>15
 
 [GameCenterPrizeBillsComputerText]
@@ -2079,7 +2079,7 @@ Sets of 5 Cleared
 [ChallengeMachineCurrentWinStreakText]
 Current Win Streak
 
-[ChallengeMachineWinStreakRecordText]
+[ChallengeMachineWinStreakRecordText] full-width
 Best Win Streak
 
 [AttemptsUnitText]
@@ -2409,7 +2409,7 @@ Name Entry
 [PleasePressAText]
 Press the A Button.
 
-[AttendantText]
+[AttendantText] full-width
 Attendant
 
 [DebugClearMailText]

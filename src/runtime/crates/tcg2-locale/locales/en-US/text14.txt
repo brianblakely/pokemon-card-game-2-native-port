@@ -2,25 +2,26 @@
 # src/decomp/src/text/text14.asm, by label (format: src/text.rs).
 
 [UsefulButtonsBookText] full-width
-Handy buttons
-for the duel
-screen: hold B
-and press the
-Control Pad! You
-can easily check
-both players'
-Play Areas and
-Discard Piles!
-B+Down: Your
-Play Area B+Left:
+Handy buttons for
+the duel screen:
+hold B and press
+the Control Pad!
+You can easily see
+the Play Areas and
+Discard Piles of
+both players!
+B+Down:
+Your Play Area
+B+Left:
 Your Discard Pile
-B+Up: Opponent's
-Play Area B+Right:
-Opponent's Discard
-Pile If you
-remember these,
-they'll come in
-really handy!
+B+Up:
+Opp. Play Area
+B+Right:
+Opp. Discard Pile
+If you remember
+these, they'll
+come in really
+handy!
 
 [ColorlessPokemonBookText] full-width
 Colorless Pokémon

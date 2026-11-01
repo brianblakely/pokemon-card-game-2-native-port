@@ -4,9 +4,9 @@
 #   routine  text  width  lines  [group]  # where
 #
 # width and lines are the room in tiles, or "pages -" for dialogue
-# (`PrintScrollableText`: pages of two lines of 18). Texts with the same group share a
-# size, like a menu's items: they are full-width only all together (one line
-# each). A room of 0 0 marks a reference no player sees printed.
+# (`PrintScrollableText`: pages of two lines of 18). Texts with the same
+# group share a size: they are full-width only all together (one line each).
+# A room of 0 0 marks a reference no player sees printed.
 
 # The hero's gender, at (5, 8) in the 20×12 box, under the portrait (from
 # x = 12 on).
@@ -45,69 +45,68 @@ DrawMailDeletedTextBox	MailboxDeletedText	18	1
 MailboxSelectedMail_LoadMenuBoxParams	MailboxActionPromptText	18	1
 
 # A name tag over the dialogue box (DrawLabeledTextBox on the 20×6 box at
-# (0, 12)), from x = 2 with a blank after it before the border: 15 tiles.
-# A book's title (print_npc_text) and the Gift Center's receptionist. The
-# tags share a size.
-Script_CombosBook	CombosBookName	15	1	name_tags
-Script_EnergyTransBook	EnergyTransBookName	15	1	name_tags
-Script_ToxicGasBook	ToxicGasBookName	15	1	name_tags
-Script_RainDanceBook	RainDanceBookName	15	1	name_tags
-Script_SelfdestructBook	SelfdestructBookName	15	1	name_tags
-Script_DamageSwapBook	DamageSwapBookName	15	1	name_tags
-Script_RemoveEnergiesBook	RemoveEnergiesBookName	15	1	name_tags
-Script_PrehistoricPowerBook	PrehistoricPowerBookName	15	1	name_tags
-Script_WeaknessResistanceBook	WeaknessResistanceBookName	15	1	name_tags
-Script_TeamGRBook	TeamGRBookName	15	1	name_tags
-Script_GameCenterBook	GameCenterBookName	15	1	name_tags
-Script_SamePokemonBook	SamePokemonBookName	15	1	name_tags
-Script_PhantomCardsBook	PhantomCardsBookName	15	1	name_tags
-Script_DarkPokemonBook	DarkPokemonBookName	15	1	name_tags
-Script_AugmentBasicPokemonBook	AugmentBasicPokemonBookName	15	1	name_tags
-Script_GRKingCardsBook	GRKingCardsBookName	15	1	name_tags
-Script_SpecialEnergyBook	SpecialEnergyBookName	15	1	name_tags
-Script_GetCoinsBook	GetCoinsBookName	15	1	name_tags
-Script_RockGroundPokemonBook	RockGroundPokemonBookName	15	1	name_tags
-Script_FightingPokemonSurefireMethodBook	FightingPokemonSurefireMethodBookName	15	1	name_tags
-Script_FightingPokemonFormidableOpponentsBook	FightingPokemonFormidableOpponentsBookName	15	1	name_tags
-Script_FightingPokemonBook	FightingPokemonBookName	15	1	name_tags
-Script_FightingPokemonCombosBook	FightingPokemonCombosBookName	15	1	name_tags
-Script_FightingPokemonDeckBuildingBook	FightingPokemonDeckBuildingBookName	15	1	name_tags
-Script_PlantlikePokemonBook	PlantlikePokemonBookName	15	1	name_tags
-Script_GrassPokemonBreederBook	GrassPokemonBreederBookName	15	1	name_tags
-Script_GrassPokemonDeckBuildingBook	GrassPokemonDeckBuildingBookName	15	1	name_tags
-Script_SciencePokemonBook	SciencePokemonBookName	15	1	name_tags
-Script_SciencePokemonSurefireMethodBook	SciencePokemonSurefireMethodBookName	15	1	name_tags
-Script_SciencePokemonDeckBuildingBook	SciencePokemonDeckBuildingBookName	15	1	name_tags
-Script_WaterPokemonBook	WaterPokemonBookName	15	1	name_tags
-Script_WaterPokemonAttacksBook	WaterPokemonAttacksBookName	15	1	name_tags
-Script_PsyduckGolduckBook	PsyduckGolduckBookName	15	1	name_tags
-Script_FirePokemonBook	FirePokemonBookName	15	1	name_tags
-Script_FirePokemonAttacksBook	FirePokemonAttacksBookName	15	1	name_tags
-Script_FirePokemonDeckBuildingBook	FirePokemonDeckBuildingBookName	15	1	name_tags
-Script_LightningPokemonBook	LightningPokemonBookName	15	1	name_tags
-Script_LightningPokemonDeckBuildingBook	LightningPokemonDeckBuildingBookName	15	1	name_tags
-Script_BirdPokemonBook	BirdPokemonBookName	15	1	name_tags
-Script_PsychicPokemonBook	PsychicPokemonBookName	15	1	name_tags
-Script_PsychicPokemonPokemonPowerBook	PsychicPokemonPokemonPowerBookName	15	1	name_tags
-Script_UsefulButtonsBook	UsefulButtonsBookName	15	1	name_tags
-Script_ColorlessPokemonBook	ColorlessPokemonBookName	15	1	name_tags
-Script_CardPopBook	CardPopBookName	15	1	name_tags
-Script_EnergyCardColorsBook	EnergyCardColorsBookName	15	1	name_tags
-Script_LegendaryPokemonCardsVol1Book	LegendaryPokemonCardsVol1BookName	15	1	name_tags
-Script_LegendaryPokemonCardsVol2Book	LegendaryPokemonCardsVol2BookName	15	1	name_tags
-Script_LegendaryPokemonCardsVol3Book	LegendaryPokemonCardsVol3BookName	15	1	name_tags
-Script_LegendaryPokemonCardsVol4Book	LegendaryPokemonCardsVol4BookName	15	1	name_tags
-Script_GrandMastersBook	GrandMastersBookName	15	1	name_tags
-Script_CoinsBook	CoinsBookName	15	1	name_tags
+# (0, 12)), from x = 2 with a blank after it before the border: 15 tiles
+# (a longer one makes the border's loop run 256 times). A book's title
+# (print_npc_text) and the Gift Center's receptionist.
+Script_CombosBook	CombosBookName	15	1
+Script_EnergyTransBook	EnergyTransBookName	15	1
+Script_ToxicGasBook	ToxicGasBookName	15	1
+Script_RainDanceBook	RainDanceBookName	15	1
+Script_SelfdestructBook	SelfdestructBookName	15	1
+Script_DamageSwapBook	DamageSwapBookName	15	1
+Script_RemoveEnergiesBook	RemoveEnergiesBookName	15	1
+Script_PrehistoricPowerBook	PrehistoricPowerBookName	15	1
+Script_WeaknessResistanceBook	WeaknessResistanceBookName	15	1
+Script_TeamGRBook	TeamGRBookName	15	1
+Script_GameCenterBook	GameCenterBookName	15	1
+Script_SamePokemonBook	SamePokemonBookName	15	1
+Script_PhantomCardsBook	PhantomCardsBookName	15	1
+Script_DarkPokemonBook	DarkPokemonBookName	15	1
+Script_AugmentBasicPokemonBook	AugmentBasicPokemonBookName	15	1
+Script_GRKingCardsBook	GRKingCardsBookName	15	1
+Script_SpecialEnergyBook	SpecialEnergyBookName	15	1
+Script_GetCoinsBook	GetCoinsBookName	15	1
+Script_RockGroundPokemonBook	RockGroundPokemonBookName	15	1
+Script_FightingPokemonSurefireMethodBook	FightingPokemonSurefireMethodBookName	15	1
+Script_FightingPokemonFormidableOpponentsBook	FightingPokemonFormidableOpponentsBookName	15	1
+Script_FightingPokemonBook	FightingPokemonBookName	15	1
+Script_FightingPokemonCombosBook	FightingPokemonCombosBookName	15	1
+Script_FightingPokemonDeckBuildingBook	FightingPokemonDeckBuildingBookName	15	1
+Script_PlantlikePokemonBook	PlantlikePokemonBookName	15	1
+Script_GrassPokemonBreederBook	GrassPokemonBreederBookName	15	1
+Script_GrassPokemonDeckBuildingBook	GrassPokemonDeckBuildingBookName	15	1
+Script_SciencePokemonBook	SciencePokemonBookName	15	1
+Script_SciencePokemonSurefireMethodBook	SciencePokemonSurefireMethodBookName	15	1
+Script_SciencePokemonDeckBuildingBook	SciencePokemonDeckBuildingBookName	15	1
+Script_WaterPokemonBook	WaterPokemonBookName	15	1
+Script_WaterPokemonAttacksBook	WaterPokemonAttacksBookName	15	1
+Script_PsyduckGolduckBook	PsyduckGolduckBookName	15	1
+Script_FirePokemonBook	FirePokemonBookName	15	1
+Script_FirePokemonAttacksBook	FirePokemonAttacksBookName	15	1
+Script_FirePokemonDeckBuildingBook	FirePokemonDeckBuildingBookName	15	1
+Script_LightningPokemonBook	LightningPokemonBookName	15	1
+Script_LightningPokemonDeckBuildingBook	LightningPokemonDeckBuildingBookName	15	1
+Script_BirdPokemonBook	BirdPokemonBookName	15	1
+Script_PsychicPokemonBook	PsychicPokemonBookName	15	1
+Script_PsychicPokemonPokemonPowerBook	PsychicPokemonPokemonPowerBookName	15	1
+Script_UsefulButtonsBook	UsefulButtonsBookName	15	1
+Script_ColorlessPokemonBook	ColorlessPokemonBookName	15	1
+Script_CardPopBook	CardPopBookName	15	1
+Script_EnergyCardColorsBook	EnergyCardColorsBookName	15	1
+Script_LegendaryPokemonCardsVol1Book	LegendaryPokemonCardsVol1BookName	15	1
+Script_LegendaryPokemonCardsVol2Book	LegendaryPokemonCardsVol2BookName	15	1
+Script_LegendaryPokemonCardsVol3Book	LegendaryPokemonCardsVol3BookName	15	1
+Script_LegendaryPokemonCardsVol4Book	LegendaryPokemonCardsVol4BookName	15	1
+Script_GrandMastersBook	GrandMastersBookName	15	1
+Script_CoinsBook	CoinsBookName	15	1
 
 # Bank 9: a converted Clefairy Doll's and Mysterious Fossil's texts (the
-# Pokémon Power screen and attack pages: lines of 18, up to 7), the colour
-# list beside the card (4 tiles a row), the duel's shuffle and draw
-# messages (the wide box), the deck diagnosis: its steps list (7 tiles
-# from x = 12, the steps and Quit together), the advice headers (10 tiles
-# from x = 10), the step menus (7 tiles, a line each), the items'
-# descriptions (two lines of 18 in Dr. Mason's box), the advice pages
-# (eight lines of 18 in the box at (0, 8)), Dr. Mason's results
+# Pokémon Power screen and attack pages: lines of 18, up to 7), the colour list
+# beside the card (4 tiles a row), the duel's shuffle and draw messages (the
+# wide box), the deck diagnosis: its steps list (7 tiles from x = 12), the
+# advice headers (10 tiles from x = 10), the step menus (7 tiles, a line each),
+# the items' descriptions (two lines of 18 in Dr. Mason's box), the advice
+# pages (eight lines of 18 in the box at (0, 8)), Dr. Mason's results
 # (dialogue) and the lists' headers (two lines from (1, 1)).
 ConvertSpecialTrainerCardToPokemon	DiscardActionDescription	18	7
 Func_24ef5	ColorListText	4	6
@@ -120,18 +119,18 @@ PlayShuffleAndDrawCardsAnimation_TurnDuelist	Drew7CardsText	18	2
 HandleComputerErrorPlayerSelection	EffectTargetCardsUnitText	16	1
 ConvertSpecialTrainerCardToPokemon	ClefairyDollMindShockDescription	18	7
 Func_2517f	DeckDiagnosisStep1Text	10	1
-PrintDeckDiagnosisSteps	DeckDiagnosisStep1Text	7	1	deck_diagnosis_steps
+PrintDeckDiagnosisSteps	DeckDiagnosisStep1Text	7	1
 Func_2517f	DeckDiagnosisStep2Text	10	1
-PrintDeckDiagnosisSteps	DeckDiagnosisStep2Text	7	1	deck_diagnosis_steps
+PrintDeckDiagnosisSteps	DeckDiagnosisStep2Text	7	1
 Func_2517f	DeckDiagnosisStep3Text	10	1
-PrintDeckDiagnosisSteps	DeckDiagnosisStep3Text	7	1	deck_diagnosis_steps
+PrintDeckDiagnosisSteps	DeckDiagnosisStep3Text	7	1
 Func_2517f	DeckDiagnosisStep4Text	10	1
-PrintDeckDiagnosisSteps	DeckDiagnosisStep4Text	7	1	deck_diagnosis_steps
+PrintDeckDiagnosisSteps	DeckDiagnosisStep4Text	7	1
 Func_2517f	DeckDiagnosisAdvice1Text	10	1
 Func_2517f	DeckDiagnosisAdvice2Text	10	1
 Func_2517f	DeckDiagnosisAdvice3Text	10	1
 Func_2517f	DeckDiagnosisAdvice4Text	10	1
-PrintDeckDiagnosisSteps	DeckDiagnosisExitText	7	1	deck_diagnosis_steps
+PrintDeckDiagnosisSteps	DeckDiagnosisExitText	7	1
 DeckDiagnosisTextTables	DeckDiagnosisStep1MenuText	7	6
 DeckDiagnosisTextTables	DeckDiagnosisStep2MenuText	7	5
 DeckDiagnosisTextTables	DeckDiagnosisStep3MenuText	7	5
@@ -208,11 +207,11 @@ CheckDeck	DeckDiagnosisOKButNoTrainerText	pages	-
 CheckDeck	DeckDiagnosisEnergyUnbalancedText	pages	-
 
 # The Gift Center's receptionist's name tag (see the name tags above).
-GiftCenter_PrintWelcome	ReceptionistText	15	1	name_tags
-GiftCenter_PrintComeAgain	ReceptionistText	15	1	name_tags
-GiftCenter_PrintSelectedService	ReceptionistText	15	1	name_tags
-GiftCenter_SaveRequest	ReceptionistText	15	1	name_tags
-GameCenterPrizeExchange	ReceptionistText	15	1	name_tags
+GiftCenter_PrintWelcome	ReceptionistText	15	1
+GiftCenter_PrintComeAgain	ReceptionistText	15	1
+GiftCenter_PrintSelectedService	ReceptionistText	15	1
+GiftCenter_SaveRequest	ReceptionistText	15	1
+GameCenterPrizeExchange	ReceptionistText	15	1
 
 # Banks 6 and 7.
 # The printer's paper (y from 64): the collection's header after the player's
@@ -241,7 +240,7 @@ HandlePrinterError	PrinterPacketErrorText	18	2
 # the title before the record's number (13), the labels before the partner's
 # name (5), the page's title and the cards box's title (only 11 and 5 tiles
 # get the text's colours), the counts' labels before their numbers (5, 4,
-# 4), what each got (18, one line each, together).
+# 4), what each got (18, one line each).
 _CardPopMenu	CardPopMenuText	9	3
 _CardPopMenu	CardPopMenuRareCardPopUnlockedText	9	4
 DrawCardPopMenuBox	CardPopEncouragementMessageText	18	2
@@ -256,12 +255,12 @@ ViewCardPopRecords	CardPopRecordsText	13	1
 ViewCardPopRecords	CardPopRecordFriendNameText	5	1
 ViewCardPopRecords	RareCardPopRecordFriendNameText	5	1
 ViewCardPopRecords	CardPopRecordContentText	11	1
-ViewCardPopRecords	CardPopRecordFriendCoinQuantityText	5	1	card_pop_counts
-ViewCardPopRecords	CardPopRecordFriendCardQuantityText	4	1	card_pop_counts
-ViewCardPopRecords	CardPopRecordFriendBattleQuantityText	4	1	card_pop_counts
+ViewCardPopRecords	CardPopRecordFriendCoinQuantityText	5	1
+ViewCardPopRecords	CardPopRecordFriendCardQuantityText	4	1
+ViewCardPopRecords	CardPopRecordFriendBattleQuantityText	4	1
 ViewCardPopRecords	CardPopRecordCardsText	5	1
-ViewCardPopRecords	CardPopRecordYourResultText	18	1	card_pop_results
-ViewCardPopRecords	CardPopRecordFriendResultText	18	1	card_pop_results
+ViewCardPopRecords	CardPopRecordYourResultText	18	1
+ViewCardPopRecords	CardPopRecordFriendResultText	18	1
 
 # The deck naming screen: "Deck" after the name (6 tiles); the fifth deck's
 # screen is never shown (four decks).
@@ -282,27 +281,28 @@ DrawConfigMenu	ConfigMessageSpeedSlowLabelText	3	1
 DrawConfigMenu	ConfigMessageSpeedFastLabelText	3	1
 
 # The diary, the status screen and the start menu's box: the title after the
-# name (14), the labels before their values (4 to 10, together, with the
-# blank unit after the counts), the hero's confirmation (Name and Gender,
-# together with those), the chips' label (6), the start menu's
-# descriptions (three lines of 18), the PC's prompt (the bottom box).
+# name (14), the labels before their values (3 to 9: up to a blank before
+# the value, as the Japanese leaves one; the name and a count of 100 cards
+# start in the value's first tile), the blank unit after the counts, the
+# hero's confirmation (Name and Gender), the chips' label (6), the start
+# menu's descriptions (three lines of 18), the PC's prompt (the bottom box).
 DrawDiaryStatusBox	PlayerDiaryTitleText	14	1
-DrawDiaryStatusBox	PlayerDiaryNameText	4	1	diary_labels
-DrawStatusScreenTopBox	PlayerDiaryNameText	4	1	diary_labels
-_StartMenuBoxUpdate	PlayerDiaryEventCoinText	10	1	diary_labels
-DrawDiaryStatusBox	PlayerDiaryEventCoinText	9	1	diary_labels
-_StartMenuBoxUpdate	PlayerDiaryAlbumText	6	1	diary_labels
-DrawDiaryStatusBox	PlayerDiaryAlbumText	5	1	diary_labels
-DrawStatusScreenTopBox	PlayerDiaryAlbumText	5	1	diary_labels
-_StartMenuBoxUpdate	PlayerDiaryPlayTimeText	7	1	diary_labels
-DrawDiaryStatusBox	PlayerDiaryPlayTimeText	6	1	diary_labels
-DrawStatusScreenTopBox	PlayerDiaryPlayTimeText	6	1	diary_labels
-TurnOnCurChipsHUD	CardsAndChipsUnitText	1	1	diary_labels
-_StartMenuBoxUpdate	CardsAndChipsUnitText	4	1	diary_labels
-DrawDiaryStatusBox	CardsAndChipsUnitText	1	1	diary_labels
-DrawGameCenterPrizeExchangeMenu	CardsAndChipsUnitText	1	1	diary_labels
-ConfirmPlayerNameAndGender	PlayerDiaryNameText	17	1	hero_labels
-ConfirmPlayerNameAndGender	PlayerGenderText	10	1	hero_labels
+DrawDiaryStatusBox	PlayerDiaryNameText	3	1
+DrawStatusScreenTopBox	PlayerDiaryNameText	3	1
+_StartMenuBoxUpdate	PlayerDiaryEventCoinText	9	1
+DrawDiaryStatusBox	PlayerDiaryEventCoinText	8	1
+_StartMenuBoxUpdate	PlayerDiaryAlbumText	5	1
+DrawDiaryStatusBox	PlayerDiaryAlbumText	4	1
+DrawStatusScreenTopBox	PlayerDiaryAlbumText	4	1
+_StartMenuBoxUpdate	PlayerDiaryPlayTimeText	6	1
+DrawDiaryStatusBox	PlayerDiaryPlayTimeText	5	1
+DrawStatusScreenTopBox	PlayerDiaryPlayTimeText	5	1
+TurnOnCurChipsHUD	CardsAndChipsUnitText	1	1
+_StartMenuBoxUpdate	CardsAndChipsUnitText	4	1
+DrawDiaryStatusBox	CardsAndChipsUnitText	1	1
+DrawGameCenterPrizeExchangeMenu	CardsAndChipsUnitText	1	1
+ConfirmPlayerNameAndGender	PlayerDiaryNameText	17	1
+ConfirmPlayerNameAndGender	PlayerGenderText	10	1
 TurnOnCurChipsHUD	ChipsText	6	1
 _StartMenuBoxUpdate	MainMenuNewGameDialogText	18	3
 _StartMenuBoxUpdate	MainMenuCardPopDialogText	18	3
@@ -336,25 +336,25 @@ _ReceiveCard	TransmittingCardUnsuccessfulReceiverText	18	2
 _SendDeckConfiguration	TransmittingDeckConfigurationUnsuccessfulSenderText	18	2
 _ReceiveDeckConfiguration	TransmittingDeckConfigurationUnsuccessfulReceiverText	18	2
 
-# The Game Center: the titles on the top borders beside their chip prices
-# (together), Bill's PC (its description from (2, 2): five lines of 17, its
-# list's title, its refusals in dialogue), the slot machine, the coin flip
-# and the Black Box (descriptions in five lines of 18, the procedure in
-# eleven, the prompts in the bottom box, the sending list's title before its
-# count), the prizes before their prices (12, together), the chips' title
-# before the count, the attendant's name tag.
-_BillsPC	GameCenterBillsPCTitleText	12	1	game_center_headers
-_BillsPC	GameCenterBillsPC20ChipsPerPlayText	6	1	game_center_headers
+# The Game Center: the titles on the top borders beside their chip prices,
+# Bill's PC (its description from (2, 2): five lines of 17, its list's title,
+# its refusals in dialogue), the slot machine, the coin flip and the Black Box
+# (descriptions in five lines of 18, the procedure in eleven, the prompts in
+# the bottom box, the sending list's title before its count), the prizes before
+# their prices (12), the chips' title before the count, the attendant's name
+# tag.
+_BillsPC	GameCenterBillsPCTitleText	12	1
+_BillsPC	GameCenterBillsPC20ChipsPerPlayText	6	1
 _BillsPC	GameCenterBillsPCDescriptionText	17	5
 _BillsPC	GameCenterBillsPCUnableNoBillsComputerText	pages	-
 _BillsPC	GameCenterBillsPCUnableNoCompatibleCardsText	pages	-
 _BillsPC	GameCenterBillsPCUnableLastOutputRemainingText	pages	-
 _BillsPC	GameCenterBillsPCUnableNotEnoughChipsText	pages	-
 PrintBillsPCCompatibleCardListTitle	GameCenterBillsPCYourCompatibleCardsText	18	1
-AskToPlaySlots	GameCenterSlotMachineTitleText	13	1	game_center_headers
-AskToPlaySlots	GameCenterXChipsPerPlayText	5	1	game_center_headers
-BlackBox	GameCenterXChipsPerPlayText	5	1	game_center_headers
-BlackBox	GameCenterBlackBoxTitleText	13	1	game_center_headers
+AskToPlaySlots	GameCenterSlotMachineTitleText	13	1
+AskToPlaySlots	GameCenterXChipsPerPlayText	5	1
+BlackBox	GameCenterXChipsPerPlayText	5	1
+BlackBox	GameCenterBlackBoxTitleText	13	1
 AskToPlaySlots	GameCenterSlotMachineDescriptionText	18	5
 HandleSlotMachineBetting	GameCenterSlotMachineDialogText	18	2
 SlotMachineBonusPlay	GameCenterSlotMachineBonusPlayText	18	2
@@ -366,14 +366,14 @@ PlayCoinFlipGame	GameCenterCoinFlipDialogText	18	2
 BlackBox	GameCenterBlackBoxDescriptionText	18	5
 BlackBox	GameCenterBlackBoxProcedureText	18	11
 ShowBlackBoxCardSelectionScreen	GameCenterBlackBoxSendingHeaderText	15	1
-GameCenterPrizeExchangeItems	GameCenterPrizeVenusaurText	12	1	game_center_prizes
-GameCenterPrizeExchangeItems	GameCenterPrizeMewText	12	1	game_center_prizes
-GameCenterPrizeExchangeItems	GameCenterPrizeBillsComputerText	12	1	game_center_prizes
-GameCenterPrizeExchangeItems	GameCenterPrizeJigglypuffCoinText	12	1	game_center_prizes
-GameCenterPrizeExchangeItems	GameCenterPrize1PresentPackText	12	1	game_center_prizes
-GameCenterPrizeExchangeItems	GameCenterPrize3PresentPacksText	12	1	game_center_prizes
+GameCenterPrizeExchangeItems	GameCenterPrizeVenusaurText	12	1
+GameCenterPrizeExchangeItems	GameCenterPrizeMewText	12	1
+GameCenterPrizeExchangeItems	GameCenterPrizeBillsComputerText	12	1
+GameCenterPrizeExchangeItems	GameCenterPrizeJigglypuffCoinText	12	1
+GameCenterPrizeExchangeItems	GameCenterPrize1PresentPackText	12	1
+GameCenterPrizeExchangeItems	GameCenterPrize3PresentPacksText	12	1
 DrawGameCenterPrizeExchangeMenu	PlayersChipsText	13	1
-PlayCoinFlipGame	AttendantText	15	1	name_tags
+PlayCoinFlipGame	AttendantText	15	1
 
 # The deck screens: a new deck's slot (13 from x = 6), the decks' numbers (2),
 # the prompts and the deck machines' and Gift Center's messages (the bottom
@@ -496,15 +496,15 @@ _HandlePeekSelection	WhichCardWouldYouLikeToSeeText	18	2
 _SelectPrizeCards	PleaseChooseAPrizeText	18	2
 HandlePrizeCardPlayerSelection	PleaseChooseAPrizeText	18	2
 
-# The glossary: its main menu (the title in 18, the items in 17, together),
+# The glossary: its main menu (the title in 18, the items in 17),
 # the topic menus' two columns of 9 (the Special Rules' 6 or 7 before the
 # active rule's ★), the explanation screens' titles on row 0 (18, 15).
-Glossary	GlossaryTitleText	18	1	glossary_menu
-Glossary	GlossaryGameBasicsText	17	1	glossary_menu
-Glossary	GlossaryCardTypesAndKeywordsText	17	1	glossary_menu
-Glossary	GlossaryStatusesAndDecisionText	17	1	glossary_menu
-Glossary	GlossaryExitText	17	1	glossary_menu
-Glossary	GlossarySpecialRulesText	14	1	glossary_menu
+Glossary	GlossaryTitleText	18	1
+Glossary	GlossaryGameBasicsText	17	1
+Glossary	GlossaryCardTypesAndKeywordsText	17	1
+Glossary	GlossaryStatusesAndDecisionText	17	1
+Glossary	GlossaryExitText	17	1
+Glossary	GlossarySpecialRulesText	14	1
 Glossary	GlossaryGameBasicsMenuText	9	5
 Glossary	GlossaryCardTypesAndKeywordsMenuText	9	5
 Glossary	GlossaryStatusesAndDecisionMenuText	9	4
@@ -516,7 +516,7 @@ Glossary	GlossarySpecialRulesTitleText	15	1
 
 # The deck diagnosis's breakdown: each kind before its count (12 and 13,
 # five lines). The Challenge Machine: its title (18), the score's title (18),
-# the score's labels before their values and their units (together).
+# the score's labels before their values and their units.
 HandleDeckCardsBreakdown	DeckDiagnosisBreakdownText	13	5
 CheckDeck	DeckDiagnosisBreakdownText	12	5
 ChallengeMachine_DrawScoreScreen	TCGChallengeMachineText	18	1
@@ -524,30 +524,30 @@ ChallengeMachine_DrawOpponentList	TCGChallengeMachineText	18	1
 ChallengeMachine_DrawScoreScreen	GRChallengeMachineText	18	1
 ChallengeMachine_DrawOpponentList	GRChallengeMachineText	18	1
 ChallengeMachine_DrawScoreScreen	ChallengeMachineScoreTitleText	18	1
-ChallengeMachine_DrawScoreScreen	ChallengeMachineSetsWonRecordText	12	1	challenge_machine_score
-ChallengeMachine_DrawScoreScreen	ChallengeMachineCurrentWinStreakText	12	1	challenge_machine_score
-ChallengeMachine_DrawScoreScreen	ChallengeMachineWinStreakRecordText	18	1	challenge_machine_score
-ChallengeMachine_DrawScoreScreen	AttemptsUnitText	2	1	challenge_machine_score
-ChallengeMachine_DrawScoreScreen	WinsUnitText	2	1	challenge_machine_score
+ChallengeMachine_DrawScoreScreen	ChallengeMachineSetsWonRecordText	12	1
+ChallengeMachine_DrawScoreScreen	ChallengeMachineCurrentWinStreakText	12	1
+ChallengeMachine_DrawScoreScreen	ChallengeMachineWinStreakRecordText	18	1
+ChallengeMachine_DrawScoreScreen	AttemptsUnitText	2	1
+ChallengeMachine_DrawScoreScreen	WinsUnitText	2	1
 
-# The duel (traced from each text to what prints it): a check's reason and
-# the duel's messages in the wide box (two lines of 18), the coin toss's
-# checks (the same), card lists' prompts (the narrow box: two lines of 10)
-# and headers (18), the full-screen procedures (fifteen lines of 18), the
-# energy menu's prompt (its second line ends at the counter: 15), the Pokémon
-# Power prompt over Yes/No (one line), a Pokémon Power's tag before its name
-# (5), a knocked-out Pokémon's mark over its HP bar (12), the duel result's
-# labels and values in their slots (7, 3, 2), Rollout's unit after its digit
-# (16), the practice duel's headers (18) and Dr. Mason's lines (dialogue)
-# and name tag. The Pokédex page's labels share a size: Ht. and Wt. before
-# their numbers (2), kg after the weight and "Pokémon" after the category
-# (11). The names a search puts into its "no targets" message, and the
-# bench's label built into one string with a card's name, are not here.
+# The duel (traced from each text to what prints it): a check's reason and the
+# duel's messages in the wide box (two lines of 18), the coin toss's checks
+# (the same), card lists' prompts (the narrow box: two lines of 10) and headers
+# (18), the full-screen procedures (fifteen lines of 18), the energy menu's
+# prompt (its second line ends at the counter: 15), the Pokémon Power prompt
+# over Yes/No (one line), a Pokémon Power's tag before its name (5), a
+# knocked-out Pokémon's mark over its HP bar (12), the duel result's labels and
+# values in their slots (7, 3, 2), Rollout's unit after its digit (16), the
+# practice duel's headers (18) and Dr. Mason's lines (dialogue) and name tag.
+# The Pokédex page's labels: Ht. and Wt. before their numbers (2), kg after the
+# weight and "Pokémon" after the category (11). The names a search puts into
+# its "no targets" message, and the bench's label built into one string with a
+# card's name, are not here.
 PrintAttackOrPkmnPowerInformation	PokemonPowerKanjiText	5	1
-CardPageLengthWeightTextData	LengthText	2	1	pokedex_labels
-CardPageLengthWeightTextData	WeightText	2	1	pokedex_labels
-DisplayCardPage_PokemonDescription	PokemonText	11	1	pokedex_labels
-DisplayCardPage_PokemonDescription	WeightUnitKilogramsText	11	1	pokedex_labels
+CardPageLengthWeightTextData	LengthText	2	1
+CardPageLengthWeightTextData	WeightText	2	1
+DisplayCardPage_PokemonDescription	PokemonText	11	1
+DisplayCardPage_PokemonDescription	WeightUnitKilogramsText	11	1
 PrintCardList	TrainerCardText	17	1
 EnergyBomb_PlayerSelectEffect	EnergyCardText	18	1
 PrintCardList	EnergyCardText	17	1
@@ -674,10 +674,10 @@ Maintenance_PlayerSelection	ChooseTheCardToPutBackText	10	2
 HandlePlayerSelection2HandCardsToDiscard	ChooseTheCardToDiscardText	10	2
 MaxRevive_PlayerSelectEffect	ChooseTheCardToDiscardText	10	2
 CheckGoopGasAttackAndToxicGasActive	UnableDueToGoopGasAttackText	18	2
-CheckDeck	DrMasonText	15	1	name_tags
-HandleDeckDiagnosisMenu	DrMasonText	15	1	name_tags
-PracticeDuel_PrintTurnInstructions	DrMasonText	15	1	name_tags
-PrintPracticeDuelDrMasonInstructions	DrMasonText	15	1	name_tags
+CheckDeck	DrMasonText	15	1
+HandleDeckDiagnosisMenu	DrMasonText	15	1
+PracticeDuel_PrintTurnInstructions	DrMasonText	15	1
+PrintPracticeDuelDrMasonInstructions	DrMasonText	15	1
 PracticeDuel_PrintTurnInstructions	PracticeDuelHeaderPlayersTurnNumberText	18	1
 PracticeDuel_PlayNidoranMFromBench	PracticeDuelHeaderKnockedOutReplaceText	18	1
 PracticeDuel_DrawSevenCards	PracticeDuelMasonSetupsActivePokemonText	pages	-
